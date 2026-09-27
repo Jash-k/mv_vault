@@ -1,0 +1,67 @@
+name: Vault Historic Scrape (durable onestream embeds)
+
+# One-time(ish) historic pass over the moviesda A-Z archive.
+# Manual dispatch ONLY — it is a long walk, not a cron job.
+# Resumable: data/state.json remembers processed items; each run continues
+# where the last stopped. Repeat dispatches (possibly per letter range) until
+# vault-stats.json shows the archive covered.
+
+on:
+  workflow_dispatch:
+    inputs:
+      letters:
+        description: 'Letters to scrape (e.g. "a-c" or "a,d,h")'
+        default: 'a-c'
+        required: true
+      max_pages:
+        description: 'Max listing pages per letter (0 = all)'
+        default: '0'
+      max_movies:
+        description: 'Max movies this run (kept under the 6h job cap)'
+        default: '150'
+      budget_min:
+        description: 'Soft time budget in minutes (stop gracefully)'
+        default: '330'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moviesda-vault
+  cancel-in-progress: false
+
+jobs:
+  vault:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm install --no-save cheerio
+
+      - name: Scrape (resumable)
+        env:
+          TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
+          VAULT_MAX_PAGES: ${{ inputs.max_pages }}
+          VAULT_MAX_MOVIES: ${{ inputs.max_movies }}
+          VAULT_BUDGET_MIN: ${{ inputs.budget_min }}
+        run: node src/cli.js --letters=${{ inputs.letters }}
+
+      - name: Commit progress (always — the run must be resumable)
+        if: always()
+        run: |
+          git config user.name "vault-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ || true
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "vault: +${{ inputs.letters }} update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi

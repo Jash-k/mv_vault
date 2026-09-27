@@ -1,0 +1,12 @@
+{
+  "name": "moviesda-vault",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Historic onestream-embed vault for Tamil movies — durable links, resumable A-Z scrape",
+  "scripts": {
+    "scrape": "node src/cli.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
