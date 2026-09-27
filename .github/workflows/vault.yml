@@ -60,8 +60,19 @@ jobs:
           git add data/ || true
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "vault: +${{ inputs.letters }} update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          git commit -m "vault: +${{ inputs.letters }} update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Conflict-proof publish: runs are serialized by the concurrency
+          # group, so the only competing writer is a MANUAL push (code upload).
+          # If the rebase hits it, fold this run's data on top of origin
+          # instead of dying — machine-written data must always survive.
+          if ! git pull --rebase origin main; then
+            echo "Rebase conflict — recovering: our data files win wholesale."
+            git rebase --abort
+            git fetch origin main
+            git reset --soft origin/main
+            git add data/
+            git commit -m "vault: +${{ inputs.letters }} update (recovered) $(date -u +'%Y-%m-%d %H:%M UTC')"
+          fi
+          git push
