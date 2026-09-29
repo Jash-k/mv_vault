@@ -58,6 +58,7 @@ export function buildStats(vault = [], state = {}) {
     episodes: series.reduce((n, m) => n + (m.seasons || []).reduce((a, s) => a + s.episodes.length, 0), 0),
     embedLinks: stored.reduce((n, m) => n + m.embeds.length, 0),
     withPoster: stored.filter((m) => m.poster).length,
+    withoutPoster: stored.filter((m) => !m.poster).length,
     letters: state.letters || {},
   };
 }

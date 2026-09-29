@@ -8,6 +8,8 @@ name: Vault Scrape (durable onestream embeds)
 #   workflow_dispatch mode=sweep       → every listing the site publishes
 #                                        (the slow safety net, ~1 day)
 #   workflow_dispatch mode=letters     → the historic A–Z walk (resumable)
+#   workflow_dispatch mode=enrich      → backfill TMDB posters/ratings on records
+#                                        that have none (needs the TMDB_KEYS secret)
 #
 # Every run is resumable: data/state.json remembers every item already walked,
 # so a run that hits the time budget simply stops and the next one continues.
@@ -17,9 +19,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'incremental | sweep | letters'
+        description: 'incremental | sweep | letters | enrich'
         type: choice
-        options: [incremental, sweep, letters]
+        options: [incremental, sweep, letters, enrich]
         default: incremental
         required: true
       letters:
@@ -33,6 +35,10 @@ on:
       max_movies:
         description: 'Max items this run (kept under the 6h job cap)'
         default: '250'
+        required: false
+      enrich_limit:
+        description: 'mode=enrich only — how many records to look up (0 = all pending)'
+        default: '0'
         required: false
       budget_min:
         description: 'Soft time budget in minutes (stop gracefully)'
@@ -71,10 +77,11 @@ jobs:
           PAGES="${{ inputs.max_pages }}"; PAGES="${PAGES:-0}"
           MAX="${{ inputs.max_movies }}";  MAX="${MAX:-250}"
           BUDGET="${{ inputs.budget_min }}"; BUDGET="${BUDGET:-330}"
+          ELIMIT="${{ inputs.enrich_limit }}"; ELIMIT="${ELIMIT:-0}"
           if [ "${{ github.event_name }}" = "schedule" ]; then
             MODE=incremental
-            MAX=80            # a night's arrivals; leftovers carry to tomorrow
-            BUDGET=60
+            MAX=300           # ~6 min of walking: drains the retry backlog in days
+            BUDGET=45         # safety net — a normal night is ~10 min end to end
           fi
           {
             echo "mode=$MODE"
@@ -82,10 +89,11 @@ jobs:
             echo "pages=$PAGES"
             echo "max=$MAX"
             echo "budget=$BUDGET"
+            echo "enrich_limit=$ELIMIT"
           } >> "$GITHUB_OUTPUT"
           echo "mode=$MODE max=$MAX budget=${BUDGET}min"
 
-      - name: Scrape (resumable)
+      - name: Run (resumable)
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
           VAULT_MAX_PAGES: ${{ steps.cfg.outputs.pages }}
@@ -95,16 +103,23 @@ jobs:
           case "${{ steps.cfg.outputs.mode }}" in
             letters) node src/cli.js --letters=${{ steps.cfg.outputs.letters }} ;;
             sweep)   node src/cli.js --sweep ;;
+            enrich)  node src/enrich.js --limit=${{ steps.cfg.outputs.enrich_limit }} ;;
             *)       node src/cli.js --incremental ;;
           esac
 
-      # Offline integrity check. A failing vault must NOT be committed — the
-      # previous good file stays in place (writes are atomic).
+      # Offline integrity check. Runs even when the scrape step failed: every
+      # write is atomic + checkpointed, so the data is consistent at any point
+      # and partial progress is still worth keeping.
       - name: Verify vault
+        id: verify
+        if: always()
         run: node src/verify.js
 
+      # Gated on verify — a vault that fails the check is NEVER pushed, and the
+      # previous good file stays in place. `always()` keeps the run resumable
+      # when only the scrape step failed.
       - name: Commit progress (always — the run must be resumable)
-        if: always()
+        if: always() && steps.verify.outcome == 'success'
         run: |
           git config user.name "vault-bot"
           git config user.email "actions@users.noreply.github.com"
