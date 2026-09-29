@@ -1,8 +1,10 @@
 {
- "updatedAt": "2026-09-28T12:38:17.170Z",
- "processed": 3920,
- "movies": 2700,
- "embedLinks": 6890,
+ "updatedAt": "2026-09-29T08:33:43.227Z",
+ "processed": 4057,
+ "movies": 2797,
+ "series": 40,
+ "totalRecords": 2837,
+ "embedLinks": 7848,
  "withPoster": 2118,
  "letters": {
   "a": {

@@ -1,27 +1,45 @@
-name: Vault Historic Scrape (durable onestream embeds)
+name: Vault Scrape (durable onestream embeds)
 
-# One-time(ish) historic pass over the moviesda A-Z archive.
-# Manual dispatch ONLY — it is a long walk, not a cron job.
-# Resumable: data/state.json remembers processed items; each run continues
-# where the last stopped. Repeat dispatches (possibly per letter range) until
-# vault-stats.json shows the archive covered.
+# Three ways to run, one workflow:
+#
+#   schedule      → nightly `--incremental`: what is on the site that the vault
+#                   does not have yet (sitemap + latest-updates + due retries)
+#   workflow_dispatch mode=incremental → same, on demand
+#   workflow_dispatch mode=sweep       → every listing the site publishes
+#                                        (the slow safety net, ~1 day)
+#   workflow_dispatch mode=letters     → the historic A–Z walk (resumable)
+#
+# Every run is resumable: data/state.json remembers every item already walked,
+# so a run that hits the time budget simply stops and the next one continues.
+# Delete the `schedule:` block below if you prefer to run it manually only.
 
 on:
   workflow_dispatch:
     inputs:
-      letters:
-        description: 'Letters to scrape (e.g. "a-c" or "a,d,h")'
-        default: 'a-c'
+      mode:
+        description: 'incremental | sweep | letters'
+        type: choice
+        options: [incremental, sweep, letters]
+        default: incremental
         required: true
+      letters:
+        description: 'mode=letters only — e.g. "a-c" (range) or "a,d,h" (pick list)'
+        default: 'a-z'
+        required: false
       max_pages:
-        description: 'Max listing pages per letter (0 = all)'
+        description: 'Max listing pages per section (0 = all)'
         default: '0'
+        required: false
       max_movies:
-        description: 'Max movies this run (kept under the 6h job cap)'
-        default: '150'
+        description: 'Max items this run (kept under the 6h job cap)'
+        default: '250'
+        required: false
       budget_min:
         description: 'Soft time budget in minutes (stop gracefully)'
         default: '330'
+        required: false
+  schedule:
+    - cron: '30 2 * * *' # 08:00 IST daily — new arrivals only, a few minutes
 
 permissions:
   contents: write
@@ -44,13 +62,46 @@ jobs:
       - name: Install deps
         run: npm install --no-save cheerio
 
+      # `inputs.*` is empty for the scheduled trigger, so defaults are resolved here.
+      - name: Resolve run mode
+        id: cfg
+        run: |
+          MODE="${{ inputs.mode }}";       MODE="${MODE:-incremental}"
+          LETTERS="${{ inputs.letters }}"; LETTERS="${LETTERS:-a-z}"
+          PAGES="${{ inputs.max_pages }}"; PAGES="${PAGES:-0}"
+          MAX="${{ inputs.max_movies }}";  MAX="${MAX:-250}"
+          BUDGET="${{ inputs.budget_min }}"; BUDGET="${BUDGET:-330}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            MODE=incremental
+            MAX=80            # a night's arrivals; leftovers carry to tomorrow
+            BUDGET=60
+          fi
+          {
+            echo "mode=$MODE"
+            echo "letters=$LETTERS"
+            echo "pages=$PAGES"
+            echo "max=$MAX"
+            echo "budget=$BUDGET"
+          } >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE max=$MAX budget=${BUDGET}min"
+
       - name: Scrape (resumable)
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
-          VAULT_MAX_PAGES: ${{ inputs.max_pages }}
-          VAULT_MAX_MOVIES: ${{ inputs.max_movies }}
-          VAULT_BUDGET_MIN: ${{ inputs.budget_min }}
-        run: node src/cli.js --letters=${{ inputs.letters }}
+          VAULT_MAX_PAGES: ${{ steps.cfg.outputs.pages }}
+          VAULT_MAX_MOVIES: ${{ steps.cfg.outputs.max }}
+          VAULT_BUDGET_MIN: ${{ steps.cfg.outputs.budget }}
+        run: |
+          case "${{ steps.cfg.outputs.mode }}" in
+            letters) node src/cli.js --letters=${{ steps.cfg.outputs.letters }} ;;
+            sweep)   node src/cli.js --sweep ;;
+            *)       node src/cli.js --incremental ;;
+          esac
+
+      # Offline integrity check. A failing vault must NOT be committed — the
+      # previous good file stays in place (writes are atomic).
+      - name: Verify vault
+        run: node src/verify.js
 
       - name: Commit progress (always — the run must be resumable)
         if: always()
@@ -62,7 +113,7 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "vault: +${{ inputs.letters }} update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "vault: ${{ steps.cfg.outputs.mode }} update $(date -u +'%Y-%m-%d %H:%M UTC')"
           # Conflict-proof publish: runs are serialized by the concurrency
           # group, so the only competing writer is a MANUAL push (code upload).
           # If the rebase hits it, fold this run's data on top of origin
@@ -73,6 +124,6 @@ jobs:
             git fetch origin main
             git reset --soft origin/main
             git add data/
-            git commit -m "vault: +${{ inputs.letters }} update (recovered) $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "vault: ${{ steps.cfg.outputs.mode }} update (recovered) $(date -u +'%Y-%m-%d %H:%M UTC')"
           fi
           git push

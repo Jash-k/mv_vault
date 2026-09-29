@@ -4,7 +4,10 @@
  * moviesda module (this repo is independent on purpose: the vault is a slow,
  * one-time historic pass; mv_scrapper stays untouched).
  */
-export const BASES = ['https://moviesda34.com', 'https://movies.downloadpage.xyz'];
+// moviesda34.com now 301s to moviezda.net; moviezda.net is listed so a future
+// switch of the canonical host needs no code change. Item URLs stay normalised
+// to moviesda34.com so state.json keys never fork across a domain move.
+export const BASES = ['https://moviesda34.com', 'https://moviezda.net', 'https://movies.downloadpage.xyz'];
 export const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const HEADERS = {
   'User-Agent': UA,

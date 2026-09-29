@@ -1,12 +1,21 @@
 {
   "name": "moviesda-vault",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
-  "description": "Historic onestream-embed vault for Tamil movies — durable links, resumable A-Z scrape",
+  "description": "Durable onestream-embed vault for moviesda — new-arrival detection, full-section coverage and a pipelined walker",
   "scripts": {
-    "scrape": "node src/cli.js"
+    "scrape": "node src/cli.js",
+    "incremental": "node src/cli.js --incremental",
+    "sweep": "node src/cli.js --sweep",
+    "ingest": "node src/ingest.js",
+    "enrich": "node src/enrich.js",
+    "verify": "node src/verify.js",
+    "check": "node src/verify.js"
   },
   "dependencies": {
     "cheerio": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=20.18.1"
   }
 }

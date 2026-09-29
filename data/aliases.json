@@ -1,0 +1,49 @@
+{
+ "_note": "Paths deliberately NOT ingested: they are alternate URLs for titles already in vault.json. The delta detector treats these as known so a daily run cannot create duplicate records. Remove a path here to let it be ingested.",
+ "skipPaths": [
+  "/ayogya-2024-tamil-dubbed-movie/",
+  "/bairavan-2024-tamil-dubbed-movie/",
+  "/chengalpattu-2024-tamil-dubbed-movie/",
+  "/jolly-o-gymkhana-2026-tamil-web-series/",
+  "/sshhh-2026-tamil-web-series/",
+  "/thadayam-2026-tamil-web-series/",
+  "/veyil-2024-tamil-dubbed-movie/"
+ ],
+ "detail": [
+  {
+   "path": "/ayogya-2024-tamil-dubbed-movie/",
+   "title": "Ayogya",
+   "year": 2024
+  },
+  {
+   "path": "/bairavan-2024-tamil-dubbed-movie/",
+   "title": "Bairavan",
+   "year": 2024
+  },
+  {
+   "path": "/chengalpattu-2024-tamil-dubbed-movie/",
+   "title": "Chengalpattu",
+   "year": 2024
+  },
+  {
+   "path": "/jolly-o-gymkhana-2026-tamil-web-series/",
+   "title": "Jolly O Gymkhana",
+   "year": 2026
+  },
+  {
+   "path": "/sshhh-2026-tamil-web-series/",
+   "title": "Sshhh",
+   "year": 2026
+  },
+  {
+   "path": "/thadayam-2026-tamil-web-series/",
+   "title": "Thadayam",
+   "year": 2026
+  },
+  {
+   "path": "/veyil-2024-tamil-dubbed-movie/",
+   "title": "Veyil",
+   "year": 2024
+  }
+ ]
+}
