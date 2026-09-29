@@ -189,12 +189,16 @@
    "embeds": 3
   },
   "https://moviesda34.com/andhera-2025-movie/": {
-   "at": "2026-09-27T14:13:55.765Z",
-   "empty": true
+   "at": "2026-09-29T09:29:05.593Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arabia-kadali-2025-movie/": {
-   "at": "2026-09-27T14:13:58.355Z",
-   "empty": true
+   "at": "2026-09-29T09:29:05.621Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/accused-2025-movie/": {
    "at": "2026-09-27T14:14:13.426Z",
@@ -237,8 +241,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/ayyana-mane-2025-movie/": {
-   "at": "2026-09-27T14:16:21.818Z",
-   "empty": true
+   "at": "2026-09-29T09:29:07.098Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/am-aa-2025-movie/": {
    "at": "2026-09-27T14:16:33.683Z",
@@ -289,8 +295,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/aindham-vedham-2024-tamil-movie/": {
-   "at": "2026-09-27T14:19:01.891Z",
-   "empty": true
+   "at": "2026-09-29T09:29:07.482Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aalan-2024-tamil-movie/": {
    "at": "2026-09-27T14:19:17.973Z",
@@ -401,8 +409,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/athomugam-2024-tamil-movie-1/": {
-   "at": "2026-09-27T14:25:02.312Z",
-   "empty": true
+   "at": "2026-09-29T09:29:08.638Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anubhavi-raja-2024-tamil-movie/": {
    "at": "2026-09-27T14:25:13.823Z",
@@ -425,8 +435,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/alti-2020-tamil-movie/": {
-   "at": "2026-09-27T14:26:16.797Z",
-   "empty": true
+   "at": "2026-09-29T09:29:08.633Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aval-varuvaal-2024-tamil-movie/": {
    "at": "2026-09-27T14:26:28.221Z",
@@ -501,8 +513,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/appatha-2023-tamil-movie/": {
-   "at": "2026-09-27T14:30:18.832Z",
-   "empty": true
+   "at": "2026-09-29T09:29:10.472Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aneethi-2023-tamil-movie/": {
    "at": "2026-09-27T14:30:33.803Z",
@@ -521,8 +535,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/asur-2023-tamil-movie/": {
-   "at": "2026-09-27T14:31:29.611Z",
-   "empty": true
+   "at": "2026-09-29T09:29:09.544Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/adai-mazhai-kaalam-2023-tamil-movie/": {
    "at": "2026-09-27T14:31:46.787Z",
@@ -553,16 +569,20 @@
    "embeds": 1
   },
   "https://moviesda34.com/accidental-farmer-and-co-2023-tamil-movie/": {
-   "at": "2026-09-27T14:33:17.296Z",
-   "empty": true
+   "at": "2026-09-29T09:29:08.541Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/agilan-2023-tamil-movie/": {
    "at": "2026-09-27T14:33:34.078Z",
    "embeds": 1
   },
   "https://moviesda34.com/anger-tales-2023-tamil-movie/": {
-   "at": "2026-09-27T14:33:37.675Z",
-   "empty": true
+   "at": "2026-09-29T09:29:10.020Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ayothi-2023-tamil-movie/": {
    "at": "2026-09-27T14:33:54.599Z",
@@ -573,16 +593,20 @@
    "embeds": 1
   },
   "https://moviesda34.com/ayali-season-01-2023-tamil-movie/": {
-   "at": "2026-09-27T14:34:08.682Z",
-   "empty": true
+   "at": "2026-09-29T09:29:09.664Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arjuna-kaappaathu-2022-tamil-movie/": {
    "at": "2026-09-27T14:34:20.248Z",
    "embeds": 1
   },
   "https://moviesda34.com/atm-season-01-2023-tamil-movie/": {
-   "at": "2026-09-27T14:34:23.789Z",
-   "empty": true
+   "at": "2026-09-29T09:29:10.696Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aavi-2022-tamil-movie/": {
    "at": "2026-09-27T14:34:31.941Z",
@@ -593,8 +617,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/anel-meley-panithuli-2022-tamil-movie/": {
-   "at": "2026-09-27T14:34:52.661Z",
-   "empty": true
+   "at": "2026-09-29T09:29:11.784Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arulmozhi-2022-tamil-movie/": {
    "at": "2026-09-27T14:35:09.568Z",
@@ -613,16 +639,20 @@
    "embeds": 1
   },
   "https://moviesda34.com/all-the-best-2022-tamil-movie/": {
-   "at": "2026-09-27T14:35:56.685Z",
-   "empty": true
+   "at": "2026-09-29T09:29:12.724Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aadhar-2022-tamil-movie/": {
    "at": "2026-09-27T14:36:14.679Z",
    "embeds": 1
   },
   "https://moviesda34.com/aaradi-bullet-2022-tamil-movie/": {
-   "at": "2026-09-27T14:36:19.692Z",
-   "empty": true
+   "at": "2026-09-29T09:29:12.959Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/a1-express-2022-tamil-movie/": {
    "at": "2026-09-27T14:36:37.188Z",
@@ -633,32 +663,46 @@
    "embeds": 1
   },
   "https://moviesda34.com/aavasa-vyuham-2022-tamil-movie/": {
-   "at": "2026-09-27T14:36:58.726Z",
-   "empty": true
+   "at": "2026-09-29T09:29:13.801Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anbudan-ungal-karthik-2022-tamil-movie/": {
-   "at": "2026-09-27T14:37:04.555Z",
-   "empty": true
+   "at": "2026-09-29T09:29:13.957Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anek-2022-tamil-movie/": {
-   "at": "2026-09-27T14:37:09.609Z",
-   "empty": true
+   "at": "2026-09-29T09:29:14.711Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ammuchi-2022-tamil-movie/": {
-   "at": "2026-09-27T14:37:15.710Z",
-   "empty": true
+   "at": "2026-09-29T09:29:16.658Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/avane-srimannarayana-2019-tamil-movie/": {
-   "at": "2026-09-27T14:37:21.843Z",
-   "empty": true
+   "at": "2026-09-29T09:29:17.906Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arul-mozhi-2022-tamil-movie/": {
-   "at": "2026-09-27T14:37:26.411Z",
-   "empty": true
+   "at": "2026-09-29T09:29:18.363Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aashram-2022-tamil-movie/": {
-   "at": "2026-09-27T14:37:32.112Z",
-   "empty": true
+   "at": "2026-09-29T09:29:19.495Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/adade-sundara-2022-tamil-movie/": {
    "at": "2026-09-27T14:37:49.338Z",
@@ -677,12 +721,16 @@
    "embeds": 2
   },
   "https://moviesda34.com/anantham-2022-tamil-movie/": {
-   "at": "2026-09-27T14:38:28.462Z",
-   "empty": true
+   "at": "2026-09-29T09:29:19.682Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aadavallu-meeku-joharlu-2022-tamil-movie/": {
-   "at": "2026-09-27T14:38:33.316Z",
-   "empty": true
+   "at": "2026-09-29T09:29:20.513Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/achcham-madam-naanam-payirppu-2022-tamil-movie/": {
    "at": "2026-09-27T14:38:46.816Z",
@@ -713,8 +761,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/aranyak-2021-season-01-movie/": {
-   "at": "2026-09-27T14:40:14.811Z",
-   "empty": true
+   "at": "2026-09-29T09:29:22.443Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/attack-2021-movie/": {
    "at": "2026-09-27T14:40:22.982Z",
@@ -725,48 +775,68 @@
    "embeds": 4
   },
   "https://moviesda34.com/aakashavaani-2021-movie/": {
-   "at": "2026-09-27T14:40:41.463Z",
-   "empty": true
+   "at": "2026-09-29T09:29:22.616Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/annaatthe-2021-movie/": {
-   "at": "2026-09-27T14:40:45.278Z",
-   "empty": true
+   "at": "2026-09-29T09:29:22.737Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aamaa-2-2021-movie/": {
-   "at": "2026-09-27T14:40:49.181Z",
-   "empty": true
+   "at": "2026-09-29T09:29:23.375Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/agadu-2021-movie/": {
-   "at": "2026-09-27T14:40:53.323Z",
-   "empty": true
+   "at": "2026-09-29T09:29:23.714Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anbudan-amma-2021-movie/": {
-   "at": "2026-09-27T14:40:56.994Z",
-   "empty": true
+   "at": "2026-09-29T09:29:23.855Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ashok-2021-movie/": {
-   "at": "2026-09-27T14:41:00.308Z",
-   "empty": true
+   "at": "2026-09-29T09:29:25.322Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aranmanai-3-2021-movie/": {
-   "at": "2026-09-27T14:41:03.933Z",
-   "empty": true
+   "at": "2026-09-29T09:29:25.550Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/appathava-aattaya-pottutanga-2021-movie/": {
-   "at": "2026-09-27T14:41:08.013Z",
-   "empty": true
+   "at": "2026-09-29T09:29:25.664Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/annabelle-sethupathi-2021-movie/": {
-   "at": "2026-09-27T14:41:11.606Z",
-   "empty": true
+   "at": "2026-09-29T09:29:26.328Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/agent-sai-srinivasa-athreya-2021-movie/": {
    "at": "2026-09-27T14:41:35.602Z",
    "embeds": 2
   },
   "https://moviesda34.com/ashvamithra-2021-movie/": {
-   "at": "2026-09-27T14:41:42.466Z",
-   "empty": true
+   "at": "2026-09-29T09:29:26.967Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/a-aa-2021-movie/": {
    "at": "2026-09-27T14:42:21.587Z",
@@ -777,124 +847,178 @@
    "embeds": 4
   },
   "https://moviesda34.com/anandho-brahma-2021-movie/": {
-   "at": "2026-09-27T14:42:51.945Z",
-   "empty": true
+   "at": "2026-09-29T09:29:26.758Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/assamiyin-america-payanam-2021-movie/": {
    "at": "2026-09-27T14:43:05.713Z",
    "embeds": 4
   },
   "https://moviesda34.com/athaiyum-thaandi-punithamaanathu-2021-movie/": {
-   "at": "2026-09-27T14:43:09.437Z",
-   "empty": true
+   "at": "2026-09-29T09:29:28.405Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/asura-vamsam-2021-movie/": {
-   "at": "2026-09-27T14:43:13.003Z",
-   "empty": true
+   "at": "2026-09-29T09:29:28.722Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/a-simple-murder-2020-movie/": {
-   "at": "2026-09-27T14:43:16.686Z",
-   "empty": true
+   "at": "2026-09-29T09:29:28.881Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/amutha-2021-movie/": {
-   "at": "2026-09-27T14:43:20.169Z",
-   "empty": true
+   "at": "2026-09-29T09:29:29.262Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/avalum-naanum-2021-movie/": {
-   "at": "2026-09-27T14:43:23.804Z",
-   "empty": true
+   "at": "2026-09-29T09:29:29.670Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ajeeb-daastaans-2021-movie/": {
    "at": "2026-09-27T14:43:31.878Z",
    "embeds": 2
   },
   "https://moviesda34.com/anu-and-arjun-2021-movie/": {
-   "at": "2026-09-27T14:43:37.703Z",
-   "empty": true
+   "at": "2026-09-29T09:29:30.234Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anbirkiniyal-2021-movie/": {
-   "at": "2026-09-27T14:43:41.837Z",
-   "empty": true
+   "at": "2026-09-29T09:29:31.595Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aelay-2021-movie/": {
-   "at": "2026-09-27T14:43:45.222Z",
-   "empty": true
+   "at": "2026-09-29T09:29:31.800Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aatkal-thevai-2021-movie/": {
-   "at": "2026-09-27T14:43:48.802Z",
-   "empty": true
+   "at": "2026-09-29T09:29:31.935Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/avrodh-the-siege-within-2020-movie/": {
-   "at": "2026-09-27T14:43:52.477Z",
-   "empty": true
+   "at": "2026-09-29T09:29:32.243Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arjun-varma-2021-movie/": {
-   "at": "2026-09-27T14:43:56.107Z",
-   "empty": true
+   "at": "2026-09-29T09:29:32.578Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ayirathil-oruvan-2010-movie/": {
-   "at": "2026-09-27T14:43:59.577Z",
-   "empty": true
+   "at": "2026-09-29T09:29:33.162Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aayudham-seivom-2008-movie/": {
-   "at": "2026-09-27T14:44:03.187Z",
-   "empty": true
+   "at": "2026-09-29T09:29:34.499Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aathikka-varkkam-2021-movie/": {
-   "at": "2026-09-27T14:44:06.776Z",
-   "empty": true
+   "at": "2026-09-29T09:29:34.755Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ak-vs-ak-2020-movie/": {
-   "at": "2026-09-27T14:44:10.419Z",
-   "empty": true
+   "at": "2026-09-29T09:29:34.873Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/andhaghaaram-2020-movie/": {
    "at": "2026-09-27T14:44:24.479Z",
    "embeds": 4
   },
   "https://moviesda34.com/antha-rathirikku-satchi-illai-1982-movie/": {
-   "at": "2026-09-27T14:44:28.144Z",
-   "empty": true
+   "at": "2026-09-29T09:29:35.099Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aakasha-ganga-2-2019-movie/": {
-   "at": "2026-09-27T14:44:31.578Z",
-   "empty": true
+   "at": "2026-09-29T09:29:35.465Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/andha-oru-nimidam-okka-kshanam-2017-movie/": {
-   "at": "2026-09-27T14:44:35.311Z",
-   "empty": true
+   "at": "2026-09-29T09:29:36.069Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aagadu-2014-movie/": {
-   "at": "2026-09-27T14:44:39.357Z",
-   "empty": true
+   "at": "2026-09-29T09:29:37.403Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/angel-2017-movie/": {
-   "at": "2026-09-27T14:44:42.745Z",
-   "empty": true
+   "at": "2026-09-29T09:29:37.670Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aayirathil-oruvan-2010-movie/": {
-   "at": "2026-09-27T14:44:46.745Z",
-   "empty": true
+   "at": "2026-09-29T09:29:37.738Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/asura-vettai-oxygen-2020-movie/": {
-   "at": "2026-09-27T14:44:50.284Z",
-   "empty": true
+   "at": "2026-09-29T09:29:38.028Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/andala-rakshasi-2012-movie/": {
-   "at": "2026-09-27T14:44:53.903Z",
-   "empty": true
+   "at": "2026-09-29T09:29:38.404Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/adavi-2020-movie/": {
-   "at": "2026-09-27T14:44:58.050Z",
-   "empty": true
+   "at": "2026-09-29T09:29:38.963Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/asuraguru-2020-movie/": {
-   "at": "2026-09-27T14:45:02.062Z",
-   "empty": true
+   "at": "2026-09-29T09:29:40.336Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/avane-srimannarayana-2020-movie/": {
-   "at": "2026-09-27T14:45:05.785Z",
-   "empty": true
+   "at": "2026-09-29T09:29:40.594Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aranmanai-kili-1993-movie/": {
    "at": "2026-09-27T14:45:25.431Z",
@@ -913,8 +1037,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/adhe-neram-adhe-idam-2009-movie/": {
-   "at": "2026-09-27T14:46:13.805Z",
-   "empty": true
+   "at": "2026-09-29T09:29:40.897Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/agam-puram-2010-movie/": {
    "at": "2026-09-27T14:46:21.969Z",
@@ -1129,32 +1255,44 @@
    "embeds": 2
   },
   "https://moviesda34.com/avalukkenna-azhagiya-mugam-2018-movie/": {
-   "at": "2026-09-27T14:55:39.356Z",
-   "empty": true
+   "at": "2026-09-29T09:29:40.927Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aaruthra-2018-movie/": {
-   "at": "2026-09-27T14:55:42.743Z",
-   "empty": true
+   "at": "2026-09-29T09:29:41.269Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/annanukku-jai-2018-movie/": {
    "at": "2026-09-27T14:55:56.754Z",
    "embeds": 4
   },
   "https://moviesda34.com/anirudh-tamil-movie-moviesda/": {
-   "at": "2026-09-27T14:56:00.172Z",
-   "empty": true
+   "at": "2026-09-29T09:29:42.246Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/asuravadham-2018-movie/": {
-   "at": "2026-09-27T14:56:04.240Z",
-   "empty": true
+   "at": "2026-09-29T09:29:44.197Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/andhra-mess-2018-movie/": {
-   "at": "2026-09-27T14:56:10.128Z",
-   "empty": true
+   "at": "2026-09-29T09:29:44.484Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/antony-2018-movie/": {
-   "at": "2026-09-27T14:56:16.030Z",
-   "empty": true
+   "at": "2026-09-29T09:29:45.135Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/annadurai-2018-movie/": {
    "at": "2026-09-27T14:56:29.801Z",
@@ -1181,116 +1319,170 @@
    "embeds": 4
   },
   "https://moviesda34.com/aayirathil-iruvar-2017-movie/": {
-   "at": "2026-09-27T14:57:57.916Z",
-   "empty": true
+   "at": "2026-09-29T09:29:44.785Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aviyal-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:04.015Z",
-   "empty": true
+   "at": "2026-09-29T09:29:45.727Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/appa-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:09.546Z",
-   "empty": true
+   "at": "2026-09-29T09:29:46.723Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ammani-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:15.434Z",
-   "empty": true
+   "at": "2026-09-29T09:29:49.036Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/adra-machan-visilu-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:21.573Z",
-   "empty": true
+   "at": "2026-09-29T09:29:49.323Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/achcham-yenbadhu-madamaiyada-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:27.471Z",
-   "empty": true
+   "at": "2026-09-29T09:29:49.608Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aagam-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:33.228Z",
-   "empty": true
+   "at": "2026-09-29T09:29:50.012Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/azhagu-kutti-chellam-2016-tamil-movie/": {
-   "at": "2026-09-27T14:58:39.321Z",
-   "empty": true
+   "at": "2026-09-29T09:29:50.281Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arima-nambi-2014-movie/": {
-   "at": "2026-09-27T14:58:45.045Z",
-   "empty": true
+   "at": "2026-09-29T09:29:51.580Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aaha-kalyanam-2014-movie/": {
-   "at": "2026-09-27T14:58:51.420Z",
-   "empty": true
+   "at": "2026-09-29T09:29:53.875Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/appuchi-gramam-2014-movie/": {
-   "at": "2026-09-27T14:58:57.578Z",
-   "empty": true
+   "at": "2026-09-29T09:29:54.490Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/arputham-2002-movie/": {
-   "at": "2026-09-27T14:59:01.167Z",
-   "empty": true
+   "at": "2026-09-29T09:29:52.209Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aadhalal-kadhal-seiveer-2013-movie/": {
-   "at": "2026-09-27T14:59:07.089Z",
-   "empty": true
+   "at": "2026-09-29T09:29:54.842Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/adhagappattathu-magajanangalay-2017-movie/": {
-   "at": "2026-09-27T14:59:10.932Z",
-   "empty": true
+   "at": "2026-09-29T09:29:53.523Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aambala-2015-tamil-movie/": {
-   "at": "2026-09-27T14:59:16.907Z",
-   "empty": true
+   "at": "2026-09-29T09:29:56.425Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anegan-2015-tamil-movie/": {
-   "at": "2026-09-27T14:59:22.708Z",
-   "empty": true
+   "at": "2026-09-29T09:29:57.723Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/andaman-2016-tamil-movie/": {
-   "at": "2026-09-27T14:59:28.583Z",
-   "empty": true
+   "at": "2026-09-29T09:29:58.658Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anbanavan-asaradhavan-adangadhavan-2017-movie/": {
-   "at": "2026-09-27T14:59:32.549Z",
-   "empty": true
+   "at": "2026-09-29T09:29:57.075Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aranmanai-2-2016-tamil-movie/": {
-   "at": "2026-09-27T14:59:36.565Z",
-   "empty": true
+   "at": "2026-09-29T09:29:57.390Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/amma-kanakku-2016-tamil-movie/": {
-   "at": "2026-09-27T14:59:42.572Z",
-   "empty": true
+   "at": "2026-09-29T09:29:59.324Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anniyan-2005-movie/": {
    "at": "2026-09-27T14:59:57.451Z",
    "embeds": 3
   },
   "https://moviesda34.com/aasal-2010-movie/": {
-   "at": "2026-09-27T15:00:00.965Z",
-   "empty": true
+   "at": "2026-09-29T09:29:59.968Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aaranya-kaandam-2010-movie/": {
-   "at": "2026-09-27T15:00:04.626Z",
-   "empty": true
+   "at": "2026-09-29T09:30:00.293Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/attagasam-2004-movie/": {
-   "at": "2026-09-27T15:00:08.106Z",
-   "empty": true
+   "at": "2026-09-29T09:30:01.266Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aval-varuvala-1998-movie/": {
-   "at": "2026-09-27T15:00:11.653Z",
-   "empty": true
+   "at": "2026-09-29T09:30:00.942Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/azhagiya-tamizh-magan-2007-movie/": {
-   "at": "2026-09-27T15:00:15.199Z",
-   "empty": true
+   "at": "2026-09-29T09:30:01.906Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aadukalam-2011-movie/": {
-   "at": "2026-09-27T15:00:18.629Z",
-   "empty": true
+   "at": "2026-09-29T09:30:02.877Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/annakodi-2013-movie/": {
-   "at": "2026-09-27T15:00:22.528Z",
-   "empty": true
+   "at": "2026-09-29T09:30:03.877Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/anegan-2015-movie/": {
    "at": "2026-09-27T15:00:39.821Z",
@@ -1301,52 +1493,72 @@
    "empty": true
   },
   "https://moviesda34.com/attakathi-2012-movie/": {
-   "at": "2026-09-27T15:00:48.077Z",
-   "empty": true
+   "at": "2026-09-29T09:30:03.526Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aarohanam-2012-movie/": {
-   "at": "2026-09-27T15:00:51.616Z",
-   "empty": true
+   "at": "2026-09-29T09:30:04.807Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aranmanai-2014-movie/": {
    "at": "2026-09-27T15:01:08.293Z",
    "embeds": 3
   },
   "https://moviesda34.com/all-in-all-azhagu-raja-2013-movie/": {
-   "at": "2026-09-27T15:01:12.295Z",
-   "empty": true
+   "at": "2026-09-29T09:30:04.165Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/ayan-2009-movie/": {
-   "at": "2026-09-27T15:01:16.136Z",
-   "empty": true
+   "at": "2026-09-29T09:30:05.436Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/alex-pandian-2014-movie/": {
-   "at": "2026-09-27T15:01:19.728Z",
-   "empty": true
+   "at": "2026-09-29T09:30:06.429Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/attu-tamil-movie-moviesda/": {
-   "at": "2026-09-27T15:01:32.743Z",
-   "empty": true
+   "at": "2026-09-29T09:30:09.327Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/attakathi-2012-tamil-movie/": {
    "at": "2026-09-27T15:01:36.335Z",
    "empty": true
   },
   "https://moviesda34.com/angali-pangali-2016-tamil-movie/": {
-   "at": "2026-09-27T15:01:49.395Z",
-   "empty": true
+   "at": "2026-09-29T09:30:10.296Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aaya-sutta-vada-2015-tamil-movie/": {
-   "at": "2026-09-27T15:02:02.296Z",
-   "empty": true
+   "at": "2026-09-29T09:30:09.993Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/aaranyam-tamil-movie-moviesda/": {
-   "at": "2026-09-27T15:02:15.374Z",
-   "empty": true
+   "at": "2026-09-29T09:30:10.953Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/athibar-2015-tamil-movie/": {
-   "at": "2026-09-27T15:02:19.128Z",
-   "empty": true
+   "at": "2026-09-29T09:30:09.003Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bethlehem-kudumba-unit-2026-tamil-movie/": {
    "at": "2026-09-27T15:02:47.055Z",
@@ -1445,8 +1657,9 @@
    "embeds": 3
   },
   "https://moviesda34.com/bigg-boss-2025-tamil-season-9/": {
-   "at": "2026-09-27T15:08:54.818Z",
-   "empty": true
+   "at": "2026-09-29T09:30:38.771Z",
+   "embeds": 20,
+   "kind": "series"
   },
   "https://moviesda34.com/balti-2025-tamil-movie/": {
    "at": "2026-09-27T15:09:07.138Z",
@@ -1473,8 +1686,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/bakaiti-2025-movie/": {
-   "at": "2026-09-27T15:10:24.943Z",
-   "empty": true
+   "at": "2026-09-29T09:30:12.201Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bun-butter-jam-2025-movie/": {
    "at": "2026-09-27T15:10:39.863Z",
@@ -1497,8 +1712,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/black-white-and-gray-2025-movie/": {
-   "at": "2026-09-27T15:11:40.030Z",
-   "empty": true
+   "at": "2026-09-29T09:30:12.235Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bromance-2025-movie/": {
    "at": "2026-09-27T15:11:55.574Z",
@@ -1565,8 +1782,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/bench-life-2024-tamil-movie/": {
-   "at": "2026-09-27T15:15:15.844Z",
-   "empty": true
+   "at": "2026-09-29T09:30:12.560Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bujji-at-anupatti-2024-tamil-movie/": {
    "at": "2026-09-27T15:15:26.491Z",
@@ -1589,8 +1808,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/brinda-2024-tamil-movie/": {
-   "at": "2026-09-27T15:16:20.309Z",
-   "empty": true
+   "at": "2026-09-29T09:30:12.588Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bayamariya-brammai-2024-tamil-movie/": {
    "at": "2026-09-27T15:16:31.624Z",
@@ -1609,8 +1830,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/baahubali-crown-of-blood-2024-tamil-movie/": {
-   "at": "2026-09-27T15:17:17.023Z",
-   "empty": true
+   "at": "2026-09-29T09:30:12.907Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhairavakottai-2024-tamil-movie/": {
    "at": "2026-09-27T15:17:30.411Z",
@@ -1629,8 +1852,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/bhuvana-vijayam-2023-tamil-movie/": {
-   "at": "2026-09-27T15:18:23.304Z",
-   "empty": true
+   "at": "2026-09-29T09:30:15.106Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/boomer-uncle-2024-tamil-movie/": {
    "at": "2026-09-27T15:18:34.897Z",
@@ -1641,8 +1866,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/buy-1-get-1-free-2024-tamil-movie/": {
-   "at": "2026-09-27T15:18:51.229Z",
-   "empty": true
+   "at": "2026-09-29T09:30:15.259Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/byri-2024-tamil-movie/": {
    "at": "2026-09-27T15:19:02.567Z",
@@ -1753,8 +1980,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/bad-trip-2023-tamil-movie/": {
-   "at": "2026-09-27T15:26:13.616Z",
-   "empty": true
+   "at": "2026-09-29T09:30:13.531Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bagheera-2023-tamil-movie/": {
    "at": "2026-09-27T15:26:30.536Z",
@@ -1785,8 +2014,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/bhoomi-enna-suthuthey-2022-tamil-movie/": {
-   "at": "2026-09-27T15:29:17.065Z",
-   "empty": true
+   "at": "2026-09-29T09:30:16.080Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/banaras-2022-tamil-movie/": {
    "at": "2026-09-27T15:29:34.007Z",
@@ -1817,8 +2048,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/beiimaan-love-2016-tamil-movie/": {
-   "at": "2026-09-27T15:31:19.497Z",
-   "empty": true
+   "at": "2026-09-29T09:30:16.628Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/battery-2022-tamil-movie/": {
    "at": "2026-09-27T15:31:37.733Z",
@@ -1829,12 +2062,16 @@
    "embeds": 4
   },
   "https://moviesda34.com/best-seller-2022-tamil-movie/": {
-   "at": "2026-09-27T15:31:57.681Z",
-   "empty": true
+   "at": "2026-09-29T09:30:17.440Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bloody-brothers-2022-tamil-movie/": {
-   "at": "2026-09-27T15:32:03.524Z",
-   "empty": true
+   "at": "2026-09-29T09:30:19.656Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhama-kalabam-2022-tamil-movie/": {
    "at": "2026-09-27T15:32:17.126Z",
@@ -1865,84 +2102,122 @@
    "embeds": 4
   },
   "https://moviesda34.com/bhonsle-2021-movie/": {
-   "at": "2026-09-27T15:33:31.264Z",
-   "empty": true
+   "at": "2026-09-29T09:30:19.722Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bro-2021-movie/": {
-   "at": "2026-09-27T15:33:34.797Z",
-   "empty": true
+   "at": "2026-09-29T09:30:20.047Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baaghi-3-2021-movie/": {
-   "at": "2026-09-27T15:33:38.476Z",
-   "empty": true
+   "at": "2026-09-29T09:30:20.374Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/border-2021-movie/": {
-   "at": "2026-09-27T15:33:41.953Z",
-   "empty": true
+   "at": "2026-09-29T09:30:20.951Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bannerghatta-2021-movie/": {
-   "at": "2026-09-27T15:33:45.992Z",
-   "empty": true
+   "at": "2026-09-29T09:30:22.576Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/boomika-2021-movie/": {
-   "at": "2026-09-27T15:33:49.636Z",
-   "empty": true
+   "at": "2026-09-29T09:30:22.603Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhuj-the-pride-of-india-2021-movie/": {
-   "at": "2026-09-27T15:33:53.177Z",
-   "empty": true
+   "at": "2026-09-29T09:30:23.064Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhale-khilladi-2021-movie/": {
-   "at": "2026-09-27T15:33:56.854Z",
-   "empty": true
+   "at": "2026-09-29T09:30:23.298Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/biya-2020-movie/": {
-   "at": "2026-09-27T15:34:00.378Z",
-   "empty": true
+   "at": "2026-09-29T09:30:23.862Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/boom-boom-kaalai-2021-movie/": {
-   "at": "2026-09-27T15:34:04.015Z",
-   "empty": true
+   "at": "2026-09-29T09:30:25.558Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baby-2021-movie/": {
    "at": "2026-09-27T15:34:19.180Z",
    "embeds": 4
   },
   "https://moviesda34.com/bobby-jasoos-2021-movie/": {
-   "at": "2026-09-27T15:34:22.552Z",
-   "empty": true
+   "at": "2026-09-29T09:30:25.518Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/barfi-2012-movie/": {
-   "at": "2026-09-27T15:34:26.309Z",
-   "empty": true
+   "at": "2026-09-29T09:30:25.943Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bheeshma-2020-movie/": {
-   "at": "2026-09-27T15:34:30.178Z",
-   "empty": true
+   "at": "2026-09-29T09:30:26.226Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhoomi-2021-movie/": {
-   "at": "2026-09-27T15:34:33.734Z",
-   "empty": true
+   "at": "2026-09-29T09:30:26.793Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/biskoth-2020-movie/": {
-   "at": "2026-09-27T15:34:37.354Z",
-   "empty": true
+   "at": "2026-09-29T09:30:28.418Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/breathe-into-the-shadow-2020-movie/": {
-   "at": "2026-09-27T15:34:41.031Z",
-   "empty": true
+   "at": "2026-09-29T09:30:28.457Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/butler-balu-2019-movie/": {
-   "at": "2026-09-27T15:34:44.615Z",
-   "empty": true
+   "at": "2026-09-29T09:30:28.812Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baaram-2020-movie/": {
-   "at": "2026-09-27T15:34:48.120Z",
-   "empty": true
+   "at": "2026-09-29T09:30:29.138Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bagavathi-2002-movie/": {
-   "at": "2026-09-27T15:34:52.760Z",
-   "empty": true
+   "at": "2026-09-29T09:30:29.765Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/butler-balu-tamil-movie-moviesda/": {
    "at": "2026-09-27T15:35:06.363Z",
@@ -1985,20 +2260,26 @@
    "embeds": 4
   },
   "https://moviesda34.com/baana-kaathadi-2010-movie/": {
-   "at": "2026-09-27T15:44:19.356Z",
-   "empty": true
+   "at": "2026-09-29T09:30:32.076Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/boys-2003-movie/": {
    "at": "2026-09-27T15:44:54.687Z",
    "embeds": 4
   },
   "https://moviesda34.com/bodha-2018-movie/": {
-   "at": "2026-09-27T15:45:00.259Z",
-   "empty": true
+   "at": "2026-09-29T09:30:31.590Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bharat-ennum-naan-2018-movie/": {
-   "at": "2026-09-27T15:45:05.544Z",
-   "empty": true
+   "at": "2026-09-29T09:30:33.047Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhaskar-oru-rascal-2018-movie/": {
    "at": "2026-09-27T15:45:45.239Z",
@@ -2029,80 +2310,114 @@
    "embeds": 4
   },
   "https://moviesda34.com/bangalore-naatkal-2016-tamil-movie/": {
-   "at": "2026-09-27T15:48:18.469Z",
-   "empty": true
+   "at": "2026-09-29T09:30:32.830Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bogan-2017-movie/": {
-   "at": "2026-09-27T15:48:23.886Z",
-   "empty": true
+   "at": "2026-09-29T09:30:32.555Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bairavaa-2017-movie/": {
-   "at": "2026-09-27T15:48:29.186Z",
-   "empty": true
+   "at": "2026-09-29T09:30:34.466Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bhakta-prahlada-1967-movie/": {
-   "at": "2026-09-27T15:48:38.017Z",
-   "empty": true
+   "at": "2026-09-29T09:30:36.370Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bombay-1995-movie/": {
    "at": "2026-09-27T15:49:06.723Z",
    "embeds": 3
   },
   "https://moviesda34.com/bayama-irukku-2017-movie/": {
-   "at": "2026-09-27T15:49:12.214Z",
-   "empty": true
+   "at": "2026-09-29T09:30:34.998Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bengal-tiger-2017-movie/": {
-   "at": "2026-09-27T15:49:18.051Z",
-   "empty": true
+   "at": "2026-09-29T09:30:35.416Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/boologam-2015-tamil-movie/": {
-   "at": "2026-09-27T15:49:27.005Z",
-   "empty": true
+   "at": "2026-09-29T09:30:37.198Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/brindavanam-2017-movie/": {
-   "at": "2026-09-27T15:49:35.784Z",
-   "empty": true
+   "at": "2026-09-29T09:30:39.136Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baahubali-2-2017-movie/": {
-   "at": "2026-09-27T15:49:40.999Z",
-   "empty": true
+   "at": "2026-09-29T09:30:38.165Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bramman-2014-movie/": {
-   "at": "2026-09-27T15:49:46.730Z",
-   "empty": true
+   "at": "2026-09-29T09:30:38.447Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/biriyani-2013-movie/": {
-   "at": "2026-09-27T15:49:52.115Z",
-   "empty": true
+   "at": "2026-09-29T09:30:39.509Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/billa-2-2012-movie/": {
-   "at": "2026-09-27T15:49:57.278Z",
-   "empty": true
+   "at": "2026-09-29T09:30:40.402Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baahubali-2015-movie/": {
    "at": "2026-09-27T15:50:20.072Z",
    "embeds": 3
   },
   "https://moviesda34.com/baashha-1995-movie/": {
-   "at": "2026-09-27T15:50:25.058Z",
-   "empty": true
+   "at": "2026-09-29T09:30:41.379Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/balle-vellaiya-thevaa-2016-tamil-movie/": {
-   "at": "2026-09-27T15:50:30.386Z",
-   "empty": true
+   "at": "2026-09-29T09:30:41.792Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/balle-vellaiya-thevaa-tamil-movie-moviesda/": {
-   "at": "2026-09-27T15:50:42.377Z",
-   "empty": true
+   "at": "2026-09-29T09:30:44.321Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/bayam-oru-payanam-2016-tamil-movie/": {
-   "at": "2026-09-27T15:51:03.140Z",
-   "empty": true
+   "at": "2026-09-29T09:30:44.986Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/baahubali-2015-tamil-movie/": {
-   "at": "2026-09-27T15:51:22.144Z",
-   "empty": true
+   "at": "2026-09-29T09:30:45.307Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennai-love-story-2026-tamil-movie/": {
    "at": "2026-09-27T15:52:02.998Z",
@@ -2189,16 +2504,20 @@
    "embeds": 3
   },
   "https://moviesda34.com/court-kacheri-2025-movie/": {
-   "at": "2026-09-27T16:03:20.142Z",
-   "empty": true
+   "at": "2026-09-29T09:30:44.006Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennai-city-gangsters-2025-movie/": {
    "at": "2026-09-27T16:03:42.797Z",
    "embeds": 3
   },
   "https://moviesda34.com/criminal-justice-a-family-matter-2025-movie/": {
-   "at": "2026-09-27T16:03:46.527Z",
-   "empty": true
+   "at": "2026-09-29T09:30:45.687Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chaurya-paatham-2025-movie/": {
    "at": "2026-09-27T16:04:09.148Z",
@@ -2217,8 +2536,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/chamak-2025-movie/": {
-   "at": "2026-09-27T16:05:08.871Z",
-   "empty": true
+   "at": "2026-09-29T09:30:45.817Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/cheddi-gang-tamasha-2025-movie/": {
    "at": "2026-09-27T16:05:25.395Z",
@@ -2233,8 +2554,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/citadel-honey-bunny-2024-tamil-movie/": {
-   "at": "2026-09-27T16:05:58.420Z",
-   "empty": true
+   "at": "2026-09-29T09:30:46.932Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennaiyil-vaanam-mega-mootathudan-kaanapadum-2024-tamil-movie/": {
    "at": "2026-09-27T16:06:15.944Z",
@@ -2261,8 +2584,10 @@
    "embeds": 2
   },
   "https://moviesda34.com/chutney-sambar-2024-tamil-movie/": {
-   "at": "2026-09-27T16:07:49.380Z",
-   "empty": true
+   "at": "2026-09-29T09:30:46.993Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chandu-champion-2024-tamil-movie/": {
    "at": "2026-09-27T16:08:10.374Z",
@@ -2341,8 +2666,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/crackdown-2023-tamil-movie/": {
-   "at": "2026-09-27T16:14:34.626Z",
-   "empty": true
+   "at": "2026-09-29T09:30:47.188Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/centimeter-2023-tamil-movie/": {
    "at": "2026-09-27T16:15:02.215Z",
@@ -2365,8 +2692,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/class-2023-tamil-movie/": {
-   "at": "2026-09-27T16:16:39.349Z",
-   "empty": true
+   "at": "2026-09-29T09:30:46.271Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/college-road-2023-tamil-movie/": {
    "at": "2026-09-27T16:16:58.470Z",
@@ -2385,8 +2714,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/criminal-justice-2-2022-tamil-movie/": {
-   "at": "2026-09-27T16:18:32.258Z",
-   "empty": true
+   "at": "2026-09-29T09:30:48.921Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/coffee-with-kadhal-2022-tamil-movie/": {
    "at": "2026-09-27T16:18:59.847Z",
@@ -2405,24 +2736,30 @@
    "embeds": 1
   },
   "https://moviesda34.com/check-2022-tamil-movie/": {
-   "at": "2026-09-27T16:20:27.906Z",
-   "empty": true
+   "at": "2026-09-29T09:30:49.166Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/clap-2022-tamil-movie/": {
    "at": "2026-09-27T16:20:53.624Z",
    "embeds": 1
   },
   "https://moviesda34.com/chucky-season-01-2022-tamil-movie/": {
-   "at": "2026-09-27T16:21:03.450Z",
-   "empty": true
+   "at": "2026-09-29T09:30:50.609Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/carbon-2022-tamil-movie/": {
    "at": "2026-09-27T16:21:28.911Z",
    "embeds": 1
   },
   "https://moviesda34.com/cubicles-2021-season-02-tamil-movie/": {
-   "at": "2026-09-27T16:21:38.244Z",
-   "empty": true
+   "at": "2026-09-29T09:30:51.518Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/choo-mandhirakaali-2021-movie/": {
    "at": "2026-09-27T16:21:58.756Z",
@@ -2433,116 +2770,170 @@
    "embeds": 4
   },
   "https://moviesda34.com/chithirai-sevvaanam-2021-movie/": {
-   "at": "2026-09-27T16:22:25.580Z",
-   "empty": true
+   "at": "2026-09-29T09:30:51.572Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chellama-chellama-2021-movie/": {
-   "at": "2026-09-27T16:22:30.956Z",
-   "empty": true
+   "at": "2026-09-29T09:30:51.825Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chinnanjiru-kiliye-2021-movie/": {
-   "at": "2026-09-27T16:22:36.173Z",
-   "empty": true
+   "at": "2026-09-29T09:30:53.463Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/cinderella-2021-movie/": {
-   "at": "2026-09-27T16:22:41.664Z",
-   "empty": true
+   "at": "2026-09-29T09:30:53.498Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/crime-stories-2021-season-01-movie/": {
-   "at": "2026-09-27T16:22:50.569Z",
-   "empty": true
+   "at": "2026-09-29T09:30:54.977Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/college-kumar-2021-movie/": {
-   "at": "2026-09-27T16:22:55.701Z",
-   "empty": true
+   "at": "2026-09-29T09:30:55.693Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/city-of-dreams-2021-season-02-movie/": {
-   "at": "2026-09-27T16:23:04.563Z",
-   "empty": true
+   "at": "2026-09-29T09:30:55.942Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/city-of-dreams-2019-season-01-movie/": {
-   "at": "2026-09-27T16:23:14.061Z",
-   "empty": true
+   "at": "2026-09-29T09:30:56.645Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chutzpah-2021-season-01-movie/": {
-   "at": "2026-09-27T16:23:19.421Z",
-   "empty": true
+   "at": "2026-09-29T09:30:57.332Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chidambaram-railway-gate-2021-movie/": {
    "at": "2026-09-27T16:23:41.802Z",
    "embeds": 4
   },
   "https://moviesda34.com/college-romance-2018-season-02-movie/": {
-   "at": "2026-09-27T16:23:51.817Z",
-   "empty": true
+   "at": "2026-09-29T09:30:59.297Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/college-romance-2018-season-01-movie/": {
-   "at": "2026-09-27T16:24:01.817Z",
-   "empty": true
+   "at": "2026-09-29T09:31:00.267Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chasing-2021-movie/": {
-   "at": "2026-09-27T16:24:07.032Z",
-   "empty": true
+   "at": "2026-09-29T09:31:00.797Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/cashback-2021-movie/": {
-   "at": "2026-09-27T16:24:12.395Z",
-   "empty": true
+   "at": "2026-09-29T09:31:00.763Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chiyangal-2020-movie/": {
-   "at": "2026-09-27T16:24:17.672Z",
-   "empty": true
+   "at": "2026-09-29T09:31:01.231Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/centha-2021-movie/": {
-   "at": "2026-09-27T16:24:22.880Z",
-   "empty": true
+   "at": "2026-09-29T09:31:01.451Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/calls-2021-movie/": {
-   "at": "2026-09-27T16:24:28.173Z",
-   "empty": true
+   "at": "2026-09-29T09:31:02.451Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chakra-2021-movie/": {
-   "at": "2026-09-27T16:24:33.682Z",
-   "empty": true
+   "at": "2026-09-29T09:31:03.166Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/coffee-cafe-2021-movie/": {
-   "at": "2026-09-27T16:24:39.041Z",
-   "empty": true
+   "at": "2026-09-29T09:31:03.701Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/care-of-kaadhal-2021-movie/": {
-   "at": "2026-09-27T16:24:44.413Z",
-   "empty": true
+   "at": "2026-09-29T09:31:03.668Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chidambaram-railwaygate-2021-movie/": {
-   "at": "2026-09-27T16:24:49.895Z",
-   "empty": true
+   "at": "2026-09-29T09:31:04.101Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chiyangal-tamil-movie-moviesda/": {
-   "at": "2026-09-27T16:24:55.149Z",
-   "empty": true
+   "at": "2026-09-29T09:31:04.349Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chitralahari-2019-movie/": {
-   "at": "2026-09-27T16:25:00.600Z",
-   "empty": true
+   "at": "2026-09-29T09:31:05.355Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/class-of-83-2020-movie/": {
-   "at": "2026-09-27T16:25:05.862Z",
-   "empty": true
+   "at": "2026-09-29T09:31:06.060Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/cocktail-2020-movie/": {
-   "at": "2026-09-27T16:25:11.195Z",
-   "empty": true
+   "at": "2026-09-29T09:31:06.599Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/code-m-season-1-2020-movie/": {
-   "at": "2026-09-27T16:25:16.588Z",
-   "empty": true
+   "at": "2026-09-29T09:31:06.574Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennai-palani-mars-2019-movie/": {
-   "at": "2026-09-27T16:25:21.961Z",
-   "empty": true
+   "at": "2026-09-29T09:31:07.030Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/college-kumar-2020-movie/": {
-   "at": "2026-09-27T16:25:27.265Z",
-   "empty": true
+   "at": "2026-09-29T09:31:07.309Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/capmaari-2019-movie/": {
    "at": "2026-09-27T16:25:48.578Z",
@@ -2609,32 +3000,46 @@
    "embeds": 4
   },
   "https://moviesda34.com/chennaiyil-oru-naal-2-2017-movie/": {
-   "at": "2026-09-27T16:30:34.842Z",
-   "empty": true
+   "at": "2026-09-29T09:31:10.222Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennai-28-2007-movie/": {
-   "at": "2026-09-27T16:30:43.665Z",
-   "empty": true
+   "at": "2026-09-29T09:31:09.916Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chirutha-2007-movie/": {
-   "at": "2026-09-27T16:30:52.721Z",
-   "empty": true
+   "at": "2026-09-29T09:31:10.891Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chikkiku-chikkikichu-2015-tamil-movie/": {
-   "at": "2026-09-27T16:31:01.580Z",
-   "empty": true
+   "at": "2026-09-29T09:31:11.214Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chandi-veeran-2015-tamil-movie/": {
-   "at": "2026-09-27T16:31:11.310Z",
-   "empty": true
+   "at": "2026-09-29T09:31:11.860Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennaieil-oru-naal-2013-movie/": {
-   "at": "2026-09-27T16:31:16.676Z",
-   "empty": true
+   "at": "2026-09-29T09:31:10.478Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/chennai-600028-2007-movie/": {
-   "at": "2026-09-27T16:31:22.133Z",
-   "empty": true
+   "at": "2026-09-29T09:31:13.112Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dont-be-shy-2026-tamil-movie/": {
    "at": "2026-09-27T16:32:05.155Z",
@@ -2777,8 +3182,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/delhi-crime-2025-season-03-tamil-movie/": {
-   "at": "2026-09-27T16:48:45.657Z",
-   "empty": true
+   "at": "2026-09-29T09:31:11.422Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/desiya-thalaivar-2025-tamil-movie/": {
    "at": "2026-09-27T16:49:05.199Z",
@@ -2793,8 +3200,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/do-you-wanna-partner-2025-movie/": {
-   "at": "2026-09-27T16:49:56.266Z",
-   "empty": true
+   "at": "2026-09-29T09:31:13.350Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/detective-ujjwalan-2025-movie/": {
    "at": "2026-09-27T16:50:19.503Z",
@@ -2805,16 +3214,20 @@
    "embeds": 3
   },
   "https://moviesda34.com/daaro-2025-movie/": {
-   "at": "2026-09-27T16:50:48.268Z",
-   "empty": true
+   "at": "2026-09-29T09:31:13.384Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dna-2025-movie/": {
    "at": "2026-09-27T16:51:10.630Z",
    "embeds": 3
   },
   "https://moviesda34.com/devika-and-danny-2025-movie/": {
-   "at": "2026-09-27T16:51:14.507Z",
-   "empty": true
+   "at": "2026-09-29T09:31:13.812Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dd-next-level-2025-movie/": {
    "at": "2026-09-27T16:51:36.760Z",
@@ -2833,8 +3246,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/dabba-cartel-2025-movie/": {
-   "at": "2026-09-27T16:52:44.465Z",
-   "empty": true
+   "at": "2026-09-29T09:31:13.777Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dragon-2025-movie/": {
    "at": "2026-09-27T16:53:07.485Z",
@@ -2905,8 +3320,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/demonte-colony-2015-tamil-movie/": {
-   "at": "2026-09-27T16:58:36.564Z",
-   "empty": true
+   "at": "2026-09-29T09:31:15.757Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dasharatha-2024-tamil-movie/": {
    "at": "2026-09-27T16:58:57.660Z",
@@ -3009,12 +3426,16 @@
    "embeds": 1
   },
   "https://moviesda34.com/dongalunnaru-jagratha-2022-tamil-movie/": {
-   "at": "2026-09-27T17:08:24.431Z",
-   "empty": true
+   "at": "2026-09-29T09:31:16.713Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/delhi-crime-2022-tamil-movie/": {
-   "at": "2026-09-27T17:08:28.145Z",
-   "empty": true
+   "at": "2026-09-29T09:31:15.311Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/diary-2022-tamil-movie/": {
    "at": "2026-09-27T17:08:56.285Z",
@@ -3033,36 +3454,48 @@
    "embeds": 1
   },
   "https://moviesda34.com/drohi-2010-movie/": {
-   "at": "2026-09-27T17:10:27.411Z",
-   "empty": true
+   "at": "2026-09-29T09:31:17.981Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dei-kannaa-2022-tamil-movie/": {
    "at": "2026-09-27T17:10:40.572Z",
    "embeds": 2
   },
   "https://moviesda34.com/decoupled-2021-season-01-movie/": {
-   "at": "2026-09-27T17:10:50.441Z",
-   "empty": true
+   "at": "2026-09-29T09:31:17.678Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dhamaka-2021-movie/": {
-   "at": "2026-09-27T17:10:55.796Z",
-   "empty": true
+   "at": "2026-09-29T09:31:17.643Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/doctor-2021-movie/": {
-   "at": "2026-09-27T17:11:01.476Z",
-   "empty": true
+   "at": "2026-09-29T09:31:19.880Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dikkiloona-2021-movie/": {
-   "at": "2026-09-27T17:11:07.921Z",
-   "empty": true
+   "at": "2026-09-29T09:31:19.181Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/devadas-brothers-2021-movie/": {
    "at": "2026-09-27T17:11:29.257Z",
    "embeds": 4
   },
   "https://moviesda34.com/dhowlath-2020-movie/": {
-   "at": "2026-09-27T17:11:35.661Z",
-   "empty": true
+   "at": "2026-09-29T09:31:20.540Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dial-100-2021-movie/": {
    "at": "2026-09-27T17:11:48.786Z",
@@ -3073,68 +3506,96 @@
    "embeds": 2
   },
   "https://moviesda34.com/delhi-crime-2019-season-01-movie/": {
-   "at": "2026-09-27T17:12:11.740Z",
-   "empty": true
+   "at": "2026-09-29T09:31:21.113Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/deadly-affair-2021-movie/": {
-   "at": "2026-09-27T17:12:17.831Z",
-   "empty": true
+   "at": "2026-09-29T09:31:21.556Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dola-2021-movie/": {
-   "at": "2026-09-27T17:12:23.169Z",
-   "empty": true
+   "at": "2026-09-29T09:31:21.503Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dindigul-sarathi-2008-movie/": {
-   "at": "2026-09-27T17:12:28.431Z",
-   "empty": true
+   "at": "2026-09-29T09:31:22.819Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dhowlath-tamil-movie-moviesda/": {
-   "at": "2026-09-27T17:12:33.892Z",
-   "empty": true
+   "at": "2026-09-29T09:31:23.053Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dear-comrade-2019-movie/": {
-   "at": "2026-09-27T17:12:39.944Z",
-   "empty": true
+   "at": "2026-09-29T09:31:23.788Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/devadas-2019-movie/": {
-   "at": "2026-09-27T17:12:45.548Z",
-   "empty": true
+   "at": "2026-09-29T09:31:24.030Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dhira-2020-movie/": {
-   "at": "2026-09-27T17:12:50.706Z",
-   "empty": true
+   "at": "2026-09-29T09:31:24.453Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dj-duvvada-jagannadham-2018-movie/": {
-   "at": "2026-09-27T17:12:56.016Z",
-   "empty": true
+   "at": "2026-09-29T09:31:24.432Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dookudu-2011-movie/": {
    "at": "2026-09-27T17:13:09.596Z",
    "embeds": 2
   },
   "https://moviesda34.com/danny-2020-movie/": {
-   "at": "2026-09-27T17:13:16.201Z",
-   "empty": true
+   "at": "2026-09-29T09:31:25.715Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dharala-prabhu-2020-movie/": {
-   "at": "2026-09-27T17:13:22.756Z",
-   "empty": true
+   "at": "2026-09-29T09:31:25.949Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/day-knight-2020-movie/": {
    "at": "2026-09-27T17:13:43.943Z",
    "embeds": 4
   },
   "https://moviesda34.com/draupathi-2020-movie/": {
-   "at": "2026-09-27T17:13:49.126Z",
-   "empty": true
+   "at": "2026-09-29T09:31:27.310Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dagaalty-2020-movie/": {
-   "at": "2026-09-27T17:13:54.305Z",
-   "empty": true
+   "at": "2026-09-29T09:31:27.285Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/darbar-2020-movie/": {
-   "at": "2026-09-27T17:14:01.220Z",
-   "empty": true
+   "at": "2026-09-29T09:31:27.580Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dhanusu-raasi-neyargale-2019-movie/": {
    "at": "2026-09-27T17:14:22.913Z",
@@ -3145,8 +3606,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/dear-comrade-tamil-movie-moviesda/": {
-   "at": "2026-09-27T17:15:40.852Z",
-   "empty": true
+   "at": "2026-09-29T09:31:27.647Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dharmaprabhu-2019-movie/": {
    "at": "2026-09-27T17:16:21.436Z",
@@ -3161,8 +3624,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/dj-duvvada-jagannadham-2019-movie/": {
-   "at": "2026-09-27T17:17:13.360Z",
-   "empty": true
+   "at": "2026-09-29T09:31:29.573Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dha-dha-87-2019-movie/": {
    "at": "2026-09-27T17:17:34.700Z",
@@ -3185,28 +3650,40 @@
    "embeds": 4
   },
   "https://moviesda34.com/darling-2015-tamil-movie/": {
-   "at": "2026-09-27T17:20:38.767Z",
-   "empty": true
+   "at": "2026-09-29T09:31:29.778Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dharma-durai-2016-tamil-movie/": {
-   "at": "2026-09-27T17:20:49.491Z",
-   "empty": true
+   "at": "2026-09-29T09:31:31.689Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/devi-2016-tamil-movie/": {
-   "at": "2026-09-27T17:20:59.204Z",
-   "empty": true
+   "at": "2026-09-29T09:31:32.311Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dhuruvangal-pathinaaru-2016-tamil-movie/": {
-   "at": "2026-09-27T17:21:07.997Z",
-   "empty": true
+   "at": "2026-09-29T09:31:32.627Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/deiva-thirumagal-2011-movie/": {
-   "at": "2026-09-27T17:21:13.385Z",
-   "empty": true
+   "at": "2026-09-29T09:31:31.328Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/dheena-2001-movie/": {
-   "at": "2026-09-27T17:21:19.445Z",
-   "empty": true
+   "at": "2026-09-29T09:31:33.276Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/demonte-colony-2015-movie/": {
    "at": "2026-09-27T17:21:25.017Z",
@@ -3269,8 +3746,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/endrum-nam-ninaivil-robo-shankar-2025-tamil-movie/": {
-   "at": "2026-09-27T17:27:26.951Z",
-   "empty": true
+   "at": "2026-09-29T09:31:33.629Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/enai-sudum-pani-2025-movie/": {
    "at": "2026-09-27T17:27:51.452Z",
@@ -3385,8 +3864,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/engga-hostel-season-01-2023-tamil-movie/": {
-   "at": "2026-09-27T17:37:17.020Z",
-   "empty": true
+   "at": "2026-09-29T09:31:32.655Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/enjoy-2022-tamil-movie/": {
    "at": "2026-09-27T17:37:43.602Z",
@@ -3397,12 +3878,16 @@
    "embeds": 1
   },
   "https://moviesda34.com/emoji-2022-tamil-movie/": {
-   "at": "2026-09-27T17:38:20.446Z",
-   "empty": true
+   "at": "2026-09-29T09:31:36.206Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/escaype-live-2022-tamil-movie/": {
-   "at": "2026-09-27T17:38:29.337Z",
-   "empty": true
+   "at": "2026-09-29T09:31:36.838Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/etharkkum-thunindhavan-2022-tamil-movie/": {
    "at": "2026-09-27T17:38:55.301Z",
@@ -3417,8 +3902,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/erida-2021-movie/": {
-   "at": "2026-09-27T17:40:07.755Z",
-   "empty": true
+   "at": "2026-09-29T09:31:36.183Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/endravathu-oru-naal-2021-movie/": {
    "at": "2026-09-27T17:40:29.768Z",
@@ -3429,12 +3916,16 @@
    "embeds": 4
   },
   "https://moviesda34.com/enaku-ishtam-2021-movie/": {
-   "at": "2026-09-27T17:40:57.620Z",
-   "empty": true
+   "at": "2026-09-29T09:31:37.154Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/engada-irundeenga-ivvalavu-naala-2021-movie/": {
-   "at": "2026-09-27T17:41:03.105Z",
-   "empty": true
+   "at": "2026-09-29T09:31:36.771Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
   },
   "https://moviesda34.com/expiry-date-season-01-2021-movie/": {
    "at": "2026-09-27T17:41:12.836Z",
@@ -16363,6 +16854,28 @@
   "https://moviesda34.com/3-2012-tamil-movie/": {
    "at": "2026-09-29T08:33:23.688Z",
    "embeds": 4,
+   "kind": "movie"
+  },
+  "https://moviesda34.com/36-days-2024-tamil-movie/": {
+   "at": "2026-09-29T09:29:05.063Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
+  },
+  "https://moviesda34.com/1000-babies-2024-tamil-movie/": {
+   "at": "2026-09-29T09:29:05.480Z",
+   "empty": true,
+   "retries": 1,
+   "kind": "movie"
+  },
+  "https://moviesda34.com/4-2024-tamil-movie/": {
+   "at": "2026-09-29T09:29:07.543Z",
+   "embeds": 1,
+   "kind": "movie"
+  },
+  "https://moviesda34.com/4554-2022-tamil-movie/": {
+   "at": "2026-09-29T09:29:07.842Z",
+   "embeds": 1,
    "kind": "movie"
   }
  },
