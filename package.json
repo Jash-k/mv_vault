@@ -1,6 +1,6 @@
 {
   "name": "moviesda-vault",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "type": "module",
   "description": "Durable onestream-embed vault for moviesda — new-arrival detection, full-section coverage and a pipelined walker",
   "scripts": {

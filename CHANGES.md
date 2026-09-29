@@ -1,29 +1,5 @@
 # Changes
 
-## v2.0.1 — posters actually fill in
-
-The `enrich` path existed but could not finish the job: it trusted `results[0]`
-from TMDB search, and it skipped every record that already had a `tmdbId` — so
-records that matched without a poster were stuck that way forever.
-
-- **Guarded matching** (`src/tmdb.js`): a candidate must match the title, and the
-  year when both are known (±1). Exact title + exact year wins. This is what stops
-  a Tamil film from receiving a popular same-named film's poster; a missing poster
-  is the better outcome. Titles too short to match safely (`"4"`) and near-misses
-  are rejected rather than fudged.
-- **Poster is now fetched by id**, not from the search payload
-  (`/movie/{id}?append_to_response=external_ids`), so the poster always belongs to
-  the id we matched — and `imdbId` comes back in the same call.
-- **The repair pass** (`src/enrich.js`) re-fetches records that have a `tmdbId`
-  but no poster, by exact id. Existing 62 poster-less matches are now fixable.
-- **`data/enrich-unmatched.json`** — every title that could not be matched, with
-  the reason. No silent failures.
-- **Honest counters** in `vault-stats.json`: `withPoster` / `withoutPoster`.
-- **`mode=enrich` in the workflow** — run it from the Actions tab.
-- Tested against a mock TMDB with deliberate traps (wrong-year same-title first,
-  popular-result mismatch, short numeric title, poster-less match) — all four
-  handled as intended; `verify` stays PASS after a full 719-record sweep.
-
 ## v2.0.0 — new-arrival detection + a 20× faster walker
 
 Two features, one goal: the vault can now keep itself current instead of being a

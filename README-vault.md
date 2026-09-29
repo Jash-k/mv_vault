@@ -135,44 +135,6 @@ Series cost scales with episode count — one 19-episode series with folder
 traversal is ~80 requests, about 75 s. `src/scraper.js` is untouched and still
 ships for reference.
 
-## Posters & metadata (TMDB)
-
-**Posters do not come from the site** — they are matched from TMDB by title +
-year. A record is written with `poster: ""`, `rating: 0`, `tmdbId: 0` when no
-match is found, and `src/enrich.js` backfills them later. Nothing is ever guessed:
-if TMDB's search returns a popular film that does not match your title (and year,
-when both are known), it is **rejected** — a missing poster is better than a wrong
-one. That "popular result" trap is why the matcher is guarded.
-
-```bash
-TMDB_KEYS=k1,k2 node src/enrich.js                    # fill everything pending
-TMDB_KEYS=k1,k2 node src/enrich.js --limit=200        # or in batches
-TMDB_KEYS=k1,k2 node src/enrich.js --dry              # see what it would do
-```
-
-Or without a terminal: **Actions → Vault Scrape → Run workflow → mode `enrich`**
-(`enrich_limit` caps the batch).
-
-How it behaves:
-
-- **Two kinds of work, one command.** Records with no `tmdbId` are searched by
-  title; records that *have* a `tmdbId` but no poster are re-fetched by that exact
-  id (`append_to_response=external_ids`) — a repair pass, no search, no ambiguity.
-- **Resumable and idempotent.** Run it repeatedly; it reports what is left and
-  never rewrites a record it cannot improve. Writes are atomic every 25 fills.
-- **Only writes on success.** An expired key pool or a TMDB outage leaves the
-  vault bit-for-bit as it was.
-- **`data/enrich-unmatched.json`** lists every title it could not match, with the
-  reason — that is the honest to-do list (add a `tmdbId` by hand for those you
-  care about). Roughly 90% of a clean catalog matches; the tail is usually
-  transliterated titles and unreleased films.
-- **At ingest time**, if `TMDB_KEYS` is set, new arrivals are enriched as they are
-  added, so a nightly run keeps new titles poster-complete automatically
-  (`enrichWithTmdb` is the same guarded matcher used here).
-
-Status at v2.0.1: 2,118 of 2,837 records have a poster; 657 have no TMDB match yet
-and 62 are matched but poster-less (the repair pass handles those).
-
 ## Integrity check
 
 ```bash
@@ -196,7 +158,6 @@ legacy-id/year drifts and 4 embeds shared between two duplicate-film records
 | `data/state.json` | Resume state — every processed item, plus retry counters |
 | `data/aliases.json` | Alternate URLs that must never be ingested (dedupe guard) |
 | `data/incoming.json` | Standing queue of verified titles awaiting a walk |
-| `data/enrich-unmatched.json` | Titles TMDB could not match (manual to-do list) |
 | `src/cli.js` | Entry point — modes, budget, checkpoints, run summary |
 | `src/delta.js` | **New-arrival detection** — feeds, retries, alias exclusion |
 | `src/feed.js` | `sitemap.xml` + latest-updates readers (path-keyed) |
@@ -205,7 +166,7 @@ legacy-id/year drifts and 4 embeds shared between two duplicate-film records
 | `src/store.js` | Atomic writes, union merges, stats |
 | `src/verify.js` | Offline integrity check |
 | `src/ingest.js` | Ingest an explicit queue into the vault |
-| `src/enrich.js` | Backfill/repair TMDB metadata (posters, ratings, imdb ids) |
+| `src/enrich.js` | Backfill TMDB metadata with the key pool |
 | `src/titles.js` | Label/path → catalog-title hygiene (rejects non-items) |
 | `src/scraper.js` | Original sequential chain — kept for reference |
 
