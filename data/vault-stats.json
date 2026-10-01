@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-09-30T08:56:12.402Z",
- "processed": 4061,
- "movies": 2799,
+ "updatedAt": "2026-10-01T09:20:38.210Z",
+ "processed": 4062,
+ "movies": 2800,
  "series": 42,
- "totalRecords": 2841,
+ "totalRecords": 2842,
  "episodes": 493,
- "embedLinks": 7976,
+ "embedLinks": 7980,
  "withPoster": 2718,
  "letters": {
   "a": {
