@@ -15,6 +15,17 @@
 import { slugify } from './http.js';
 
 const LANG = /^(tamil|telugu|hindi|malayalam|kannada|english|tamil dubbed|hindi dubbed)$/i;
+/**
+ * Labels that are BUTTONS, not titles.
+ *
+ * The site's /tamil-latest-updates/ rail now shows "Download Now" as the link
+ * text for EVERY item (verified 2026-10-01). Before this guard, every new
+ * arrival discovered from that rail was titled "Download Now" with year 0 —
+ * so it slugified to the id `download-now`, and because ALL of them collapsed
+ * to that single id the run kept exactly one and silently dropped the rest.
+ * A path is always the better anchor.
+ */
+const GENERIC_LABEL = /^(?:download(?:\s+now|\s+link[s]?|\s+file)?|watch(?:\s+online)?|click\s+here|play(?:\s+now)?|full\s+movie|movie|server\s*\d*|link|file|zip|now|here|get\s+it|start\s+download)$/i;
 const JUNK = /(hd|dvd|web|blu|x264|rip|predvd|cam|1080p|720p|480p|360p|original|proper|uncut|dubbed|hq|ts\b|scr|movie|series|episode)/i;
 // Section/nav pages masquerading as items, e.g. /tamil-2025-movies-tamil-movie/
 const NOT_AN_ITEM = /^\/tamil-\d{4}-movies/;
@@ -107,11 +118,17 @@ export function cleanTitle(label = '', path = '') {
   return titleFromPath(path); // label was pure junk — fall back to the path
 }
 
+/** A label that is a button or heading rather than a title. */
+export const isGenericLabel = (value = '') => GENERIC_LABEL.test(String(value || '').replace(/\s+/g, ' ').trim());
+
 /** True when a label can never become a valid vault record. */
 export function isRejected(label, path, { title, year } = {}) {
   if (NOT_AN_ITEM.test(path || '')) return 'section index page';
   const t = String(title || '').trim();
   if (/^\(/.test(t)) return 'title starts with bracket';
+  // A button label AND no year anywhere: even the path gave nothing usable, so
+  // skip the item instead of minting a record called "download-now".
+  if (isGenericLabel(t) && !year) return 'generic label with no year';
   if (!/[a-z0-9]/i.test(t)) return 'no latin alphanumerics in title';
   if (!slugify(t)) return 'slugifies to an empty id';
   // NB: single-character titles are legitimate ("3", the 2012 Tamil film) —
@@ -125,4 +142,50 @@ export function normalizeEntry(entry) {
   const reject = isRejected(entry.title || entry.label, entry.path, { title, year });
   if (reject) return { rejected: reject, title, year };
   return { title, year: year || entry.year || 0 };
+}
+
+/**
+ * Title + year for a discovered item: listings carry a label, feeds only a path.
+ *
+ * v2.1.1 — the label is NOT trusted blindly any more. The site's
+ * /tamil-latest-updates/ rail now uses "Download Now" as the link text for
+ * every item, and those labels used to win: the record for Romanchakam was
+ * saved as { id: "download-now", title: "Download Now", year: 0 }, and every
+ * other rail-only item collapsed into that same id (silently dropped by the
+ * per-run id dedupe). A path is a permanent anchor; a button label is not.
+ *
+ * Returns { title, year, from } where `from` records which source won —
+ * "path" | "label" | "label+path-year" — so a run log can explain itself.
+ */
+export function titleForEntry(entry = {}) {
+  const fromPath = titleFromPath(entry.path);
+  const fromLabel = entry.label ? parseTitleYearLike(entry.label) : { title: '', year: 0 };
+  const cleaned = cleanTitle(fromLabel.title || entry.title || '', entry.path);
+  const labelTitle = String(cleaned.title || fromLabel.title || '').trim();
+
+  // 1. a button, not a title → the path is the only source
+  if (!labelTitle || isGenericLabel(labelTitle)) {
+    return { title: fromPath.title || labelTitle, year: fromPath.year || cleaned.year || fromLabel.year || 0, from: 'path' };
+  }
+
+  // 2. the label carries no year → the path usually has one, and often a fuller title.
+  //    (When the label DOES carry a year, it must win: a rail link for
+  //    "Sardar 2 (2026)" on a year-less path used to come out as year 0.)
+  const labelYear = cleaned.year || fromLabel.year || 0;
+  if (!labelYear && fromPath.title) {
+    if (fromPath.title.toLowerCase() === labelTitle.toLowerCase()) {
+      return { title: labelTitle, year: fromPath.year || 0, from: 'label+path-year' };
+    }
+    const labelRicher = /[()\[\].:]/.test(labelTitle) || labelTitle.split(' ').length > fromPath.title.split(' ').length;
+    if (!labelRicher) return { title: fromPath.title, year: fromPath.year || 0, from: 'path' };
+  }
+  return { title: labelTitle, year: labelYear, from: 'label' };
+}
+
+/** "Raayan (2024)" → { title: 'Raayan', year: 2024 } (local copy: no http import here). */
+function parseTitleYearLike(label = '') {
+  const text = String(label || '').replace(/\s+/g, ' ').trim();
+  const year = Number(text.match(/\((19|20)\d{2}\)/)?.[0]?.replace(/[()]/g, '')) || 0;
+  const title = text.replace(/\((19|20)\d{2}\)/g, '').replace(/\s+/g, ' ').trim();
+  return { title, year };
 }

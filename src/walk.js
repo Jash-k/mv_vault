@@ -41,6 +41,15 @@ export function createWalk({ concurrency, debug = false } = {}) {
   const queues = new Map();
   const memo = new Map();
   const stats = { reqs: 0, bytes: 0, ms: 0, byHost: {}, failed: 0 };
+  /**
+   * URLs this run could not READ (as opposed to pages that were READ and found
+   * empty). Keyed by URL, so a page that fails for one item and succeeds for
+   * another (the memo is shared) settles on its true state, and a walk is only
+   * `partial` if one of the pages IT touched is still unreadable. A transient
+   * 502 therefore can never be recorded as "this item has no embeds" — see
+   * src/schedule.js for why that distinction is the whole ball game.
+   */
+  const failures = new Set();
 
   const queueFor = (host) => {
     if (!queues.has(host)) {
@@ -61,9 +70,11 @@ export function createWalk({ concurrency, debug = false } = {}) {
           stats.reqs += 1;
           stats.bytes += Buffer.byteLength(html);
           stats.byHost[host] = (stats.byHost[host] || 0) + 1;
+          failures.delete(url); // a retry that worked clears the URL
           resolve(html);
         } catch (error) {
           stats.failed += 1;
+          failures.add(url);
           if (debug) console.warn(`  ! ${error.message} ${url}`);
           reject(error);
         } finally {
@@ -86,8 +97,18 @@ export function createWalk({ concurrency, debug = false } = {}) {
     return memo.get(url);
   }
 
-  return { get, stats, memo };
+  return { get, stats, memo, failures };
 }
+
+/** Fetch or null — the failure is recorded by the walker, keyed by URL. */
+const tryGet = async (walk, url, touch) => {
+  touch?.(url);
+  try {
+    return await walk.get(url);
+  } catch {
+    return null;
+  }
+};
 
 /** Folder/resolution links, de-duplicated, with quality inferred. */
 export function folderLinks(html, base) {
@@ -133,13 +154,11 @@ const seasonOf = (s = '') => Number(s.match(/season[- ]?0*(\d+)/i)?.[1] || 0);
 const episodeOf = (s = '') => Number(s.match(/(?:epi|ep|episode)[- ]?0*(\d+)/i)?.[1] || 0);
 
 /** Confirm an embed id is live: /download/page/<id> must reference its own id. */
-async function confirm(walk, id) {
-  try {
-    const html = await walk.get(`https://movies.downloadpage.xyz/download/page/${id}`);
-    return new RegExp(`play\\.onestream\\.today/stream/page/${id}(?![0-9])`).test(html);
-  } catch {
-    return false;
-  }
+async function confirm(walk, id, touch) {
+  const url = `https://movies.downloadpage.xyz/download/page/${id}`;
+  const html = await tryGet(walk, url, touch);
+  if (!html) return false; // unreadable ≠ not-live; the walker remembers the URL
+  return new RegExp(`play\\.onestream\\.today/stream/page/${id}(?![0-9])`).test(html);
 }
 
 const mapLimit = async (arr, k, fn) => {
@@ -160,28 +179,37 @@ export const isSeriesUrl = (url) => /-web-series\/?$|-season-\d+\/?$/i.test(url.
 export async function walkSeries(url, { walk }) {
   const origin = new URL(url).origin;
   const seasons = new Map();
+  const touched = new Set();
+  const touch = (u) => { touched.add(u); return u; };
+  /** See walkMovie: `partial` means a hop was unreadable, not that the show is empty. */
+  const finish = (payload) => {
+    const failures = [...touched].filter((u) => walk.failures?.has?.(u)).length;
+    return { kind: 'series', ...payload, failures, ...(failures ? { partial: true } : {}) };
+  };
 
-  let itemLinks = [];
-  try {
-    itemLinks = folderLinks(await walk.get(url), origin).filter((l) => /season[- ]?\d+/i.test(l.href));
-  } catch { return { kind: 'series', seasons: [] }; }
+  const itemPage = await tryGet(walk, url, touch);
+  // The item page itself is unreadable → nothing was learned. THROW, so the
+  // caller records a failure (retry in 90 min) instead of an empty page
+  // (retry in 12h→30d, which is how a live new episode used to get deferred).
+  if (!itemPage) throw new Error(`item page unreadable: ${url}`);
+  let itemLinks = folderLinks(itemPage, origin).filter((l) => /season[- ]?\d+/i.test(l.href));
   if (!itemLinks.length) itemLinks = [{ url, href: url, label: '', quality: 'HD' }];
 
   for (const seasonFolder of itemLinks) {
     const seasonNo = seasonOf(seasonFolder.href) || 1;
-    let qualityFolders = [];
-    try {
-      qualityFolders = folderLinks(await walk.get(seasonFolder.url), new URL(seasonFolder.url).origin)
-        .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
-    } catch { continue; }
+    const seasonPage = await tryGet(walk, seasonFolder.url, touch);
+    if (!seasonPage) continue;
+    let qualityFolders = folderLinks(seasonPage, new URL(seasonFolder.url).origin)
+      .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
     if (!qualityFolders.length) qualityFolders = [{ url: seasonFolder.url, href: seasonFolder.href, label: seasonFolder.label, quality: seasonFolder.quality }];
 
     // 1080p first so the preferred quality is always the one that survives.
     qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
 
     for (const qf of qualityFolders) {
-      let slugs = [];
-      try { slugs = downloadSlugLinks(await walk.get(qf.url), new URL(qf.url).origin); } catch { continue; }
+      const qfPage = await tryGet(walk, qf.url, touch);
+      if (!qfPage) continue;
+      const slugs = downloadSlugLinks(qfPage, new URL(qf.url).origin);
       for (const slug of slugs) {
         const episode = episodeOf(slug.href);
         // The 720p folder's episode slugs carry NO quality token
@@ -190,10 +218,11 @@ export async function walkSeries(url, { walk }) {
         // drops it. Inherit the folder's quality unless the slug declares one.
         const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
         const quality = declared ? qualityOf(slug.label, slug.href) : qf.quality;
-        let ids = [];
-        try { ids = numericFileIds(await walk.get(slug.url)); } catch { continue; }
+        const slugPage = await tryGet(walk, slug.url, touch);
+        if (!slugPage) continue;
+        const ids = numericFileIds(slugPage);
         for (const id of ids.slice(0, 1)) {
-          if (!(await confirm(walk, id))) continue;
+          if (!(await confirm(walk, id, touch))) continue;
           if (!seasons.has(seasonNo)) seasons.set(seasonNo, new Map());
           const eps = seasons.get(seasonNo);
           if (!eps.has(episode)) eps.set(episode, new Map());
@@ -217,41 +246,56 @@ export async function walkSeries(url, { walk }) {
     }
     if (episodes.length) out.push({ season, episodes });
   }
-  return { kind: 'series', seasons: out };
+  return finish({ seasons: out });
 }
 
 /**
  * Walk one MOVIE (or dubbed/back-catalogue entry) under the locked quality policy.
- * Returns { kind:'movie', embeds:[{quality,url}] }.
+ * Returns { kind:'movie', embeds:[{quality,url}], failures, partial? }.
+ *
+ * `partial` means the walk succeeded but at least one page it needed could not
+ * be read. The result is still merged (the union merge can only add links), and
+ * the CLI schedules one re-walk 24h later so the missed embeds are picked up —
+ * that is what stops a single flaky request from silently costing a film half
+ * its qualities.
  */
 export async function walkMovie(url, { walk, want = { '1080p': 2, '720p': 2 } } = {}) {
   const origin = new URL(url).origin;
   const collected = new Map();
+  const touched = new Set();
+  const touch = (u) => { touched.add(u); return u; };
+  const finish = (payload) => {
+    const failures = [...touched].filter((u) => walk.failures?.has?.(u)).length;
+    return { kind: 'movie', ...payload, failures, ...(failures ? { partial: true } : {}) };
+  };
 
-  let groups = [];
-  try { groups = folderLinks(await walk.get(url), origin); } catch { return { kind: 'movie', embeds: [] }; }
+  const itemPage = await tryGet(walk, url, touch);
+  // Same rule as walkSeries: an unreadable item page is a FAILURE, not an
+  // empty page. Throwing lets the CLI re-try the item within the same day.
+  if (!itemPage) throw new Error(`item page unreadable: ${url}`);
+  let groups = folderLinks(itemPage, origin);
   if (!groups.length) groups = [{ url, href: url, label: '', quality: 'HD' }];
   const prefGroups = groups.filter((g) => PREFERRED.test(g.quality));
   const useGroups = (prefGroups.length ? prefGroups : groups).sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 3);
 
   const wait = (ps) => Promise.all(ps);
   const resolutions = (await wait(useGroups.map(async (g) => {
-    try {
-      return folderLinks(await walk.get(g.url), new URL(g.url).origin)
-        .map((r) => ({ ...r, quality: r.quality === 'HD' ? g.quality : r.quality }));
-    } catch { return []; }
+    const page = await tryGet(walk, g.url, touch);
+    if (!page) return [];
+    return folderLinks(page, new URL(g.url).origin)
+      .map((r) => ({ ...r, quality: r.quality === 'HD' ? g.quality : r.quality }));
   }))).flat();
   const prefRes = resolutions.filter((r) => PREFERRED.test(r.quality)).sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 4);
   const useRes = prefRes.length ? prefRes : resolutions.sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 3);
 
   const slugs = (await wait(useRes.map(async (r) => {
-    const page = await walk.get(r.url).catch(() => '');
+    const page = await tryGet(walk, r.url, touch);
     if (!page) return [];
     return downloadSlugLinks(page, new URL(r.url).origin).map((s) => ({ ...s, quality: r.quality }));
   }))).flat().slice(0, 8);
 
   const idRows = (await wait(slugs.map(async (s) => {
-    const page = await walk.get(s.url).catch(() => '');
+    const page = await tryGet(walk, s.url, touch);
     return page ? numericFileIds(page).map((id) => ({ id, quality: s.quality })) : [];
   }))).flat();
 
@@ -262,7 +306,7 @@ export async function walkMovie(url, { walk, want = { '1080p': 2, '720p': 2 } } 
   const got = { '1080p': 0, '720p': 0 };
   await mapLimit(candidates.slice(0, 10), 10, async ([id, quality]) => {
     if (got['1080p'] >= want['1080p'] && got['720p'] >= want['720p']) return;
-    if (!(await confirm(walk, id))) return;
+    if (!(await confirm(walk, id, touch))) return;
     const embedUrl = `https://play.onestream.today/stream/page/${id}`;
     if (collected.has(embedUrl)) return;
     collected.set(embedUrl, quality);
@@ -271,7 +315,7 @@ export async function walkMovie(url, { walk, want = { '1080p': 2, '720p': 2 } } 
 
   const all = [...collected.entries()].map(([u, quality]) => ({ quality, url: u }));
   const preferred = all.filter((e) => PREFERRED.test(e.quality));
-  return { kind: 'movie', embeds: preferred.length ? preferred : all.slice(0, 4) };
+  return finish({ embeds: preferred.length ? preferred : all.slice(0, 4) });
 }
 
 /** Walk any item URL; dispatches on the URL shape. */

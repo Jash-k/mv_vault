@@ -1,5 +1,96 @@
-# Changes
+# Changelog
 
+## v2.2.0 — re-listed pages, dead-link sweep, junk titles
+
+Fixes three data bugs found in the live vault, and the class of bug behind each.
+
+### Fixed
+
+- **`id: "download-now"`, title `"Download Now"`, year `0`.** The *latest
+  updates* rail labels every link with the literal text "Download Now"; the run
+  trusted the label. `titleForEntry()` now prefers the page path whenever the
+  label is a UI string (`isGenericLabel`), a generic label with no year is
+  rejected outright, and an id collision between two different paths is reported
+  instead of silently dropping items. `npm run repair` renames the existing
+  record (`download-now` → `romanchakam-2026`).
+- **Bigg Boss 10 showed 23 episodes; the site has 25.** The season was re-listed
+  on a new URL while the old page rotted into an empty stub, and the sitemap
+  never lists web-series pages. `-web-series/` and `-season-NN/` shapes are now
+  recognised, `listSeries` uses the same listing pipeline as everything else, and
+  `config/page-aliases.json` maps re-listed pages onto the record they describe.
+  Alias pages are walked on their own cadence with the record's identity locked
+  in, and `findSeriesTwin()` unions episodes by season (then title, ≥3 shared
+  episodes) — 23 + 20 re-listed = 25, no duplicate record.
+- **Sardar 2's HD embeds were dead but still served by the app.** The site
+  re-uploads titles; the old player URLs answer HTTP 200 with a 0-byte body, so
+  nothing noticed. Every incremental run now ends with a rolling liveness sweep
+  (600 records, oldest first, budget-aware): confirmed-dead links are pruned from
+  the flat list and the seasons tree, the record is re-walked first (its own page
+  then its aliases) so replacements land in the same pass, and a record is never
+  emptied — an unfixable one is reported and queued on the 90-minute failure
+  ladder. A network error is `unknown` and prunes nothing.
+
+### Added
+
+- `src/liveness.js`, `src/refresh.js`, `src/repair.js`, `src/repair-plan.js`,
+  `config/page-aliases.json`, `data/liveness.json` (bookkeeping only).
+- Modes/flags: `--refresh[=N]`, `--liveness=N`, `--refresh-limit=N`;
+  `npm run repair` (dry-run unless `--apply`), `npm run liveness`.
+- `titleForEntry()`; `findSeriesTwin()` season matching; `aliasQueueEntries()`;
+  `planLiveness()`; run summary gained `embedsChecked`, `deadLinks`, `refreshed`,
+  `pruned`, `stuck`.
+
+### Tests
+
+`node --test` — 66 tests (was 44). New: `test/repair.test.js` (junk titles, the
+Bigg Boss union, alias cadence, pruning) and `test/liveness.test.js` (the three
+embed states with a stubbed fetch, the sweep, budget cuts, never-empty a record).
+
+### Note for consumers
+
+Nothing changes in the record shape. `verdict`-style deep links keep working: the
+junk record was renamed (its old id pointed at a record nobody could search for)
+and no other `id` moved.
+
+
+## v2.1.0 — a run that cannot quietly lose a new release
+
+### Added
+
+| File | What it does |
+|---|---|
+| `src/schedule.js` | Ladder `12h/1d/3d/7d/30d`, 90-min failure back-off, `dead` after 5 failures, 24-h partial re-checks, absolute `retryAfter` |
+| `src/health.js` | `assessWalk` / `combineHealth` / `decideNoEmbeds` — whether a run's verdicts may be written |
+| `src/manifest.js` | `data/manifest.json` (+ sha256, `lastAddedAt`) and `data/index.json`, refreshed every checkpoint |
+| `data/last-run.json` | Per-run health report (counts, problems, mirror rescues) — read by the workflow + watchdog |
+| `data/known-drift.json` | Frozen id-drift allowlist; **new** drift now fails `verify.js` (`--update-allowlist`) |
+| `test/*` | 44 tests: schedule, walk classification, HTTP retry/mirror/breaker (real local servers), run health, verify gate |
+
+### Fixed (behaviour)
+
+- **A failed read is no longer an empty page.** `walkItem` throws when the item page is unreadable,
+  so a 502/timeout schedules a re-try in 90 minutes instead of advancing the 12h/1d/3d/7d/30d ladder.
+  Previously one 502 could defer a live new release by days, and the documented ladder was really
+  `3d/7d/30d/never` (the 4th rung computed `NaN` and never fired).
+- **Partial walks are re-checked.** A failed hop no longer silently costs an item its other
+  qualities: the result is merged and re-walked once after 24 h (union merge — can only add links).
+- **Empty verdicts are deferred and gated by run health.** If ≥85 % of a run's walks come back empty
+  (site shape change) or ≥30 % are unreadable, the verdicts are written as `failed`, not `empty`.
+- **Transport:** mirror fallback (`moviesda34.com` ↔ `moviezda.net`), circuit breaker, `Retry-After`
+  support, exponential back-off + jitter, and no retrying of hard 4xx (the 1,179 empty pages no longer
+  cost 3 requests each).
+- **`upsertRecord` diffs the whole record**, not just `embeds`: season/metadata-only changes now
+  report `merged` and stamp `updatedAt` (only 42/2,842 records had one before).
+- **`verify.js` gates the publish** in the workflow: `vault.json` ships only when verify passes;
+  `state.json` always ships.
+
+### Changed
+
+- `package.json` → v2.1.0, scripts `test` / `manifest` added.
+- `.github/workflows/vault.yml` → verify gate, `npm ci --ignore-scripts`, `env:`-based inputs,
+  nightly cap 400 / budget 90 min, **two** schedules (02:30 + 08:30 UTC), step summary,
+  auto-issue on degraded runs.
+- Retry counters are now `retryAfter` (absolute); old entries keep working via the legacy path.
 ## v2.0.0 — new-arrival detection + a 20× faster walker
 
 Two features, one goal: the vault can now keep itself current instead of being a

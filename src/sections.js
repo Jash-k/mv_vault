@@ -29,13 +29,54 @@ const UA_FILTERS = [
   /\/feed\/?$/,
 ];
 
-/** Item-page shapes the site publishes. */
-const ITEM_RX = /-(?:tamil-)?movie\/$|-tamil-web-series\/$|-tamil-season-\d+\/?$|-tamil-dubbed-movie\/$|-movie-moviesda\/$|-tamil-web-series-moviesda\/$/;
+/**
+ * Item-page shapes the site publishes.
+ *
+ * v2.1.1: the series pages dropped the "tamil" infix — the live canonical page
+ * for the current Bigg Boss season is `/bigg-boss-season-10-web-series/` and
+ * the item page is `/bigg-boss-2026-tamil-web-series/`. Requiring
+ * `-tamil-web-series/` (as this did) hides every such page from discovery.
+ * The sitemap carries NO web-series URLs at all, so this regex and the
+ * web-series listing (see listSeries) are the only ways in.
+ */
+const ITEM_RX = /-(?:tamil-)?movie\/$|-(?:tamil-)?web-series\/$|-movie-moviesda\/$|-(?:tamil-)?web-series-moviesda\/$|-(?:tamil-)?season-\d+\/?$/;
 
 /** A path that is a section index, not an item (e.g. /tamil-2025-movies-tamil-movie/). */
 const NOT_AN_ITEM = /^\/tamil-\d{4}-movies/;
 
 /** Which walker a discovered item needs. */
+/**
+ * Newest items from the web-series listing.
+ *
+ * The sitemap contains zero web-series URLs (verified 2026-10-01), so before
+ * this the nightly `--incremental` run could only learn about a new series
+ * from the latest-updates rail — whose labels are now all "Download Now".
+ * One listing page (~8 KB) closes that hole.
+ */
+export async function listSeries({ walk, maxPages = 2 } = {}) {
+  const section = SECTIONS.find((s) => s.id === 'web-series');
+  if (!section) return [];
+  const basePath = section.url();
+  const out = [];
+  const seen = new Set();
+  for (let page = 1; page <= Math.max(1, maxPages); page += 1) {
+    const url = `https://moviesda34.com${listingPage(basePath, section, page)}`;
+    let html;
+    try {
+      html = await walk.get(url);
+    } catch {
+      break; // a listing hop failing must not break discovery
+    }
+    const fresh = extractItems(html, url).filter((row) => !seen.has(row.path));
+    if (!fresh.length) break; // pagination ended (or served the same page again)
+    for (const row of fresh) {
+      seen.add(row.path);
+      out.push({ ...row, lastmod: '', at: 0, source: 'web-series' });
+    }
+  }
+  return out;
+}
+
 export function kindOfPath(path = '') {
   if (/-web-series\/$/.test(path) || /-tamil-season-\d+\/?$/.test(path)) return 'series';
   return 'movie';
