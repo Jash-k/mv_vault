@@ -1,0 +1,17 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-10-01T12:15:51.834Z",
+ "vaultUpdatedAt": "2026-10-01T12:15:51.830Z",
+ "lastAddedAt": "2026-10-01T09:19:50.658Z",
+ "records": 2842,
+ "movies": 2800,
+ "series": 42,
+ "episodes": 495,
+ "embeds": 7983,
+ "emptyPages": 1179,
+ "partialPages": 0,
+ "bytes": 1877919,
+ "sha256": "367d894a9056a3f57ef52a74540e116a9c8837d58d2f31b4a3e0a44de2ccc5ca",
+ "vault": "vault.json",
+ "index": "index.json"
+}
