@@ -203,8 +203,14 @@ jobs:
 
       # "nothing new today" and "I could not look properly" are different facts.
       # A degraded run gets an issue, so silence is never mistaken for calm.
+      #
+      # NOTIFICATION ONLY: the run's data was already committed by the step above,
+      # so nothing here may fail the job. It also creates its own label — `gh
+      # issue create --label` refuses to attach a label that does not exist yet,
+      # and "the label does not exist" is a silly reason to fail a good run.
       - name: File an issue when the run was degraded
         if: always()
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FAILED: ${{ steps.scrape.outcome }}
@@ -214,11 +220,30 @@ jobs:
           if [ "$DEGRADED" != "yes" ] && [ "$FAILED" = "success" ]; then exit 0; fi
           BODY=$(node -e 'const r=require("./data/last-run.json");console.log(`counts: ${JSON.stringify(r.counts)}\nproblems: ${(r.problems||[]).join("; ")||"none"}\nrequests: ${r.requests} · mirror rescues: ${r.http?.mirrorRescues}`)')
           TITLE="Vault run needs attention ($(date -u +%Y-%m-%d))"
-          gh issue list --label vault-degraded --state open --json number --jq '.[0].number' | {
-            read -r N
-            if [ -z "$N" ]; then
-              gh issue create --title "$TITLE" --label vault-degraded --body "$BODY"
+
+          notify() {
+            # the label is how a later run finds today's open issue: create it on
+            # first use (no-op if it already exists, or if we lack the permission)
+            gh label create vault-degraded --color FBCA04 \
+              --description "Automatic vault run needed attention" >/dev/null 2>&1 || true
+            local n
+            n=$(gh issue list --label vault-degraded --state open --json number --jq '.[0].number' 2>/dev/null || true)
+            if [ -n "$n" ]; then
+              gh issue comment "$n" --body "$BODY"
             else
-              gh issue comment "$N" --body "$BODY"
+              # if the label is unavailable for any reason, still file the issue
+              gh issue create --title "$TITLE" --body "$BODY" --label vault-degraded \
+                || gh issue create --title "$TITLE" --body "$BODY"
             fi
           }
+
+          if ! notify; then
+            # no issue filed, but the run must not stay silent about a problem
+            {
+              echo "### ⚠ Vault needs attention — could not file an issue"
+              echo ""
+              echo '```'
+              printf '%s\n' "$BODY"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
