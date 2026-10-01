@@ -19,6 +19,7 @@
  *   item → *-season-NN-* → *-season-NN-<quality>-* → /download/…-epi-NN-<quality>/ → …
  */
 import * as cheerio from 'cheerio';
+import { posterFromHtml } from './posters.js';
 import { absolute, fetchWithRetry } from './http.js';
 
 const HOST_LIMIT = {
@@ -246,7 +247,9 @@ export async function walkSeries(url, { walk }) {
     }
     if (episodes.length) out.push({ season, episodes });
   }
-  return finish({ seasons: out });
+  // the item page carries the site's own poster — keep it, so a record is never
+  // poster-less just because TMDB has no entry for the release yet
+  return finish({ seasons: out, poster: posterFromHtml(itemPage, origin) });
 }
 
 /**
@@ -315,7 +318,7 @@ export async function walkMovie(url, { walk, want = { '1080p': 2, '720p': 2 } } 
 
   const all = [...collected.entries()].map(([u, quality]) => ({ quality, url: u }));
   const preferred = all.filter((e) => PREFERRED.test(e.quality));
-  return finish({ embeds: preferred.length ? preferred : all.slice(0, 4) });
+  return finish({ embeds: preferred.length ? preferred : all.slice(0, 4), poster: posterFromHtml(itemPage, origin) });
 }
 
 /** Walk any item URL; dispatches on the URL shape. */

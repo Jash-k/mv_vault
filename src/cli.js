@@ -41,7 +41,8 @@ import { listLetter } from './scraper.js';
 import { createWalk, walkItem } from './walk.js';
 import { discover, loadAliases, loadPageAliases, aliasQueueEntries } from './delta.js';
 import { isRejected, titleForEntry } from './titles.js';
-import { enrichWithTmdb, keyCount } from './tmdb.js';
+import { enrichWithTmdb, fetchByTmdbId, keyCount, needsMetadata } from './tmdb.js';
+import { backfillPosters } from './posters.js';
 import {
   loadData, saveAll, saveRun, upsertRecord, recordFromWalk, recordKind,
   markDone, markEmpty, markFailed, markPartial,
@@ -76,14 +77,22 @@ const CHECKPOINT_EVERY = Number(arg('checkpoint', 25)) || 25;
  */
 const LIVENESS_N = Number(arg('liveness', process.env.VAULT_LIVENESS_N ?? 600)) || 0;
 const REFRESH_N = Number(arg('refresh-limit', process.env.VAULT_REFRESH_N ?? 40)) || 0;
+/**
+ * Rolling poster backfill: fill up to this many missing posters per run from the
+ * site itself (see src/posters.js). 0 disables it.
+ */
+const POSTERS_N = Number(arg('posters', process.env.VAULT_POSTERS_N ?? 60)) || 0;
 /** `--refresh=N` — a standalone maintenance run over the whole catalogue. */
 const REFRESH_ONLY = has('refresh') || arg('refresh', '') !== '';
+/** `--posters[=N]` — fill missing posters from the site, then stop. */
+const POSTERS_ONLY = has('posters') || arg('posters', '') !== '';
 /** Alternate URLs for titles already stored — never ingested (see data/aliases.json). */
 const ALIASES = loadAliases(new URL('../data/aliases.json', import.meta.url));
 /** config/page-aliases.json — pages that describe a record we already have. */
 const PAGE_ALIASES = loadPageAliases();
 
 const MODE = REFRESH_ONLY ? 'refresh'
+  : POSTERS_ONLY ? 'posters'
   : SINGLE_ITEM ? 'item'
   : QUEUE_FILE ? 'queue'
     : has('incremental') ? 'incremental'
@@ -156,7 +165,8 @@ async function buildQueue() {
   const queue = [];
   const push = (entry) => { const row = toQueueEntry(entry); if (row) queue.push(row); };
 
-  if (MODE === 'refresh') return queue; // nothing to discover: see the maintenance pass
+  // `--refresh` and `--posters` are maintenance-only: nothing to discover
+  if (MODE === 'refresh' || MODE === 'posters') return queue;
 
   if (MODE === 'item') {
     const path = pathOf(SINGLE_ITEM);
@@ -320,17 +330,23 @@ const mapLimit = async (rows, limit, fn) => {
   return out;
 };
 
-/** TMDB metadata for the records this run touched. */
+/**
+ * TMDB metadata for the records this run touched.
+ *
+ * "Needs metadata" is `!tmdbId || !poster`: a record TMDB matched but could not
+ * give a poster (routine for a release in its first days) is still unfinished,
+ * so it is looked at again — by id, which is one call and cannot mis-match.
+ */
 async function enrichNew(entries) {
   const touched = new Set(entries.map((entry) => entry.url));
-  const fresh = vault.filter((m) => touched.has(m.pageUrl) && !m.tmdbId);
-  const pending = vault.filter((m) => m.embeds?.length && !m.tmdbId);
+  const fresh = vault.filter((m) => touched.has(m.pageUrl) && needsMetadata(m));
+  const pending = vault.filter((m) => needsMetadata(m));
   if (!fresh.length) {
-    if (pending.length) console.log(`[vault] ${pending.length} record(s) still need metadata — run: TMDB_KEYS=… node src/enrich.js`);
+    if (pending.length) console.log(`[vault] ${pending.length} record(s) still need metadata — run: TMDB_KEYS=… node src/enrich.js (or npm run posters, which needs no key)`);
     return;
   }
   if (!keyCount()) {
-    console.log(`[vault] ${fresh.length} new record(s) have no metadata — set TMDB_KEYS or run src/enrich.js later`);
+    console.log(`[vault] ${fresh.length} new record(s) have no TMDB metadata — set TMDB_KEYS, or the site's own posters are filled by npm run posters`);
     return;
   }
   console.log(`[vault] enriching ${fresh.length} new record(s) via TMDB`);
@@ -339,7 +355,9 @@ async function enrichNew(entries) {
     while (cursor < fresh.length) {
       const record = fresh[cursor++];
       try {
-        const meta = await enrichWithTmdb({ title: record.title, year: record.year });
+        // known id → one exact lookup; unknown → search (year-guarded, then an
+        // exact-title retry) — see src/tmdb.js
+        const meta = record.tmdbId ? await fetchByTmdbId(record.tmdbId) : await enrichWithTmdb({ title: record.title, year: record.year });
         if (!meta?.tmdbId) continue;
         record.poster = meta.poster || record.poster || '';
         record.rating = meta.rating || record.rating || 0;
@@ -349,7 +367,7 @@ async function enrichNew(entries) {
       } catch { /* metadata is never fatal */ }
     }
   }));
-  console.log(`[vault] metadata: ${fresh.filter((m) => m.tmdbId).length}/${fresh.length} matched`);
+  console.log(`[vault] metadata: ${fresh.filter((m) => !needsMetadata(m)).length}/${fresh.length} now complete`);
 }
 
 let stats = null;
@@ -406,7 +424,8 @@ try {
     // ~2 records/minute across 8 lanes, so a short run sweeps a short slice
     // instead of blowing past its budget and being killed mid-flight.
     const wanted = Math.min(
-      MODE === 'refresh' ? (Number(arg('refresh', 0)) || 500) : LIVENESS_N,
+      // a --posters run fills posters and nothing else; --refresh runs off the clock
+      MODE === 'posters' ? 0 : MODE === 'refresh' ? (Number(arg('refresh', 0)) || 500) : LIVENESS_N,
       Math.floor(leftMin * 120),
     );
     if (!DRY && wanted && Date.now() < deadline) {
@@ -438,6 +457,26 @@ try {
     console.warn(`[vault] liveness maintenance skipped: ${error.message}`);
   }
 
+  /**
+   * Posters. A release usually hits moviesda before TMDB has artwork for it, and
+   * a site poster is derivable from the page path (src/posters.js) — so this is
+   * self-healing: whatever was missing last run gets another look, and a new
+   * arrival is never blank just because TMDB is behind.
+   */
+  let posters = null;
+  try {
+    // `--posters=0` means "every poster-less record"; a nightly run fills a slice
+    const wanted = POSTERS_ONLY ? (Number(arg('posters', 0)) || Infinity) : POSTERS_N;
+    if (!DRY && wanted && Date.now() < deadline) {
+      posters = await backfillPosters(vault, { limit: wanted });
+      if (posters.checked) {
+        console.log(`[vault] posters: ${posters.filled} filled · ${posters.absent} not published by the site · ${posters.unknown} unknown (${posters.checked} request(s))`);
+      }
+    }
+  } catch (error) {
+    console.warn(`[vault] poster backfill skipped: ${error.message}`);
+  }
+
   // the deferred verdicts are always written, whatever happened above
   flushEmpties();
   checkpoint(true);
@@ -461,6 +500,7 @@ try {
     failures: failures.slice(0, 10),
     requests: walk.stats.reqs,
     http: { ...httpStats },
+    posters: posters ? { filled: posters.filled, absent: posters.absent, unknown: posters.unknown } : null,
     liveness: maintenance ? {
       checked: maintenance.records, live: maintenance.live, dead: maintenance.dead,
       unknown: maintenance.unknown, refreshed: maintenance.refreshed,
@@ -488,6 +528,7 @@ try {
     mirrorRescues: httpStats.mirrorRescues,
     hostsParked: httpStats.hostDowns,
     unreadableUrls: walk.failures?.size || 0,
+    ...(posters ? { postersFilled: posters.filled } : {}),
     ...(maintenance ? {
       embedsChecked: maintenance.checked,
       deadLinks: maintenance.dead,

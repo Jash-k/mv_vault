@@ -63,6 +63,7 @@ year — 139 legacy records carry that drift and it is deliberate.
 | `--item=<url>` | Re-walk exactly one item | 1 item |
 | `--queue=<file>` | Walk an explicit JSON queue | N items |
 | `--refresh[=N]` | **Liveness + repair pass only** (no discovery): re-check N records' embeds, prune the dead ones, re-walk what it can fix | ~1 request per embed |
+| `--posters[=N]` | **Poster backfill only**: fill missing posters from the site's own artwork (`0` = every poster-less record) | ~1 request per record |
 
 Flags: `--dry` (discover + walk, write nothing) · `--max-movies=N` (default 250)
 · `--budget-min=N` (default 330) · `--concurrency=N` (default 6) ·
@@ -77,6 +78,7 @@ npm run repair                       # DRY RUN: list exactly what would change
 npm run repair -- --apply            # junk titles, alias merges, dead-link sweep
 npm run repair -- --apply --only=dead --ids=sardar-2-2026   # scope one record
 npm run liveness                     # = --refresh=600, no discovery
+npm run posters                      # fill missing posters from the site (no TMDB key needed)
 ```
 
 Checkpoints write the vault atomically every 25 items, so a killed run loses
@@ -153,6 +155,40 @@ and prunes nothing.
 
 `data/liveness.json` keeps the per-record timestamps (kept out of `vault.json`, so
 the nightly timestamp churn does not rewrite the 1.8 MB deliverable).
+
+### Posters: two sources, self-healing (v2.3)
+
+A poster is not metadata for decoration — a record with a blank poster renders as
+a grey box in the app. They used to come from **TMDB only, once, at the moment the
+record was added**, which fails in two ordinary cases:
+
+- a release is on moviesda *before* TMDB has artwork for it (routine for Tamil
+  releases in their first days), and
+- TMDB has no `poster_path` at all (common for older regional films).
+
+Either way the record stayed blank forever: `enrich.js` only looked at records
+with no `tmdbId`, so a matched-but-poster-less record was never revisited.
+
+Now:
+
+1. **The walker keeps the site's own poster.** Item pages carry
+   `<img src="/uploads/posters/romanchakam-2026.jpg">` — the page path minus its
+   type suffix. It is stored with the record, so a brand-new arrival has artwork
+   even when TMDB has nothing.
+2. **`npm run posters`** backfills every poster-less record from the same rule,
+   trying the page slug, the raw slug, the record id and `slugify(title)-year`.
+   Verified against the 360 site posters already in the vault: the first
+   candidate alone reproduces 98% of them. No API key needed, ~1 request per
+   candidate, and a 302 (`/movies.php`, the site's soft 404) means the film
+   genuinely has none — nothing is ever invented, and a network failure writes
+   nothing.
+3. **TMDB retries what it can still supply.** `needsMetadata` is now
+   `!tmdbId || !poster`, and a record that already has an id is refreshed with a
+   single `GET /movie/{id}` (exact, cannot mis-match). A failed year-guarded
+   search is retried once **without** the year, but only an exact title match is
+   accepted — ids are permanent, so a fuzzy match is worse than no match.
+4. Each nightly run also fills up to 60 missing posters (`--posters=N`), so this
+   keeps healing itself as the site publishes artwork.
 
 ### Reliability model (v2.1) — never miss a release because of a flaky request
 
@@ -270,6 +306,7 @@ legacy-id/year drifts and 4 embeds shared between two duplicate-film records
 | `src/enrich.js` | Backfill TMDB metadata with the key pool |
 | `data/liveness.json` | Per-record embed-check timestamps (nightly sweep bookkeeping) |
 | `config/page-aliases.json` | Hand-maintained: re-listed pages → the record they describe |
+| `src/posters.js` | The site's own posters — extract, derive, verify, backfill |
 | `src/titles.js` | Label/path → catalog-title hygiene (rejects non-items) |
 | `src/liveness.js` | Is this embed still playable? (live / dead / unknown) |
 | `src/refresh.js` | Prune confirmed-dead links, re-walk a record, the rolling sweep |

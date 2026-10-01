@@ -1,5 +1,45 @@
 # Changelog
 
+## v2.3.0 — posters from the site, and a second look at TMDB
+
+Missing posters had one cause with two faces: artwork came from TMDB alone, only
+at the moment a record was added. A release that hit moviesda before TMDB had
+artwork — and any record whose TMDB entry has no `poster_path` — stayed blank
+forever, because the "needs metadata" rule (`!tmdbId`) skipped every record that
+had already matched.
+
+### Fixed
+
+- **`needsMetadata` is `!tmdbId || !poster`.** A matched-but-poster-less record
+  is unfinished and is looked at again, by id (`GET /movie/{id}`, one call,
+  exact) when we know it.
+- **The walker stores the site's own poster.** Item pages carry
+  `/uploads/posters/<page-slug-minus-type>.jpg`; `posterFromHtml` picks it up, so
+  a new arrival has artwork even when TMDB has none yet.
+- **`npm run posters`** (new `--posters=N` mode, no API key): backfills missing
+  posters by deriving that URL — page slug, raw slug, record id,
+  `slugify(title)-year` — and verifying the response (200 + `image/*` + ≥1 KB
+  live; **302 → `/movies.php`, the site's soft 404 = the film has none**; a 5xx or
+  a network error is *unknown* and writes nothing). Measured on the live vault:
+  it fills 1 of 124 poster-less records today (the rest have no artwork anywhere),
+  and the first candidate reproduces 98% of the 360 site posters already stored.
+- **TMDB search retries once without the year**, accepting only an exact title
+  match: the path year is often wrong or missing, which used to cost a record its
+  metadata entirely — but ids are permanent, so a fuzzy match is still refused.
+- Each nightly run fills up to 60 missing posters (`--posters=N`, `VAULT_POSTERS_N`).
+
+### Added
+
+- `src/posters.js`, `test/posters.test.js`, `test/tmdb.test.js`; workflow
+  dispatch modes **`posters`** and **`enrich`**.
+- Run summary gained `postersFilled`; `[vault] posters: N filled · M not published
+  by the site · K unknown`.
+
+### Tests
+
+`node --test` — 83 tests (was 66).
+
+
 ## v2.2.0 — re-listed pages, dead-link sweep, junk titles
 
 Fixes three data bugs found in the live vault, and the class of bug behind each.

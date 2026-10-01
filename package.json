@@ -1,6 +1,6 @@
 {
   "name": "moviesda-vault",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "type": "module",
   "description": "Durable onestream-embed vault for moviesda \u2014 new-arrival detection, failure-aware retries, re-listed-page aliases and a nightly embed-liveness sweep",
   "scripts": {
@@ -14,7 +14,8 @@
     "ingest": "node src/ingest.js",
     "enrich": "node src/enrich.js",
     "repair": "node src/repair.js",
-    "liveness": "node src/cli.js --refresh=600"
+    "liveness": "node src/cli.js --refresh=600",
+    "posters": "node src/cli.js --posters=500"
   },
   "dependencies": {
     "cheerio": "^1.2.0"

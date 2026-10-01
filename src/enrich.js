@@ -14,7 +14,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { enrichWithTmdb, keyCount } from './tmdb.js';
+import { enrichWithTmdb, fetchByTmdbId, keyCount, needsMetadata } from './tmdb.js';
 
 function arg(name, fallback) {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
@@ -34,7 +34,9 @@ if (!keyCount()) {
 }
 
 const vault = JSON.parse(fs.readFileSync(VAULT_FILE, 'utf8'));
-const missing = vault.filter((m) => !m.tmdbId);
+// `!tmdbId || !poster`: a record TMDB matched but could not give artwork for
+// is retried — by id when we have one (exact, one call), by search otherwise.
+const missing = vault.filter(needsMetadata);
 const work = LIMIT ? missing.slice(0, LIMIT) : missing;
 console.log(`[enrich] TMDB keys: ${keyCount()} | records without tmdbId: ${missing.length} | this run: ${work.length}${DRY ? ' (dry)' : ''}`);
 
@@ -51,7 +53,7 @@ await Promise.all(Array.from({ length: Math.min(CONCURRENCY, work.length) }, asy
     const record = work[idx];
     let meta;
     try {
-      meta = await enrichWithTmdb({ title: record.title, year: record.year });
+      meta = record.tmdbId ? await fetchByTmdbId(record.tmdbId) : await enrichWithTmdb({ title: record.title, year: record.year });
     } catch {
       missed += 1;
       continue;

@@ -356,7 +356,7 @@ export function recordFromWalk(entry, walked, { id }) {
     ...(isSeries ? { kind: 'series' } : {}),
     pageUrl: entry.url,
     embeds: [],
-    poster: '',
+    poster: walked.poster || '',
     rating: 0,
     tmdbId: 0,
     imdbId: '',

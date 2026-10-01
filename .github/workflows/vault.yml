@@ -26,9 +26,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'incremental | sweep | letters'
+        description: 'incremental | sweep | letters | posters (site posters, no key needed) | enrich (TMDB metadata)'
         type: choice
-        options: [incremental, sweep, letters]
+        options: [incremental, sweep, letters, posters, enrich]
         default: incremental
         required: true
       letters:
@@ -129,6 +129,8 @@ jobs:
           case "$MODE" in
             letters) node src/cli.js "--letters=$LETTERS" ;;
             sweep)   node src/cli.js --sweep ;;
+            posters) node src/cli.js --posters=0 ;;   # 0 = every poster-less record
+            enrich)  node src/enrich.js --concurrency=6 ;;
             *)       node src/cli.js --incremental ;;
           esac 2>&1 | tee run.log
 

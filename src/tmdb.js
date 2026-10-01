@@ -18,6 +18,16 @@ export function keyCount() {
   return keys.length;
 }
 
+/**
+ * Which records still want a TMDB pass?
+ *
+ * A record with a `tmdbId` but no poster is NOT done: TMDB's poster_path was
+ * null when it was enriched (routine for a release in its first days), and the
+ * old rule (`!tmdbId`) meant those records were never looked at again. Only a
+ * record that has BOTH an id and a poster is finished.
+ */
+export const needsMetadata = (record = {}) => !record.tmdbId || !record.poster;
+
 /** Pause TMDB lookups briefly after repeated failures (be nice on 429s). */
 function backoffIfHot() {
   if (keys.length > 1) return;
@@ -58,17 +68,51 @@ async function tmdbGet(path, params = '') {
   }
 }
 
+const EMPTY = (year) => ({ tmdbId: 0, imdbId: '', poster: '', rating: 0, year: year || 0, matchedBy: '' });
+const normalise = (value) => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+/** Metadata for a record that already has a TMDB id: one call, exact match. */
+export async function fetchByTmdbId(tmdbId) {
+  if (!keys.length || !Number(tmdbId)) return null;
+  const hit = await tmdbGet(`/movie/${tmdbId}`, '');
+  if (!hit?.id) return null;
+  let imdbId = '';
+  try {
+    const ext = await tmdbGet(`/movie/${tmdbId}/external_ids`, '');
+    imdbId = ext?.imdb_id || '';
+  } catch { /* optional */ }
+  return {
+    tmdbId: hit.id,
+    imdbId,
+    poster: hit.poster_path ? `https://image.tmdb.org/t/p/w500${hit.poster_path}` : '',
+    rating: Number(hit.vote_average) || 0,
+    year: hit.release_date ? Number(hit.release_date.slice(0, 4)) || 0 : 0,
+    matchedBy: 'id',
+  };
+}
+
 /**
  * Enrich one movie: { title, year } → { tmdbId, imdbId, poster, rating, year }.
  * Search is year-guarded; the year is corrected from TMDB when the scrape
  * label had none.
+ *
+ * A year-guarded miss is retried ONCE without the year — but only an exact
+ * title (or original-title) match is accepted. The scrape's year comes from the
+ * page path and is often wrong or missing, which used to cost the record its
+ * metadata entirely; a fuzzy match would instead risk making it WRONG (the id
+ * is permanent), so anything less than an exact title is rejected.
  */
 export async function enrichWithTmdb({ title, year }) {
-  if (!keys.length || !title) return { tmdbId: 0, imdbId: '', poster: '', rating: 0, year: year || 0 };
-  const query = `&query=${encodeURIComponent(title)}${year ? `&year=${year}` : ''}`;
-  const search = await tmdbGet('/search/movie', query);
-  const hit = search?.results?.[0];
-  if (!hit) return { tmdbId: 0, imdbId: '', poster: '', rating: 0, year: year || 0 };
+  if (!keys.length || !title) return EMPTY(year);
+  const search = await tmdbGet('/search/movie', `&query=${encodeURIComponent(title)}${year ? `&year=${year}` : ''}`);
+  let hit = search?.results?.[0];
+  let matchedBy = hit ? 'year' : '';
+  if (!hit && year) {
+    const loose = await tmdbGet('/search/movie', `&query=${encodeURIComponent(title)}`);
+    hit = loose?.results?.find((r) => normalise(r.title) === normalise(title) || normalise(r.original_title) === normalise(title));
+    matchedBy = hit ? 'title' : '';
+  }
+  if (!hit) return EMPTY(year);
 
   let imdbId = '';
   try {
@@ -81,6 +125,8 @@ export async function enrichWithTmdb({ title, year }) {
     imdbId,
     poster: hit.poster_path ? `https://image.tmdb.org/t/p/w500${hit.poster_path}` : '',
     rating: Number(hit.vote_average) || 0,
-    year: hit.release_date ? Number(hit.release_date.slice(0, 4)) || year || 0 : year || 0,
+    // a title-only match must not rewrite the year: that hit may be a remake
+    year: matchedBy === 'title' ? year || 0 : (hit.release_date ? Number(hit.release_date.slice(0, 4)) || year || 0 : year || 0),
+    matchedBy,
   };
 }
