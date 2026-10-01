@@ -1,0 +1,45 @@
+{
+ "at": "2026-10-01T12:34:39.614Z",
+ "mode": "incremental",
+ "dry": false,
+ "strict": false,
+ "degraded": true,
+ "problems": [
+  "93% of 250 walked items came back empty — likely a site/walker shape change"
+ ],
+ "integrity": false,
+ "queued": 250,
+ "counts": {
+  "added": 18,
+  "merged": 0,
+  "unchanged": 0,
+  "empty": 232,
+  "failed": 0,
+  "skipped": 0,
+  "embeds": 151,
+  "series": 14,
+  "partial": 0
+ },
+ "failures": [],
+ "requests": 1189,
+ "http": {
+  "requests": 1189,
+  "retries": 14,
+  "mirrorRescues": 0,
+  "hardFailures": 0,
+  "hostDowns": 0,
+  "bytes": 7809512
+ },
+ "liveness": {
+  "checked": 600,
+  "live": 1593,
+  "dead": 0,
+  "unknown": 0,
+  "refreshed": 0,
+  "pruned": 0,
+  "stuck": 0
+ },
+ "vaultTotal": 2860,
+ "vaultEmbeds": 8134,
+ "minutes": 9
+}
