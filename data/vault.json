@@ -53038,6 +53038,22 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/78049"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/96718"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/96733"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/96731"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/96734"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/5Cdi9MFxEGsfphvDxV4TyY4znP6.jpg",
@@ -53045,7 +53061,7 @@
   "tmdbId": 904557,
   "imdbId": "tt15163652",
   "addedAt": "2026-09-28T08:37:06.143Z",
-  "updatedAt": "2026-09-28T09:02:12.750Z"
+  "updatedAt": "2026-10-02T21:09:21.601Z"
  },
  {
   "id": "thiraivi-2026",
@@ -54776,6 +54792,14 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/75353"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82227"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/82230"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/s2tP3R39ZWo8CN90GuBTMvmXiBW.jpg",
@@ -54783,7 +54807,7 @@
   "tmdbId": 927909,
   "imdbId": "tt14598638",
   "addedAt": "2026-09-28T08:55:31.196Z",
-  "updatedAt": "2026-09-28T09:04:45.233Z"
+  "updatedAt": "2026-10-02T21:10:04.426Z"
  },
  {
   "id": "tantiram-2023",
@@ -56314,6 +56338,14 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/57439"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/58402"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/58401"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/8CMnBbgO2q9j6QYNJMNc9RBGjfl.jpg",
@@ -56321,7 +56353,7 @@
   "tmdbId": 138952,
   "imdbId": "tt2199330",
   "addedAt": "2026-09-28T09:14:37.001Z",
-  "updatedAt": "2026-09-28T09:15:45.344Z"
+  "updatedAt": "2026-10-02T21:13:45.016Z"
  },
  {
   "id": "thagaraaru-2013",
@@ -56594,6 +56626,22 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/56156"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/56754"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/56755"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/56756"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/56753"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/3Wj2mfRTOqvDzJVdyJibrPkYiz.jpg",
@@ -56601,7 +56649,7 @@
   "tmdbId": 504227,
   "imdbId": "tt8011302",
   "addedAt": "2026-09-28T09:16:48.290Z",
-  "updatedAt": "2026-09-28T09:17:40.920Z"
+  "updatedAt": "2026-10-02T21:13:51.990Z"
  },
  {
   "id": "thuppakki-munai-2018",
