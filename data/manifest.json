@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-02T14:55:05.972Z",
- "vaultUpdatedAt": "2026-10-02T14:55:05.970Z",
+ "generatedAt": "2026-10-02T18:05:00.321Z",
+ "vaultUpdatedAt": "2026-10-02T18:05:00.317Z",
  "lastAddedAt": "2026-10-02T10:18:27.578Z",
  "records": 2864,
  "movies": 2806,
@@ -10,8 +10,8 @@
  "embeds": 8174,
  "emptyPages": 1179,
  "partialPages": 0,
- "bytes": 1939243,
- "sha256": "36123065611576d0d3ef08a5faf53af3ec452bec50a9d98962292d87db04dc25",
+ "bytes": 1940282,
+ "sha256": "b0ae354663bb16256b1b6635325fa7ce7fda37a28ab1caed2c553e9b3a5a6beb",
  "vault": "vault.json",
  "index": "index.json"
 }
