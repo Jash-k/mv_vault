@@ -1,45 +1,50 @@
 {
- "at": "2026-10-01T12:34:39.614Z",
+ "at": "2026-10-02T08:56:48.718Z",
  "mode": "incremental",
  "dry": false,
  "strict": false,
  "degraded": true,
  "problems": [
-  "93% of 250 walked items came back empty — likely a site/walker shape change"
+  "99% of 400 walked items came back empty — likely a site/walker shape change"
  ],
  "integrity": false,
- "queued": 250,
+ "queued": 400,
  "counts": {
-  "added": 18,
+  "added": 3,
   "merged": 0,
   "unchanged": 0,
-  "empty": 232,
+  "empty": 397,
   "failed": 0,
   "skipped": 0,
-  "embeds": 151,
-  "series": 14,
+  "embeds": 28,
+  "series": 1,
   "partial": 0
  },
  "failures": [],
- "requests": 1189,
+ "requests": 1526,
  "http": {
-  "requests": 1189,
-  "retries": 14,
+  "requests": 1526,
+  "retries": 0,
   "mirrorRescues": 0,
   "hardFailures": 0,
   "hostDowns": 0,
-  "bytes": 7809512
+  "bytes": 10236176
+ },
+ "posters": {
+  "filled": 0,
+  "absent": 121,
+  "unknown": 0
  },
  "liveness": {
   "checked": 600,
-  "live": 1593,
+  "live": 1623,
   "dead": 0,
   "unknown": 0,
   "refreshed": 0,
   "pruned": 0,
   "stuck": 0
  },
- "vaultTotal": 2860,
- "vaultEmbeds": 8134,
- "minutes": 9
+ "vaultTotal": 2863,
+ "vaultEmbeds": 8162,
+ "minutes": 4
 }
