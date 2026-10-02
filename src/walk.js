@@ -92,6 +92,10 @@ export function createWalk({ concurrency, debug = false } = {}) {
 
   /** Fetch HTML, memoised per URL for the lifetime of this walker. */
   function get(url) {
+    const parsed = new URL(url);
+    const allowed = new Set(String(process.env.VAULT_ALLOWED_HOSTS || 'moviesda34.com,moviezda.net,movies.downloadpage.xyz,download.moviespage.xyz').split(','));
+    if (!['http:', 'https:'].includes(parsed.protocol) || !allowed.has(parsed.hostname)) return Promise.reject(new Error(`Host not allowed: ${parsed.hostname}`));
+    if (Number(process.env.VAULT_DEADLINE_MS || Infinity) <= Date.now()) return Promise.reject(new Error('Run deadline reached'));
     if (!memo.has(url)) {
       memo.set(url, schedule(url).catch((error) => { memo.delete(url); throw error; }));
     }
@@ -171,7 +175,7 @@ const mapLimit = async (arr, k, fn) => {
   return out;
 };
 
-export const isSeriesUrl = (url) => /-web-series\/?$|-season-\d+\/?$/i.test(url.replace(/^https?:\/\/[^/]+/, ''));
+export const isSeriesUrl = (url) => /-web-series(?:-moviesda)?\/?$|-season-\d+\/?$/i.test(url.replace(/^https?:\/\/[^/]+/, ''));
 
 /**
  * Walk one WEB SERIES into season/episode form.
@@ -213,6 +217,7 @@ export async function walkSeries(url, { walk }) {
       const slugs = downloadSlugLinks(qfPage, new URL(qf.url).origin);
       for (const slug of slugs) {
         const episode = episodeOf(slug.href);
+        if (!episode) continue;
         // The 720p folder's episode slugs carry NO quality token
         // (/download/<show>-season-01-epi-06/ , label "…(Epi 06).mp4"), so a
         // naive read falls back to 'HD' and the preferred-quality filter then

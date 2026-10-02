@@ -1,5 +1,5 @@
 {
-  "_note": "Hand-maintained aliases. NOT machine-generated \u2014 safe to edit, and expected to change a few times a year.",
+  "_note": "Reviewed explicit alternate page paths. IDs never change. All paths for a record are retained and revisited; similarity alone is not proof of identity.",
   "_mergeInto": "page path \u2192 existing record id. The site re-lists a returning web series on a new page each season and sometimes drops the old path (the old page becomes a nav-only stub). List every page that describes the SAME record here: those pages are treated as already-known (never ingested as new items) and are used by the refresh pass as fallback URLs when a record's own pageUrl stops working. Episodes/embeds are unioned into the target record, so nothing is ever lost.",
   "_skipPaths": "Same as data/aliases.json: alternate URLs of titles already stored \u2014 never ingested.",
   "mergeInto": {
@@ -8,12 +8,5 @@
     "/bigg-boss-season-10-tamil-web-series/": "bigg-boss-season-10"
   },
   "skipPaths": [],
-  "families": {
-    "_note": "Series that return every year. A newly discovered series whose title matches a family is checked against that family's existing records and merged into the matching one instead of creating a near-duplicate.",
-    "bigg-boss": [
-      "bigg-boss-season-10",
-      "bigg-boss-2025"
-    ]
-  },
   "refreshHours": 24
 }

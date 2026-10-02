@@ -15,7 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { VAULT_FILE, STATE_FILE, STATS_FILE, readStats } from './store.js';
-import { INDEX_FILE, MANIFEST_FILE } from './manifest.js';
+import { INDEX_FILE, MANIFEST_FILE, buildIndex } from './manifest.js';
 import { slugify } from './http.js';
 
 const read = (file, fallback) => {
@@ -71,6 +71,7 @@ check('every id is a stable slug', vault.every((m) => /^[a-z0-9]+(-[a-z0-9]+)*$/
 const drifted = vault.filter((m) => m.id !== `${slugify(m.title)}${m.year ? `-${m.year}` : ''}`);
 const idDrift = drifted.map((m) => m.id);
 if (!allowlist) {
+  check('required frozen drift baseline exists', UPDATE_ALLOWLIST);
   console.log(`  note  ${idDrift.length} record(s) carry a legacy id that predates a TMDB year correction`);
   console.log('        (no data/known-drift.json yet — run: node src/verify.js --update-allowlist to freeze them and enable the gate)');
 } else {
@@ -83,6 +84,7 @@ check('every record carries the app fields', vault.every((m) => LEGACY_KEYS.ever
 check('titles are latin and not nav junk', vault.every((m) => /[a-z0-9]/i.test(m.title) && !m.title.startsWith('(')));
 check('pageUrls are absolute', vault.every((m) => /^https?:\/\//.test(m.pageUrl || '')));
 
+check('year and rating are finite numbers', vault.every(m => Number.isFinite(m.year) && Number.isFinite(m.rating)));
 console.log('\nEMBEDS');
 const embeds = vault.flatMap((m) => m.embeds || []);
 check('every record has at least one embed', vault.every((m) => m.embeds?.length));
@@ -165,6 +167,7 @@ console.log('\nDERIVED FILES');
 const manifest = read(MANIFEST_FILE, null);
 const index = read(INDEX_FILE, null);
 if (!manifest) {
+  check('required manifest exists', false);
   console.log('  note  data/manifest.json missing — run: node scripts/make-manifest.mjs');
 } else {
   check('manifest counters match the vault',
@@ -172,6 +175,7 @@ if (!manifest) {
     `${manifest.records}/${manifest.embeds}/${manifest.series}`);
   const rawHash = crypto.createHash('sha256').update(fs.readFileSync(VAULT_FILE)).digest('hex');
   check('manifest sha256 matches vault.json', manifest.sha256 === rawHash, `${String(manifest.sha256).slice(0, 12)}… vs ${rawHash.slice(0, 12)}…`);
+  check('browse index content matches vault', JSON.stringify(index) === JSON.stringify(buildIndex(vault)));
   check('browse index covers every record', Array.isArray(index) && index.length === vault.length, `${index?.length} vs ${vault.length}`);
 }
 

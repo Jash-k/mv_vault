@@ -1,3 +1,21 @@
+# v3.0.0 — two coordinated workflows, staged publishing
+
+- New current-year Tamil release / latest-series workflow, with ongoing-series and recent-movie refreshes.
+- Separate A–Z archive workflow with persisted letter/page cursor, pending item queue and retry state.
+- Shared concurrency, bounded requests/time, source canaries and weighted fair scheduling.
+- Complete candidate generation validation; no separate publication of state for rejected vault data.
+- Data-only normal fast-forward publisher; concurrent branch changes fail safely rather than overwriting code.
+- Canonical staged ingestion/enrichment/repair commands; dry runs do not change tracked data.
+- Fixed series maintenance result shape, retry ladder final rung, permanently dead transient failures, alias configuration, HTTP Retry-After and false host outages caused by 404s.
+- Strict index content verification; bundled legacy drift baseline (compatibility exceptions, not a metadata correctness certification).
+- Poster negative caching and fair selection; conservative movie/TV metadata matching.
+- Liveness uncertainty retained; pruning off by default and guarded when enabled.
+- Offline regression, HTTP fixture, end-to-end staging and temporary Git-remote tests.
+
+The earlier changelog below is historical and contains claims (including test counts) that did not match the reviewed v2 checkout. See TEST-RESULTS.md for this package's actual results.
+
+---
+
 # Changelog
 
 ## v2.3.0 — posters from the site, and a second look at TMDB

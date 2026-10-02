@@ -14,6 +14,7 @@
  * Only a server that answers (200-with-empty-body, or 404/410) may condemn a
  * link — otherwise a flaky connection would delete good links from the vault.
  */
+import { fetchBounded, requestSignal, readBody } from './http.js';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.VAULT_LIVENESS_TIMEOUT_MS || 15000);
 const MIN_LIVE_BYTES = Number(process.env.VAULT_LIVE_BYTES || 400);
@@ -26,10 +27,10 @@ export async function checkEmbed(url) {
   if (!embedId(url)) return { url, state: 'dead', reason: 'unrecognised embed url' };
   let res;
   try {
-    res = await fetch(url, {
+    res = await fetchBounded(url, {
       headers: { 'User-Agent': UA, Accept: 'text/html,*/*' },
       redirect: 'follow',
-      signal: AbortSignal.timeout(TIMEOUT_MS),
+      signal: requestSignal(TIMEOUT_MS),
     });
   } catch (error) {
     return { url, state: 'unknown', reason: error.message }; // never prune on this
@@ -39,11 +40,13 @@ export async function checkEmbed(url) {
   if (!res.ok) return { url, state: 'unknown', reason: `HTTP ${res.status}` };
   let body = '';
   try {
-    body = await res.text();
+    body = (await readBody(res)).toString('utf8');
   } catch (error) {
     return { url, state: 'unknown', reason: `body read failed: ${error.message}` };
   }
-  if (body.length < MIN_LIVE_BYTES) return { url, state: 'dead', reason: `empty player (${body.length} bytes)` };
+  if (!body.trim()) return { url, state: 'dead', reason: 'empty player' };
+  if (body.length < MIN_LIVE_BYTES || /just a moment|verify you are human|access denied/i.test(body)) return { url, state: 'unknown', reason: 'small/challenge document' };
+  if (!/<source[^>]+src\s*=|(?:file|src)\s*:\s*[\"'][^\"']+\.(?:m3u8|mp4)/i.test(body)) return { url, state: 'unknown', reason: 'No recognized player source' };
   return { url, state: 'live', bytes: body.length };
 }
 

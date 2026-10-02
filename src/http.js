@@ -37,7 +37,7 @@ const MIRROR_ENABLED = process.env.VAULT_MIRROR !== '0';
 const TIMEOUT_MS = Number(process.env.VAULT_TIMEOUT_MS || 12000);
 const ATTEMPTS = Math.max(1, Number(process.env.VAULT_ATTEMPTS || 3));
 const BACKOFF_MS = Math.max(100, Number(process.env.VAULT_BACKOFF_MS || 700));
-const MAX_RETRY_AFTER_MS = 30_000;
+const MAX_RETRY_AFTER_MS = 86_400_000;
 
 /** Statuses that mean "the page is gone" — never worth a second request. */
 const HARD_STATUS = new Set([400, 401, 403, 404, 405, 410, 451]);
@@ -51,7 +51,12 @@ const health = new Map(); // host → { fails, downUntil }
 /** Run-level counters, printed in the CLI summary and last-run.json. */
 export const httpStats = { requests: 0, retries: 0, mirrorRescues: 0, hardFailures: 0, hostDowns: 0, bytes: 0 };
 
-export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+export function requestSignal(timeoutMs = TIMEOUT_MS) {
+  const deadline = Number(process.env.VAULT_DEADLINE_MS || 0);
+  if (deadline && Date.now() >= deadline) throw new Error('Run deadline reached');
+  return AbortSignal.timeout(Math.max(1, Math.min(timeoutMs, deadline ? deadline - Date.now() : timeoutMs)));
+}
+export const sleep = (ms) => new Promise((r) => setTimeout(r, Math.max(0, Math.min(ms, Number(process.env.VAULT_DEADLINE_MS || Infinity) - Date.now()))));
 /** Polite pacing with jitter so the archive walk never looks like a flood. */
 export const politeDelay = () => sleep(Number(process.env.VAULT_DELAY_MS || 280) + Math.floor(Math.random() * 220));
 
@@ -110,48 +115,50 @@ export function mirrorUrlsFor(url) {
 }
 
 class HttpError extends Error {
-  constructor(message, status, { retryable = false } = {}) {
+  constructor(message, status, { retryable = false, headers = null } = {}) {
     super(message);
     this.name = 'HttpError';
     this.status = status;
     this.retryable = retryable;
+    this.headers = headers;
   }
 }
 
 /** One request, with its own attempt loop. Never called for a parked host. */
 async function requestOnce(url, referer) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  const signal = requestSignal(TIMEOUT_MS);
   try {
-    const res = await fetch(url, {
+    const res = await fetchBounded(url, {
       headers: referer ? { ...HEADERS, Referer: referer } : HEADERS,
       redirect: 'follow',
-      signal: controller.signal,
+      signal,
     });
-    httpStats.requests += 1;
     if (!res.ok) {
       const retryable = isRetryableStatus(res.status);
-      throw new HttpError(`HTTP ${res.status}`, res.status, { retryable });
+      await res.body?.cancel();
+      throw new HttpError(`HTTP ${res.status}`, res.status, { retryable, headers: res.headers });
     }
-    const body = await res.text();
+    const body = (await readBody(res, 4 * 1024 * 1024)).toString('utf8');
     httpStats.bytes += Buffer.byteLength(body);
     return body;
   } finally {
-    clearTimeout(timer);
+    // AbortSignal.timeout also bounds the body read.
   }
 }
 
-function retryAfterMs(error) {
+export function retryAfterMs(error) {
   const header = error?.headers?.get?.('retry-after');
   const seconds = Number(header);
-  if (!Number.isFinite(seconds) || seconds <= 0) return 0;
-  return Math.min(seconds * 1000, MAX_RETRY_AFTER_MS);
+  if (header == null) return 0;
+  const ms = Number.isFinite(seconds) ? seconds * 1000 : Date.parse(header) - Date.now();
+  return Number.isFinite(ms) ? Math.max(0, Math.min(ms, MAX_RETRY_AFTER_MS)) : 0;
 }
 
 /** Attempt loop for a single URL (no mirroring here). */
 async function fetchOneHost(url, { referer } = {}) {
   let lastError = new Error('not attempted');
   for (let attempt = 0; attempt < ATTEMPTS; attempt += 1) {
+    if (Number(process.env.VAULT_DEADLINE_MS || Infinity) <= Date.now()) throw new Error('Run deadline reached');
     try {
       const body = await requestOnce(url, referer);
       noteSuccess(url);
@@ -161,7 +168,7 @@ async function fetchOneHost(url, { referer } = {}) {
       const retryable = error instanceof HttpError ? error.retryable : true; // network/timeout
       if (!retryable) {
         httpStats.hardFailures += 1;
-        noteFailure(url); // a hard 404 is still a failure signal for the host
+        // A missing/forbidden item is not evidence that its host is offline.
         throw error;
       }
       if (attempt < ATTEMPTS - 1) {
@@ -186,6 +193,7 @@ export async function fetchWithRetry(url, { referer, allowDown = false } = {}) {
     // the host is known dead — do not spend attempts on it, go straight to the mirror
     const mirrors = mirrorUrlsFor(url);
     for (const mirror of mirrors) {
+      if (hostDownUntil(mirror)) continue;
       try {
         const body = await fetchOneHost(mirror, { referer });
         httpStats.mirrorRescues += 1;
@@ -201,6 +209,7 @@ export async function fetchWithRetry(url, { referer, allowDown = false } = {}) {
     const mirrors = mirrorUrlsFor(url);
     if (!mirrors.length) throw error;
     for (const mirror of mirrors) {
+      if (hostDownUntil(mirror)) continue;
       try {
         const body = await fetchOneHost(mirror, { referer });
         httpStats.mirrorRescues += 1;
@@ -256,4 +265,42 @@ export function parseTitleYear(label = '') {
   const year = Number(text.match(/\((19|20)\d{2}\)/)?.[0]?.replace(/[()]/g, '')) || 0;
   const title = text.replace(/\((19|20)\d{2}\)/g, '').replace(/\s+/g, ' ').trim();
   return { title, year };
+}
+
+
+const paced = new Map();
+export async function fetchBounded(input, options = {}) {
+  let url = new URL(input);
+  const allowed = new Set(String(process.env.VAULT_ALLOWED_HOSTS || 'moviesda34.com,moviezda.net,movies.downloadpage.xyz,download.moviespage.xyz,play.onestream.today,api.themoviedb.org').split(','));
+  for (let hop = 0; hop < 6; hop++) {
+    if (!['http:', 'https:'].includes(url.protocol) || !allowed.has(url.hostname)) throw new Error(`Unapproved request/redirect host: ${url.hostname}`);
+    if (httpStats.requests >= Number(process.env.VAULT_MAX_REQUESTS || 100000)) throw new Error('Request budget exhausted');
+    httpStats.requests++; // reserve before awaiting so concurrent workers cannot overshoot
+    const interval = Number(process.env.VAULT_MIN_INTERVAL_MS ?? 120);
+    const slot = Math.max(Date.now(), paced.get(url.host) || 0);
+    paced.set(url.host, slot + interval);
+    await sleep(slot - Date.now());
+    const signal = requestSignal(Number(process.env.VAULT_TIMEOUT_MS || 15000));
+    const res = await fetch(url, { ...options, redirect: 'manual', signal: options.signal ? AbortSignal.any([options.signal, signal]) : signal });
+    if (res.status >= 300 && res.status < 400 && options.redirect !== 'manual' && res.headers.get('location')) {
+      await res.body?.cancel();
+      url = new URL(res.headers.get('location'), url); continue;
+    }
+    return res;
+  }
+  throw new Error('Too many redirects');
+}
+
+/** Bounded body read; reject oversize documents instead of accepting a truncated parser result. */
+export async function readBody(res, maxBytes = 4 * 1024 * 1024) {
+  if (!res.body) return Buffer.alloc(0);
+  const reader = res.body.getReader(), chunks = []; let bytes = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read(); if (done) break;
+      bytes += value.length; if (bytes > maxBytes) throw new Error('Response body exceeds size budget');
+      chunks.push(value);
+    }
+    return Buffer.concat(chunks);
+  } finally { await reader.cancel().catch(() => {}); }
 }

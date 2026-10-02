@@ -4,3 +4,7 @@ node_modules/
 .env*.local
 .DS_Store
 npm-debug.log*
+
+.runs/
+.data-backup/
+.data-ready/

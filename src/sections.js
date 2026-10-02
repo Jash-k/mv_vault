@@ -78,12 +78,12 @@ export async function listSeries({ walk, maxPages = 2 } = {}) {
 }
 
 export function kindOfPath(path = '') {
-  if (/-web-series\/$/.test(path) || /-tamil-season-\d+\/?$/.test(path)) return 'series';
+  if (/-web-series(?:-moviesda)?\/?$/.test(path) || /-season-\d+\/?$/.test(path)) return 'series';
   return 'movie';
 }
 
 export function isItemPath(path = '') {
-  return ITEM_RX.test(path) && !NOT_AN_ITEM.test(path);
+  return (ITEM_RX.test(path) || /-(?:tamil-)?movie-\d+\/$|-moviesda(?:-page)?\/$/.test(path)) && !NOT_AN_ITEM.test(path);
 }
 
 export const SECTIONS = [

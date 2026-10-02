@@ -27,7 +27,7 @@
  * The safety rule is the same as the embed sweep: a network failure is UNKNOWN
  * and writes nothing. Only an answer from the server may change a record.
  */
-import { slugify } from './http.js';
+import { slugify, requestSignal, fetchBounded, readBody } from './http.js';
 
 const POSTER_HOST = (process.env.VAULT_POSTER_HOST || 'https://moviezda.net').replace(/\/$/, '');
 const TYPE_SUFFIX = /-(?:tamil-)?web-series$|-tamil-season-\d+$|-tamil-dubbed-movie$|-(?:tamil-)?movie-moviesda$|-(?:tamil-)?moviesda$|-tamil-movie$|-movie$/;
@@ -72,7 +72,7 @@ export function posterFromHtml(html = '', base = '') {
   const text = String(html);
   // 1. the poster <img> the page renders ("… - Tamil Movie Poster")
   const img = text.match(/<img[^>]+src=["']([^"']*\/uploads\/posters\/[^"']+)["']/i)?.[1];
-  if (img) return `${POSTER_HOST}${img.startsWith('/') ? '' : '/'}${img.replace(/^https?:\/\/[^/]+/, '')}`;
+  if (img) return new URL(new URL(img, POSTER_HOST).pathname, POSTER_HOST).href;
   // 2. an og:image pointing at the poster folder
   const og = text.match(/<meta[^>]+(?:property|name)=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1]
     || text.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']og:image["']/i)?.[1];
@@ -90,21 +90,24 @@ export function posterFromHtml(html = '', base = '') {
  * Is this poster URL real? `state`: 'live' | 'absent' | 'unknown'.
  * `absent` is the site's soft 404 (302) as well as a hard 404/410.
  */
-export async function verifyPoster(url, { fetchImpl = fetch, timeoutMs = 15000 } = {}) {
+export async function verifyPoster(url, { fetchImpl = fetchBounded, timeoutMs = 15000 } = {}) {
   try {
     const res = await fetchImpl(url, {
       redirect: 'manual', // the site answers "no poster" with a 302 to movies.php
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126 Safari/537.36', Accept: 'image/*,*/*' },
-      signal: AbortSignal.timeout(timeoutMs),
+      signal: requestSignal(timeoutMs),
     });
     const status = res.status;
     // 302 → /movies.php is the site's soft 404; 404/410 are the hard kind
     if (status === 404 || status === 410 || status === 204) return { url, state: 'absent', reason: `HTTP ${status}` };
-    if (status >= 300 && status < 400) return { url, state: 'absent', reason: `HTTP ${status} (not published)` };
+    if (status >= 300 && status < 400) {
+      const location = new URL(res.headers.get('location') || '/', url);
+      return { url, state: location.pathname === '/movies.php' ? 'absent' : 'unknown', reason: `HTTP ${status} redirect` };
+    }
     // a 5xx is a broken server, NOT "this film has no poster" — never write on it
     if (!res.ok) return { url, state: 'unknown', reason: `HTTP ${status}` };
     const type = res.headers.get('content-type') || '';
-    const bytes = res.body ? (await res.arrayBuffer()).byteLength : 0;
+    const bytes = res.body ? (await readBody(res, 5 * 1024 * 1024)).byteLength : 0;
     if (!type.startsWith('image/')) return { url, state: 'absent', reason: `not an image (${type || 'no type'})` };
     if (bytes < MIN_POSTER_BYTES) return { url, state: 'absent', reason: `too small (${bytes} bytes)` };
     return { url, state: 'live', bytes, type };
@@ -121,13 +124,14 @@ export async function verifyPoster(url, { fetchImpl = fetch, timeoutMs = 15000 }
  *
  * @returns { checked, filled, absent, unknown }
  */
-export async function backfillPosters(vault, { limit = 0, concurrency = 8, onProgress = null, fetchImpl = fetch } = {}) {
+export async function backfillPosters(vault, { limit = 0, concurrency = 8, onProgress = null, fetchImpl = fetchBounded } = {}) {
   const stats = { checked: 0, filled: 0, absent: 0, unknown: 0 };
   const targets = vault.filter((m) => !m.poster && (m.pageUrl || m.id));
   const work = limit ? targets.slice(0, limit) : targets;
   let cursor = 0;
   await Promise.all(Array.from({ length: Math.max(1, Math.min(concurrency, work.length)) }, async () => {
     while (cursor < work.length) {
+      if (Number(process.env.VAULT_DEADLINE_MS || Infinity) <= Date.now()) break;
       const record = work[cursor++];
       for (const url of posterUrls(record)) {
         const verdict = await verifyPoster(url, { fetchImpl });

@@ -49,6 +49,7 @@ export function pruneDeadEmbeds(record, deadUrls = []) {
 
   const before = record.embeds.length;
   record.embeds = remaining;
+  record.updatedAt = new Date().toISOString();
   if (Array.isArray(record.seasons)) {
     for (const season of record.seasons) {
       for (const episode of season.episodes) episode.embeds = (episode.embeds || []).filter((e) => !dead.has(urlOf(e)));
@@ -69,8 +70,8 @@ export async function refreshRecord(record, { walk, pageAliases = {}, walkPage =
   for (const url of resolvePageUrls(record, pageAliases)) {
     try {
       const walked = await walkPage(url, { walk });
-      const embeds = walked.embeds?.length || walked.seasons?.length;
-      tried.push({ url, embeds: embeds ? walked.embeds.length : 0, partial: walked.partial === true });
+      const embeds = walked.embeds?.length || (walked.seasons || []).reduce((n, s) => n + (s.episodes || []).reduce((a, ep) => a + (ep.embeds || []).length, 0), 0);
+      tried.push({ url, embeds, partial: walked.partial === true });
       if (embeds) return { url, walked, tried };
     } catch (error) {
       tried.push({ url, error: error.message });

@@ -57,8 +57,10 @@ export function buildManifest(vault, stats, bytes = Buffer.alloc(0)) {
 export function writeDerived(vault, stats, { quiet = true } = {}) {
   const bytes = fs.readFileSync(VAULT_FILE);
   const manifest = buildManifest(vault, stats, bytes);
-  fs.writeFileSync(INDEX_FILE, `${JSON.stringify(buildIndex(vault))}\n`);
-  fs.writeFileSync(MANIFEST_FILE, `${JSON.stringify(manifest, null, 1)}\n`);
+  fs.writeFileSync(`${INDEX_FILE}.tmp`, `${JSON.stringify(buildIndex(vault))}\n`);
+  fs.renameSync(`${INDEX_FILE}.tmp`, INDEX_FILE);
+  fs.writeFileSync(`${MANIFEST_FILE}.tmp`, `${JSON.stringify(manifest, null, 1)}\n`);
+  fs.renameSync(`${MANIFEST_FILE}.tmp`, MANIFEST_FILE);
   if (!quiet) {
     const kb = (n) => `${(n / 1024).toFixed(0)} KB`;
     console.log(`[manifest] index ${kb(fs.statSync(INDEX_FILE).size)} · sha256 ${manifest.sha256.slice(0, 12)}… · last added ${manifest.lastAddedAt || '—'}`);

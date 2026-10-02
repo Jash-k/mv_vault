@@ -30,7 +30,7 @@ const JUNK = /(hd|dvd|web|blu|x264|rip|predvd|cam|1080p|720p|480p|360p|original|
 // Section/nav pages masquerading as items, e.g. /tamil-2025-movies-tamil-movie/
 const NOT_AN_ITEM = /^\/tamil-\d{4}-movies/;
 
-const TYPE_SUFFIX = /-(?:tamil-)?web-series$|-tamil-season-\d+$|-tamil-dubbed-movie$|-tamil-movie-moviesda$|-movie-moviesda$|-tamil-movie$|-movie$/;
+const TYPE_SUFFIX = /-(?:tamil-)?web-series$|-tamil-season-\d+$|-tamil-dubbed-movie$|-tamil-movie-moviesda$|-movie-moviesda$|-tamil-movie$|-movie$|-(?:tamil-)?movie-\d+$|-moviesda(?:-page)?$/;
 const LANG_TAIL = /-(?:tamil|telugu|hindi|malayalam|kannada|english|dubbed|hd|hq|original|proper|predvd|dvdrip|hdrip|tvrip|webrip|bluray|1080p|720p|480p|360p)+$/i;
 const YEAR_RX = /(19\d{2}|20[0-3]\d)/;
 

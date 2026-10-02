@@ -40,8 +40,9 @@ export const pathOf = (value) => {
 export function loadAliases(file) {
   try {
     const parsed = JSON.parse(readFileSync(file, 'utf8'));
-    return Array.isArray(parsed.skipPaths) ? parsed.skipPaths.map(pathOf) : [];
-  } catch { return []; }
+    if (!Array.isArray(parsed.skipPaths) || !parsed.skipPaths.every(p => typeof p === 'string' && p.startsWith('/'))) throw new Error('skipPaths must be an array of absolute paths');
+    return parsed.skipPaths.map(pathOf);
+  } catch (error) { throw new Error(`Cannot load required aliases: ${error.message}`); }
 }
 
 /** The hand-maintained alias config: config/page-aliases.json. */
@@ -49,15 +50,22 @@ export const PAGE_ALIAS_FILE = new URL('../config/page-aliases.json', import.met
 export function loadPageAliases(file = PAGE_ALIAS_FILE) {
   try {
     const parsed = JSON.parse(readFileSync(file, 'utf8'));
+    if (!parsed.mergeInto || Array.isArray(parsed.mergeInto) || typeof parsed.mergeInto !== 'object') throw new Error('mergeInto must be a path-to-ID object');
+    if (!Array.isArray(parsed.skipPaths) || !parsed.skipPaths.every(p => typeof p === 'string' && p.startsWith('/'))) throw new Error('Invalid skipPaths');
+    if (!Number.isFinite(Number(parsed.refreshHours ?? 24)) || Number(parsed.refreshHours ?? 24) < 1 || Number(parsed.refreshHours ?? 24) > 720) throw new Error('refreshHours must be 1..720');
+    if (parsed.origin && !['https://moviesda34.com', 'https://moviezda.net'].includes(parsed.origin)) throw new Error('Invalid alias origin');
+    for (const [p, id] of Object.entries(parsed.mergeInto)) if (!p.startsWith('/') || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) throw new Error('Invalid alias path/ID');
     const mergeInto = {};
     for (const [path, id] of Object.entries(parsed.mergeInto || {})) mergeInto[pathOf(path)] = id;
     return {
       mergeInto,
       skipPaths: Array.isArray(parsed.skipPaths) ? parsed.skipPaths.map(pathOf) : [],
       families: parsed.families || {},
+      refreshHours: Number(parsed.refreshHours ?? 24),
+      origin: parsed.origin || 'https://moviesda34.com',
     };
-  } catch {
-    return { mergeInto: {}, skipPaths: [], families: {} };
+  } catch (error) {
+    throw new Error(`Cannot load required page aliases: ${error.message}`);
   }
 }
 
@@ -107,7 +115,7 @@ export function knownPaths({ state = {}, vault = [], aliases = [], pageAliases =
   const known = new Set();
   for (const url of Object.keys(state.done || {})) known.add(pathOf(url));
   for (const record of vault) if (record?.pageUrl) known.add(pathOf(record.pageUrl));
-  for (const path of aliases) known.add(pathOf(path));
+  for (const path of [...aliases, ...(pageAliases.skipPaths || [])]) known.add(pathOf(path));
   for (const path of aliasPaths(pageAliases)) known.add(pathOf(path));
   return known;
 }
@@ -125,7 +133,8 @@ export function dueForRetry({ state = {}, vault = [], aliases = [] } = {}, now =
   const out = [];
   for (const [url, entry] of Object.entries(state.done || {})) {
     const path = pathOf(url);
-    if (stored.has(path)) continue; // it has embeds now; nothing to recover
+    const existing = vault.find(r => pathOf(r.pageUrl) === path);
+    if (stored.has(path) && !entry.failures && !entry.empty) continue;
     if (aliases.includes(path)) continue; // known alternate URL, never ingest
     const status = retryStatus(entry, now);
     if (!status.due || status.dead) continue;
@@ -135,6 +144,7 @@ export function dueForRetry({ state = {}, vault = [], aliases = [] } = {}, now =
       label: '',
       kind: /-web-series\/$|-tamil-season-\d+\/?$/.test(path) ? 'series' : 'movie',
       source: `retry:${status.attempt + 1}`,
+      ...(existing ? { id: existing.id, title: existing.title, year: existing.year, kind: existing.kind || 'movie', locked: true } : {}),
       attempt: status.attempt,
       dueAt: entry.retryAfter || entry.at || '',
     });
@@ -202,7 +212,7 @@ export function assessDiscovery({ mode = 'incremental', sources = {}, fresh = 0 
   }
   if (mode === 'sweep') {
     const listings = asCount(sources.listings);
-    if (listings === 0 && asCount(sources.sections) === 0) problems.push('sweep listings returned nothing');
+    if (asCount(sources.sections) <= 0) problems.push('sweep listings returned nothing');
   }
   return { degraded: problems.length > 0, problems, fresh };
 }

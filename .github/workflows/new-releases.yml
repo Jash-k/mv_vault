@@ -1,0 +1,46 @@
+name: New Tamil releases and series
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Releases or bounded maintenance
+        type: choice
+        options: [releases, posters, enrich, liveness]
+        default: releases
+      dry:
+        description: Validate candidate without publishing (recommended first run)
+        type: boolean
+        default: true
+      max_items:
+        description: Optional item limit (1–2000)
+        type: string
+        default: ''
+      budget_min:
+        description: Optional budget in minutes (1–45)
+        type: string
+        default: ''
+permissions:
+  contents: write
+# MUST match archive-az.yml; never cancel a publishing run.
+concurrency:
+  group: vault-writer-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - uses: ./.github/actions/vault-run
+        with:
+          mode: ${{ inputs.mode || 'releases' }}
+          dry: ${{ inputs.dry && 'true' || 'false' }}
+          max-items: ${{ inputs.max_items }}
+          budget-min: ${{ inputs.budget_min }}
+          tmdb-keys: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}

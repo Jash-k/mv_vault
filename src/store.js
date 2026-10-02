@@ -30,7 +30,10 @@ export const RUN_FILE = path.join(DATA_DIR, 'last-run.json');
 export const LIVENESS_FILE = path.join(DATA_DIR, 'liveness.json');
 
 const readJson = (file, fallback) => {
-  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; }
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (error) {
+    if (error.code === 'ENOENT' && ![VAULT_FILE, STATE_FILE].includes(file)) return fallback;
+    throw new Error(`Cannot load required data ${file}: ${error.message}`);
+  }
 };
 
 /** Write JSON atomically: a reader sees either the old file or the new one. */
@@ -47,7 +50,9 @@ export function loadData() {
   state.done = state.done || {};
   state.letters = state.letters || {};
   const vault = readJson(VAULT_FILE, []);
-  return { state, vault: Array.isArray(vault) ? vault : [] };
+  if (!Array.isArray(vault) || !vault.length) throw new Error('vault must be a non-empty array');
+  if (!state.done || Array.isArray(state.done) || typeof state.done !== 'object') throw new Error('Invalid state.done');
+  return { state, vault };
 }
 
 export function buildStats(vault = [], state = {}) {
@@ -83,12 +88,7 @@ export function saveAll({ state, vault }) {
   writeJson(STATE_FILE, state);
   const stats = buildStats(vault, state);
   writeJson(STATS_FILE, stats);
-  try {
-    writeDerived(vault, stats);
-  } catch (error) {
-    // derived files are a convenience — never fail a run over them
-    console.warn(`[vault] derived files not written: ${error.message}`);
-  }
+  writeDerived(vault, stats);
   return stats;
 }
 
@@ -200,6 +200,8 @@ export function findSeriesTwin(vault, record) {
   for (const candidate of vault) {
     if (candidate?.kind !== 'series' || candidate.id === record.id) continue;
     if (normalise(candidate.title) !== myTitle) continue;
+    const urls = new Set((record.embeds || []).map(e => e.url));
+    if (!(candidate.embeds || []).some(e => urls.has(e.url))) continue;
 
     // A re-listed SEASON must never be unioned into a different season of the
     // same show. "Bigg Boss Season 9" (106 episodes) shares episode numbers 6..25
@@ -244,6 +246,7 @@ export function upsertRecord(vault, record) {
   if (record.kind === 'series' || record.seasons?.length) {
     existing.kind = 'series';
     existing.seasons = mergeSeasons(existing.seasons, record.seasons || []);
+    existing.embeds = existing.seasons.flatMap(s => s.episodes.flatMap(ep => ep.embeds.map(e => ({ ...e, season: s.season, episode: ep.episode }))));
   }
   // fill metadata gaps without ever downgrading what is already there
   for (const key of ['poster', 'imdbId']) if (!existing[key] && record[key]) existing[key] = record[key];
@@ -298,12 +301,12 @@ export function markEmpty(state, url, { kind } = {}) {
 export function markFailed(state, url, { kind, error } = {}) {
   const previous = state.done[url] || {};
   const failures = Number(previous.failures || 0) + 1;
-  const dead = failures >= MAX_FAILURES;
+  const dead = false; // transient/global failures must never retire a page permanently
   state.done[url] = {
     at: new Date().toISOString(),
     empty: true,                  // still "tracked, not stored"
     retries: Number(previous.retries || 0), // ladder position is UNCHANGED
-    retryAfter: nextFailureAt(),
+    retryAfter: new Date(Date.now() + Math.min(24 * 60, 90 * 2 ** Math.min(failures - 1, 4)) * 60000).toISOString(),
     failures,
     ...(dead ? { dead: true } : {}),
     ...(error ? { lastError: String(error).slice(0, 160) } : {}),
@@ -321,7 +324,7 @@ export function markPartial(state, url, { kind, embeds, failures } = {}) {
     at: new Date().toISOString(),
     embeds: Number(embeds || 0),
     partial: true,
-    rechecks: Number(state.done[url]?.rechecks || 0) + 1,
+    rechecks: Number(state.done[url]?.rechecks || 0) + (state.done[url]?.partial ? 1 : 0),
     failures: Number(failures || 0),
     ...(kind ? { kind } : {}),
   };

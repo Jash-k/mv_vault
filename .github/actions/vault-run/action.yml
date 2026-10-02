@@ -1,0 +1,75 @@
+name: Validated vault update
+description: Prepare a complete candidate, validate it, then publish data-only
+inputs:
+  mode:
+    required: true
+    description: releases, archive, posters, enrich, or liveness
+  dry:
+    default: 'false'
+    description: Prepare and validate without publishing
+  max-items:
+    default: ''
+    description: Optional bounded item override
+  budget-min:
+    default: ''
+    description: Optional bounded time override
+  tmdb-keys:
+    default: ''
+    description: Optional TMDB credentials
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+      with:
+        node-version: '22'
+        cache: npm
+    - name: Install exact dependencies
+      shell: bash
+      run: npm ci --ignore-scripts
+    - name: Offline regression tests and existing-data verification
+      shell: bash
+      run: |
+        npm test
+        npm run verify
+    - name: Prepare validated generation
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+        DRY: ${{ inputs.dry }}
+        MAX_ITEMS: ${{ inputs.max-items }}
+        BUDGET: ${{ inputs.budget-min }}
+        TMDB_KEYS: ${{ inputs.tmdb-keys }}
+      run: |
+        args=("--mode=$MODE" --prepare)
+        if [ "$DRY" = true ]; then args+=(--dry); fi
+        if [ -n "$MAX_ITEMS" ]; then args+=("--max-items=$MAX_ITEMS"); fi
+        if [ -n "$BUDGET" ]; then args+=("--budget-min=$BUDGET"); fi
+        node scripts/run-job.mjs "${args[@]}"
+    - name: Publish validated data only
+      if: inputs.dry != 'true'
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+        VAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      run: node scripts/publish.mjs "$MODE"
+    - name: Run summary
+      if: always()
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+      run: node scripts/summary.mjs "$MODE"
+    - name: Retain candidate and diagnostics
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      with:
+        name: vault-${{ inputs.mode }}-${{ github.run_id }}-${{ github.run_attempt }}
+        path: .runs/${{ inputs.mode }}/
+        include-hidden-files: true
+        if-no-files-found: warn
+        retention-days: 14
+    - name: Explicit final health status
+      shell: bash
+      env:
+        MODE: ${{ inputs.mode }}
+      run: |
+        node --input-type=module -e 'import fs from "node:fs"; const r=JSON.parse(fs.readFileSync(`.runs/${process.env.MODE}/READY.json`)); if(r.degraded) { console.error("Safe progress was retained, but source/item health was degraded. Inspect the report."); process.exit(2); }'

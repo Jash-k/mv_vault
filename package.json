@@ -1,26 +1,28 @@
 {
   "name": "moviesda-vault",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "type": "module",
-  "description": "Durable onestream-embed vault for moviesda \u2014 new-arrival detection, failure-aware retries, re-listed-page aliases and a nightly embed-liveness sweep",
+  "description": "Two coordinated workflows: current-year Tamil releases and resumable A\u2013Z archive",
   "scripts": {
-    "test": "node --test",
+    "test": "node scripts/test.mjs",
     "verify": "node src/verify.js",
-    "check": "node src/verify.js",
+    "check": "node scripts/check.mjs",
     "manifest": "node scripts/make-manifest.mjs",
     "scrape": "node src/cli.js",
-    "incremental": "node src/cli.js --incremental",
-    "sweep": "node src/cli.js --sweep",
+    "incremental": "node scripts/run-job.mjs --mode=releases",
+    "sweep": "node scripts/run-job.mjs --mode=archive",
     "ingest": "node src/ingest.js",
     "enrich": "node src/enrich.js",
     "repair": "node src/repair.js",
-    "liveness": "node src/cli.js --refresh=600",
-    "posters": "node src/cli.js --posters=500"
+    "liveness": "node scripts/run-job.mjs --mode=liveness",
+    "posters": "node scripts/run-job.mjs --mode=posters",
+    "releases": "node scripts/run-job.mjs --mode=releases",
+    "archive": "node scripts/run-job.mjs --mode=archive"
   },
   "dependencies": {
     "cheerio": "^1.2.0"
   },
   "engines": {
-    "node": ">=20.18.1"
+    "node": ">=22.0.0"
   }
 }

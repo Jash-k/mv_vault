@@ -60,17 +60,18 @@ export function nextFailureAt(now = Date.now()) {
 export function retryStatus(entry, now = Date.now()) {
   if (!entry || !entry.empty) return { due: false, attempt: 0 };
   const attempt = Number(entry.retries || 0);
-  if (entry.dead) return { due: false, attempt, dead: true };
+  // Legacy dead pages are probationary, not permanently excluded.
+  if (entry.dead) return { due: now >= (Date.parse(entry.at || '') || 0) + 7 * DAY_MS, attempt, dead: false };
 
   // Explicit decision (v2.1+): one comparison, no drift.
   if (entry.retryAfter) {
     const at = Date.parse(entry.retryAfter) || 0;
-    if (attempt >= RETRY_HOURS.length) return { due: false, attempt };
+    // The final 30-day rung repeats; pages may become available much later.
     return { due: now >= at, attempt, at };
   }
 
   // Legacy entries: no retryAfter, maybe no counter at all.
-  if (attempt >= RETRY_HOURS.length) return { due: false, attempt };
+  // The final 30-day rung repeats; pages may become available much later.
   const last = Date.parse(entry.at || '') || 0;
   if (!last) return { due: true, attempt }; // unknown age → try it
   // Legacy entries (written before v2.0) have no counter at all: give them the
@@ -83,9 +84,9 @@ export function retryStatus(entry, now = Date.now()) {
 export function partialStatus(entry, now = Date.now()) {
   if (!entry || !entry.partial) return { due: false, rechecks: 0 };
   const rechecks = Number(entry.rechecks || 0);
-  if (rechecks >= MAX_PARTIAL_RECHECKS) return { due: false, rechecks };
+  // Keep partial work recoverable; use a slower cadence after repeated attempts.
   const last = Date.parse(entry.at || '') || 0;
-  return { due: !last || now - last >= PARTIAL_RECHECK_HOURS * HOUR_MS, rechecks };
+  return { due: !last || now - last >= Math.min(168, PARTIAL_RECHECK_HOURS * Math.max(1, rechecks)) * HOUR_MS, rechecks };
 }
 
 /** Human-readable ladder, for logs and the README. */
