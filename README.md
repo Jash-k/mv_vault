@@ -1,160 +1,193 @@
-# mv_vault · two-workflow edition (v3.0.0)
+# mv_vault
 
-A staged, resumable update pipeline for the existing Tamil movie/series JSON vault.
+Two flows. One run each. Nothing else.
 
-**Two production workflows, one shared publisher:**
+| Flow | What it checks | Schedule (UTC / IST) |
+|---|---|---|
+| `new-releases.yml` | `/tamil-2026-movies/` **and** `/tamil-2027-movies/` (all pages each) **and** `/tamil-web-series-download/` (latest 3 pages) | 00:17, 06:17, 12:17, 18:17 / 05:47, 11:47, 17:47, 23:47 |
+| `az-archive.yml` | `/tamil-movies/<letter>/?page=N` from a saved cursor, continuing through the letters in the same run | 19:43 / 01:13 next day |
+| `tmdb-backfill.yml` | nothing on the site — fills poster/rating/`tmdbId`/`imdbId` for records that are missing them | manual, on demand |
 
-| Workflow | Discovery | Schedule (UTC / IST) | Default budget |
-|---|---|---|---|
-| `new-releases.yml` | Current-year Tamil movies + latest Tamil series | 00:17, 06:17, 12:17, 18:17 UTC / 05:47, 11:47, 17:47, 23:47 IST | 20 min, 100 items |
-| `archive-az.yml` | A–Z Tamil movie listing with persistent page/item queue | 19:43 UTC / 01:13 IST next day | 40 min, 150 items |
+Each scrape run does exactly one thing: **discover → walk → merge → commit**.
+There is no queue file, no candidate/staging copy, no artifact, no second job.
+The log of the run *is* the report.
 
-A separate **read-only CI workflow** runs offline regression tests on code changes and PRs. It does not scrape or publish.
+**Years are automatic.** The releases flow always reads the current year *and*
+the next one, so nothing needs changing at the rollover: `/tamil-2027-movies/`
+already exists as a placeholder page, costs one request while empty, and is
+picked up the moment a title lands in it. Use `--year=2027` (or the `year` input
+in the Actions tab) to run exactly one year by hand.
 
-## Upgrade first — important
+## Files (this is the whole repo)
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for the complete checklist.
-
-1. Back up the repository and current `data/` before upgrading.
-2. **Delete the old `.github/workflows/vault.yml`.** Extracting a ZIP over a checkout does not delete obsolete files. Leaving the old scheduled workflow active defeats the shared-writer safety.
-3. Copy the new source/config/scripts/tests/workflows. Preserve your newest production data, especially if it has advanced since this ZIP's snapshot.
-4. Add the supplied `data/known-drift.json` and `data/aliases.json` if absent. The drift file records the supplied snapshot's legacy exceptions; it is **not a claim that those metadata matches are correct**. New exceptions need review.
-5. Install **Node 22**, then `npm ci --ignore-scripts` and `npm run check`.
-6. Commit the upgrade to the default branch. Run both workflows manually with **dry=true**, small item limits and a short budget. Inspect artifacts before enabling publishing.
-
-Use only with sources/content you are permitted to access. Respect source terms and rate limits. The scraper does not bypass login, DRM, CAPTCHAs or anti-bot challenges; unrecognized/error pages are treated as uncertain and reported.
-
-## What the release workflow does
-
-- Visits `/tamil-2026-movies/` in 2026; year rollover is automatic. Set `releaseYear: 2026` to pin it instead.
-- During January/February, also checks the previous year by default.
-- Refreshes the first year-listing page every run and traverses deeper pages using its own persisted cursor.
-- Visits the latest three series-listing pages using `?get-page=N`.
-- Keeps existing series queued after they leave the latest listing; periodically re-walks them even when old links remain live. This includes all existing series conservatively because the catalogue has no trustworthy completed/ongoing flag.
-- Rechecks current-year stored movies for better qualities or replacement sources.
-- Separately schedules new arrivals, series, retries and refreshes using weighted round-robin. A large retry backlog cannot consume every slot.
-- Retains every configured alternate path instead of deduplicating all aliases down to one page.
-
-The release workflow does **not** scan A–Z, historical year folders, or the sitemap. Numeric-title coverage relies on the current-year listing or a manually supplied queue; it is not a full historical numeric-title crawler.
-
-## How A–Z resumes
-
-`data/archive-state.json` holds:
-
-- the current cycle, letter and next listing page;
-- fingerprints of previously seen pages for that letter;
-- a persistent per-path job queue, including pending and failed items;
-- next-attempt timestamps, identity locks and attempt history.
-
-Discovery stores page items **and** its next cursor in the same candidate checkpoint. A network error or ambiguous empty document never marks a letter complete. Explicit end-of-listing responses or a repeated page fingerprint end that letter. A page that starts returning a challenge stops progress for review rather than being mistaken for completion.
-
-When a soft budget expires, unstarted jobs stay pending and the complete validated generation is published. The next run resumes from that published cursor/queue. If GitHub hard-kills the job or publication fails, it resumes from the **last published** generation; some work may repeat, but unpublished records are never marked permanently done.
-
-After Z, discovery pauses seven days and begins another reconciliation cycle. Successfully walked archive records normally become due again after 90 days. Listing positions can shift as upstream titles are added, so the periodic rescan is intentional.
-
-## Publication safety
-
-```text
-Load committed baseline
-  → clone data into .runs/<mode>/candidate/
-  → crawl + save candidate checkpoints
-  → regenerate vault/stats/index/manifest + matching queues
-  → validate against the previous generation
-  → hash approved files
-  → publish one data-only Git commit
-  → upload diagnostics
-  → explicitly report degraded health as a failed run
+```
+.github/workflows/new-releases.yml
+.github/workflows/az-archive.yml
+.github/workflows/tmdb-backfill.yml
+src/run.mjs        run one mode: --mode=releases | --mode=az
+src/scrape.mjs     listing parse + item walk (movies and series)
+src/vault.mjs      load/merge/save vault.json + index.json + state.json
+src/tmdb.mjs       optional poster/rating/tmdbId/imdbId (only with TMDB_KEYS)
+data/vault.json    your catalogue — shape unchanged
+data/index.json    browse index — shape unchanged
+data/state.json    per-URL result bookkeeping — shape unchanged
+data/az.json       the A–Z cursor: {"letter":"a","page":1,"pass":1}   ← the only new file
+package.json · README.md · .gitignore
 ```
 
-- Both production workflows share the same `vault-writer-<repository>` concurrency group and never cancel an in-progress writer.
-- GitHub concurrency is not a FIFO priority queue; pending runs may be replaced. Queues persist in Git, so a missed invocation does not discard published progress.
-- Git publication checks the original source SHA. If a manual push has changed the branch, it **fails safely** and asks for a rerun. There is no force push, soft-reset recovery, or stale-index source overwrite.
-- A normal push race also fails; it is not silently resolved by overwriting another generation.
-- Rejected candidates do not publish their successful-state markers separately from the rejected vault.
-- Existing IDs cannot disappear, drift/shared-embed exceptions cannot expand silently, and the browse index is compared by content, not merely length.
-- Missing/corrupt required JSON fails closed.
-- A source-degraded run may publish structurally valid progress, but its final health step fails visibly. An interrupted/fatal or invalid candidate is not approved.
-- Artifacts contain candidate data and diagnostics for 14 days. They do not contain TMDB credentials; never manually paste secrets into error messages or configuration.
+## How the skip logic works (this is the part that keeps runs short)
 
-Git commits make publication coherent in the repository. Consumers fetching multiple raw files should use **the same commit SHA**, not unrelated cached `main` URLs, to avoid mixed generations.
+For every item on a listing:
 
-## Retry and health policy
+1. **Already in `vault.json` with embeds** → skipped, zero requests.
+2. **Known empty/unreleased** → skipped until its retry time (24 h in the
+   releases flow, 7 days in the A–Z flow). A page that could not be *read*
+   (5xx/timeout) is retried sooner, following the old 90 min → 24 h backoff.
+3. Otherwise → walked now and merged.
 
-- Genuine empty page: 12 hours → 1 day → 3 days → 7 days → 30 days, then monthly. No silently skipped final rung.
-- Read failure: bounded exponential cooldown up to 24 hours. No automatic permanent death after five outages.
-- Partial walk: retry after six hours in the new job scheduler.
-- Canary uncertainty: keep no-link results unknown instead of escalating a global outage into permanent item deletion.
-- Known-record canaries check the walker before normal work. Default selection is recent stored movies/series; configure stable known-good IDs in `canaryRecordIds` after the first live review.
-- Readable old pages may legitimately be empty; the proportion of empty archive retries is not itself proof of a parser failure.
-- HTTP has finite request/time/body limits, per-host pacing, Retry-After handling and approved-host redirect checks. Hard 404s do not park an otherwise healthy host.
+So the releases flow only ever spends requests on genuinely new titles, and an
+A–Z pass only spends them on letters that actually have something new. Stored
+items are never re-walked, so nothing you already have can be downgraded:
+embeds are **unioned** in, never replaced, and a series' flat `embeds[]` is always
+rebuilt from `seasons[]` so the two can never disagree.
 
-`retryAfter` means eligible after that time, not that a workflow launches immediately then. With six-hour schedules, actual retries happen at the next available scheduled/manual run.
+## TMDB: automatic for new records, plus a backfill
 
-## Posters, metadata and link checks
+* On every scrape run, records touched by that run get a TMDB lookup when they are
+  missing artwork — fills the `poster`, `rating`, `tmdbId` and `imdbId` fields.
+* **`tmdb-backfill.yml`** (Actions → Run workflow) is the one-off for everything
+  already in the vault: it walks the records that have no `tmdbId` or no `poster`,
+  newest first in file order, and stops cleanly on the budget:
 
-The release job spends remaining budget on maintenance. Archive runs focus on archive work.
+  ```bash
+  node src/run.mjs --mode=tmdb --limit=200            # 200 records, ~2 min
+  node src/run.mjs --mode=tmdb --stale-days=90        # also re-try old misses
+  node src/run.mjs --mode=tmdb --dry                  # look up, log, write nothing
+  ```
 
-- **Posters:** oldest-due-first; absent results get a seven-day cooldown, uncertain results six hours. Missing artwork at the front of the vault cannot starve later records.
-- **TMDB:** optional key; bounded exact title/year matching, separate movie/TV endpoints, ambiguous results left unchanged. TV records with old unknown-type TMDB IDs are searched again rather than blindly queried as movies. Rate-limit responses pause requests rather than rotating keys to evade limits.
-- **Liveness:** 100 least-recently-checked records per release run by default. A recognized player source is required for `live`; a player HTML check is not a guarantee that the media itself plays.
-- **Deletion is conservative:** `autoPruneDeadLinks` defaults to **false**. Dead links queue repairs; they are not automatically removed. If explicitly enabled, pruning requires two dead observations at least six hours apart, never empties a record and rejects >5% removal in one candidate. Review before enabling it.
-- Repair/ingest/enrich commands all use staging. Automatic junk-ID renaming is deliberately removed to preserve deep links.
+* A record TMDB has no exact match for is remembered in `state.json` as
+  `tmdbMiss: { "<record id>": "<date>" }` and is **not** retried on the next run
+  (it is *not* written into `vault.json`). `--stale-days=N` re-tries those older
+  than N days.
+* If the key is missing/invalid or TMDB rate-limits, the run says so and **stops** —
+  it never marks hundreds of records as "no match" because the API was unhappy.
+* Only exact title+year matches are accepted (TV endpoint first for series, movie
+  endpoint as fallback). Two exact matches with no year = refused, left as-is.
 
-## Configuration
+## The A–Z cursor
 
-Edit `config/workflows.json`; numeric values are range-validated.
+`data/az.json` is written after every page:
 
-Useful defaults: concurrency 4, maxRequests 4000 per job, release listing pages 8 per run, latest-series pages 3, archive listing pages 10 per run, series refresh 6h, recent movie refresh 24h. These are safety starting points, not live benchmarks.
+* page finished → next page;
+* letter finished → next letter (**same run**, it does not stop per letter);
+* `z` finished → `{"letter":"a","page":1,"pass":N+1}`, i.e. a fresh pass, which is
+  how re-uploads and late additions in old letters get re-checked;
+* budget/`--max-items` hit **mid-page** → the cursor does **not** move, so the
+  rest of that page is picked up next run;
+* a listing that fails to load → cursor stays, 3 failures in a row stops the run.
 
-`config/page-aliases.json` is for reviewed path → permanent-ID mappings. Alternative paths are not proof of duplicate identity. Unknown collisions are quarantined in the progress file and reported as degraded, while other pages/items continue. They are never silently merged.
+## Reading the log
 
-Environment variables:
+```
+=== mv_vault · az · 2026-10-03T01:13:00Z ===
+budget 300min · max-items ∞ · tmdb on
+vault 2864 records · state 4084 tracked urls
+pass 2 · resuming at letter j page 1
+[j p1] 20 items · 3 to walk
+  + Jolly O Gymkhana (2026)        added · 16 embeds · poster · 36 req · 17.0s
+  ± Bigg Boss Season 10 (2026)     merged · 20 embeds · poster · 43 req · 17.8s
+  = Gaja (2026)                    unchanged · 4 embeds · poster · 12 req · 9.1s
+  ~ Untitled (2027)                no embeds yet (empty #1) · 6 req · 4.2s
+  ! Gana (2026)                    HTTP 503 (url) · 1 failed
+=== summary · az · pass 2 ===
+cursor         j/2
+items walked   21  (added 8 · merged 12 · unchanged 1)
+...
+```
 
-- `TMDB_KEYS` or `TMDB_API_KEY`: optional, never committed.
-- `VAULT_TIMEOUT_MS` (default 15 seconds in shared fetch).
-- `VAULT_MIN_INTERVAL_MS` (default 120 ms between request starts per host).
-- `VAULT_ALLOWED_HOSTS`: comma-separated approved hosts. Add a newly reviewed upstream host explicitly after a domain migration; redirects to unknown hosts fail closed.
-- `VAULT_BUDGET_MIN` and `VAULT_MAX_ITEMS`: optional bounded job overrides.
+`+` added · `±` merged · `=` unchanged · `~` page is live but has no embeds yet ·
+`!` could not be read · `·` listing/cursor notes. The same table goes to the
+workflow's **Summary** tab.
 
-The public link/source format remains compatible: movies omit `kind`, series retain `seasons[]` and flattened `embeds[]`, IDs remain stable. `tmdbType` is an optional additive field on newly enriched records.
+A run goes **red** only when something structural happened: a listing could not
+be read at all, or 10+ items were walked and *none* produced embeds (i.e. the hop
+chain or the host changed). One flaky item never fails a run.
 
-## Local commands
+## The walk (unchanged from the old pipeline, verified live 2026-10-03)
+
+```
+item → /<title>-original-movie/ → /<title>-1080p-hd-movie/ → /download/<slug>/
+     → download.moviespage.xyz/download/file/<id>
+     → movies.downloadpage.xyz/download/page/<id> → play.onestream.today/stream/page/<id>
+```
+
+Series insert a season layer and one slug per episode. Quality policy is
+unchanged: **1080p + 720p only**, falling back to 360p/other rips if a film has
+neither. Request envelope per item is bounded (≤3 groups, ≤4 resolution pages,
+≤8 slug pages, ≤10 confirmations), so a pass cannot run away.
+
+`screenshots`/direct MP4s are still never stored — the onestream ids are what
+make the catalogue durable.
+
+## Running locally
 
 ```bash
-npm ci --ignore-scripts
-npm run check                          # syntax, tests, existing vault verification
-npm run releases -- --dry --max-items=5 --budget-min=2
-npm run archive -- --dry --max-items=5 --budget-min=2
-npm run releases -- --apply            # validate and apply locally; no Git push
-npm run archive -- --apply
-npm run posters -- --apply
-npm run enrich -- --apply              # optional TMDB_API_KEY/TMDB_KEYS required
-npm run liveness -- --apply
-npm run ingest -- --queue=/absolute/path/incoming.json --apply
+npm install
+node src/run.mjs --mode=releases --dry --max-items=3       # safe: scrapes, logs, writes nothing
+node src/run.mjs --mode=releases --year=2027 --dry         # just check the 2027 folder
+node src/run.mjs --mode=az       --dry --only=agadha       # one item, cursor untouched
+node src/run.mjs --mode=tmdb     --limit=200 --dry         # backfill preview
+node src/run.mjs --mode=releases --budget-min=25           # writes data/, no commit
+node src/run.mjs --mode=releases --budget-min=25 --commit  # writes and pushes
 ```
 
-Without `--apply`, local commands prepare a candidate only. `--dry` leaves tracked `data/` unchanged but intentionally writes scratch logs/candidate files under ignored `.runs/`. `--prepare` is the CI mode: safe degraded candidates can progress to publishing before final status is evaluated.
+Local runs never push unless you add `--commit` (the workflows pass it for you).
+Flags: `--budget-min=N` · `--max-items=N` · `--year=YYYY` · `--commit` ·
+`--commit-every=N` (default 100 releases / 200 az — a long run never loses
+everything if the runner dies) · `--dry` · `--only=text` (manual filter, cursor
+untouched) · `--tmdb-limit=N` (default 150 per scrape run) · `--limit=N` and
+`--stale-days=N` (tmdb mode only).
 
-Read live local logs with `tail -f .runs/archive/run.log` (or `.runs/releases/run.log`).
+## Slimming your existing repo (one command)
 
-Legacy `--incremental`, `--sweep`, `--letters=a-z`, and `--max-movies` have explicit compatibility mappings. Other removed legacy flags fail with an explanation; they are not silently ignored. `--sweep` now means A–Z reconciliation, not the old nine-section crawler.
+Copy the new files in, then delete the old machinery:
 
-## Data and recovery files
+```bash
+git rm -r --ignore-unmatch -q src scripts test docs config .github/actions .github/workflows/ci.yml \
+  CHANGES.md TEST-RESULTS.md README-vault.md SHA256SUMS.txt \
+  data/known-drift.json data/aliases.json data/liveness.json data/manifest.json \
+  data/vault-stats.json data/last-run.json data/releases-state.json data/archive-state.json \
+  data/maintenance-state.json
+# then: copy src/, .github/workflows/*.yml, package.json, README.md, data/az.json from here
+npm install --package-lock-only     # refresh the lock file for the trimmed dependency set
+git add -A && git commit -m "simplify: two flows, one run each"
+```
 
-| File | Role |
-|---|---|
-| `vault.json` | Existing consumer catalogue |
-| `state.json` | Compatible per-page result bookkeeping |
-| `releases-state.json` | Release discovery cursors and refresh/retry queue; created on first successful run |
-| `archive-state.json` | A–Z cursor and pending/retry queue; created on first successful run |
-| `maintenance-state.json` | Poster/metadata cooldowns and link observations |
-| `liveness.json` | Per-record link-check counts and timestamps |
-| `last-run.json` | Most recently published run, with run ID and source SHA |
-| `index.json`, `manifest.json`, `vault-stats.json` | Rebuilt consumer-derived files |
-| `known-drift.json`, `aliases.json` | Reviewed/manual guards, never rewritten by the bot |
+Keep `data/vault.json`, `data/index.json` and `data/state.json` exactly as they
+are — the new code reads and writes those three in place.
 
-A failed candidate remains in `.runs/<mode>/` and in the workflow artifact when upload succeeds. Do not copy its state alone into production. For local interruption during directory replacement, `.data-backup` is preserved; restore it before retrying. A stale `.runs/LOCK` must be removed only after confirming no job is running.
+## Notes
 
-## Validation and limitations
-
-See `TEST-RESULTS.md` and `KNOWN-LIMITATIONS.md`. The package is validated with offline fixtures, temporary Git remotes, and the supplied vault snapshot. It is **not certified against the current live site**, account secrets, branch protections, or full video playback. Review the first dry-run artifacts. No scraper can promise zero future errors when a third party changes its pages or domains.
+* **Host**: every moviesda domain (`moviesda34.com`, `moviesdatamil.net`,
+  `moviezda.net`) currently redirects to **moviezda.net**, so that is the host we
+  fetch (`LIVE` in `src/scrape.mjs`). What we *store* stays on
+  `https://moviesda34.com/...` so `pageUrl`, `state.json` keys and your app's
+  links never fork when the domain moves again — change one line if you'd rather
+  store the live host.
+* **TMDB** is optional. With the `TMDB_KEYS` secret (or `TMDB_API_KEY`), new
+  records get a poster, rating, `tmdbId`, `imdbId`, and `tmdb-backfill.yml` fills
+  the old ones. Without a key every run still works and says
+  `tmdb skipped (no key)`.
+* **Sessions/identity**: a re-listed series page (e.g. the 2026 Bigg Boss page)
+  merges into the existing record when the **same season** shares 3+ episodes.
+  A different season of the same show stays a separate record, exactly like your
+  current Bigg Boss Season 9 / Season 10 entries.
+* **First A–Z run after the switch**: your old pipeline left ~1,179 pages marked
+  "empty" on retry ladders that are already due, so the first pass re-checks them
+  (1–2 requests each) before settling. From then on they follow the 7-day window
+  and a pass only costs the listing pages plus whatever is genuinely new.
+* **First run of a letter**: existing records are skipped, so a full A–Z pass
+  only costs the listing pages plus the walk of whatever is new.
+* `data/vault.json`, `data/index.json` and `data/state.json` keep their exact
+  key order and types; verified against the current vault (nothing removed,
+  series `embeds[]` == `seasons[]` for every record).

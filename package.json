@@ -1,28 +1,19 @@
 {
-  "name": "moviesda-vault",
-  "version": "3.0.0",
+  "name": "mv-vault",
+  "version": "4.0.0",
+  "private": true,
   "type": "module",
-  "description": "Two coordinated workflows: current-year Tamil releases and resumable A\u2013Z archive",
+  "description": "Two simple flows: new Tamil releases (year folder + latest series) and a resumable A-Z archive",
   "scripts": {
-    "test": "node scripts/test.mjs",
-    "verify": "node src/verify.js",
-    "check": "node scripts/check.mjs",
-    "manifest": "node scripts/make-manifest.mjs",
-    "scrape": "node src/cli.js",
-    "incremental": "node scripts/run-job.mjs --mode=releases",
-    "sweep": "node scripts/run-job.mjs --mode=archive",
-    "ingest": "node src/ingest.js",
-    "enrich": "node src/enrich.js",
-    "repair": "node src/repair.js",
-    "liveness": "node scripts/run-job.mjs --mode=liveness",
-    "posters": "node scripts/run-job.mjs --mode=posters",
-    "releases": "node scripts/run-job.mjs --mode=releases",
-    "archive": "node scripts/run-job.mjs --mode=archive"
+    "releases": "node src/run.mjs --mode=releases",
+    "az": "node src/run.mjs --mode=az",
+    "backfill": "node src/run.mjs --mode=tmdb",
+    "dry": "node src/run.mjs --mode=releases --dry --max-items=3"
   },
   "dependencies": {
     "cheerio": "^1.2.0"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=22"
   }
 }

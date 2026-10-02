@@ -1,10 +1,5 @@
 node_modules/
-*.tmp
 .env
 .env*.local
+*.tmp
 .DS_Store
-npm-debug.log*
-
-.runs/
-.data-backup/
-.data-ready/

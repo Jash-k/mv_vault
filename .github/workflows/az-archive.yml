@@ -1,26 +1,23 @@
-name: New releases (Tamil year folder + latest series)
+name: A–Z archive (resumable, runs on through the letters)
 
-# Checks ONLY:
-#   /tamil-<current year>-movies/   (all pages — 2026 today)
-#   /tamil-<next year>-movies/      (all pages — 2027 today; the folder already
-#                                    exists as a placeholder, so a title added
-#                                    there is picked up with no code change at
-#                                    the year rollover)
-#   /tamil-web-series-download/     (latest 3 pages)
-# Anything already stored is skipped without a single request.
+# Walks /tamil-movies/<letter>/?page=N from data/az.json onwards and does NOT
+# stop at the end of a letter: it continues a→z inside the same run until the
+# budget runs out. Next run resumes from the saved cursor. After z the cursor
+# rolls back to 'a' and a fresh pass starts (that is how re-uploads and new
+# arrivals in old letters get picked up).
 on:
   schedule:
-    - cron: '17 */6 * * *'        # 05:47, 11:47, 17:47, 23:47 IST
+    - cron: '43 19 * * *'        # 01:13 IST next day
   workflow_dispatch:
     inputs:
-      year:
-        description: 'Only this year folder, e.g. 2027 (leave empty for current + next)'
-        default: ''
       budget_min:
-        description: 'Stop cleanly after N minutes (default 25)'
+        description: 'Stop cleanly after N minutes (default 300 = 5h)'
         default: ''
       max_items:
         description: 'Stop after N new walks (default: all new items)'
+        default: ''
+      only:
+        description: 'Only items whose path contains this text (manual test)'
         default: ''
       dry:
         description: 'Dry run — scrape and log, write nothing'
@@ -34,15 +31,14 @@ on:
 permissions:
   contents: write
 
-# Same group as az-archive.yml: only one writer at a time, never cancelled.
 concurrency:
   group: vault-writer-${{ github.repository }}
   cancel-in-progress: false
 
 jobs:
-  releases:
+  az:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
         with:
@@ -55,16 +51,16 @@ jobs:
       - name: Scrape and publish
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
-          YEAR: ${{ inputs.year }}
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
+          ONLY: ${{ inputs.only }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=releases"
-          [ -n "$YEAR" ] && ARGS="$ARGS --year=$YEAR"
+          ARGS="--mode=az"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
+          [ -n "$ONLY" ] && ARGS="$ARGS --only=$ONLY"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
