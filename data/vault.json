@@ -1827,6 +1827,22 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/55972"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/86950"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/86951"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/86952"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/94194"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/b3PM4bEQ1txDR30D2K79gGwvRIJ.jpg",
@@ -1834,7 +1850,7 @@
   "tmdbId": 278258,
   "imdbId": "tt3563156",
   "addedAt": "2026-09-27T14:19:46.495Z",
-  "updatedAt": "2026-09-27T14:54:23.314Z"
+  "updatedAt": "2026-10-02T20:02:53.517Z"
  },
  {
   "id": "appu-vi-std-2024",
@@ -5679,6 +5695,18 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/101868"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/94528"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/94530"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/94531"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/x1ygBecKHfXX4M2kRhmFKWfWbJc.jpg",
@@ -5686,7 +5714,7 @@
   "tmdbId": 9737,
   "imdbId": "tt0112442",
   "addedAt": "2026-09-27T15:06:40.054Z",
-  "updatedAt": "2026-09-27T15:44:54.687Z"
+  "updatedAt": "2026-10-02T20:11:03.154Z"
  },
  {
   "id": "bp-180-2025",
@@ -5768,6 +5796,18 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/82139"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93866"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93867"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/93864"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/4jZMZQ9oYqEAYODAeWUNJL79aIe.jpg",
@@ -5775,7 +5815,7 @@
   "tmdbId": 979669,
   "imdbId": "tt21810110",
   "addedAt": "2026-09-27T15:07:37.933Z",
-  "updatedAt": "2026-09-27T15:21:03.177Z"
+  "updatedAt": "2026-10-02T20:11:09.658Z"
  },
  {
   "id": "bhaje-vaayu-vegam-2025",
@@ -6107,6 +6147,14 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/84975"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/90666"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/90665"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/3m1J3MeXNNJW4qGADZaNheHlTjq.jpg",
@@ -6114,7 +6162,7 @@
   "tmdbId": 1308200,
   "imdbId": "tt32591988",
   "addedAt": "2026-09-27T15:11:06.800Z",
-  "updatedAt": "2026-09-27T15:16:31.623Z"
+  "updatedAt": "2026-10-02T20:11:31.761Z"
  },
  {
   "id": "bajirao-mastani-2015",
@@ -9078,6 +9126,10 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/76987"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/86692"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/pfG02QCsutx3PIxFS8UY4iM9AsS.jpg",
@@ -9085,7 +9137,7 @@
   "tmdbId": 883,
   "imdbId": "tt0379217",
   "addedAt": "2026-09-27T16:07:03.997Z",
-  "updatedAt": "2026-09-27T16:17:57.082Z"
+  "updatedAt": "2026-10-02T20:15:20.731Z"
  },
  {
   "id": "chitra-kadhai-2024",
