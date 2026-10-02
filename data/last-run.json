@@ -1,17 +1,19 @@
 {
- "at": "2026-10-02T18:05:00.326Z",
- "mode": "posters",
+ "at": "2026-10-02T14:55:05.977Z",
+ "mode": "incremental",
  "dry": false,
  "strict": false,
- "degraded": false,
- "problems": [],
- "integrity": true,
- "queued": 0,
+ "degraded": true,
+ "problems": [
+  "100% of 400 walked items came back empty — likely a site/walker shape change"
+ ],
+ "integrity": false,
+ "queued": 400,
  "counts": {
   "added": 0,
   "merged": 0,
   "unchanged": 0,
-  "empty": 0,
+  "empty": 400,
   "failed": 0,
   "skipped": 0,
   "embeds": 0,
@@ -19,22 +21,30 @@
   "partial": 0
  },
  "failures": [],
- "requests": 0,
+ "requests": 1460,
  "http": {
-  "requests": 0,
+  "requests": 1460,
   "retries": 0,
   "mirrorRescues": 0,
   "hardFailures": 0,
   "hostDowns": 0,
-  "bytes": 0
+  "bytes": 9770650
  },
  "posters": {
-  "filled": 17,
-  "absent": 255,
+  "filled": 0,
+  "absent": 121,
   "unknown": 0
  },
- "liveness": null,
+ "liveness": {
+  "checked": 600,
+  "live": 1502,
+  "dead": 0,
+  "unknown": 0,
+  "refreshed": 0,
+  "pruned": 0,
+  "stuck": 0
+ },
  "vaultTotal": 2864,
  "vaultEmbeds": 8174,
- "minutes": 0
+ "minutes": 4
 }
