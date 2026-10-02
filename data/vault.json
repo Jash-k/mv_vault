@@ -13508,6 +13508,10 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/81698"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/83454"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/jvxj3narg3FVD7mvi2qTvQFNRzu.jpg",
@@ -13515,7 +13519,7 @@
   "tmdbId": 1183230,
   "imdbId": "tt29266159",
   "addedAt": "2026-09-27T17:34:03.640Z",
-  "updatedAt": "2026-09-27T17:35:36.732Z"
+  "updatedAt": "2026-10-02T20:21:01.638Z"
  },
  {
   "id": "emi-2023",
@@ -17310,6 +17314,18 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/83854"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/91143"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/91142"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/91138"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/m1zq48rWSXxplzoJR8YtbXWnnHM.jpg",
@@ -17317,7 +17333,7 @@
   "tmdbId": 869760,
   "imdbId": "tt15433956",
   "addedAt": "2026-09-27T19:10:53.415Z",
-  "updatedAt": "2026-09-27T19:13:19.657Z"
+  "updatedAt": "2026-10-02T20:25:51.236Z"
  },
  {
   "id": "hit-3-the-third-case-2025",
@@ -18283,6 +18299,18 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/58316"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93664"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/93666"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93663"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/jJizli6DkzmerHWHBd4xc1L9gU4.jpg",
@@ -18290,7 +18318,7 @@
   "tmdbId": 616367,
   "imdbId": "tt12531704",
   "addedAt": "2026-09-27T19:40:28.191Z",
-  "updatedAt": "2026-09-27T19:54:12.850Z"
+  "updatedAt": "2026-10-02T20:27:14.443Z"
  },
  {
   "id": "iru-mugan-2016",
@@ -18949,6 +18977,22 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/71176"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72504"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72503"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/72502"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/72501"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/yR3IwqELSCubAwbpavutJA1jTrq.jpg",
@@ -18956,7 +19000,7 @@
   "tmdbId": 916972,
   "imdbId": "tt15477878",
   "addedAt": "2026-09-27T19:49:35.093Z",
-  "updatedAt": "2026-09-27T19:50:08.965Z"
+  "updatedAt": "2026-10-02T20:27:44.713Z"
  },
  {
   "id": "inspector-daya-2021",
