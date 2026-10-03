@@ -91948,6 +91948,9 @@
   "title": "Resort",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/resort-2026-tamil-web-series/",
   "embeds": [
    {
@@ -92263,16 +92266,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.376Z",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.376Z"
  },
  {
   "id": "vikram-on-duty-2026",
   "title": "Vikram On Duty",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/vikram-on-duty-2026-tamil-web-series/",
   "embeds": [
    {
@@ -92588,16 +92591,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.493Z",
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.493Z"
  },
  {
   "id": "sshhh-2026",
   "title": "Sshhh",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/sshhh-2026-tamil-web-series/",
   "embeds": [
    {
@@ -92712,15 +92714,16 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "jolly-o-gymkhana-2026",
   "title": "Jolly O Gymkhana",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/jolly-o-gymkhana-2026-tamil-web-series/",
   "embeds": [
    {
@@ -92936,16 +92939,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.493Z",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.493Z"
  },
  {
   "id": "maamla-legal-hai-2026",
   "title": "Maamla Legal Hai",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/maamla-legal-hai-2026-tamil-web-series/",
   "embeds": [
    {
@@ -93080,15 +93082,15 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "ma-ka-sum-2026",
   "title": "Ma Ka Sum",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/ma-ka-sum-2026-tamil-web-series/",
   "embeds": [
    {
@@ -93223,15 +93225,16 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "muthu-alias-kaattaan-2026",
   "title": "Muthu Alias Kaattaan",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/muthu-alias-kaattaan-2026-tamil-web-series/",
   "embeds": [
    {
@@ -93397,16 +93400,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.660Z",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.660Z"
  },
  {
   "id": "sangamarmar-2026",
   "title": "Sangamarmar",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sangamarmar-2026-tamil-web-series/",
   "embeds": [
    {
@@ -93722,16 +93725,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.660Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.660Z"
  },
  {
   "id": "chiraiya-2026",
   "title": "Chiraiya",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chiraiya-2026-tamil-web-series/",
   "embeds": [
    {
@@ -93837,16 +93840,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:25.660Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:25.660Z"
  },
  {
   "id": "jazz-city-2026",
   "title": "Jazz City",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "bn",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/jazz-city-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94012,16 +94015,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.215Z",
-  "originalLanguage": "bn",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.215Z"
  },
  {
   "id": "aspirants-2026",
   "title": "Aspirants",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/aspirants-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94111,15 +94113,16 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "local-times-2026",
   "title": "Local Times",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/local-times-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94240,16 +94243,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.215Z",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.215Z"
  },
  {
   "id": "hello-bachhon-2026",
   "title": "Hello Bachhon",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/hello-bachhon-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94340,16 +94343,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.215Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.215Z"
  },
  {
   "id": "thadayam-2026",
   "title": "Thadayam",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/thadayam-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94515,16 +94518,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.335Z",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.335Z"
  },
  {
   "id": "secret-stories-roslin-2026",
   "title": "Secret Stories Roslin",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/secret-stories-roslin-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94630,16 +94633,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.336Z",
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.336Z"
  },
  {
   "id": "3-roses-2026",
   "title": "3 Roses",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/3-roses-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94744,15 +94746,16 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "bandwaale-2026",
   "title": "Bandwaale",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bandwaale-2026-tamil-web-series/",
   "embeds": [
    {
@@ -94888,16 +94891,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.336Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.336Z"
  },
  {
   "id": "kohrra-2026",
   "title": "Kohrra",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/kohrra-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95002,15 +95004,16 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "kohrra-2023",
   "title": "Kohrra",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kohrra-2023-tamil-web-series/",
   "embeds": [
    {
@@ -95116,16 +95119,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.495Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.495Z"
  },
  {
   "id": "honeymoon-se-hatya-2026",
   "title": "Honeymoon Se Hatya",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/honeymoon-se-hatya-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95216,10 +95219,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.495Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:26.495Z"
  },
  {
   "id": "45-2025",
@@ -95253,6 +95253,9 @@
   "title": "Daldal",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/daldal-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95373,16 +95376,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:27.207Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:27.207Z"
  },
  {
   "id": "space-gen-chandrayaan-2026",
   "title": "Space Gen Chandrayaan",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/space-gen-chandrayaan-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95473,16 +95476,15 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:27.207Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-10-03T06:48:27.207Z"
  },
  {
   "id": "taskaree-the-smugglers-web-2026",
   "title": "Taskaree The Smugglers Web",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/taskaree-the-smugglers-web-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95602,15 +95604,15 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "freedom-at-midnight-2026",
   "title": "Freedom at Midnight",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "site",
   "pageUrl": "https://moviesda34.com/freedom-at-midnight-2026-tamil-web-series/",
   "embeds": [
    {
@@ -95730,9 +95732,7 @@
      }
     ]
    }
-  ],
-  "category": "tamil-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "2025-tamil-movie",
@@ -99173,5 +99173,63 @@
   ],
   "category": "tamil-series",
   "categorySource": "site"
+ },
+ {
+  "id": "yezhu-kadal-yezhu-malai-2026",
+  "title": "Yezhu Kadal Yezhu Malai",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/yezhu-kadal-yezhu-malai-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102232"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102230"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102233"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/wdWQA1IVCYiTTEZMSnWl1tzhBd3.jpg",
+  "rating": 4,
+  "tmdbId": 954445,
+  "imdbId": "tt22754948",
+  "addedAt": "2026-10-03T20:24:40.737Z",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T20:27:10.135Z"
+ },
+ {
+  "id": "baththa-2026",
+  "title": "Baththa",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/baththa-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102224"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102221"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102223"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/cWY636zXGECkRHbrqhQdFyP9n69.jpg",
+  "rating": 7,
+  "tmdbId": 1515692,
+  "imdbId": "tt32012509",
+  "addedAt": "2026-10-03T20:24:44.646Z",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T20:27:10.284Z"
  }
 ]
