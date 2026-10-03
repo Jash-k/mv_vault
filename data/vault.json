@@ -21831,7 +21831,10 @@
   "tmdbId": 201009,
   "imdbId": "tt19768024",
   "addedAt": "2026-09-27T19:46:24.404Z",
-  "updatedAt": "2026-10-02T19:54:51.551Z"
+  "updatedAt": "2026-10-03T07:43:20.531Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "irugapatru-2023",
@@ -27396,7 +27399,10 @@
   "tmdbId": 238419,
   "imdbId": "tt22297290",
   "addedAt": "2026-09-27T21:09:46.050Z",
-  "updatedAt": "2026-10-02T19:54:59.410Z"
+  "updatedAt": "2026-10-03T07:43:20.531Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "kumbaari-2024",
@@ -28229,7 +28235,10 @@
   "tmdbId": 213761,
   "imdbId": "tt23312808",
   "addedAt": "2026-09-27T21:21:18.544Z",
-  "updatedAt": "2026-10-02T19:55:00.682Z"
+  "updatedAt": "2026-10-03T07:43:20.531Z",
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "kaalangalil-aval-vasantham-2022",
@@ -37719,7 +37728,10 @@
   "tmdbId": 225824,
   "imdbId": "tt27671508",
   "addedAt": "2026-09-27T23:16:56.145Z",
-  "updatedAt": "2026-10-02T19:55:13.647Z"
+  "updatedAt": "2026-10-03T07:43:21.030Z",
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "manu-charitra-2023",
@@ -48762,7 +48774,10 @@
   "tmdbId": 153637,
   "imdbId": "tt15128106",
   "addedAt": "2026-09-28T04:37:23.562Z",
-  "updatedAt": "2026-10-02T19:55:30.936Z"
+  "updatedAt": "2026-10-03T07:43:21.298Z",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "pushpa-tamil-2021",
@@ -89259,10 +89274,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/cmHxwR9Wv0APKMZmOealypucW5F.jpg",
-  "rating": 0,
+  "poster": "https://image.tmdb.org/t/p/w500/hQWT47GFQyvO1tFqx6IgCOvrrr8.jpg",
+  "rating": 5.2,
   "tmdbId": 1328045,
-  "imdbId": "",
+  "imdbId": "tt29540636",
   "addedAt": "2026-10-01T12:26:55.539Z",
   "seasons": [
    {
@@ -89342,7 +89357,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T07:43:22.919Z"
  },
  {
   "id": "single-papa-2025",
@@ -91908,7 +91927,9 @@
      }
     ]
    }
-  ]
+  ],
+  "category": "tamil-series",
+  "categorySource": "site"
  },
  {
   "id": "resort-2026",
