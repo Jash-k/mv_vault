@@ -10,8 +10,17 @@
  *   /download/<slug>/ → download.moviespage.xyz/download/file/<id> →
  *   movies.downloadpage.xyz/download/page/<id> → play.onestream.today/stream/page/<id>
  *
- * Hop chain per series: same, with a season layer and one slug per episode:
- *   item → *-season-NN-* → *-season-NN-<quality>-* → /download/…-epi-NN-…/
+ * Hop chain per series: the same folders, then either a season layer
+ * (…-season-01/ → …-season-01-1080p/) or the episode slugs straight on the page.
+ *
+ * MOVIE vs SERIES IS DECIDED FROM THE PAGE, NOT THE URL. The site lists series
+ * under movie-shaped paths all the time:
+ *   /ayali-season-01-2023-tamil-movie/  → episodes directly on the page
+ *   /aindham-vedham-2024-tamil-movie/   → links to /aindham-vedham-season-01/
+ * Walking those as movies finds no 1080p/720p folder, returns "empty", and the
+ * title never enters the vault. That was the bug behind the missing A–Z and
+ * year-list series. Now: episode slugs or season folders anywhere on the page →
+ * series walk.
  *
  * Quality policy (unchanged, user-locked): keep 1080p + 720p; fall back to
  * 360p/other rips ONLY when a film has neither.
@@ -28,6 +37,14 @@ export const LIVE = 'https://moviezda.net';
 export const CANON = 'https://moviesda34.com';
 /** Poster files live on the fetch host. */
 export const POSTER_HOST = LIVE;
+
+/**
+ * Bump this whenever the walk logic changes. `state.json` stamps every verdict
+ * with it, and a verdict written by an older walker is re-tried instead of being
+ * trusted — so a fix like "series under movie paths" takes effect on the next
+ * pass instead of waiting out a 7-day empty window.
+ */
+export const WALK_VERSION = 2;
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.TIMEOUT_MS || 15000);
@@ -110,6 +127,7 @@ export function parseListing(html, pageUrl) {
       path,
       url: canonicalUrl(path),
       label: $(el).text().replace(/\s+/g, ' ').trim(),
+      // A hint only — the walk decides for real from the page itself.
       kind: isSeriesPath(path) ? 'series' : 'movie',
     });
   });
@@ -131,7 +149,8 @@ export async function discover(path, { param = 'page', maxPages = 40, deadline =
     const url = page === 1 || !param ? base : `${base}${base.includes('?') ? '&' : '?'}${param}=${page}`;
     let html;
     try { ({ html } = await getHtml(url)); } catch (error) { log(`  ! listing ${url} — ${error.message}`); break; }
-    const rows = parseListing(html, url);
+    let rows;
+    try { rows = parseListing(html, url); } catch (error) { log(`  ! ${error.message}`); break; }
     const fingerprint = rows.map((r) => r.path).sort().join('|');
     if (!rows.length || seenFingerprints.has(fingerprint)) {
       // Page 1 with nothing on it = the folder exists but is still empty
@@ -201,6 +220,23 @@ const fileIds = (html) => [...new Set([...String(html).matchAll(/\/download\/fil
 const embedUrlOf = (id) => `https://play.onestream.today/stream/page/${id}`;
 const seasonOf = (s = '') => Number(String(s).match(/season[- ]?0*(\d+)/i)?.[1] || 0);
 const episodeOf = (s = '') => Number(String(s).match(/(?:epi|ep|episode)[- ]?0*(\d+)/i)?.[1] || 0);
+const SEASON_FOLDER_RX = /season[- ]?\d+/i;
+
+/** Episode download links present on a page (the real "this is a series" signal). */
+const episodeSlugs = (html, base) => slugLinks(html, base).filter((s) => episodeOf(s.href));
+
+/**
+ * Which walker does this page need? Decided from the page, with the URL only as
+ * a hint: a series can be published under a movie-shaped path, and those were
+ * the titles silently lost.
+ */
+export function planWalk(html, url) {
+  const path = (() => { try { return new URL(url, CANON).pathname; } catch { return url; } })();
+  if (/-web-series(?:\/|-)|-season-\d+\/?$/.test(path)) return 'series';
+  if (episodeSlugs(html, url).length) return 'series';
+  if (folderLinks(html, url).some((l) => SEASON_FOLDER_RX.test(l.href))) return 'series';
+  return 'movie';
+}
 
 /** The site's own poster <img>, used when a record has no artwork yet. */
 export function posterFromHtml(html = '') {
@@ -225,13 +261,12 @@ const mapLimit = async (rows, limit, fn) => {
  * The confirm page must reference its OWN id — that is what makes the link
  * durable, instead of trusting whatever the previous hop happened to link to.
  */
-async function confirmEmbed(id, { track } = {}) {
+async function confirmEmbed(id) {
   const url = `https://movies.downloadpage.xyz/download/page/${id}`;
   try {
     const { html } = await getHtml(url);
-    track?.(url);
     return new RegExp(`play\\.onestream\\.today/stream/page/${id}(?![0-9])`).test(html) ? embedUrlOf(id) : '';
-  } catch { track?.(url); return ''; }
+  } catch { return ''; }
 }
 
 /**
@@ -242,9 +277,9 @@ async function confirmEmbed(id, { track } = {}) {
  * confirmations — the same envelope the old pipeline used, which is what keeps
  * a full A–Z pass inside its budget.
  */
-export async function walkMovie(url, { deadline = 0, log = () => {} } = {}) {
-  const { html: itemHtml } = await getHtml(url);
-  if (looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
+export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {}) {
+  const itemHtml = prefetched || (await getHtml(url)).html;
+  if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
   const origin = new URL(url).origin;
 
@@ -315,60 +350,68 @@ export async function walkMovie(url, { deadline = 0, log = () => {} } = {}) {
 /**
  * One web series → { seasons:[…], embeds:[…] } with season+episode on the flat list.
  *
- * Series have one slug page per episode, so the episode slugs are fetched three
- * at a time instead of one after another — a 10-episode season is ~25 requests
- * either way, but it finishes in a third of the wall-clock time.
+ * Two real shapes, both handled:
+ *   with quality layer: item → *-season-01/ → *-season-01-1080p/ → /download/…-epi-NN/
+ *   flat (very common):  item → /download/…-season-01-epi-NN/ straight on the page
+ * The flat shape has no quality token at all, so those episodes are stored as
+ * 'HD' (the same convention already used in the vault) — never dropped.
  */
-export async function walkSeries(url, { deadline = 0, log = () => {} } = {}) {
-  const { html: itemHtml } = await getHtml(url);
-  if (looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
+export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = {}) {
+  const itemHtml = prefetched || (await getHtml(url)).html;
+  if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
   const origin = new URL(url).origin;
 
-  const itemLinks = folderLinks(itemHtml, origin);
-  const seasonFolders = itemLinks.filter((l) => /season[- ]?\d+/i.test(l.href));
-
-  /** Quality folders of one season → one job per episode slug. */
   const jobs = []; // { slugUrl, quality, season, episode }
-  const collect = async (qualityFolders, seasonNo) => {
-    qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
-    for (const qf of qualityFolders) {
-      if (deadline && Date.now() > deadline) break;
-      await paced();
-      let qfHtml = '';
-      try { ({ html: qfHtml } = await getHtml(qf.url)); } catch { continue; }
-      for (const slug of slugLinks(qfHtml, new URL(qf.url).origin)) {
-        const episode = episodeOf(slug.href);
-        if (!episode) continue;
-        // The 720p folder's slugs carry no quality token — inherit the folder's.
-        const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
-        jobs.push({ slugUrl: slug.url, quality: declared ? qualityOf(slug.label, slug.href) : qf.quality, season: seasonNo, episode });
-      }
+  const addSlugs = (html, base, qualityHint, seasonHint) => {
+    for (const slug of episodeSlugs(html, base)) {
+      const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
+      jobs.push({
+        slugUrl: slug.url,
+        quality: declared ? qualityOf(slug.label, slug.href) : (qualityHint || 'HD'),
+        season: seasonOf(slug.href) || seasonHint || 1,
+        episode: episodeOf(slug.href),
+      });
     }
   };
 
+  const itemLinks = folderLinks(itemHtml, origin);
+  const seasonFolders = itemLinks.filter((l) => SEASON_FOLDER_RX.test(l.href));
+
   if (seasonFolders.length) {
-    // 1a. item → season pages → quality folders
     for (const seasonFolder of seasonFolders) {
       if (deadline && Date.now() > deadline) break;
-      const seasonNo = seasonOf(seasonFolder.href) || 1;
+      const seasonHint = seasonOf(seasonFolder.href) || 1;
+      // A season link that is just this same page (single-page shows) — no refetch.
+      const samePage = new URL(seasonFolder.url).pathname === new URL(url).pathname;
       await paced();
-      let seasonHtml = '';
-      try { ({ html: seasonHtml } = await getHtml(seasonFolder.url)); } catch { continue; }
-      let qualityFolders = folderLinks(seasonHtml, new URL(seasonFolder.url).origin)
+      let seasonHtml = itemHtml;
+      if (!samePage) {
+        try { ({ html: seasonHtml } = await getHtml(seasonFolder.url)); } catch { continue; }
+      }
+      const qualityFolders = folderLinks(seasonHtml, new URL(seasonFolder.url).origin)
         .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
-      if (!qualityFolders.length) qualityFolders = [seasonFolder];
-      await collect(qualityFolders, seasonNo);
+      if (!qualityFolders.length) { addSlugs(seasonHtml, seasonFolder.url, 'HD', seasonHint); continue; }
+
+      qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
+      for (const qf of qualityFolders) {
+        if (deadline && Date.now() > deadline) break;
+        await paced();
+        try {
+          const { html: qfHtml } = await getHtml(qf.url);
+          addSlugs(qfHtml, qf.url, qf.quality, seasonHint);
+        } catch { /* quality folder gone */ }
+      }
     }
   } else {
-    // 1b. no season layer: some shows put the quality folders straight on the
-    //     item page. Use what we already parsed — no second fetch.
-    const direct = itemLinks.filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
-    if (!direct.length) return { kind: 'series', seasons: [], embeds: [], poster }; // listed but nothing uploaded yet
-    await collect(direct, 1);
+    // Flat shape: episodes are on the item page itself. No quality token, so
+    // 'HD' unless the slug or its label declares one.
+    addSlugs(itemHtml, url, 'HD', 1);
   }
 
-  // 2. each episode slug page → the numeric file id (parallel, order preserved)
+  if (!jobs.length) return { kind: 'series', seasons: [], embeds: [], poster };
+
+  // Each episode slug page → the numeric file id (parallel, order preserved)
   const idRows = (await mapLimit(jobs, 3, async (job) => {
     try {
       const { html } = await getHtml(job.slugUrl);
@@ -376,7 +419,7 @@ export async function walkSeries(url, { deadline = 0, log = () => {} } = {}) {
     } catch { return []; }
   })).flat();
 
-  // 3. confirm each id (parallel) → embed
+  // Confirm each id (parallel) → embed
   const confirmed = await mapLimit(idRows, 4, async (row) => ({ row, embed: await confirmEmbed(row.id) }));
 
   const seasons = new Map(); // season → Map(episode → Map(url → quality))
@@ -406,8 +449,22 @@ export async function walkSeries(url, { deadline = 0, log = () => {} } = {}) {
   return { kind: 'series', seasons: seasonList, embeds: flat, poster };
 }
 
-/** Walk any item page; dispatches on the URL shape. */
-export const walkItem = (url, options) => (isSeriesPath(new URL(url, CANON).pathname) ? walkSeries(url, options) : walkMovie(url, options));
+/**
+ * Walk any item page. The item page is fetched ONCE here, then the page itself
+ * decides movie or series. If the movie walk finds nothing, the series walk gets
+ * one try on the same HTML (a series published under a movie path whose folders
+ * only appear after the first hop).
+ */
+export async function walkItem(url, options = {}) {
+  const html = options.html || (await getHtml(url)).html;
+  if (!options.html && looksBlocked(html)) throw new Error(`blocked/challenge document for ${url}`);
+  if (planWalk(html, url) === 'series') return walkSeries(url, { ...options, html });
+
+  const movie = await walkMovie(url, { ...options, html });
+  if (embedCount(movie)) return movie;
+  const asSeries = await walkSeries(url, { ...options, html });
+  return embedCount(asSeries) > embedCount(movie) ? asSeries : movie;
+}
 
 /** How many embeds a walk result carries. */
 export const embedCount = (walked) => walked.kind === 'series'

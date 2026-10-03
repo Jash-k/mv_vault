@@ -6,7 +6,8 @@
  *   · by `--mode=tmdb`, the one-off backfill for records still missing artwork.
  *
  * Contract (`enrich`):
- *   { …meta }   → asked, found an exact title+year match
+ *   { …meta }   → asked, found an exact title+year match (includes
+ *                 original_language, which is what decides tamil vs tamil-dubbed)
  *   null        → asked, TMDB has no exact match (safe to remember as a miss)
  *   undefined   → could NOT ask (no key / rate-limited / auth rejected / network)
  *                 — never treat this as a miss, and never write bookkeeping for it.
@@ -81,18 +82,56 @@ async function lookup(title, year, type) {
     asked: true,
     meta: {
       tmdbId: details.data.id,
+      tmdbType: type,
       imdbId: details.data.external_ids?.imdb_id || '',
       poster: details.data.poster_path ? `https://image.tmdb.org/t/p/w500${details.data.poster_path}` : '',
       rating: Number(details.data.vote_average) || 0,
+      originalLanguage: details.data.original_language || '',
     },
   };
 }
 
-/** { poster, rating, tmdbId, imdbId } | null (no exact match) | undefined (could not ask). */
-export async function enrich({ title, year, kind }) {
+/** Details straight from a known TMDB id — cheaper and exact. */
+async function lookupById(id, type) {
+  const details = await api(`/${type}/${id}?append_to_response=external_ids`);
+  if (!details.ok) return { asked: false };
+  if (!details.data?.id) return { asked: true, meta: null };
+  return {
+    asked: true,
+    meta: {
+      tmdbId: details.data.id,
+      tmdbType: type,
+      imdbId: details.data.external_ids?.imdb_id || '',
+      poster: details.data.poster_path ? `https://image.tmdb.org/t/p/w500${details.data.poster_path}` : '',
+      rating: Number(details.data.vote_average) || 0,
+      originalLanguage: details.data.original_language || '',
+    },
+  };
+}
+
+/**
+ * { poster, rating, tmdbId, imdbId, originalLanguage } | null (no exact match) |
+ * undefined (could not ask).
+ *
+ * A record that already carries a tmdbId is looked up BY THAT ID — one call, and
+ * it cannot pick up a different film with a similar title (which is exactly how
+ * a title-year search can return the wrong original_language). Only records with
+ * no tmdbId fall back to an exact title+year search.
+ */
+export async function enrich({ title, year, kind, tmdbId = 0 }) {
   if (!hasKey() || authFailed || cooldownActive()) return undefined;
   const first = kind === 'series' ? 'tv' : 'movie';
   const second = first === 'tv' ? 'movie' : 'tv';
+
+  if (Number(tmdbId) > 0) {
+    for (const type of [first, second]) {
+      const byId = await lookupById(Number(tmdbId), type);
+      if (!byId.asked) return undefined;
+      if (byId.meta) return byId.meta;
+    }
+    // the id no longer resolves → fall through to a title search
+  }
+
   const attempt = await lookup(title, year, first);
   if (!attempt.asked) return undefined;
   if (attempt.meta) return attempt.meta;

@@ -3,7 +3,8 @@
  *
  * Writes exactly three files, all in the shape your app already reads:
  *
- *   data/vault.json  [ { id, title, year, [kind], pageUrl, embeds[{quality,url[,season,episode]}],
+ *   data/vault.json  [ { id, title, year, [kind], [category], [originalLanguage],
+ *                        [categorySource], pageUrl, embeds[{quality,url[,season,episode]}],
  *                        poster, rating, tmdbId, imdbId, addedAt, [seasons], [updatedAt] } ]
  *   data/index.json  [ { i, t, y, k, r, p } ]            (browse index, vault order)
  *   data/state.json  { done: { "<pageUrl>": { at, embeds } | { at, empty, retries, … } } }
@@ -57,7 +58,8 @@ export const saveAz = (cursor) => writeJson(AZ_FILE, cursor);
 export function saveAll(vault, state) {
   writeJson(VAULT_FILE, vault);
   writeJson(INDEX_FILE, vault.map((m) => ({
-    i: m.id, t: m.title, y: m.year || 0, k: m.kind === 'series' ? 's' : 'm', r: m.rating || 0, p: m.poster || '',
+    i: m.id, t: m.title, y: m.year || 0, k: m.kind === 'series' ? 's' : 'm',
+    c: m.category || '', r: m.rating || 0, p: m.poster || '',
   })), { indent: 0 });
   writeJson(STATE_FILE, state);
 }
@@ -130,6 +132,46 @@ export function titleFor(item) {
 
 export const idFor = (title, year) => `${slugify(title)}${year ? `-${year}` : ''}`;
 
+/* --------------------------------------------------------------- categories */
+
+/**
+ * The four buckets, all Tamil audio (the site publishes Tamil audio only):
+ *   tamil-movie · tamil-dubbed-movie · tamil-series · tamil-dubbed-series
+ *
+ * "Tamil" vs "Tamil dubbed" is ORIGIN, and the only reliable signal is TMDB's
+ * original_language (the item page always says "Language: Tamil" — that is the
+ * audio track, not the origin). When TMDB has no match, the site's own
+ * /tamil-dubbed-movies/ section is used as the evidence instead, and the record
+ * is marked categorySource: "site" so a TMDB result can replace it later.
+ */
+export const CATEGORY_TAMIL = 'tamil';
+export const CATEGORY_DUBBED = 'tamil-dubbed';
+
+export const isDubbedLang = (lang) => Boolean(lang) && String(lang).toLowerCase() !== 'ta';
+
+/** 'tamil-movie' | 'tamil-dubbed-movie' | 'tamil-series' | 'tamil-dubbed-series' | null */
+export function categoryFor(kind, originalLanguage) {
+  if (!originalLanguage) return null;
+  const base = kind === 'series' ? 'series' : 'movie';
+  return `${isDubbedLang(originalLanguage) ? CATEGORY_DUBBED : CATEGORY_TAMIL}-${base}`;
+}
+
+/** Site-evidence category (the dubbed section listed this path). */
+export const categoryFromSite = (kind, dubbed) => `${dubbed ? CATEGORY_DUBBED : CATEGORY_TAMIL}-${kind === 'series' ? 'series' : 'movie'}`;
+
+/**
+ * Set the category from site evidence. Never overwrites a TMDB-derived category,
+ * and marks the source so `--stale-days` can re-try it against TMDB later.
+ */
+export function applySiteCategory(record, dubbed) {
+  if (record.categorySource === 'tmdb') return false;
+  const wanted = categoryFromSite(record.kind, dubbed);
+  if (record.category === wanted && record.categorySource === 'site') return false;
+  record.category = wanted;
+  record.categorySource = 'site';
+  return true;
+}
+
 /* ------------------------------------------------------------------- merge */
 
 const qualityRank = (q) => (q === '1080p' ? 0 : q === '720p' ? 1 : q === '480p' ? 2 : q === '360p' ? 3 : 4);
@@ -168,6 +210,10 @@ function order(record) {
   const out = {
     id: record.id, title: record.title, year: record.year || 0,
     ...(record.kind === 'series' ? { kind: 'series' } : {}),
+    // only present once known, so untouched records stay byte-identical
+    ...(record.category ? { category: record.category } : {}),
+    ...(record.originalLanguage ? { originalLanguage: record.originalLanguage } : {}),
+    ...(record.category ? { categorySource: record.categorySource || 'tmdb' } : {}),
     pageUrl: record.pageUrl, embeds: record.embeds || [], poster: record.poster || '',
     rating: record.rating || 0, tmdbId: record.tmdbId || 0, imdbId: record.imdbId || '',
     addedAt: record.addedAt,
@@ -211,11 +257,15 @@ function findSeriesTwin(vault, record) {
   return bestShared >= 3 ? best : null;
 }
 
-const snapshot = (m) => JSON.stringify([m.embeds, m.seasons, m.poster, m.rating, m.tmdbId, m.imdbId]);
+const snapshot = (m) => JSON.stringify([m.embeds, m.seasons, m.poster, m.rating, m.tmdbId, m.imdbId, m.category, m.originalLanguage]);
+const episodesOf = (m) => (m?.seasons || []).reduce((n, s) => n + s.episodes.length, 0);
 
 /**
  * Merge one walked item into the vault.
- * Returns { action: 'added' | 'merged' | 'unchanged', record }.
+ * Returns { action: 'added' | 'merged' | 'unchanged', record, previousEpisodes }
+ * — previousEpisodes is the count BEFORE the merge, so a caller can report
+ * "+N episodes" correctly even when the record was matched by identity rather
+ * than by page path (a series re-listed on a new page).
  */
 export function upsert(vault, item, walked, now = new Date().toISOString()) {
   const title = item.title;
@@ -243,8 +293,9 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
   if (!existing) {
     const created = order(fresh);
     vault.push(created);
-    return { action: 'added', record: created };
+    return { action: 'added', record: created, previousEpisodes: 0 };
   }
+  const previousEpisodes = episodesOf(existing);
 
   const before = snapshot(existing);
   existing.embeds = mergeEmbeds(existing.embeds, embeds);
@@ -260,7 +311,7 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
   const rebuilt = order(existing);
   Object.keys(existing).forEach((k) => delete existing[k]);
   Object.assign(existing, rebuilt);
-  return { action: changed ? 'merged' : 'unchanged', record: existing };
+  return { action: changed ? 'merged' : 'unchanged', record: existing, previousEpisodes };
 }
 
 /**
@@ -276,8 +327,21 @@ export function applyMetadata(record, meta, { preferPoster = false } = {}) {
   if (!record.tmdbId && meta.tmdbId) { record.tmdbId = meta.tmdbId; changed = true; }
   if (!record.imdbId && meta.imdbId) { record.imdbId = meta.imdbId; changed = true; }
   if (!record.rating && meta.rating) { record.rating = meta.rating; changed = true; }
+
+  // category: TMDB's original_language is the authority, and it also replaces a
+  // previous site guess.
+  if (meta.originalLanguage) {
+    if (!record.originalLanguage) { record.originalLanguage = meta.originalLanguage; changed = true; }
+    const wanted = categoryFor(record.kind, meta.originalLanguage);
+    if (wanted && (record.category !== wanted || record.categorySource !== 'tmdb')) {
+      record.category = wanted;
+      record.categorySource = 'tmdb';
+      changed = true;
+    }
+  }
   if (changed) record.updatedAt = new Date().toISOString();
   return changed;
 }
 
 export const needsMetadata = (record) => !record.tmdbId || !record.poster;
+export const needsCategory = (record) => !record.category;

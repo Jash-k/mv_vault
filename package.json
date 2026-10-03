@@ -7,8 +7,8 @@
   "scripts": {
     "releases": "node src/run.mjs --mode=releases",
     "az": "node src/run.mjs --mode=az",
-    "backfill": "node src/run.mjs --mode=tmdb",
-    "dry": "node src/run.mjs --mode=releases --dry --max-items=3"
+    "dry": "node src/run.mjs --mode=releases --dry --max-items=3",
+    "enrich": "node src/run.mjs --mode=enrich"
   },
   "dependencies": {
     "cheerio": "^1.2.0"

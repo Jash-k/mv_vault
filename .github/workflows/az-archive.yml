@@ -19,6 +19,10 @@ on:
       only:
         description: 'Only items whose path contains this text (manual test)'
         default: ''
+      only_empty:
+        description: 'Only re-check pages already known empty/failed (backlog sweep)'
+        type: boolean
+        default: false
       dry:
         description: 'Dry run — scrape and log, write nothing'
         type: boolean
@@ -54,6 +58,7 @@ jobs:
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
           ONLY: ${{ inputs.only }}
+          ONLY_EMPTY: ${{ inputs.only_empty }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
@@ -61,6 +66,7 @@ jobs:
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$ONLY" ] && ARGS="$ARGS --only=$ONLY"
+          [ "$ONLY_EMPTY" = "true" ] && ARGS="$ARGS --only-empty"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
