@@ -63526,6 +63526,102 @@
     "url": "https://play.onestream.today/stream/page/101604",
     "season": 1,
     "episode": 8
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102111",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102119",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102112",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102120",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102113",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102121",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102114",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102122",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102115",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102123",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102116",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102124",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102117",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102125",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102118",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102126",
+    "season": 1,
+    "episode": 16
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/r2TJ9s9uhfxTssar1gBAWcxIXx7.jpg",
@@ -63640,10 +63736,115 @@
         "url": "https://play.onestream.today/stream/page/101604"
        }
       ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102111"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102119"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102112"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102120"
+       }
+      ]
+     },
+     {
+      "episode": 11,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102113"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102121"
+       }
+      ]
+     },
+     {
+      "episode": 12,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102114"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102122"
+       }
+      ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102115"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102123"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102116"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102124"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102117"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102125"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102118"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102126"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:33:58.892Z"
  },
  {
   "id": "desi-bling-2026",
@@ -64187,6 +64388,54 @@
     "url": "https://play.onestream.today/stream/page/102013",
     "season": 1,
     "episode": 12
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102149",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102153",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102150",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102154",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102151",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102155",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102152",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102156",
+    "season": 1,
+    "episode": 16
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/cYjdacskAhvWdjhxsSdhop1SxON.jpg",
@@ -64353,10 +64602,63 @@
         "url": "https://play.onestream.today/stream/page/102013"
        }
       ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102149"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102153"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102150"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102154"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102151"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102155"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102152"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102156"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:33:16.942Z"
  },
  {
   "id": "half-stories-2024",
@@ -65168,6 +65470,54 @@
     "url": "https://play.onestream.today/stream/page/101883",
     "season": 1,
     "episode": 72
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102059",
+    "season": 1,
+    "episode": 73
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102063",
+    "season": 1,
+    "episode": 73
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102060",
+    "season": 1,
+    "episode": 74
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102064",
+    "season": 1,
+    "episode": 74
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102061",
+    "season": 1,
+    "episode": 75
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102065",
+    "season": 1,
+    "episode": 75
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102062",
+    "season": 1,
+    "episode": 76
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102066",
+    "season": 1,
+    "episode": 76
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/dUmJyNe5UT301KwVWrxctpP2sqU.jpg",
@@ -65438,10 +65788,63 @@
         "url": "https://play.onestream.today/stream/page/101883"
        }
       ]
+     },
+     {
+      "episode": 73,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102059"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102063"
+       }
+      ]
+     },
+     {
+      "episode": 74,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102060"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102064"
+       }
+      ]
+     },
+     {
+      "episode": 75,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102061"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102065"
+       }
+      ]
+     },
+     {
+      "episode": 76,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102062"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102066"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:34:23.488Z"
  },
  {
   "id": "batchmates-2026",
@@ -65689,6 +66092,54 @@
     "url": "https://play.onestream.today/stream/page/101916",
     "season": 1,
     "episode": 88
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102094",
+    "season": 1,
+    "episode": 89
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102098",
+    "season": 1,
+    "episode": 89
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102095",
+    "season": 1,
+    "episode": 90
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102099",
+    "season": 1,
+    "episode": 90
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102096",
+    "season": 1,
+    "episode": 91
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102100",
+    "season": 1,
+    "episode": 91
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102097",
+    "season": 1,
+    "episode": 92
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102101",
+    "season": 1,
+    "episode": 92
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/o04GVavxTuTWCNrtbllGrQiRvbp.jpg",
@@ -65959,10 +66410,63 @@
         "url": "https://play.onestream.today/stream/page/101916"
        }
       ]
+     },
+     {
+      "episode": 89,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102094"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102098"
+       }
+      ]
+     },
+     {
+      "episode": 90,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102095"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102099"
+       }
+      ]
+     },
+     {
+      "episode": 91,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102096"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102100"
+       }
+      ]
+     },
+     {
+      "episode": 92,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102097"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102101"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:34:48.193Z"
  },
  {
   "id": "ipl-2023",
@@ -68443,6 +68947,54 @@
     "url": "https://play.onestream.today/stream/page/101908",
     "season": 3,
     "episode": 36
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102086",
+    "season": 3,
+    "episode": 37
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102090",
+    "season": 3,
+    "episode": 37
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102087",
+    "season": 3,
+    "episode": 38
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102091",
+    "season": 3,
+    "episode": 38
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102088",
+    "season": 3,
+    "episode": 39
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102092",
+    "season": 3,
+    "episode": 39
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102089",
+    "season": 3,
+    "episode": 40
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102093",
+    "season": 3,
+    "episode": 40
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/aHEr565AkKrwC7Q18u3OEjGavyj.jpg",
@@ -68713,10 +69265,63 @@
         "url": "https://play.onestream.today/stream/page/101908"
        }
       ]
+     },
+     {
+      "episode": 37,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102086"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102090"
+       }
+      ]
+     },
+     {
+      "episode": 38,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102087"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102091"
+       }
+      ]
+     },
+     {
+      "episode": 39,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102088"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102092"
+       }
+      ]
+     },
+     {
+      "episode": 40,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102089"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102093"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:35:13.404Z"
  },
  {
   "id": "mardini-2024",
@@ -70587,6 +71192,54 @@
     "url": "https://play.onestream.today/stream/page/102029",
     "season": 1,
     "episode": 12
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102165",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102169",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102166",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102170",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102167",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102171",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102168",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102172",
+    "season": 1,
+    "episode": 16
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/82TCOlAlhhuTkMclDTDR4bo6lQI.jpg",
@@ -70753,10 +71406,63 @@
         "url": "https://play.onestream.today/stream/page/102029"
        }
       ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102165"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102169"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102166"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102170"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102167"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102171"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102168"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102172"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:33:37.902Z"
  },
  {
   "id": "sri-bharatha-baahubali-2024",
@@ -71627,6 +72333,54 @@
     "url": "https://play.onestream.today/stream/page/102021",
     "season": 1,
     "episode": 20
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102157",
+    "season": 1,
+    "episode": 21
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102161",
+    "season": 1,
+    "episode": 21
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102158",
+    "season": 1,
+    "episode": 22
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102162",
+    "season": 1,
+    "episode": 22
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102159",
+    "season": 1,
+    "episode": 23
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102163",
+    "season": 1,
+    "episode": 23
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102160",
+    "season": 1,
+    "episode": 24
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102164",
+    "season": 1,
+    "episode": 24
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/7JAvG06DB9UMw6TXDUwuLomTgDu.jpg",
@@ -71884,10 +72638,63 @@
         "url": "https://play.onestream.today/stream/page/102021"
        }
       ]
+     },
+     {
+      "episode": 21,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102157"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102161"
+       }
+      ]
+     },
+     {
+      "episode": 22,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102158"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102162"
+       }
+      ]
+     },
+     {
+      "episode": 23,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102159"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102163"
+       }
+      ]
+     },
+     {
+      "episode": 24,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102160"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102164"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:36:28.293Z"
  },
  {
   "id": "varadha-2024",
@@ -73428,6 +74235,54 @@
     "url": "https://play.onestream.today/stream/page/102037",
     "season": 1,
     "episode": 16
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102173",
+    "season": 1,
+    "episode": 17
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102177",
+    "season": 1,
+    "episode": 17
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102174",
+    "season": 1,
+    "episode": 18
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102178",
+    "season": 1,
+    "episode": 18
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102175",
+    "season": 1,
+    "episode": 19
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102179",
+    "season": 1,
+    "episode": 19
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102176",
+    "season": 1,
+    "episode": 20
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102180",
+    "season": 1,
+    "episode": 20
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/iXUtd6fpt15vMZSO6du1uXQjcmv.jpg",
@@ -73646,10 +74501,63 @@
         "url": "https://play.onestream.today/stream/page/102037"
        }
       ]
+     },
+     {
+      "episode": 17,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102173"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102177"
+       }
+      ]
+     },
+     {
+      "episode": 18,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102174"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102178"
+       }
+      ]
+     },
+     {
+      "episode": 19,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102175"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102179"
+       }
+      ]
+     },
+     {
+      "episode": 20,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102176"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102180"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:35:38.125Z"
  },
  {
   "id": "30-naatkalil-kaadhalippadhu-eppadi-2022",
@@ -77440,7 +78348,7 @@
     "episode": 6
    }
   ],
-  "poster": "",
+  "poster": "https://moviezda.net/uploads/posters/90s-a-middle-class-biopic-2025.jpg",
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
@@ -77505,7 +78413,8 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:44:03.868Z"
  },
  {
   "id": "air-all-india-rankers-2025",
@@ -77557,9 +78466,9 @@
     "episode": 7
    }
   ],
-  "poster": "",
+  "poster": "https://moviezda.net/uploads/posters/air-all-india-rankers-2025.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 312961,
   "imdbId": "",
   "addedAt": "2026-10-01T12:26:41.998Z",
   "seasons": [
@@ -77631,7 +78540,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:22.838Z",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "mrs-deshpande-2025",
@@ -77677,10 +78590,10 @@
     "episode": 6
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/mrs-deshpande-2025.jpg",
+  "rating": 5,
+  "tmdbId": 260846,
+  "imdbId": "tt38990492",
   "addedAt": "2026-10-01T12:26:45.482Z",
   "seasons": [
    {
@@ -77742,7 +78655,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:23.075Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "pharma-2025",
@@ -77929,10 +78846,10 @@
     "episode": 6
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/single-papa-2025.jpg",
+  "rating": 7.6,
+  "tmdbId": 292625,
+  "imdbId": "tt37062070",
   "addedAt": "2026-10-01T12:26:59.624Z",
   "seasons": [
    {
@@ -77994,7 +78911,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:24.310Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "heartiley-battery-2025",
@@ -78040,10 +78961,10 @@
     "episode": 6
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/heartiley-battery-2025.jpg",
+  "rating": 5,
+  "tmdbId": 308399,
+  "imdbId": "tt39100726",
   "addedAt": "2026-10-01T12:27:01.678Z",
   "seasons": [
    {
@@ -78105,7 +79026,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:23.822Z",
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "lbw-love-beyond-wicket-2025",
@@ -78235,7 +79160,7 @@
     "episode": 120
    }
   ],
-  "poster": "",
+  "poster": "https://moviezda.net/uploads/posters/lbw-love-beyond-wicket-2025.jpg",
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
@@ -78426,7 +79351,8 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:43:19.935Z"
  },
  {
   "id": "dhoolpet-police-station-2025",
@@ -78556,9 +79482,9 @@
     "episode": 50
    }
   ],
-  "poster": "",
+  "poster": "https://moviezda.net/uploads/posters/dhoolpet-police-station-2025.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 320902,
   "imdbId": "",
   "addedAt": "2026-10-01T12:27:03.351Z",
   "seasons": [
@@ -78747,7 +79673,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:22.058Z",
+  "originalLanguage": "en",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "matsya-kaand-2021",
@@ -78823,10 +79753,10 @@
     "episode": 11
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/matsya-kaand-2021.jpg",
+  "rating": 8.3,
+  "tmdbId": 138940,
+  "imdbId": "tt15516446",
   "addedAt": "2026-10-01T12:27:21.979Z",
   "seasons": [
    {
@@ -78933,7 +79863,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:24.810Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "iru-dhuruvam-2-2023",
@@ -79003,7 +79937,7 @@
     "episode": 10
    }
   ],
-  "poster": "",
+  "poster": "https://moviezda.net/uploads/posters/iru-dhuruvam-2-2023.jpg",
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
@@ -79104,7 +80038,8 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:45:24.626Z"
  },
  {
   "id": "real-kashmir-football-club-2025",
@@ -79162,10 +80097,10 @@
     "episode": 8
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/real-kashmir-football-club-2025.jpg",
+  "rating": 4.5,
+  "tmdbId": 307004,
+  "imdbId": "tt38236377",
   "addedAt": "2026-10-01T12:27:25.641Z",
   "seasons": [
    {
@@ -79245,7 +80180,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:25.562Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "kuttram-purindhavan-2025",
@@ -79297,10 +80236,10 @@
     "episode": 7
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/kuttram-purindhavan-2025.jpg",
+  "rating": 8,
+  "tmdbId": 301940,
+  "imdbId": "tt38568136",
   "addedAt": "2026-10-01T12:27:26.267Z",
   "seasons": [
    {
@@ -79371,7 +80310,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:26.065Z",
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "cooku-with-comali-2026",
@@ -79756,10 +80699,10 @@
     "episode": 9
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://moviezda.net/uploads/posters/iru-dhuruvam-2019.jpg",
+  "rating": 8.2,
+  "tmdbId": 94784,
+  "imdbId": "tt11123072",
   "addedAt": "2026-10-01T12:27:29.854Z",
   "seasons": [
    {
@@ -79848,7 +80791,11 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-10-03T05:47:25.314Z",
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "mahendragiri-vaaraahi-2026",
@@ -84270,5 +85217,3293 @@
    }
   ],
   "updatedAt": "2026-10-02T20:01:45.703Z"
+ },
+ {
+  "id": "police-police-2025",
+  "title": "Police Police",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/police-police-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96224",
+    "season": 1,
+    "episode": 81
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96225",
+    "season": 1,
+    "episode": 82
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96226",
+    "season": 1,
+    "episode": 83
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96227",
+    "season": 1,
+    "episode": 84
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96450",
+    "season": 1,
+    "episode": 85
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96451",
+    "season": 1,
+    "episode": 86
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96452",
+    "season": 1,
+    "episode": 87
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96453",
+    "season": 1,
+    "episode": 88
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96700",
+    "season": 1,
+    "episode": 89
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96701",
+    "season": 1,
+    "episode": 90
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96702",
+    "season": 1,
+    "episode": 91
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96703",
+    "season": 1,
+    "episode": 92
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96887",
+    "season": 1,
+    "episode": 93
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96888",
+    "season": 1,
+    "episode": 94
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96889",
+    "season": 1,
+    "episode": 95
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/96890",
+    "season": 1,
+    "episode": 96
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/97093",
+    "season": 1,
+    "episode": 97
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/97094",
+    "season": 1,
+    "episode": 98
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/97095",
+    "season": 1,
+    "episode": 99
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/97092",
+    "season": 1,
+    "episode": 100
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/police-police-2025.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-03T05:43:32.414Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 81,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96224"
+       }
+      ]
+     },
+     {
+      "episode": 82,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96225"
+       }
+      ]
+     },
+     {
+      "episode": 83,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96226"
+       }
+      ]
+     },
+     {
+      "episode": 84,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96227"
+       }
+      ]
+     },
+     {
+      "episode": 85,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96450"
+       }
+      ]
+     },
+     {
+      "episode": 86,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96451"
+       }
+      ]
+     },
+     {
+      "episode": 87,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96452"
+       }
+      ]
+     },
+     {
+      "episode": 88,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96453"
+       }
+      ]
+     },
+     {
+      "episode": 89,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96700"
+       }
+      ]
+     },
+     {
+      "episode": 90,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96701"
+       }
+      ]
+     },
+     {
+      "episode": 91,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96702"
+       }
+      ]
+     },
+     {
+      "episode": 92,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96703"
+       }
+      ]
+     },
+     {
+      "episode": 93,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96887"
+       }
+      ]
+     },
+     {
+      "episode": 94,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96888"
+       }
+      ]
+     },
+     {
+      "episode": 95,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96889"
+       }
+      ]
+     },
+     {
+      "episode": 96,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/96890"
+       }
+      ]
+     },
+     {
+      "episode": 97,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/97093"
+       }
+      ]
+     },
+     {
+      "episode": 98,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/97094"
+       }
+      ]
+     },
+     {
+      "episode": 99,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/97095"
+       }
+      ]
+     },
+     {
+      "episode": 100,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/97092"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "karuvanam-2024",
+  "title": "Karuvanam",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/karuvanam-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88266",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88267",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88268",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88269",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88270",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88271",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88272",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88273",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88274",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88275",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88276",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88277",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88278",
+    "season": 1,
+    "episode": 17
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88279",
+    "season": 1,
+    "episode": 18
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88280",
+    "season": 1,
+    "episode": 19
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88281",
+    "season": 1,
+    "episode": 20
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88282",
+    "season": 1,
+    "episode": 21
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88283",
+    "season": 1,
+    "episode": 22
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88284",
+    "season": 1,
+    "episode": 23
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88285",
+    "season": 1,
+    "episode": 24
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/iHaj563kcqDOaesEMqzqejqfdZX.jpg",
+  "rating": 0,
+  "tmdbId": 277924,
+  "imdbId": "tt34268857",
+  "addedAt": "2026-10-03T05:43:58.002Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88266"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88267"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88268"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88269"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88270"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88271"
+       }
+      ]
+     },
+     {
+      "episode": 11,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88272"
+       }
+      ]
+     },
+     {
+      "episode": 12,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88273"
+       }
+      ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88274"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88275"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88276"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88277"
+       }
+      ]
+     },
+     {
+      "episode": 17,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88278"
+       }
+      ]
+     },
+     {
+      "episode": 18,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88279"
+       }
+      ]
+     },
+     {
+      "episode": 19,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88280"
+       }
+      ]
+     },
+     {
+      "episode": 20,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88281"
+       }
+      ]
+     },
+     {
+      "episode": 21,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88282"
+       }
+      ]
+     },
+     {
+      "episode": 22,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88283"
+       }
+      ]
+     },
+     {
+      "episode": 23,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88284"
+       }
+      ]
+     },
+     {
+      "episode": 24,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88285"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:22.323Z"
+ },
+ {
+  "id": "parachute-2024",
+  "title": "Parachute",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/parachute-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87903",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87904",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87905",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87906",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87907",
+    "season": 1,
+    "episode": 5
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/aCpEktlupJJk9pWNxJDwVqPTejX.jpg",
+  "rating": 9,
+  "tmdbId": 277367,
+  "imdbId": "tt34265516",
+  "addedAt": "2026-10-03T05:44:30.039Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87903"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87904"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87905"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87906"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87907"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:23.325Z"
+ },
+ {
+  "id": "nadu-center-2025",
+  "title": "Nadu Center",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/nadu-center-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94043",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94044",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94045",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94215",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94216",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94217",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94394",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94395",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94396",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94634",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94635",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94636",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94810",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94811",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94812",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95063",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95064",
+    "season": 1,
+    "episode": 17
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/k5zMt469A1giYBHqT4hPyNBJfs4.jpg",
+  "rating": 8,
+  "tmdbId": 305702,
+  "imdbId": "tt27494250",
+  "addedAt": "2026-10-03T05:44:41.691Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94043"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94044"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94045"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94215"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94216"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94217"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94394"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94395"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94396"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94634"
+       }
+      ]
+     },
+     {
+      "episode": 11,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94635"
+       }
+      ]
+     },
+     {
+      "episode": 12,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94636"
+       }
+      ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94810"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94811"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94812"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95063"
+       }
+      ]
+     },
+     {
+      "episode": 17,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95064"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:23.566Z"
+ },
+ {
+  "id": "vikkatakavi-2024",
+  "title": "Vikkatakavi",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/vikkatakavi-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87876",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87877",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87878",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87879",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87880",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87881",
+    "season": 1,
+    "episode": 6
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/3pJWDYThHQsExHuW5xAjRKTcytC.jpg",
+  "rating": 8.7,
+  "tmdbId": 277489,
+  "imdbId": "tt32047599",
+  "addedAt": "2026-10-03T05:44:54.122Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87876"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87877"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87878"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87879"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87880"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87881"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:24.069Z"
+ },
+ {
+  "id": "waack-girls-2024",
+  "title": "Waack Girls",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/waack-girls-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87730",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87731",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87732",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87733",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87734",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87735",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87736",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87737",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87738",
+    "season": 1,
+    "episode": 9
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/85aCpKgIR63OCEAgU2GWqCJNo1g.jpg",
+  "rating": 0,
+  "tmdbId": 249761,
+  "imdbId": "tt31924841",
+  "addedAt": "2026-10-03T05:45:07.896Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87730"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87731"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87732"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87733"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87734"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87735"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87736"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87737"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87738"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:24.560Z"
+ },
+ {
+  "id": "freedom-at-midnight-2024",
+  "title": "Freedom at Midnight",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/freedom-at-midnight-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87559",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87560",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87561",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87562",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87563",
+    "season": 1,
+    "episode": 5
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/gCId3CjVHGePMYtu1pYzhZDXtEc.jpg",
+  "rating": 8.2,
+  "tmdbId": 258427,
+  "imdbId": "tt28102595",
+  "addedAt": "2026-10-03T05:45:45.341Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87559"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87560"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87561"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87562"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87563"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:25.818Z"
+ },
+ {
+  "id": "rambo-in-love-2025",
+  "title": "Rambo in love",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/rambo-in-love-2025-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94303",
+    "season": 1,
+    "episode": 45
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94304",
+    "season": 1,
+    "episode": 46
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94305",
+    "season": 1,
+    "episode": 47
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94306",
+    "season": 1,
+    "episode": 48
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94428",
+    "season": 1,
+    "episode": 49
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94429",
+    "season": 1,
+    "episode": 50
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94430",
+    "season": 1,
+    "episode": 51
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94431",
+    "season": 1,
+    "episode": 52
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94689",
+    "season": 1,
+    "episode": 53
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94690",
+    "season": 1,
+    "episode": 54
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94691",
+    "season": 1,
+    "episode": 55
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94692",
+    "season": 1,
+    "episode": 56
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94943",
+    "season": 1,
+    "episode": 57
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94944",
+    "season": 1,
+    "episode": 58
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94945",
+    "season": 1,
+    "episode": 59
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94946",
+    "season": 1,
+    "episode": 60
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95103",
+    "season": 1,
+    "episode": 61
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95104",
+    "season": 1,
+    "episode": 62
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95105",
+    "season": 1,
+    "episode": 63
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/95106",
+    "season": 1,
+    "episode": 64
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/g0e1SX80ipedeIutTysR6KVsJUz.jpg",
+  "rating": 0,
+  "tmdbId": 300515,
+  "imdbId": "tt39163330",
+  "addedAt": "2026-10-03T05:46:04.892Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 45,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94303"
+       }
+      ]
+     },
+     {
+      "episode": 46,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94304"
+       }
+      ]
+     },
+     {
+      "episode": 47,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94305"
+       }
+      ]
+     },
+     {
+      "episode": 48,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94306"
+       }
+      ]
+     },
+     {
+      "episode": 49,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94428"
+       }
+      ]
+     },
+     {
+      "episode": 50,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94429"
+       }
+      ]
+     },
+     {
+      "episode": 51,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94430"
+       }
+      ]
+     },
+     {
+      "episode": 52,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94431"
+       }
+      ]
+     },
+     {
+      "episode": 53,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94689"
+       }
+      ]
+     },
+     {
+      "episode": 54,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94690"
+       }
+      ]
+     },
+     {
+      "episode": 55,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94691"
+       }
+      ]
+     },
+     {
+      "episode": 56,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94692"
+       }
+      ]
+     },
+     {
+      "episode": 57,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94943"
+       }
+      ]
+     },
+     {
+      "episode": 58,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94944"
+       }
+      ]
+     },
+     {
+      "episode": 59,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94945"
+       }
+      ]
+     },
+     {
+      "episode": 60,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94946"
+       }
+      ]
+     },
+     {
+      "episode": 61,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95103"
+       }
+      ]
+     },
+     {
+      "episode": 62,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95104"
+       }
+      ]
+     },
+     {
+      "episode": 63,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95105"
+       }
+      ]
+     },
+     {
+      "episode": 64,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/95106"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:26.312Z"
+ },
+ {
+  "id": "citadel-honey-bunny-2024",
+  "title": "Citadel Honey Bunny",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/citadel-honey-bunny-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87339",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87340",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87341",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87342",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87343",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87344",
+    "season": 1,
+    "episode": 6
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/lzZ9J2FOsaq1DCuD7k2f4ogbXdD.jpg",
+  "rating": 6.7,
+  "tmdbId": 154084,
+  "imdbId": "tt27111295",
+  "addedAt": "2026-10-03T05:46:11.088Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87339"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87340"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87341"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87342"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87343"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87344"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "en",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:26.553Z"
+ },
+ {
+  "id": "ziddi-ishq-2025",
+  "title": "Ziddi Ishq",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/ziddi-ishq-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94107",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94108",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94109",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94110",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94111",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94112",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94113",
+    "season": 1,
+    "episode": 7
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/wta6iL1GEMnV4Wzl7fKoopXFcCi.jpg",
+  "rating": 0,
+  "tmdbId": 306142,
+  "imdbId": "tt38866463",
+  "addedAt": "2026-10-03T05:46:17.860Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94107"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94108"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94109"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94110"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94111"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94112"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94113"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:26.808Z"
+ },
+ {
+  "id": "the-family-man-2025",
+  "title": "The Family Man",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/the-family-man-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94098",
+    "season": 3,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94099",
+    "season": 3,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94100",
+    "season": 3,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94101",
+    "season": 3,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94102",
+    "season": 3,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94103",
+    "season": 3,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94104",
+    "season": 3,
+    "episode": 7
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/vtCpiTJDTXTTj2DX55auda7qREE.jpg",
+  "rating": 5.5,
+  "tmdbId": 1248732,
+  "imdbId": "tt36107132",
+  "addedAt": "2026-10-03T05:46:24.825Z",
+  "seasons": [
+   {
+    "season": 3,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94098"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94099"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94100"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94101"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94102"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94103"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94104"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ru",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:27.140Z"
+ },
+ {
+  "id": "aindham-vedham-2024",
+  "title": "Aindham Vedham",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/aindham-vedham-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87085",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87086",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87087",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87088",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87089",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87090",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87091",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87092",
+    "season": 1,
+    "episode": 8
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/i6zuyH4zuEHxezNPwSRgOADkQ1F.jpg",
+  "rating": 8.5,
+  "tmdbId": 274276,
+  "imdbId": "tt33983792",
+  "addedAt": "2026-10-03T05:46:31.792Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87085"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87086"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87087"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87088"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87089"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87090"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87091"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87092"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:27.381Z"
+ },
+ {
+  "id": "goli-soda-rising-2024",
+  "title": "Goli Soda Rising",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/goli-soda-rising-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86426",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86427",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86428",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86476",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86641",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86714",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86830",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86954",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87075",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/87429",
+    "season": 1,
+    "episode": 10
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/uBiA1NPdfRSSY6t1HBRADRR7WN7.jpg",
+  "rating": 0,
+  "tmdbId": 270760,
+  "imdbId": "tt28782582",
+  "addedAt": "2026-10-03T05:46:39.896Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86426"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86427"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86428"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86476"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86641"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86714"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86830"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86954"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87075"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/87429"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:27.681Z"
+ },
+ {
+  "id": "network-2025",
+  "title": "Network",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/network-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93995",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93996",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93997",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93998",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93999",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94000",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94001",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94002",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94003",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/94004",
+    "season": 1,
+    "episode": 10
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/u7DXtB0wzrUZpoUeHQYjjb9YeHy.jpg",
+  "rating": 0,
+  "tmdbId": 305127,
+  "imdbId": "tt37678040",
+  "addedAt": "2026-10-03T05:46:47.962Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93995"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93996"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93997"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93998"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93999"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94000"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94001"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94002"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94003"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/94004"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:27.925Z"
+ },
+ {
+  "id": "snakes-and-ladders-2024",
+  "title": "Snakes and Ladders",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/snakes-and-ladders-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86980",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86981",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86982",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86983",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86984",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86985",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86986",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86987",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86988",
+    "season": 1,
+    "episode": 9
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/snakes-and-ladders-2024.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-03T05:46:55.584Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86980"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86981"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86982"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86983"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86984"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86985"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86986"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86987"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86988"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "1000-babies-2024",
+  "title": "1000 Babies",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/1000-babies-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86971",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86972",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86973",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86974",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86975",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86976",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/86977",
+    "season": 1,
+    "episode": 7
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/j9EdxlAReZ27m29kTP0cqaQOeoe.jpg",
+  "rating": 5.7,
+  "tmdbId": 261576,
+  "imdbId": "tt33131120",
+  "addedAt": "2026-10-03T05:47:02.316Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86971"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86972"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86973"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86974"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86975"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86976"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/86977"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:28.426Z"
+ },
+ {
+  "id": "maharani-2025",
+  "title": "Maharani",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/maharani-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93740",
+    "season": 4,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93741",
+    "season": 4,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93742",
+    "season": 4,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93743",
+    "season": 4,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93744",
+    "season": 4,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93745",
+    "season": 4,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93746",
+    "season": 4,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93801",
+    "season": 4,
+    "episode": 8
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/Aejzk7l9ThuONhwMJevAnMmOIvB.jpg",
+  "rating": 0,
+  "tmdbId": 1521143,
+  "imdbId": "tt36853496",
+  "addedAt": "2026-10-03T05:47:09.323Z",
+  "seasons": [
+   {
+    "season": 4,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93740"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93741"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93742"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93743"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93744"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93745"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93746"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93801"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "gu",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-03T05:47:28.742Z"
+ },
+ {
+  "id": "heart-beat-2025",
+  "title": "Heart Beat",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/heart-beat-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93233",
+    "season": 2,
+    "episode": 85
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93234",
+    "season": 2,
+    "episode": 86
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93235",
+    "season": 2,
+    "episode": 87
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93236",
+    "season": 2,
+    "episode": 88
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93369",
+    "season": 2,
+    "episode": 89
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93370",
+    "season": 2,
+    "episode": 90
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93371",
+    "season": 2,
+    "episode": 91
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93372",
+    "season": 2,
+    "episode": 92
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93538",
+    "season": 2,
+    "episode": 93
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93539",
+    "season": 2,
+    "episode": 94
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93540",
+    "season": 2,
+    "episode": 95
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93585",
+    "season": 2,
+    "episode": 96
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93715",
+    "season": 2,
+    "episode": 97
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93716",
+    "season": 2,
+    "episode": 98
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93717",
+    "season": 2,
+    "episode": 99
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93714",
+    "season": 2,
+    "episode": 100
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-03T05:47:20.289Z",
+  "seasons": [
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 85,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93233"
+       }
+      ]
+     },
+     {
+      "episode": 86,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93234"
+       }
+      ]
+     },
+     {
+      "episode": 87,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93235"
+       }
+      ]
+     },
+     {
+      "episode": 88,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93236"
+       }
+      ]
+     },
+     {
+      "episode": 89,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93369"
+       }
+      ]
+     },
+     {
+      "episode": 90,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93370"
+       }
+      ]
+     },
+     {
+      "episode": 91,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93371"
+       }
+      ]
+     },
+     {
+      "episode": 92,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93372"
+       }
+      ]
+     },
+     {
+      "episode": 93,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93538"
+       }
+      ]
+     },
+     {
+      "episode": 94,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93539"
+       }
+      ]
+     },
+     {
+      "episode": 95,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93540"
+       }
+      ]
+     },
+     {
+      "episode": 96,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93585"
+       }
+      ]
+     },
+     {
+      "episode": 97,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93715"
+       }
+      ]
+     },
+     {
+      "episode": 98,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93716"
+       }
+      ]
+     },
+     {
+      "episode": 99,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93717"
+       }
+      ]
+     },
+     {
+      "episode": 100,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93714"
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]
