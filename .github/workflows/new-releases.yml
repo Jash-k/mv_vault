@@ -7,7 +7,12 @@ name: New releases (Tamil year folder + latest series)
 #                                    there is picked up with no code change at
 #                                    the year rollover)
 #   /tamil-web-series-download/     (latest 3 pages)
-# Anything already stored is skipped without a single request.
+# Anything already stored is skipped without a single request, and the run always
+# prints WHY each item was skipped ("· ... 379 items (361 movies, 18 series) →
+# 0 walked · skipped: 304 stored · 66 series · window · 9 stored (another path)").
+#
+# Movies are done once they are stored. refresh_days=N re-walks stored movies
+# older than N days, when you want a way to pick up re-uploads.
 on:
   schedule:
     - cron: '17 */6 * * *'        # 05:47, 11:47, 17:47, 23:47 IST
@@ -22,6 +27,13 @@ on:
       max_items:
         description: 'Stop after N new walks (default: all new items)'
         default: ''
+      refresh_days:
+        description: 'Also re-walk stored MOVIES older than N days (default 0 = never)'
+        default: ''
+      verbose:
+        description: 'Print a line for every item, including plain skips'
+        type: boolean
+        default: false
       dry:
         description: 'Dry run — scrape and log, write nothing'
         type: boolean
@@ -58,6 +70,8 @@ jobs:
           YEAR: ${{ inputs.year }}
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
+          REFRESH_DAYS: ${{ inputs.refresh_days }}
+          VERBOSE: ${{ inputs.verbose }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
@@ -65,6 +79,8 @@ jobs:
           [ -n "$YEAR" ] && ARGS="$ARGS --year=$YEAR"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
+          [ -n "$REFRESH_DAYS" ] && [ "$REFRESH_DAYS" != "0" ] && ARGS="$ARGS --refresh-days=$REFRESH_DAYS"
+          [ "$VERBOSE" = "true" ] && ARGS="$ARGS --verbose"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"

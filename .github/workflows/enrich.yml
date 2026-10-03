@@ -5,6 +5,12 @@ name: Enrich (posters, ratings, categories)
 # No scraping — one TMDB call per record, plus one read of the site's dubbed
 # section as fallback evidence.
 #
+# Put ALL your TMDB keys in one secret named TMDB_KEYS, comma-separated:
+#   key1,key2,key3,…  (11 keys)
+# They are used round-robin; a throttled key is parked for 10 minutes on its own
+# and the run carries on with the next one. A rejected key is retired by itself.
+# The run only stops if EVERY key is throttled or rejected.
+#
 # Run by hand from the Actions tab. Safe to repeat: records already done are
 # skipped, and records TMDB has no exact match for fall back to the site's
 # /tamil-dubbed-movies/ section and are marked categorySource: "site".
@@ -13,13 +19,16 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max records this run (default 400; 0 = as many as the budget allows)'
-        default: '400'
+        description: 'Max records this run (0 = all eligible records, bounded by the budget)'
+        default: '0'
       stale_days:
         description: 'Also re-try records last looked at N+ days ago (0 = only never-tried)'
         default: '0'
       budget_min:
         description: 'Stop cleanly after N minutes (default 20)'
+        default: ''
+      concurrency:
+        description: 'Parallel TMDB lookups (default 4; 8 is plenty)'
         default: ''
       dry:
         description: 'Dry run — look up and log, write nothing'
@@ -55,6 +64,7 @@ jobs:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
           LIMIT: ${{ inputs.limit }}
           STALE: ${{ inputs.stale_days }}
+          CONCURRENCY: ${{ inputs.concurrency }}
           BUDGET: ${{ inputs.budget_min }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
@@ -63,6 +73,7 @@ jobs:
           [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ] && ARGS="$ARGS --limit=$LIMIT"
           [ -n "$STALE" ] && [ "$STALE" != "0" ] && ARGS="$ARGS --stale-days=$STALE"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
+          [ -n "$CONCURRENCY" ] && ARGS="$ARGS --concurrency=$CONCURRENCY"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"

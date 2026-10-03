@@ -345,3 +345,73 @@ export function applyMetadata(record, meta, { preferPoster = false } = {}) {
 
 export const needsMetadata = (record) => !record.tmdbId || !record.poster;
 export const needsCategory = (record) => !record.category;
+
+/* ------------------------------------------------- two writers, one branch */
+
+/**
+ * Union-merge two generations of the vault (ours vs whatever is on the branch).
+ *
+ * This exists because two runs can overlap: the workflow concurrency group
+ * serialises them, but a manual run can still land on top of a long one, and a
+ * push race must not throw away either run's work. Everything in this data set
+ * unions cleanly — embeds, seasons, categories — so a merge is always safe:
+ *
+ *   · records only in one generation are kept;
+ *   · embeds/seasons are unioned (a link is never dropped by a merge);
+ *   · metadata (poster/rating/tmdbId/imdbId/category/…) is taken from the
+ *     generation whose record was updated most recently, and filled in when one
+ *     side is empty;
+ *   · the flat embeds[] is rebuilt from seasons[] so the invariant holds.
+ */
+export function mergeVaults(ours = [], theirs = []) {
+  const out = theirs.map((r) => ({ ...r }));
+  const at = new Map(out.map((r, i) => [r.id, i]));
+  for (const mine of ours) {
+    const index = at.get(mine.id);
+    if (index === undefined) { at.set(mine.id, out.length); out.push({ ...mine }); continue; }
+    const other = out[index];
+    const newer = String(mine.updatedAt || mine.addedAt || '') >= String(other.updatedAt || other.addedAt || '');
+    const merged = { ...other };
+    merged.embeds = mergeEmbeds(other.embeds || [], mine.embeds || []);
+    if (mine.seasons?.length || other.seasons?.length) {
+      merged.kind = 'series';
+      merged.seasons = mergeSeasons(other.seasons || [], mine.seasons || []);
+      merged.embeds = flatten(merged.seasons);
+    }
+    for (const key of ['poster', 'rating', 'tmdbId', 'imdbId', 'category', 'originalLanguage', 'categorySource']) {
+      const a = other[key]; const b = mine[key];
+      if (!a && b) merged[key] = b;
+      else if (a && b && a !== b && newer) merged[key] = b;
+    }
+    if (!merged.year && mine.year) merged.year = mine.year;
+    if (!merged.title && mine.title) merged.title = mine.title;
+    if (newer && mine.updatedAt) merged.updatedAt = mine.updatedAt;
+    out[index] = order(merged);
+  }
+  return out;
+}
+
+/** Per-URL bookkeeping: keep whichever side looked at that URL more recently. */
+export function mergeStates(ours = {}, theirs = {}) {
+  const done = { ...(theirs.done || {}) };
+  for (const [url, entry] of Object.entries(ours.done || {})) {
+    const other = done[url];
+    if (!other || String(entry?.at || '') >= String(other?.at || '')) done[url] = entry;
+  }
+  const tmdbMiss = { ...(theirs.tmdbMiss || {}) };
+  for (const [id, at] of Object.entries(ours.tmdbMiss || {})) {
+    // earliest marker wins: a record TMDB never had stays marked
+    if (!tmdbMiss[id] || String(at) < String(tmdbMiss[id])) tmdbMiss[id] = at;
+  }
+  return { ...theirs, done, tmdbMiss, letters: { ...(theirs.letters || {}), ...(ours.letters || {}) } };
+}
+
+/** A–Z cursor: the further-advanced side wins, and a completed pass is kept. */
+export function mergeAz(ours = {}, theirs = {}) {
+  const seq = (c) => [Number(c?.pass) || 1, String(c?.letter || 'a'), Number(c?.page) || 1];
+  const cmp = (a, b) => (a[0] - b[0]) || a[1].localeCompare(b[1]) || (a[2] - b[2]);
+  const winner = cmp(seq(ours), seq(theirs)) >= 0 ? ours : theirs;
+  const other = winner === ours ? theirs : ours;
+  const lastPassAt = String(ours?.lastPassAt || '') >= String(theirs?.lastPassAt || '') ? ours?.lastPassAt : theirs?.lastPassAt;
+  return { letter: winner.letter || 'a', page: winner.page || 1, pass: winner.pass || 1, ...(lastPassAt ? { lastPassAt } : {}), ...(other.finishedAt && !winner.finishedAt ? { finishedAt: other.finishedAt } : {}) };
+}

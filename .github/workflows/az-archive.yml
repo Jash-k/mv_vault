@@ -2,7 +2,13 @@ name: A–Z archive (resumable, runs on through the letters)
 
 # Walks /tamil-movies/<letter>/?page=N from data/az.json onwards and does NOT
 # stop at the end of a letter: it continues a→z inside the same run until the
-# budget runs out. Next run resumes from the saved cursor. After z the cursor
+# budget runs out.
+#
+# Also carries the one-off RECOVERY SWEEP (sweep_empty): it ignores the cursor,
+# walks a→z and re-checks every page the OLDER walker left "empty" — that is what
+# recovers titles the old movie/series detection lost. Run it by hand and repeat
+# until the summary says "recovered 0" / "still empty" stops falling; the normal
+# cursor is untouched. Next run resumes from the saved cursor. After z the cursor
 # rolls back to 'a' and a fresh pass starts (that is how re-uploads and new
 # arrivals in old letters get picked up).
 on:
@@ -19,8 +25,12 @@ on:
       only:
         description: 'Only items whose path contains this text (manual test)'
         default: ''
-      only_empty:
-        description: 'Only re-check pages already known empty/failed (backlog sweep)'
+      sweep_empty:
+        description: 'RECOVERY SWEEP: re-walk every page an older walker left empty (ignores the cursor; rerun until it reports 0)'
+        type: boolean
+        default: false
+      verbose:
+        description: 'Print a line for every item, including plain skips'
         type: boolean
         default: false
       dry:
@@ -58,7 +68,8 @@ jobs:
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
           ONLY: ${{ inputs.only }}
-          ONLY_EMPTY: ${{ inputs.only_empty }}
+          SWEEP_EMPTY: ${{ inputs.sweep_empty }}
+          VERBOSE: ${{ inputs.verbose }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
@@ -66,7 +77,8 @@ jobs:
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$ONLY" ] && ARGS="$ARGS --only=$ONLY"
-          [ "$ONLY_EMPTY" = "true" ] && ARGS="$ARGS --only-empty"
+          [ "$SWEEP_EMPTY" = "true" ] && ARGS="$ARGS --sweep-empty"
+          [ "$VERBOSE" = "true" ] && ARGS="$ARGS --verbose"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
