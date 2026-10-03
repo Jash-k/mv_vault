@@ -1553,7 +1553,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/bigg-boss-2025-tamil-season-9/": {
-   "at": "2026-10-02T20:11:23.142Z",
+   "at": "2026-10-03T05:18:59.320Z",
    "embeds": 20
   },
   "https://moviesda34.com/balti-2025-tamil-movie/": {
@@ -5768,7 +5768,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/kombuseevi-2025-tamil-movie-1/": {
-   "at": "2026-10-02T20:33:04.458Z",
+   "at": "2026-10-03T05:18:35.770Z",
    "embeds": 4
   },
   "https://moviesda34.com/kadhal-kadhai-sollava-2026-tamil-movie/": {
@@ -6066,13 +6066,9 @@
    "embeds": 1
   },
   "https://moviesda34.com/karuvanam-2024-tamil-movie/": {
-   "at": "2026-10-02T14:55:05.952Z",
+   "at": "2026-10-03T05:19:01.186Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T16:25:05.952Z",
-   "failures": 2,
-   "lastError": "no embeds during a degraded run: 100% of 400 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/karataka-damanaka-2024-tamil-movie/": {
    "at": "2026-09-27T21:03:21.600Z",
@@ -8245,7 +8241,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/mark-2025-tamil-movie-1/": {
-   "at": "2026-10-02T20:36:46.007Z",
+   "at": "2026-10-03T05:18:49.726Z",
    "embeds": 4
   },
   "https://moviesda34.com/mudhalvan-1999-tamil-movie/": {
@@ -9754,7 +9750,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/nadhi-2022-tamil-movie-1/": {
-   "at": "2026-10-02T20:45:18.964Z",
+   "at": "2026-10-03T05:18:16.929Z",
    "embeds": 4
   },
   "https://moviesda34.com/naangal-2025-tamil-movie/": {
@@ -12044,7 +12040,7 @@
    "embeds": 2
   },
   "https://moviesda34.com/rayar-parambarai-2023-tamil-movie-1/": {
-   "at": "2026-10-02T20:58:09.900Z",
+   "at": "2026-10-03T05:18:31.182Z",
    "embeds": 4
   },
   "https://moviesda34.com/ram-abdullah-antony-2025-tamil-movie/": {
@@ -12849,7 +12845,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/sarkar-2018-tamil-movie/": {
-   "at": "2026-10-02T21:01:23.596Z",
+   "at": "2026-10-03T05:18:21.336Z",
    "embeds": 4
   },
   "https://moviesda34.com/satan-the-dark-2026-tamil-movie/": {
@@ -12857,7 +12853,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/sabdham-2025-tamil-movie/": {
-   "at": "2026-10-02T21:01:30.058Z",
+   "at": "2026-10-03T05:18:26.545Z",
    "embeds": 4
   },
   "https://moviesda34.com/sillunu-oru-kaadhal-2006-tamil-movie/": {
@@ -12909,7 +12905,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/sirai-tamil-movie-moviesda/": {
-   "at": "2026-10-02T21:01:43.386Z",
+   "at": "2026-10-03T05:18:40.580Z",
    "embeds": 4
   },
   "https://moviesda34.com/savaal-1981-tamil-movie-1/": {
@@ -14421,7 +14417,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/tere-ishk-mein-2025-tamil-movie-1/": {
-   "at": "2026-10-02T21:09:28.313Z",
+   "at": "2026-10-03T05:18:45.139Z",
    "embeds": 4
   },
   "https://moviesda34.com/thalaivar-thambi-thalaimaiyil-2026-tamil-movie/": {
@@ -18088,7 +18084,7 @@
    "kind": "series"
   },
   "https://moviesda34.com/bigg-boss-2026-tamil-web-series/": {
-   "at": "2026-10-02T20:10:57.183Z",
+   "at": "2026-10-03T05:18:12.356Z",
    "embeds": 20
   },
   "https://moviesda34.com/resort-2026-tamil-web-series/": {
