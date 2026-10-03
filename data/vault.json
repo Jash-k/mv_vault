@@ -99231,5 +99231,116 @@
   "category": "tamil-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-10-03T20:27:10.284Z"
+ },
+ {
+  "id": "yakshini-2024",
+  "title": "Yakshini",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/yakshini-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84792",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84793",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84794",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84795",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84796",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84797",
+    "season": 1,
+    "episode": 6
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/yakshini-2024.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-03T22:29:49.372Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84792"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84793"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84794"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84795"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84796"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84797"
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 ]
