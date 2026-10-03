@@ -1,18 +1,30 @@
-name: New releases (Tamil year folder + latest series)
+name: New releases (Tamil year folder)
 
-# Checks ONLY:
+# Checks ONLY the year folders:
 #   /tamil-<current year>-movies/   (all pages — 2026 today)
 #   /tamil-<next year>-movies/      (all pages — 2027 today; the folder already
 #                                    exists as a placeholder, so a title added
 #                                    there is picked up with no code change at
 #                                    the year rollover)
-#   /tamil-web-series-download/     (latest 3 pages)
-# Anything already stored is skipped without a single request, and the run always
-# prints WHY each item was skipped ("· ... 379 items (361 movies, 18 series) →
-# 0 walked · skipped: 304 stored · 66 series · window · 9 stored (another path)").
 #
-# Movies are done once they are stored. refresh_days=N re-walks stored movies
-# older than N days, when you want a way to pick up re-uploads.
+# Those folders carry SERIES as well as movies (2026: 67 series pages of 379
+# items), so /tamil-web-series-download/ is not read any more — it only re-listed
+# series that are mostly older than the current year. Set with_series = true to
+# add it back (latest 3 pages) for the couple of pre-2026 series that live only
+# there.
+# Anything already stored is skipped without a single request, and the run always
+# prints WHY each item was skipped ("· releases: 379 items (312 movies, 67
+# series) → 0 walked · skipped: 305 stored · 64 series — inside its refresh
+# window · 10 stored (another path)").
+#
+# STORED LINKS ARE PROBED EVERY RUN. When the site rebuilds a release
+# (PreDVD → Original) the old stream IDs go dead — they still answer, but with an
+# empty page. A stored movie is otherwise never looked at again, so the check
+# probes each record's top link (a series: its first + newest episode) and
+# re-walks the page only when a link is proven dead. Dead links are dropped and
+# the fresh verified ones merged in; anything merely unreachable (403/429/5xx/
+# timeout) is KEPT. check_all = true widens the check to the whole vault (~2,900
+# probes, a few minutes) for the old A–Z catalogue.
 on:
   schedule:
     - cron: '17 */6 * * *'        # 05:47, 11:47, 17:47, 23:47 IST
@@ -27,6 +39,18 @@ on:
       max_items:
         description: 'Stop after N new walks (default: all new items)'
         default: ''
+      check_all:
+        description: 'Probe EVERY stored record in the vault, not just the ones on this year folder'
+        type: boolean
+        default: false
+      no_link_check:
+        description: 'Skip the stored-link health check for this run'
+        type: boolean
+        default: false
+      with_series:
+        description: 'ALSO read /tamil-web-series-download/ (latest 3 pages) — off by default'
+        type: boolean
+        default: false
       refresh_days:
         description: 'Also re-walk stored MOVIES older than N days (default 0 = never)'
         default: ''
@@ -72,6 +96,9 @@ jobs:
           BUDGET: ${{ inputs.budget_min }}
           REFRESH_DAYS: ${{ inputs.refresh_days }}
           VERBOSE: ${{ inputs.verbose }}
+          WITH_SERIES: ${{ inputs.with_series }}
+          CHECK_ALL: ${{ inputs.check_all }}
+          NO_LINK_CHECK: ${{ inputs.no_link_check }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
@@ -81,6 +108,9 @@ jobs:
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$REFRESH_DAYS" ] && [ "$REFRESH_DAYS" != "0" ] && ARGS="$ARGS --refresh-days=$REFRESH_DAYS"
           [ "$VERBOSE" = "true" ] && ARGS="$ARGS --verbose"
+          [ "$WITH_SERIES" = "true" ] && ARGS="$ARGS --with-series"
+          [ "$CHECK_ALL" = "true" ] && ARGS="$ARGS --check-all"
+          [ "$NO_LINK_CHECK" = "true" ] && ARGS="$ARGS --no-link-check"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"

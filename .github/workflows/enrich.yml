@@ -5,6 +5,11 @@ name: Enrich (posters, ratings, categories)
 # No scraping — one TMDB call per record, plus one read of the site's dubbed
 # section as fallback evidence.
 #
+# verify_ids = true also re-checks records whose STORED tmdbId resolves to a
+# different title (a wrong match from the old pipeline) and replaces it — and its
+# poster/rating — only when an exact title+year match is found. Off by default:
+# nothing already in the vault is ever rewritten without it.
+#
 # Put ALL your TMDB keys in one secret named TMDB_KEYS, comma-separated:
 #   key1,key2,key3,…  (11 keys)
 # They are used round-robin; a throttled key is parked for 10 minutes on its own
@@ -30,6 +35,10 @@ on:
       concurrency:
         description: 'Parallel TMDB lookups (default 4; 8 is plenty)'
         default: ''
+      verify_ids:
+        description: 'Re-match stored TMDB ids whose title does not match (corrects wrong old matches)'
+        type: boolean
+        default: false
       dry:
         description: 'Dry run — look up and log, write nothing'
         type: boolean
@@ -65,6 +74,7 @@ jobs:
           LIMIT: ${{ inputs.limit }}
           STALE: ${{ inputs.stale_days }}
           CONCURRENCY: ${{ inputs.concurrency }}
+          VERIFY_IDS: ${{ inputs.verify_ids }}
           BUDGET: ${{ inputs.budget_min }}
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
@@ -74,6 +84,7 @@ jobs:
           [ -n "$STALE" ] && [ "$STALE" != "0" ] && ARGS="$ARGS --stale-days=$STALE"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$CONCURRENCY" ] && ARGS="$ARGS --concurrency=$CONCURRENCY"
+          [ "$VERIFY_IDS" = "true" ] && ARGS="$ARGS --verify-ids"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"

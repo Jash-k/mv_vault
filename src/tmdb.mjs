@@ -65,6 +65,7 @@ async function attempt(path, key) {
   const url = `https://api.themoviedb.org/3${path}${path.includes('?') ? '&' : '?'}api_key=${key}`;
   try {
     const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    if (res.status === 404) { await res.body?.cancel(); return { ok: false, reason: 'missing' }; }
     if (res.status === 429) { await res.body?.cancel(); return { ok: false, reason: 'cooldown' }; }
     if (res.status === 401 || res.status === 403) { await res.body?.cancel(); return { ok: false, reason: 'auth' }; }
     if (!res.ok) { await res.body?.cancel(); return { ok: false, reason: `http ${res.status}` }; }
@@ -95,6 +96,7 @@ async function api(path) {
       last = result;
       continue;
     }
+    if (result.reason === 'missing') return { ok: true, data: null }; // a real answer: nothing at this path
     if (result.reason === 'network') {
       await sleep(700);
       result = await attempt(path, entry.key);      // same key, one retry
@@ -123,6 +125,7 @@ function pick(results, { title, year }, type) {
 const metaOf = (details, type) => ({
   tmdbId: details.id,
   tmdbType: type,
+  tmdbTitle: details.title || details.name || '',
   imdbId: details.external_ids?.imdb_id || '',
   poster: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : '',
   rating: Number(details.vote_average) || 0,
@@ -145,26 +148,55 @@ async function lookup(title, year, type) {
   if (!hit) return { asked: true, meta: null };
   return lookupById(hit.id, type);
 }
-
-/** { poster, rating, tmdbId, imdbId, originalLanguage } | null | undefined. */
-export async function enrich({ title, year, kind, tmdbId = 0 }) {
+/**
+ * { poster, rating, tmdbId, imdbId, originalLanguage } | null | undefined.
+ *
+ *   · a stored id is trusted for its own media type — that is the data the
+ *     record was built from (no churn);
+ *   · a stored id that only resolves as the OTHER media type is used when the
+ *     title matches exactly (that is how a series filed under a movie-shaped
+ *     page gets a series category);
+ *   · `verifyIds` also re-searches when the id's title does not match at all,
+ *     and keeps exactly what the record had if nothing better is found.
+ */
+export async function enrich({ title, year, kind, tmdbId = 0, verifyIds = false }) {
   if (!hasKey() || allKeysDown()) return undefined;
   const first = kind === 'series' ? 'tv' : 'movie';
   const second = first === 'tv' ? 'movie' : 'tv';
+  const sameTitle = (a, b) => normalise(a) === normalise(b);
+  let suspect = null;                      // an id whose title did not match
 
   if (Number(tmdbId) > 0) {
-    for (const type of [first, second]) {
+    for (const [i, type] of [first, second].entries()) {
       const byId = await lookupById(Number(tmdbId), type);
       if (!byId.asked) return undefined;
-      if (byId.meta) return byId.meta;
+      if (!byId.meta) continue;            // 404 here → try the other media type
+      const titleOk = sameTitle(byId.meta.tmdbTitle, title);
+      if (i === 0) {
+        if (titleOk || !verifyIds) return byId.meta;
+        suspect = byId.meta;               // verify-ids: try to find something better
+        break;
+      }
+      if (titleOk) { byId.meta.crossType = true; return byId.meta; }
+      break;                               // the id belongs to a different work
     }
-    // the id no longer resolves → fall through to a title search
   }
 
   const primary = await lookup(title, year, first);
   if (!primary.asked) return undefined;
   if (primary.meta) return primary.meta;
-  const fallback = await lookup(title, year, second);
-  if (!fallback.asked) return undefined;
-  return fallback.meta || null;
+
+  // Cross-type search: only a MOVIE record may fall back to a TV entry (the site
+  // files some series under movie-shaped pages, and that is exactly how their
+  // category becomes a series category). A SERIES record is never matched to a
+  // film: two different works can share a title and a year, and a film's poster
+  // and language on a series record is worse than no match at all.
+  if (second !== 'movie') {
+    const fallback = await lookup(title, year, second);
+    if (!fallback.asked) return undefined;
+    if (fallback.meta) return fallback.meta;
+  }
+
+  if (suspect) { suspect.keptId = true; return suspect; }
+  return null;
 }

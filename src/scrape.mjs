@@ -247,7 +247,7 @@ export function posterFromHtml(html = '') {
   return stray ? `${POSTER_HOST}/uploads/posters/${stray}` : '';
 }
 
-const mapLimit = async (rows, limit, fn) => {
+export const mapLimit = async (rows, limit, fn) => {
   const out = new Array(rows.length);
   let i = 0;
   await Promise.all(Array.from({ length: Math.min(limit, rows.length) }, async () => {
@@ -467,6 +467,42 @@ export async function walkItem(url, options = {}) {
 }
 
 /** How many embeds a walk result carries. */
+/**
+ * Is a stored stream link still playable?
+ *
+ * The site swaps a movie's files when the release changes (PreDVD → Original),
+ * which is how a stored link goes dead: the ID still answers, but the page comes
+ * back EMPTY. A live one answers with the player page (~12 KB, has <title> and
+ * a <source src>).
+ *
+ *   alive    → real player page
+ *   dead     → empty body (0 bytes) or 404/410  — safe to drop
+ *   unknown  → 403/429/5xx/timeout/network — NEVER drop anything on this
+ *
+ * Only 'dead' ever removes a link from the vault.
+ */
+export async function probeEmbed(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { 'user-agent': UA, accept: 'text/html,*/*' },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(12000),
+    });
+    stats.requests += 1;
+    if (res.status === 404 || res.status === 410) return { verdict: 'dead', reason: `http ${res.status}` };
+    if (!res.ok) return { verdict: 'unknown', reason: `http ${res.status}` };
+    const html = await res.text();
+    stats.bytes += html.length;
+    const titled = (html.match(/<title>\s*([^<]*)/i) || [])[1] || '';
+    const alive = html.length >= 400 && /source\s+src|<video|player|<title>/i.test(html);
+    return alive
+      ? { verdict: 'alive', bytes: html.length, note: titled.trim().slice(0, 60) }
+      : { verdict: 'dead', bytes: html.length, reason: `${html.length} bytes, no player page` };
+  } catch (error) {
+    return { verdict: 'unknown', reason: error?.name === 'TimeoutError' ? 'timeout' : 'network' };
+  }
+}
+
 export const embedCount = (walked) => walked.kind === 'series'
   ? (walked.seasons || []).reduce((n, s) => n + s.episodes.reduce((a, e) => a + e.embeds.length, 0), 0)
   : (walked.embeds || []).length;

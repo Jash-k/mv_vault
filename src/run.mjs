@@ -2,8 +2,13 @@
 /**
  * run.mjs — THE run. Two modes, one job each, no stages:
  *
- *   node src/run.mjs --mode=releases     # Tamil 2026 folder + latest series folder
+ *   node src/run.mjs --mode=releases     # the Tamil <year> folder(s) — movies AND series
  *   node src/run.mjs --mode=az           # A–Z folder, resumable, goes on to the next letter
+ *
+ * The year folder lists series too (2026: 67 series pages of 379 items), so the
+ * separate /tamil-web-series-download/ folder is NOT read by default — it only
+ * re-listings series that are mostly older than the current year. --with-series
+ * adds it back (latest 3 pages) for the rare case of a series listed only there.
  *
  * Discovery → walk → merge → save → commit. The listing page IS the queue: an
  * item that is still on the listing is found again next run, so there is no
@@ -20,6 +25,17 @@
  *                      (a one-off backlog sweep; stored items are skipped anyway)
  *   --year=2027        pin the releases flow to one year (skips the current year)
  *   --tmdb-limit=N     max TMDB lookups per run (default 150)
+ *   --check-all        releases mode: probe EVERY stored record's links, not just
+ *                      the ones on this year's folder (catches re-uploads of the
+ *                      old A–Z catalogue; ~2,900 probes, a few minutes)
+ *   --no-link-check    releases mode: skip the stored-link health check entirely
+ *   --with-series      releases mode: ALSO read /tamil-web-series-download/
+ *                      (latest 3 pages). Off by default — the year folder already
+ *                      carries series; only a couple of pre-2026 series live on
+ *                      that folder alone.
+ *   --verify-ids       enrich mode: when a stored TMDB id turns out to be the wrong
+ *                      work (it resolves to a different title), replace it — and
+ *                      its poster/rating — with a freshly matched one
  *   --refresh-days=N   also re-walk stored MOVIES older than N days (default 0 =
  *                      never; movies are normally done once they are stored)
  *   --concurrency=N    enrich mode: parallel TMDB lookups (default 4)
@@ -28,7 +44,7 @@
  */
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
-import { LIVE, discover, getHtml, parseListing, walkItem, embedCount, stats, sleep, WALK_VERSION } from './scrape.mjs';
+import { LIVE, discover, getHtml, parseListing, walkItem, embedCount, probeEmbed, mapLimit, stats, sleep, WALK_VERSION } from './scrape.mjs';
 import * as V from './vault.mjs';
 import * as tmdb from './tmdb.mjs';
 
@@ -45,6 +61,10 @@ const onlyEmpty = Boolean(arg('only-empty', false));
 const sweepEmpty = Boolean(arg('sweep-empty', false));
 const verbose = Boolean(arg('verbose', false)) || /^(1|true)$/i.test(String(process.env.VERBOSE || ''));
 const refreshDays = Number(arg('refresh-days', 0)) || 0;
+const verifyIds = Boolean(arg('verify-ids', false));
+const withSeries = Boolean(arg('with-series', false));
+const checkAll = Boolean(arg('check-all', false));
+const noLinkCheck = Boolean(arg('no-link-check', false));
 /**
  * Which year folders the releases flow reads.
  *   default        → the current year AND the next one (2026 + 2027 today). The
@@ -58,7 +78,7 @@ const currentYear = new Date().getUTCFullYear();
 const years = arg('year') ? [String(arg('year'))] : [String(currentYear), String(currentYear + 1)];
 
 const CFG = mode === 'releases'
-  ? { budgetMin: 25, maxItems: 0, commitEvery: 100, emptyHours: 24, listingPages: 30, seriesPages: 3, seriesRefreshHours: 24 }
+  ? { budgetMin: 25, maxItems: 0, commitEvery: 100, emptyHours: 24, listingPages: 30, seriesPages: 3, seriesRefreshHours: 24, linkCheck: true, linkCheckHours: 1 } // seriesPages only used by --with-series
   : mode === 'enrich'
     ? { budgetMin: 20, maxItems: 0, commitEvery: 500, emptyHours: 0, listingPages: 0, seriesPages: 0, seriesRefreshHours: 0 }
     : { budgetMin: 300, maxItems: 0, commitEvery: 200, emptyHours: 168, listingPages: 1, seriesPages: 0, seriesRefreshHours: 168 };
@@ -76,11 +96,13 @@ const byPath = new Map(vaultData.map((m) => [V.pathOf(m.pageUrl), m]));
 const seenThisRun = new Set();
 
 const counts = { added: 0, merged: 0, unchanged: 0, empty: 0, failed: 0, skipped: 0, walked: 0, refresh: 0 };
+const links = { targets: 0, checked: 0, dead: 0, repaired: 0, dropped: 0, unreachable: 0, pulled: 0 };
 const touched = new Map();       // record id → record (for the TMDB step)
 const failures = [];             // last few error lines for the summary
 let listingErrors = 0;
 
 const log = (line = '') => console.log(line);
+const sameish = (a, b) => String(a).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim() === String(b).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const pad = (s, n) => String(s).padEnd(n, ' ');
 const clock = (ms) => (ms < 1000 ? `${ms}ms` : ms < 60000 ? `${(ms / 1000).toFixed(1)}s` : `${Math.round(ms / 60000)}m`);
 const until = (iso) => {
@@ -382,6 +404,116 @@ async function enrichTouched() {
   return { checked: rows.length, filled, categories, skipped: false };
 }
 
+/* --------------------------------------------------- stored-link health check */
+
+/**
+ * A stored link can die without the page changing what it advertises: when a
+ * movie's release stage changes (PreDVD → Original) the site rebuilds the files
+ * and the old stream IDs answer with an EMPTY page. Nothing else would ever
+ * notice — stored records are not re-walked — so the vault would keep handing
+ * out dead links. This step probes the stored links of every record on this
+ * year's folder and repairs the ones that are dead:
+ *
+ *   probe says dead  → re-walk the page → merge the fresh, verified links →
+ *                      drop ONLY the URLs proven dead (everything alive stays)
+ *   probe says alive → nothing happens (one request, no walk)
+ *   probe unknown    → nothing happens, ever (403/429/5xx/timeout is not proof)
+ *
+ * `--check-all` widens it from the year folder to the whole vault.
+ */
+async function checkStoredLinks(items) {
+  if (noLinkCheck || !CFG.linkCheck) return;
+  if (deadline && Date.now() > deadline) { log('links          skipped — the run is out of budget (next run will do it)'); return; }
+
+  const targets = [];
+  const seen = new Set();
+  const add = (record) => {
+    if (!record || !record.embeds?.length || seen.has(record.id)) return;
+    seen.add(record.id);
+    if (touched.has(record.id)) return;                       // walked moments ago — already verified
+    const st = state.done[record.pageUrl] || {};
+    const at = Date.parse(st.at || '') || 0;
+    if (at && Date.now() - at < CFG.linkCheckHours * 3.6e6) return;   // verified within the hour
+    targets.push(record);
+  };
+  if (checkAll) vaultData.forEach(add);
+  else items.forEach((item) => add(byPath.get(item.path)));
+
+  if (!targets.length) { log('links          nothing to probe (every stored record was checked recently)'); return; }
+  links.targets = targets.length;
+  log(`links          probing ${targets.length} stored records${checkAll ? ' (whole vault)' : ' on this folder'} · movie=top link · series=first+newest episode`);
+
+  const probeTargets = (record) => {
+    const urls = record.embeds.map((e) => e.url);
+    return record.kind === 'series' && urls.length > 1 ? [urls[0], urls[urls.length - 1]] : [urls[0]];
+  };
+
+  const suspects = [];
+  await mapLimit(targets, 6, async (record) => {
+    if (deadline && Date.now() > deadline) return;
+    let worst = 'alive';
+    for (const url of probeTargets(record)) {
+      const p = await probeEmbed(url);
+      links.checked += 1;
+      if (p.verdict === 'dead') { worst = 'dead'; break; }
+      if (p.verdict === 'unknown') worst = 'unknown';
+    }
+    if (worst === 'unknown') links.unreachable += 1;
+    if (worst === 'dead') suspects.push(record);
+  });
+
+  for (const record of suspects) {
+    if (deadline && Date.now() > deadline) { log('links          budget reached mid-repair — the rest will be done next run'); break; }
+    links.dead += 1;
+    // Which of THIS record's links are actually dead? Only these may be dropped.
+    const probes = await mapLimit(record.embeds, 4, async (e) => ({ url: e.url, ...(await probeEmbed(e.url)) }));
+    const deadUrls = probes.filter((p) => p.verdict === 'dead').map((p) => p.url);
+    const unknown = probes.filter((p) => p.verdict === 'unknown').length;
+
+    let walked = null;
+    try {
+      walked = await walkItem(record.pageUrl, { deadline, log: () => {} });
+    } catch (error) {
+      log(`  ! ${pad(label(record), 40)} re-walk failed (${error.message.slice(0, 40)}) — nothing removed`);
+      continue;
+    }
+    const n = walked ? embedCount(walked) : 0;
+    const before = record.embeds.length;
+    dirty = true;
+
+    if (n) {
+      const { record: updated } = V.upsert(vaultData, {
+        url: record.pageUrl, path: V.pathOf(record.pageUrl), label: record.title, kind: record.kind,
+        title: record.title, year: record.year,
+      }, walked);
+      const target = updated || record;
+      const dropped = V.removeEmbeds(target, deadUrls);
+      links.dropped += dropped;
+      links.repaired += 1;
+      state.done[record.pageUrl] = { at: new Date().toISOString(), embeds: target.embeds.length, kind: walked.kind || record.kind, v: WALK_VERSION };
+      byPath.set(V.pathOf(record.pageUrl), target);
+      touched.set(target.id, { record: target, isNew: false });
+      log(`  ⚡ ${pad(label(target), 40)} DEAD LINK → re-walked · ${n} verified · ${before} stored → ${target.embeds.length} kept${dropped ? ` (${dropped} dead removed)` : ''}${unknown ? ` · ${unknown} unreachable kept` : ''}`);
+    } else {
+      const dropped = V.removeEmbeds(record, deadUrls);
+      links.dropped += dropped;
+      links.pulled += 1;
+      const previous = state.done[record.pageUrl] || {};
+      state.done[record.pageUrl] = { at: new Date().toISOString(), empty: true, retries: Number(previous.retries || 0) + 1, v: WALK_VERSION };
+      log(`  ⚡ ${pad(label(record), 40)} DEAD LINK → page has nothing left · ${dropped} dead removed, ${record.embeds.length} kept (record stays; retried later)`);
+    }
+    saveIfDirty(true);
+  }
+
+  const parts = [`${links.checked} probes on ${targets.length} records`];
+  if (links.dead) parts.push(`${links.dead} dead`);
+  if (links.repaired) parts.push(`${links.repaired} re-walked and repaired (${links.dropped} dead links removed)`);
+  if (links.pulled) parts.push(`${links.pulled} pulled from the site`);
+  if (links.unreachable) parts.push(`${links.unreachable} unreachable — kept`);
+  if (!links.dead) parts.push('all alive');
+  log(`links          ${parts.join(' · ')}`);
+}
+
 /* --------------------------------------------------------------- the modes */
 
 async function runReleases() {
@@ -392,12 +524,19 @@ async function runReleases() {
     log(`year folder   /tamil-${y}-movies/ → ${found.length} items`);
     items.push(...found);
   }
-  log(`series folder /tamil-web-series-download/ (latest ${CFG.seriesPages} pages only)`);
-  const seriesItems = await discover('/tamil-web-series-download/', { param: 'get-page', maxPages: CFG.seriesPages, deadline, log });
-  items.push(...seriesItems);
-  if (!items.length) { listingErrors += 1; log('! no items discovered — both listings failed or returned nothing'); return; }
+  // The year folder already contains series, so the series folder is optional
+  // (--with-series). Without it the run reads strictly one folder per year.
+  if (withSeries) {
+    log(`series folder /tamil-web-series-download/ (--with-series, latest ${CFG.seriesPages} pages)`);
+    const seriesItems = await discover('/tamil-web-series-download/', { param: 'get-page', maxPages: CFG.seriesPages, deadline, log });
+    items.push(...seriesItems);
+  }
+  if (!items.length) { listingErrors += 1; log('! no items discovered — the year folder(s) failed or returned nothing'); return; }
   const { walked } = await processItems(items, 'releases');
-  log(`· ${items.length} items on the listings · ${walked} walked · ${counts.skipped} skipped`);
+  log(`· ${items.length} items on the year folder${withSeries ? ' + series folder' : ''} · ${walked} walked · ${counts.skipped} skipped`);
+  // Stored links can go dead when the site rebuilds a release — check them here,
+  // because nothing else ever looks at a stored record again.
+  await checkStoredLinks(items);
 }
 
 /**
@@ -525,7 +664,9 @@ async function runEnrich() {
   const staleMs = staleDays * 86_400_000;
 
   const needsWork = (m) => (m.embeds || []).length && (V.needsMetadata(m) || V.needsCategory(m) || m.categorySource === 'site');
+  const inOnly = (m) => !only || `${m.id} ${m.title} ${m.pageUrl}`.toLowerCase().includes(only.toLowerCase());
   const eligible = vaultData.filter((m) => {
+    if (!inOnly(m)) return false;   // `--only=` also works here, to fix one title by hand
     if (!needsWork(m)) return false;
     const missed = Date.parse(state.tmdbMiss?.[m.id] || '') || 0;
     // No category at all → always eligible. A "no match" marker only says TMDB
@@ -555,7 +696,7 @@ async function runEnrich() {
     const batch = queue.slice(i, i + parallel);
     const results = await Promise.all(batch.map(async (record) => ({
       record,
-      meta: await tmdb.enrich({ title: record.title, year: record.year, kind: record.kind === 'series' ? 'series' : 'movie', tmdbId: record.tmdbId }),
+      meta: await tmdb.enrich({ title: record.title, year: record.year, kind: record.kind === 'series' ? 'series' : 'movie', tmdbId: record.tmdbId, verifyIds }),
     })));
 
     let stop = false;
@@ -572,7 +713,12 @@ async function runEnrich() {
       }
       blips = 0;
       if (meta) {
-        if (V.applyMetadata(record, meta, { preferPoster: true })) {
+        if (meta.crossType) {
+          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}", a ${meta.tmdbType === 'tv' ? 'series' : 'film'} — categorised as one`);
+        } else if (meta.tmdbTitle && !sameish(meta.tmdbTitle, record.title)) {
+          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}" — ${meta.keptId ? 'no better exact match found, kept' : 'title differs, kept as it was (use --verify-ids to re-match)'}`);
+        }
+        if (V.applyMetadata(record, meta, { preferPoster: true, replaceId: verifyIds })) {
           filled += 1;
           if (!wasPoster && record.poster) posters += 1;
           if (record.category && record.category !== wasCategory) categories += 1;
@@ -645,6 +791,9 @@ const cat = vaultData.reduce((acc, m) => { if (m.category) acc[m.category] = (ac
 const catLine = Object.keys(cat).length ? Object.entries(cat).map(([k, v]) => `${k} ${v}`).join(' · ') : 'none yet (run --mode=enrich)';
 log(`vault          ${vaultData.length} records (${totals.movies} movies · ${totals.series} series) · ${totals.embeds} embeds`);
 log(`categories     ${catLine}`);
+if (CFG.linkCheck && !noLinkCheck) {
+  log(`links          ${links.targets} checked · ${links.dead} dead · ${links.repaired} repaired · ${links.dropped} removed · ${links.pulled} pulled · ${links.unreachable} unreachable-kept`);
+}
 log(`duration       ${minutes}m${stopped ? ' · stopped by budget' : ''}${dry ? ' · DRY RUN' : ''}`);
 if (failures.length) { log('failures'); for (const line of failures.slice(-10)) log(`  ! ${line}`); }
 
@@ -658,6 +807,9 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '',
     `vault: **${vaultData.length}** records · ${totals.movies} movies · ${totals.series} series · ${totals.embeds} embeds`,
     `tmdb: ${tmdbStats.skipped ? 'skipped (no key)' : `${tmdbStats.checked} checked, ${tmdbStats.filled} filled`}`,
+    ...(CFG.linkCheck && !noLinkCheck
+      ? [`links: ${links.checked} probes · ${links.dead} dead · ${links.repaired} repaired · ${links.dropped} removed · ${links.unreachable} unreachable (kept)`]
+      : []),
     failures.length ? `\n**last failures**\n${failures.slice(-5).map((f) => `- \`${f}\``).join('\n')}` : '',
   ].join('\n');
   fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${md}\n`);

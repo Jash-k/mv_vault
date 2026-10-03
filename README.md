@@ -4,9 +4,24 @@ Three flows. One run each. Nothing else.
 
 | Flow | What it checks | Schedule (UTC / IST) |
 |---|---|---|
-| `new-releases.yml` | `/tamil-2026-movies/` **and** `/tamil-2027-movies/` (all pages each) **and** `/tamil-web-series-download/` (latest 3 pages) | 00:17, 06:17, 12:17, 18:17 / 05:47, 11:47, 17:47, 23:47 |
+| `new-releases.yml` | the year folders only: `/tamil-2026-movies/` **and** `/tamil-2027-movies/` (all pages each) — they carry movies **and** series — **plus the stored-link health check** | 00:17, 06:17, 12:17, 18:17 / 05:47, 11:47, 17:47, 23:47 |
 | `az-archive.yml` | `/tamil-movies/<letter>/?page=N` from a saved cursor, continuing through the letters in the same run | 19:43 / 01:13 next day |
 | `enrich.yml` | no scraping — poster, rating, `tmdbId`, `imdbId` and the **category** for records missing them | manual, on demand |
+
+### Which folders the releases flow reads
+
+**The year folder only.** `/tamil-2026-movies/` lists movies *and* series (379
+items today: 312 movie-shaped, 67 series-shaped, e.g. `Love (2026)`,
+`Hunkkaar The Roar`, `Bigg Boss Season 10`), so reading `/tamil-web-series-download/`
+as well was doing the same job twice and costing 3 extra listing pages every run.
+
+* `with_series = true` (`--with-series`) adds that folder back (latest 3 pages).
+  Worth it only for a couple of pre-2026 series that are listed **nowhere else** —
+  today that is `90s A Middle Class Biopic (2025)` and `1000 Babies (2024)`. Every
+  other series page on that folder is also on the A–Z index, so it keeps being
+  refreshed there (the A–Z flow re-walks stored series on a 168 h window).
+* Nothing already stored is affected either way — this only changes where new
+  episodes are noticed first.
 
 Each scrape run does exactly one thing: **discover → walk → merge → commit**.
 There is no queue file, no candidate/staging copy, no artifact, no second job.
@@ -99,6 +114,8 @@ node src/run.mjs --mode=enrich --limit=0              # all eligible records
 node src/run.mjs --mode=enrich --dry                  # look up and log, write nothing
 node src/run.mjs --mode=enrich --stale-days=30        # re-try old misses / site guesses
 node src/run.mjs --mode=enrich --concurrency=8        # 8 parallel lookups (default 4)
+node src/run.mjs --mode=enrich --verify-ids           # re-match stored ids that are wrong
+node src/run.mjs --mode=enrich --only=toxic           # one record, by title/id/path
 ```
 
 **All 11 TMDB keys go in ONE secret, comma-separated** — Actions → Settings →
@@ -130,11 +147,33 @@ network errors in a row **stops the loop** and says so; it never marks hundreds 
 records as "no match" because the API was unhappy, and nothing is lost — rerun to
 continue where it stopped.
 
-A note on accuracy: TMDB ids already stored in your vault are trusted and looked
-up by id, and the ones checked match their titles exactly. So when the report says
-`Agadha (2026) · te · tamil-dubbed-movie`, that is TMDB's own `original_language`
-for that film — this site republishes Telugu/Malayalam releases with Tamil audio,
-and the category is exactly the field that separates them.
+A note on accuracy: TMDB ids already stored in your vault are trusted for **their
+own media type** and looked up by id — no churn on 2,500 existing records. So when
+the report says `Agadha (2026) · te · tamil-dubbed-movie`, that is TMDB's own
+`original_language` for that film — this site republishes Telugu/Malayalam releases
+with Tamil audio, and the category is exactly the field that separates them.
+
+Three matching rules that matter:
+
+* **A stored id that only exists as the other media type is used when the title
+  matches exactly.** `Indian Police Force`, `Killer Soup`, `Kaiyum Kalavum`,
+  `Mathagam`, `Parampara` are series filed under movie-shaped paths: their id
+  resolves as a **TV** entry, so they now get `tamil-series` / `tamil-dubbed-series`
+  and the log says so:
+  `· Indian Police Force (2024)  TMDB id 201009 is "Indian Police Force", a series — categorised as one`
+* **A series record is never matched to a film**, even with the same title and
+  year. Two different works can share both, and a film's poster and language on a
+  series record is worse than no match. `Love (2026)` is exactly this case: its
+  stored id belongs to *The Love Hypothesis*, so that id is ignored and the site
+  fallback gives `tamil-series`.
+* **A wrong stored id is reported, never silently rewritten**:
+  `· Toxic (2025)  TMDB id 338969 is "The Toxic Avenger Unrated" — title differs, kept as it was (use --verify-ids to re-match)`
+
+`--verify-ids` (Actions input `verify_ids`) is the opt-in fix for those: it
+re-searches by title+year and replaces the id (with poster/rating/language) **only**
+when an exact match is found; if nothing better exists the record keeps exactly what
+it had (`· … no better exact match found, kept`). One title at a time is also
+possible: `node src/run.mjs --mode=enrich --only=toxic --verify-ids`.
 Records TMDB had no match for are remembered in `state.json` as `tmdbMiss`
 (never written into `vault.json`) and are skipped next time unless `--stale-days` asks.
 A record with **no category at all** is always eligible, even if it carries a
@@ -183,11 +222,11 @@ rebuilt from `seasons[]`, so the two can never disagree.
 takes series" / "it skipped the first title" can always be answered from the log:
 
 ```
-· releases: 439 items (313 movies, 126 series) → 0 walked ·
-  skipped: 305 stored · 124 series — inside its refresh window · 10 stored (another path)
+· releases: 379 items (312 movies, 67 series) → 0 walked ·
+  skipped: 305 stored · 64 series — inside its refresh window · 10 stored (another path)
 ```
 
-"0 walked" there is not a failure: every movie on those folders was already in the
+"0 walked" there is not a failure: every movie on that folder was already in the
 vault, and every series was inside its refresh window. The first item of a listing
 is skipped for exactly the same reason as any other stored/recent item — there is
 nothing special about position. `--verbose` (Actions input `verbose`) prints one
@@ -209,6 +248,67 @@ line per item, skips included, whenever you want the item-by-item trace.
 A pass with nothing new to walk is therefore cheap (listing pages only, ~15–20
 min) and writes almost nothing: `data/` is only rewritten when a walk actually
 changed something, not for every listing page.
+
+### Stored links are checked, because they DO die
+
+A stored record was never looked at again — and that is wrong. When the site
+rebuilds a release the stream IDs change, and the old ones go **dead**: the URL
+still answers HTTP 200, but with an **empty body** (0 bytes) instead of the ~12 KB
+player page. Measured on this vault:
+
+```
+movie             stored ids   still offered by the page   old ids today
+Toxic (2025)           3                 0                  0 bytes — dead
+Mandaadi (2026)        3                 0                  0 bytes — dead
+Bethlehem Kudumba…     3                 0                  0 bytes — dead
+Romanchakam (2026)     4                 4                  alive
+Sunday (2008)          2                 2                  alive
+```
+
+The site had swapped those three from their earlier release to `(Original)` and
+rebuilt the files. Nothing in the old pipeline could notice, so the vault kept
+handing out links that play nothing.
+
+Every releases run now probes the stored links of the records on that year folder
+(one request per movie, two for a series: first + newest episode):
+
+* **dead** (empty body, or 404/410) → the page is re-walked, the fresh verified
+  links are merged in, and **only the URLs proven dead are dropped** — everything
+  still alive is kept;
+* **alive** → nothing happens at all (no walk, one request);
+* **unknown** (403/429/5xx/timeout/network) → **never** drops anything. A bad
+  minute on the host is not proof that a link is gone.
+
+```
+links          probing 370 stored records on this folder · movie=top link · series=first+newest episode
+  ⚡ Toxic (2025)                             DEAD LINK → re-walked · 4 verified · 3 stored → 4 kept (3 dead removed)
+links          436 probes on 370 records · 3 dead · 3 re-walked and repaired (9 dead links removed)
+```
+
+Recorded records are only re-walked when a probe fails, so a healthy run costs
+~380 requests (~1 min) and walks nothing. A record walked in the last hour is
+skipped (it was verified when it was stored).
+
+**Series are handled differently on purpose.** The download page shows only the
+latest ~20 episodes, but older episodes stay alive — Bigg Boss S10's page no
+longer lists episodes 1–7, yet all seven still play. So a series is never rebuilt
+from what the page happens to list: new episodes are unioned in (they already
+were), and a stored episode is removed **only** if its own link probed dead. If
+every link of an episode dies, the episode goes too, so the app never shows an
+episode that cannot play; a later walk re-adds it if the site uploads it again.
+
+`check_all = true` (`--check-all`) widens the check from this year's folder to the
+whole vault — measured: **2,906 records / 3,007 probes in ~2½ minutes**, and the day
+it was added every one of those was alive (the deaths cluster in the new-release
+window, which is why the per-run check exists). Cheap enough to run weekly by hand,
+or make it the default if the old catalogue ever starts rotting.
+`no_link_check = true` (`--no-link-check`) skips the check for one run.
+
+One related note on series: an episode is only *found* when its page is walked. A
+series on this year's folder is re-walked every 24 h; a pre-2026 series (Bigg Boss
+Season 9, say) is re-walked when its A–Z letter comes round (weekly). If a running
+old show needs a faster window, the probe is the cheap place to hang it — say the
+word and I'll make a dead/absent episode trigger an immediate re-walk.
 
 ### Recovery sweep (the old walker's lost titles)
 
@@ -252,6 +352,8 @@ Use `--only-empty` if you want the older, path-based version of the same idea
   = Love (2026)                  series · refresh in 13h
   ~ Untitled (2027)              no embeds yet (empty #1) · 3 req · 4.3s
   ! Gana (2026)                  HTTP 503 (url)
+=== summary · releases ===
+links          370 checked · 3 dead · 3 repaired · 9 removed · 0 pulled · 0 unreachable-kept
 === summary · az · pass 1 ===
 cursor         a/6
 items walked   8  (added 5 · merged 1 · unchanged 0)
@@ -264,7 +366,8 @@ categories     tamil-movie 1469 · tamil-dubbed-movie 14
 `!` could not be read · `+N episodes` = new episodes merged into a stored series.
 The `· <flow>: N items … → M walked · skipped: …` line is printed for every
 listing/batch and is the one to read when something looks missing — it names the
-exact reason each item was left alone.
+exact reason each item was left alone. `⚡ <title> DEAD LINK …` means a stored link
+had gone dead and the page was re-walked to replace it.
 The same table goes to the workflow's **Summary** tab.
 
 A run goes **red** only when something structural happened: a listing could not
@@ -290,6 +393,7 @@ chain or the host changed). One flaky item never fails a run.
 npm install
 node src/run.mjs --mode=releases --dry --max-items=3       # safe: scrapes, logs, writes nothing
 node src/run.mjs --mode=releases --year=2027 --dry         # just the 2027 folder
+node src/run.mjs --mode=releases --with-series --dry       # + the old series folder
 node src/run.mjs --mode=az       --dry --only=agadha       # one item, cursor untouched
 node src/run.mjs --mode=az       --sweep-empty --budget-min=300   # recovery sweep
 node src/run.mjs --mode=az       --only-empty --budget-min=60
@@ -298,11 +402,13 @@ node src/run.mjs --mode=releases --budget-min=25 --commit  # writes and pushes
 ```
 
 Local runs never push unless you add `--commit` (the workflows pass it for you).
-Flags: `--budget-min=N` · `--max-items=N` · `--year=YYYY` · `--only-empty` ·
+Flags: `--budget-min=N` · `--max-items=N` · `--year=YYYY` · `--check-all` ·
+`--no-link-check` · `--with-series` · `--only-empty` ·
 `--sweep-empty` · `--verbose` · `--refresh-days=N` (re-walk stored movies older
 than N days; off by default) · `--commit` · `--commit-every=N` (default 100
 releases / 200 az) · `--dry` · `--only=text` · `--tmdb-limit=N` ·
-`--concurrency=N` · `--limit=N` / `--stale-days=N` (enrich only).
+`--concurrency=N` · `--verify-ids` · `--limit=N` / `--stale-days=N` (enrich only;
+`--only=text` works in enrich too).
 
 ## Notes
 

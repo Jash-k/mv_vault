@@ -320,19 +320,24 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
  * of the rest of the vault (TMDB artwork); existing records are only ever
  * filled when their poster is empty.
  */
-export function applyMetadata(record, meta, { preferPoster = false } = {}) {
+export function applyMetadata(record, meta, { preferPoster = false, replaceId = false } = {}) {
   if (!meta) return false;
   let changed = false;
-  if (meta.poster && (preferPoster || !record.poster) && record.poster !== meta.poster) { record.poster = meta.poster; changed = true; }
-  if (!record.tmdbId && meta.tmdbId) { record.tmdbId = meta.tmdbId; changed = true; }
-  if (!record.imdbId && meta.imdbId) { record.imdbId = meta.imdbId; changed = true; }
-  if (!record.rating && meta.rating) { record.rating = meta.rating; changed = true; }
+  // A cross-type match (the stored id resolved as the OTHER media type) already
+  // proved the id in the record was wrong, so it may be corrected.
+  const idIsWrong = Boolean(meta.crossType) || (replaceId && meta.tmdbId && record.tmdbId && Number(record.tmdbId) !== Number(meta.tmdbId));
+  if (meta.poster && (preferPoster || !record.poster || idIsWrong) && record.poster !== meta.poster) { record.poster = meta.poster; changed = true; }
+  if (meta.tmdbId && (!record.tmdbId || idIsWrong) && Number(record.tmdbId) !== Number(meta.tmdbId)) { record.tmdbId = meta.tmdbId; changed = true; }
+  if (meta.imdbId && (!record.imdbId || idIsWrong) && record.imdbId !== meta.imdbId) { record.imdbId = meta.imdbId; changed = true; }
+  if (meta.rating && (!record.rating || idIsWrong) && record.rating !== meta.rating) { record.rating = meta.rating; changed = true; }
 
   // category: TMDB's original_language is the authority, and it also replaces a
-  // previous site guess.
+  // previous site guess. The MEDIA TYPE comes from TMDB's own answer — a series
+  // stored under a movie-shaped path is still a series.
   if (meta.originalLanguage) {
-    if (!record.originalLanguage) { record.originalLanguage = meta.originalLanguage; changed = true; }
-    const wanted = categoryFor(record.kind, meta.originalLanguage);
+    if (!record.originalLanguage || (idIsWrong && record.originalLanguage !== meta.originalLanguage)) { record.originalLanguage = meta.originalLanguage; changed = true; }
+    const kind = meta.tmdbType === 'tv' ? 'series' : meta.tmdbType === 'movie' ? 'movie' : record.kind;
+    const wanted = categoryFor(kind, meta.originalLanguage);
     if (wanted && (record.category !== wanted || record.categorySource !== 'tmdb')) {
       record.category = wanted;
       record.categorySource = 'tmdb';
@@ -341,6 +346,44 @@ export function applyMetadata(record, meta, { preferPoster = false } = {}) {
   }
   if (changed) record.updatedAt = new Date().toISOString();
   return changed;
+}
+
+/**
+ * Drop embeds whose stream has been PROVEN dead (see probeEmbed). This is the
+ * only place the vault ever loses a link, and it is deliberately narrow:
+ *
+ *   · a series episode that loses its last link is removed from seasons[] too, so
+ *     the app never shows an unplayable episode — if the site uploads it again,
+ *     the next walk adds it back;
+ *   · the flat embeds[] of a series is rebuilt from seasons[], so the two can
+ *     never disagree;
+ *   · everything not in `deadUrls` is left exactly as it was.
+ *
+ * Returns how many embeds were removed.
+ */
+export function removeEmbeds(record, deadUrls) {
+  const dead = new Set((deadUrls || []).filter(Boolean));
+  if (!dead.size) return 0;
+  const before = (record.embeds || []).length;
+  const keep = (list = []) => list.filter((e) => !dead.has(e.url));
+  if (record.seasons) {
+    // A series' flat embeds[] is derived from seasons[], so rebuild it after the
+    // removals instead of editing both (editing both would count a URL twice).
+    const seasons = [];
+    for (const season of record.seasons) {
+      const episodes = [];
+      for (const episode of season.episodes || []) {
+        const kept = keep(episode.embeds);
+        if (kept.length) episodes.push({ ...episode, embeds: kept });
+      }
+      if (episodes.length) seasons.push({ ...season, episodes });
+    }
+    record.seasons = seasons;
+    record.embeds = flatten(seasons);
+  } else {
+    record.embeds = keep(record.embeds);
+  }
+  return before - (record.embeds || []).length;
 }
 
 export const needsMetadata = (record) => !record.tmdbId || !record.poster;
