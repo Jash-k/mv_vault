@@ -6153,19 +6153,26 @@
   "id": "bethlehem-kudumba-unit-2026",
   "title": "Bethlehem Kudumba Unit",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bethlehem-kudumba-unit-2026-tamil-movie/",
   "embeds": [
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102145"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102144"
+   },
+   {
     "quality": "1080p",
-    "url": "https://play.onestream.today/stream/page/101556"
+    "url": "https://play.onestream.today/stream/page/102147"
    },
    {
-    "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101557"
-   },
-   {
-    "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101554"
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102140"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/uaSZiH6yoGaVJcqzKtrfSkqDuHX.jpg",
@@ -6173,10 +6180,7 @@
   "tmdbId": 1508168,
   "imdbId": "tt37535100",
   "addedAt": "2026-09-27T15:02:47.055Z",
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-03T06:45:46.210Z"
+  "updatedAt": "2026-10-03T07:45:14.211Z"
  },
  {
   "id": "battle-2026",
@@ -33356,19 +33360,26 @@
   "id": "mandaadi-2026",
   "title": "Mandaadi",
   "year": 2026,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mandaadi-2026-tamil-movie/",
   "embeds": [
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102201"
+   },
+   {
     "quality": "1080p",
-    "url": "https://play.onestream.today/stream/page/101708"
+    "url": "https://play.onestream.today/stream/page/102203"
    },
    {
     "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101709"
+    "url": "https://play.onestream.today/stream/page/102214"
    },
    {
-    "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101706"
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102213"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/cDFW9BI1PSqrBWu8W0ZoeUQivEM.jpg",
@@ -33376,10 +33387,7 @@
   "tmdbId": 1465943,
   "imdbId": "tt36596965",
   "addedAt": "2026-09-27T22:37:16.958Z",
-  "originalLanguage": "ta",
-  "category": "tamil-movie",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-03T06:46:45.932Z"
+  "updatedAt": "2026-10-03T07:45:22.610Z"
  },
  {
   "id": "maharaja-hostel-2026",
@@ -61157,19 +61165,26 @@
   "id": "toxic-2026",
   "title": "Toxic",
   "year": 2025,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/toxic-2026-tamil-movie/",
   "embeds": [
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102212"
+   },
+   {
     "quality": "1080p",
-    "url": "https://play.onestream.today/stream/page/101211"
+    "url": "https://play.onestream.today/stream/page/102206"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102207"
    },
    {
     "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101212"
-   },
-   {
-    "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/101209"
+    "url": "https://play.onestream.today/stream/page/102211"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/cCWojb6N9UcTzNVtS4bOM3vQ30x.jpg",
@@ -61177,10 +61192,7 @@
   "tmdbId": 338969,
   "imdbId": "tt1633359",
   "addedAt": "2026-09-28T08:34:24.911Z",
-  "originalLanguage": "en",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-03T06:47:48.055Z"
+  "updatedAt": "2026-10-03T07:45:05.805Z"
  },
  {
   "id": "trikala-2026",
