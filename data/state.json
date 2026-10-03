@@ -15861,31 +15861,19 @@
    "retries": 1
   },
   "https://moviesda34.com/uruthikol-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:17:27.534Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/uttama-villain-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:17:37.017Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/uru-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:17:42.420Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/varavu-2026-tamil-movie/": {
    "at": "2026-09-28T09:33:45.559Z",
@@ -15976,7 +15964,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/vaaranam-aayiram-2008-remastered-tamil-movie/": {
-   "at": "2026-09-28T09:39:39.334Z",
+   "at": "2026-10-02T21:17:50.205Z",
    "embeds": 3
   },
   "https://moviesda34.com/vikkatakavi-2025-tamil-movie/": {
@@ -15992,17 +15980,13 @@
    "embeds": 3
   },
   "https://moviesda34.com/vikram-2022-tamil-movie-1/": {
-   "at": "2026-09-28T09:40:36.065Z",
+   "at": "2026-10-02T21:17:56.078Z",
    "embeds": 3
   },
   "https://moviesda34.com/veduvan-2025-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:17:58.629Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/valiyavan-2025-tamil-movie/": {
    "at": "2026-09-28T09:40:53.216Z",
@@ -16025,13 +16009,9 @@
    "embeds": 2
   },
   "https://moviesda34.com/vaanil-thedinen-2025-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:01.143Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vallamai-2025-movie/": {
    "at": "2026-09-28T09:42:00.057Z",
@@ -16050,7 +16030,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/vijayanand-2022-movie/": {
-   "at": "2026-09-28T09:42:54.096Z",
+   "at": "2026-10-02T21:18:07.447Z",
    "embeds": 2
   },
   "https://moviesda34.com/veera-dheera-sooran-2025-movie/": {
@@ -16235,13 +16215,9 @@
    "embeds": 1
   },
   "https://moviesda34.com/varisu-audio-launch-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:12.222Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/varisu-2023-tamil-movie/": {
    "at": "2026-09-28T09:53:44.046Z",
@@ -16276,13 +16252,9 @@
    "embeds": 1
   },
   "https://moviesda34.com/victim-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:19.934Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vattam-2022-tamil-movie/": {
    "at": "2026-09-28T09:55:57.640Z",
@@ -16293,35 +16265,23 @@
    "embeds": 1
   },
   "https://moviesda34.com/vendravan-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:25.139Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/virata-parvam-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:30.631Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaaitha-2022-tamil-movie/": {
    "at": "2026-09-28T09:56:43.302Z",
    "embeds": 1
   },
   "https://moviesda34.com/vidiyatha-iravondru-vendum-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:35.938Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vezham-2022-tamil-movie/": {
    "at": "2026-09-28T09:57:06.355Z",
@@ -16352,13 +16312,9 @@
    "embeds": 1
   },
   "https://moviesda34.com/vijay-udan-nerukku-ner-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:38.432Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/valiyor-silar-2022-tamil-movie/": {
    "at": "2026-09-28T09:58:45.813Z",
@@ -16373,39 +16329,27 @@
    "embeds": 4
   },
   "https://moviesda34.com/vilangu-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:45.134Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/veerapandiyapuram-2022-tamil-movie/": {
    "at": "2026-09-28T09:59:36.158Z",
    "embeds": 4
   },
   "https://moviesda34.com/velai-illaa-raja-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:49.640Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/veeramae-vaagai-soodum-2022-tamil-movie/": {
    "at": "2026-09-28T09:59:58.189Z",
    "embeds": 1
   },
   "https://moviesda34.com/vazhkai-vazhvatharkey-2022-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:54.948Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/velan-2021-movie/": {
    "at": "2026-09-28T10:00:18.280Z",
@@ -16416,49 +16360,29 @@
    "embeds": 4
   },
   "https://moviesda34.com/vakeel-sir-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:18:58.550Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vinodhaya-sitham-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:02.162Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/veerapuram-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:05.764Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vivaha-bhojanambu-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:09.448Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaazhl-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:13.140Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vellai-yaanai-2021-movie/": {
    "at": "2026-09-28T10:01:06.976Z",
@@ -16473,175 +16397,99 @@
    "embeds": 2
   },
   "https://moviesda34.com/vettri-thirumagan-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:16.904Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vanakkam-da-mappilei-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:20.595Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vinveli-9000-kmph-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:24.259Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vettai-naai-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:28.120Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vadham-season-1-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:35.066Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/venky-mama-2019-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:38.709Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/virumaandi-2004-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:42.896Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vacha-kuri-thappaathu-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:46.525Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaikundapuram-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:50.118Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaa-arugil-vaa-1991-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:53.719Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/virus-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:19:57.322Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vunnadhi-okate-zindagi-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:00.995Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vallinam-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:04.599Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/varmaa-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:08.475Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/v-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:12.124Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vasanthakala-paravai-1991-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:16.970Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vetriveeran-winner-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:20.617Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/venpa-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:24.219Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/velvet-nagaram-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:27.807Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vanmurai-2020-movie/": {
    "at": "2026-09-28T10:02:53.385Z",
@@ -16652,13 +16500,9 @@
    "embeds": 3
   },
   "https://moviesda34.com/vaanam-kottattum-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:31.407Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/v1-murder-case-2020-movie/": {
    "at": "2026-09-28T10:03:31.840Z",
@@ -16729,7 +16573,7 @@
    "embeds": 2
   },
   "https://moviesda34.com/vaaranam-aayiram-2008-org-movie/": {
-   "at": "2026-09-28T10:05:59.670Z",
+   "at": "2026-10-02T21:20:37.640Z",
    "embeds": 2
   },
   "https://moviesda34.com/veerappu-2007-movie/": {
@@ -16833,13 +16677,9 @@
    "embeds": 4
   },
   "https://moviesda34.com/velan-ettuthikkum-2018-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:41.825Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/visiri-2018-movie/": {
    "at": "2026-09-28T10:11:12.985Z",
@@ -16866,290 +16706,170 @@
    "embeds": 4
   },
   "https://moviesda34.com/vizhithiru-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:47.840Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vellaiya-irukiravan-poi-solla-maatan-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:53.242Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vajram-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:20:58.654Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/velainu-vandhutta-vellaikaaran-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:03.952Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vil-ambu-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:09.292Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaalu-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:14.483Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vanavarayan-vallavarayan-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:19.695Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaamanan-2009-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:25.081Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vathikuchi-2013-movie/": {
    "at": "2026-09-28T10:13:23.776Z",
    "embeds": 3
   },
   "https://moviesda34.com/vadacurry-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:30.342Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaayai-moodi-pesavum-2014-movie/": {
    "at": "2026-09-28T10:13:48.336Z",
    "embeds": 3
   },
   "https://moviesda34.com/vai-raja-vai-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:35.632Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/veera-thirumagan-1962-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:40.754Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vidayutham-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:46.119Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vedalam-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:52.137Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaa-quarter-cutting-2010-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:21:57.546Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vivegam-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:02.694Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vasuki-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:06.482Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/velaiilla-pattadhari-2-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:10.454Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vikram-vedha-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:15.603Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vasuvum-saravananum-onna-padichavanga-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:20.950Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vanamagan-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:26.081Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vilayattu-aarambam-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:31.362Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/virumandikum-sivanandikum-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:36.926Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/venghai-2011-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:42.306Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaaranam-aayiram-2008-movie/": {
    "at": "2026-09-28T10:15:14.066Z",
    "embeds": 3
   },
   "https://moviesda34.com/varuthapadatha-valibar-sangam-2013-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:47.503Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vallavanukku-pullum-aayudham-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:52.628Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vettai-2012-movie/": {
    "at": "2026-09-28T10:15:38.232Z",
    "embeds": 3
   },
   "https://moviesda34.com/veeram-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:22:57.791Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vettaikaaran-2009-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:02.942Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vetri-kodi-kattu-2000-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:06.769Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vettai-2012-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:11.980Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/vaaimai-tamil-movie-moviesda/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:19.482Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/will-2025-tamil-movie/": {
    "at": "2026-09-28T12:21:37.035Z",
@@ -17168,7 +16888,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/war-2019-movie/": {
-   "at": "2026-09-28T12:22:39.803Z",
+   "at": "2026-10-02T21:23:26.307Z",
    "embeds": 3
   },
   "https://moviesda34.com/waack-girls-2024-tamil-movie/": {
@@ -17225,35 +16945,23 @@
    "embeds": 4
   },
   "https://moviesda34.com/world-famous-lover-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:29.916Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/welcome-home-2021-movie/": {
    "at": "2026-09-28T12:25:44.384Z",
    "embeds": 2
   },
   "https://moviesda34.com/wild-dog-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:34.114Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/walter-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:37.755Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/war-tamil-2019-movie/": {
    "at": "2026-09-28T12:26:05.619Z",
@@ -17272,26 +16980,18 @@
    "embeds": 2
   },
   "https://moviesda34.com/wagah-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:43.126Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/xtreme-2025-tamil-movie/": {
    "at": "2026-09-28T12:27:05.887Z",
    "embeds": 1
   },
   "https://moviesda34.com/x-videos-2018-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:47.608Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yedho-ondru-ennai-thakka-case-01-2026-tamil-movie/": {
    "at": "2026-09-28T12:27:27.000Z",
@@ -17346,26 +17046,18 @@
    "embeds": 3
   },
   "https://moviesda34.com/yemakaathaki-2025-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:52.085Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yegathipathi-2024-tamil-movie/": {
    "at": "2026-09-28T12:30:39.145Z",
    "embeds": 2
   },
   "https://moviesda34.com/yakshini-2024-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:23:54.546Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yuva-2024-tamil-movie/": {
    "at": "2026-09-28T12:30:55.464Z",
@@ -17376,7 +17068,7 @@
    "embeds": 1
   },
   "https://moviesda34.com/yaaro-2022-tamil-movie/": {
-   "at": "2026-09-28T12:31:19.227Z",
+   "at": "2026-10-02T21:23:59.548Z",
    "embeds": 1
   },
   "https://moviesda34.com/yaadhum-oore-yaavarum-kelir-2023-tamil-movie/": {
@@ -17420,111 +17112,67 @@
    "embeds": 4
   },
   "https://moviesda34.com/yeh-kaali-kaali-ankhein-2022-season-01-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:06.802Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yakshee-2022-tamil-movie/": {
    "at": "2026-09-28T12:34:22.187Z",
    "embeds": 4
   },
   "https://moviesda34.com/yennanga-sir-unga-sattam-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:10.415Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yevandi-unna-peththan-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:14.325Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaariyan-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:17.928Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yuvarathnaa-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:21.590Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaarada-avan-2021-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:25.249Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/your-honor-season-01-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:32.038Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yen-peyar-anandhan-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:35.735Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaadhumagi-nindraai-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:39.388Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yengalai-pol-yaarum-illai-2020-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:43.034Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaar-indha-mani-2019-movie/": {
    "at": "2026-09-28T12:35:10.913Z",
    "embeds": 4
   },
   "https://moviesda34.com/yuddham-sharanam-2019-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:47.183Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yuddham-sei-2011-movie/": {
    "at": "2026-09-28T12:35:23.137Z",
@@ -17555,76 +17203,44 @@
    "embeds": 4
   },
   "https://moviesda34.com/yatchan-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:52.509Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yennai-arindhaal-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:24:57.806Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yagavarayinum-naa-kaakka-2015-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:03.207Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaanum-theeyavan-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:08.319Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yeman-2016-tamil-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:13.639Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yevanavan-2017-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:18.999Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/yaaruda-mahesh-2014-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:24.412Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/ya-ya-2013-movie/": {
-   "at": "2026-10-02T10:21:28.986Z",
+   "at": "2026-10-02T21:25:29.622Z",
    "empty": true,
-   "retries": 0,
-   "retryAfter": "2026-10-02T11:51:28.986Z",
-   "failures": 1,
-   "lastError": "no embeds during a degraded run: 100% of 250 walked items came back empty — likely a site/walker shape change",
-   "kind": "movie"
+   "retries": 1
   },
   "https://moviesda34.com/ziddi-ishq-2025-tamil-movie/": {
    "at": "2026-10-02T20:01:26.048Z",

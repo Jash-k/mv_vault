@@ -58590,6 +58590,26 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/90209"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/94521"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/94522"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/94517"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/58397"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/58396"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/3PxkiDTObsws7pzkdUiHCjOxVA4.jpg",
@@ -58597,7 +58617,7 @@
   "tmdbId": 38637,
   "imdbId": "tt1180583",
   "addedAt": "2026-09-28T09:39:39.334Z",
-  "updatedAt": "2026-09-28T10:15:14.066Z"
+  "updatedAt": "2026-10-02T21:20:37.640Z"
  },
  {
   "id": "vikkatakavi-2025",
@@ -58679,6 +58699,18 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/74672"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93345"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/93350"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/93347"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
@@ -58686,7 +58718,7 @@
   "tmdbId": 743563,
   "imdbId": "tt9179430",
   "addedAt": "2026-09-28T09:40:36.065Z",
-  "updatedAt": "2026-09-28T09:57:44.979Z"
+  "updatedAt": "2026-10-02T21:17:56.078Z"
  },
  {
   "id": "valiyavan-2025",
@@ -58906,6 +58938,14 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/77175"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/89746"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/89745"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/nV3PL9SMdsx2CnaAiSW4dDV0znb.jpg",
@@ -58913,7 +58953,7 @@
   "tmdbId": 1057367,
   "imdbId": "tt15373738",
   "addedAt": "2026-09-28T09:42:54.096Z",
-  "updatedAt": "2026-09-28T09:54:17.777Z"
+  "updatedAt": "2026-10-02T21:18:07.447Z"
  },
  {
   "id": "veera-dheera-sooran-2025",
@@ -61779,6 +61819,18 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/62723"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/92133"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/92138"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/92137"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/yUtaHkL2SDIAZhRApZAyQrAXygn.jpg",
@@ -61786,7 +61838,7 @@
   "tmdbId": 585268,
   "imdbId": "tt7430722",
   "addedAt": "2026-09-28T12:22:39.803Z",
-  "updatedAt": "2026-09-28T12:26:05.619Z"
+  "updatedAt": "2026-10-02T21:23:26.307Z"
  },
  {
   "id": "wild-wild-punjab-2024",
@@ -62526,6 +62578,10 @@
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/72533"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/81841"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/kpQuH0PCGrUeZ1zpLgwAtjxwupc.jpg",
@@ -62533,7 +62589,7 @@
   "tmdbId": 934360,
   "imdbId": "",
   "addedAt": "2026-09-28T12:31:19.227Z",
-  "updatedAt": "2026-09-28T12:34:01.963Z"
+  "updatedAt": "2026-10-02T21:23:59.548Z"
  },
  {
   "id": "yaadhum-oore-yaavarum-kelir-2023",
