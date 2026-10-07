@@ -288,12 +288,24 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
   };
 
   const byPath = pathOf(item.url);
+  let note = '';
   let existing = vault.find((m) => m.id === fresh.id) || vault.find((m) => pathOf(m.pageUrl) === byPath);
   if (!existing && isSeries) existing = findSeriesTwin(vault, fresh);
+  // A stored record of the other shape is a DIFFERENT work (a 2024 film and a
+  // 2024 season of a series can share a title and year). Never reshape what is
+  // already stored — keep it exactly as it is and file this walk beside it.
+  if (existing && (existing.kind === 'series' ? 'series' : 'movie') !== kind) {
+    const twin = isSeries ? `${title} Season ${(walked.seasons?.[0]?.season) || 1}` : `${title} Movie`;
+    fresh.id = idFor(twin, year);
+    fresh.title = twin;
+    existing = vault.find((m) => m.id === fresh.id) || null;
+    if (existing) note = '';                     // already filed there on an earlier run
+    else note = `kept the stored ${kind === 'series' ? 'movie' : 'series'} · filed as "${twin}"`;
+  }
   if (!existing) {
     const created = order(fresh);
     vault.push(created);
-    return { action: 'added', record: created, previousEpisodes: 0 };
+    return { action: 'added', record: created, previousEpisodes: 0, note };
   }
   const previousEpisodes = episodesOf(existing);
 
@@ -311,7 +323,7 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
   const rebuilt = order(existing);
   Object.keys(existing).forEach((k) => delete existing[k]);
   Object.assign(existing, rebuilt);
-  return { action: changed ? 'merged' : 'unchanged', record: existing, previousEpisodes };
+  return { action: changed ? 'merged' : 'unchanged', record: existing, previousEpisodes, note };
 }
 
 /**

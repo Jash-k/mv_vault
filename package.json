@@ -3,12 +3,13 @@
   "version": "4.0.0",
   "private": true,
   "type": "module",
-  "description": "Two simple flows: new Tamil releases (year folder + latest series) and a resumable A-Z archive",
+  "description": "Four flows: new Tamil releases, the A-Z archive, the isaidub.green Tamil-dubbed catalogue, and an on-demand TMDB enrich",
   "scripts": {
     "releases": "node src/run.mjs --mode=releases",
     "az": "node src/run.mjs --mode=az",
     "dry": "node src/run.mjs --mode=releases --dry --max-items=3",
-    "enrich": "node src/run.mjs --mode=enrich"
+    "enrich": "node src/run.mjs --mode=enrich",
+    "dubbed": "node src/run.mjs --mode=dubbed"
   },
   "dependencies": {
     "cheerio": "^1.2.0"

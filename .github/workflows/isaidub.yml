@@ -1,0 +1,105 @@
+name: Tamil dubbed (isaidub.green)
+
+# The fourth flow: the Tamil-dubbed catalogue on isaidub.green.
+#
+# INCREMENTAL ONLY. The daily run reads the date-added page
+# /tamil-dubbed-hollywood-movies/ from page 1 and stops after 3 pages in a row
+# that add nothing new — that page is in the same order as /recent-updates/, so
+# one or two listing requests cover a day of releases. Everything already stored
+# is skipped without a request, and the stored dubbed links for the items seen
+# are probed for liveness (dead = 200 with a 0-byte body on the dub player).
+#
+# deep = true is the weekly safety net: collections index (7 requests → 140
+# franchise pages) + A–Z letter page 1s, for titles that never reach the new
+# page. Schedule it weekly if you want it automatic.
+#
+# The FULL historic union (A–Z + collections + new page + recent updates, 4,789
+# titles) was run once, outside GitHub, and its result is already in data/ —
+# that is why this workflow never needs to crawl the whole A–Z again.
+#
+# Records land as tamil-dubbed-movie / tamil-dubbed-series from site evidence
+# (the site is a Tamil-dubbed catalogue by definition); the enrich flow can
+# replace that with the TMDB-derived category later.
+on:
+  schedule:
+    - cron: '30 21 * * *'        # 03:00 IST, an hour before az-archive
+  workflow_dispatch:
+    inputs:
+      deep:
+        description: 'Weekly safety net: ALSO read the collections index + A–Z letter page 1s'
+        type: boolean
+        default: false
+      pages:
+        description: 'Walk this many pages of the new page even when they add nothing (default: stop after 3 barren)'
+        default: ''
+      max_items:
+        description: 'Stop after N new walks (default: all new items)'
+        default: ''
+      budget_min:
+        description: 'Stop cleanly after N minutes (default 25)'
+        default: ''
+      walk_concurrency:
+        description: 'Walk N titles at once (default 1; max 6 — be kind to the site)'
+        default: ''
+      no_link_check:
+        description: 'Skip the stored-link health check for this run'
+        type: boolean
+        default: false
+      verbose:
+        description: 'Print a line for every item, including plain skips'
+        type: boolean
+        default: false
+      dry:
+        description: 'Dry run — scrape and log, write nothing'
+        type: boolean
+        default: false
+      commit:
+        description: 'Commit + push the result'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Same group as the other writers: only one run touches data/ at a time.
+concurrency:
+  group: vault-writer-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  dubbed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Scrape and publish
+        env:
+          DEEP: ${{ inputs.deep }}
+          PAGES: ${{ inputs.pages }}
+          MAX_ITEMS: ${{ inputs.max_items }}
+          BUDGET: ${{ inputs.budget_min }}
+          WALK_CONCURRENCY: ${{ inputs.walk_concurrency }}
+          NO_LINK_CHECK: ${{ inputs.no_link_check }}
+          VERBOSE: ${{ inputs.verbose }}
+          DRY: ${{ inputs.dry }}
+          COMMIT: ${{ inputs.commit }}
+        run: |
+          ARGS="--mode=dubbed"
+          [ "$DEEP" = "true" ] && ARGS="$ARGS --deep"
+          [ -n "$PAGES" ] && ARGS="$ARGS --pages=$PAGES"
+          [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
+          [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
+          [ -n "$WALK_CONCURRENCY" ] && ARGS="$ARGS --walk-concurrency=$WALK_CONCURRENCY"
+          [ "$NO_LINK_CHECK" = "true" ] && ARGS="$ARGS --no-link-check"
+          [ "$VERBOSE" = "true" ] && ARGS="$ARGS --verbose"
+          [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
+          [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
+          echo "node src/run.mjs $ARGS"
+          node src/run.mjs $ARGS

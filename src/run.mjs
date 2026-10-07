@@ -4,11 +4,20 @@
  *
  *   node src/run.mjs --mode=releases     # the Tamil <year> folder(s) — movies AND series
  *   node src/run.mjs --mode=az           # A–Z folder, resumable, goes on to the next letter
+ *   node src/run.mjs --mode=dubbed       # isaiDub (isaidub.green) — the Tamil-dubbed catalogue
  *
  * The year folder lists series too (2026: 67 series pages of 379 items), so the
  * separate /tamil-web-series-download/ folder is NOT read by default — it only
  * re-listings series that are mostly older than the current year. --with-series
  * adds it back (latest 3 pages) for the rare case of a series listed only there.
+ *
+ * dubbed mode reads isaidub.green. Default = the newest-first page
+ * /tamil-dubbed-hollywood-movies/ walked down until it only sees titles we
+ * already have (that page is sorted by date added, exactly like
+ * /recent-updates/). --deep adds the weekly safety net (collections index + A–Z
+ * letter page 1s), --historic does the whole union (A–Z + collections + the
+ * page + recent updates) and is resumable: state.json remembers every walk, so
+ * simply run it again until it reports nothing new to walk.
  *
  * Discovery → walk → merge → save → commit. The listing page IS the queue: an
  * item that is still on the listing is found again next run, so there is no
@@ -29,6 +38,12 @@
  *                      the ones on this year's folder (catches re-uploads of the
  *                      old A–Z catalogue; ~2,900 probes, a few minutes)
  *   --no-link-check    releases mode: skip the stored-link health check entirely
+ *   --manifest=FILE    dubbed mode: walk exactly the JSON list of paths in FILE
+ *                      (used for the historic slices) instead of crawling
+ *   --pages=N          dubbed mode: how many pages of the new page to scan
+ *                      (default: until 3 pages in a row add nothing new)
+ *   --walk-concurrency=N  walk N titles at once (default 1; the historic run
+ *                      uses 4 — the site is fast, and every walk is idempotent)
  *   --with-series      releases mode: ALSO read /tamil-web-series-download/
  *                      (latest 3 pages). Off by default — the year folder already
  *                      carries series; only a couple of pre-2026 series live on
@@ -44,7 +59,7 @@
  */
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
-import { LIVE, discover, getHtml, parseListing, walkItem, embedCount, probeEmbed, mapLimit, stats, sleep, WALK_VERSION } from './scrape.mjs';
+import { LIVE, DUB, discover, getHtml, parseListing, walkItem, walkDubbed, parseDubLabel, embedCount, probeEmbed, mapLimit, stats, sleep, WALK_VERSION } from './scrape.mjs';
 import * as V from './vault.mjs';
 import * as tmdb from './tmdb.mjs';
 
@@ -53,7 +68,7 @@ import * as tmdb from './tmdb.mjs';
 const args = process.argv.slice(2);
 const arg = (key, fallback = null) => args.find((a) => a.startsWith(`--${key}=`))?.slice(key.length + 3) ?? (args.includes(`--${key}`) ? true : fallback);
 const mode = arg('mode', 'releases') === 'tmdb' ? 'enrich' : arg('mode', 'releases'); // 'tmdb' kept as an alias
-if (!['releases', 'az', 'enrich'].includes(mode)) { console.error('usage: --mode=releases | --mode=az | --mode=enrich'); process.exit(2); }
+if (!['releases', 'az', 'enrich', 'dubbed'].includes(mode)) { console.error('usage: --mode=releases | --mode=az | --mode=dubbed | --mode=enrich'); process.exit(2); }
 const dry = Boolean(arg('dry', false));
 const commitEnabled = Boolean(arg('commit', false)) && !dry;
 const only = arg('only', '');
@@ -64,6 +79,11 @@ const refreshDays = Number(arg('refresh-days', 0)) || 0;
 const verifyIds = Boolean(arg('verify-ids', false));
 const withSeries = Boolean(arg('with-series', false));
 const checkAll = Boolean(arg('check-all', false));
+const historic = Boolean(arg('historic', false));
+const deep = Boolean(arg('deep', false));
+const manifest = arg('manifest', '');
+const pagesArg = Number(arg('pages', 0)) || 0;
+const walkConcurrency = Math.max(1, Math.min(Number(arg('walk-concurrency', 1)) || 1, 6));
 const noLinkCheck = Boolean(arg('no-link-check', false));
 /**
  * Which year folders the releases flow reads.
@@ -79,6 +99,8 @@ const years = arg('year') ? [String(arg('year'))] : [String(currentYear), String
 
 const CFG = mode === 'releases'
   ? { budgetMin: 25, maxItems: 0, commitEvery: 100, emptyHours: 24, listingPages: 30, seriesPages: 3, seriesRefreshHours: 24, linkCheck: true, linkCheckHours: 1 } // seriesPages only used by --with-series
+  : mode === 'dubbed'
+    ? { budgetMin: 25, maxItems: 0, commitEvery: 200, emptyHours: 24, listingPages: 30, seriesPages: 0, seriesRefreshHours: 24, linkCheck: true, linkCheckHours: 1, maxEpisodePages: 10 }
   : mode === 'enrich'
     ? { budgetMin: 20, maxItems: 0, commitEvery: 500, emptyHours: 0, listingPages: 0, seriesPages: 0, seriesRefreshHours: 0 }
     : { budgetMin: 300, maxItems: 0, commitEvery: 200, emptyHours: 168, listingPages: 1, seriesPages: 0, seriesRefreshHours: 168 };
@@ -90,6 +112,7 @@ const tmdbLimit = Number(arg('tmdb-limit', 150));
 const started = Date.now();
 const deadline = started + budgetMin * 60000;
 
+const CANON_BASE = mode === 'dubbed' ? DUB : 'https://moviesda34.com';
 const vaultData = V.loadVault();
 const state = V.loadState();
 const byPath = new Map(vaultData.map((m) => [V.pathOf(m.pageUrl), m]));
@@ -116,6 +139,7 @@ const countEpisodes = (record) => (record?.seasons || []).reduce((n, s) => n + s
 function displayName(item) {
   const existing = byPath.get(item.path);
   if (existing) return `${existing.title}${existing.year ? ` (${existing.year})` : ''}`;
+  if (mode === 'dubbed' && item.parsed?.title) return `${item.parsed.title}${item.parsed.year ? ` (${item.parsed.year})` : ''}`;
   const t = V.titleFor(item);
   return t ? `${t.title}${t.year ? ` (${t.year})` : ''}` : item.path;
 }
@@ -303,15 +327,16 @@ async function processItems(items, label) {
   // The stored record's kind is authoritative; the listing path is only a hint.
   const kindOf = (item) => ((byPath.get(item.path)?.kind || item.kind) === 'series' ? 'series' : 'movie');
   for (const item of queue) kindTotal[kindOf(item)] += 1;
+  // Decide first (cheap), then walk the approved ones — in batches when asked.
+  const approved = [];
   for (const item of queue) {
     if (deadline && Date.now() > deadline) { log(`  · ${label}: budget reached, rest of this page stays for the next run`); complete = false; break; }
-    processed.add(item.path);
     if (maxItems && counts.walked >= maxItems) { log(`  · ${label}: --max-items=${maxItems} reached`); complete = false; break; }
-
     const decision = verdict(item);
     if (decision.skip) {
       counts.skipped += 1;
       skipTally.set(decision.skip, (skipTally.get(decision.skip) || 0) + 1);
+      processed.add(item.path);
       // Plain "stored" skips are counted in the batch summary; everything else
       // (and everything, with --verbose) gets its own line so it is never a
       // mystery why a title was not touched.
@@ -321,13 +346,44 @@ async function processItems(items, label) {
       continue;
     }
     if (decision.why) counts.refresh += 1;
+    approved.push(item);
+  }
 
-    const before = { req: stats.requests, t: Date.now() };
+  for (let qi = 0; qi < approved.length; qi += walkConcurrency) {
+    if (deadline && Date.now() > deadline) { complete = false; break; }
+    const slice = approved.slice(qi, qi + walkConcurrency);
+    const batch = [];
+    for (const item of slice) {
+      processed.add(item.path);
+      if (maxItems && counts.walked + batch.length >= maxItems) break;
+      batch.push({ item, req: stats.requests, started: Date.now() });
+    }
+    const walkedRows = await Promise.all(batch.map(async (row) => {
+      const req0 = stats.requests;
+      try {
+        const walked = mode === 'dubbed'
+          ? await walkDubbed(row.item.url, { deadline, log, title: (row.item.parsed || {}).title || '', maxEpisodePages: CFG.maxEpisodePages })
+          : await walkItem(row.item.url, { deadline, log });
+        return { ...row, walked, reqs: stats.requests - req0 };
+      } catch (error) { return { ...row, error, reqs: stats.requests - req0 }; }
+    }));
+    for (const row of walkedRows) {
+    const item = row.item;
+    if (row.error) {
+      const previous = state.done[item.url] || {};
+      const fails = Number(previous.failures || 0) + 1;
+      state.done[item.url] = { at: new Date().toISOString(), empty: true, v: WALK_VERSION, retries: Number(previous.retries || 0), failures: fails, retryAfter: new Date(Date.now() + Math.min(24 * 3.6e6, 90 * 60000 * 2 ** Math.min(fails - 1, 4))).toISOString(), lastError: String(row.error.message).slice(0, 160) };
+      counts.failed += 1; dirty = true; failures.push(`${item.path} — ${row.error.message}`);
+      log(`  ! ${pad(displayName(item), 40)} ${row.error.message}`);
+      continue;
+    }
+
     try {
-      const walked = await walkItem(item.url, { deadline, log });
+      const walked = row.walked;
       const n = embedCount(walked);
       dirty = true;
-      const reqs = stats.requests - before.req;
+      const reqs = row.reqs;
+      const elapsed = Date.now() - row.started;
       counts.walked += 1;
       fresh += 1;
 
@@ -336,10 +392,15 @@ async function processItems(items, label) {
         const retries = Number(previous.retries || 0) + 1;
         state.done[item.url] = { at: new Date().toISOString(), empty: true, retries, v: WALK_VERSION };
         counts.empty += 1;
-        log(`  ~ ${pad(displayName(item), 40)} no embeds yet (empty #${retries}) · ${reqs} req · ${clock(Date.now() - before.t)}`);
+        log(`  ~ ${pad(displayName(item), 40)} no embeds yet (empty #${retries}) · ${reqs} req · ${clock(elapsed)}`);
       } else {
-        const title = V.titleFor(item) || { title: displayName(item), year: 0 };
-        const { action, record, previousEpisodes } = V.upsert(vaultData, { ...item, ...title }, walked);
+        const title = mode === 'dubbed'
+          ? (item.parsed || parseDubLabel(item.label, item.path))
+          : (V.titleFor(item) || { title: displayName(item), year: 0 });
+        const { action, record, previousEpisodes, note } = V.upsert(vaultData, { ...item, title: title.title, year: title.year }, walked);
+        // Everything on isaiDub is a Tamil-dubbed item by definition — that is
+        // site evidence, so TMDB can still replace it later.
+        if (mode === 'dubbed') V.applySiteCategory(record, true);
         const gained = countEpisodes(record) - previousEpisodes;
         state.done[item.url] = { at: new Date().toISOString(), embeds: n, kind: walked.kind, v: WALK_VERSION };
         byPath.set(item.path, record);
@@ -348,7 +409,7 @@ async function processItems(items, label) {
         const poster = record.poster ? 'poster' : 'no-poster';
         const symbol = action === 'added' ? '+' : action === 'merged' ? '±' : '=';
         const extra = action !== 'added' && gained > 0 ? ` · +${gained} episode${gained > 1 ? 's' : ''}` : '';
-        log(`  ${symbol} ${pad(`${record.title}${record.year ? ` (${record.year})` : ''}`, 40)} ${action} · ${n} embeds${extra} · ${poster} · ${reqs} req · ${clock(Date.now() - before.t)}`);
+        log(`  ${symbol} ${pad(`${record.title}${record.year ? ` (${record.year})` : ''}`, 40)} ${action} · ${n} embeds${extra} · ${poster} · ${reqs} req${note ? ` · ${note}` : ''} · ${clock(elapsed)}`);
       }
     } catch (error) {
       const previous = state.done[item.url] || {};
@@ -368,6 +429,7 @@ async function processItems(items, label) {
 
     if (counts.walked % 20 === 0) saveIfDirty(true);
     if (commitEvery && counts.walked && counts.walked % commitEvery === 0) commit(`${mode}: ${counts.walked} walks (${counts.added} new)`);
+    }
   }
   // Always explain the batch: how many items were examined, of which kind, and
   // exactly why each one was skipped. "0 to walk" must never look like "ignored".
@@ -472,7 +534,9 @@ async function checkStoredLinks(items) {
 
     let walked = null;
     try {
-      walked = await walkItem(record.pageUrl, { deadline, log: () => {} });
+      walked = mode === 'dubbed'
+        ? await walkDubbed(record.pageUrl, { deadline, log: () => {}, title: record.title, maxEpisodePages: CFG.maxEpisodePages })
+        : await walkItem(record.pageUrl, { deadline, log: () => {} });
     } catch (error) {
       log(`  ! ${pad(label(record), 40)} re-walk failed (${error.message.slice(0, 40)}) — nothing removed`);
       continue;
@@ -512,6 +576,92 @@ async function checkStoredLinks(items) {
   if (links.unreachable) parts.push(`${links.unreachable} unreachable — kept`);
   if (!links.dead) parts.push('all alive');
   log(`links          ${parts.join(' · ')}`);
+}
+
+/* ------------------------------------------------------- isaiDub discovery */
+
+/**
+ * The default incremental source: /tamil-dubbed-hollywood-movies/ is sorted by
+ * date added (its first items are the same as /recent-updates/), so walking it
+ * from page 1 and stopping as soon as the pages stop producing anything new is
+ * self-scaling — a busy day just walks further down.
+ */
+async function discoverNewPage() {
+  const items = [];
+  const maxPages = pagesArg || CFG.listingPages;
+  let barren = 0;
+  for (let page = 1; page <= maxPages; page += 1) {
+    if (deadline && Date.now() > deadline) { log('  · new page paused by budget'); break; }
+    const found = await discover(page === 1 ? '/tamil-dubbed-hollywood-movies/' : `/tamil-dubbed-hollywood-movies/?page=${page}`,
+      { param: '', maxPages: 1, deadline, log: () => {}, host: DUB, canonBase: DUB, dubbed: true });
+    const fresh = found.filter((i) => !byPath.get(i.path) && !seenThisRun.has(i.path));
+    items.push(...found);
+    log(`  · new page ${page}: ${found.length} items (${fresh.length} not stored)`);
+    barren = fresh.length ? 0 : barren + 1;
+    if (!fresh.length && (pagesArg || barren >= 3)) { log(`  · new page: nothing new on page ${page} — stopping`); break; }
+    await sleep(200);
+  }
+  return items;
+}
+
+/** One-off / weekly: the collections index (franchise pages) + their films. */
+async function discoverCollections() {
+  const index = await discover('/movie/tamil-dubbed-movies-collections/', { param: 'get-page', maxPages: 40, deadline, log, host: DUB, canonBase: DUB, dubbed: true });
+  const indexItems = index.filter((i) => /-collections?\/$/.test(i.path));
+  log(`  · collections index: ${indexItems.length} collections`);
+  const movies = [];
+  await mapLimit(indexItems, 3, async (c) => {
+    if (deadline && Date.now() > deadline) return;
+    let html;
+    try { ({ html } = await getHtml(c.url)); } catch { return; }
+    for (const row of parseListing(html, c.url, { base: DUB, dubbed: true })) if (!/-collections?\/$/.test(row.path)) movies.push(row);
+  });
+  log(`  · collections: ${movies.length} films inside them`);
+  return movies;
+}
+
+/** The whole catalogue: A–Z pages + collections + the new page + recent updates. */
+async function discoverHistoric() {
+  const all = new Map();
+  const add = (rows) => { for (const r of rows) if (!all.has(r.path)) all.set(r.path, r); };
+  for (const letter of 'abcdefghijklmnopqrstuvwxyz') {
+    if (deadline && Date.now() > deadline) { log('  · A–Z paused by budget'); break; }
+    const rows = await discover(`/tamil-atoz-dubbed-movies/${letter}`, { param: 'page', maxPages: 60, deadline, log: () => {}, host: DUB, canonBase: DUB, dubbed: true });
+    add(rows);
+    log(`  · A–Z ${letter}: ${rows.length} items (total ${all.size})`);
+  }
+  add(await discoverCollections());
+  add(await discover('/tamil-dubbed-hollywood-movies/', { param: 'page', maxPages: 300, deadline, log: () => {}, host: DUB, canonBase: DUB, dubbed: true }));
+  add(await discover('/recent-updates/', { param: 'page', maxPages: 1, deadline, log: () => {}, host: DUB, canonBase: DUB, dubbed: true }));
+  log(`  · historic union: ${all.size} titles`);
+  return [...all.values()];
+}
+
+async function runDubbed() {
+  let items;
+  if (manifest) {
+    const paths = JSON.parse(fs.readFileSync(manifest, 'utf8'));
+    items = paths.map((p) => {
+      const path = typeof p === 'string' ? p : p.path;
+      const label = typeof p === 'string' ? '' : (p.label || '');
+      return { path, url: `${DUB}${path}`, label, kind: 'movie', parsed: parseDubLabel(label, path) };
+    });
+    log(`manifest     ${items.length} titles from ${manifest}`);
+  } else if (historic) {
+    items = await discoverHistoric();
+  } else if (deep) {
+    items = [...await discoverNewPage(), ...await discoverCollections(),
+      ...await discover('/tamil-atoz-dubbed-movies/a', { param: 'page', maxPages: 1, deadline, log: () => {}, host: DUB, canonBase: DUB, dubbed: true })];
+  } else {
+    items = await discoverNewPage();
+  }
+  // Labels give the real title/year; the slug is the fallback.
+  for (const item of items) if (!item.parsed) item.parsed = parseDubLabel(item.label, item.path);
+  if (!items.length) { listingErrors += 1; log('! nothing discovered — isaidub shape changed or it is down'); return; }
+  log(`items        ${items.length} dubbed titles to consider`);
+  const { walked } = await processItems(items, 'dubbed');
+  log(`· ${items.length} items on isaiDub · ${walked} walked · ${counts.skipped} skipped`);
+  await checkStoredLinks(items);
 }
 
 /* --------------------------------------------------------------- the modes */
@@ -751,13 +901,14 @@ async function runEnrich() {
 /* -------------------------------------------------------------------- main */
 
 log(`=== mv_vault · ${mode}${sweepEmpty ? ' · sweep-empty' : ''} · ${new Date().toISOString()} ===`);
-log(`budget ${budgetMin}min · max-items ${maxItems || '∞'} · tmdb ${tmdb.hasKey() ? `on (${tmdb.keyStatus()})` : 'off'}${mode === 'releases' ? ` · years ${years.join(' + ')}` : ''}${dry ? ' · DRY RUN (nothing is written)' : ''}`);
+log(`budget ${budgetMin}min · max-items ${maxItems || '∞'} · tmdb ${tmdb.hasKey() ? `on (${tmdb.keyStatus()})` : 'off'}${mode === 'releases' ? ` · years ${years.join(' + ')}` : ''}${mode === 'dubbed' ? ` · source isaidub.green${historic ? ' · HISTORIC' : deep ? ' · deep' : ''}${walkConcurrency > 1 ? ` · ${walkConcurrency} walks at once` : ''}` : ''}${dry ? ' · DRY RUN (nothing is written)' : ''}`);
 log(`vault ${vaultData.length} records · state ${Object.keys(state.done).length} tracked urls`);
 
 let azCursor = null;
 let backfill = null;
 try {
   if (mode === 'releases') await runReleases();
+  else if (mode === 'dubbed') await runDubbed();
   else if (mode === 'az') azCursor = await runAz();
   else backfill = await runEnrich();
 } catch (error) {
