@@ -76416,6 +76416,54 @@
     "url": "https://play.onestream.today/stream/page/102101",
     "season": 1,
     "episode": 92
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102290",
+    "season": 1,
+    "episode": 93
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102294",
+    "season": 1,
+    "episode": 93
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102291",
+    "season": 1,
+    "episode": 94
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102295",
+    "season": 1,
+    "episode": 94
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102292",
+    "season": 1,
+    "episode": 95
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102296",
+    "season": 1,
+    "episode": 95
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102293",
+    "season": 1,
+    "episode": 96
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102297",
+    "season": 1,
+    "episode": 96
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/o04GVavxTuTWCNrtbllGrQiRvbp.jpg",
@@ -76738,11 +76786,63 @@
         "url": "https://play.onestream.today/stream/page/102101"
        }
       ]
+     },
+     {
+      "episode": 93,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102290"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102294"
+       }
+      ]
+     },
+     {
+      "episode": 94,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102291"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102295"
+       }
+      ]
+     },
+     {
+      "episode": 95,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102292"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102296"
+       }
+      ]
+     },
+     {
+      "episode": 96,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102293"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102297"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:17.600Z"
+  "updatedAt": "2026-10-08T23:23:33.587Z"
  },
  {
   "id": "ipl-2023",
@@ -79330,6 +79430,54 @@
     "url": "https://play.onestream.today/stream/page/102093",
     "season": 3,
     "episode": 40
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102282",
+    "season": 3,
+    "episode": 41
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102286",
+    "season": 3,
+    "episode": 41
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102283",
+    "season": 3,
+    "episode": 42
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102287",
+    "season": 3,
+    "episode": 42
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102284",
+    "season": 3,
+    "episode": 43
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102288",
+    "season": 3,
+    "episode": 43
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102285",
+    "season": 3,
+    "episode": 44
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102289",
+    "season": 3,
+    "episode": 44
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/aHEr565AkKrwC7Q18u3OEjGavyj.jpg",
@@ -79652,11 +79800,63 @@
         "url": "https://play.onestream.today/stream/page/102093"
        }
       ]
+     },
+     {
+      "episode": 41,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102282"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102286"
+       }
+      ]
+     },
+     {
+      "episode": 42,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102283"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102287"
+       }
+      ]
+     },
+     {
+      "episode": 43,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102284"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102288"
+       }
+      ]
+     },
+     {
+      "episode": 44,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/102285"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102289"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:18.497Z"
+  "updatedAt": "2026-10-08T23:24:03.841Z"
  },
  {
   "id": "mardini-2024",
@@ -270635,5 +270835,59 @@
   "addedAt": "2026-10-08T01:07:42.908Z",
   "category": "tamil-dubbed-movie",
   "categorySource": "site"
+ },
+ {
+  "id": "khalifa-the-ruler-2026",
+  "title": "Khalifa The Ruler",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/khalifa-the-ruler-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102311"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102305"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102309"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102310"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/cAl7uuRojdxysptYBj9Mg0czGmI.jpg",
+  "rating": 7.1,
+  "tmdbId": 1036081,
+  "imdbId": "tt22797990",
+  "addedAt": "2026-10-08T23:20:46.512Z",
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-08T23:37:38.223Z"
+ },
+ {
+  "id": "paris-cafe-2026",
+  "title": "Paris Cafe",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/paris-cafe-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102301"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/5rPqzWDqEFjcLGJ5Rvt8SbV3BRv.jpg",
+  "rating": 0,
+  "tmdbId": 1603779,
+  "imdbId": "tt38126135",
+  "addedAt": "2026-10-08T23:20:52.894Z",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-08T23:37:38.503Z"
  }
 ]
