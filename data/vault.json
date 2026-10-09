@@ -105123,6 +105123,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aspirants-2026-tamil-web-series/",
   "embeds": [
@@ -105214,9 +105215,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "updatedAt": "2026-10-09T06:25:45.094Z"
+  "updatedAt": "2026-10-09T06:25:45.094Z",
+  "tmdbType": "tv"
  },
  {
   "id": "local-times-2026",
@@ -286027,6 +286027,9 @@
   "title": "Asur",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/asur-2023-tamil-movie/",
   "embeds": [
    {
@@ -286287,17 +286290,17 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:29.132Z"
+  "updatedAt": "2026-10-09T06:40:29.132Z",
+  "tmdbType": "tv"
  },
  {
   "id": "accidental-farmer-and-co-2023",
   "title": "Accidental Farmer and Co",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/accidental-farmer-and-co-2023-tamil-movie/",
   "embeds": [
    {
@@ -286433,11 +286436,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:29.132Z"
+  "updatedAt": "2026-10-09T06:40:29.132Z",
+  "tmdbType": "tv"
  },
  {
   "id": "anger-tales-2023",
@@ -286450,10 +286450,22 @@
   "pageUrl": "https://moviesda34.com/anger-tales-2023-tamil-movie/",
   "embeds": [
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/78512",
+    "season": 1,
+    "episode": 1
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/78507",
     "season": 1,
     "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/78513",
+    "season": 1,
+    "episode": 2
    },
    {
     "quality": "HD",
@@ -286462,10 +286474,22 @@
     "episode": 2
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/78514",
+    "season": 1,
+    "episode": 3
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/78509",
     "season": 1,
     "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/78515",
+    "season": 1,
+    "episode": 4
    },
    {
     "quality": "HD",
@@ -286487,6 +286511,10 @@
       "episode": 1,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/78512"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/78507"
        }
@@ -286495,6 +286523,10 @@
      {
       "episode": 2,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/78513"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/78508"
@@ -286505,6 +286537,10 @@
       "episode": 3,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/78514"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/78509"
        }
@@ -286514,6 +286550,10 @@
       "episode": 4,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/78515"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/78510"
        }
@@ -286522,13 +286562,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:36.596Z"
+  "updatedAt": "2026-10-09T23:31:16.086Z"
  },
  {
   "id": "ayali-season-01-2023",
   "title": "Ayali Season 01",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ayali-season-01-2023-tamil-movie/",
   "embeds": [
    {
@@ -286664,24 +286707,36 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:30.506Z"
+  "updatedAt": "2026-10-09T06:40:30.506Z",
+  "tmdbType": "tv"
  },
  {
   "id": "atm-season-01-2023",
   "title": "ATM Season 01",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/atm-season-01-2023-tamil-movie/",
   "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77787",
+    "season": 1,
+    "episode": 1
+   },
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/77778",
     "season": 1,
     "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77788",
+    "season": 1,
+    "episode": 2
    },
    {
     "quality": "HD",
@@ -286690,10 +286745,22 @@
     "episode": 2
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77789",
+    "season": 1,
+    "episode": 3
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/77780",
     "season": 1,
     "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77790",
+    "season": 1,
+    "episode": 4
    },
    {
     "quality": "HD",
@@ -286702,10 +286769,22 @@
     "episode": 4
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77791",
+    "season": 1,
+    "episode": 5
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/77782",
     "season": 1,
     "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77792",
+    "season": 1,
+    "episode": 6
    },
    {
     "quality": "HD",
@@ -286714,10 +286793,22 @@
     "episode": 6
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77793",
+    "season": 1,
+    "episode": 7
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/77784",
     "season": 1,
     "episode": 7
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/77794",
+    "season": 1,
+    "episode": 8
    },
    {
     "quality": "HD",
@@ -286739,6 +286830,10 @@
       "episode": 1,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77787"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77778"
        }
@@ -286747,6 +286842,10 @@
      {
       "episode": 2,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77788"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77779"
@@ -286757,6 +286856,10 @@
       "episode": 3,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77789"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77780"
        }
@@ -286765,6 +286868,10 @@
      {
       "episode": 4,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77790"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77781"
@@ -286775,6 +286882,10 @@
       "episode": 5,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77791"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77782"
        }
@@ -286783,6 +286894,10 @@
      {
       "episode": 6,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77792"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77783"
@@ -286793,6 +286908,10 @@
       "episode": 7,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77793"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77784"
        }
@@ -286802,6 +286921,10 @@
       "episode": 8,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/77794"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77785"
        }
@@ -286810,11 +286933,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:30.506Z"
+  "updatedAt": "2026-10-09T23:31:36.093Z",
+  "tmdbType": "tv"
  },
  {
   "id": "bakaiti-2025",
@@ -287798,6 +287918,9 @@
   "title": "Chamak",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chamak-2025-movie/",
   "embeds": [
    {
@@ -287903,11 +288026,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:31.458Z"
+  "updatedAt": "2026-10-09T06:40:31.458Z",
+  "tmdbType": "tv"
  },
  {
   "id": "chutney-sambar-2024",
@@ -288029,6 +288149,9 @@
   "title": "Crackdown",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/crackdown-2023-tamil-movie/",
   "embeds": [
    {
@@ -288164,11 +288287,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:31.458Z"
+  "updatedAt": "2026-10-09T06:40:31.458Z",
+  "tmdbType": "tv"
  },
  {
   "id": "class-2023",
