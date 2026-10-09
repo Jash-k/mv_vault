@@ -12,16 +12,11 @@
  *   retires that key. The run only stops when every key is parked/retired — with
  *   11 keys that means one throttled key costs nothing.
  *
- * Contract (`enrich`):
- *   { …meta }   → asked, found an exact title+year match (includes
- *                 original_language, which is what decides tamil vs tamil-dubbed)
- *   null        → asked, TMDB has no exact match (safe to remember as a miss)
- *   undefined   → could NOT ask (no key / all keys parked / auth rejected /
- *                 network) — never treat this as a miss, never write bookkeeping.
- *
- * Only EXACT title+year matches are accepted; an ambiguous or partial match is
- * left alone rather than guessed. A record that already carries a tmdbId is
- * looked up BY THAT ID (one call, and it cannot pick up a different film).
+ * Contract: metadata = verified match, null = completed search with no safe
+ * match, undefined = unavailable/incomplete search (never remember as a miss).
+ * Matches use exact canonical titles or official TMDB alternatives, with movie
+ * release year or TV season-air year evidence. Small spelling differences need
+ * independent cast/director corroboration; never accept fuzzy titles alone.
  */
 const KEYS = String(process.env.TMDB_KEYS || process.env.TMDB_API_KEY || '')
   .split(',').map((k) => k.trim()).filter(Boolean);
@@ -58,7 +53,11 @@ function nextKey() {
   return null;
 }
 
-const normalise = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+export const normalise = (s) => String(s || '').normalize('NFKD').replace(/\p{M}/gu, '')
+  .toLowerCase().replace(/&/g, ' and ').replace(/['’]/g, '')
+  .replace(/(?<=\d)\.(?=\d)/g, 'decimalpoint')
+  .replace(/[^\p{L}\p{N}]+/gu, '');
+const titlesOf = (r) => [r.title, r.original_title, r.name, r.original_name].filter(Boolean);
 
 /** One attempt on one key. */
 async function attempt(path, key) {
@@ -112,91 +111,205 @@ async function api(path) {
 }
 
 const yearOf = (hit, type) => Number(String((type === 'tv' ? hit.first_air_date : hit.release_date) || '').slice(0, 4)) || 0;
+const namesOf = (details) => [
+  ...titlesOf(details),
+  ...(details.alternative_titles?.titles || details.alternative_titles?.results || []).map((r) => r.title),
+  ...(details.translations?.translations || []).flatMap((r) => [r.data?.title, r.data?.name]),
+].filter(Boolean);
 
-/** The one exact title+year match, or null when there is none / more than one. */
-function pick(results, { title, year }, type) {
-  const wanted = normalise(title);
-  const exact = (results || []).filter((r) => [r.title, r.original_title, r.name, r.original_name]
-    .some((t) => normalise(t) === wanted));
-  const sameYear = year ? exact.filter((r) => yearOf(r, type) === Number(year)) : exact;
-  return sameYear.length === 1 ? sameYear[0] : null;
-}
-
-const metaOf = (details, type) => ({
-  tmdbId: details.id,
-  tmdbType: type,
+const posterFor = (details, type, record = {}) => {
+  if (type === 'tv') {
+    const declared = Number(String(record.title || '').match(/season\s*(\d+)\s*\)?$/i)?.[1] || 0);
+    const numbers = [...new Set((record.seasons || []).map(s => Number(s.season)).filter(n => n > 0))];
+    const season = declared || (numbers.length === 1 ? numbers[0] : 0);
+    const poster = (details.seasons || []).find(s => s.season_number === season)?.poster_path;
+    if (poster) return poster;
+  }
+  return details.poster_path;
+};
+const metaOf = (details, type, match = 'stored-id', record = {}) => ({
+  tmdbId: details.id, tmdbType: type,
   tmdbTitle: details.title || details.name || '',
   imdbId: details.external_ids?.imdb_id || '',
-  poster: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : '',
+  poster: posterFor(details, type, record) ? `https://image.tmdb.org/t/p/w500${posterFor(details, type, record)}` : '',
   rating: Number(details.vote_average) || 0,
   originalLanguage: details.original_language || '',
+  match, originalYear: yearOf(details, type),
 });
 
-async function lookupById(id, type) {
-  const details = await api(`/${type}/${id}?append_to_response=external_ids`);
-  if (!details.ok) return { asked: false };
-  if (!details.data?.id) return { asked: true, meta: null };
-  return { asked: true, meta: metaOf(details.data, type) };
+async function detailsById(id, type) {
+  const reply = await api(`/${type}/${id}?append_to_response=external_ids,alternative_titles,translations`);
+  return reply.ok ? { asked: true, details: reply.data } : { asked: false };
 }
 
-async function lookup(title, year, type) {
-  const params = new URLSearchParams({ query: title });
+// Search every page within a hard bound. A truncated/network-failed search is
+// unavailable, NOT evidence of a unique match and NOT a remembered miss.
+async function searchAll(title, type, year = 0) {
+  const params = new URLSearchParams({ query: title, include_adult: 'false' });
   if (year) params.set(type === 'tv' ? 'first_air_date_year' : 'year', String(year));
-  const search = await api(`/search/${type}?${params}`);
-  if (!search.ok) return { asked: false };
-  const hit = pick(search.data?.results, { title, year }, type);
-  if (!hit) return { asked: true, meta: null };
-  return lookupById(hit.id, type);
+  const found = new Map();
+  for (let page = 1; page <= 5; page += 1) {
+    params.set('page', String(page));
+    const reply = await api(`/search/${type}?${params}`);
+    if (!reply.ok) return { asked: false };
+    if (Number(reply.data?.total_pages) > 5) return { asked: false, reason: 'too-many-candidates' };
+    for (const hit of reply.data?.results || []) found.set(hit.id, hit);
+    if (page >= (Number(reply.data?.total_pages) || 1)) return { asked: true, hits: [...found.values()] };
+  }
+  return { asked: false };
 }
-/**
- * { poster, rating, tmdbId, imdbId, originalLanguage } | null | undefined.
- *
- *   · a stored id is trusted for its own media type — that is the data the
- *     record was built from (no churn);
- *   · a stored id that only resolves as the OTHER media type is used when the
- *     title matches exactly (that is how a series filed under a movie-shaped
- *     page gets a series category);
- *   · `verifyIds` also re-searches when the id's title does not match at all,
- *     and keeps exactly what the record had if nothing better is found.
- */
-export async function enrich({ title, year, kind, tmdbId = 0, verifyIds = false }) {
-  if (!hasKey() || allKeysDown()) return undefined;
-  const first = kind === 'series' ? 'tv' : 'movie';
-  const second = first === 'tv' ? 'movie' : 'tv';
-  const sameTitle = (a, b) => normalise(a) === normalise(b);
-  let suspect = null;                      // an id whose title did not match
 
+async function lookup(record, type) {
+  const { title, year, seasons = [], originalLanguage = '' } = record;
+  const query = type === 'tv' ? title.replace(/\s*(?:\(|-)?\s*season\s*\d+\s*\)?$/i, '').trim() : title;
+  if (!normalise(query)) return { asked: true, meta: null };
+  const wanted = normalise(query);
+  // Unfiltered TV search is essential: the stored year is often season 2/3/10,
+  // not first_air_date_year. Movie year remains mandatory.
+  const all = new Map();
+  // A literal search for 'Business Man' does not return 'Businessman'. Search
+  // both forms, union candidates, then enforce exactly one verified match.
+  const variants = [...new Set([query, query.replace(/['’]/g, ''), normalise(query)])];
+  for (const variant of variants) {
+    const search = await searchAll(variant, type, type === 'movie' ? year : 0);
+    if (!search.asked) return { asked: false };
+    for (const hit of search.hits) all.set(hit.id, hit);
+  }
+  const hits = [...all.values()].filter((r) => type === 'tv' || !year || yearOf(r, type) === Number(year));
+  const candidates = [];
+  for (const hit of hits) {
+    // Check official aliases/translations too, including every plausible result.
+    const result = await detailsById(hit.id, type);
+    if (!result.asked) return { asked: false };
+    const details = result.details;
+    if (!details?.id || !namesOf(details).some((n) => normalise(n) === wanted)) continue;
+    if (originalLanguage && details.original_language !== originalLanguage) continue;
+    let match = titlesOf(details).some((n) => normalise(n) === wanted) ? 'exact-title-year' : 'official-alias-year';
+    if (type === 'movie' && year && yearOf(details, type) !== Number(year)) continue;
+    if (type === 'tv' && year && yearOf(details, type) !== Number(year)) {
+      const explicit = Number(title.match(/season\s*(\d+)\s*\)?$/i)?.[1] || 0);
+      const numbers = new Set(seasons.map((s) => Number(s.season)).filter((n) => n > 0));
+      if (explicit) numbers.add(explicit);
+      if (!numbers.size || !(details.seasons || []).some((s) => numbers.has(s.season_number) && Number(String(s.air_date || '').slice(0, 4)) === Number(year))) continue;
+      match = 'exact-title-season-year';
+    }
+    // Regional reality franchises share an English title. A Tamil dub site is
+    // NOT evidence of original language; require explicit evidence from caller.
+    if (type === 'tv' && /^(biggboss|bigsister|bigbrother|survivor|thevoice|idols?|supersinger|masterchef|kodeeswari)$/.test(wanted) && !originalLanguage) continue;
+    candidates.push(metaOf(details, type, match, record));
+  }
+  return { asked: true, meta: candidates.length === 1 ? candidates[0] : null };
+}
+
+export async function enrich(record) {
+  if (!hasKey() || allKeysDown()) return undefined;
+  const { title, kind, tmdbId = 0, verifyIds = false } = record;
+  const first = record.tmdbType || (kind === 'series' || /series$/.test(record.category || '') ? 'tv' : 'movie');
+  const second = first === 'tv' ? 'movie' : 'tv';
   if (Number(tmdbId) > 0) {
-    for (const [i, type] of [first, second].entries()) {
-      const byId = await lookupById(Number(tmdbId), type);
-      if (!byId.asked) return undefined;
-      if (!byId.meta) continue;            // 404 here → try the other media type
-      const titleOk = sameTitle(byId.meta.tmdbTitle, title);
-      if (i === 0) {
-        if (titleOk || !verifyIds) return byId.meta;
-        suspect = byId.meta;               // verify-ids: try to find something better
-        break;
-      }
-      if (titleOk) { byId.meta.crossType = true; return byId.meta; }
-      break;                               // the id belongs to a different work
+    const result = await detailsById(Number(tmdbId), first);
+    if (!result.asked) return undefined;
+    if (result.details?.id) {
+      const query = first === 'tv' ? title.replace(/\s*season\s*\d+\s*$/i, '').trim() : title;
+      if (!verifyIds || namesOf(result.details).some((n) => normalise(n) === normalise(query))) return metaOf(result.details, first, 'stored-id', record);
+      // An ID suspected of belonging to a different work must NEVER feed its
+      // poster/language back into this record when no replacement can be found.
     }
   }
-
-  const primary = await lookup(title, year, first);
+  const primary = await lookup(record, first);
   if (!primary.asked) return undefined;
   if (primary.meta) return primary.meta;
-
-  // Cross-type search: only a MOVIE record may fall back to a TV entry (the site
-  // files some series under movie-shaped pages, and that is exactly how their
-  // category becomes a series category). A SERIES record is never matched to a
-  // film: two different works can share a title and a year, and a film's poster
-  // and language on a series record is worse than no match at all.
-  if (second !== 'movie') {
-    const fallback = await lookup(title, year, second);
+  if (second === 'tv') {
+    const fallback = await lookup(record, second);
     if (!fallback.asked) return undefined;
-    if (fallback.meta) return fallback.meta;
+    if (fallback.meta) return { ...fallback.meta, crossType: Boolean(tmdbId) };
   }
-
-  if (suspect) { suspect.keptId = true; return suspect; }
   return null;
+}
+
+/** Credits are corroboration, never a replacement for title identity. */
+export function creditEvidence(details, evidence = {}) {
+  const names = (p) => [p.name, p.original_name, ...(p.also_known_as || [])].filter(Boolean).map(normalise);
+  const cast = new Set((details.credits?.cast || []).slice(0, 15).flatMap(names));
+  const directors = new Set((details.credits?.crew || []).filter(p => p.job === 'Director').flatMap(names));
+  const castMatches = (evidence.cast || []).filter(n => cast.has(normalise(n)));
+  const directorMatches = (evidence.directors || []).filter(n => directors.has(normalise(n)));
+  return { castMatches, directorMatches,
+    strong: castMatches.length >= 2 || (castMatches.length >= 1 && directorMatches.length >= 1),
+    contradiction: (evidence.cast || []).length >= 2 && cast.size > 0 && castMatches.length === 0 };
+}
+
+// Small spelling changes are candidate evidence ONLY when independently
+// corroborated by two cast names or a director+cast, never on their own.
+export function titleSimilarity(a, b) {
+  a = normalise(a); b = normalise(b);
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+  if (Math.min(a.length, b.length) < 8) return 0;
+  if ((a.match(/\d+/g)||[]).join() !== (b.match(/\d+/g)||[]).join()) return 0;
+  let prev = Array.from({length:b.length+1},(_,i)=>i);
+  for (let i=1;i<=a.length;i++) {
+    const row=[i];
+    for (let j=1;j<=b.length;j++) row[j]=Math.min(row[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));
+    prev=row;
+  }
+  return 1-prev[b.length]/Math.max(a.length,b.length);
+}
+
+async function creditedDetails(id, type) {
+  const reply = await api(`/${type}/${id}?append_to_response=external_ids,alternative_titles,translations,credits,release_dates`);
+  return reply.ok ? {asked:true,details:reply.data} : {asked:false};
+}
+
+export async function validateCredits(meta, evidence) {
+  const result=await creditedDetails(meta.tmdbId, meta.tmdbType);
+  if(!result.asked || !result.details?.id) return undefined;
+  return creditEvidence(result.details,evidence);
+}
+
+/** Safe second pass: source credits plus exact/official alias or close spelling.
+ * No credit-only matches, no popularity tie-break, no guessed translated title.
+ * Public for repeatable metadata-only backfill scripts; episode data untouched.
+ */
+export async function enrichWithEvidence(record, evidence) {
+  if(!evidence?.available || record.kind==='series' || !(evidence.cast||[]).length) return null;
+  const type='movie';
+  const query=record.title;
+  const candidates=new Map();
+  let search=await searchAll(query,type);
+  const broadTruncated = search.reason === 'too-many-candidates';
+  if(broadTruncated) search=await searchAll(query,type,Number(evidence.sourceYear||record.year)||0);
+  if(!search.asked) return undefined;
+  for(const h of search.hits)candidates.set(h.id,h);
+  // Exact lead-actor identity supplies candidates for transliteration spellings
+  // the title search cannot retrieve. Never choose the most popular person.
+  if(evidence.cast[0]) {
+    const people=await api(`/search/person?query=${encodeURIComponent(evidence.cast[0])}`);
+    if(!people.ok) return undefined;
+    const exact=(people.data?.results||[]).filter(p=>normalise(p.name)===normalise(evidence.cast[0]));
+    if(exact.length===1 && (people.data.total_pages||1)===1) {
+      const credits=await api(`/person/${exact[0].id}/movie_credits`);
+      if(!credits.ok)return undefined;
+      for(const h of credits.data?.cast||[])candidates.set(h.id,h);
+    }
+  }
+  const sourceYear=Number(evidence.sourceYear||record.year)||0;
+  const accepted=[];
+  for(const hit of candidates.values()) {
+    const y=yearOf(hit,type);
+    if(sourceYear && y && y>sourceYear+1)continue;
+    // Narrow expensive detail calls; exact official translations may be hidden
+    // in search results, so retain the entire literal-search candidate set too.
+    const visible=titlesOf(hit).some(t=>titleSimilarity(query,t)>=0.84);
+    if(!visible && !search.hits.some(h=>h.id===hit.id))continue;
+    const result=await creditedDetails(hit.id,type);
+    if(!result.asked)return undefined;
+    const d=result.details;if(!d?.id)continue;
+    const titleScore=Math.max(...namesOf(d).map(t=>titleSimilarity(query,t)),0);
+    const credits=creditEvidence(d,evidence);
+    if(titleScore<0.84 || !credits.strong || credits.contradiction)continue;
+    if(titleScore<1 && sourceYear && y && Math.abs(sourceYear-y)>2)continue;
+    accepted.push({...metaOf(d,type,titleScore===1?'title-and-source-credits':'spelling-and-source-credits'),evidence:{sourceUrl:evidence.sourceUrl,sourceYear,castMatches:credits.castMatches,directorMatches:credits.directorMatches,titleScore}});
+  }
+  return accepted.length===1?accepted[0]:broadTruncated?undefined:null;
 }

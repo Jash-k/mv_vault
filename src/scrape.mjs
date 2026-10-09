@@ -44,7 +44,7 @@ export const POSTER_HOST = LIVE;
  * trusted — so a fix like "series under movie paths" takes effect on the next
  * pass instead of waiting out a 7-day empty window.
  */
-export const WALK_VERSION = 2;
+export const WALK_VERSION = 3;
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.TIMEOUT_MS || 15000);
@@ -214,6 +214,9 @@ function folderLinks(html, base) {
     if (!hasQuality && !singleSegment) return;
     const url = absolute(base, href);
     if (!url || seen.has(url)) return;
+    const target = new URL(url);
+    if (target.origin !== new URL(base).origin || target.pathname.includes('/download/')) return;
+    if (target.searchParams.has('page') || target.searchParams.has('get-page')) return;
     seen.add(url);
     out.push({ url, href, label, quality: qualityOf(label, href) });
   });
@@ -376,71 +379,96 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
  * The flat shape has no quality token at all, so those episodes are stored as
  * 'HD' (the same convention already used in the vault) — never dropped.
  */
-export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = {}) {
+export async function walkSeries(url, { deadline = 0, html: prefetched = '', maxEpisodePages = 50 } = {}) {
+  const checkBudget = () => {
+    if (deadline && Date.now() >= deadline) throw new Error('series walk paused by budget; retry required');
+  };
+  checkBudget();
   const itemHtml = prefetched || (await getHtml(url)).html;
-  if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
+  if (looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
-  const origin = new URL(url).origin;
+  const jobs = new Map();
+  let incomplete = false;
+  const visitedFolders = new Set();
 
-  const jobs = []; // { slugUrl, quality, season, episode }
-  const addSlugs = (html, base, qualityHint, seasonHint) => {
-    for (const slug of episodeSlugs(html, base)) {
-      const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
-      jobs.push({
-        slugUrl: slug.url,
-        quality: declared ? qualityOf(slug.label, slug.href) : (qualityHint || 'HD'),
-        season: seasonOf(slug.href) || seasonHint || 1,
-        episode: episodeOf(slug.href),
+  // Pagination belongs to this exact folder, never to a different season/show.
+  // Read every linked page; never guess page numbers or treat ?page=2 as a folder.
+  async function pages(folderUrl, firstHtml) {
+    const pending = [folderUrl];
+    const seen = new Set();
+    const result = [];
+    while (pending.length) {
+      checkBudget();
+      const pageUrl = pending.shift();
+      if (seen.has(pageUrl)) continue;
+      if (seen.size >= maxEpisodePages) { incomplete = true; break; }
+      seen.add(pageUrl);
+      let html;
+      try { html = pageUrl === folderUrl && firstHtml ? firstHtml : (await getHtml(pageUrl)).html; }
+      catch { incomplete = true; continue; }
+      if (looksBlocked(html)) { incomplete = true; continue; }
+      result.push({ html, url: pageUrl });
+      const $ = cheerio.load(html);
+      $('a[href]').each((_, a) => {
+        const href = absolute(pageUrl, $(a).attr('href'));
+        if (!href) return;
+        const next = new URL(href); const base = new URL(folderUrl);
+        if (next.origin !== base.origin || next.pathname !== base.pathname) return;
+        const page = next.searchParams.get('page') || next.searchParams.get('get-page');
+        if (!/^[1-9]\d*$/.test(page || '')) return;
+        next.hash = '';
+        if (Number(page) === 1) next.search = base.search;
+        if (!seen.has(next.href) && !pending.includes(next.href)) pending.push(next.href);
       });
     }
-  };
-
-  const itemLinks = folderLinks(itemHtml, origin);
-  const seasonFolders = itemLinks.filter((l) => SEASON_FOLDER_RX.test(l.href));
-
-  if (seasonFolders.length) {
-    for (const seasonFolder of seasonFolders) {
-      if (deadline && Date.now() > deadline) break;
-      const seasonHint = seasonOf(seasonFolder.href) || 1;
-      // A season link that is just this same page (single-page shows) — no refetch.
-      const samePage = new URL(seasonFolder.url).pathname === new URL(url).pathname;
-      await paced();
-      let seasonHtml = itemHtml;
-      if (!samePage) {
-        try { ({ html: seasonHtml } = await getHtml(seasonFolder.url)); } catch { continue; }
-      }
-      const qualityFolders = folderLinks(seasonHtml, new URL(seasonFolder.url).origin)
-        .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
-      if (!qualityFolders.length) { addSlugs(seasonHtml, seasonFolder.url, 'HD', seasonHint); continue; }
-
-      qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
-      for (const qf of qualityFolders) {
-        if (deadline && Date.now() > deadline) break;
-        await paced();
-        try {
-          const { html: qfHtml } = await getHtml(qf.url);
-          addSlugs(qfHtml, qf.url, qf.quality, seasonHint);
-        } catch { /* quality folder gone */ }
-      }
-    }
-  } else {
-    // Flat shape: episodes are on the item page itself. No quality token, so
-    // 'HD' unless the slug or its label declares one.
-    addSlugs(itemHtml, url, 'HD', 1);
+    return result;
   }
 
-  if (!jobs.length) return { kind: 'series', seasons: [], embeds: [], poster };
+  async function visit(folderUrl, firstHtml, qualityHint = 'HD', seasonHint = 1, depth = 0) {
+    checkBudget();
+    if (visitedFolders.has(folderUrl)) return;
+    if (visitedFolders.size >= 80) { incomplete = true; return; }
+    visitedFolders.add(folderUrl);
+    const children = new Map();
+    for (const page of await pages(folderUrl, firstHtml)) {
+      for (const slug of episodeSlugs(page.html, page.url)) {
+        const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
+        jobs.set(slug.url, {
+          slugUrl: slug.url,
+          quality: declared ? qualityOf(slug.label, slug.href) : qualityHint,
+          season: seasonOf(slug.href) || seasonHint,
+          episode: episodeOf(slug.href),
+        });
+      }
+      for (const link of folderLinks(page.html, page.url)) {
+        if (new URL(link.url).pathname === new URL(folderUrl).pathname) continue;
+        if (depth === 0 ? SEASON_FOLDER_RX.test(link.href) || /\d{3,4}p/i.test(link.href) : /\d{3,4}p/i.test(link.href)) children.set(link.url, link);
+      }
+    }
+    if (depth >= 2) return;
+    for (const child of children.values()) {
+      await visit(child.url, '', child.quality === 'HD' ? qualityHint : child.quality, seasonOf(child.href) || seasonHint, depth + 1);
+    }
+  }
+  await visit(url, itemHtml, 'HD', seasonOf(url) || 1);
 
-  // Each episode slug page → the numeric file id (parallel, order preserved)
-  const idRows = (await mapLimit(jobs, 3, async (job) => {
+  const idRows = (await mapLimit([...jobs.values()], 3, async (job) => {
+    checkBudget();
     try {
       const { html } = await getHtml(job.slugUrl);
-      return fileIds(html).slice(0, 1).map((id) => ({ id, ...job }));
-    } catch { return []; }
+      const ids = fileIds(html).slice(0, 1);
+      if (!ids.length) incomplete = true;
+      return ids.map((id) => ({ id, ...job }));
+    } catch { incomplete = true; return []; }
   })).flat();
 
-  // Confirm each id (parallel) → embed
-  const confirmed = await mapLimit(idRows, 4, async (row) => ({ row, embed: await confirmEmbed(row.id) }));
+  const confirmed = await mapLimit(idRows, 4, async (row) => {
+    checkBudget();
+    const embed = await confirmEmbed(row.id);
+    if (!embed) incomplete = true;
+    return { row, embed };
+  });
+  checkBudget();
 
   const seasons = new Map(); // season → Map(episode → Map(url → quality))
   for (const { row, embed } of confirmed) {
@@ -466,7 +494,7 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = 
     }
     if (episodes.length) seasonList.push({ season, episodes });
   }
-  return { kind: 'series', seasons: seasonList, embeds: flat, poster };
+  return { kind: 'series', seasons: seasonList, embeds: flat, poster, incomplete };
 }
 
 /**

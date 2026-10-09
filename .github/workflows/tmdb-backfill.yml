@@ -1,7 +1,7 @@
 name: TMDB backfill (one-off)
 
 # Fills poster / rating / tmdbId / imdbId for records that are missing them.
-# Touches no scraped data and makes no site requests — one TMDB call per record.
+# Touches no episode links; reads TMDB and source metadata for corroboration.
 #
 # Run it by hand from the Actions tab (defaults are safe: 20 min, 200 records).
 # Repeat it as often as you like; records TMDB has no exact match for are marked
@@ -12,6 +12,10 @@ on:
       limit:
         description: 'Max records this run (default 200)'
         default: '200'
+      retry_misses:
+        description: 'Retry all previous misses using improved title/season matching'
+        type: boolean
+        default: false
       stale_days:
         description: 'Also retry records whose last look was N+ days ago (default 0 = never retry)'
         default: '0'
@@ -51,6 +55,7 @@ jobs:
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
           LIMIT: ${{ inputs.limit }}
+          RETRY_MISSES: ${{ inputs.retry_misses }}
           STALE: ${{ inputs.stale_days }}
           BUDGET: ${{ inputs.budget_min }}
           DRY: ${{ inputs.dry }}
@@ -58,6 +63,7 @@ jobs:
         run: |
           ARGS="--mode=tmdb"
           [ -n "$LIMIT" ] && ARGS="$ARGS --limit=$LIMIT"
+          [ "$RETRY_MISSES" = "true" ] && ARGS="$ARGS --retry-misses"
           [ -n "$STALE" ] && [ "$STALE" != "0" ] && ARGS="$ARGS --stale-days=$STALE"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"

@@ -6,10 +6,9 @@
  *   node src/run.mjs --mode=az           # A–Z folder, resumable, goes on to the next letter
  *   node src/run.mjs --mode=dubbed       # isaiDub (isaidub.green) — the Tamil-dubbed catalogue
  *
- * The year folder lists series too (2026: 67 series pages of 379 items), so the
- * separate /tamil-web-series-download/ folder is NOT read by default — it only
- * re-listings series that are mostly older than the current year. --with-series
- * adds it back (latest 3 pages) for the rare case of a series listed only there.
+ * Releases read the current/next-year folders AND the latest web-series pages.
+ * Stored current-year series are a safety net when the listing drops an alias.
+ * Use --no-series to disable that extra discovery/refresh explicitly.
  *
  * dubbed mode reads isaidub.green. Default = the newest-first page
  * /tamil-dubbed-hollywood-movies/ walked down until it only sees titles we
@@ -62,6 +61,7 @@ import fs from 'node:fs';
 import { LIVE, DUB, discover, getHtml, parseListing, walkItem, walkDubbed, parseDubLabel, embedCount, probeEmbed, mapLimit, stats, sleep, WALK_VERSION } from './scrape.mjs';
 import * as V from './vault.mjs';
 import * as tmdb from './tmdb.mjs';
+import { enrichRecord } from './metadata-evidence.mjs';
 
 /* ------------------------------------------------------------------- setup */
 
@@ -77,7 +77,7 @@ const sweepEmpty = Boolean(arg('sweep-empty', false));
 const verbose = Boolean(arg('verbose', false)) || /^(1|true)$/i.test(String(process.env.VERBOSE || ''));
 const refreshDays = Number(arg('refresh-days', 0)) || 0;
 const verifyIds = Boolean(arg('verify-ids', false));
-const withSeries = Boolean(arg('with-series', false));
+const withSeries = !args.includes('--no-series') && arg('with-series', 'true') !== 'false';
 const checkAll = Boolean(arg('check-all', false));
 const historic = Boolean(arg('historic', false));
 const deep = Boolean(arg('deep', false));
@@ -98,7 +98,7 @@ const currentYear = new Date().getUTCFullYear();
 const years = arg('year') ? [String(arg('year'))] : [String(currentYear), String(currentYear + 1)];
 
 const CFG = mode === 'releases'
-  ? { budgetMin: 25, maxItems: 0, commitEvery: 100, emptyHours: 24, listingPages: 30, seriesPages: 3, seriesRefreshHours: 24, linkCheck: true, linkCheckHours: 1 } // seriesPages only used by --with-series
+  ? { budgetMin: 25, maxItems: 0, commitEvery: 100, emptyHours: 24, listingPages: 30, seriesPages: 3, seriesRefreshHours: 5, linkCheck: true, linkCheckHours: 1 } // refresh before the next six-hour schedule
   : mode === 'dubbed'
     ? { budgetMin: 25, maxItems: 0, commitEvery: 200, emptyHours: 24, listingPages: 30, seriesPages: 0, seriesRefreshHours: 24, linkCheck: true, linkCheckHours: 1, maxEpisodePages: 10 }
   : mode === 'enrich'
@@ -149,6 +149,7 @@ function displayName(item) {
 /** Stored → skip. Checked-empty/failed recently → skip until its retry time. */
 function verdict(item) {
   const known = state.done[item.url];
+  if (known?.incomplete) return { walk: true, why: 'retry incomplete series walk' };
 
   // Recovery sweep: re-walk every page an older walker left empty, ignoring the
   // retry windows. The walk-version stamp makes this a one-time cost — once the
@@ -170,12 +171,12 @@ function verdict(item) {
   if (stored?.embeds?.length) {
     // A series is never "finished": the site adds episodes to a running show,
     // and one transient failure can leave an episode missing. So a stored SERIES
-    // is re-walked once its window has passed (24h on the releases flow, a week
+    // is re-walked once its window has passed (5h on the releases flow, a week
     // in the A–Z flow) and the new episodes are unioned in. Movies are done.
     if (stored.kind === 'series' && CFG.seriesRefreshHours) {
       const at = Date.parse(known?.at || '') || 0;
       const due = at + CFG.seriesRefreshHours * 3.6e6;
-      if (!at || Date.now() >= due) return { walk: true, why: 'series refresh' };
+      if (!at || Date.now() >= due || Number(known?.v || 0) < WALK_VERSION) return { walk: true, why: 'series refresh' };
       return { skip: `series · refresh in ${until(new Date(due).toISOString())}` };
     }
     // Optional: re-walk stored movies on a long window, to pick up a re-upload
@@ -198,11 +199,11 @@ function verdict(item) {
   if (Number(walkedState?.embeds) > 0) {
     const t = V.titleFor(item) || {};
     const rec = vaultData.find((m) => m.id === V.idFor(t.title, t.year));
-    const kind = walkedState.kind || rec?.kind;
+    const kind = rec?.kind || (item.kind === 'series' ? 'series' : walkedState.kind);
     if (kind !== 'series') return { skip: 'stored (another path)' };
     const at = Date.parse(walkedState.at || '') || 0;
     const due = at + CFG.seriesRefreshHours * 3.6e6;
-    if (!CFG.seriesRefreshHours || !at || Date.now() >= due) return { walk: true, why: 'series refresh' };
+    if (!CFG.seriesRefreshHours || !at || Date.now() >= due || Number(walkedState.v || 0) < WALK_VERSION) return { walk: true, why: 'series refresh' };
     return { skip: `series · refresh in ${until(new Date(due).toISOString())}` };
   }
 
@@ -322,7 +323,7 @@ async function processItems(items, label) {
   let complete = true;           // false when a budget/max-items limit cut the batch short
   const skipTally = new Map(); // reason → n
   const kindTotal = { movie: 0, series: 0 };
-  const queue = items.filter((i) => !seenThisRun.has(i.path) && (!only || i.path.includes(only)));
+  const queue = [...new Map(items.map((i) => [i.path, i])).values()].filter((i) => !seenThisRun.has(i.path) && (!only || i.path.includes(only)));
   for (const item of queue) seenThisRun.add(item.path);
   // The stored record's kind is authoritative; the listing path is only a hint.
   const kindOf = (item) => ((byPath.get(item.path)?.kind || item.kind) === 'series' ? 'series' : 'movie');
@@ -390,7 +391,7 @@ async function processItems(items, label) {
       if (!n) {
         const previous = state.done[item.url] || {};
         const retries = Number(previous.retries || 0) + 1;
-        state.done[item.url] = { at: new Date().toISOString(), empty: true, retries, v: WALK_VERSION };
+        state.done[item.url] = { at: new Date().toISOString(), empty: true, retries, v: WALK_VERSION, ...(walked.incomplete ? { incomplete: true } : {}) };
         counts.empty += 1;
         log(`  ~ ${pad(displayName(item), 40)} no embeds yet (empty #${retries}) · ${reqs} req · ${clock(elapsed)}`);
       } else {
@@ -402,7 +403,8 @@ async function processItems(items, label) {
         // site evidence, so TMDB can still replace it later.
         if (mode === 'dubbed') V.applySiteCategory(record, true);
         const gained = countEpisodes(record) - previousEpisodes;
-        state.done[item.url] = { at: new Date().toISOString(), embeds: n, kind: walked.kind, v: WALK_VERSION };
+        state.done[item.url] = { at: new Date().toISOString(), embeds: n, kind: walked.kind, v: WALK_VERSION, ...(walked.incomplete ? { incomplete: true } : {}) };
+        if (record.pageUrl !== item.url) state.done[record.pageUrl] = { ...state.done[item.url] };
         byPath.set(item.path, record);
         counts[action] += 1;
         touched.set(record.id, { record, isNew: action === 'added' });
@@ -450,7 +452,7 @@ async function enrichTouched() {
   let categories = 0;
   for (const { record, isNew } of rows) {
     if (deadline && Date.now() > deadline) break;
-    const meta = await tmdb.enrich({ title: record.title, year: record.year, kind: record.kind === 'series' ? 'series' : 'movie' });
+    const meta = await enrichRecord({ ...record, kind: record.kind === 'series' ? 'series' : 'movie' });
     // undefined = could not ask (no key / rate limit / auth) → stop, never a miss
     if (meta === undefined && !tmdb.hasKey()) break;
     if (meta === undefined) { log('  ! TMDB unavailable (rate limit or auth) — enrichment stopped for this run'); break; }
@@ -668,18 +670,20 @@ async function runDubbed() {
 
 async function runReleases() {
   const items = [];
+  if (withSeries) {
+    log(`series folder /tamil-web-series-download/ (latest ${CFG.seriesPages} pages)`);
+    const seriesItems = await discover('/tamil-web-series-download/', { param: 'get-page', maxPages: CFG.seriesPages, deadline, log });
+    items.push(...seriesItems);
+    // Canonical current-year safety net: aliases can disappear from listings.
+    for (const record of vaultData.filter((m) => m.kind === 'series' && Number(m.year) === currentYear && !V.pathOf(m.pageUrl).startsWith('/movie/')).sort((a, b) => (Date.parse(state.done[a.pageUrl]?.at || '') || 0) - (Date.parse(state.done[b.pageUrl]?.at || '') || 0))) {
+      items.push({ url: record.pageUrl, path: V.pathOf(record.pageUrl), label: `${record.title} (${record.year})`, kind: 'series' });
+    }
+  }
   for (const y of years) {
     if (deadline && Date.now() > deadline) break;
     const found = await discover(`/tamil-${y}-movies/`, { param: 'page', maxPages: CFG.listingPages, deadline, log });
     log(`year folder   /tamil-${y}-movies/ → ${found.length} items`);
     items.push(...found);
-  }
-  // The year folder already contains series, so the series folder is optional
-  // (--with-series). Without it the run reads strictly one folder per year.
-  if (withSeries) {
-    log(`series folder /tamil-web-series-download/ (--with-series, latest ${CFG.seriesPages} pages)`);
-    const seriesItems = await discover('/tamil-web-series-download/', { param: 'get-page', maxPages: CFG.seriesPages, deadline, log });
-    items.push(...seriesItems);
   }
   if (!items.length) { listingErrors += 1; log('! no items discovered — the year folder(s) failed or returned nothing'); return; }
   const { walked } = await processItems(items, 'releases');
@@ -793,7 +797,7 @@ async function runAz() {
  * --mode=enrich — fill what the scrape alone cannot: poster, rating, tmdbId,
  * imdbId and the CATEGORY for records that are missing them.
  *
- * No site scraping (apart from reading the dubbed section once as evidence).
+ * Reads source metadata pages for cast/director corroboration; never opens players.
  *
  * Category rules:
  *   · TMDB original_language decides: 'ta' → tamil-*, anything else → tamil-dubbed-*.
@@ -813,7 +817,7 @@ async function runEnrich() {
   const staleDays = Number(arg('stale-days', 0)) || 0;
   const staleMs = staleDays * 86_400_000;
 
-  const needsWork = (m) => (m.embeds || []).length && (V.needsMetadata(m) || V.needsCategory(m) || m.categorySource === 'site');
+  const needsWork = (m) => (m.embeds || []).length && (verifyIds || V.needsMetadata(m) || V.needsCategory(m) || m.categorySource === 'site');
   const inOnly = (m) => !only || `${m.id} ${m.title} ${m.pageUrl}`.toLowerCase().includes(only.toLowerCase());
   const eligible = vaultData.filter((m) => {
     if (!inOnly(m)) return false;   // `--only=` also works here, to fix one title by hand
@@ -822,7 +826,7 @@ async function runEnrich() {
     // No category at all → always eligible. A "no match" marker only says TMDB
     // has no entry; it must never stop the site-fallback category from being set
     // (that mismatch is how records end up marked but uncategorised).
-    if (V.needsCategory(m)) return true;
+    if (verifyIds || args.includes('--retry-misses') || V.needsCategory(m)) return true;
     if (!missed) return true;                          // never tried
     return staleMs > 0 && Date.now() - missed > staleMs; // tried before, retry if asked
   });
@@ -837,7 +841,9 @@ async function runEnrich() {
     log(`dubbed section: ${dubbed.size} paths kept as evidence`);
   }
 
-  let filled = 0; let posters = 0; let categories = 0; let siteCategories = 0; let misses = 0; let blips = 0;
+  const audit = [];
+  const reportPath = arg('report', '');
+  let checked = 0; let filled = 0; let posters = 0; let categories = 0; let siteCategories = 0; let misses = 0; let blips = 0;
   const parallel = Math.max(1, Math.min(Number(arg('concurrency', 4)) || 4, 8));
   log(`tmdb ${tmdb.keyStatus()} · ${parallel} parallel lookups`);
 
@@ -846,19 +852,21 @@ async function runEnrich() {
     const batch = queue.slice(i, i + parallel);
     const results = await Promise.all(batch.map(async (record) => ({
       record,
-      meta: await tmdb.enrich({ title: record.title, year: record.year, kind: record.kind === 'series' ? 'series' : 'movie', tmdbId: record.tmdbId, verifyIds }),
+      meta: await enrichRecord({ ...record, kind: record.kind === 'series' ? 'series' : 'movie', verifyIds }),
     })));
 
     let stop = false;
     for (const { record, meta } of results) {
+      checked += 1;
+      audit.push({ id: record.id, title: record.title, year: record.year, status: meta === undefined ? 'unavailable' : meta ? 'matched' : 'unresolved', ...(meta ? { tmdbId: meta.tmdbId, tmdbType: meta.tmdbType, tmdbTitle: meta.tmdbTitle, match: meta.match, originalYear: meta.originalYear, ...(meta.evidence ? { evidence: meta.evidence } : {}) } : {}) });
       const wasPoster = Boolean(record.poster);
       const wasCategory = record.category || '';
       if (meta === undefined) {
         if (tmdb.isAuthFailed()) { log(`! every TMDB key was rejected — stopping; nothing was marked. Keys: ${tmdb.keyStatus()}`); stop = true; break; }
         if (tmdb.cooldownActive()) { log(`! all TMDB keys are rate-limited — stopping; nothing was marked, rerun in a few minutes (${tmdb.keyStatus()})`); stop = true; break; }
         blips += 1;
-        if (blips >= 5) { log('! 5 TMDB network errors in a row — stopping; nothing was marked, rerun to continue'); stop = true; break; }
-        log(`  · TMDB network error (${blips}/5) — skipping this one, continuing`);
+        if (blips >= 5) { log('! 5 incomplete/unavailable TMDB lookups in a row — stopping; nothing was marked, rerun to continue'); stop = true; break; }
+        log(`  · TMDB lookup incomplete/unavailable (${blips}/5) — skipping this one, continuing`);
         continue;
       }
       blips = 0;
@@ -866,7 +874,7 @@ async function runEnrich() {
         if (meta.crossType) {
           log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}", a ${meta.tmdbType === 'tv' ? 'series' : 'film'} — categorised as one`);
         } else if (meta.tmdbTitle && !sameish(meta.tmdbTitle, record.title)) {
-          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}" — ${meta.keptId ? 'no better exact match found, kept' : 'title differs, kept as it was (use --verify-ids to re-match)'}`);
+          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}" — ${meta.match === 'stored-id' ? 'stored ID retained (use --verify-ids to re-match)' : 'matched through verified title/season evidence'}`);
         }
         if (V.applyMetadata(record, meta, { preferPoster: true, replaceId: verifyIds })) {
           filled += 1;
@@ -881,21 +889,22 @@ async function runEnrich() {
         state.tmdbMiss = state.tmdbMiss || {};
         state.tmdbMiss[record.id] = new Date().toISOString();
         const path = V.pathOf(record.pageUrl);
-        if (V.applySiteCategory(record, dubbed.has(path))) {
+        if (dubbed.has(path) && V.applySiteCategory(record, true)) {
           siteCategories += 1;
           if (record.category !== wasCategory) categories += 1;
           log(`  · ${pad(label(record), 40)} no TMDB match → site says ${record.category}`);
         } else {
-          log(`  · ${pad(label(record), 40)} no TMDB match — left uncategorised`);
+          log(`  · ${pad(label(record), 40)} no safe TMDB match — existing metadata preserved`);
         }
       }
     }
+    if (reportPath && !dry) V.writeJson(reportPath, audit);
     if (stop) break;
     if ((filled + misses) % 100 < parallel) save(true);
     await sleep(80);
   }
-  log(`enrich         ${filled} filled (${posters} posters) · ${categories} categories (${siteCategories} from the site) · ${misses} no TMDB match · ${queue.length - filled - misses} not reached`);
-  return { filled, posters, categories, siteCategories, misses, checked: queue.length, needsKey: false };
+  log(`enrich         ${filled} filled (${posters} posters) · ${categories} categories (${siteCategories} from the site) · ${misses} no TMDB match · ${queue.length - checked} not reached`);
+  return { filled, posters, categories, siteCategories, misses, checked, needsKey: false };
 }
 
 /* -------------------------------------------------------------------- main */

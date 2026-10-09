@@ -335,6 +335,7 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
 export function applyMetadata(record, meta, { preferPoster = false, replaceId = false } = {}) {
   if (!meta) return false;
   let changed = false;
+  if (meta.tmdbType && record.tmdbType !== meta.tmdbType) { record.tmdbType = meta.tmdbType; changed = true; }
   // A cross-type match (the stored id resolved as the OTHER media type) already
   // proved the id in the record was wrong, so it may be corrected.
   const idIsWrong = Boolean(meta.crossType) || (replaceId && meta.tmdbId && record.tmdbId && Number(record.tmdbId) !== Number(meta.tmdbId));
@@ -347,7 +348,7 @@ export function applyMetadata(record, meta, { preferPoster = false, replaceId = 
   // previous site guess. The MEDIA TYPE comes from TMDB's own answer — a series
   // stored under a movie-shaped path is still a series.
   if (meta.originalLanguage) {
-    if (!record.originalLanguage || (idIsWrong && record.originalLanguage !== meta.originalLanguage)) { record.originalLanguage = meta.originalLanguage; changed = true; }
+    if (record.originalLanguage !== meta.originalLanguage) { record.originalLanguage = meta.originalLanguage; changed = true; }
     const kind = meta.tmdbType === 'tv' ? 'series' : meta.tmdbType === 'movie' ? 'movie' : record.kind;
     const wanted = categoryFor(kind, meta.originalLanguage);
     if (wanted && (record.category !== wanted || record.categorySource !== 'tmdb')) {
@@ -398,7 +399,7 @@ export function removeEmbeds(record, deadUrls) {
   return before - (record.embeds || []).length;
 }
 
-export const needsMetadata = (record) => !record.tmdbId || !record.poster;
+export const needsMetadata = (record) => !record.tmdbId || !record.poster || !record.imdbId || !record.rating;
 export const needsCategory = (record) => !record.category;
 
 /* ------------------------------------------------- two writers, one branch */
@@ -433,7 +434,7 @@ export function mergeVaults(ours = [], theirs = []) {
       merged.seasons = mergeSeasons(other.seasons || [], mine.seasons || []);
       merged.embeds = flatten(merged.seasons);
     }
-    for (const key of ['poster', 'rating', 'tmdbId', 'imdbId', 'category', 'originalLanguage', 'categorySource']) {
+    for (const key of ['poster', 'rating', 'tmdbId', 'tmdbType', 'imdbId', 'category', 'originalLanguage', 'categorySource']) {
       const a = other[key]; const b = mine[key];
       if (!a && b) merged[key] = b;
       else if (a && b && a !== b && newer) merged[key] = b;

@@ -2,8 +2,8 @@ name: Enrich (posters, ratings, categories)
 
 # Fills what the scrape alone cannot: poster, rating, tmdbId, imdbId and the
 # CATEGORY (tamil-movie / tamil-dubbed-movie / tamil-series / tamil-dubbed-series).
-# No scraping — one TMDB call per record, plus one read of the site's dubbed
-# section as fallback evidence.
+# Bounded TMDB searches plus source-page cast/director corroboration.
+# Episode/player data is not read or changed by enrichment.
 #
 # verify_ids = true also re-checks records whose STORED tmdbId resolves to a
 # different title (a wrong match from the old pipeline) and replaces it — and its
@@ -26,6 +26,10 @@ on:
       limit:
         description: 'Max records this run (0 = all eligible records, bounded by the budget)'
         default: '0'
+      retry_misses:
+        description: 'Retry all previous misses using improved title/season matching'
+        type: boolean
+        default: false
       stale_days:
         description: 'Also re-try records last looked at N+ days ago (0 = only never-tried)'
         default: '0'
@@ -72,6 +76,7 @@ jobs:
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
           LIMIT: ${{ inputs.limit }}
+          RETRY_MISSES: ${{ inputs.retry_misses }}
           STALE: ${{ inputs.stale_days }}
           CONCURRENCY: ${{ inputs.concurrency }}
           VERIFY_IDS: ${{ inputs.verify_ids }}
@@ -81,6 +86,7 @@ jobs:
         run: |
           ARGS="--mode=enrich"
           [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ] && ARGS="$ARGS --limit=$LIMIT"
+          [ "$RETRY_MISSES" = "true" ] && ARGS="$ARGS --retry-misses"
           [ -n "$STALE" ] && [ "$STALE" != "0" ] && ARGS="$ARGS --stale-days=$STALE"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$CONCURRENCY" ] && ARGS="$ARGS --concurrency=$CONCURRENCY"
