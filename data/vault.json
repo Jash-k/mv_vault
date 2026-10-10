@@ -294019,6 +294019,9 @@
   "title": "Nagendrans Honeymoons",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/nagendrans-honeymoons-2024-tamil-movie/",
   "embeds": [
    {
@@ -294124,17 +294127,17 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:39.659Z"
+  "updatedAt": "2026-10-09T06:40:39.659Z",
+  "tmdbType": "tv"
  },
  {
   "id": "om-kaali-jai-kaali-2025",
   "title": "Om Kaali Jai Kaali",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/om-kaali-jai-kaali-2025-movie/",
   "embeds": [
    {
@@ -294225,19 +294228,475 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T06:40:39.659Z"
+  "updatedAt": "2026-10-09T06:40:39.659Z",
+  "tmdbType": "tv"
  },
  {
   "id": "office-2025",
   "title": "Office",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/office-2025-movie/",
   "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89130",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89131",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89132",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89133",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89088",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89089",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89090",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89091",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89279",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89280",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89281",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89282",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89407",
+    "season": 1,
+    "episode": 13
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89408",
+    "season": 1,
+    "episode": 14
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89409",
+    "season": 1,
+    "episode": 15
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89410",
+    "season": 1,
+    "episode": 16
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89574",
+    "season": 1,
+    "episode": 17
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89575",
+    "season": 1,
+    "episode": 18
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89576",
+    "season": 1,
+    "episode": 19
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89577",
+    "season": 1,
+    "episode": 20
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89796",
+    "season": 1,
+    "episode": 25
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89797",
+    "season": 1,
+    "episode": 26
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89798",
+    "season": 1,
+    "episode": 27
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/89799",
+    "season": 1,
+    "episode": 28
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90006",
+    "season": 1,
+    "episode": 29
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90007",
+    "season": 1,
+    "episode": 30
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90008",
+    "season": 1,
+    "episode": 31
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90009",
+    "season": 1,
+    "episode": 32
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90074",
+    "season": 1,
+    "episode": 33
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90075",
+    "season": 1,
+    "episode": 34
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90076",
+    "season": 1,
+    "episode": 35
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90077",
+    "season": 1,
+    "episode": 36
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90167",
+    "season": 1,
+    "episode": 37
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90168",
+    "season": 1,
+    "episode": 38
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90169",
+    "season": 1,
+    "episode": 39
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90170",
+    "season": 1,
+    "episode": 40
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90296",
+    "season": 1,
+    "episode": 41
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90297",
+    "season": 1,
+    "episode": 42
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90298",
+    "season": 1,
+    "episode": 43
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90299",
+    "season": 1,
+    "episode": 44
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90416",
+    "season": 1,
+    "episode": 45
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90417",
+    "season": 1,
+    "episode": 46
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90418",
+    "season": 1,
+    "episode": 47
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90419",
+    "season": 1,
+    "episode": 48
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90587",
+    "season": 1,
+    "episode": 49
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90588",
+    "season": 1,
+    "episode": 50
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90589",
+    "season": 1,
+    "episode": 51
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90590",
+    "season": 1,
+    "episode": 52
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90712",
+    "season": 1,
+    "episode": 53
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90713",
+    "season": 1,
+    "episode": 54
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90714",
+    "season": 1,
+    "episode": 55
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90715",
+    "season": 1,
+    "episode": 56
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90845",
+    "season": 1,
+    "episode": 57
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90846",
+    "season": 1,
+    "episode": 58
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90847",
+    "season": 1,
+    "episode": 59
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90848",
+    "season": 1,
+    "episode": 60
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90934",
+    "season": 1,
+    "episode": 61
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90935",
+    "season": 1,
+    "episode": 62
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90936",
+    "season": 1,
+    "episode": 63
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90937",
+    "season": 1,
+    "episode": 64
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91096",
+    "season": 1,
+    "episode": 65
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91097",
+    "season": 1,
+    "episode": 66
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91098",
+    "season": 1,
+    "episode": 67
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91099",
+    "season": 1,
+    "episode": 68
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91218",
+    "season": 1,
+    "episode": 69
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91219",
+    "season": 1,
+    "episode": 70
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91220",
+    "season": 1,
+    "episode": 71
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91221",
+    "season": 1,
+    "episode": 72
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91340",
+    "season": 1,
+    "episode": 73
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91341",
+    "season": 1,
+    "episode": 74
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91342",
+    "season": 1,
+    "episode": 75
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91343",
+    "season": 1,
+    "episode": 76
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91441",
+    "season": 1,
+    "episode": 77
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91442",
+    "season": 1,
+    "episode": 78
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91443",
+    "season": 1,
+    "episode": 79
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/91444",
+    "season": 1,
+    "episode": 80
+   },
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/91606",
@@ -294368,6 +294827,690 @@
    {
     "season": 1,
     "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89130"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89131"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89132"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89133"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89088"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89089"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89090"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89091"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89279"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89280"
+       }
+      ]
+     },
+     {
+      "episode": 11,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89281"
+       }
+      ]
+     },
+     {
+      "episode": 12,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89282"
+       }
+      ]
+     },
+     {
+      "episode": 13,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89407"
+       }
+      ]
+     },
+     {
+      "episode": 14,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89408"
+       }
+      ]
+     },
+     {
+      "episode": 15,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89409"
+       }
+      ]
+     },
+     {
+      "episode": 16,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89410"
+       }
+      ]
+     },
+     {
+      "episode": 17,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89574"
+       }
+      ]
+     },
+     {
+      "episode": 18,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89575"
+       }
+      ]
+     },
+     {
+      "episode": 19,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89576"
+       }
+      ]
+     },
+     {
+      "episode": 20,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89577"
+       }
+      ]
+     },
+     {
+      "episode": 25,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89796"
+       }
+      ]
+     },
+     {
+      "episode": 26,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89797"
+       }
+      ]
+     },
+     {
+      "episode": 27,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89798"
+       }
+      ]
+     },
+     {
+      "episode": 28,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/89799"
+       }
+      ]
+     },
+     {
+      "episode": 29,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90006"
+       }
+      ]
+     },
+     {
+      "episode": 30,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90007"
+       }
+      ]
+     },
+     {
+      "episode": 31,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90008"
+       }
+      ]
+     },
+     {
+      "episode": 32,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90009"
+       }
+      ]
+     },
+     {
+      "episode": 33,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90074"
+       }
+      ]
+     },
+     {
+      "episode": 34,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90075"
+       }
+      ]
+     },
+     {
+      "episode": 35,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90076"
+       }
+      ]
+     },
+     {
+      "episode": 36,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90077"
+       }
+      ]
+     },
+     {
+      "episode": 37,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90167"
+       }
+      ]
+     },
+     {
+      "episode": 38,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90168"
+       }
+      ]
+     },
+     {
+      "episode": 39,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90169"
+       }
+      ]
+     },
+     {
+      "episode": 40,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90170"
+       }
+      ]
+     },
+     {
+      "episode": 41,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90296"
+       }
+      ]
+     },
+     {
+      "episode": 42,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90297"
+       }
+      ]
+     },
+     {
+      "episode": 43,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90298"
+       }
+      ]
+     },
+     {
+      "episode": 44,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90299"
+       }
+      ]
+     },
+     {
+      "episode": 45,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90416"
+       }
+      ]
+     },
+     {
+      "episode": 46,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90417"
+       }
+      ]
+     },
+     {
+      "episode": 47,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90418"
+       }
+      ]
+     },
+     {
+      "episode": 48,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90419"
+       }
+      ]
+     },
+     {
+      "episode": 49,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90587"
+       }
+      ]
+     },
+     {
+      "episode": 50,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90588"
+       }
+      ]
+     },
+     {
+      "episode": 51,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90589"
+       }
+      ]
+     },
+     {
+      "episode": 52,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90590"
+       }
+      ]
+     },
+     {
+      "episode": 53,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90712"
+       }
+      ]
+     },
+     {
+      "episode": 54,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90713"
+       }
+      ]
+     },
+     {
+      "episode": 55,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90714"
+       }
+      ]
+     },
+     {
+      "episode": 56,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90715"
+       }
+      ]
+     },
+     {
+      "episode": 57,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90845"
+       }
+      ]
+     },
+     {
+      "episode": 58,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90846"
+       }
+      ]
+     },
+     {
+      "episode": 59,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90847"
+       }
+      ]
+     },
+     {
+      "episode": 60,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90848"
+       }
+      ]
+     },
+     {
+      "episode": 61,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90934"
+       }
+      ]
+     },
+     {
+      "episode": 62,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90935"
+       }
+      ]
+     },
+     {
+      "episode": 63,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90936"
+       }
+      ]
+     },
+     {
+      "episode": 64,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90937"
+       }
+      ]
+     },
+     {
+      "episode": 65,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91096"
+       }
+      ]
+     },
+     {
+      "episode": 66,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91097"
+       }
+      ]
+     },
+     {
+      "episode": 67,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91098"
+       }
+      ]
+     },
+     {
+      "episode": 68,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91099"
+       }
+      ]
+     },
+     {
+      "episode": 69,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91218"
+       }
+      ]
+     },
+     {
+      "episode": 70,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91219"
+       }
+      ]
+     },
+     {
+      "episode": 71,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91220"
+       }
+      ]
+     },
+     {
+      "episode": 72,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91221"
+       }
+      ]
+     },
+     {
+      "episode": 73,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91340"
+       }
+      ]
+     },
+     {
+      "episode": 74,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91341"
+       }
+      ]
+     },
+     {
+      "episode": 75,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91342"
+       }
+      ]
+     },
+     {
+      "episode": 76,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91343"
+       }
+      ]
+     },
+     {
+      "episode": 77,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91441"
+       }
+      ]
+     },
+     {
+      "episode": 78,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91442"
+       }
+      ]
+     },
+     {
+      "episode": 79,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91443"
+       }
+      ]
+     },
+     {
+      "episode": 80,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/91444"
+       }
+      ]
+     },
      {
       "episode": 81,
       "embeds": [
@@ -294551,16 +295694,16 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T01:57:52.873Z"
+  "updatedAt": "2026-10-10T00:47:43.268Z"
  },
  {
   "id": "oru-kodai-murder-mystery-2023",
   "title": "Oru Kodai Murder Mystery",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/oru-kodai-murder-mystery-2023-tamil-movie/",
   "embeds": [
    {
@@ -294696,9 +295839,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-10-09T01:57:53.188Z"
  },
  {
@@ -294706,6 +295846,9 @@
   "title": "Pill",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/pill-2024-tamil-movie/",
   "embeds": [
    {
@@ -294841,9 +295984,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-10-09T01:57:53.494Z"
  },
  {
@@ -294851,6 +295991,9 @@
   "title": "Paruvu",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/paruvu-2024-tamil-movie/",
   "embeds": [
    {
@@ -294986,9 +296129,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-10-09T01:57:53.796Z"
  },
  {
@@ -294996,6 +296136,9 @@
   "title": "Physics Wallah",
   "year": 2022,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/physics-wallah-2022-tamil-movie/",
   "embeds": [
    {
@@ -295026,9 +296169,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-10-09T01:57:54.121Z"
  },
  {
@@ -295036,13 +296176,28 @@
   "title": "Perilloor Premier League",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/perilloor-premier-league-2024-tamil-movie/",
   "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82613",
+    "season": 1,
+    "episode": 1
+   },
    {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/82605",
     "season": 1,
     "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82614",
+    "season": 1,
+    "episode": 2
    },
    {
     "quality": "HD",
@@ -295051,10 +296206,22 @@
     "episode": 2
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82615",
+    "season": 1,
+    "episode": 3
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/82607",
     "season": 1,
     "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82616",
+    "season": 1,
+    "episode": 4
    },
    {
     "quality": "HD",
@@ -295063,16 +296230,34 @@
     "episode": 4
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82617",
+    "season": 1,
+    "episode": 5
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/82609",
     "season": 1,
     "episode": 5
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82618",
+    "season": 1,
+    "episode": 6
+   },
+   {
     "quality": "HD",
     "url": "https://play.onestream.today/stream/page/82610",
     "season": 1,
     "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/82619",
+    "season": 1,
+    "episode": 7
    },
    {
     "quality": "HD",
@@ -295094,6 +296279,10 @@
       "episode": 1,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82613"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82605"
        }
@@ -295102,6 +296291,10 @@
      {
       "episode": 2,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82614"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82606"
@@ -295112,6 +296305,10 @@
       "episode": 3,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82615"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82607"
        }
@@ -295120,6 +296317,10 @@
      {
       "episode": 4,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82616"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82608"
@@ -295130,6 +296331,10 @@
       "episode": 5,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82617"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82609"
        }
@@ -295138,6 +296343,10 @@
      {
       "episode": 6,
       "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82618"
+       },
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82610"
@@ -295148,6 +296357,10 @@
       "episode": 7,
       "embeds": [
        {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/82619"
+       },
+       {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/82611"
        }
@@ -295156,16 +296369,16 @@
     ]
    }
   ],
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-09T01:57:54.420Z"
+  "updatedAt": "2026-10-10T00:51:31.108Z"
  },
  {
   "id": "puli-meka-2023",
   "title": "Puli Meka",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/puli-meka-2023-tamil-movie/",
   "embeds": [
    {
@@ -295301,9 +296514,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-10-09T01:57:54.736Z"
  },
  {
