@@ -302539,6 +302539,9 @@
   "title": "Least Eligible Bachelor",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/",
   "embeds": [
    {
@@ -302704,11 +302707,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-10T06:15:15.797Z"
+  "updatedAt": "2026-10-10T06:15:15.797Z",
+  "tmdbType": "tv"
  },
  {
   "id": "life-today-2026",
