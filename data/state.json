@@ -18949,13 +18949,10 @@
    "v": 3
   },
   "https://moviesda34.com/jolly-o-gymkhana-2026-tamil-web-series/": {
-   "at": "2026-10-10T12:55:47.550Z",
-   "empty": true,
-   "v": 3,
-   "retries": 0,
-   "failures": 1,
-   "retryAfter": "2026-10-10T14:25:47.550Z",
-   "lastError": "series walk paused by budget; retry required"
+   "at": "2026-10-10T22:02:09.313Z",
+   "embeds": 16,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/maamla-legal-hai-2026-tamil-web-series/": {
    "at": "2026-10-10T21:59:10.036Z",
@@ -19042,7 +19039,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-10-10T06:15:02.662Z",
+   "at": "2026-10-10T22:02:21.452Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -47920,6 +47917,18 @@
   },
   "https://moviesda34.com/epic-2026-tamil-movie/": {
    "at": "2026-10-10T06:14:57.782Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/dorothy-2026-tamil-movie/": {
+   "at": "2026-10-10T22:02:13.243Z",
+   "embeds": 3,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/maremma-2026-tamil-movie/": {
+   "at": "2026-10-10T22:02:17.749Z",
    "embeds": 4,
    "kind": "movie",
    "v": 3

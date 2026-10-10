@@ -302618,7 +302618,7 @@
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/1a0CVxPv03x1D0XyVwtYFsemxPM.jpg",
-  "rating": 0,
+  "rating": 8,
   "tmdbId": 337806,
   "imdbId": "tt48242205",
   "addedAt": "2026-10-10T05:52:09.894Z",
@@ -302707,7 +302707,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T06:15:15.797Z",
+  "updatedAt": "2026-10-10T22:02:31.271Z",
   "tmdbType": "tv"
  },
  {
@@ -302759,5 +302759,59 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-10-10T06:14:57.778Z"
+ },
+ {
+  "id": "dorothy-2026",
+  "title": "Dorothy",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/dorothy-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102421"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102422"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102419"
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/dorothy-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-10T22:02:13.234Z"
+ },
+ {
+  "id": "maremma-2026",
+  "title": "Maremma",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/maremma-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102407"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102411"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102412"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102413"
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/maremma-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-10T22:02:17.741Z"
  }
 ]
