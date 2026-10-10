@@ -104043,6 +104043,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/maamla-legal-hai-2026-tamil-web-series/",
   "embeds": [
@@ -104179,9 +104180,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "updatedAt": "2026-10-09T06:25:44.689Z"
+  "updatedAt": "2026-10-09T06:25:44.689Z",
+  "tmdbType": "tv"
  },
  {
   "id": "ma-ka-sum-2026",
@@ -106004,6 +106004,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kohrra-2026-tamil-web-series/",
   "embeds": [
@@ -106110,9 +106111,8 @@
     ]
    }
   ],
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "updatedAt": "2026-10-09T06:25:51.864Z"
+  "updatedAt": "2026-10-09T06:25:51.864Z",
+  "tmdbType": "tv"
  },
  {
   "id": "kohrra-2023",
@@ -293228,6 +293228,12 @@
   "embeds": [
    {
     "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/88887",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
     "url": "https://play.onestream.today/stream/page/88888",
     "season": 1,
     "episode": 2
@@ -293356,6 +293362,15 @@
    {
     "season": 1,
     "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/88887"
+       }
+      ]
+     },
      {
       "episode": 2,
       "embeds": [
@@ -293539,7 +293554,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:40:38.664Z",
+  "updatedAt": "2026-10-10T00:30:52.533Z",
   "tmdbType": "tv"
  },
  {
@@ -300197,6 +300212,42 @@
        {
         "quality": "720p",
         "url": "https://play.onestream.today/stream/page/77403"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "meet-cute-2022",
+  "title": "Meet Cute",
+  "year": 2022,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/meet-cute-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/76980",
+    "season": 1,
+    "episode": 1
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/meet-cute-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-10T00:31:36.757Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/76980"
        }
       ]
      }
