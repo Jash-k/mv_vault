@@ -33441,11 +33441,11 @@
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/eaKyHHfEPTY5uCstK7eIUHkhJVS.jpg",
-  "rating": 0,
+  "rating": 5,
   "tmdbId": 1005678,
   "imdbId": "tt10337582",
   "addedAt": "2026-09-27T22:32:10.866Z",
-  "updatedAt": "2026-10-09T06:24:03.086Z",
+  "updatedAt": "2026-10-11T08:05:36.510Z",
   "tmdbType": "movie"
  },
  {
@@ -60084,7 +60084,7 @@
   "title": "Sabash Babu",
   "year": 1993,
   "category": "tamil-movie",
-  "originalLanguage": "en",
+  "originalLanguage": "ta",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sabash-babu-1993-movie/",
   "embeds": [
@@ -60102,7 +60102,7 @@
   "tmdbId": 263894,
   "imdbId": "tt10229828",
   "addedAt": "2026-09-28T08:00:55.587Z",
-  "updatedAt": "2026-10-09T06:25:03.832Z",
+  "updatedAt": "2026-10-11T08:05:55.675Z",
   "tmdbType": "movie"
  },
  {
@@ -60368,8 +60368,8 @@
   "id": "singakottai-2011",
   "title": "Singakottai",
   "year": 2001,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/singakottai-2011-movie/",
   "embeds": [
    {
@@ -60381,12 +60381,14 @@
     "url": "https://play.onestream.today/stream/page/60900"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/aZsNA9mXiyM0vTw26gVxP1KSdtU.jpg",
+  "rating": 6.8,
+  "tmdbId": 66520,
+  "imdbId": "tt0287469",
   "addedAt": "2026-09-28T08:18:42.323Z",
-  "updatedAt": "2026-10-09T06:25:04.884Z"
+  "updatedAt": "2026-10-11T08:05:56.810Z",
+  "tmdbType": "movie",
+  "originalLanguage": "te"
  },
  {
   "id": "sindhu-nathi-poo-1994",
@@ -75605,7 +75607,7 @@
     "episode": 20
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/cYjdacskAhvWdjhxsSdhop1SxON.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/etMJhqIkvtAdVqlGpHYHdhvOiSb.jpg",
   "rating": 0,
   "tmdbId": 331932,
   "imdbId": "tt44101690",
@@ -75877,7 +75879,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T13:21:47.768Z",
+  "updatedAt": "2026-10-11T08:06:06.188Z",
   "tmdbType": "tv"
  },
  {
@@ -76122,7 +76124,7 @@
     "episode": 7
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/fQuKcQdlDEZNltcHCN83pYEnh6D.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/gWczyVQw9X0ijfxfJVXWF6xCBjM.jpg",
   "rating": 0,
   "tmdbId": 327594,
   "imdbId": "tt43632572",
@@ -76225,7 +76227,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:32.208Z",
+  "updatedAt": "2026-10-11T08:06:06.329Z",
   "tmdbType": "tv"
  },
  {
@@ -82197,7 +82199,7 @@
     "episode": 7
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/cs42BHvNNWw74fct04gAzijTtBQ.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/sB1OQ1ick7pSYYb1o8PdmYRVs4n.jpg",
   "rating": 0,
   "tmdbId": 316968,
   "imdbId": "tt40857820",
@@ -82300,7 +82302,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:32.658Z",
+  "updatedAt": "2026-10-11T08:06:06.329Z",
   "tmdbType": "tv"
  },
  {
@@ -83040,7 +83042,7 @@
     "episode": 7
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/8WOTcd5qCrJoQEp874D9pKu7akP.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/nMyf823lprtVxRh3njqTNcoIY17.jpg",
   "rating": 0,
   "tmdbId": 317896,
   "imdbId": "tt41100531",
@@ -83143,7 +83145,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:32.828Z",
+  "updatedAt": "2026-10-11T08:06:06.488Z",
   "tmdbType": "tv"
  },
  {
@@ -83429,7 +83431,7 @@
     "episode": 8
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/l5utMuTzwMUpypOTOSLQLg5WY57.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/tqO8IY6V9T8HNG4mefxPfyLzRpW.jpg",
   "rating": 0,
   "tmdbId": 307949,
   "imdbId": "tt31924038",
@@ -83545,7 +83547,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:33.266Z",
+  "updatedAt": "2026-10-11T08:06:06.488Z",
   "tmdbType": "tv"
  },
  {
@@ -89146,11 +89148,11 @@
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/iJA4z6CAZJbCMLtlk0vetRWaYHx.jpg",
-  "rating": 0,
+  "rating": 5,
   "tmdbId": 539811,
   "imdbId": "tt8963248",
   "addedAt": "2026-09-29T08:31:09.513Z",
-  "updatedAt": "2026-10-09T06:25:35.813Z",
+  "updatedAt": "2026-10-11T08:06:07.316Z",
   "tmdbType": "movie"
  },
  {
@@ -105447,7 +105449,7 @@
     "episode": 10
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/q5PSHCQqKI74dGITTKm13eLBy18.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/tLKH5BCTEtgyrz2eTxritxwwMf0.jpg",
   "rating": 0,
   "tmdbId": 316893,
   "imdbId": "tt39205437",
@@ -105549,7 +105551,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:45.094Z",
+  "updatedAt": "2026-10-11T08:06:08.599Z",
   "tmdbType": "tv"
  },
  {
@@ -105967,7 +105969,7 @@
     "episode": 6
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/Qw6NDY418wB7jpHSLGEhrqxLM1.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/2mIvsx4caXQ8NzoCQLhd3LkDHCW.jpg",
   "rating": 0,
   "tmdbId": 315194,
   "imdbId": "tt39989131",
@@ -106057,7 +106059,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:45.094Z",
+  "updatedAt": "2026-10-11T08:06:08.599Z",
   "tmdbType": "tv"
  },
  {
@@ -107364,7 +107366,7 @@
     "episode": 6
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/c7qJEHPMhc2rrx5k7HRJs6jIGjE.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/cSELdD9FhnKSmF31q39i7zIFZtK.jpg",
   "rating": 0,
   "tmdbId": 306825,
   "imdbId": "tt38984146",
@@ -107430,7 +107432,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:52.368Z",
+  "updatedAt": "2026-10-11T08:06:08.742Z",
   "tmdbType": "tv"
  },
  {
@@ -109903,7 +109905,7 @@
     "episode": 9
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/85aCpKgIR63OCEAgU2GWqCJNo1g.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/9pzO7VUm4Ac7rP0cNKJAJMvWSqX.jpg",
   "rating": 0,
   "tmdbId": 249761,
   "imdbId": "tt31924841",
@@ -109996,7 +109998,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:25:52.537Z",
+  "updatedAt": "2026-10-11T08:06:08.742Z",
   "tmdbType": "tv"
  },
  {
@@ -110494,7 +110496,7 @@
     "episode": 64
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/g0e1SX80ipedeIutTysR6KVsJUz.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/mPAU1PY5vthuD7uxqdacPwEQoFl.jpg",
   "rating": 0,
   "tmdbId": 300515,
   "imdbId": "tt39163330",
@@ -111082,7 +111084,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T13:32:28.667Z",
+  "updatedAt": "2026-10-11T08:06:08.742Z",
   "tmdbType": "tv"
  },
  {
@@ -122962,7 +122964,7 @@
     "episode": 9
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/f2PVrphK0u81ES256lw3oAZuF3x.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/60TRnlbWOSpVnMaQCZWLIQOHwgX.jpg",
   "rating": 7.957,
   "tmdbId": 113988,
   "imdbId": "",
@@ -123055,7 +123057,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:26:41.158Z",
+  "updatedAt": "2026-10-11T08:06:17.804Z",
   "tmdbType": "tv"
  },
  {
@@ -191150,7 +191152,7 @@
     "episode": 8
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/nwhi7gvEE9yzeCBHoR9CLKJqjM5.jpg",
   "rating": 7.3,
   "tmdbId": 286801,
   "imdbId": "",
@@ -191234,7 +191236,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:31:18.926Z",
+  "updatedAt": "2026-10-11T08:06:54.031Z",
   "tmdbType": "tv"
  },
  {
@@ -287252,7 +287254,7 @@
     "episode": 8
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/WFqXIK0m8FwskyGqPtYn4gjKSK.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/9bUUgYg9hpB1D5SucKJ3rqCpD6w.jpg",
   "rating": 0,
   "tmdbId": 218637,
   "imdbId": "tt25728686",
@@ -287368,7 +287370,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T23:31:36.093Z",
+  "updatedAt": "2026-10-11T08:07:38.475Z",
   "tmdbType": "tv"
  },
  {
@@ -289190,7 +289192,7 @@
     "episode": 8
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/q3HWTYswoI23y9temy4ZZGG7eUy.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/jLHcByq7bVdRlzJWccqLuR5ggmT.jpg",
   "rating": 0,
   "tmdbId": 295486,
   "imdbId": "tt35449649",
@@ -289274,7 +289276,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:40:31.458Z",
+  "updatedAt": "2026-10-11T08:07:38.766Z",
   "tmdbType": "tv"
  },
  {
@@ -291695,7 +291697,7 @@
     "episode": 7
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/pKqxjblwxlvIJkVvAaudQIJdX0F.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/4OVEDk8aZKbVsunp1EkwbQzu9rS.jpg",
   "rating": 0,
   "tmdbId": 306452,
   "imdbId": "tt39066717",
@@ -291770,7 +291772,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T06:40:33.731Z",
+  "updatedAt": "2026-10-11T08:07:43.339Z",
   "tmdbType": "tv"
  },
  {
@@ -293788,7 +293790,7 @@
     "episode": 23
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/55CaoSr9W2mIOhwHRht9gwFjEFX.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/yH1eEmnri7BlpY2wg6SkDlYdYfY.jpg",
   "rating": 0,
   "tmdbId": 284887,
   "imdbId": "tt35598067",
@@ -293989,7 +293991,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T00:30:52.533Z",
+  "updatedAt": "2026-10-11T08:07:43.637Z",
   "tmdbType": "tv"
  },
  {
@@ -301255,7 +301257,7 @@
     "episode": 36
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/wI8XsFDLZqjBygYJNysamQqJAdU.jpg",
   "rating": 0,
   "tmdbId": 254896,
   "imdbId": "tt32176709",
@@ -301591,7 +301593,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T01:26:34.548Z",
+  "updatedAt": "2026-10-11T08:07:44.882Z",
   "tmdbType": "tv"
  },
  {
@@ -302310,10 +302312,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/meet-cute-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/cXWsRahthlELHaXozv94XYnkGtz.jpg",
+  "rating": 6,
+  "tmdbId": 214421,
+  "imdbId": "tt15211130",
   "addedAt": "2026-10-10T00:31:36.757Z",
   "seasons": [
    {
@@ -302330,7 +302332,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T08:07:45.196Z"
  },
  {
   "id": "taj-divided-by-blood-2023",
@@ -302400,10 +302407,10 @@
     "episode": 10
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zcupWb5RUueIgKjY8E2iNGpf1l0.jpg",
+  "rating": 6.4,
+  "tmdbId": 220977,
+  "imdbId": "tt15752618",
   "addedAt": "2026-10-10T01:17:43.345Z",
   "seasons": [
    {
@@ -302501,7 +302508,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T08:07:47.878Z"
  },
  {
   "id": "reporting-live-2026",
@@ -302518,13 +302530,16 @@
     "url": "https://dub.onestream.today/stream/video/113216"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7Ncfrt43mLLFB8yWcWON8imHr0Q.jpg",
+  "rating": 7.5,
+  "tmdbId": 1389172,
+  "imdbId": "tt47657999",
   "addedAt": "2026-10-10T01:39:23.042Z",
   "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "hi",
+  "updatedAt": "2026-10-11T08:07:47.878Z"
  },
  {
   "id": "animals-2026",
@@ -302740,11 +302755,16 @@
     "url": "https://play.onestream.today/stream/page/102368"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/life-today-2026.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/jxHzzXhdhryiaWA2lJ9Bw3eCE89.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-10T06:14:52.195Z"
+  "tmdbId": 1792171,
+  "imdbId": "tt39821515",
+  "addedAt": "2026-10-10T06:14:52.195Z",
+  "tmdbType": "movie",
+  "originalLanguage": "kn",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T08:07:47.878Z"
  },
  {
   "id": "epic-2026",
@@ -302794,11 +302814,16 @@
     "url": "https://play.onestream.today/stream/page/102419"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/dorothy-2026.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-10T22:02:13.234Z"
+  "poster": "https://image.tmdb.org/t/p/w500/o3r5DmWhOKdFmeIUoRJj4CvCqOP.jpg",
+  "rating": 8,
+  "tmdbId": 1578079,
+  "imdbId": "tt38915678",
+  "addedAt": "2026-10-10T22:02:13.234Z",
+  "tmdbType": "movie",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T08:07:57.726Z"
  },
  {
   "id": "maremma-2026",
@@ -302823,10 +302848,15 @@
     "url": "https://play.onestream.today/stream/page/102413"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/maremma-2026.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/gMN8kkciIx3abnABV3KJy6DnDgN.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-10T22:02:17.741Z"
+  "tmdbId": 1604274,
+  "imdbId": "tt37537243",
+  "addedAt": "2026-10-10T22:02:17.741Z",
+  "tmdbType": "movie",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T08:07:57.726Z"
  }
 ]
