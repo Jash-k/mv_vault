@@ -5,7 +5,7 @@ name: TMDB backfill (one-off)
 #
 # Run it by hand from the Actions tab (defaults are safe: 20 min, 200 records).
 # Repeat it as often as you like; records TMDB has no exact match for are marked
-# in state.json (`tmdbMiss`) and are NOT retried on the next run.
+# in state.json with a finite retry time. Uses the SAME durable worker as enrich.
 on:
   workflow_dispatch:
     inputs:
@@ -17,7 +17,7 @@ on:
         type: boolean
         default: false
       stale_days:
-        description: 'Also retry records whose last look was N+ days ago (default 0 = never retry)'
+        description: 'Force eligible attempts older than N days (0 = automatic retry schedule)'
         default: '0'
       budget_min:
         description: 'Stop cleanly after N minutes (default 20)'
@@ -70,3 +70,11 @@ jobs:
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
+      - name: Metadata diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-backfill-${{ github.run_id }}
+          path: reports/metadata.json
+          if-no-files-found: ignore
+          retention-days: 14

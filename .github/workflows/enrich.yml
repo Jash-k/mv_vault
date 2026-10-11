@@ -1,54 +1,40 @@
 name: Enrich (posters, ratings, categories)
 
-# Fills what the scrape alone cannot: poster, rating, tmdbId, imdbId and the
-# CATEGORY (tamil-movie / tamil-dubbed-movie / tamil-series / tamil-dubbed-series).
-# Bounded TMDB searches plus source-page cast/director corroboration.
-# Episode/player data is not read or changed by enrichment.
-#
-# verify_ids = true also re-checks records whose STORED tmdbId resolves to a
-# different title (a wrong match from the old pipeline) and replaces it — and its
-# poster/rating — only when an exact title+year match is found. Off by default:
-# nothing already in the vault is ever rewritten without it.
-#
-# Put ALL your TMDB keys in one secret named TMDB_KEYS, comma-separated:
-#   key1,key2,key3,…  (11 keys)
-# They are used round-robin; a throttled key is parked for 10 minutes on its own
-# and the run carries on with the next one. A rejected key is retired by itself.
-# The run only stops if EVERY key is throttled or rejected.
-#
-# Run by hand from the Actions tab. Safe to repeat: records already done are
-# skipped, and records TMDB has no exact match for fall back to the site's
-# /tamil-dubbed-movies/ section and are marked categorySource: "site".
-# Use stale_days later to let TMDB replace those site guesses.
+# Durable metadata-only queue. New releases and old pending records are both
+# retried; zero ratings / absent upstream artwork do not starve identity work.
+# Every attempt has a reason + finite retry time in state.json and the artifact.
+# All writers use the same concurrency group. No episode/player data is changed.
 on:
+  schedule:
+    - cron: '47 3,15 * * *'       # safety net: 09:17 / 21:17 IST (Actions may delay)
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Max records this run (0 = all eligible records, bounded by the budget)'
+        description: 'Max records (0 = all eligible, still bounded by time budget)'
         default: '0'
       retry_misses:
-        description: 'Retry all previous misses using improved title/season matching'
+        description: 'Force unresolved/unavailable attempts now; normally automatic backoff applies'
         type: boolean
         default: false
       stale_days:
-        description: 'Also re-try records last looked at N+ days ago (0 = only never-tried)'
+        description: 'Also force eligible attempts older than N days (0 = automatic retry schedule)'
         default: '0'
       budget_min:
-        description: 'Stop cleanly after N minutes (default 20)'
+        description: 'Metadata-only budget in minutes (default 20)'
         default: ''
       concurrency:
-        description: 'Parallel TMDB lookups (default 4; 8 is plenty)'
+        description: 'Parallel metadata lookups (default 4, maximum 8)'
         default: ''
       verify_ids:
-        description: 'Re-match stored TMDB ids whose title does not match (corrects wrong old matches)'
+        description: 'Also re-check stored IDs; preserve metadata on unresolved/conflicting identity'
         type: boolean
         default: false
       dry:
-        description: 'Dry run — look up and log, write nothing'
+        description: 'Look up and log, write nothing'
         type: boolean
         default: false
       commit:
-        description: 'Commit + push the result'
+        description: 'Commit + push data changes'
         type: boolean
         default: true
 
@@ -84,7 +70,7 @@ jobs:
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=enrich"
+          ARGS="--mode=enrich --report=reports/metadata.json"
           [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ] && ARGS="$ARGS --limit=$LIMIT"
           [ "$RETRY_MISSES" = "true" ] && ARGS="$ARGS --retry-misses"
           [ -n "$STALE" ] && [ "$STALE" != "0" ] && ARGS="$ARGS --stale-days=$STALE"
@@ -93,5 +79,12 @@ jobs:
           [ "$VERIFY_IDS" = "true" ] && ARGS="$ARGS --verify-ids"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
-          echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
+      - name: Metadata diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-enrich-${{ github.run_id }}
+          path: reports/metadata.json
+          if-no-files-found: ignore
+          retention-days: 14

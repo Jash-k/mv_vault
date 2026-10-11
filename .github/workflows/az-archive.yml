@@ -73,7 +73,7 @@ jobs:
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=az"
+          ARGS="--mode=az --metadata-budget-min=5 --report=reports/metadata.json"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$ONLY" ] && ARGS="$ARGS --only=$ONLY"
@@ -83,3 +83,11 @@ jobs:
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
+      - name: Metadata diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-az-archive-${{ github.run_id }}
+          path: reports/metadata.json
+          if-no-files-found: ignore
+          retention-days: 14

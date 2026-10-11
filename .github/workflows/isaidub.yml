@@ -19,7 +19,8 @@ name: Tamil dubbed (isaidub.green)
 #
 # Records land as tamil-dubbed-movie / tamil-dubbed-series from site evidence
 # (the site is a Tamil-dubbed catalogue by definition); the enrich flow can
-# replace that with the TMDB-derived category later.
+# replace that with the TMDB-derived category later. Source categories alone
+# are not frontend verification. TMDB_KEYS is passed below, just like releases.
 on:
   schedule:
     - cron: '30 21 * * *'        # 03:00 IST, an hour before az-archive
@@ -81,6 +82,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - name: Scrape and publish
         env:
+          TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
           DEEP: ${{ inputs.deep }}
           PAGES: ${{ inputs.pages }}
           MAX_ITEMS: ${{ inputs.max_items }}
@@ -91,7 +93,7 @@ jobs:
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=dubbed"
+          ARGS="--mode=dubbed --metadata-budget-min=5 --report=reports/metadata.json"
           [ "$DEEP" = "true" ] && ARGS="$ARGS --deep"
           [ -n "$PAGES" ] && ARGS="$ARGS --pages=$PAGES"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
@@ -103,3 +105,11 @@ jobs:
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
+      - name: Metadata diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-isaidub-${{ github.run_id }}
+          path: reports/metadata.json
+          if-no-files-found: ignore
+          retention-days: 14

@@ -32,7 +32,8 @@
  *   --only-empty       A–Z: only re-check items already known empty/failed
  *                      (a one-off backlog sweep; stored items are skipped anyway)
  *   --year=2027        pin the releases flow to one year (skips the current year)
- *   --tmdb-limit=N     max TMDB lookups per run (default 150)
+ *   --tmdb-limit=N     max daily metadata attempts, including backlog (default 150)
+ *   --metadata-budget-min=N  separate metadata budget AFTER the crawl (default 5)
  *   --check-all        releases mode: probe EVERY stored record's links, not just
  *                      the ones on this year's folder (catches re-uploads of the
  *                      old A–Z catalogue; ~2,900 probes, a few minutes)
@@ -61,7 +62,7 @@ import fs from 'node:fs';
 import { LIVE, DUB, discover, getHtml, parseListing, walkItem, walkDubbed, parseDubLabel, embedCount, probeEmbed, mapLimit, stats, sleep, WALK_VERSION } from './scrape.mjs';
 import * as V from './vault.mjs';
 import * as tmdb from './tmdb.mjs';
-import { enrichRecord } from './metadata-evidence.mjs';
+import { runMetadataWorker } from './metadata-worker.mjs';
 
 /* ------------------------------------------------------------------- setup */
 
@@ -109,6 +110,7 @@ const budgetMin = Number(arg('budget-min', CFG.budgetMin));
 const maxItems = Number(arg('max-items', CFG.maxItems)) || 0;
 const commitEvery = Number(arg('commit-every', CFG.commitEvery)) || 0;
 const tmdbLimit = Number(arg('tmdb-limit', 150));
+const metadataBudgetMin = Math.max(0, Number(arg('metadata-budget-min', 5)) || 0);
 const started = Date.now();
 const deadline = started + budgetMin * 60000;
 
@@ -278,7 +280,7 @@ function mergeRemoteIntoWorktree(branch, message) {
   const remoteState = readRemote(branch, 'state.json');
   if (remoteState) {
     const merged = V.mergeStates(state, remoteState);
-    state.done = merged.done; state.tmdbMiss = merged.tmdbMiss; state.letters = merged.letters;
+    Object.assign(state, merged);
   }
   const remoteAz = readRemote(branch, 'az.json');
   if (remoteAz) V.saveAz(V.mergeAz(V.loadAz(), remoteAz));
@@ -446,26 +448,17 @@ async function processItems(items, label) {
 /* ---------------------------------------------------------------- TMDB step */
 
 async function enrichTouched() {
-  if (!tmdb.hasKey()) return { checked: 0, filled: 0, skipped: true };
-  const rows = [...touched.values()].filter(({ record }) => V.needsMetadata(record)).slice(0, tmdbLimit);
-  let filled = 0;
-  let categories = 0;
-  for (const { record, isNew } of rows) {
-    if (deadline && Date.now() > deadline) break;
-    const meta = await enrichRecord({ ...record, kind: record.kind === 'series' ? 'series' : 'movie' });
-    // undefined = could not ask (no key / rate limit / auth) → stop, never a miss
-    if (meta === undefined && !tmdb.hasKey()) break;
-    if (meta === undefined) { log('  ! TMDB unavailable (rate limit or auth) — enrichment stopped for this run'); break; }
-    const hadCategory = record.category || '';
-    if (meta && V.applyMetadata(record, meta, { preferPoster: isNew })) {
-      filled += 1;
-      if (record.category && record.category !== hadCategory) categories += 1;
-      log(`  ★ ${pad(label(record), 40)} tmdb ${meta.tmdbId} · ${record.originalLanguage || '?'} · ${record.category || '-'}${meta.poster && !hadCategory ? ' · poster' : ''}`);
-    }
-    await sleep(120);
+  if (tmdbLimit === 0 || metadataBudgetMin === 0) {
+    log('metadata disabled by --tmdb-limit=0 / --metadata-budget-min=0');
+    return { checked: 0, filled: 0, skipped: true, disabled: true };
   }
-  if (rows.length) save(true);
-  return { checked: rows.length, filled, categories, skipped: false };
+  // Own budget + durable vault-wide backlog, even when this crawl touched zero
+  // rows or used its entire crawl budget. New rows get weighted priority.
+  return runMetadataWorker(vaultData, state, {
+    budgetMin: metadataBudgetMin, limit: tmdbLimit, concurrency: Number(arg('concurrency', 4)),
+    priorityIds: new Set(touched.keys()), only, dry, log, save: () => save(true),
+    reportPath: arg('report', ''),
+  });
 }
 
 /* --------------------------------------------------- stored-link health check */
@@ -793,118 +786,17 @@ async function runAz() {
   return { letter, page, pass };
 }
 
-/**
- * --mode=enrich — fill what the scrape alone cannot: poster, rating, tmdbId,
- * imdbId and the CATEGORY for records that are missing them.
- *
- * Reads source metadata pages for cast/director corroboration; never opens players.
- *
- * Category rules:
- *   · TMDB original_language decides: 'ta' → tamil-*, anything else → tamil-dubbed-*.
- *   · No exact TMDB match → the site's own /tamil-dubbed-movies/ section decides
- *     (listed there = dubbed), stored with categorySource: "site".
- *   · Nothing found anywhere → category stays empty; it is not guessed.
- *
- * Both paths are idempotent: run it as often as you like, with --limit to do it
- * in slices, and re-run it with --stale-days later to let TMDB upgrade the
- * site-guessed records.
+/** Metadata-only durable queue. No player/episode walk or link changes.
+ * Original language must come from a corroborated identity, never a site bucket.
+ * Legacy misses retry once under the new version, then use bounded backoff.
  */
 async function runEnrich() {
-  if (!tmdb.hasKey()) {
-    log('! no TMDB_KEYS / TMDB_API_KEY secret set — nothing to do');
-    return { filled: 0, misses: 0, checked: 0, needsKey: true, categories: 0, siteCategories: 0, posters: 0 };
-  }
-  const staleDays = Number(arg('stale-days', 0)) || 0;
-  const staleMs = staleDays * 86_400_000;
-
-  const needsWork = (m) => (m.embeds || []).length && (verifyIds || V.needsMetadata(m) || V.needsCategory(m) || m.categorySource === 'site');
-  const inOnly = (m) => !only || `${m.id} ${m.title} ${m.pageUrl}`.toLowerCase().includes(only.toLowerCase());
-  const eligible = vaultData.filter((m) => {
-    if (!inOnly(m)) return false;   // `--only=` also works here, to fix one title by hand
-    if (!needsWork(m)) return false;
-    const missed = Date.parse(state.tmdbMiss?.[m.id] || '') || 0;
-    // No category at all → always eligible. A "no match" marker only says TMDB
-    // has no entry; it must never stop the site-fallback category from being set
-    // (that mismatch is how records end up marked but uncategorised).
-    if (verifyIds || args.includes('--retry-misses') || V.needsCategory(m)) return true;
-    if (!missed) return true;                          // never tried
-    return staleMs > 0 && Date.now() - missed > staleMs; // tried before, retry if asked
+  return runMetadataWorker(vaultData, state, {
+    budgetMin, limit: Math.max(0, Number(arg('limit', 0)) || 0),
+    concurrency: Number(arg('concurrency', 4)), only, verifyIds,
+    retryMisses: Boolean(arg('retry-misses', false)), staleDays: Number(arg('stale-days', 0)) || 0,
+    dry, log, save: () => save(true), reportPath: arg('report', ''),
   });
-  const queue = eligible.slice(0, Number(arg('limit', 0)) || eligible.length);
-  log(`records missing poster/rating/category: ${vaultData.filter(needsWork).length} · eligible now: ${eligible.length} · this run: ${queue.length}`);
-
-  // Site evidence for the dubbed fallback: one read of the dubbed section.
-  let dubbed = new Set();
-  if (queue.length) {
-    const rows = await discover('/tamil-dubbed-movies/', { param: 'page', maxPages: 6, deadline, log });
-    dubbed = new Set(rows.map((r) => r.path));
-    log(`dubbed section: ${dubbed.size} paths kept as evidence`);
-  }
-
-  const audit = [];
-  const reportPath = arg('report', '');
-  let checked = 0; let filled = 0; let posters = 0; let categories = 0; let siteCategories = 0; let misses = 0; let blips = 0;
-  const parallel = Math.max(1, Math.min(Number(arg('concurrency', 4)) || 4, 8));
-  log(`tmdb ${tmdb.keyStatus()} · ${parallel} parallel lookups`);
-
-  for (let i = 0; i < queue.length; i += parallel) {
-    if (deadline && Date.now() > deadline) { log('· budget reached'); break; }
-    const batch = queue.slice(i, i + parallel);
-    const results = await Promise.all(batch.map(async (record) => ({
-      record,
-      meta: await enrichRecord({ ...record, kind: record.kind === 'series' ? 'series' : 'movie', verifyIds }),
-    })));
-
-    let stop = false;
-    for (const { record, meta } of results) {
-      checked += 1;
-      audit.push({ id: record.id, title: record.title, year: record.year, status: meta === undefined ? 'unavailable' : meta ? 'matched' : 'unresolved', ...(meta ? { tmdbId: meta.tmdbId, tmdbType: meta.tmdbType, tmdbTitle: meta.tmdbTitle, match: meta.match, originalYear: meta.originalYear, ...(meta.evidence ? { evidence: meta.evidence } : {}) } : {}) });
-      const wasPoster = Boolean(record.poster);
-      const wasCategory = record.category || '';
-      if (meta === undefined) {
-        if (tmdb.isAuthFailed()) { log(`! every TMDB key was rejected — stopping; nothing was marked. Keys: ${tmdb.keyStatus()}`); stop = true; break; }
-        if (tmdb.cooldownActive()) { log(`! all TMDB keys are rate-limited — stopping; nothing was marked, rerun in a few minutes (${tmdb.keyStatus()})`); stop = true; break; }
-        blips += 1;
-        if (blips >= 5) { log('! 5 incomplete/unavailable TMDB lookups in a row — stopping; nothing was marked, rerun to continue'); stop = true; break; }
-        log(`  · TMDB lookup incomplete/unavailable (${blips}/5) — skipping this one, continuing`);
-        continue;
-      }
-      blips = 0;
-      if (meta) {
-        if (meta.crossType) {
-          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}", a ${meta.tmdbType === 'tv' ? 'series' : 'film'} — categorised as one`);
-        } else if (meta.tmdbTitle && !sameish(meta.tmdbTitle, record.title)) {
-          log(`  · ${pad(label(record), 40)} TMDB id ${meta.tmdbId} is "${meta.tmdbTitle}" — ${meta.match === 'stored-id' ? 'stored ID retained (use --verify-ids to re-match)' : 'matched through verified title/season evidence'}`);
-        }
-        if (V.applyMetadata(record, meta, { preferPoster: true, replaceId: verifyIds })) {
-          filled += 1;
-          if (!wasPoster && record.poster) posters += 1;
-          if (record.category && record.category !== wasCategory) categories += 1;
-          log(`  ★ ${pad(label(record), 40)} tmdb ${record.tmdbId || meta.tmdbId} · ${record.originalLanguage || '?'} · ${record.category}${!wasPoster && record.poster ? ' · poster' : ''}`);
-        }
-        delete state.tmdbMiss?.[record.id];
-      } else {
-        // no exact TMDB match → the site's dubbed section is the fallback evidence
-        misses += 1;
-        state.tmdbMiss = state.tmdbMiss || {};
-        state.tmdbMiss[record.id] = new Date().toISOString();
-        const path = V.pathOf(record.pageUrl);
-        if (dubbed.has(path) && V.applySiteCategory(record, true)) {
-          siteCategories += 1;
-          if (record.category !== wasCategory) categories += 1;
-          log(`  · ${pad(label(record), 40)} no TMDB match → site says ${record.category}`);
-        } else {
-          log(`  · ${pad(label(record), 40)} no safe TMDB match — existing metadata preserved`);
-        }
-      }
-    }
-    if (reportPath && !dry) V.writeJson(reportPath, audit);
-    if (stop) break;
-    if ((filled + misses) % 100 < parallel) save(true);
-    await sleep(80);
-  }
-  log(`enrich         ${filled} filled (${posters} posters) · ${categories} categories (${siteCategories} from the site) · ${misses} no TMDB match · ${queue.length - checked} not reached`);
-  return { filled, posters, categories, siteCategories, misses, checked, needsKey: false };
 }
 
 /* -------------------------------------------------------------------- main */
@@ -925,9 +817,15 @@ try {
   log(`! run aborted: ${error.stack || error.message}`);
 }
 
-const tmdbStats = mode === 'enrich'
-  ? { checked: backfill?.checked ?? 0, filled: backfill?.filled ?? 0, skipped: Boolean(backfill?.needsKey) }
-  : await enrichTouched();
+let tmdbStats = { ...(backfill || {}), checked: backfill?.checked ?? 0, filled: backfill?.filled ?? 0, skipped: Boolean(backfill?.needsKey) };
+let metadataFatal = false;
+if (mode !== 'enrich') {
+  try { tmdbStats = await enrichTouched(); }
+  catch {
+    metadataFatal = true;
+    log('! metadata worker error — preserving and publishing the completed crawl; inspect configuration/data');
+  }
+}
 save(true);
 const totals = vaultData.reduce((acc, m) => {
   acc.embeds += (m.embeds || []).length;
@@ -935,6 +833,7 @@ const totals = vaultData.reduce((acc, m) => {
   return acc;
 }, { movies: 0, series: 0, embeds: 0 });
 const minutes = Math.round((Date.now() - started) / 60000);
+const metadataSummary = `${tmdbStats.checked || 0} actually attempted · ${tmdbStats.matched || 0} matched · ${tmdbStats.filled || 0} changed · ${tmdbStats.misses || 0} unresolved · ${tmdbStats.review || 0} review · ${tmdbStats.unavailable || 0} unavailable · ${tmdbStats.notReached || 0} not reached`;
 const stopped = Date.now() >= deadline;
 
 log('');
@@ -945,7 +844,8 @@ log(`empty/failed   ${counts.empty} empty · ${counts.failed} failed · ${counts
 if (counts.refresh) log(`series refresh ${counts.refresh} stored series re-walked for new episodes`);
 log(`tmdb           ${backfill
   ? (backfill.needsKey ? 'no key set — nothing done' : `${backfill.filled} records filled · ${backfill.categories} categories (${backfill.siteCategories} from site) · ${backfill.misses} no exact match`)
-  : tmdbStats.skipped ? 'skipped (no key)' : `${tmdbStats.checked} checked · ${tmdbStats.filled} filled`}`);
+  : tmdbStats.disabled ? 'disabled' : tmdbStats.skipped ? 'skipped (no key)' : `${tmdbStats.checked} checked · ${tmdbStats.filled} filled`}`);
+log(`metadata       ${metadataSummary}`);
 log(`http           ${stats.requests} requests · ${stats.retries} retries · ${stats.failures} gave up · ${(stats.bytes / 1e6).toFixed(1)} MB`);
 const cat = vaultData.reduce((acc, m) => { if (m.category) acc[m.category] = (acc[m.category] || 0) + 1; return acc; }, {});
 const catLine = Object.keys(cat).length ? Object.entries(cat).map(([k, v]) => `${k} ${v}`).join(' · ') : 'none yet (run --mode=enrich)';
@@ -966,7 +866,8 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     `| ${counts.walked} | ${counts.added} | ${counts.merged} | ${counts.unchanged} | ${counts.empty} | ${counts.failed} | ${counts.skipped} | ${stats.requests} | ${minutes}m${stopped ? ' (budget)' : ''} |`,
     '',
     `vault: **${vaultData.length}** records · ${totals.movies} movies · ${totals.series} series · ${totals.embeds} embeds`,
-    `tmdb: ${tmdbStats.skipped ? 'skipped (no key)' : `${tmdbStats.checked} checked, ${tmdbStats.filled} filled`}`,
+    `tmdb: ${tmdbStats.disabled ? 'disabled' : tmdbStats.skipped ? 'skipped (no key)' : metadataSummary}`,
+    ...(tmdbStats.reasons ? ['', '### Metadata outcomes', ...Object.entries(tmdbStats.reasons).map(([reason, n]) => `- **${reason}**: ${n}`)] : []),
     ...(CFG.linkCheck && !noLinkCheck
       ? [`links: ${links.checked} probes · ${links.dead} dead · ${links.repaired} repaired · ${links.dropped} removed · ${links.unreachable} unreachable (kept)`]
       : []),
@@ -976,7 +877,11 @@ if (process.env.GITHUB_STEP_SUMMARY) {
 }
 
 const published = commit(`${mode}: +${counts.added} new, ${counts.merged} merged, ${counts.walked} walks`);
-if (!published) process.exitCode = 1;
+if (!published || metadataFatal) process.exitCode = 1;
+if (tmdbStats.stopReason === 'tmdb-keys-unavailable') {
+  log('! metadata paused because all keys are unavailable; completed work was preserved.');
+  process.exitCode = 1;
+}
 
 /* A red run means "the site changed shape or is down", not "one item failed". */
 const stored = counts.added + counts.merged + counts.unchanged;

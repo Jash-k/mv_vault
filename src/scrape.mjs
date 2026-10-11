@@ -30,6 +30,7 @@
  * in pageUrl/state stays on moviesda34.com so existing data and keys never fork.
  */
 import * as cheerio from 'cheerio';
+import { parseSourceMetadata } from './source-metadata.mjs';
 
 /** The host every domain redirects to today. Change this one line if it moves. */
 export const LIVE = 'https://moviezda.net';
@@ -60,15 +61,16 @@ export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const paced = () => sleep(DELAY_MS + Math.floor(Math.random() * 120));
 
 /** fetch + retry. Hard 404 is not retried; 5xx/429/network is. */
-export async function getHtml(url) {
+export async function getHtml(url, { signal } = {}) {
   let lastError = new Error('not attempted');
   for (let attempt = 1; attempt <= TRIES; attempt += 1) {
+    if (signal?.aborted) throw new Error('metadata request cancelled');
     const started = Date.now();
     try {
       const res = await fetch(url, {
         headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9' },
         redirect: 'follow',
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS),
       });
       if (!res.ok) {
         await res.body?.cancel();
@@ -82,6 +84,7 @@ export async function getHtml(url) {
       return { html, ms: Date.now() - started };
     } catch (error) {
       lastError = error;
+      if (signal?.aborted) break;
       if (error.retryable === false || attempt === TRIES) break;
       stats.retries += 1;
       await sleep(500 * attempt + Math.floor(Math.random() * 400));
@@ -506,12 +509,14 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '', max
 export async function walkItem(url, options = {}) {
   const html = options.html || (await getHtml(url)).html;
   if (!options.html && looksBlocked(html)) throw new Error(`blocked/challenge document for ${url}`);
-  if (planWalk(html, url) === 'series') return walkSeries(url, { ...options, html });
+  const sourceMetadata = parseSourceMetadata(html, url);
+  const attach = result => ({ ...result, sourceMetadata });
+  if (planWalk(html, url) === 'series') return attach(await walkSeries(url, { ...options, html }));
 
   const movie = await walkMovie(url, { ...options, html });
-  if (embedCount(movie)) return movie;
+  if (embedCount(movie)) return attach(movie);
   const asSeries = await walkSeries(url, { ...options, html });
-  return embedCount(asSeries) > embedCount(movie) ? asSeries : movie;
+  return attach(embedCount(asSeries) > embedCount(movie) ? asSeries : movie);
 }
 
 /** How many embeds a walk result carries. */
@@ -704,6 +709,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
   const itemHtml = prefetched || (await getHtml(url)).html;
   if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
+  const sourceMetadata = parseSourceMetadata(itemHtml, url);
   const rows = dubLinks(itemHtml, url);
 
   /* ---------- series, episode-list shape: every row is one episode page ---------- */
@@ -739,7 +745,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
         if (playable) got.push({ season: ep.season, episode: ep.episode, quality: info.quality, url: playable });
       }
     });
-    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster };
+    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster, sourceMetadata };
     const fallbackSeason = dubSeasonIn(episodeRows[0].text) || 1;
     const bySeason = new Map();
     for (const g of got) {
@@ -754,7 +760,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       episodes: [...eps.entries()].sort((a, b) => a[0] - b[0]).map(([episode, embeds]) => ({ episode, embeds })),
     }));
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster };
+    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata };
   }
 
   /* ---------- series, season-folder shape: rows are (Season NN) folders ---------- */
@@ -791,7 +797,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       await paced();
     }
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster };
+    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata };
   }
 
   /* ---------- movie: quality folders sit under a stage folder (Original/…),
@@ -803,7 +809,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       .sort((a, b) => rank(dubQuality(a.text, a.href)) - rank(dubQuality(b.text, b.href))).slice(0, 2),
     ...movieRows.filter((r) => !dubQuality(r.text, r.href)).slice(0, 2),
   ];
-  if (!sources.length) return { kind: 'movie', embeds: [], poster };
+  if (!sources.length) return { kind: 'movie', embeds: [], poster, sourceMetadata };
   const collected = new Map();               // id → { quality }
   for (const src of sources) {
     if (deadline && Date.now() > deadline) break;
@@ -820,7 +826,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
     if (playable) embeds.push({ quality: info.quality, url: playable });
   });
   const preferred = embeds.filter((e) => /^(1080p|720p)$/i.test(e.quality));
-  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster };
+  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster, sourceMetadata };
 }
 
 export const embedCount = (walked) => walked.kind === 'series' 
