@@ -18376,7 +18376,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/second-love-2026-tamil-web-series/": {
-   "at": "2026-10-11T06:10:28.299Z",
+   "at": "2026-10-11T13:11:42.572Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -18540,13 +18540,10 @@
    "kind": "movie"
   },
   "https://moviesda34.com/warrant-2026-tamil-web-series/": {
-   "at": "2026-10-11T06:10:37.229Z",
-   "empty": true,
-   "v": 3,
-   "retries": 0,
-   "failures": 1,
-   "retryAfter": "2026-10-11T07:40:37.229Z",
-   "lastError": "series walk paused by budget; retry required"
+   "at": "2026-10-11T13:11:53.312Z",
+   "embeds": 16,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/420-ipc-2021-movie/": {
    "at": "2026-09-29T08:31:34.652Z",
@@ -19042,7 +19039,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-10-10T22:02:21.452Z",
+   "at": "2026-10-11T13:12:03.630Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -47935,6 +47932,12 @@
    "embeds": 4,
    "kind": "movie",
    "v": 3
+  },
+  "https://moviesda34.com/promise-2026-tamil-movie/": {
+   "at": "2026-10-11T13:11:58.897Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -48046,128 +48049,119 @@
  },
  "tmdbMiss": {
   "appu-vi-std-2024": "2026-10-11T09:17:21.152Z",
-  "ananda-kalyanam-2024": "2026-10-11T09:17:19.865Z",
-  "adventures-of-mahaan-2024": "2026-10-11T09:17:17.464Z",
-  "anubhavi-raja-2024": "2026-10-11T09:17:21.152Z",
+  "adventures-of-mahaan-2024": "2026-10-11T13:12:30.608Z",
+  "anubhavi-raja-2024": "2026-10-11T13:12:35.851Z",
   "aval-varuvaal-2024": "2026-10-11T09:17:25.885Z",
-  "ananthapurathu-veedu-2010": "2026-10-11T09:17:19.865Z",
-  "arjuna-kaappaathu-2022": "2026-10-11T09:17:23.185Z",
+  "ananthapurathu-veedu-2010": "2026-10-11T13:12:34.763Z",
+  "arjuna-kaappaathu-2022": "2026-10-11T13:12:35.851Z",
   "ashtakarma-2022": "2026-10-11T09:17:23.186Z",
-  "a-aa-2021": "2026-10-11T09:17:12.631Z",
   "assamiyin-america-payanam-2021": "2026-10-11T09:17:25.885Z",
-  "anbudan-appavukku-2019": "2026-10-11T09:17:21.152Z",
-  "anandha-thandavam-2009": "2026-10-11T09:17:19.865Z",
+  "anandha-thandavam-2009": "2026-10-11T13:12:34.763Z",
   "ammu-kolai-vazhakku-2012": "2026-10-11T09:17:17.464Z",
   "aaravadhu-vanam-2011": "2026-10-11T09:17:14.055Z",
-  "accused-no-1-2019": "2026-10-11T09:17:17.464Z",
-  "arputha-theevu-2007": "2026-10-11T09:17:23.186Z",
+  "accused-no-1-2019": "2026-10-11T13:12:30.608Z",
+  "arputha-theevu-2007": "2026-10-11T13:12:36.593Z",
   "bd-bheema-chitrundi-2024": "2026-10-11T09:17:37.841Z",
-  "bairavan-2025": "2026-10-11T09:17:35.301Z",
+  "bairavan-2025": "2026-10-11T13:12:39.755Z",
   "bachelor-prasad-2025": "2026-10-11T09:17:30.433Z",
   "biishman-2022": "2026-10-11T09:17:39.540Z",
   "boomi-enna-suthuthey-2024": "2026-10-11T09:17:42.628Z",
   "bhairavakottai-2024": "2026-10-11T09:17:39.539Z",
-  "burma-nagar-das-2024": "2026-10-11T09:17:47.076Z",
-  "bhairavagramam-2012-2023": "2026-10-11T09:17:37.841Z",
+  "burma-nagar-das-2024": "2026-10-11T13:12:46.073Z",
+  "bhairavagramam-2012-2023": "2026-10-11T13:12:44.605Z",
   "broken-script-2023": "2026-10-11T09:17:42.628Z",
   "bodhai-ah-viduda-2023": "2026-10-11T09:17:39.540Z",
   "breathe-into-the-shadows-2022": "2026-10-11T09:17:42.628Z",
-  "chellamay-2004": "2026-10-11T09:17:49.667Z",
-  "chengalpattu-2025": "2026-10-11T09:17:51.542Z",
+  "chellamay-2004": "2026-10-11T13:12:47.594Z",
+  "chengalpattu-2025": "2026-10-11T13:12:47.594Z",
   "chella-kutty-2024": "2026-10-11T09:17:49.666Z",
   "chitra-kadhai-2024": "2026-10-11T09:17:53.434Z",
-  "chaitra-the-beginning-of-the-end-2023": "2026-10-11T09:17:47.076Z",
+  "chaitra-the-beginning-of-the-end-2023": "2026-10-11T13:12:46.073Z",
   "critical-keerthanai-2023": "2026-10-11T09:17:54.423Z",
-  "chennai-to-bangkok-2020": "2026-10-11T09:17:53.434Z",
+  "chennai-to-bangkok-2020": "2026-10-11T13:12:47.594Z",
   "chinna-mani-1995": "2026-10-11T09:17:53.434Z",
-  "double-dhamaka-2025": "2026-10-11T09:17:59.422Z",
-  "dhinasari-2025": "2026-10-11T09:17:59.422Z",
-  "daaku-mahaaraj-2025": "2026-10-11T09:17:54.423Z",
-  "dhill-raja-2024": "2026-10-11T09:17:59.422Z",
+  "double-dhamaka-2025": "2026-10-11T13:12:57.546Z",
+  "dhinasari-2025": "2026-10-11T13:12:56.531Z",
+  "daaku-mahaaraj-2025": "2026-10-11T13:12:50.792Z",
+  "dhill-raja-2024": "2026-10-11T13:12:56.531Z",
   "double-kalyanam-2021": "2026-10-11T09:18:02.049Z",
-  "dhanusu-raasi-neyargale-2019": "2026-10-11T09:17:57.504Z",
-  "dev-tamil-2019": "2026-10-11T09:17:57.504Z",
+  "dhanusu-raasi-neyargale-2019": "2026-10-11T13:12:56.531Z",
+  "dev-tamil-2019": "2026-10-11T13:12:53.232Z",
   "en-iniya-thanimaiye-2024": "2026-10-11T09:18:04.639Z",
   "emi-2023": "2026-10-11T09:18:04.639Z",
   "ezhu-malai-thaandi-side-b-2023": "2026-10-11T09:18:11.854Z",
-  "engada-iruthinga-ivvalavu-naala-2021": "2026-10-11T09:18:06.211Z",
-  "eppadi-manasukkul-vandhai-2012": "2026-10-11T09:18:11.854Z",
-  "engeyum-eppodhum-2011": "2026-10-11T09:18:06.211Z",
-  "echarikkai-idhu-manithargal-nadamadum-idam-2018": "2026-10-11T09:18:02.049Z",
+  "engada-iruthinga-ivvalavu-naala-2021": "2026-10-11T13:12:59.477Z",
+  "eppadi-manasukkul-vandhai-2012": "2026-10-11T13:13:01.728Z",
+  "engeyum-eppodhum-2011": "2026-10-11T13:13:01.728Z",
+  "echarikkai-idhu-manithargal-nadamadum-idam-2018": "2026-10-11T13:12:59.477Z",
   "fittrat-2024": "2026-10-11T09:18:11.854Z",
-  "go-sulo-2024": "2026-10-11T09:18:14.695Z",
-  "god-father-2024": "2026-10-11T09:18:14.695Z",
+  "go-sulo-2024": "2026-10-11T13:13:01.728Z",
+  "god-father-2024": "2026-10-11T13:13:06.178Z",
   "idhu-vaaliba-vayasu-2026": "2026-10-11T09:18:16.325Z",
-  "ipl-2025": "2026-10-11T09:18:25.896Z",
+  "ipl-2025": "2026-10-11T13:13:18.253Z",
   "idhu-ennoda-jilla-2018": "2026-10-11T09:18:16.325Z",
-  "iru-vizhi-oru-paarvai-2024": "2026-10-11T09:18:29.181Z",
-  "ivan-nirubaraathi-2024": "2026-10-11T09:18:33.450Z",
+  "iru-vizhi-oru-paarvai-2024": "2026-10-11T13:13:35.253Z",
+  "ivan-nirubaraathi-2024": "2026-10-11T13:13:38.188Z",
   "ippadikku-kadhal-2024": "2026-10-11T09:18:25.897Z",
-  "inspector-daya-2021": "2026-10-11T09:18:23.936Z",
-  "inaintha-kaigal-1990": "2026-10-11T09:18:20.651Z",
-  "ithayathai-thirudathey-1989": "2026-10-11T09:18:31.321Z",
-  "indiralogathil-na-azhagappan-2008": "2026-10-11T09:18:20.651Z",
-  "imsai-arasan-23am-pulikesi-2006": "2026-10-11T09:18:16.326Z",
-  "iruttu-araiyil-murattu-kuththu-2018": "2026-10-11T09:18:31.321Z",
-  "jack-and-dil-2018": "2026-10-11T09:18:33.450Z",
+  "inspector-daya-2021": "2026-10-11T13:13:14.317Z",
+  "inaintha-kaigal-1990": "2026-10-11T13:13:12.221Z",
+  "ithayathai-thirudathey-1989": "2026-10-11T13:13:38.188Z",
+  "indiralogathil-na-azhagappan-2008": "2026-10-11T13:13:14.317Z",
+  "imsai-arasan-23am-pulikesi-2006": "2026-10-11T13:13:12.221Z",
+  "iruttu-araiyil-murattu-kuththu-2018": "2026-10-11T13:13:35.253Z",
   "jana-nayagan-audio-launch-2026": "2026-10-11T09:18:43.224Z",
-  "janaka-aanaal-2025": "2026-10-11T09:18:43.224Z",
+  "janaka-aanaal-2025": "2026-10-11T13:13:49.147Z",
   "jai-senai-2024": "2026-10-11T09:18:34.622Z",
   "jai-sriram-2013": "2026-10-11T09:18:34.622Z",
   "jairam-2004": "2026-10-11T09:18:34.622Z",
   "kadhal-oru-kannamoochi-2026": "2026-10-11T09:18:54.318Z",
-  "konja-naal-poru-thalaivaa-2025": "2026-10-11T09:19:02.174Z",
-  "kgf-chpater-2-2022": "2026-10-11T09:19:00.410Z",
-  "kasivu-2025": "2026-10-11T09:18:56.382Z",
+  "konja-naal-poru-thalaivaa-2025": "2026-10-11T13:14:03.612Z",
+  "kgf-chpater-2-2022": "2026-10-11T13:14:01.207Z",
+  "kasivu-2025": "2026-10-11T13:13:59.843Z",
   "knock-out-nachi-2025": "2026-10-11T09:19:02.174Z",
-  "kadhal-kanave-2025": "2026-10-11T09:18:52.873Z",
-  "kangalal-kaithu-sei-2004": "2026-10-11T09:18:56.381Z",
-  "kadhal-enbathu-podhu-udamai-2025": "2026-10-11T09:18:52.873Z",
+  "kadhal-kanave-2025": "2026-10-11T13:13:56.067Z",
+  "kangalal-kaithu-sei-2004": "2026-10-11T13:13:59.843Z",
+  "kadhal-enbathu-podhu-udamai-2025": "2026-10-11T13:13:50.399Z",
   "kuppan-2024": "2026-10-11T09:19:07.900Z",
   "kaadhal-mattum-pothum-2023": "2026-10-11T09:18:43.224Z",
   "kakkan-2023": "2026-10-11T09:18:54.318Z",
-  "kottigobba-3-2022": "2026-10-11T09:19:04.242Z",
+  "kottigobba-3-2022": "2026-10-11T13:14:05.772Z",
   "kadhal-athu-ragasiyamaanadhu-2022": "2026-10-11T09:18:51.795Z",
-  "kayamai-kadakka-2022": "2026-10-11T09:18:58.495Z",
-  "kadavul-padaitha-manithargal-2022": "2026-10-11T09:18:51.794Z",
+  "kayamai-kadakka-2022": "2026-10-11T13:14:01.207Z",
   "kaadhal-not-a-love-story-2021": "2026-10-11T09:18:44.375Z",
   "kovil-mani-osai-1988": "2026-10-11T09:19:04.243Z",
-  "kaathal-ithu-kaathal-2018": "2026-10-11T09:18:44.375Z",
-  "kutralam-2019": "2026-10-11T09:19:07.900Z",
   "killadi-mappillai-1994": "2026-10-11T09:19:00.410Z",
   "kathal-enakku-romba-pudikkum-2018": "2026-10-11T09:18:58.495Z",
   "kelambitangaya-kelambitangaya-2019": "2026-10-11T09:18:58.495Z",
   "karthikeyanum-kaanamal-pona-kadhaliyum-2019": "2026-10-11T09:18:56.381Z",
   "lakshmi-en-veetirku-varayo-2025": "2026-10-11T09:19:09.527Z",
   "leo-success-meet-2023": "2026-10-11T09:19:11.667Z",
-  "laal-singh-chadha-2022": "2026-10-11T09:19:09.527Z",
+  "laal-singh-chadha-2022": "2026-10-11T13:14:08.506Z",
   "lift-8055-2022": "2026-10-11T09:19:11.667Z",
-  "laysa-laysa-2003": "2026-10-11T09:19:09.527Z",
+  "laysa-laysa-2003": "2026-10-11T13:14:08.506Z",
   "moda-kavida-vatavarana-2026": "2026-10-11T09:19:49.500Z",
   "mella-thiranthathu-manasu-2025": "2026-10-11T09:19:41.313Z",
   "murugesan-plus-2-2025": "2026-10-11T09:20:01.040Z",
-  "malare-mounama-2025": "2026-10-11T09:19:22.374Z",
+  "malare-mounama-2025": "2026-10-11T13:14:15.664Z",
   "muthal-mariyathai-1985": "2026-10-11T09:20:02.759Z",
   "mrs-and-mr-2025": "2026-10-11T09:19:56.334Z",
   "magical-onelife-2024": "2026-10-11T09:19:22.374Z",
   "murattu-singathin-adithadi-2024": "2026-10-11T09:20:01.040Z",
   "madurai-singam-2024": "2026-10-11T09:19:20.359Z",
-  "madhayaanai-2024": "2026-10-11T09:19:20.359Z",
+  "madhayaanai-2024": "2026-10-11T13:14:15.664Z",
   "mirzapur-2024": "2026-10-11T09:19:49.500Z",
   "meendum-thedal-2019": "2026-10-11T09:19:41.313Z",
   "munthirikkaadu-2023": "2026-10-11T09:19:59.221Z",
-  "maalainera-malipoo-2023": "2026-10-11T09:19:15.819Z",
   "mofussil-2023": "2026-10-11T09:19:49.500Z",
   "mr-and-miss-2022": "2026-10-11T09:19:56.334Z",
-  "maraan-2022": "2026-10-11T09:19:33.035Z",
-  "malayappa-2022": "2026-10-11T09:19:27.081Z",
-  "mapillai-seenu-2022": "2026-10-11T09:19:33.035Z",
+  "maraan-2022": "2026-10-11T13:14:24.951Z",
+  "malayappa-2022": "2026-10-11T13:14:19.567Z",
   "marma-bhoomi-2021": "2026-10-11T09:19:39.815Z",
   "marakka-matten-1986": "2026-10-11T09:19:39.815Z",
-  "mappilai-sir-1988": "2026-10-11T09:19:33.035Z",
+  "mappilai-sir-1988": "2026-10-11T13:14:24.346Z",
   "man-vs-wild-with-pm-narendra-modi-2019": "2026-10-11T09:19:31.501Z",
   "markandeyan-2011": "2026-10-11T09:19:39.815Z",
-  "manadhil-ninraval-2019": "2026-10-11T09:19:31.501Z",
+  "manadhil-ninraval-2019": "2026-10-11T13:14:19.567Z",
   "nenjukkul-neeye-2025": "2026-10-11T09:20:07.381Z",
   "nallamalai-ragasiyam-2025": "2026-10-11T09:20:05.907Z",
   "nadigar-sangamam-2024": "2026-10-11T09:20:04.405Z",
@@ -48286,13 +48280,12 @@
   "yeman-kattalai-2025": "2026-10-11T09:22:24.690Z",
   "yegathipathi-2024": "2026-10-11T09:22:24.690Z",
   "yaar-indha-mani-2019": "2026-10-11T09:22:18.208Z",
-  "abdhul-2024": "2026-10-11T09:17:14.056Z",
-  "baskar-thalaimaraivu-2024": "2026-10-11T09:17:35.301Z",
-  "bazar-rowdy-2024": "2026-10-11T09:17:37.841Z",
+  "abdhul-2024": "2026-10-11T13:12:30.608Z",
+  "baskar-thalaimaraivu-2024": "2026-10-11T13:12:39.755Z",
+  "bazar-rowdy-2024": "2026-10-11T13:12:39.755Z",
   "bayamariyan-2024": "2026-10-11T09:17:35.301Z",
-  "isaac-newton-so-philipose-2024": "2026-10-11T09:18:31.321Z",
   "ipl-2023": "2026-10-11T09:18:23.936Z",
-  "jackson-bazaar-pasanga-2023": "2026-10-11T09:18:33.450Z",
+  "jackson-bazaar-pasanga-2023": "2026-10-11T13:13:49.147Z",
   "kalai-kaaviyam-2024": "2026-10-11T09:18:54.318Z",
   "mudal-kadal-mariyadai-2024": "2026-10-11T09:19:59.220Z",
   "nee-irukum-varai-2024": "2026-10-11T09:20:07.381Z",
@@ -48306,14 +48299,13 @@
   "visudha-mejo-2022": "2026-10-11T09:22:14.309Z",
   "vaa-vaa-2024": "2026-10-11T09:22:00.367Z",
   "natpunna-ennaanu-theriyumaa-2019": "2026-10-11T09:20:05.907Z",
-  "30-naatkalil-kaadhalippadhu-eppadi-2022": "2026-10-11T09:17:06.610Z",
+  "30-naatkalil-kaadhalippadhu-eppadi-2022": "2026-10-11T13:12:29.660Z",
   "2k-heart-2025": "2026-10-11T09:17:04.638Z",
   "naanayam-illa-naanayam-2015": "2026-10-11T09:20:02.759Z",
   "thanthirakkaaran-2026": "2026-10-11T09:21:47.917Z",
-  "1971-raanuvayellai-2024": "2026-10-11T09:17:04.638Z",
+  "1971-raanuvayellai-2024": "2026-10-11T13:12:28.465Z",
   "bairavan-2024": "2026-10-11T09:17:30.433Z",
   "chengalpattu-2024": "2026-10-11T09:17:51.541Z",
-  "ayogya-2024": "2026-10-11T09:17:28.717Z",
   "iru-dhuruvam-2-2023": "2026-10-11T09:18:29.181Z",
   "ma-ka-sum-2026": "2026-10-11T09:19:15.819Z",
   "2025-tamil-movie": "2026-10-11T09:17:04.638Z",
@@ -48393,28 +48385,26 @@
   "the-crimes-of-grindelwald-2018": "2026-10-11T09:20:02.759Z",
   "the-jungle-bunch-the-movie-2011": "2026-10-11T09:19:31.501Z",
   "the-lord-of-the-rings-3": "2026-10-11T09:19:22.374Z",
-  "the-lost-village-2017": "2026-10-11T09:19:22.374Z",
-  "the-messenger-of-god-2015": "2026-10-11T09:19:15.819Z",
-  "the-monkey-is-back-2021": "2026-10-11T09:19:11.667Z",
-  "the-outpost-2021": "2026-10-11T09:19:04.243Z",
-  "the-santa-clause-1-1994": "2026-10-11T09:18:58.495Z",
-  "the-seed-of-the-sacred-fig-2025": "2026-10-11T09:18:56.382Z",
+  "the-lost-village-2017": "2026-10-11T13:14:15.664Z",
+  "the-messenger-of-god-2015": "2026-10-11T13:14:11.777Z",
+  "the-monkey-is-back-2021": "2026-10-11T13:14:11.777Z",
+  "the-santa-clause-1-1994": "2026-10-11T13:13:56.067Z",
   "the-toxic-avenger-2023": "2026-10-11T09:18:33.450Z",
-  "the-whistleblower-2020": "2026-10-11T09:18:29.181Z",
-  "the-white-snake-2011": "2026-10-11T09:18:29.181Z",
-  "the-wild-thornberrys-2002": "2026-10-11T09:18:25.896Z",
+  "the-whistleblower-2020": "2026-10-11T13:13:18.253Z",
+  "the-white-snake-2011": "2026-10-11T13:13:18.253Z",
+  "the-wild-thornberrys-2002": "2026-10-11T13:13:18.253Z",
   "tiger-cage-1990": "2026-10-11T09:18:23.936Z",
   "trip-to-africa": "2026-10-11T09:18:20.651Z",
   "union-bound-2016": "2026-10-11T09:18:14.695Z",
   "up-up-and-up-2019": "2026-10-11T09:18:11.854Z",
   "vanished-left-behind-next-generation-2016": "2026-10-11T09:18:06.211Z",
   "volcanion-and-the-mechanical-marvel-2016": "2026-10-11T09:18:06.211Z",
-  "witch-hunters-2013": "2026-10-11T09:18:02.048Z",
+  "witch-hunters-2013": "2026-10-11T13:12:59.477Z",
   "wrong-foot": "2026-10-11T09:17:59.421Z",
-  "wrong-turn-2-2007": "2026-10-11T09:17:57.504Z",
+  "wrong-turn-2-2007": "2026-10-11T13:12:57.545Z",
   "xplore-bhutan": "2026-10-11T09:17:54.423Z",
   "xplore-spain": "2026-10-11T09:17:54.423Z",
-  "you-are-cordially-invited-2025": "2026-10-11T09:17:53.434Z",
+  "you-are-cordially-invited-2025": "2026-10-11T13:12:53.232Z",
   "young-heroes-of-chaotic-time-2022": "2026-10-11T09:17:51.542Z",
   "10-5-part-1-2004": "2026-10-11T09:24:48.292Z",
   "14-the-ultimate-sacrifice": "2026-10-11T09:24:48.292Z",
@@ -48490,21 +48480,20 @@
   "the-beast-master-1982": "2026-10-11T09:20:02.759Z",
   "the-chronicles-of-narnia-1-2005": "2026-10-11T09:19:56.334Z",
   "the-conqueror-2019": "2026-10-11T09:19:49.500Z",
-  "the-hairy-tooth-fairy-2020": "2026-10-11T09:19:27.081Z",
-  "the-journey-home-2021": "2026-10-11T09:19:20.359Z",
-  "the-last-samuri-2003": "2026-10-11T09:19:09.528Z",
-  "the-lost-dragon-2014": "2026-10-11T09:19:02.174Z",
-  "the-matrix-3-revolutions-2003": "2026-10-11T09:19:00.410Z",
-  "the-one-who-steals-others-heart-2017": "2026-10-11T09:19:00.410Z",
+  "the-journey-home-2021": "2026-10-11T13:14:15.664Z",
+  "the-last-samuri-2003": "2026-10-11T13:14:05.772Z",
+  "the-lost-dragon-2014": "2026-10-11T13:14:01.207Z",
+  "the-matrix-3-revolutions-2003": "2026-10-11T13:13:59.843Z",
+  "the-one-who-steals-others-heart-2017": "2026-10-11T13:13:56.067Z",
   "the-swan-2023": "2026-10-11T09:18:43.224Z",
   "the-treasures-of-lake-kaban-2013": "2026-10-11T09:18:31.321Z",
-  "the-worm-valley-2023": "2026-10-11T09:18:20.651Z",
+  "the-worm-valley-2023": "2026-10-11T13:13:06.178Z",
   "tom-clancys-jack-ryan-2019": "2026-10-11T09:18:16.325Z",
-  "treasure-of-the-lost-lamp-1990": "2026-10-11T09:18:14.695Z",
-  "vanished-jade-seal-2022": "2026-10-11T09:17:59.421Z",
-  "water-monster-2019": "2026-10-11T09:17:51.542Z",
-  "welcome-to-the-jungle-2017": "2026-10-11T09:17:49.667Z",
-  "wrath-of-the-dragon-god-2005": "2026-10-11T09:17:42.628Z",
+  "treasure-of-the-lost-lamp-1990": "2026-10-11T13:13:06.178Z",
+  "vanished-jade-seal-2022": "2026-10-11T13:12:57.545Z",
+  "water-monster-2019": "2026-10-11T13:12:50.792Z",
+  "welcome-to-the-jungle-2017": "2026-10-11T13:12:50.792Z",
+  "wrath-of-the-dragon-god-2005": "2026-10-11T13:12:47.594Z",
   "wrecker-2017": "2026-10-11T09:17:42.628Z",
   "13-the-mother-of-all-vreedles": "2026-10-11T09:24:48.519Z",
   "17-the-creature-from-beyond": "2026-10-11T09:24:48.519Z",
@@ -48580,26 +48569,25 @@
   "the-boys-2022": "2026-10-11T09:19:59.221Z",
   "the-chosen-guard-2021": "2026-10-11T09:19:49.500Z",
   "the-first-papal-address": "2026-10-11T09:19:33.035Z",
-  "the-ghost-that-had-to-go-2021": "2026-10-11T09:19:31.501Z",
+  "the-ghost-that-had-to-go-2021": "2026-10-11T13:14:24.346Z",
   "the-hacker-2017": "2026-10-11T09:19:27.081Z",
   "the-hero-is-back-2015": "2026-10-11T09:19:22.374Z",
-  "the-lord-of-the-rings-2": "2026-10-11T09:19:09.528Z",
+  "the-lord-of-the-rings-2": "2026-10-11T13:14:05.772Z",
   "the-magic-brush-2014": "2026-10-11T09:19:07.900Z",
-  "the-man-named-leopard-2019": "2026-10-11T09:19:04.243Z",
   "the-matrix-2-reloaded-2003": "2026-10-11T09:19:02.174Z",
   "the-power-of-us-2018": "2026-10-11T09:18:58.495Z",
-  "the-protector-1-2005": "2026-10-11T09:18:56.381Z",
-  "the-search-for-christopher-robin-1997": "2026-10-11T09:18:52.873Z",
-  "the-smurfs-1-2011": "2026-10-11T09:18:51.795Z",
+  "the-protector-1-2005": "2026-10-11T13:13:50.399Z",
+  "the-search-for-christopher-robin-1997": "2026-10-11T13:13:49.147Z",
+  "the-smurfs-1-2011": "2026-10-11T13:13:44.577Z",
   "the-snow-queen-2-the-snow-king-2014": "2026-10-11T09:18:51.795Z",
   "the-source-2011": "2026-10-11T09:18:51.795Z",
   "the-take-down-2017": "2026-10-11T09:18:44.375Z",
-  "trial-of-justice-2021": "2026-10-11T09:18:06.211Z",
+  "trial-of-justice-2021": "2026-10-11T13:13:06.178Z",
   "undercover-counter-attack-2022": "2026-10-11T09:18:02.049Z",
-  "vampire-hunter-2012": "2026-10-11T09:17:57.504Z",
+  "vampire-hunter-2012": "2026-10-11T13:12:56.531Z",
   "whiteout-2023": "2026-10-11T09:17:47.075Z",
-  "wolverine-2009": "2026-10-11T09:17:35.301Z",
-  "year-of-the-dance-2019": "2026-10-11T09:17:30.433Z",
+  "wolverine-2009": "2026-10-11T13:12:44.605Z",
+  "year-of-the-dance-2019": "2026-10-11T13:12:38.238Z",
   "12-the-purge": "2026-10-11T09:24:45.268Z",
   "16-the-perfect-girlfriend": "2026-10-11T09:24:41.633Z",
   "23-a-knight-to-remember": "2026-10-11T09:24:41.633Z",
@@ -48677,72 +48665,65 @@
   "taken-1-2008": "2026-10-11T09:20:01.040Z",
   "the-alleys-2020": "2026-10-11T09:19:56.334Z",
   "the-bloody-blade-of-king-lanling-2021": "2026-10-11T09:19:33.035Z",
-  "the-bodyguard-2016": "2026-10-11T09:19:31.501Z",
-  "the-dream-begins-2005": "2026-10-11T09:19:20.359Z",
+  "the-bodyguard-2016": "2026-10-11T13:14:24.346Z",
+  "the-dream-begins-2005": "2026-10-11T13:14:11.777Z",
   "the-legend-of-deification-2021": "2026-10-11T09:18:54.318Z",
-  "the-legend-of-living-souls-2023": "2026-10-11T09:18:52.873Z",
+  "the-legend-of-living-souls-2023": "2026-10-11T13:13:49.147Z",
   "the-lord-of-the-rings-1": "2026-10-11T09:18:52.873Z",
   "the-middle-kingdom-2023": "2026-10-11T09:18:44.375Z",
-  "the-origin-of-awesome-2014": "2026-10-11T09:18:43.224Z",
+  "the-origin-of-awesome-2014": "2026-10-11T13:13:38.187Z",
   "the-poison-at-the-east-palace-2016": "2026-10-11T09:18:34.622Z",
   "the-rugrats-movie-1988": "2026-10-11T09:18:29.181Z",
   "the-silent-forest-2022": "2026-10-11T09:18:25.896Z",
-  "the-surfer-2024": "2026-10-11T09:18:25.896Z",
-  "the-sword-identity-2011": "2026-10-11T09:18:23.936Z",
-  "the-warrior-way-2010": "2026-10-11T09:18:04.639Z",
+  "the-sword-identity-2011": "2026-10-11T13:13:12.221Z",
+  "the-warrior-way-2010": "2026-10-11T13:13:01.728Z",
   "the-witch-2-2022": "2026-10-11T09:18:02.049Z",
-  "the-wrath-of-paul-bunyan-2013": "2026-10-11T09:17:59.421Z",
+  "the-wrath-of-paul-bunyan-2013": "2026-10-11T13:12:57.545Z",
   "tiger-pushes-mountain": "2026-10-11T09:17:53.434Z",
-  "time-and-tide-2000": "2026-10-11T09:17:51.542Z",
-  "toy-story-1-1995": "2026-10-11T09:17:49.667Z",
-  "trouble-in-tokyo-2006": "2026-10-11T09:17:39.539Z",
-  "twinkling-watermelon-2025": "2026-10-11T09:17:35.301Z",
+  "toy-story-1-1995": "2026-10-11T13:12:50.792Z",
+  "trouble-in-tokyo-2006": "2026-10-11T13:12:46.074Z",
   "unstoppable-2025": "2026-10-11T09:17:30.433Z",
   "vanquisher-2009": "2026-10-11T09:17:30.433Z",
-  "wicked-little-letters-2023": "2026-10-11T09:17:28.717Z",
   "will-pius-xiii-get-his-way": "2026-10-11T09:17:28.717Z",
   "wolfs-breath-dragon-fire": "2026-10-11T09:17:25.885Z",
-  "wonder-emporium-2007": "2026-10-11T09:17:25.885Z",
+  "wonder-emporium-2007": "2026-10-11T13:12:36.593Z",
   "maharani-2025": "2026-10-11T09:25:00.627Z",
-  "endrum-nam-ninaivil-robo-shankar-2025": "2026-10-11T09:17:23.185Z",
-  "hush-hush-season-01-2023": "2026-10-11T09:17:21.152Z",
-  "ishq-epress-2024": "2026-10-11T09:17:19.865Z",
-  "loser-2021": "2026-10-11T09:17:17.464Z",
-  "my-perfect-husband-2024": "2026-10-11T09:17:14.056Z",
-  "sshhh-2025": "2026-10-11T09:17:14.056Z",
-  "save-nalla-pasanga-2025": "2026-10-11T09:17:12.631Z",
-  "suzhal-2-the-vortex-2025": "2026-10-11T09:17:12.631Z",
-  "vaanil-thedinen-2025": "2026-10-11T09:17:06.609Z",
-  "mad-square-2025": "2026-10-11T09:19:20.359Z",
+  "endrum-nam-ninaivil-robo-shankar-2025": "2026-10-11T13:12:36.592Z",
+  "ishq-epress-2024": "2026-10-11T13:12:34.763Z",
+  "loser-2021": "2026-10-11T13:12:34.763Z",
+  "my-perfect-husband-2024": "2026-10-11T13:12:31.193Z",
+  "save-nalla-pasanga-2025": "2026-10-11T13:12:31.192Z",
+  "suzhal-2-the-vortex-2025": "2026-10-11T13:12:30.608Z",
+  "vaanil-thedinen-2025": "2026-10-11T13:12:29.661Z",
+  "mad-square-2025": "2026-10-11T13:14:11.777Z",
   "detective-dee-ninth-floor-demon-tower-2022": "2026-10-11T09:23:56.430Z",
   "fists-spearhead-2021": "2026-10-11T09:23:19.012Z",
   "a-writers-odyssey-2021": "2026-10-11T09:24:39.519Z",
   "king-serpent-island-2021": "2026-10-11T09:22:31.800Z",
   "prison-on-fire-2-1991": "2026-10-11T09:21:07.507Z",
-  "the-last-knight-2017": "2026-10-11T09:19:11.666Z",
-  "the-legend-of-mermaid-2020": "2026-10-11T09:19:07.900Z",
-  "wu-kong-2017": "2026-10-11T09:17:37.841Z",
+  "the-last-knight-2017": "2026-10-11T13:14:08.506Z",
+  "the-legend-of-mermaid-2020": "2026-10-11T13:14:03.612Z",
+  "wu-kong-2017": "2026-10-11T13:12:44.605Z",
   "azaan-2011": "2026-10-11T09:24:29.620Z",
   "jackie-chan-presents-amnesia-2015": "2026-10-11T09:22:31.800Z",
   "man-hua-xiong-xin-2021": "2026-10-11T09:22:07.468Z",
   "prison-on-fire-1-1987": "2026-10-11T09:21:21.723Z",
   "tomb-story-2018": "2026-10-11T09:18:16.325Z",
   "white-haired-devil-lady-2020": "2026-10-11T09:17:47.075Z",
-  "winners-and-sinners-1983": "2026-10-11T09:17:42.628Z",
+  "winners-and-sinners-1983": "2026-10-11T13:12:46.074Z",
   "southern-shaolin-and-the-fierce-buddha-warriors-2021": "2026-10-11T09:20:13.691Z",
   "animals-2026": "2026-10-11T09:17:04.637Z",
-  "eyes-2026": "2026-10-11T09:17:06.609Z",
   "assassins-2020": "2026-10-11T09:24:32.558Z"
  },
  "metadata": {
   "epic-2026": {
    "version": 2,
-   "identity": "82bb8aacb823181cf92a",
+   "identity": "b7f8c49f5dc9b4e5f348",
    "status": "unavailable",
    "reason": "tmdb-request-budget",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:04.637Z",
-   "nextRetryAt": "2026-10-11T10:17:04.637Z",
+   "checkedAt": "2026-10-11T13:12:28.465Z",
+   "nextRetryAt": "2026-10-11T14:12:28.465Z",
    "requests": 120,
    "notes": [
     {
@@ -48789,12 +48770,12 @@
   },
   "fall-season-1-2022": {
    "version": 2,
-   "identity": "ea72e216090a6fa23e93",
+   "identity": "43a4e856e9bb968a2b86",
    "status": "unavailable",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:04.637Z",
-   "nextRetryAt": "2026-10-11T10:17:04.637Z",
+   "checkedAt": "2026-10-11T13:12:28.465Z",
+   "nextRetryAt": "2026-10-11T14:12:28.465Z",
    "requests": 120,
    "notes": [
     {
@@ -48820,13 +48801,13 @@
   },
   "1971-raanuvayellai-2024": {
    "version": 2,
-   "identity": "b7e2cf7e330964213865",
+   "identity": "3796ae008b999b503abd",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:04.638Z",
-   "nextRetryAt": "2026-10-11T15:17:04.638Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:28.465Z",
+   "nextRetryAt": "2026-10-11T19:12:28.465Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -48898,68 +48879,22 @@
   },
   "eyes-2026": {
    "version": 2,
-   "identity": "6601457c39e0acd22aa8",
-   "status": "review",
-   "reason": "scoped-match-needs-review",
+   "identity": "9b49db152392809d4b96",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:06.609Z",
-   "nextRetryAt": "2026-10-18T09:17:06.609Z",
-   "requests": 35,
-   "notes": [
-    {
-     "reason": "tv-search-year-scoped",
-     "year": 2026
-    },
-    {
-     "reason": "tv-search-year-scoped",
-     "year": 2026
-    },
-    {
-     "reason": "scoped-search-needs-credits"
-    },
-    {
-     "reason": "scoped-match-needs-review",
-     "suggestedTmdbId": 255613,
-     "suggestedTmdbType": "tv",
-     "suggestedTitle": "Eyes",
-     "suggestedOriginalLanguage": "ml",
-     "evidence": {
-      "sourceUrl": "https://moviezda.net/eyes-2026-tamil-web-series/",
-      "sourceYear": 2026,
-      "castMatches": [
-       "Kani Kusruti",
-       "Shruti Ramachandran",
-       "Nikhila Vimal"
-      ],
-      "directorMatches": [
-       "Manu Ashokan"
-      ],
-      "titleScore": 1,
-      "searchScope": "year-scoped-with-credits",
-      "distinctive": [
-       {
-        "name": "Kani Kusruti",
-        "personId": 1399177
-       },
-       {
-        "name": "Shruti Ramachandran",
-        "personId": 1668327
-       }
-      ],
-      "explicitSeason": 0,
-      "firstAirYear": 2026
-     }
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:29.661Z",
+   "nextRetryAt": "2026-11-10T13:12:29.661Z",
+   "requests": 2
   },
   "vaanil-thedinen-2025": {
    "version": 2,
-   "identity": "f8464fdc59b23c32a42f",
+   "identity": "c09b3b770feead4f83a0",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:06.609Z",
-   "nextRetryAt": "2026-10-11T15:17:06.609Z",
+   "checkedAt": "2026-10-11T13:12:29.661Z",
+   "nextRetryAt": "2026-10-11T19:12:29.661Z",
    "requests": 5,
    "notes": [
     {
@@ -49006,13 +48941,13 @@
   },
   "30-naatkalil-kaadhalippadhu-eppadi-2022": {
    "version": 2,
-   "identity": "2dc0153c7232722d34d3",
+   "identity": "4cb03c1a1d5a99e02ba9",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:06.610Z",
-   "nextRetryAt": "2026-10-11T15:17:06.610Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:29.660Z",
+   "nextRetryAt": "2026-10-11T19:12:29.660Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49072,13 +49007,13 @@
   },
   "suzhal-2-the-vortex-2025": {
    "version": 2,
-   "identity": "e8b36826261b37f71cd5",
+   "identity": "89374e1bacbd18ddda04",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:12.631Z",
-   "nextRetryAt": "2026-10-11T15:17:12.631Z",
-   "requests": 3,
+   "checkedAt": "2026-10-11T13:12:30.608Z",
+   "nextRetryAt": "2026-10-11T19:12:30.608Z",
+   "requests": 4,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49092,12 +49027,12 @@
   },
   "save-nalla-pasanga-2025": {
    "version": 2,
-   "identity": "587f1ddea4a00b812a56",
+   "identity": "f77a2439734cc7d7de50",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:12.631Z",
-   "nextRetryAt": "2026-10-11T15:17:12.631Z",
+   "checkedAt": "2026-10-11T13:12:31.192Z",
+   "nextRetryAt": "2026-10-11T19:12:31.192Z",
    "requests": 3,
    "notes": [
     {
@@ -49112,23 +49047,13 @@
   },
   "a-aa-2021": {
    "version": 2,
-   "identity": "49ef4611bb00e240b105",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "0d775315be68f0f1dfbb",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:12.631Z",
-   "nextRetryAt": "2026-10-11T15:17:12.631Z",
-   "requests": 101,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:29.661Z",
+   "nextRetryAt": "2026-11-10T13:12:29.661Z",
+   "requests": 1
   },
   "aaravadhu-vanam-2011": {
    "version": 2,
@@ -49152,13 +49077,13 @@
   },
   "abdhul-2024": {
    "version": 2,
-   "identity": "b198af6768560da1c833",
+   "identity": "26e28d4fb3396b8b4541",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:14.056Z",
-   "nextRetryAt": "2026-10-11T15:17:14.056Z",
-   "requests": 8,
+   "checkedAt": "2026-10-11T13:12:30.608Z",
+   "nextRetryAt": "2026-10-11T19:12:30.608Z",
+   "requests": 9,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49202,33 +49127,23 @@
   },
   "sshhh-2025": {
    "version": 2,
-   "identity": "811750507801e6f48e49",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "1c7ccf1e4563b8865f0b",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:14.056Z",
-   "nextRetryAt": "2026-10-11T15:17:14.056Z",
-   "requests": 5,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:31.192Z",
+   "nextRetryAt": "2026-11-10T13:12:31.192Z",
+   "requests": 2
   },
   "my-perfect-husband-2024": {
    "version": 2,
-   "identity": "c34d1f5a0f65dfd700d5",
+   "identity": "ed5147dac75894f59738",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:14.056Z",
-   "nextRetryAt": "2026-10-11T15:17:14.056Z",
-   "requests": 5,
+   "checkedAt": "2026-10-11T13:12:31.193Z",
+   "nextRetryAt": "2026-10-11T19:12:31.193Z",
+   "requests": 6,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49242,12 +49157,12 @@
   },
   "accused-no-1-2019": {
    "version": 2,
-   "identity": "c5cef7a2f24da814cdc1",
+   "identity": "3407273a74956ad80184",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:17.464Z",
-   "nextRetryAt": "2026-10-11T15:17:17.464Z",
+   "checkedAt": "2026-10-11T13:12:30.608Z",
+   "nextRetryAt": "2026-10-11T19:12:30.608Z",
    "requests": 8,
    "notes": [
     {
@@ -49266,13 +49181,13 @@
   },
   "adventures-of-mahaan-2024": {
    "version": 2,
-   "identity": "b425196ee8debc9f2d68",
+   "identity": "2ce5af4aeebfc9d1237f",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:17.464Z",
-   "nextRetryAt": "2026-10-11T15:17:17.464Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:30.608Z",
+   "nextRetryAt": "2026-10-11T19:12:30.608Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49320,12 +49235,12 @@
   },
   "loser-2021": {
    "version": 2,
-   "identity": "0717df1302d35a6b50bc",
+   "identity": "b2bc29db3b61d0499f39",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:17.464Z",
-   "nextRetryAt": "2026-10-11T15:17:17.464Z",
+   "checkedAt": "2026-10-11T13:12:34.763Z",
+   "nextRetryAt": "2026-10-11T19:12:34.763Z",
    "requests": 51,
    "notes": [
     {
@@ -49369,37 +49284,23 @@
   },
   "ananda-kalyanam-2024": {
    "version": 2,
-   "identity": "18f5c9f1103ca7652e72",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "8a0fa5905f144c68d04c",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:19.865Z",
-   "nextRetryAt": "2026-10-11T15:17:19.865Z",
-   "requests": 6,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:31.193Z",
+   "nextRetryAt": "2026-11-10T13:12:31.193Z",
+   "requests": 2
   },
   "anandha-thandavam-2009": {
    "version": 2,
-   "identity": "21c1b7cc799387b951b9",
+   "identity": "1c27196e3f47c34be897",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:19.865Z",
-   "nextRetryAt": "2026-10-11T15:17:19.865Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:34.763Z",
+   "nextRetryAt": "2026-10-11T19:12:34.763Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49417,13 +49318,13 @@
   },
   "ananthapurathu-veedu-2010": {
    "version": 2,
-   "identity": "adfcd7f0392fcda807c1",
+   "identity": "c0168a14045797c6a4d7",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:19.865Z",
-   "nextRetryAt": "2026-10-11T15:17:19.865Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:34.763Z",
+   "nextRetryAt": "2026-10-11T19:12:34.763Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49451,13 +49352,13 @@
   },
   "ishq-epress-2024": {
    "version": 2,
-   "identity": "19169f2237378c7e46fd",
+   "identity": "df4adc5274e6e2e86309",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:19.865Z",
-   "nextRetryAt": "2026-10-11T15:17:19.865Z",
-   "requests": 5,
+   "checkedAt": "2026-10-11T13:12:34.763Z",
+   "nextRetryAt": "2026-10-11T19:12:34.763Z",
+   "requests": 6,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49471,19 +49372,13 @@
   },
   "hush-hush-season-01-2023": {
    "version": 2,
-   "identity": "f66fe6e6479c2f54af24",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "2529fc1e5a021fa598ef",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:21.152Z",
-   "nextRetryAt": "2026-10-11T15:17:21.152Z",
-   "requests": 12,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:35.851Z",
+   "nextRetryAt": "2026-11-10T13:12:35.851Z",
+   "requests": 1
   },
   "highway-love-2024": {
    "version": 2,
@@ -49503,33 +49398,23 @@
   },
   "anbudan-appavukku-2019": {
    "version": 2,
-   "identity": "30345bf70c5852e779fe",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "1b3e4ccee5d135f80e07",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:21.152Z",
-   "nextRetryAt": "2026-10-11T15:17:21.152Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:35.851Z",
+   "nextRetryAt": "2026-11-10T13:12:35.851Z",
+   "requests": 1
   },
   "anubhavi-raja-2024": {
    "version": 2,
-   "identity": "ef92679c9bc31aa0baa6",
+   "identity": "30815305181f96be6d80",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:21.152Z",
-   "nextRetryAt": "2026-10-11T15:17:21.152Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:35.851Z",
+   "nextRetryAt": "2026-10-11T19:12:35.851Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49597,12 +49482,12 @@
   },
   "endrum-nam-ninaivil-robo-shankar-2025": {
    "version": 2,
-   "identity": "3e8f73fc5a3545fc47c4",
+   "identity": "f6f9474d3c33c4a25cc7",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:23.185Z",
-   "nextRetryAt": "2026-10-11T15:17:23.185Z",
+   "checkedAt": "2026-10-11T13:12:36.592Z",
+   "nextRetryAt": "2026-10-11T19:12:36.592Z",
    "requests": 2,
    "notes": [
     {
@@ -49629,13 +49514,13 @@
   },
   "arjuna-kaappaathu-2022": {
    "version": 2,
-   "identity": "c17aa7c7682324902c99",
+   "identity": "68df05f72d5b68c29f09",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:23.185Z",
-   "nextRetryAt": "2026-10-11T15:17:23.185Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:35.851Z",
+   "nextRetryAt": "2026-10-11T19:12:35.851Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49653,13 +49538,13 @@
   },
   "arputha-theevu-2007": {
    "version": 2,
-   "identity": "25faefacf79d57352d43",
+   "identity": "08a619ede05f7f4566e5",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:23.186Z",
-   "nextRetryAt": "2026-10-11T15:17:23.186Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:36.593Z",
+   "nextRetryAt": "2026-10-11T19:12:36.593Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -49724,12 +49609,12 @@
   },
   "wonder-emporium-2007": {
    "version": 2,
-   "identity": "6fb9e1fbf853941904af",
+   "identity": "f7b1db3bdd56ac61e761",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:25.885Z",
-   "nextRetryAt": "2026-10-11T15:17:25.885Z",
+   "checkedAt": "2026-10-11T13:12:36.593Z",
+   "nextRetryAt": "2026-10-11T19:12:36.593Z",
    "requests": 9,
    "notes": [
     {
@@ -49812,27 +49697,13 @@
   },
   "ayogya-2024": {
    "version": 2,
-   "identity": "15d470e4760d75346e2b",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "e7a6838040be1d8ce950",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:28.717Z",
-   "nextRetryAt": "2026-10-11T15:17:28.717Z",
-   "requests": 9,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:38.237Z",
+   "nextRetryAt": "2026-11-10T13:12:38.237Z",
+   "requests": 2
   },
   "a-padam-2026": {
    "version": 2,
@@ -49862,42 +49733,24 @@
   },
   "wicked-little-letters-2023": {
    "version": 2,
-   "identity": "961e11d3d46eff645917",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "02c2a9f7fce97c06ebf4",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:28.717Z",
-   "nextRetryAt": "2026-10-11T15:17:28.717Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:36.593Z",
+   "nextRetryAt": "2026-11-10T13:12:36.593Z",
+   "requests": 1
   },
   "vip-2019": {
    "version": 2,
-   "identity": "78c7d9c66aaaf68d8dab",
+   "identity": "baef8c606fbe766d3b31",
    "status": "unavailable",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:28.717Z",
-   "nextRetryAt": "2026-10-11T10:17:28.717Z",
-   "requests": 39,
+   "checkedAt": "2026-10-11T13:12:38.238Z",
+   "nextRetryAt": "2026-10-11T14:12:38.238Z",
+   "requests": 21,
    "notes": [
-    {
-     "reason": "tv-search-year-scoped",
-     "year": 2019
-    },
-    {
-     "reason": "tv-search-year-scoped",
-     "year": 2019
-    },
     {
      "reason": "source-credits-conflict",
      "tmdbId": 94642,
@@ -49913,26 +49766,13 @@
   },
   "baby-and-baby-2025": {
    "version": 2,
-   "identity": "75f50941b1de1e3fad2f",
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
+   "identity": "619d18f503c343e7db83",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:28.717Z",
-   "nextRetryAt": "2026-10-11T10:17:28.717Z",
-   "requests": 26,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "scoped-search-needs-review"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:38.237Z",
+   "nextRetryAt": "2026-11-10T13:12:38.237Z",
+   "requests": 2
   },
   "bachelor-prasad-2025": {
    "version": 2,
@@ -50039,12 +49879,12 @@
   },
   "year-of-the-dance-2019": {
    "version": 2,
-   "identity": "475925ea31984bddb24f",
+   "identity": "d581d8d3fdc99acdf7a3",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:30.433Z",
-   "nextRetryAt": "2026-10-11T15:17:30.433Z",
+   "checkedAt": "2026-10-11T13:12:38.238Z",
+   "nextRetryAt": "2026-10-11T19:12:38.238Z",
    "requests": 10,
    "notes": [
     {
@@ -50063,13 +49903,13 @@
   },
   "bairavan-2025": {
    "version": 2,
-   "identity": "2fbb7cda42c03222c314",
+   "identity": "46b363ca66d3bdef10ef",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:35.301Z",
-   "nextRetryAt": "2026-10-11T15:17:35.301Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:39.755Z",
+   "nextRetryAt": "2026-10-11T19:12:39.755Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50087,13 +49927,13 @@
   },
   "baskar-thalaimaraivu-2024": {
    "version": 2,
-   "identity": "d81928f754a13192ff1f",
+   "identity": "ea976de340409470f73c",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:35.301Z",
-   "nextRetryAt": "2026-10-11T15:17:35.301Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:39.755Z",
+   "nextRetryAt": "2026-10-11T19:12:39.755Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50145,28 +49985,22 @@
   },
   "twinkling-watermelon-2025": {
    "version": 2,
-   "identity": "1f5fc72f23739f1122b5",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "1bfbd5ceb12e4573d156",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:35.301Z",
-   "nextRetryAt": "2026-10-11T15:17:35.301Z",
-   "requests": 3,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:39.755Z",
+   "nextRetryAt": "2026-11-10T13:12:39.755Z",
+   "requests": 1
   },
   "wolverine-2009": {
    "version": 2,
-   "identity": "43a46fe91e50b80134de",
+   "identity": "906a9d1196461e0ce77d",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:35.301Z",
-   "nextRetryAt": "2026-10-11T15:17:35.301Z",
+   "checkedAt": "2026-10-11T13:12:44.605Z",
+   "nextRetryAt": "2026-10-11T19:12:44.605Z",
    "requests": 66,
    "notes": [
     {
@@ -50185,34 +50019,23 @@
   },
   "x-2022": {
    "version": 2,
-   "identity": "7858bd60e077ae11efa1",
-   "status": "unavailable",
-   "reason": "candidate-scope-truncated",
+   "identity": "52a5dc550e995dfb93c3",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:37.841Z",
-   "nextRetryAt": "2026-10-11T10:17:37.841Z",
-   "requests": 2,
-   "notes": [
-    {
-     "reason": "candidate-scope-truncated",
-     "type": "movie",
-     "year": 2022
-    },
-    {
-     "reason": "candidate-scope-truncated",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:44.605Z",
+   "nextRetryAt": "2026-11-10T13:12:44.605Z",
+   "requests": 2
   },
   "bazar-rowdy-2024": {
    "version": 2,
-   "identity": "b96f2bc3fa1fa2cf79b8",
+   "identity": "c4df4e248e64380cfa68",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:37.841Z",
-   "nextRetryAt": "2026-10-11T15:17:37.841Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:39.755Z",
+   "nextRetryAt": "2026-10-11T19:12:39.755Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50250,13 +50073,13 @@
   },
   "bhairavagramam-2012-2023": {
    "version": 2,
-   "identity": "e0d7cd1697989d30f30a",
+   "identity": "a8c6986de6f6993ed49a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:37.841Z",
-   "nextRetryAt": "2026-10-11T15:17:37.841Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:44.605Z",
+   "nextRetryAt": "2026-10-11T19:12:44.605Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50284,13 +50107,13 @@
   },
   "wu-kong-2017": {
    "version": 2,
-   "identity": "4aaee9729fca3abf704e",
+   "identity": "32f38ac3e7a52bfebb72",
    "status": "review",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:37.841Z",
-   "nextRetryAt": "2026-10-18T09:17:37.841Z",
-   "requests": 22,
+   "checkedAt": "2026-10-11T13:12:44.605Z",
+   "nextRetryAt": "2026-10-18T13:12:44.605Z",
+   "requests": 18,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -50328,12 +50151,12 @@
   },
   "trouble-in-tokyo-2006": {
    "version": 2,
-   "identity": "737818bf68d869db92d6",
+   "identity": "d71fc26fe484b681b4a2",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:39.539Z",
-   "nextRetryAt": "2026-10-11T15:17:39.539Z",
+   "checkedAt": "2026-10-11T13:12:46.074Z",
+   "nextRetryAt": "2026-10-11T19:12:46.074Z",
    "requests": 10,
    "notes": [
     {
@@ -50426,13 +50249,13 @@
   },
   "winners-and-sinners-1983": {
    "version": 2,
-   "identity": "d3ad146c711f35353b3d",
+   "identity": "083dde16c32bf06b5d7b",
    "status": "review",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:42.628Z",
-   "nextRetryAt": "2026-10-18T09:17:42.628Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:46.074Z",
+   "nextRetryAt": "2026-10-18T13:12:46.074Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -50474,12 +50297,12 @@
   },
   "wrath-of-the-dragon-god-2005": {
    "version": 2,
-   "identity": "ed9826537572d46e91fc",
+   "identity": "6fa02d5c17a7f85e5843",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:42.628Z",
-   "nextRetryAt": "2026-10-11T15:17:42.628Z",
+   "checkedAt": "2026-10-11T13:12:47.594Z",
+   "nextRetryAt": "2026-10-11T19:12:47.594Z",
    "requests": 9,
    "notes": [
     {
@@ -50659,13 +50482,13 @@
   },
   "burma-nagar-das-2024": {
    "version": 2,
-   "identity": "e3d794d6a224f961afa4",
+   "identity": "1b2cefc0b0ed83db391d",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:47.076Z",
-   "nextRetryAt": "2026-10-11T15:17:47.076Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:46.073Z",
+   "nextRetryAt": "2026-10-11T19:12:46.073Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50683,13 +50506,13 @@
   },
   "chaitra-the-beginning-of-the-end-2023": {
    "version": 2,
-   "identity": "2118c105aa3888e1c6e4",
+   "identity": "a845dbec16bdf596555a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:47.076Z",
-   "nextRetryAt": "2026-10-11T15:17:47.076Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:46.073Z",
+   "nextRetryAt": "2026-10-11T19:12:46.073Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50741,12 +50564,12 @@
   },
   "welcome-to-the-jungle-2017": {
    "version": 2,
-   "identity": "34bf3ddf1fa0f6a3cd84",
+   "identity": "e6de0a20cf106b5a913a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:49.667Z",
-   "nextRetryAt": "2026-10-11T15:17:49.667Z",
+   "checkedAt": "2026-10-11T13:12:50.792Z",
+   "nextRetryAt": "2026-10-11T19:12:50.792Z",
    "requests": 19,
    "notes": [
     {
@@ -50765,12 +50588,12 @@
   },
   "toy-story-1-1995": {
    "version": 2,
-   "identity": "5053212b5ef8ba905771",
+   "identity": "d6108f408e7a9ce30987",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:49.667Z",
-   "nextRetryAt": "2026-10-11T15:17:49.667Z",
+   "checkedAt": "2026-10-11T13:12:50.792Z",
+   "nextRetryAt": "2026-10-11T19:12:50.792Z",
    "requests": 10,
    "notes": [
     {
@@ -50805,13 +50628,13 @@
   },
   "chellamay-2004": {
    "version": 2,
-   "identity": "b945719051821f920dbc",
+   "identity": "9ef35046cb492cf20f3c",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:49.667Z",
-   "nextRetryAt": "2026-10-11T15:17:49.667Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:47.594Z",
+   "nextRetryAt": "2026-10-11T19:12:47.594Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50853,13 +50676,13 @@
   },
   "chengalpattu-2025": {
    "version": 2,
-   "identity": "9180d6cf21399ac06e57",
+   "identity": "86a341e43feea5fed9c4",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:51.542Z",
-   "nextRetryAt": "2026-10-11T15:17:51.542Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:12:47.594Z",
+   "nextRetryAt": "2026-10-11T19:12:47.594Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -50887,12 +50710,12 @@
   },
   "water-monster-2019": {
    "version": 2,
-   "identity": "c725025c8b8412e740de",
+   "identity": "0098cf279c6a24260aac",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:51.542Z",
-   "nextRetryAt": "2026-10-11T15:17:51.542Z",
+   "checkedAt": "2026-10-11T13:12:50.792Z",
+   "nextRetryAt": "2026-10-11T19:12:50.792Z",
    "requests": 18,
    "notes": [
     {
@@ -50935,38 +50758,23 @@
   },
   "time-and-tide-2000": {
    "version": 2,
-   "identity": "fe664486729a02dfd921",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "9fa02879d7085ab19c9e",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:51.542Z",
-   "nextRetryAt": "2026-10-11T15:17:51.542Z",
-   "requests": 21,
-   "notes": [
-    {
-     "reason": "ambiguous-title-year",
-     "count": 2,
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:12:53.232Z",
+   "nextRetryAt": "2026-11-10T13:12:53.232Z",
+   "requests": 2
   },
   "chennai-to-bangkok-2020": {
    "version": 2,
-   "identity": "fcbd0d5529a10d70266f",
+   "identity": "96bf858b73f154c69537",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:53.434Z",
-   "nextRetryAt": "2026-10-11T15:17:53.434Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:47.594Z",
+   "nextRetryAt": "2026-10-11T19:12:47.594Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51058,13 +50866,13 @@
   },
   "you-are-cordially-invited-2025": {
    "version": 2,
-   "identity": "f6e19a47a52eeed4ea6f",
+   "identity": "eaeea6651298083f736d",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:53.434Z",
-   "nextRetryAt": "2026-10-11T15:17:53.434Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:53.232Z",
+   "nextRetryAt": "2026-10-11T19:12:53.232Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51138,13 +50946,13 @@
   },
   "daaku-mahaaraj-2025": {
    "version": 2,
-   "identity": "dc6720d4a99c7df857c8",
+   "identity": "51c197d5671e3690db6a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:54.423Z",
-   "nextRetryAt": "2026-10-11T15:17:54.423Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:50.792Z",
+   "nextRetryAt": "2026-10-11T19:12:50.792Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51188,12 +50996,12 @@
   },
   "vampire-hunter-2012": {
    "version": 2,
-   "identity": "91b3d9796edff9bbf274",
+   "identity": "9396d9a74aa81ff73254",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:57.504Z",
-   "nextRetryAt": "2026-10-11T15:17:57.504Z",
+   "checkedAt": "2026-10-11T13:12:56.531Z",
+   "nextRetryAt": "2026-10-11T19:12:56.531Z",
    "requests": 33,
    "notes": [
     {
@@ -51212,12 +51020,12 @@
   },
   "wrong-turn-2-2007": {
    "version": 2,
-   "identity": "239a89d2e727dc3c2cfb",
+   "identity": "7b5331c1e70b8a365af3",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:57.504Z",
-   "nextRetryAt": "2026-10-11T15:17:57.504Z",
+   "checkedAt": "2026-10-11T13:12:57.545Z",
+   "nextRetryAt": "2026-10-11T19:12:57.545Z",
    "requests": 10,
    "notes": [
     {
@@ -51236,13 +51044,13 @@
   },
   "dass-2005": {
    "version": 2,
-   "identity": "822b11f4ac66eb1ad0f5",
+   "identity": "0decff14f6b5f31c0ef6",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:57.504Z",
-   "nextRetryAt": "2026-10-11T10:17:57.504Z",
-   "requests": 30,
+   "checkedAt": "2026-10-11T13:12:53.232Z",
+   "nextRetryAt": "2026-10-11T14:12:53.232Z",
+   "requests": 31,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51259,13 +51067,13 @@
   },
   "dev-tamil-2019": {
    "version": 2,
-   "identity": "a544065971c093b443b9",
+   "identity": "1c6614fa48bdcceb94c3",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:57.504Z",
-   "nextRetryAt": "2026-10-11T15:17:57.504Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:53.232Z",
+   "nextRetryAt": "2026-10-11T19:12:53.232Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51283,13 +51091,13 @@
   },
   "dhanusu-raasi-neyargale-2019": {
    "version": 2,
-   "identity": "c6c683135a4db1d1f308",
+   "identity": "a6b472ef94978c93dc02",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:57.504Z",
-   "nextRetryAt": "2026-10-11T15:17:57.504Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:12:56.531Z",
+   "nextRetryAt": "2026-10-11T19:12:56.531Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51313,12 +51121,12 @@
   },
   "the-wrath-of-paul-bunyan-2013": {
    "version": 2,
-   "identity": "a7cb06a777c3c3aff666",
+   "identity": "73dc6d9207b0978c08bd",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:59.421Z",
-   "nextRetryAt": "2026-10-11T15:17:59.421Z",
+   "checkedAt": "2026-10-11T13:12:57.545Z",
+   "nextRetryAt": "2026-10-11T19:12:57.545Z",
    "requests": 9,
    "notes": [
     {
@@ -51357,12 +51165,12 @@
   },
   "vanished-jade-seal-2022": {
    "version": 2,
-   "identity": "27f864a8871e67ddadd8",
+   "identity": "ab48e0e641f4e784d44b",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:59.421Z",
-   "nextRetryAt": "2026-10-11T15:17:59.421Z",
+   "checkedAt": "2026-10-11T13:12:57.545Z",
+   "nextRetryAt": "2026-10-11T19:12:57.545Z",
    "requests": 8,
    "notes": [
     {
@@ -51381,13 +51189,13 @@
   },
   "dhill-raja-2024": {
    "version": 2,
-   "identity": "dcac2f5cb791d124d219",
+   "identity": "9c4ee6217375898e03e8",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:59.422Z",
-   "nextRetryAt": "2026-10-11T15:17:59.422Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:56.531Z",
+   "nextRetryAt": "2026-10-11T19:12:56.531Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51405,13 +51213,13 @@
   },
   "dhinasari-2025": {
    "version": 2,
-   "identity": "14134bdf3a0fbfebd1b0",
+   "identity": "4c2ac01cabbe55a145d7",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:59.422Z",
-   "nextRetryAt": "2026-10-11T15:17:59.422Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:56.531Z",
+   "nextRetryAt": "2026-10-11T19:12:56.531Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51429,13 +51237,13 @@
   },
   "double-dhamaka-2025": {
    "version": 2,
-   "identity": "b79c5b0b960c3d8b90f6",
+   "identity": "043774818ef34bae4f13",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:17:59.422Z",
-   "nextRetryAt": "2026-10-11T15:17:59.422Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:12:57.546Z",
+   "nextRetryAt": "2026-10-11T19:12:57.546Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51459,12 +51267,12 @@
   },
   "witch-hunters-2013": {
    "version": 2,
-   "identity": "88c4d97d418e9df3bcf1",
+   "identity": "4830a4bb9636165a61ff",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:02.048Z",
-   "nextRetryAt": "2026-10-11T15:18:02.048Z",
+   "checkedAt": "2026-10-11T13:12:59.477Z",
+   "nextRetryAt": "2026-10-11T19:12:59.477Z",
    "requests": 15,
    "notes": [
     {
@@ -51551,13 +51359,13 @@
   },
   "echarikkai-idhu-manithargal-nadamadum-idam-2018": {
    "version": 2,
-   "identity": "799266c6655e76fb9441",
+   "identity": "9138cc594f290d98b1a1",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:02.049Z",
-   "nextRetryAt": "2026-10-11T15:18:02.049Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:12:59.477Z",
+   "nextRetryAt": "2026-10-11T19:12:59.477Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51628,9 +51436,9 @@
    "identity": "1221e3be8644d7aaaa05",
    "status": "matched",
    "reason": "subtitle-and-source-credits",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:04.639Z",
-   "nextRetryAt": "2026-11-10T09:18:04.639Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:12:59.477Z",
+   "nextRetryAt": "2026-11-10T13:12:59.477Z",
    "requests": 13,
    "notes": [
     {
@@ -51645,12 +51453,12 @@
   },
   "the-warrior-way-2010": {
    "version": 2,
-   "identity": "861fb02a4e18e00c2797",
+   "identity": "dc38e72d803ebff0e91a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:04.639Z",
-   "nextRetryAt": "2026-10-11T15:18:04.639Z",
+   "checkedAt": "2026-10-11T13:13:01.728Z",
+   "nextRetryAt": "2026-10-11T19:13:01.728Z",
    "requests": 23,
    "notes": [
     {
@@ -51693,13 +51501,13 @@
   },
   "engada-iruthinga-ivvalavu-naala-2021": {
    "version": 2,
-   "identity": "4d082602028a6c4a40c9",
+   "identity": "4e134b4e772accbf62ca",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:06.211Z",
-   "nextRetryAt": "2026-10-11T15:18:06.211Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:12:59.477Z",
+   "nextRetryAt": "2026-10-11T19:12:59.477Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51713,13 +51521,13 @@
   },
   "engeyum-eppodhum-2011": {
    "version": 2,
-   "identity": "34c3a6ec167a5847267c",
+   "identity": "3fe5f387e968518c581e",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:06.211Z",
-   "nextRetryAt": "2026-10-11T15:18:06.211Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:01.728Z",
+   "nextRetryAt": "2026-10-11T19:13:01.728Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51791,13 +51599,13 @@
   },
   "trial-of-justice-2021": {
    "version": 2,
-   "identity": "d4e0ae113cd0e83aca6b",
+   "identity": "6a2c6488da586e78fda6",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:06.211Z",
-   "nextRetryAt": "2026-10-11T15:18:06.211Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:06.178Z",
+   "nextRetryAt": "2026-10-11T19:13:06.178Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51815,13 +51623,13 @@
   },
   "eppadi-manasukkul-vandhai-2012": {
    "version": 2,
-   "identity": "6b40d456a50177208825",
+   "identity": "56777092bcf9ac53ddda",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:11.854Z",
-   "nextRetryAt": "2026-10-11T15:18:11.854Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:01.728Z",
+   "nextRetryAt": "2026-10-11T19:13:01.728Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51937,12 +51745,12 @@
   },
   "treasure-of-the-lost-lamp-1990": {
    "version": 2,
-   "identity": "38ea22d5f40d3368d203",
+   "identity": "0d7072a8cfa67fc71b78",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:14.695Z",
-   "nextRetryAt": "2026-10-11T15:18:14.695Z",
+   "checkedAt": "2026-10-11T13:13:06.178Z",
+   "nextRetryAt": "2026-10-11T19:13:06.178Z",
    "requests": 8,
    "notes": [
     {
@@ -51961,13 +51769,13 @@
   },
   "go-sulo-2024": {
    "version": 2,
-   "identity": "1d9dbee85350e53805c0",
+   "identity": "6855927ca08e2def8be5",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:14.695Z",
-   "nextRetryAt": "2026-10-11T15:18:14.695Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:01.728Z",
+   "nextRetryAt": "2026-10-11T19:13:01.728Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -51985,13 +51793,13 @@
   },
   "god-father-2024": {
    "version": 2,
-   "identity": "e96b01447ad3dab7fa4d",
+   "identity": "a3856583771676308a10",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:14.695Z",
-   "nextRetryAt": "2026-10-11T15:18:14.695Z",
-   "requests": 47,
+   "checkedAt": "2026-10-11T13:13:06.178Z",
+   "nextRetryAt": "2026-10-11T19:13:06.178Z",
+   "requests": 48,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52148,13 +51956,13 @@
   },
   "imsai-arasan-23am-pulikesi-2006": {
    "version": 2,
-   "identity": "0169fef89173ace121f0",
+   "identity": "340079376c2a1931399d",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:16.326Z",
-   "nextRetryAt": "2026-10-11T15:18:16.326Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:12.221Z",
+   "nextRetryAt": "2026-10-11T19:13:12.221Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52182,12 +51990,12 @@
   },
   "the-worm-valley-2023": {
    "version": 2,
-   "identity": "c24446b2b7a4d40c596a",
+   "identity": "5cf93038761bdbf35cd0",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:20.651Z",
-   "nextRetryAt": "2026-10-11T15:18:20.651Z",
+   "checkedAt": "2026-10-11T13:13:06.178Z",
+   "nextRetryAt": "2026-10-11T19:13:06.178Z",
    "requests": 11,
    "notes": [
     {
@@ -52222,13 +52030,13 @@
   },
   "the-whisper-2025": {
    "version": 2,
-   "identity": "43cd58f55742921e1611",
+   "identity": "6fb76251723b9f48fc52",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:20.651Z",
-   "nextRetryAt": "2026-10-11T10:18:20.651Z",
-   "requests": 80,
+   "checkedAt": "2026-10-11T13:13:12.221Z",
+   "nextRetryAt": "2026-10-11T14:13:12.221Z",
+   "requests": 81,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52245,13 +52053,13 @@
   },
   "inaintha-kaigal-1990": {
    "version": 2,
-   "identity": "e7b56a3cecda15a56252",
+   "identity": "6eed659caba14638332f",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:20.651Z",
-   "nextRetryAt": "2026-10-11T15:18:20.651Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:13:12.221Z",
+   "nextRetryAt": "2026-10-11T19:13:12.221Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52268,20 +52076,20 @@
    "identity": "b6f057044d2551194e00",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:20.651Z",
-   "nextRetryAt": "2026-11-10T09:18:20.651Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:13:14.317Z",
+   "nextRetryAt": "2026-11-10T13:13:14.317Z",
    "requests": 2
   },
   "indiralogathil-na-azhagappan-2008": {
    "version": 2,
-   "identity": "2ed02d80cbeba2eadeb7",
+   "identity": "701ef371ed1b0057bcea",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:20.651Z",
-   "nextRetryAt": "2026-10-11T15:18:20.651Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:14.317Z",
+   "nextRetryAt": "2026-10-11T19:13:14.317Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52353,37 +52161,37 @@
   },
   "the-sword-identity-2011": {
    "version": 2,
-   "identity": "0e0fdb00c927d3e94f89",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "fd65170ad5448c01fc6c",
+   "status": "review",
+   "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:23.936Z",
-   "nextRetryAt": "2026-10-11T15:18:23.936Z",
-   "requests": 8,
+   "checkedAt": "2026-10-11T13:13:12.221Z",
+   "nextRetryAt": "2026-10-18T13:13:12.221Z",
+   "requests": 5,
    "notes": [
     {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
+     "reason": "source-credits-conflict",
+     "tmdbId": 120460,
+     "tmdbType": "movie"
     },
     {
      "reason": "no-corroborated-match",
      "type": "movie"
+    },
+    {
+     "reason": "source-credits-conflict"
     }
    ]
   },
   "inspector-daya-2021": {
    "version": 2,
-   "identity": "c66eb6032c8eb3073f11",
+   "identity": "e720105d8f143e5db7bc",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:23.936Z",
-   "nextRetryAt": "2026-10-11T15:18:23.936Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:14.317Z",
+   "nextRetryAt": "2026-10-11T19:13:14.317Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52425,12 +52233,12 @@
   },
   "ipl-2025": {
    "version": 2,
-   "identity": "ac4340d5f7d0ac6a7a5e",
+   "identity": "f12f7cc37d8085498afb",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:25.896Z",
-   "nextRetryAt": "2026-10-11T15:18:25.896Z",
+   "checkedAt": "2026-10-11T13:13:18.253Z",
+   "nextRetryAt": "2026-10-11T19:13:18.253Z",
    "requests": 20,
    "notes": [
     {
@@ -52459,23 +52267,13 @@
   },
   "the-surfer-2024": {
    "version": 2,
-   "identity": "7f2a4b0222e2041d9254",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "57dbb45f20d746de01c2",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:25.896Z",
-   "nextRetryAt": "2026-10-11T15:18:25.896Z",
-   "requests": 9,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:14.317Z",
+   "nextRetryAt": "2026-11-10T13:13:14.317Z",
+   "requests": 1
   },
   "the-silent-forest-2022": {
    "version": 2,
@@ -52500,12 +52298,12 @@
   },
   "the-wild-thornberrys-2002": {
    "version": 2,
-   "identity": "5059f69214f182500089",
+   "identity": "6d37988e1d90c4d35e56",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:25.896Z",
-   "nextRetryAt": "2026-10-11T15:18:25.896Z",
+   "checkedAt": "2026-10-11T13:13:18.253Z",
+   "nextRetryAt": "2026-10-11T19:13:18.253Z",
    "requests": 11,
    "notes": [
     {
@@ -52568,13 +52366,13 @@
   },
   "iru-vizhi-oru-paarvai-2024": {
    "version": 2,
-   "identity": "c0445fb709ef6c4ffee0",
+   "identity": "5d69bd29db6e3a666ad5",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:29.181Z",
-   "nextRetryAt": "2026-10-11T15:18:29.181Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:35.253Z",
+   "nextRetryAt": "2026-10-11T19:13:35.253Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52602,12 +52400,12 @@
   },
   "the-white-snake-2011": {
    "version": 2,
-   "identity": "e90eabaf528a1bbe330b",
+   "identity": "889727f13f670bb97b87",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:29.181Z",
-   "nextRetryAt": "2026-10-11T15:18:29.181Z",
+   "checkedAt": "2026-10-11T13:13:18.253Z",
+   "nextRetryAt": "2026-10-11T19:13:18.253Z",
    "requests": 31,
    "notes": [
     {
@@ -52626,25 +52424,25 @@
   },
   "the-whistleblower-2020": {
    "version": 2,
-   "identity": "35b1274176e5f20cdf07",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "e601b41ea7d3c8650da3",
+   "status": "review",
+   "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:29.181Z",
-   "nextRetryAt": "2026-10-11T15:18:29.181Z",
-   "requests": 30,
+   "checkedAt": "2026-10-11T13:13:18.253Z",
+   "nextRetryAt": "2026-10-18T13:13:18.253Z",
+   "requests": 22,
    "notes": [
     {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
+     "reason": "source-credits-conflict",
+     "tmdbId": 622832,
+     "tmdbType": "movie"
     },
     {
      "reason": "no-corroborated-match",
      "type": "movie"
+    },
+    {
+     "reason": "source-credits-conflict"
     }
    ]
   },
@@ -52674,13 +52472,13 @@
   },
   "iruttu-araiyil-murattu-kuththu-2018": {
    "version": 2,
-   "identity": "2d4941a486c5f19b069c",
+   "identity": "292189d48bcea3a372ea",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:31.321Z",
-   "nextRetryAt": "2026-10-11T15:18:31.321Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:35.253Z",
+   "nextRetryAt": "2026-10-11T19:13:35.253Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52698,37 +52496,23 @@
   },
   "isaac-newton-so-philipose-2024": {
    "version": 2,
-   "identity": "8d4ee33ce96d9e3613d3",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "73d8c865af3816302e32",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:31.321Z",
-   "nextRetryAt": "2026-10-11T15:18:31.321Z",
-   "requests": 6,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:38.187Z",
+   "nextRetryAt": "2026-11-10T13:13:38.187Z",
+   "requests": 2
   },
   "ithayathai-thirudathey-1989": {
    "version": 2,
-   "identity": "8018a22fe4382a96de93",
+   "identity": "81f43315ea0467b492b3",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:31.321Z",
-   "nextRetryAt": "2026-10-11T15:18:31.321Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:38.188Z",
+   "nextRetryAt": "2026-10-11T19:13:38.188Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52780,47 +52564,33 @@
   },
   "the-tunnel-2019": {
    "version": 2,
-   "identity": "ab53e8742ee9393e1548",
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
+   "identity": "a31787af4e9916a50b8a",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:31.321Z",
-   "nextRetryAt": "2026-10-11T10:18:31.321Z",
-   "requests": 29,
-   "notes": [
-    {
-     "reason": "ambiguous-title-year",
-     "count": 2,
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "scoped-search-needs-review"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:35.253Z",
+   "nextRetryAt": "2026-11-10T13:13:35.253Z",
+   "requests": 2
   },
   "the-trip-2010": {
    "version": 2,
    "identity": "e80bff82a57f03192094",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:33.450Z",
-   "nextRetryAt": "2026-11-10T09:18:33.450Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:13:35.253Z",
+   "nextRetryAt": "2026-11-10T13:13:35.253Z",
    "requests": 2
   },
   "ivan-nirubaraathi-2024": {
    "version": 2,
-   "identity": "fcff61c3ac454fe00d39",
+   "identity": "fcb4699a810594236f99",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:33.450Z",
-   "nextRetryAt": "2026-10-11T15:18:33.450Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:38.188Z",
+   "nextRetryAt": "2026-10-11T19:13:38.188Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -52838,33 +52608,23 @@
   },
   "jack-and-dil-2018": {
    "version": 2,
-   "identity": "e69d441b09148d26aadb",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "98dbde431e73228bdf14",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:33.450Z",
-   "nextRetryAt": "2026-10-11T15:18:33.450Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:44.577Z",
+   "nextRetryAt": "2026-11-10T13:13:44.577Z",
+   "requests": 1
   },
   "jackson-bazaar-pasanga-2023": {
    "version": 2,
-   "identity": "6927196666161672e425",
+   "identity": "39f1ef7bbf987db1ef6f",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:33.450Z",
-   "nextRetryAt": "2026-10-11T15:18:33.450Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:49.147Z",
+   "nextRetryAt": "2026-10-11T19:13:49.147Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53034,12 +52794,12 @@
   },
   "the-origin-of-awesome-2014": {
    "version": 2,
-   "identity": "025365ca77d745a07476",
+   "identity": "af7112ef4ac3d3aa828a",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:43.224Z",
-   "nextRetryAt": "2026-10-11T15:18:43.224Z",
+   "checkedAt": "2026-10-11T13:13:38.187Z",
+   "nextRetryAt": "2026-10-11T19:13:38.187Z",
    "requests": 9,
    "notes": [
     {
@@ -53079,29 +52839,24 @@
   },
   "the-moon-2023": {
    "version": 2,
-   "identity": "39b38f1b764a6e2ac242",
+   "identity": "d28293f9217124004107",
    "status": "unavailable",
-   "reason": "tmdb-request-budget",
+   "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:43.224Z",
-   "nextRetryAt": "2026-10-11T10:18:43.224Z",
-   "requests": 120,
+   "checkedAt": "2026-10-11T13:13:44.576Z",
+   "nextRetryAt": "2026-10-11T14:13:44.576Z",
+   "requests": 91,
    "notes": [
     {
-     "reason": "ambiguous-title-year",
-     "count": 2,
-     "type": "movie"
+     "reason": "source-credits-conflict",
+     "tmdbId": 753091,
+     "tmdbType": "movie"
     },
     {
-     "reason": "tv-search-year-scoped",
-     "year": 2023
+     "reason": "scoped-search-needs-review"
     },
     {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "tmdb-request-budget"
+     "reason": "source-credits-conflict"
     }
    ]
   },
@@ -53131,13 +52886,13 @@
   },
   "janaka-aanaal-2025": {
    "version": 2,
-   "identity": "f4cbc9938f1e737afedc",
+   "identity": "615f1bd0fde9927dfaa1",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:43.224Z",
-   "nextRetryAt": "2026-10-11T15:18:43.224Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:49.147Z",
+   "nextRetryAt": "2026-10-11T19:13:49.147Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53192,9 +52947,9 @@
    "identity": "6489eaf1a8979c849265",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:44.375Z",
-   "nextRetryAt": "2026-11-10T09:18:44.375Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:13:44.576Z",
+   "nextRetryAt": "2026-11-10T13:13:44.576Z",
    "requests": 2
   },
   "the-take-down-2017": {
@@ -53263,43 +53018,23 @@
   },
   "kaathal-ithu-kaathal-2018": {
    "version": 2,
-   "identity": "bdf205e4e5029910a7e9",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "c74ac9b7f28f17ae581f",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:44.375Z",
-   "nextRetryAt": "2026-10-11T15:18:44.375Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:50.399Z",
+   "nextRetryAt": "2026-11-10T13:13:50.399Z",
+   "requests": 1
   },
   "kadavul-padaitha-manithargal-2022": {
    "version": 2,
-   "identity": "7b0a5f031e7123dff2ff",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "1be6a276f2adacc23235",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:51.794Z",
-   "nextRetryAt": "2026-10-11T15:18:51.794Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:50.399Z",
+   "nextRetryAt": "2026-11-10T13:13:50.399Z",
+   "requests": 1
   },
   "akka-kuruvi-2022": {
    "version": 2,
@@ -53362,12 +53097,12 @@
   },
   "the-smurfs-1-2011": {
    "version": 2,
-   "identity": "9f71999c065ce1c1cd76",
+   "identity": "721a4a351a99713938f1",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:51.795Z",
-   "nextRetryAt": "2026-10-11T15:18:51.795Z",
+   "checkedAt": "2026-10-11T13:13:44.577Z",
+   "nextRetryAt": "2026-10-11T19:13:44.577Z",
    "requests": 12,
    "notes": [
     {
@@ -53406,13 +53141,13 @@
   },
   "kadhal-enbathu-podhu-udamai-2025": {
    "version": 2,
-   "identity": "156e9395d14620228c19",
+   "identity": "1310fd85354d14e6d775",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:52.873Z",
-   "nextRetryAt": "2026-10-11T15:18:52.873Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:50.399Z",
+   "nextRetryAt": "2026-10-11T19:13:50.399Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53430,13 +53165,13 @@
   },
   "kadhal-kanave-2025": {
    "version": 2,
-   "identity": "0aef2731d71c3ca0d5ea",
+   "identity": "b6c9dc04c6de7869b974",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:52.873Z",
-   "nextRetryAt": "2026-10-11T15:18:52.873Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:56.067Z",
+   "nextRetryAt": "2026-10-11T19:13:56.067Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53464,12 +53199,12 @@
   },
   "the-search-for-christopher-robin-1997": {
    "version": 2,
-   "identity": "3fe99fe33c297978156b",
+   "identity": "a32d7e7470fc85b5fc89",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:52.873Z",
-   "nextRetryAt": "2026-10-11T15:18:52.873Z",
+   "checkedAt": "2026-10-11T13:13:49.147Z",
+   "nextRetryAt": "2026-10-11T19:13:49.147Z",
    "requests": 8,
    "notes": [
     {
@@ -53512,13 +53247,13 @@
   },
   "the-legend-of-living-souls-2023": {
    "version": 2,
-   "identity": "6749e9e89f3fd9a78380",
+   "identity": "00e8d7c7172eb0fe0d49",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:52.873Z",
-   "nextRetryAt": "2026-10-11T15:18:52.873Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:49.147Z",
+   "nextRetryAt": "2026-10-11T19:13:49.147Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53654,12 +53389,12 @@
   },
   "the-protector-1-2005": {
    "version": 2,
-   "identity": "0235774a6a304b477d87",
+   "identity": "1dc626c6b9bb20607836",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:56.381Z",
-   "nextRetryAt": "2026-10-11T15:18:56.381Z",
+   "checkedAt": "2026-10-11T13:13:50.399Z",
+   "nextRetryAt": "2026-10-11T19:13:50.399Z",
    "requests": 8,
    "notes": [
     {
@@ -53678,13 +53413,13 @@
   },
   "kangalal-kaithu-sei-2004": {
    "version": 2,
-   "identity": "d44e4abdfe1157d37c29",
+   "identity": "b47a8fa8b18f5356ad87",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:56.381Z",
-   "nextRetryAt": "2026-10-11T15:18:56.381Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:13:59.843Z",
+   "nextRetryAt": "2026-10-11T19:13:59.843Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53726,13 +53461,13 @@
   },
   "kasivu-2025": {
    "version": 2,
-   "identity": "f7935efcfdf00d8b8899",
+   "identity": "0c945dc50c56b8e5183e",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:56.382Z",
-   "nextRetryAt": "2026-10-11T15:18:56.382Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:13:59.843Z",
+   "nextRetryAt": "2026-10-11T19:13:59.843Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53760,23 +53495,13 @@
   },
   "the-seed-of-the-sacred-fig-2025": {
    "version": 2,
-   "identity": "d63827582502898890af",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "48f2bf9b437cd81649b0",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:56.382Z",
-   "nextRetryAt": "2026-10-11T15:18:56.382Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:13:56.067Z",
+   "nextRetryAt": "2026-11-10T13:13:56.067Z",
+   "requests": 1
   },
   "the-power-of-us-2018": {
    "version": 2,
@@ -53804,12 +53529,12 @@
   },
   "the-santa-clause-1-1994": {
    "version": 2,
-   "identity": "53007c4750328aba8ef8",
+   "identity": "dd822300bdbe13e21f71",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:58.495Z",
-   "nextRetryAt": "2026-10-11T15:18:58.495Z",
+   "checkedAt": "2026-10-11T13:13:56.067Z",
+   "nextRetryAt": "2026-10-11T19:13:56.067Z",
    "requests": 8,
    "notes": [
     {
@@ -53852,13 +53577,13 @@
   },
   "kayamai-kadakka-2022": {
    "version": 2,
-   "identity": "d0985f1850f4b1d41308",
+   "identity": "206b6db505ed1838e495",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:18:58.495Z",
-   "nextRetryAt": "2026-10-11T15:18:58.495Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:14:01.207Z",
+   "nextRetryAt": "2026-10-11T19:14:01.207Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53926,13 +53651,13 @@
   },
   "the-one-who-steals-others-heart-2017": {
    "version": 2,
-   "identity": "c5e7856b7207065d748a",
+   "identity": "670e665cc94a74e6f5b1",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:00.410Z",
-   "nextRetryAt": "2026-10-11T15:19:00.410Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:13:56.067Z",
+   "nextRetryAt": "2026-10-11T19:13:56.067Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -53946,12 +53671,12 @@
   },
   "the-matrix-3-revolutions-2003": {
    "version": 2,
-   "identity": "8f28c502f2010fac1953",
+   "identity": "220eb071e8ef26992d5f",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:00.410Z",
-   "nextRetryAt": "2026-10-11T15:19:00.410Z",
+   "checkedAt": "2026-10-11T13:13:59.843Z",
+   "nextRetryAt": "2026-10-11T19:13:59.843Z",
    "requests": 8,
    "notes": [
     {
@@ -53970,13 +53695,13 @@
   },
   "kgf-chpater-2-2022": {
    "version": 2,
-   "identity": "8cf01e38d5a77578198e",
+   "identity": "188ec36dcd8cf6a9a5b8",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:00.410Z",
-   "nextRetryAt": "2026-10-11T15:19:00.410Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:01.207Z",
+   "nextRetryAt": "2026-10-11T19:14:01.207Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54021,9 +53746,9 @@
    "identity": "975a31d9a7ff22f72928",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:00.410Z",
-   "nextRetryAt": "2026-11-10T09:19:00.410Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:14:01.207Z",
+   "nextRetryAt": "2026-11-10T13:14:01.207Z",
    "requests": 2
   },
   "alive-2020": {
@@ -54065,19 +53790,19 @@
    "identity": "ae45a41ce2b6d6b45f6b",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:02.174Z",
-   "nextRetryAt": "2026-11-10T09:19:02.174Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:13:59.843Z",
+   "nextRetryAt": "2026-11-10T13:13:59.843Z",
    "requests": 2
   },
   "the-lost-dragon-2014": {
    "version": 2,
-   "identity": "ecdfa776a9cab9b16d5f",
+   "identity": "ce8372f19fc7b15794d8",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:02.174Z",
-   "nextRetryAt": "2026-10-11T15:19:02.174Z",
+   "checkedAt": "2026-10-11T13:14:01.207Z",
+   "nextRetryAt": "2026-10-11T19:14:01.207Z",
    "requests": 17,
    "notes": [
     {
@@ -54116,13 +53841,13 @@
   },
   "konja-naal-poru-thalaivaa-2025": {
    "version": 2,
-   "identity": "8c9fde2e991abaac5015",
+   "identity": "27cacad1983c07885540",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:02.174Z",
-   "nextRetryAt": "2026-10-11T15:19:02.174Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:03.612Z",
+   "nextRetryAt": "2026-10-11T19:14:03.612Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54140,13 +53865,13 @@
   },
   "kottigobba-3-2022": {
    "version": 2,
-   "identity": "c46a6c3fb5c70cd65e59",
+   "identity": "7797a716c9de4c0b9985",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:04.242Z",
-   "nextRetryAt": "2026-10-11T15:19:04.242Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:05.772Z",
+   "nextRetryAt": "2026-10-11T19:14:05.772Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54174,19 +53899,13 @@
   },
   "the-outpost-2021": {
    "version": 2,
-   "identity": "20704f5dc2c19d5ffdd4",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "541da941a4fa89960f35",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:04.243Z",
-   "nextRetryAt": "2026-10-11T15:19:04.243Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:03.612Z",
+   "nextRetryAt": "2026-11-10T13:14:03.612Z",
+   "requests": 1
   },
   "the-lord-of-the-rings-2022": {
    "version": 2,
@@ -54206,23 +53925,13 @@
   },
   "the-man-named-leopard-2019": {
    "version": 2,
-   "identity": "85d60b8a51359a174c6a",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "c9293599a550d3ae69c5",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:04.243Z",
-   "nextRetryAt": "2026-10-11T15:19:04.243Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:03.612Z",
+   "nextRetryAt": "2026-11-10T13:14:03.612Z",
+   "requests": 1
   },
   "kovil-mani-osai-1988": {
    "version": 2,
@@ -54270,23 +53979,13 @@
   },
   "kutralam-2019": {
    "version": 2,
-   "identity": "618e3520b8f3bc158bf4",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "f67a2bcef5c114c0f1b5",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:07.900Z",
-   "nextRetryAt": "2026-10-11T15:19:07.900Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:05.772Z",
+   "nextRetryAt": "2026-11-10T13:14:05.772Z",
+   "requests": 1
   },
   "ambasamudram-ambani-2010": {
    "version": 2,
@@ -54320,13 +54019,13 @@
   },
   "the-legend-of-mermaid-2020": {
    "version": 2,
-   "identity": "3e55d872e91377bbc3f1",
+   "identity": "a87519e77bf6803b8ff7",
    "status": "review",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:07.900Z",
-   "nextRetryAt": "2026-10-18T09:19:07.900Z",
-   "requests": 18,
+   "checkedAt": "2026-10-11T13:14:03.612Z",
+   "nextRetryAt": "2026-10-18T13:14:03.612Z",
+   "requests": 14,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -54368,13 +54067,13 @@
   },
   "laal-singh-chadha-2022": {
    "version": 2,
-   "identity": "dc7d9d34354db9b3887f",
+   "identity": "9781d2795b6984901c7d",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:09.527Z",
-   "nextRetryAt": "2026-10-11T15:19:09.527Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:08.506Z",
+   "nextRetryAt": "2026-10-11T19:14:08.506Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54412,13 +54111,13 @@
   },
   "laysa-laysa-2003": {
    "version": 2,
-   "identity": "3c7ed9042c47416aa41d",
+   "identity": "6b88886d1908947deea5",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:09.527Z",
-   "nextRetryAt": "2026-10-11T15:19:09.527Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:14:08.506Z",
+   "nextRetryAt": "2026-10-11T19:14:08.506Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54446,12 +54145,12 @@
   },
   "the-lord-of-the-rings-2": {
    "version": 2,
-   "identity": "3c1c5bced4604c04f434",
+   "identity": "30c1620eeb409b7c0e21",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:09.528Z",
-   "nextRetryAt": "2026-10-11T15:19:09.528Z",
+   "checkedAt": "2026-10-11T13:14:05.772Z",
+   "nextRetryAt": "2026-10-11T19:14:05.772Z",
    "requests": 12,
    "notes": [
     {
@@ -54470,13 +54169,13 @@
   },
   "the-last-samuri-2003": {
    "version": 2,
-   "identity": "5625925878334d1ec0e7",
+   "identity": "66962607b764bf77b1c7",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:09.528Z",
-   "nextRetryAt": "2026-10-11T15:19:09.528Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:05.772Z",
+   "nextRetryAt": "2026-10-11T19:14:05.772Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54494,12 +54193,12 @@
   },
   "the-last-knight-2017": {
    "version": 2,
-   "identity": "0f76cd278b9b9d38efaa",
+   "identity": "5e293f53d246181cdf5d",
    "status": "review",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:11.666Z",
-   "nextRetryAt": "2026-10-18T09:19:11.666Z",
+   "checkedAt": "2026-10-11T13:14:08.506Z",
+   "nextRetryAt": "2026-10-18T13:14:08.506Z",
    "requests": 18,
    "notes": [
     {
@@ -54592,13 +54291,13 @@
   },
   "the-monkey-is-back-2021": {
    "version": 2,
-   "identity": "fb0f4a857b49dbec24cd",
+   "identity": "1467129bec02d8c306ca",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:11.667Z",
-   "nextRetryAt": "2026-10-11T15:19:11.667Z",
-   "requests": 8,
+   "checkedAt": "2026-10-11T13:14:11.777Z",
+   "nextRetryAt": "2026-10-11T19:14:11.777Z",
+   "requests": 9,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54616,12 +54315,12 @@
   },
   "the-messenger-of-god-2015": {
    "version": 2,
-   "identity": "00ebc6e651f77053f169",
+   "identity": "66e3c2413639798991e1",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:15.819Z",
-   "nextRetryAt": "2026-10-11T15:19:15.819Z",
+   "checkedAt": "2026-10-11T13:14:11.777Z",
+   "nextRetryAt": "2026-10-11T19:14:11.777Z",
    "requests": 15,
    "notes": [
     {
@@ -54683,27 +54382,13 @@
   },
   "maalainera-malipoo-2023": {
    "version": 2,
-   "identity": "60a7ae8a83c81497e7ff",
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
+   "identity": "b3e86101372c837e1415",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:15.819Z",
-   "nextRetryAt": "2026-10-11T15:19:15.819Z",
-   "requests": 6,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    },
-    {
-     "reason": "no-corroborated-match",
-     "type": "movie"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:08.506Z",
+   "nextRetryAt": "2026-11-10T13:14:08.506Z",
+   "requests": 2
   },
   "mad-2022": {
    "version": 2,
@@ -54749,12 +54434,12 @@
   },
   "the-dream-begins-2005": {
    "version": 2,
-   "identity": "b6b2fd882cf8778c7a1c",
+   "identity": "3d1e7eaf5cb7d590b699",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:20.359Z",
-   "nextRetryAt": "2026-10-11T15:19:20.359Z",
+   "checkedAt": "2026-10-11T13:14:11.777Z",
+   "nextRetryAt": "2026-10-11T19:14:11.777Z",
    "requests": 10,
    "notes": [
     {
@@ -54793,12 +54478,12 @@
   },
   "the-journey-home-2021": {
    "version": 2,
-   "identity": "9672023245d83da17ba4",
+   "identity": "e56bf4c30707eef53f32",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:20.359Z",
-   "nextRetryAt": "2026-10-11T15:19:20.359Z",
+   "checkedAt": "2026-10-11T13:14:15.664Z",
+   "nextRetryAt": "2026-10-11T19:14:15.664Z",
    "requests": 53,
    "notes": [
     {
@@ -54817,13 +54502,13 @@
   },
   "mad-square-2025": {
    "version": 2,
-   "identity": "68207ee05b9e48ace23b",
+   "identity": "9dc75311bf5aa6787046",
    "status": "review",
    "reason": "source-credits-conflict",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:20.359Z",
-   "nextRetryAt": "2026-10-18T09:19:20.359Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:11.777Z",
+   "nextRetryAt": "2026-10-18T13:14:11.777Z",
+   "requests": 4,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -54841,13 +54526,13 @@
   },
   "madhayaanai-2024": {
    "version": 2,
-   "identity": "fceebfc92e174e547cc0",
+   "identity": "183b7236b166add3e759",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:20.359Z",
-   "nextRetryAt": "2026-10-11T15:19:20.359Z",
-   "requests": 8,
+   "checkedAt": "2026-10-11T13:14:15.664Z",
+   "nextRetryAt": "2026-10-11T19:14:15.664Z",
+   "requests": 9,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -54899,12 +54584,12 @@
   },
   "the-lost-village-2017": {
    "version": 2,
-   "identity": "2967a754b104733e0e85",
+   "identity": "c946f9666605e80cc58f",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:22.374Z",
-   "nextRetryAt": "2026-10-11T15:19:22.374Z",
+   "checkedAt": "2026-10-11T13:14:15.664Z",
+   "nextRetryAt": "2026-10-11T19:14:15.664Z",
    "requests": 18,
    "notes": [
     {
@@ -54995,13 +54680,13 @@
   },
   "malare-mounama-2025": {
    "version": 2,
-   "identity": "4fa098f3353d189355ea",
+   "identity": "89694a5fa14b88b61f25",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:22.374Z",
-   "nextRetryAt": "2026-10-11T15:19:22.374Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:14:15.664Z",
+   "nextRetryAt": "2026-10-11T19:14:15.664Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55019,13 +54704,13 @@
   },
   "malayappa-2022": {
    "version": 2,
-   "identity": "a2102783494af3622312",
+   "identity": "ee467cb8a3890d04d3b9",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:27.081Z",
-   "nextRetryAt": "2026-10-11T15:19:27.081Z",
-   "requests": 6,
+   "checkedAt": "2026-10-11T13:14:19.567Z",
+   "nextRetryAt": "2026-10-11T19:14:19.567Z",
+   "requests": 7,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55056,10 +54741,10 @@
    "identity": "2465be3e8aa7fb76502f",
    "status": "matched",
    "reason": "title-and-source-credits",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:27.081Z",
-   "nextRetryAt": "2026-11-10T09:19:27.081Z",
-   "requests": 54,
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:14:19.567Z",
+   "nextRetryAt": "2026-11-10T13:14:19.567Z",
+   "requests": 53,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55093,23 +54778,13 @@
   },
   "the-hairy-tooth-fairy-2020": {
    "version": 2,
-   "identity": "96e354b7f42c78f7f0dd",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "11e4d49d1cd3462eabcf",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:27.081Z",
-   "nextRetryAt": "2026-10-11T15:19:27.081Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:24.346Z",
+   "nextRetryAt": "2026-11-10T13:14:24.346Z",
+   "requests": 1
   },
   "mammattiyaan-stars-2026": {
    "version": 2,
@@ -55149,13 +54824,13 @@
   },
   "manadhil-ninraval-2019": {
    "version": 2,
-   "identity": "ab922b0006d18a7c3825",
+   "identity": "cdddcb6059e13a7cf184",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:31.501Z",
-   "nextRetryAt": "2026-10-11T15:19:31.501Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:14:19.567Z",
+   "nextRetryAt": "2026-10-11T19:14:19.567Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55203,13 +54878,13 @@
   },
   "the-ghost-that-had-to-go-2021": {
    "version": 2,
-   "identity": "94c47f5e6bdebe1f40ac",
+   "identity": "da8ec3d7a3cc12741f52",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:31.501Z",
-   "nextRetryAt": "2026-10-11T15:19:31.501Z",
-   "requests": 8,
+   "checkedAt": "2026-10-11T13:14:24.346Z",
+   "nextRetryAt": "2026-10-11T19:14:24.346Z",
+   "requests": 9,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55227,13 +54902,13 @@
   },
   "the-bodyguard-2016": {
    "version": 2,
-   "identity": "8e1d0370ef276f9e2d35",
+   "identity": "b651dd7945abad56a66b",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:31.501Z",
-   "nextRetryAt": "2026-10-11T15:19:31.501Z",
-   "requests": 84,
+   "checkedAt": "2026-10-11T13:14:24.346Z",
+   "nextRetryAt": "2026-10-11T19:14:24.346Z",
+   "requests": 85,
    "notes": [
     {
      "reason": "ambiguous-title-year",
@@ -55252,33 +54927,23 @@
   },
   "mapillai-seenu-2022": {
    "version": 2,
-   "identity": "c905516c2fd2e005c6c2",
-   "status": "unresolved",
-   "reason": "no-title-year-match",
+   "identity": "b1c5909950c0658f27fe",
+   "status": "matched",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:33.035Z",
-   "nextRetryAt": "2026-10-11T15:19:33.035Z",
-   "requests": 4,
-   "notes": [
-    {
-     "reason": "no-title-year-match",
-     "type": "movie"
-    },
-    {
-     "reason": "no-title-year-match",
-     "type": "tv"
-    }
-   ]
+   "checkedAt": "2026-10-11T13:14:19.567Z",
+   "nextRetryAt": "2026-11-10T13:14:19.567Z",
+   "requests": 1
   },
   "mappilai-sir-1988": {
    "version": 2,
-   "identity": "f9533b7d3a31208597c8",
+   "identity": "331fc010daad1c5e56e8",
    "status": "unresolved",
    "reason": "no-title-year-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:33.035Z",
-   "nextRetryAt": "2026-10-11T15:19:33.035Z",
-   "requests": 4,
+   "checkedAt": "2026-10-11T13:14:24.346Z",
+   "nextRetryAt": "2026-10-11T19:14:24.346Z",
+   "requests": 5,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55292,13 +54957,13 @@
   },
   "maraan-2022": {
    "version": 2,
-   "identity": "6b8edab8cca74ab55534",
+   "identity": "776a0df9d4be22a8bc32",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:33.035Z",
-   "nextRetryAt": "2026-10-11T15:19:33.035Z",
-   "requests": 7,
+   "checkedAt": "2026-10-11T13:14:24.951Z",
+   "nextRetryAt": "2026-10-11T19:14:24.951Z",
+   "requests": 8,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -55524,9 +55189,9 @@
    "identity": "4371ea2dadc650c3f15b",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 1,
-   "checkedAt": "2026-10-11T09:19:41.313Z",
-   "nextRetryAt": "2026-11-10T09:19:41.313Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-11T13:14:24.951Z",
+   "nextRetryAt": "2026-11-10T13:14:24.951Z",
    "requests": 2
   },
   "meendum-thedal-2019": {
@@ -75057,6 +74722,38 @@
    "checkedAt": "2026-10-11T09:25:20.664Z",
    "nextRetryAt": "2026-11-10T09:25:20.664Z",
    "requests": 1
+  },
+  "promise-2026": {
+   "version": 2,
+   "identity": "6977eea826ec66e9a4ab",
+   "status": "unavailable",
+   "reason": "scoped-search-needs-review",
+   "attempts": 1,
+   "checkedAt": "2026-10-11T13:12:28.465Z",
+   "nextRetryAt": "2026-10-11T14:12:28.465Z",
+   "requests": 79,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 3,
+     "type": "movie"
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2026
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2026
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "scoped-search-needs-review"
+    }
+   ]
   }
  }
 }

@@ -2559,7 +2559,7 @@
   "title": "Ananda Kalyanam",
   "year": 2024,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ananda-kalyanam-2024-tamil-movie/",
   "embeds": [
    {
@@ -2591,7 +2591,7 @@
     "https://www.imdb.com/title/tt23732218/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:31.193Z"
  },
  {
   "id": "artist-2024",
@@ -4327,7 +4327,7 @@
   "title": "A Aa",
   "year": 2021,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/a-aa-2021-movie/",
   "embeds": [
    {
@@ -4367,7 +4367,7 @@
     "https://www.imdb.com/title/tt5684466/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:29.661Z"
  },
  {
   "id": "abhiyum-anuvum-2021",
@@ -4846,7 +4846,7 @@
   "title": "Anbudan Appavukku",
   "year": 2019,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anbudan-appavukku-2019-movie/",
   "embeds": [
    {
@@ -4886,7 +4886,7 @@
     "https://www.imdb.com/title/tt5098128/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:35.851Z"
  },
  {
   "id": "ayyanar-2010",
@@ -7708,7 +7708,7 @@
   "title": "Baby and Baby",
   "year": 2025,
   "category": "tamil-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/baby-and-baby-2025-movie/",
   "embeds": [
    {
@@ -7744,7 +7744,7 @@
     "https://www.imdb.com/title/tt35124777/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:38.237Z"
  },
  {
   "id": "bioscope-2025",
@@ -22928,7 +22928,8 @@
   "tmdbId": 201009,
   "imdbId": "tt19768024",
   "addedAt": "2026-09-27T19:46:24.404Z",
-  "updatedAt": "2026-10-07T20:56:18.067Z"
+  "updatedAt": "2026-10-11T13:13:14.317Z",
+  "tmdbType": "tv"
  },
  {
   "id": "irugapatru-2023",
@@ -24112,7 +24113,7 @@
   "title": "Jack and Dil",
   "year": 2018,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/jack-and-dil-2018-tamil-movie/",
   "embeds": [
    {
@@ -24144,7 +24145,7 @@
     "https://www.imdb.com/title/tt6144958/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:44.577Z"
  },
  {
   "id": "jai-hind-1994",
@@ -28870,7 +28871,8 @@
   "tmdbId": 238419,
   "imdbId": "tt22297290",
   "addedAt": "2026-09-27T21:09:46.050Z",
-  "updatedAt": "2026-10-07T20:56:18.067Z"
+  "updatedAt": "2026-10-11T13:14:01.207Z",
+  "tmdbType": "tv"
  },
  {
   "id": "kumbaari-2024",
@@ -30367,7 +30369,7 @@
   "title": "Kadavul Padaitha Manithargal",
   "year": 2022,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kadavul-padaitha-manithargal-2022-tamil-movie/",
   "embeds": [
    {
@@ -30407,7 +30409,7 @@
     "https://www.imdb.com/title/tt2342061/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:50.399Z"
  },
  {
   "id": "kadaseela-biriyani-2021",
@@ -30881,7 +30883,7 @@
   "title": "Kaathal Ithu Kaathal",
   "year": 2018,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kaathal-ithu-kaathal-2018-movie/",
   "embeds": [
    {
@@ -30913,7 +30915,7 @@
     "https://www.imdb.com/title/tt3261912/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:50.399Z"
  },
  {
   "id": "kadhalna-summa-illai-2009",
@@ -31318,7 +31320,7 @@
   "title": "Kutralam",
   "year": 2019,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kutralam-2019-movie/",
   "embeds": [
    {
@@ -31358,7 +31360,7 @@
     "https://www.imdb.com/title/tt5457840/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:05.772Z"
  },
  {
   "id": "kadhalai-thavira-veru-ondrum-illai-2014",
@@ -39719,7 +39721,8 @@
   "tmdbId": 225824,
   "imdbId": "tt27671508",
   "addedAt": "2026-09-27T23:16:56.145Z",
-  "updatedAt": "2026-10-07T20:56:18.556Z"
+  "updatedAt": "2026-10-11T13:14:24.951Z",
+  "tmdbType": "tv"
  },
  {
   "id": "manu-charitra-2023",
@@ -39866,7 +39869,7 @@
   "title": "Maalainera Malipoo",
   "year": 2023,
   "category": "tamil-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/maalainera-malipoo-2023-tamil-movie/",
   "embeds": [
    {
@@ -39894,7 +39897,7 @@
     "https://www.imdb.com/title/tt24325382/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:08.506Z"
  },
  {
   "id": "maruthi-nagar-police-station-2023",
@@ -40784,7 +40787,7 @@
   "title": "Mapillai Seenu",
   "year": 2022,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mapillai-seenu-2022-tamil-movie/",
   "embeds": [
    {
@@ -40816,7 +40819,7 @@
     "https://www.imdb.com/title/tt3850358/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:19.567Z"
  },
  {
   "id": "mr-peyii-2022",
@@ -79795,7 +79798,7 @@
   "title": "Isaac Newton SO Philipose",
   "year": 2024,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/isaac-newton-so-philipose-2024-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -79823,7 +79826,7 @@
     "https://www.imdb.com/title/tt2622698/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:38.187Z"
  },
  {
   "id": "brothers-and-sisters-2026",
@@ -90517,7 +90520,16 @@
    }
   ],
   "updatedAt": "2026-10-09T06:25:34.835Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/second-love-2026-tamil-web-series/",
+   "fetchedAt": "2026-10-11T13:11:34.899Z",
+   "sourceTitle": "Second Love (2026) Tamil Movie",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "simbaa-2024",
@@ -93968,7 +93980,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:21.540Z"
+  "updatedAt": "2026-10-03T06:48:21.540Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/warrant-2026-tamil-web-series/",
+   "fetchedAt": "2026-10-11T13:11:43.710Z",
+   "sourceTitle": "Warrant (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Vignesh Natarajan"
+   ],
+   "cast": [
+    "Prasanth Pandiyaraj",
+    "Aruldoss",
+    "Kaali Venkat"
+   ]
+  }
  },
  {
   "id": "420-ipc-2021",
@@ -99488,7 +99515,7 @@
   "title": "Ayogya",
   "year": 2024,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ayogya-2024-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -99520,7 +99547,7 @@
     "https://www.imdb.com/title/tt8842764/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:38.237Z"
  },
  {
   "id": "90s-a-middle-class-biopic-2025",
@@ -111371,7 +111398,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:26.495Z"
+  "updatedAt": "2026-10-03T06:48:26.495Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kohrra-2023-tamil-web-series/",
+   "fetchedAt": "2026-10-11T13:11:59.855Z",
+   "sourceTitle": "Kohrra (2023)",
+   "sourceYear": 2023,
+   "directors": [
+    "Sudip Sharma"
+   ],
+   "cast": [
+    "Barun Sobti",
+    "Suvinder Vicky",
+    "Manish Chaudhari"
+   ]
+  }
  },
  {
   "id": "honeymoon-se-hatya-2026",
@@ -172315,7 +172357,7 @@
   "year": 2021,
   "kind": "series",
   "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-outpost-2021-season-03-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -172541,7 +172583,7 @@
     "https://www.imdb.com/title/tt39177746/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:03.612Z"
  },
  {
   "id": "the-passion-2006",
@@ -173960,7 +174002,7 @@
   "title": "The Seed of the Sacred Fig",
   "year": 2025,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-seed-of-the-sacred-fig-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -173988,7 +174030,7 @@
     "https://www.imdb.com/title/tt32178949/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:56.067Z"
  },
  {
   "id": "the-shannara-chronicles",
@@ -174890,14 +174932,15 @@
   "tmdbId": 34440,
   "imdbId": "tt1698441",
   "addedAt": "2026-10-07T20:38:18.283Z",
-  "updatedAt": "2026-10-07T20:58:13.573Z"
+  "updatedAt": "2026-10-11T13:13:35.253Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-tunnel-2019",
   "title": "The Tunnel",
   "year": 2019,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-tunnel-2019-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -174925,7 +174968,7 @@
     "https://www.imdb.com/title/tt9049042/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:35.253Z"
  },
  {
   "id": "the-twins-effect-2-2004",
@@ -211028,7 +211071,7 @@
   "title": "The Hairy Tooth Fairy",
   "year": 2020,
   "category": "tamil-dubbed-movie",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-hairy-tooth-fairy-2020-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -211056,7 +211099,7 @@
     "https://www.imdb.com/title/tt0458076/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:24.346Z"
  },
  {
   "id": "the-hangover-3-2013",
@@ -212235,7 +212278,8 @@
   "tmdbId": 84792,
   "imdbId": "tt8816186",
   "addedAt": "2026-10-07T20:37:18.926Z",
-  "updatedAt": "2026-10-07T21:00:05.320Z"
+  "updatedAt": "2026-10-11T13:13:59.843Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-man-on-the-road-2022",
@@ -217486,8 +217530,8 @@
   "id": "unbending-2021",
   "title": "Unbending",
   "year": 2021,
-  "category": "tamil-movie",
-  "categorySource": "inferred",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/unbending-2021-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -217495,10 +217539,10 @@
     "url": "https://dub.onestream.today/stream/video/88070"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/unbending-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/4iJ1aMCZNNYWyqmtUQ7J33P5Fns.jpg",
+  "rating": 5.5,
+  "tmdbId": 802113,
+  "imdbId": "tt14278036",
   "addedAt": "2026-10-07T20:39:25.643Z",
   "metadataVerification": {
    "status": "inferred",
@@ -217508,7 +217552,9 @@
     "https://isaidub.green/movie/unbending-2021-tamil-dubbed-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:59.477Z",
+  "tmdbType": "movie",
+  "originalLanguage": "zh"
  },
  {
   "id": "uncharted-2022",
@@ -219222,7 +219268,7 @@
   "title": "X",
   "year": 2022,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/x-2022-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -219250,7 +219296,7 @@
     "https://www.imdb.com/title/tt13560574/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:44.605Z"
  },
  {
   "id": "x-men-days-of-future-past-2014",
@@ -252440,7 +252486,7 @@
   "title": "The Man Named Leopard",
   "year": 2019,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-man-named-leopard-2019-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -252468,7 +252514,7 @@
     "https://www.imdb.com/title/tt11306712/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:03.612Z"
  },
  {
   "id": "the-man-who-knew-infinity-2016",
@@ -254472,7 +254518,8 @@
   "tmdbId": 9199,
   "imdbId": "tt0443412",
   "addedAt": "2026-10-07T20:37:58.983Z",
-  "updatedAt": "2026-10-07T21:02:21.263Z"
+  "updatedAt": "2026-10-11T13:13:44.576Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-terminal-list-dark-wolf-2025",
@@ -286214,8 +286261,8 @@
   "title": "The Chosen",
   "year": 2017,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-chosen-2017-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -286363,10 +286410,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-chosen-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/wNyVhOgNDk4ssSGuKFjYFh1gbCw.jpg",
+  "rating": 8.83,
+  "tmdbId": 85077,
+  "imdbId": "tt5622316",
   "addedAt": "2026-10-07T20:36:48.444Z",
   "seasons": [
    {
@@ -286609,7 +286656,9 @@
     "https://isaidub.green/movie/the-chosen-2017-tamil-dubbed-web-series/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:14:19.567Z",
+  "tmdbType": "tv",
+  "originalLanguage": "en"
  },
  {
   "id": "the-chronicles-of-narnia-3-2010",
@@ -291697,7 +291746,7 @@
   "title": "The Surfer",
   "year": 2024,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-surfer-2024-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -291729,7 +291778,7 @@
     "https://www.imdb.com/title/tt27813235/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:13:14.317Z"
  },
  {
   "id": "the-sword-identity-2011",
@@ -293178,7 +293227,7 @@
   "title": "Time and Tide",
   "year": 2000,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/time-and-tide-2000-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -293218,7 +293267,7 @@
     "https://www.imdb.com/title/tt0251433/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:53.232Z"
  },
  {
   "id": "timeline-2003",
@@ -294259,7 +294308,7 @@
   "year": 2025,
   "kind": "series",
   "category": "tamil-dubbed-series",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/twinkling-watermelon-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -294359,7 +294408,7 @@
     "episode": 16
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/bwTzW1wTgUxUOQruhT8DvinUYgR.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/m56EaJ4zLG84F8jpNT7ZmaL0IAS.jpg",
   "rating": 8.798,
   "tmdbId": 212204,
   "imdbId": "tt27446493",
@@ -294530,7 +294579,7 @@
     "https://www.imdb.com/title/tt27446493/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:39.755Z"
  },
  {
   "id": "two-night-stand-2014",
@@ -296069,7 +296118,7 @@
   "title": "Wicked Little Letters",
   "year": 2023,
   "category": "tamil-dubbed-movie",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/wicked-little-letters-2023-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -296097,7 +296146,7 @@
     "https://www.imdb.com/title/tt20234774/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:36.593Z"
  },
  {
   "id": "will-pius-xiii-get-his-way",
@@ -302172,14 +302221,14 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-11T13:12:35.851Z",
   "tmdbType": "tv",
   "tmdbTitle": "Hush Hush",
   "originalTitle": "Hush Hush",
   "originalYear": 2022,
   "originalLanguage": "hi",
   "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "unique-title-original-year",
@@ -309576,7 +309625,7 @@
     "episode": 4
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/eo4kcHNfXBKdmxp357vHnyBQ06o.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/rbNlyOpDCjDoLgfufjwjsdnAN0h.jpg",
   "rating": 0,
   "tmdbId": 279099,
   "imdbId": "tt13958504",
@@ -309630,7 +309679,7 @@
   "originalYear": 2024,
   "originalLanguage": "ta",
   "category": "tamil-series",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -309641,7 +309690,7 @@
     "https://www.imdb.com/title/tt13958504/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "updatedAt": "2026-10-11T13:12:31.192Z"
  },
  {
   "id": "saare-jahan-se-accha-2025",
@@ -313762,7 +313811,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "ml",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/eyes-2026-tamil-web-series/",
   "embeds": [
    {
@@ -313850,7 +313899,7 @@
     "episode": 7
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/oHhLK5Dxi1Jpe4weMF9iuRp5cHL.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/rzDJcT4B1CiWlRaEIYMXCzuzONz.jpg",
   "rating": 10,
   "tmdbId": 255613,
   "imdbId": "tt48461761",
@@ -313953,7 +314002,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-11T13:12:29.661Z",
   "tmdbType": "tv",
   "tmdbTitle": "Eyes",
   "originalTitle": "Eyes",
@@ -314678,5 +314727,49 @@
   "category": "tamil-dubbed-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-10-11T08:07:57.726Z"
+ },
+ {
+  "id": "promise-2026",
+  "title": "Promise",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/promise-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102432"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102426"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102431"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102427"
+   }
+  ],
+  "poster": "https://moviezda.net/uploads/posters/promise-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-11T13:11:58.889Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/promise-2026-tamil-movie/",
+   "fetchedAt": "2026-10-11T13:11:54.274Z",
+   "sourceTitle": "Promise (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Arun Kumar Sekaran"
+   ],
+   "cast": [
+    "Arun Kumar Sekaran",
+    "Nathiya Somu",
+    "Sujan Christopher"
+   ]
+  }
  }
 ]
