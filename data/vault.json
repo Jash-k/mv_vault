@@ -22136,7 +22136,8 @@
   "tmdbId": 201009,
   "imdbId": "tt19768024",
   "addedAt": "2026-09-27T19:46:24.404Z",
-  "updatedAt": "2026-10-07T20:56:18.067Z"
+  "updatedAt": "2026-10-11T09:18:20.651Z",
+  "tmdbType": "tv"
  },
  {
   "id": "irugapatru-2023",
@@ -27782,7 +27783,8 @@
   "tmdbId": 238419,
   "imdbId": "tt22297290",
   "addedAt": "2026-09-27T21:09:46.050Z",
-  "updatedAt": "2026-10-07T20:56:18.067Z"
+  "updatedAt": "2026-10-11T09:19:00.410Z",
+  "tmdbType": "tv"
  },
  {
   "id": "kumbaari-2024",
@@ -38242,7 +38244,8 @@
   "tmdbId": 225824,
   "imdbId": "tt27671508",
   "addedAt": "2026-09-27T23:16:56.145Z",
-  "updatedAt": "2026-10-07T20:56:18.556Z"
+  "updatedAt": "2026-10-11T09:19:41.313Z",
+  "tmdbType": "tv"
  },
  {
   "id": "manu-charitra-2023",
@@ -49435,7 +49438,8 @@
   "tmdbId": 153637,
   "imdbId": "tt15128106",
   "addedAt": "2026-09-28T04:37:23.562Z",
-  "updatedAt": "2026-10-07T20:56:18.851Z"
+  "updatedAt": "2026-10-11T09:20:17.662Z",
+  "tmdbType": "tv"
  },
  {
   "id": "pushpa-tamil-2021",
@@ -80544,8 +80548,8 @@
   "title": "Cousins Kalyanams",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/cousins-kalyanams-2026-tamil-web-series/",
   "embeds": [
    {
@@ -81269,10 +81273,10 @@
     "episode": 60
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/cousins-kalyanams-2026.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9VRlLU8ji0dEvEJx5WQwBbhl6Su.jpg",
+  "rating": 5.8,
+  "tmdbId": 320685,
+  "imdbId": "tt42071698",
   "addedAt": "2026-09-29T08:29:00.030Z",
   "seasons": [
    {
@@ -82061,7 +82065,9 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T13:35:05.203Z"
+  "updatedAt": "2026-10-11T09:17:54.423Z",
+  "tmdbType": "tv",
+  "originalLanguage": "ml"
  },
  {
   "id": "jetty-2024",
@@ -85190,7 +85196,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-series",
-  "categorySource": "site",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mammattiyaan-stars-2026-tamil-web-series/",
   "embeds": [
    {
@@ -85266,10 +85272,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/mammattiyaan-stars-2026.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/qbEXkMiuiz9shdvEgSpZLDmPmpH.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 326804,
+  "imdbId": "tt43609065",
   "addedAt": "2026-09-29T08:29:44.854Z",
   "seasons": [
    {
@@ -85355,7 +85361,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ta",
+  "updatedAt": "2026-10-11T09:19:27.081Z"
  },
  {
   "id": "meter-2024",
@@ -95400,8 +95409,8 @@
   "title": "90s A Middle Class Biopic",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/",
   "embeds": [
    {
@@ -95441,10 +95450,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/90s-a-middle-class-biopic-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/2AdNhPS8OZhJ6fm8QK5PfIddukt.jpg",
+  "rating": 8,
+  "tmdbId": 242983,
+  "imdbId": "tt29764006",
   "addedAt": "2026-10-01T12:26:40.785Z",
   "seasons": [
    {
@@ -95507,7 +95516,9 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T05:44:03.868Z"
+  "updatedAt": "2026-10-11T09:17:12.631Z",
+  "tmdbType": "tv",
+  "originalLanguage": "te"
  },
  {
   "id": "air-all-india-rankers-2025",
@@ -96136,7 +96147,7 @@
   "year": 2025,
   "kind": "series",
   "category": "tamil-series",
-  "categorySource": "site",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
   "embeds": [
    {
@@ -96860,10 +96871,10 @@
     "episode": 120
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/lbw-love-beyond-wicket-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/377e5wW40qpfdxqgizgPmYZtKNu.jpg",
+  "rating": 6.5,
+  "tmdbId": 307959,
+  "imdbId": "tt39182415",
   "addedAt": "2026-10-01T12:27:03.054Z",
   "seasons": [
    {
@@ -97952,7 +97963,9 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T13:17:30.627Z"
+  "updatedAt": "2026-10-11T09:19:11.666Z",
+  "tmdbType": "tv",
+  "originalLanguage": "ta"
  },
  {
   "id": "dhoolpet-police-station-2025",
@@ -103726,7 +103739,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-series",
-  "categorySource": "site",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sshhh-2026-tamil-web-series/",
   "embeds": [
    {
@@ -103778,10 +103791,10 @@
     "episode": 4
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/sshhh-2026.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/d6wFlHR9s8PJAL3bq9W5CNF0BMY.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 279099,
+  "imdbId": "tt13958504",
   "addedAt": "2026-10-02T19:57:49.156Z",
   "seasons": [
    {
@@ -103841,7 +103854,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ta",
+  "updatedAt": "2026-10-11T09:21:41.441Z"
  },
  {
   "id": "jolly-o-gymkhana-2026",
@@ -106182,8 +106198,8 @@
   "title": "3 Roses",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/3-roses-2026-tamil-web-series/",
   "embeds": [
    {
@@ -106223,10 +106239,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/3-roses-2026.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/iMgPDtofGe12epy67F6MxhKd869.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 138399,
+  "imdbId": "tt15529076",
   "addedAt": "2026-10-02T19:59:35.804Z",
   "seasons": [
    {
@@ -106288,7 +106304,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "te",
+  "updatedAt": "2026-10-11T09:17:06.609Z"
  },
  {
   "id": "bandwaale-2026",
@@ -123437,8 +123456,8 @@
   "title": "Dead And Buried",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/dead-and-buried-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -123466,10 +123485,10 @@
     "episode": 4
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/dead-and-buried-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/mNOtgyHuat5xZWLKl15JjBz8yqQ.jpg",
+  "rating": 5.3,
+  "tmdbId": 244324,
+  "imdbId": "tt31499843",
   "addedAt": "2026-10-07T20:27:36.258Z",
   "seasons": [
    {
@@ -123513,7 +123532,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:23:59.331Z"
  },
  {
   "id": "dead-ringers-2023",
@@ -126320,8 +126342,8 @@
   "title": "Fear The Walking Dead",
   "year": 2021,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/fear-the-walking-dead-2021-season-06-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -126739,10 +126761,10 @@
     "episode": 16
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/fear-the-walking-dead-2021-season-06.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9fXoAcfHTktdWIUr7BopLqelb8Y.jpg",
+  "rating": 7.6,
+  "tmdbId": 62286,
+  "imdbId": "tt3743822",
   "addedAt": "2026-10-07T20:28:40.338Z",
   "seasons": [
    {
@@ -127392,7 +127414,9 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-07T20:28:56.196Z"
+  "updatedAt": "2026-10-11T09:23:27.154Z",
+  "tmdbType": "tv",
+  "originalLanguage": "en"
  },
  {
   "id": "fear-the-walking-dead-2023",
@@ -132753,7 +132777,8 @@
   "tmdbId": 227424,
   "imdbId": "tt1069207",
   "addedAt": "2026-10-07T20:30:15.882Z",
-  "updatedAt": "2026-10-07T20:57:09.360Z"
+  "updatedAt": "2026-10-11T09:22:33.557Z",
+  "tmdbType": "tv"
  },
  {
   "id": "jack-the-giant-slayer-2013",
@@ -133200,8 +133225,8 @@
   "title": "KAOS",
   "year": 2024,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/kaos-2024-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -133253,10 +133278,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/kaos-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/dDBTUSl3tRsOeKC1jZugBSFHy9I.jpg",
+  "rating": 7.3,
+  "tmdbId": 102621,
+  "imdbId": "tt8550732",
   "addedAt": "2026-10-07T20:30:25.299Z",
   "seasons": [
    {
@@ -133336,7 +133361,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:22:31.800Z"
  },
  {
   "id": "kaw-2007",
@@ -161819,8 +161847,8 @@
   "id": "the-chronicles-of-narnia-2-2008",
   "title": "The Chronicles Of Narnia 2",
   "year": 2008,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-chronicles-of-narnia-2-2008-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -161832,11 +161860,14 @@
     "url": "https://dub.onestream.today/stream/video/39359"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-chronicles-of-narnia-2-2008.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:35:55.312Z"
+  "poster": "https://image.tmdb.org/t/p/w500/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg",
+  "rating": 6.6,
+  "tmdbId": 2454,
+  "imdbId": "tt0499448",
+  "addedAt": "2026-10-07T20:35:55.312Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:20:04.406Z"
  },
  {
   "id": "the-clearing-2020",
@@ -163664,8 +163695,8 @@
   "id": "the-hangover-part-3-2013",
   "title": "The Hangover Part 3",
   "year": 2013,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-hangover-part-3-2013-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -163677,11 +163708,14 @@
     "url": "https://dub.onestream.today/stream/video/65160"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-hangover-part-3-2013.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:36:29.428Z"
+  "poster": "https://image.tmdb.org/t/p/w500/vtxuPWkdllLNLVyGjKYa267ntuH.jpg",
+  "rating": 6.213,
+  "tmdbId": 109439,
+  "imdbId": "tt1951261",
+  "addedAt": "2026-10-07T20:36:29.428Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:19:41.313Z"
  },
  {
   "id": "the-hating-game-2021",
@@ -163709,8 +163743,8 @@
   "title": "The Heavenly Idol",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-heavenly-idol-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -163786,10 +163820,10 @@
     "episode": 12
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-heavenly-idol-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/vOpXfxUcl79JVtA6W3V43FT3MEm.jpg",
+  "rating": 7.4,
+  "tmdbId": 202625,
+  "imdbId": "tt26228426",
   "addedAt": "2026-10-07T20:36:31.255Z",
   "seasons": [
    {
@@ -163905,7 +163939,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:19:41.313Z"
  },
  {
   "id": "the-heroic-trio-1993",
@@ -167507,8 +167544,8 @@
   "id": "the-rugrats-1998",
   "title": "The Rugrats",
   "year": 1998,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-rugrats-1998-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -167520,11 +167557,14 @@
     "url": "https://dub.onestream.today/stream/video/57571"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-rugrats-1998.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:37:35.432Z"
+  "poster": "https://image.tmdb.org/t/p/w500/uZejGKCSd6nwfMx8U0Td37U2fTc.jpg",
+  "rating": 6.271,
+  "tmdbId": 14444,
+  "imdbId": "tt0134067",
+  "addedAt": "2026-10-07T20:37:35.432Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:19:00.410Z"
  },
  {
   "id": "the-rundown-2003",
@@ -168534,7 +168574,8 @@
   "tmdbId": 34440,
   "imdbId": "tt1698441",
   "addedAt": "2026-10-07T20:38:18.283Z",
-  "updatedAt": "2026-10-07T20:58:13.573Z"
+  "updatedAt": "2026-10-11T09:18:33.450Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-tunnel-2019",
@@ -180154,8 +180195,8 @@
   "id": "dark-whispers-2019",
   "title": "Dark Whispers",
   "year": 2019,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/dark-whispers-2019-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -180163,11 +180204,14 @@
     "url": "https://dub.onestream.today/stream/video/86392"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/dark-whispers-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:27:26.017Z"
+  "poster": "https://image.tmdb.org/t/p/w500/tJq1KtnSRCDOMnPcVUtxGB5dfAQ.jpg",
+  "rating": 6.6,
+  "tmdbId": 618331,
+  "imdbId": "tt10448542",
+  "addedAt": "2026-10-07T20:27:26.017Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:02.218Z"
  },
  {
   "id": "dawn-of-the-dead-2004",
@@ -181322,8 +181366,8 @@
   "title": "Doom At Your Service",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/doom-at-your-service-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -181423,10 +181467,10 @@
     "episode": 16
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/doom-at-your-service-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6kAftlcSQcf7gOSXYzYwaI2GFPt.jpg",
+  "rating": 7.9,
+  "tmdbId": 116386,
+  "imdbId": "tt13669128",
   "addedAt": "2026-10-07T20:27:54.317Z",
   "seasons": [
    {
@@ -181578,7 +181622,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:23:54.340Z"
  },
  {
   "id": "dora-and-the-lost-city-of-gold-2019",
@@ -183808,8 +183855,8 @@
   "title": "Fight Night The Million Dollar Heist",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/fight-night-the-million-dollar-heist-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -183861,10 +183908,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/fight-night-the-million-dollar-heist-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/10jWLqmzLvlGbJMVV7eKwOvNs7C.jpg",
+  "rating": 6.8,
+  "tmdbId": 241485,
+  "imdbId": "tt30428188",
   "addedAt": "2026-10-07T20:28:42.184Z",
   "seasons": [
    {
@@ -183944,7 +183991,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:23:25.443Z"
  },
  {
   "id": "fight-to-the-finish-2016",
@@ -184763,8 +184813,8 @@
   "title": "Ghost Doctor",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/ghost-doctor-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -184864,10 +184914,10 @@
     "episode": 16
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/ghost-doctor-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/hu5eh1hOtoaEhvn8vFEDhzR2d77.jpg",
+  "rating": 8,
+  "tmdbId": 152471,
+  "imdbId": "tt16493854",
   "addedAt": "2026-10-07T20:29:00.819Z",
   "seasons": [
    {
@@ -185019,7 +185069,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:23:11.899Z"
  },
  {
   "id": "ghost-rider-2007",
@@ -187490,8 +187543,8 @@
   "title": "Invincible",
   "year": 2023,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/invincible-2023-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -187507,10 +187560,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/invincible-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg",
+  "rating": 8.628,
+  "tmdbId": 95557,
+  "imdbId": "tt6741278",
   "addedAt": "2026-10-07T20:30:04.343Z",
   "seasons": [
    {
@@ -187531,7 +187584,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:22:41.690Z"
  },
  {
   "id": "ip-man-and-four-kings-2021",
@@ -197080,8 +197136,8 @@
   "title": "Sesame Street",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/sesame-street-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -197109,10 +197165,10 @@
     "episode": 4
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/sesame-street-2026.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ugB2540e2zFCX6oXEiMCKMJzQmx.jpg",
+  "rating": 7.1,
+  "tmdbId": 502,
+  "imdbId": "tt0063951",
   "addedAt": "2026-10-07T20:34:40.718Z",
   "seasons": [
    {
@@ -197156,7 +197212,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:20:36.453Z"
  },
  {
   "id": "seven-swords-2022",
@@ -198597,8 +198656,8 @@
   "id": "spy-kids-2-2002",
   "title": "Spy Kids 2",
   "year": 2002,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/spy-kids-2-2002-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -198610,11 +198669,14 @@
     "url": "https://dub.onestream.today/stream/video/39127"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/spy-kids-2-2002.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:35:16.916Z"
+  "poster": "https://image.tmdb.org/t/p/w500/z8pfWCk6SlxxDLXXQdUHdxF5dwJ.jpg",
+  "rating": 5.655,
+  "tmdbId": 9488,
+  "imdbId": "tt0287717",
+  "addedAt": "2026-10-07T20:35:16.916Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:20:19.270Z"
  },
  {
   "id": "spy-time-2015",
@@ -199243,8 +199305,8 @@
   "title": "Stockholm Requiem",
   "year": 2022,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/stockholm-requiem-season-01-2022-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -199308,10 +199370,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/stockholm-requiem-season-01-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9o3rbH9nNmQGkgb44ZGJoRoV55K.jpg",
+  "rating": 5.8,
+  "tmdbId": 82855,
+  "imdbId": "tt8149662",
   "addedAt": "2026-10-07T20:35:27.070Z",
   "seasons": [
    {
@@ -199409,7 +199471,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "sv",
+  "updatedAt": "2026-10-11T09:20:15.002Z"
  },
  {
   "id": "stories-not-to-be-told-2022",
@@ -200472,7 +200537,8 @@
   "tmdbId": 213856,
   "imdbId": "tt4964452",
   "addedAt": "2026-10-07T20:35:50.268Z",
-  "updatedAt": "2026-10-07T20:59:54.335Z"
+  "updatedAt": "2026-10-11T09:20:07.381Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-amazing-wiplala-2014",
@@ -204117,8 +204183,8 @@
   "title": "The Lord of the Rings",
   "year": 2022,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-lord-of-the-rings-2022-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -204164,10 +204230,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-lord-of-the-rings-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zZVQbQV7djOnO8ugeJ8iQKm3I4U.jpg",
+  "rating": 7.209,
+  "tmdbId": 84773,
+  "imdbId": "tt7631058",
   "addedAt": "2026-10-07T20:37:17.280Z",
   "seasons": [
    {
@@ -204238,7 +204304,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:19:04.243Z"
  },
  {
   "id": "the-lost-dragon-2014",
@@ -204304,7 +204373,8 @@
   "tmdbId": 84792,
   "imdbId": "tt8816186",
   "addedAt": "2026-10-07T20:37:18.926Z",
-  "updatedAt": "2026-10-07T21:00:05.320Z"
+  "updatedAt": "2026-10-11T09:19:02.174Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-man-on-the-road-2022",
@@ -206507,8 +206577,8 @@
   "id": "the-three-musketeers-part-2-milady-2023",
   "title": "The Three Musketeers Part 2 Milady",
   "year": 2023,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-three-musketeers-part-2-milady-2023-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -206516,11 +206586,14 @@
     "url": "https://dub.onestream.today/stream/video/92477"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-three-musketeers-part-2-milady-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:38:14.973Z"
+  "poster": "https://image.tmdb.org/t/p/w500/3biswIjw14uDVil12nMOxcTAfmH.jpg",
+  "rating": 6.376,
+  "tmdbId": 845111,
+  "imdbId": "tt12672620",
+  "addedAt": "2026-10-07T20:38:14.973Z",
+  "tmdbType": "movie",
+  "originalLanguage": "fr",
+  "updatedAt": "2026-10-11T09:18:34.622Z"
  },
  {
   "id": "the-time-machine-2002",
@@ -209448,8 +209521,8 @@
   "id": "unbending-2021",
   "title": "Unbending",
   "year": 2021,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/unbending-2021-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -209457,11 +209530,14 @@
     "url": "https://dub.onestream.today/stream/video/88070"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/unbending-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:39:25.643Z"
+  "poster": "https://image.tmdb.org/t/p/w500/4iJ1aMCZNNYWyqmtUQ7J33P5Fns.jpg",
+  "rating": 5.5,
+  "tmdbId": 802113,
+  "imdbId": "tt14278036",
+  "addedAt": "2026-10-07T20:39:25.643Z",
+  "tmdbType": "movie",
+  "originalLanguage": "zh",
+  "updatedAt": "2026-10-11T09:18:04.639Z"
  },
  {
   "id": "uncharted-2022",
@@ -209489,8 +209565,8 @@
   "title": "Under the Dome",
   "year": 2014,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/under-the-dome-season-2-2014-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -209572,10 +209648,10 @@
     "episode": 13
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/under-the-dome-season-2-2014.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/sceh0hWR6JEdWeng7t02NAnS3px.jpg",
+  "rating": 7.122,
+  "tmdbId": 46331,
+  "imdbId": "tt1553656",
   "addedAt": "2026-10-07T20:39:25.650Z",
   "seasons": [
    {
@@ -209700,7 +209776,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:18:04.639Z"
  },
  {
   "id": "underdog-2007",
@@ -211004,8 +211083,8 @@
   "id": "wrong-turn-3-2009",
   "title": "Wrong Turn 3",
   "year": 2009,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/wrong-turn-3-2009-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -211021,11 +211100,14 @@
     "url": "https://dub.onestream.today/stream/video/60616"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/wrong-turn-3-2009.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:39:57.094Z"
+  "poster": "https://image.tmdb.org/t/p/w500/84s4LMWuGbm4xPWW5PSbHyQhh33.jpg",
+  "rating": 5.715,
+  "tmdbId": 23823,
+  "imdbId": "tt1261978",
+  "addedAt": "2026-10-07T20:39:57.094Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:17:39.539Z"
  },
  {
   "id": "wu-kong-2017",
@@ -220544,8 +220626,8 @@
   "id": "fantastic-4-rise-of-the-silver-surfer-2007",
   "title": "Fantastic 4 Rise Of The Silver Surfer",
   "year": 2007,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/fantastic-4-rise-of-the-silver-surfer-2007-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -220557,11 +220639,14 @@
     "url": "https://dub.onestream.today/stream/video/38205"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/fantastic-4-rise-of-the-silver-surfer-2007.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:28:48.350Z"
+  "poster": "https://image.tmdb.org/t/p/w500/9wRfzTcMyyzkQxVDqBHv8RwuZOv.jpg",
+  "rating": 5.637,
+  "tmdbId": 1979,
+  "imdbId": "tt0486576",
+  "addedAt": "2026-10-07T20:28:48.350Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:23:20.519Z"
  },
  {
   "id": "fantastic-four-2015",
@@ -225590,8 +225675,8 @@
   "title": "Karma",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/karma-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -225631,10 +225716,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/karma-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/mtAGC4W7UW5d8yTRNNAFvAnLGmI.jpg",
+  "rating": 7.5,
+  "tmdbId": 233686,
+  "imdbId": "tt29921070",
   "addedAt": "2026-10-07T20:30:36.270Z",
   "seasons": [
    {
@@ -225696,7 +225781,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:22:24.690Z"
  },
  {
   "id": "kick-ass-2-2013",
@@ -226123,12 +226211,13 @@
     "url": "https://dub.onestream.today/stream/video/56517"
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/rkq5Jt7boR5v65bDbELHz3DW7sv.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/i2UMlFI7lCfhLJXX8OjvVsmoBww.jpg",
   "rating": 7.417,
   "tmdbId": 39898,
   "imdbId": "tt1545214",
   "addedAt": "2026-10-07T20:30:45.916Z",
-  "updatedAt": "2026-10-07T21:01:24.020Z"
+  "updatedAt": "2026-10-11T09:22:14.309Z",
+  "tmdbType": "tv"
  },
  {
   "id": "la-femme-nikita-1990",
@@ -226156,8 +226245,8 @@
   "id": "lady-and-the-tramp-2-scamp-adventure-2001",
   "title": "Lady and the Tramp 2 Scamp Adventure",
   "year": 2001,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/lady-and-the-tramp-2-scamp-adventure-2001-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -226169,11 +226258,14 @@
     "url": "https://dub.onestream.today/stream/video/58979"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/lady-and-the-tramp-2-scamp-adventure-2001.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:30:45.922Z"
+  "poster": "https://image.tmdb.org/t/p/w500/nS3nhUZUSY8dWEsRmKILfiOC3F0.jpg",
+  "rating": 6.3,
+  "tmdbId": 18269,
+  "imdbId": "tt0249677",
+  "addedAt": "2026-10-07T20:30:45.922Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:22:12.639Z"
  },
  {
   "id": "lake-consequence-1993",
@@ -228088,8 +228180,8 @@
   "id": "master-so-dragon-2020",
   "title": "Master So Dragon",
   "year": 2020,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/master-so-dragon-2020-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -228097,11 +228189,14 @@
     "url": "https://dub.onestream.today/stream/video/92979"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/master-so-dragon-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:31:18.082Z"
+  "poster": "https://image.tmdb.org/t/p/w500/48PDeJDevk6HXR3q68FY4DBGzyT.jpg",
+  "rating": 4,
+  "tmdbId": 723077,
+  "imdbId": "tt12799912",
+  "addedAt": "2026-10-07T20:31:18.082Z",
+  "tmdbType": "movie",
+  "originalLanguage": "zh",
+  "updatedAt": "2026-10-11T09:22:07.468Z"
  },
  {
   "id": "masters-of-the-universe-2026",
@@ -233023,8 +233118,8 @@
   "id": "rebel-moon-part-2-2024",
   "title": "Rebel Moon Part 2",
   "year": 2024,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/rebel-moon-part-2-2024-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -233032,11 +233127,14 @@
     "url": "https://dub.onestream.today/stream/video/95768"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/rebel-moon-part-2-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:33:49.655Z"
+  "poster": "https://image.tmdb.org/t/p/w500/95gnJZIk2rEkMO0Ch46x5CVjnms.jpg",
+  "rating": 6,
+  "tmdbId": 934632,
+  "imdbId": "tt23137904",
+  "addedAt": "2026-10-07T20:33:49.655Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:21:17.766Z"
  },
  {
   "id": "rebellion-2015",
@@ -233999,8 +234097,8 @@
   "title": "Rising With The Wind",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/rising-with-the-wind-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -234124,10 +234222,10 @@
     "episode": 40
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/rising-with-the-wind-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7U21x2lqDQn7sCjHi9NGfXwzu5X.jpg",
+  "rating": 5.5,
+  "tmdbId": 152551,
+  "imdbId": "tt17069404",
   "addedAt": "2026-10-07T20:34:14.170Z",
   "seasons": [
    {
@@ -234315,7 +234413,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "zh",
+  "updatedAt": "2026-10-11T09:20:47.810Z"
  },
  {
   "id": "road-house-2024",
@@ -235247,8 +235348,8 @@
   "title": "Sesame Street",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/sesame-street-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -235276,10 +235377,10 @@
     "episode": 4
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/sesame-street-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/34THf89nEDQxyxy7thVt9rFBRwq.jpg",
+  "rating": 7.1,
+  "tmdbId": 502,
+  "imdbId": "tt0063951",
   "addedAt": "2026-10-07T20:34:33.716Z",
   "seasons": [
    {
@@ -235323,7 +235424,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:20:39.665Z"
  },
  {
   "id": "seven-snipers-2026",
@@ -242504,8 +242608,8 @@
   "id": "the-karate-kid-2-1986",
   "title": "The Karate Kid 2",
   "year": 1986,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-karate-kid-2-1986-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -242513,11 +242617,14 @@
     "url": "https://dub.onestream.today/stream/video/98657"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-karate-kid-2-1986.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:37:00.457Z"
+  "poster": "https://image.tmdb.org/t/p/w500/k0OwgRR6PNu7h3SiqpCbRdZWNaG.jpg",
+  "rating": 6.352,
+  "tmdbId": 8856,
+  "imdbId": "tt0091326",
+  "addedAt": "2026-10-07T20:37:00.457Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:19:20.359Z"
  },
  {
   "id": "the-kid-2000",
@@ -243845,8 +243952,8 @@
   "title": "The Real Peaky Blinders",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-real-peaky-blinders-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -243862,10 +243969,10 @@
     "episode": 2
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-real-peaky-blinders-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6Ifsz3YepD6M6hlx24u5Ei9VdFq.jpg",
+  "rating": 7.6,
+  "tmdbId": 194690,
+  "imdbId": "tt20835678",
   "addedAt": "2026-10-07T20:37:39.532Z",
   "seasons": [
    {
@@ -243891,7 +243998,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:18:54.318Z"
  },
  {
   "id": "the-replacement-killers-1998",
@@ -244886,7 +244996,8 @@
   "tmdbId": 9199,
   "imdbId": "tt0443412",
   "addedAt": "2026-10-07T20:37:58.983Z",
-  "updatedAt": "2026-10-07T21:02:21.263Z"
+  "updatedAt": "2026-10-11T09:18:44.375Z",
+  "tmdbType": "tv"
  },
  {
   "id": "the-terminal-list-dark-wolf-2025",
@@ -245310,8 +245421,8 @@
   "id": "the-visual-bible-the-gospel-of-john-2003",
   "title": "The Visual Bible: The Gospel Of John",
   "year": 2003,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-visual-bible:-the-gospel-of-john-2003-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -245323,11 +245434,14 @@
     "url": "https://dub.onestream.today/stream/video/46374"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-visual-bible-the-gospel-of-john-2003.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:38:45.133Z"
+  "poster": "https://image.tmdb.org/t/p/w500/rKbmbnYfFhgTjGoDU9F4pIhVvKh.jpg",
+  "rating": 7.515,
+  "tmdbId": 30973,
+  "imdbId": "tt0377992",
+  "addedAt": "2026-10-07T20:38:45.133Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:18:23.936Z"
  },
  {
   "id": "the-walk-2015",
@@ -246665,8 +246779,8 @@
   "id": "transporter-2005",
   "title": "Transporter",
   "year": 2005,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/transporter-2005-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -246678,11 +246792,14 @@
     "url": "https://dub.onestream.today/stream/video/39649"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/transporter-2005.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:39:11.238Z"
+  "poster": "https://image.tmdb.org/t/p/w500/dncJ81z1BahrT3ogLvlxOUC5n4u.jpg",
+  "rating": 6.731,
+  "tmdbId": 4108,
+  "imdbId": "tt0293662",
+  "addedAt": "2026-10-07T20:39:11.238Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:18:11.854Z"
  },
  {
   "id": "treasure-inn-2011",
@@ -247834,8 +247951,8 @@
   "title": "Wedding Impossible",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/wedding-impossible-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -247911,10 +248028,10 @@
     "episode": 12
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/wedding-impossible-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/YZg7HX2YVsRBKjaZ51qvGTHByW.jpg",
+  "rating": 6.6,
+  "tmdbId": 230198,
+  "imdbId": "tt30301176",
   "addedAt": "2026-10-07T20:39:45.138Z",
   "seasons": [
    {
@@ -248030,7 +248147,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:17:49.667Z"
  },
  {
   "id": "weekend-in-taipei-2024",
@@ -249415,8 +249535,8 @@
   "id": "john-wick-chapter-3-2019",
   "title": "John Wick Chapter 3",
   "year": 2019,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/-john-wick-chapter-3-2019-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -249428,11 +249548,14 @@
     "url": "https://dub.onestream.today/stream/video/62592"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/john-wick-chapter-3-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:25:00.109Z"
+  "poster": "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+  "rating": 7.439,
+  "tmdbId": 458156,
+  "imdbId": "tt6146586",
+  "addedAt": "2026-10-07T20:25:00.109Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:48.292Z"
  },
  {
   "id": "premonition-2004",
@@ -250173,8 +250296,8 @@
   "id": "against-the-wild-2-2016",
   "title": "Against the Wild 2",
   "year": 2016,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/against-the-wild-2-2016-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -250186,11 +250309,14 @@
     "url": "https://dub.onestream.today/stream/video/71851"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/against-the-wild-2-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:25:34.396Z"
+  "poster": "https://image.tmdb.org/t/p/w500/jhdvdB3TRIumthWtLa8Gx2Y8FRO.jpg",
+  "rating": 5.4,
+  "tmdbId": 388259,
+  "imdbId": "tt4519312",
+  "addedAt": "2026-10-07T20:25:34.396Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:37.513Z"
  },
  {
   "id": "agent-elite-2012",
@@ -250672,8 +250798,8 @@
   "id": "an-extremely-goofy-2000",
   "title": "An Extremely Goofy",
   "year": 2000,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/an-extremely-goofy-2000-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -250685,11 +250811,14 @@
     "url": "https://dub.onestream.today/stream/video/45111"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/an-extremely-goofy-2000.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:25:47.039Z"
+  "poster": "https://image.tmdb.org/t/p/w500/qr5Q3S7HC16XHQBqE4ZsJJvgUDU.jpg",
+  "rating": 6.464,
+  "tmdbId": 15653,
+  "imdbId": "tt0208185",
+  "addedAt": "2026-10-07T20:25:47.039Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:34.799Z"
  },
  {
   "id": "anaconda-3-offspring-2008",
@@ -251802,8 +251931,8 @@
   "title": "Beast Games",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/beast-games-2025-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -251861,10 +251990,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/beast-games-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6Zww0KyC518xni9m12dA3qB392D.jpg",
+  "rating": 7.4,
+  "tmdbId": 249522,
+  "imdbId": "tt31812476",
   "addedAt": "2026-10-07T20:26:17.791Z",
   "seasons": [
    {
@@ -251953,7 +252082,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:26.742Z"
  },
  {
   "id": "beauty-and-the-beast-2014",
@@ -253693,8 +253825,8 @@
   "title": "C.B Strike The Ink Black Heart",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/c-b-strike-the-ink-black-heart-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -253722,10 +253854,10 @@
     "episode": 4
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/cb-strike-the-ink-black-heart-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6Gd968b5HXi4jAERCmsQZFnPC75.jpg",
+  "rating": 7.266,
+  "tmdbId": 72748,
+  "imdbId": "tt4276618",
   "addedAt": "2026-10-07T20:26:55.264Z",
   "seasons": [
    {
@@ -253769,7 +253901,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:16.929Z"
  },
  {
   "id": "calm-down-master-2018",
@@ -255249,8 +255384,8 @@
   "title": "Daredevil Born Again",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/daredevil-born-again-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -255302,10 +255437,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/daredevil-born-again-2026.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/timvsedxh5ce795tsv6EDTZmmXW.jpg",
+  "rating": 8.2,
+  "tmdbId": 202555,
+  "imdbId": "tt18923754",
   "addedAt": "2026-10-07T20:27:26.220Z",
   "seasons": [
    {
@@ -255385,7 +255520,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:24:02.218Z"
  },
  {
   "id": "dark-tide-2012",
@@ -260882,8 +261020,8 @@
   "id": "hellraiser-3-hell-on-earth-1992",
   "title": "Hellraiser 3 Hell On Earth",
   "year": 1992,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/hellraiser-3-hell-on-earth-1992-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -260895,11 +261033,14 @@
     "url": "https://dub.onestream.today/stream/video/48438"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/hellraiser-3-hell-on-earth-1992.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:29:27.538Z"
+  "poster": "https://image.tmdb.org/t/p/w500/qnXEJp6KP6aIGWhNrg1fOKza4kp.jpg",
+  "rating": 5.7,
+  "tmdbId": 11569,
+  "imdbId": "tt0104409",
+  "addedAt": "2026-10-07T20:29:27.538Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:23:04.360Z"
  },
  {
   "id": "herbie-fully-loaded-2005",
@@ -271868,8 +272009,8 @@
   "id": "son-of-darkness-to-die-for-2-1991",
   "title": "Son of Darkness To Die for 2",
   "year": 1991,
-  "category": "tamil-movie",
-  "categorySource": "site",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/son-of-darkness-to-die-for-2-1991-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -271881,11 +272022,14 @@
     "url": "https://dub.onestream.today/stream/video/60223"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/son-of-darkness-to-die-for-2-1991.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
-  "addedAt": "2026-10-07T20:35:26.083Z"
+  "poster": "https://image.tmdb.org/t/p/w500/sguTquVgEwcvf329MJbwJYTMUFo.jpg",
+  "rating": 3,
+  "tmdbId": 189387,
+  "imdbId": "tt0102961",
+  "addedAt": "2026-10-07T20:35:26.083Z",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:20:15.002Z"
  },
  {
   "id": "song-of-the-assassins-2022",
@@ -271997,12 +272141,13 @@
     "url": "https://dub.onestream.today/stream/video/62367"
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/rTOGcNzVMYGezpx9AxX7ilzLNEp.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/aSxFKLMCcz3TZw45DXIiCBIGkXU.jpg",
   "rating": 8.2,
   "tmdbId": 100612,
   "imdbId": "tt11854694",
   "addedAt": "2026-10-07T20:35:29.636Z",
-  "updatedAt": "2026-10-07T21:03:51.223Z"
+  "updatedAt": "2026-10-11T09:20:13.691Z",
+  "tmdbType": "tv"
  },
  {
   "id": "speckles-the-tarbosaurus-2012",
@@ -273702,8 +273847,8 @@
   "title": "Sweet And Salty Office",
   "year": 2025,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/sweet-and-salty-office-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -273767,10 +273912,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/sweet-and-salty-office-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/oTdY3jgmjM8OHA0J41SMnsEKEXO.jpg",
+  "rating": 3.5,
+  "tmdbId": 82642,
+  "imdbId": "tt34422526",
   "addedAt": "2026-10-07T20:36:01.466Z",
   "seasons": [
    {
@@ -273868,7 +274013,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-11T09:20:01.040Z"
  },
  {
   "id": "swordsman-world-2019",
@@ -275161,8 +275309,8 @@
   "title": "The Chosen",
   "year": 2017,
   "kind": "series",
-  "category": "tamil-series",
-  "categorySource": "site",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-chosen-2017-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -275310,10 +275458,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/the-chosen-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/wNyVhOgNDk4ssSGuKFjYFh1gbCw.jpg",
+  "rating": 8.8,
+  "tmdbId": 85077,
+  "imdbId": "tt5622316",
   "addedAt": "2026-10-07T20:36:48.444Z",
   "seasons": [
    {
@@ -275547,7 +275695,10 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-11T09:19:27.081Z"
  },
  {
   "id": "the-chronicles-of-narnia-3-2010",
@@ -285906,10 +286057,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/yakshini-2024.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/pe3mkoBzaeIO9XGV3oiS7XY0a38.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 255470,
+  "imdbId": "tt32468463",
   "addedAt": "2026-10-07T23:52:58.110Z",
   "seasons": [
    {
@@ -285971,7 +286122,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:25.885Z"
  },
  {
   "id": "population-436-2006",
@@ -287547,10 +287703,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/black-white-and-gray-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6PXpJDC6wRhD6H8OCGPjSLpaXoZ.jpg",
+  "rating": 6,
+  "tmdbId": 290374,
+  "imdbId": "tt35822727",
   "addedAt": "2026-10-09T00:08:43.917Z",
   "seasons": [
    {
@@ -287612,7 +287768,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:23.185Z"
  },
  {
   "id": "bench-life-2024",
@@ -290153,10 +290314,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/gutar-gu-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/qaFl1gFFmN2q5EqqH2KLU11yuQV.jpg",
+  "rating": 8.143,
+  "tmdbId": 223952,
+  "imdbId": "tt27303022",
   "addedAt": "2026-10-09T00:26:32.153Z",
   "seasons": [
    {
@@ -290173,7 +290334,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:23.185Z"
  },
  {
   "id": "garmi-2023",
@@ -290431,10 +290597,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/highway-love-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/83SdUbIC3O3DHGwzvh4QUVGRvnD.jpg",
+  "rating": 7.6,
+  "tmdbId": 228824,
+  "imdbId": "tt27991703",
   "addedAt": "2026-10-09T00:29:08.253Z",
   "seasons": [
    {
@@ -290451,7 +290617,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:21.152Z"
  },
  {
   "id": "hush-hush-season-01-2023",
@@ -291891,10 +292062,10 @@
     "episode": 18
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/kurukshetra-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/amNFukSD0hpj5omLkikfaNw42sp.jpg",
+  "rating": 8.059,
+  "tmdbId": 300894,
+  "imdbId": "tt38235589",
   "addedAt": "2026-10-09T00:39:29.996Z",
   "seasons": [
    {
@@ -292064,7 +292235,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:19.864Z"
  },
  {
   "id": "kerala-crime-files-2025",
@@ -292110,10 +292286,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/kerala-crime-files-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/nyJakvOFBtWT1ILG6OG7AYx1lK.jpg",
+  "rating": 6.5,
+  "tmdbId": 228658,
+  "imdbId": "tt27128638",
   "addedAt": "2026-10-09T00:39:38.399Z",
   "seasons": [
    {
@@ -292175,7 +292351,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:17.464Z"
  },
  {
   "id": "kankhajura-2025",
@@ -298045,10 +298226,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/saare-jahan-se-accha-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/qruCN0Y7PsfCSRjkYSCuTU29BFK.jpg",
+  "rating": 6,
+  "tmdbId": 283610,
+  "imdbId": "tt35665851",
   "addedAt": "2026-10-09T01:28:36.718Z",
   "seasons": [
    {
@@ -298110,7 +298291,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:14.056Z"
  },
  {
   "id": "salakaar-2025",
@@ -299124,10 +299310,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/scam-2003-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/dI2w7eCMtarbvcmRJA7GqrThmH2.jpg",
+  "rating": 8.1,
+  "tmdbId": 229403,
+  "imdbId": "tt28804856",
   "addedAt": "2026-10-09T01:30:06.335Z",
   "seasons": [
    {
@@ -299201,7 +299387,11 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T01:05:41.258Z"
+  "updatedAt": "2026-10-11T09:17:12.631Z",
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "sengalam-2023",
@@ -301705,10 +301895,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/undekhi-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/enb1Ylom4P5ovmDznPeKwEloxO3.jpg",
+  "rating": 8,
+  "tmdbId": 105759,
+  "imdbId": "tt12392496",
   "addedAt": "2026-10-09T01:52:13.389Z",
   "seasons": [
    {
@@ -301806,7 +301996,12 @@
      }
     ]
    }
-  ]
+  ],
+  "tmdbType": "tv",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-11T09:17:06.609Z"
  },
  {
   "id": "veduvan-2025",
