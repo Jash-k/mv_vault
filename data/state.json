@@ -13611,7 +13611,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/": {
-   "at": "2026-10-10T22:58:29.423Z",
+   "at": "2026-10-11T23:11:34.258Z",
    "embeds": 8,
    "kind": "series",
    "v": 3,
@@ -48628,7 +48628,7 @@
   "loser-2021": "2026-10-11T19:49:49.752Z",
   "my-perfect-husband-2024": "2026-10-11T13:12:31.193Z",
   "save-nalla-pasanga-2025": "2026-10-11T19:49:49.752Z",
-  "suzhal-2-the-vortex-2025": "2026-10-11T13:12:30.608Z",
+  "suzhal-2-the-vortex-2025": "2026-10-11T23:12:10.081Z",
   "vaanil-thedinen-2025": "2026-10-11T19:49:49.752Z",
   "mad-square-2025": "2026-10-11T13:14:11.777Z",
   "detective-dee-ninth-floor-demon-tower-2022": "2026-10-11T19:46:43.560Z",
@@ -48931,12 +48931,12 @@
   },
   "suzhal-2-the-vortex-2025": {
    "version": 2,
-   "identity": "89374e1bacbd18ddda04",
+   "identity": "4ee4951e61c139844f25",
    "status": "unresolved",
    "reason": "no-corroborated-match",
    "attempts": 1,
-   "checkedAt": "2026-10-11T13:12:30.608Z",
-   "nextRetryAt": "2026-10-11T19:12:30.608Z",
+   "checkedAt": "2026-10-11T23:12:10.081Z",
+   "nextRetryAt": "2026-10-12T05:12:10.081Z",
    "requests": 4,
    "notes": [
     {

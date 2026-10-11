@@ -310435,6 +310435,9 @@
   "title": "Suzhal 2 The Vortex",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/",
   "embeds": [
    {
@@ -310570,13 +310573,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Suzhal - The Vortex",
   "originalTitle": "Suzhal - The Vortex",
   "originalYear": 2022,
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "inferred",
   "metadataVerification": {
    "status": "inferred",
    "reason": "credits-without-distinctive-plot",
@@ -310587,7 +310588,21 @@
     "https://www.imdb.com/title/tt20873118/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/",
+   "fetchedAt": "2026-10-11T23:11:22.135Z",
+   "sourceTitle": "Suzhal 2 The Vortex (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Bramma G"
+   ],
+   "cast": [
+    "Kathir",
+    "Aishwarya Rajesh",
+    "Palani Murugan"
+   ]
+  }
  },
  {
   "id": "showtime-2024",
