@@ -48280,7 +48280,7 @@
   "bairavan-2024": "2026-10-12T22:37:19.689Z",
   "chengalpattu-2024": "2026-10-12T22:37:25.927Z",
   "iru-dhuruvam-2-2023": "2026-10-11T19:44:51.206Z",
-  "ma-ka-sum-2026": "2026-10-12T06:21:41.002Z",
+  "ma-ka-sum-2026": "2026-10-13T11:10:10.611Z",
   "2025-tamil-movie": "2026-10-12T22:37:15.271Z",
   "10-5-part-2-2004": "2026-10-12T22:39:43.327Z",
   "15-solitary-alignment": "2026-10-12T22:39:38.043Z",
@@ -48697,9 +48697,9 @@
    "identity": "43a4e856e9bb968a2b86",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:21.244Z",
-   "nextRetryAt": "2026-10-13T06:22:21.244Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:44.097Z",
+   "nextRetryAt": "2026-10-14T11:10:44.097Z",
    "requests": 120,
    "notes": [
     {
@@ -50304,9 +50304,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:41.003Z",
-   "nextRetryAt": "2026-10-13T06:21:41.003Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:10.612Z",
+   "nextRetryAt": "2026-10-14T11:10:10.612Z",
    "requests": 42,
    "notes": [
     {
@@ -51624,9 +51624,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:41.003Z",
-   "nextRetryAt": "2026-10-13T06:21:41.003Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:10.612Z",
+   "nextRetryAt": "2026-10-14T11:10:10.612Z",
    "requests": 3,
    "notes": [
     {
@@ -53725,9 +53725,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:48.256Z",
-   "nextRetryAt": "2026-10-13T06:21:48.256Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:19.064Z",
+   "nextRetryAt": "2026-10-14T11:10:19.064Z",
    "requests": 51,
    "notes": [
     {
@@ -54015,9 +54015,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:48.256Z",
-   "nextRetryAt": "2026-10-13T06:21:48.256Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:19.064Z",
+   "nextRetryAt": "2026-10-14T11:10:19.064Z",
    "requests": 46,
    "notes": [
     {
@@ -54038,9 +54038,9 @@
    "identity": "41fc8a96a499266fe4c5",
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "attempts": 2,
-   "checkedAt": "2026-10-12T06:21:41.002Z",
-   "nextRetryAt": "2026-10-13T06:21:41.002Z",
+   "attempts": 3,
+   "checkedAt": "2026-10-13T11:10:10.611Z",
+   "nextRetryAt": "2026-10-16T11:10:10.611Z",
    "requests": 4,
    "notes": [
     {
@@ -54068,9 +54068,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:48.256Z",
-   "nextRetryAt": "2026-10-13T06:21:48.256Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:10.612Z",
+   "nextRetryAt": "2026-10-14T11:10:10.612Z",
    "requests": 50,
    "notes": [
     {
@@ -54766,9 +54766,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:57.516Z",
-   "nextRetryAt": "2026-10-13T06:21:57.516Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:19.064Z",
+   "nextRetryAt": "2026-10-14T11:10:19.064Z",
    "requests": 1,
    "notes": [
     {
@@ -57852,9 +57852,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:57.517Z",
-   "nextRetryAt": "2026-10-13T06:21:57.517Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:19.064Z",
+   "nextRetryAt": "2026-10-14T11:10:19.064Z",
    "requests": 84,
    "notes": [
     {
@@ -58031,9 +58031,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:21:57.517Z",
-   "nextRetryAt": "2026-10-13T06:21:57.517Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:27.820Z",
+   "nextRetryAt": "2026-10-14T11:10:27.820Z",
    "requests": 92,
    "notes": [
     {
@@ -58920,9 +58920,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:03.622Z",
-   "nextRetryAt": "2026-10-13T06:22:03.622Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:27.820Z",
+   "nextRetryAt": "2026-10-14T11:10:27.820Z",
    "requests": 12,
    "notes": [
     {
@@ -59782,9 +59782,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:03.623Z",
-   "nextRetryAt": "2026-10-13T06:22:03.623Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:27.820Z",
+   "nextRetryAt": "2026-10-14T11:10:27.820Z",
    "requests": 1,
    "notes": [
     {
@@ -60180,9 +60180,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:03.623Z",
-   "nextRetryAt": "2026-10-13T06:22:03.623Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:27.820Z",
+   "nextRetryAt": "2026-10-14T11:10:27.820Z",
    "requests": 90,
    "notes": [
     {
@@ -61017,9 +61017,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:10.854Z",
-   "nextRetryAt": "2026-10-13T06:22:10.854Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:33.247Z",
+   "nextRetryAt": "2026-10-14T11:10:33.247Z",
    "requests": 42,
    "notes": [
     {
@@ -61897,9 +61897,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:10.854Z",
-   "nextRetryAt": "2026-10-13T06:22:10.854Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:33.247Z",
+   "nextRetryAt": "2026-10-14T11:10:33.247Z",
    "requests": 23,
    "notes": [
     {
@@ -62879,10 +62879,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:10.854Z",
-   "nextRetryAt": "2026-10-13T06:22:10.854Z",
-   "requests": 73,
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:33.247Z",
+   "nextRetryAt": "2026-10-14T11:10:33.247Z",
+   "requests": 71,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64027,9 +64027,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:21.244Z",
-   "nextRetryAt": "2026-10-13T06:22:21.244Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:33.247Z",
+   "nextRetryAt": "2026-10-14T11:10:33.247Z",
    "requests": 1,
    "notes": [
     {
@@ -73157,9 +73157,9 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 3,
-   "checkedAt": "2026-10-12T06:22:21.244Z",
-   "nextRetryAt": "2026-10-13T06:22:21.244Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-13T11:10:44.097Z",
+   "nextRetryAt": "2026-10-14T11:10:44.097Z",
    "requests": 79,
    "notes": [
     {
