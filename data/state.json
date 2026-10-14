@@ -1663,7 +1663,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/bigg-boss-2025-tamil-season-9/": {
-   "at": "2026-10-14T05:00:52.131Z",
+   "at": "2026-10-14T11:58:43.950Z",
    "embeds": 103,
    "kind": "series",
    "v": 3
@@ -6451,7 +6451,7 @@
    "embeds": 1
   },
   "https://moviesda34.com/karuvanam-2024-tamil-movie/": {
-   "at": "2026-10-14T05:01:52.871Z",
+   "at": "2026-10-14T11:59:30.913Z",
    "embeds": 24,
    "kind": "series",
    "v": 3
@@ -10057,7 +10057,7 @@
    "embeds": 2
   },
   "https://moviesda34.com/nadu-center-2025-tamil-movie/": {
-   "at": "2026-10-14T05:11:36.295Z",
+   "at": "2026-10-14T12:12:57.188Z",
    "embeds": 17,
    "kind": "series",
    "v": 3
@@ -11289,7 +11289,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/police-police-2025-tamil-movie/": {
-   "at": "2026-10-14T04:57:55.884Z",
+   "at": "2026-10-14T11:55:41.299Z",
    "embeds": 100,
    "kind": "series",
    "v": 3
@@ -11387,7 +11387,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/parachute-2024-tamil-movie/": {
-   "at": "2026-10-14T05:11:08.235Z",
+   "at": "2026-10-14T12:12:30.101Z",
    "embeds": 5,
    "kind": "series",
    "v": 3
@@ -16752,7 +16752,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/vikkatakavi-2024-tamil-movie/": {
-   "at": "2026-10-14T05:11:55.108Z",
+   "at": "2026-10-14T12:13:09.842Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -17644,7 +17644,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/waack-girls-2024-tamil-movie/": {
-   "at": "2026-10-14T05:12:22.642Z",
+   "at": "2026-10-14T12:13:25.453Z",
    "embeds": 9,
    "kind": "series",
    "v": 3
@@ -18079,7 +18079,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/aakali-rajyam-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:12:46.930Z",
+   "at": "2026-10-14T12:14:09.294Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18090,7 +18090,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/chumbak-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:04:21.265Z",
+   "at": "2026-10-14T12:04:05.468Z",
    "embeds": 32,
    "kind": "series",
    "v": 3
@@ -18108,10 +18108,13 @@
    "v": 3
   },
   "https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:02:52.323Z",
-   "embeds": 40,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-14T12:01:06.257Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-14T13:31:06.257Z",
+   "lastError": "The operation was aborted due to timeout (https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/)"
   },
   "https://moviesda34.com/half-stories-2024-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:28:33.147Z",
@@ -18147,16 +18150,17 @@
    "kind": "movie"
   },
   "https://moviesda34.com/brothers-and-sisters-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:06:59.480Z",
+   "at": "2026-10-14T12:06:53.480Z",
    "embeds": 160,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/batchmates-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:09:12.153Z",
-   "embeds": 160,
+   "at": "2026-10-14T12:10:34.808Z",
+   "embeds": 155,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/ipl-its-pure-love-2023-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:28:57.015Z",
@@ -18208,7 +18212,7 @@
    "v": 3
   },
   "https://moviesda34.com/jagamae-sangeetham-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:11:23.797Z",
+   "at": "2026-10-14T12:12:44.757Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18248,7 +18252,7 @@
    "v": 3
   },
   "https://moviesda34.com/heart-beat-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:10:11.765Z",
+   "at": "2026-10-14T12:11:33.643Z",
    "embeds": 88,
    "kind": "series",
    "v": 3
@@ -18387,10 +18391,11 @@
    "kind": "movie"
   },
   "https://moviesda34.com/prince-of-mollywood-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:03:33.923Z",
-   "embeds": 40,
+   "at": "2026-10-14T12:03:02.538Z",
+   "embeds": 39,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/sri-bharatha-baahubali-2024-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:30:31.516Z",
@@ -18439,10 +18444,13 @@
    "lastError": "series walk paused by budget; retry required"
   },
   "https://moviesda34.com/part-timers-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:13:43.884Z",
-   "embeds": 54,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-14T12:16:36.669Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-14T13:46:36.669Z",
+   "lastError": "series walk paused by budget; retry required"
   },
   "https://moviesda34.com/varadha-2024-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:30:56.137Z",
@@ -18564,7 +18572,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/the-court-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:11:01.348Z",
+   "at": "2026-10-14T12:12:23.229Z",
    "embeds": 48,
    "kind": "series",
    "v": 3
@@ -18761,7 +18769,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/hunkkaar-the-roar-2026-tamil-web-series/": {
-   "at": "2026-10-14T04:59:18.826Z",
+   "at": "2026-10-14T11:57:21.515Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18822,49 +18830,50 @@
    "kind": "movie"
   },
   "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:02:04.491Z",
-   "embeds": 6,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-14T12:00:19.170Z",
+   "empty": true,
+   "retries": 1,
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/air-all-india-rankers-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:03:42.158Z",
+   "at": "2026-10-14T12:03:42.732Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/mrs-deshpande-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:10:27.344Z",
+   "at": "2026-10-14T12:11:48.350Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/pharma-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:10:20.512Z",
+   "at": "2026-10-14T12:11:42.007Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/single-papa-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:12:09.398Z",
+   "at": "2026-10-14T12:13:16.090Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/heartiley-battery-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:11:44.398Z",
+   "at": "2026-10-14T12:13:03.469Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/": {
-   "at": "2026-10-14T04:55:36.647Z",
+   "at": "2026-10-14T11:53:19.255Z",
    "embeds": 120,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/": {
-   "at": "2026-10-14T04:58:33.804Z",
+   "at": "2026-10-14T11:56:33.209Z",
    "embeds": 50,
    "kind": "series",
    "v": 3
@@ -18922,13 +18931,13 @@
    "v": 3
   },
   "https://moviesda34.com/love-2026-tamil-web-series/": {
-   "at": "2026-10-14T04:58:56.275Z",
+   "at": "2026-10-14T11:56:56.575Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:01:19.097Z",
+   "at": "2026-10-14T11:59:11.212Z",
    "embeds": 37,
    "kind": "series",
    "v": 3
@@ -47877,19 +47886,19 @@
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-season-10-web-series/": {
-   "at": "2026-10-14T05:01:19.097Z",
+   "at": "2026-10-14T11:59:11.212Z",
    "embeds": 37,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-season-09-web-series/": {
-   "at": "2026-10-14T05:00:52.131Z",
+   "at": "2026-10-14T11:58:43.950Z",
    "embeds": 103,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/eyes-2026-tamil-web-series/": {
-   "at": "2026-10-14T04:56:09.214Z",
+   "at": "2026-10-14T11:54:04.172Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -47907,7 +47916,7 @@
    "v": 3
   },
   "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/": {
-   "at": "2026-10-14T04:55:49.653Z",
+   "at": "2026-10-14T11:53:39.892Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -47943,7 +47952,7 @@
    "v": 3
   },
   "https://moviesda34.com/the-ordinary-jackpot-2026-tamil-web-series/": {
-   "at": "2026-10-14T04:53:35.841Z",
+   "at": "2026-10-14T11:51:41.820Z",
    "embeds": 20,
    "kind": "series",
    "v": 3
@@ -48709,9 +48718,9 @@
    "identity": "43a4e856e9bb968a2b86",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:44.097Z",
-   "nextRetryAt": "2026-10-14T11:10:44.097Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:48.944Z",
+   "nextRetryAt": "2026-10-15T12:17:48.944Z",
    "requests": 120,
    "notes": [
     {
@@ -50316,9 +50325,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:10.612Z",
-   "nextRetryAt": "2026-10-14T11:10:10.612Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:16:46.121Z",
+   "nextRetryAt": "2026-10-15T12:16:46.121Z",
    "requests": 42,
    "notes": [
     {
@@ -51636,9 +51645,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:10.612Z",
-   "nextRetryAt": "2026-10-14T11:10:10.612Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:16:46.121Z",
+   "nextRetryAt": "2026-10-15T12:16:46.121Z",
    "requests": 3,
    "notes": [
     {
@@ -53737,9 +53746,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:19.064Z",
-   "nextRetryAt": "2026-10-14T11:10:19.064Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:07.881Z",
+   "nextRetryAt": "2026-10-15T12:17:07.881Z",
    "requests": 51,
    "notes": [
     {
@@ -54027,9 +54036,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:19.064Z",
-   "nextRetryAt": "2026-10-14T11:10:19.064Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:07.881Z",
+   "nextRetryAt": "2026-10-15T12:17:07.881Z",
    "requests": 46,
    "notes": [
     {
@@ -54080,9 +54089,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:10.612Z",
-   "nextRetryAt": "2026-10-14T11:10:10.612Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:16:46.121Z",
+   "nextRetryAt": "2026-10-15T12:16:46.121Z",
    "requests": 50,
    "notes": [
     {
@@ -54778,9 +54787,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:19.064Z",
-   "nextRetryAt": "2026-10-14T11:10:19.064Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:07.881Z",
+   "nextRetryAt": "2026-10-15T12:17:07.881Z",
    "requests": 1,
    "notes": [
     {
@@ -57864,9 +57873,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:19.064Z",
-   "nextRetryAt": "2026-10-14T11:10:19.064Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:16:46.121Z",
+   "nextRetryAt": "2026-10-15T12:16:46.121Z",
    "requests": 84,
    "notes": [
     {
@@ -58043,9 +58052,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:27.820Z",
-   "nextRetryAt": "2026-10-14T11:10:27.820Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:33.969Z",
+   "nextRetryAt": "2026-10-15T12:17:33.969Z",
    "requests": 92,
    "notes": [
     {
@@ -58932,9 +58941,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:27.820Z",
-   "nextRetryAt": "2026-10-14T11:10:27.820Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:33.969Z",
+   "nextRetryAt": "2026-10-15T12:17:33.969Z",
    "requests": 12,
    "notes": [
     {
@@ -59794,9 +59803,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:27.820Z",
-   "nextRetryAt": "2026-10-14T11:10:27.820Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:07.881Z",
+   "nextRetryAt": "2026-10-15T12:17:07.881Z",
    "requests": 1,
    "notes": [
     {
@@ -60192,9 +60201,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:27.820Z",
-   "nextRetryAt": "2026-10-14T11:10:27.820Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:33.969Z",
+   "nextRetryAt": "2026-10-15T12:17:33.969Z",
    "requests": 90,
    "notes": [
     {
@@ -61029,9 +61038,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:33.247Z",
-   "nextRetryAt": "2026-10-14T11:10:33.247Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:48.944Z",
+   "nextRetryAt": "2026-10-15T12:17:48.944Z",
    "requests": 42,
    "notes": [
     {
@@ -61909,9 +61918,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:33.247Z",
-   "nextRetryAt": "2026-10-14T11:10:33.247Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:48.944Z",
+   "nextRetryAt": "2026-10-15T12:17:48.944Z",
    "requests": 23,
    "notes": [
     {
@@ -62891,10 +62900,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:33.247Z",
-   "nextRetryAt": "2026-10-14T11:10:33.247Z",
-   "requests": 71,
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:48.944Z",
+   "nextRetryAt": "2026-10-15T12:17:48.944Z",
+   "requests": 72,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64039,9 +64048,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:33.247Z",
-   "nextRetryAt": "2026-10-14T11:10:33.247Z",
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:33.969Z",
+   "nextRetryAt": "2026-10-15T12:17:33.969Z",
    "requests": 1,
    "notes": [
     {
@@ -73169,10 +73178,10 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 4,
-   "checkedAt": "2026-10-13T11:10:44.097Z",
-   "nextRetryAt": "2026-10-14T11:10:44.097Z",
-   "requests": 79,
+   "attempts": 5,
+   "checkedAt": "2026-10-14T12:17:56.703Z",
+   "nextRetryAt": "2026-10-15T12:17:56.703Z",
+   "requests": 81,
    "notes": [
     {
      "reason": "ambiguous-title-year",
