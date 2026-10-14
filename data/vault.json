@@ -77745,7 +77745,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aakali-rajyam-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:21.136Z",
+   "fetchedAt": "2026-10-14T05:12:24.468Z",
    "sourceTitle": "Aakali Rajyam (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -78207,7 +78207,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chumbak-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:48:32.256Z",
+   "fetchedAt": "2026-10-14T05:03:43.486Z",
    "sourceTitle": "Chumbak (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -79172,7 +79172,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:47:55.800Z",
+   "fetchedAt": "2026-10-14T05:02:07.524Z",
    "sourceTitle": "Ali Baba aur 40 Bhoot (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -81856,7 +81856,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/brothers-and-sisters-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:48:45.843Z",
+   "fetchedAt": "2026-10-14T05:04:25.122Z",
    "sourceTitle": "Brothers And Sisters (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -83896,7 +83896,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/batchmates-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:49:44.454Z",
+   "fetchedAt": "2026-10-14T05:07:05.808Z",
    "sourceTitle": "Batchmates (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -86446,7 +86446,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/jagamae-sangeetham-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:51:49.652Z",
+   "fetchedAt": "2026-10-14T05:11:09.622Z",
    "sourceTitle": "Jagamae Sangeetham (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -88518,7 +88518,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/heart-beat-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:50:42.845Z",
+   "fetchedAt": "2026-10-14T05:09:13.699Z",
    "sourceTitle": "Heart Beat (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -91081,7 +91081,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/prince-of-mollywood-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:48:11.867Z",
+   "fetchedAt": "2026-10-14T05:02:55.395Z",
    "sourceTitle": "Prince of Mollywood (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -92552,7 +92552,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/part-timers-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:28.431Z",
+   "fetchedAt": "2026-10-14T05:12:48.283Z",
    "sourceTitle": "Part Timers (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -94701,7 +94701,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/the-court-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:51:26.012Z",
+   "fetchedAt": "2026-10-14T05:10:28.739Z",
    "sourceTitle": "The Court (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -97154,7 +97154,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/hunkkaar-the-roar-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:46:41.885Z",
+   "fetchedAt": "2026-10-14T04:58:58.687Z",
    "sourceTitle": "Hunkkaar The Roar (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -98817,7 +98817,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bigg-boss-2025-tamil-season-9/",
-   "fetchedAt": "2026-10-13T22:46:49.104Z",
+   "fetchedAt": "2026-10-14T04:59:20.316Z",
    "sourceTitle": "Bigg Boss (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -99056,6 +99056,12 @@
     "url": "https://play.onestream.today/stream/page/102466",
     "season": 10,
     "episode": 37
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/102467",
+    "season": 10,
+    "episode": 38
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/Ccukq06qTL3yTnkwaKLGNs8T4x.jpg",
@@ -99390,20 +99396,35 @@
         "url": "https://play.onestream.today/stream/page/102466"
        }
       ]
+     },
+     {
+      "episode": 38,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/102467"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-10-13T12:19:56.220Z",
+  "updatedAt": "2026-10-14T05:01:19.085Z",
   "tmdbType": "tv",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda34.com/bigg-boss-season-10-web-series/",
-   "fetchedAt": "2026-10-13T22:58:05.136Z",
-   "sourceTitle": "Bigg Boss (Season 10) Web Series Download Moviesda",
-   "sourceYear": 0,
-   "directors": [],
-   "cast": []
+   "sourceUrl": "https://moviesda34.com/bigg-boss-2026-tamil-web-series/",
+   "fetchedAt": "2026-10-14T05:00:54.218Z",
+   "sourceTitle": "Bigg Boss (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Vijay Sethupathi"
+   ],
+   "cast": [
+    "Lakshmi Priya",
+    "Shathiga",
+    "Raaghav Ranganathan"
+   ]
   }
  },
  {
@@ -99696,7 +99717,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:47:51.891Z",
+   "fetchedAt": "2026-10-14T05:01:55.637Z",
    "sourceTitle": "90s A Middle Class Biopic (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -99842,7 +99863,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/air-all-india-rankers-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:48:27.971Z",
+   "fetchedAt": "2026-10-14T05:03:36.019Z",
    "sourceTitle": "AIR All India Rankers (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -99972,7 +99993,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/mrs-deshpande-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:51:22.102Z",
+   "fetchedAt": "2026-10-14T05:10:21.939Z",
    "sourceTitle": "Mrs Deshpande (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -100132,7 +100153,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/pharma-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:51:17.477Z",
+   "fetchedAt": "2026-10-14T05:10:14.124Z",
    "sourceTitle": "Pharma (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -100262,7 +100283,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/single-papa-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:13.132Z",
+   "fetchedAt": "2026-10-14T05:11:59.043Z",
    "sourceTitle": "Single Papa (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -100392,7 +100413,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/heartiley-battery-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:05.630Z",
+   "fetchedAt": "2026-10-14T05:11:37.635Z",
    "sourceTitle": "Heartiley Battery (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -102246,7 +102267,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:44:38.060Z",
+   "fetchedAt": "2026-10-14T04:53:38.338Z",
    "sourceTitle": "LBW Love Beyond Wicket (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -103037,7 +103058,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:46:15.021Z",
+   "fetchedAt": "2026-10-14T04:57:57.643Z",
    "sourceTitle": "Dhoolpet Police Station (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -103242,7 +103263,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/matsya-kaand-2021-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:50.571Z",
+   "fetchedAt": "2026-10-14T05:13:45.602Z",
    "sourceTitle": "Matsya Kaand (2021)",
    "sourceYear": 2021,
    "directors": [
@@ -103446,7 +103467,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2-2023-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:52:56.162Z",
+   "fetchedAt": "2026-10-14T05:13:54.919Z",
    "sourceTitle": "Iru Dhuruvam 2 (2023)",
    "sourceYear": 2023,
    "directors": [
@@ -103606,7 +103627,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/real-kashmir-football-club-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:53:06.093Z",
+   "fetchedAt": "2026-10-14T05:14:18.929Z",
    "sourceTitle": "Real Kashmir Football Club (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -103751,7 +103772,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kuttram-purindhavan-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:53:31.016Z",
+   "fetchedAt": "2026-10-14T05:15:44.780Z",
    "sourceTitle": "Kuttram Purindhavan (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -104452,7 +104473,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/cooku-with-comali-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:53:13.901Z",
+   "fetchedAt": "2026-10-14T05:14:46.631Z",
    "sourceTitle": "Cooku with Comali (2026) Tamil Movie",
    "sourceYear": 2026,
    "directors": [],
@@ -104621,7 +104642,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2019-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:53:01.440Z",
+   "fetchedAt": "2026-10-14T05:14:04.633Z",
    "sourceTitle": "Iru Dhuruvam (2019)",
    "sourceYear": 2019,
    "directors": [
@@ -105035,7 +105056,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhaukaal-2022-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:53:59.529Z",
+   "fetchedAt": "2026-10-14T05:16:58.495Z",
    "sourceTitle": "Bhaukaal (2022)",
    "sourceYear": 2022,
    "directors": [],
@@ -105223,7 +105244,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/love-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:46:34.440Z",
+   "fetchedAt": "2026-10-14T04:58:35.754Z",
    "sourceTitle": "Love (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -113838,7 +113859,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/police-police-2025-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:45:37.900Z",
+   "fetchedAt": "2026-10-14T04:56:13.695Z",
    "sourceTitle": "Police Police (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -114239,7 +114260,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/karuvanam-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:47:41.623Z",
+   "fetchedAt": "2026-10-14T05:01:21.604Z",
    "sourceTitle": "Karuvanam (2024)",
    "sourceYear": 2024,
    "directors": [],
@@ -114352,7 +114373,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/parachute-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:51:45.943Z",
+   "fetchedAt": "2026-10-14T05:11:03.414Z",
    "sourceTitle": "Parachute (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -114647,7 +114668,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/nadu-center-2025-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:51:58.305Z",
+   "fetchedAt": "2026-10-14T05:11:25.120Z",
    "sourceTitle": "Nadu Center (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -114777,7 +114798,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/vikkatakavi-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:52:09.526Z",
+   "fetchedAt": "2026-10-14T05:11:45.753Z",
    "sourceTitle": "Vikkatakavi (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -114953,7 +114974,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/waack-girls-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:52:16.616Z",
+   "fetchedAt": "2026-10-14T05:12:11.563Z",
    "sourceTitle": "Waack Girls (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -115068,7 +115089,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/freedom-at-midnight-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:53:10.408Z",
+   "fetchedAt": "2026-10-14T05:14:33.983Z",
    "sourceTitle": "Freedom at Midnight (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -116069,7 +116090,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/rambo-in-love-2025-movie/",
-   "fetchedAt": "2026-10-13T22:53:35.330Z",
+   "fetchedAt": "2026-10-14T05:16:02.082Z",
    "sourceTitle": "Rambo in love (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -116199,7 +116220,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/citadel-honey-bunny-2024-tamil-movie/",
-   "fetchedAt": "2026-10-13T22:54:08.653Z",
+   "fetchedAt": "2026-10-14T05:17:23.484Z",
    "sourceTitle": "Citadel Honey Bunny (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -314285,7 +314306,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/eyes-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:45:29.605Z",
+   "fetchedAt": "2026-10-14T04:55:51.061Z",
    "sourceTitle": "Eyes (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -314843,7 +314864,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:45:22.045Z",
+   "fetchedAt": "2026-10-14T04:55:38.133Z",
    "sourceTitle": "Least Eligible Bachelor (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -315314,7 +315335,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/the-ordinary-jackpot-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-13T22:44:27.924Z",
+   "fetchedAt": "2026-10-14T04:53:16.834Z",
    "sourceTitle": "The Ordinary Jackpot (2026) Tamil Web Series Download Moviesda",
    "sourceYear": 2026,
    "directors": [],
