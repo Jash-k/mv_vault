@@ -295,7 +295,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/aindham-vedham-2024-tamil-movie/": {
-   "at": "2026-10-13T22:54:52.171Z",
+   "at": "2026-10-14T17:24:15.865Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
@@ -1663,7 +1663,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/bigg-boss-2025-tamil-season-9/": {
-   "at": "2026-10-14T11:58:43.950Z",
+   "at": "2026-10-14T17:14:49.929Z",
    "embeds": 103,
    "kind": "series",
    "v": 3
@@ -2561,7 +2561,7 @@
    "embeds": 1
   },
   "https://moviesda34.com/citadel-honey-bunny-2024-tamil-movie/": {
-   "at": "2026-10-14T05:17:32.385Z",
+   "at": "2026-10-14T17:22:49.947Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -4227,7 +4227,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/freedom-at-midnight-2024-tamil-movie/": {
-   "at": "2026-10-14T05:14:42.916Z",
+   "at": "2026-10-14T17:20:54.369Z",
    "embeds": 5,
    "kind": "series",
    "v": 3
@@ -4459,7 +4459,7 @@
    "embeds": 1
   },
   "https://moviesda34.com/goli-soda-rising-2024-tamil-movie/": {
-   "at": "2026-10-13T22:55:04.711Z",
+   "at": "2026-10-14T17:24:52.543Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -6451,7 +6451,7 @@
    "embeds": 1
   },
   "https://moviesda34.com/karuvanam-2024-tamil-movie/": {
-   "at": "2026-10-14T11:59:30.913Z",
+   "at": "2026-10-14T17:15:27.330Z",
    "embeds": 24,
    "kind": "series",
    "v": 3
@@ -8467,7 +8467,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/maharani-2025-tamil-movie/": {
-   "at": "2026-10-13T22:58:04.338Z",
+   "at": "2026-10-14T17:29:19.921Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
@@ -10067,7 +10067,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/network-2025-tamil-movie/": {
-   "at": "2026-10-13T22:55:09.987Z",
+   "at": "2026-10-14T17:25:00.606Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -11289,7 +11289,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/police-police-2025-tamil-movie/": {
-   "at": "2026-10-14T11:55:41.299Z",
+   "at": "2026-10-14T17:13:05.320Z",
    "embeds": 100,
    "kind": "series",
    "v": 3
@@ -12537,7 +12537,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/rambo-in-love-2025-movie/": {
-   "at": "2026-10-14T05:16:52.912Z",
+   "at": "2026-10-14T17:22:23.172Z",
    "embeds": 64,
    "kind": "series",
    "v": 3
@@ -13682,7 +13682,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/snakes-and-ladders-2024-tamil-movie/": {
-   "at": "2026-10-13T22:55:14.763Z",
+   "at": "2026-10-14T17:25:08.040Z",
    "embeds": 9,
    "kind": "series",
    "v": 3
@@ -15030,7 +15030,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/the-family-man-2025-tamil-movie/": {
-   "at": "2026-10-13T22:54:47.792Z",
+   "at": "2026-10-14T17:24:00.768Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -18022,7 +18022,7 @@
    "v": 3
   },
   "https://moviesda34.com/ziddi-ishq-2025-tamil-movie/": {
-   "at": "2026-10-13T22:54:43.321Z",
+   "at": "2026-10-14T17:23:51.308Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -18090,13 +18090,13 @@
    "kind": "movie"
   },
   "https://moviesda34.com/chumbak-2026-tamil-web-series/": {
-   "at": "2026-10-14T12:04:05.468Z",
+   "at": "2026-10-14T17:16:43.065Z",
    "embeds": 32,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/desi-bling-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:02:01.898Z",
+   "at": "2026-10-14T17:34:34.179Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -18108,13 +18108,10 @@
    "v": 3
   },
   "https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/": {
-   "at": "2026-10-14T12:01:06.257Z",
-   "empty": true,
-   "v": 3,
-   "retries": 0,
-   "failures": 1,
-   "retryAfter": "2026-10-14T13:31:06.257Z",
-   "lastError": "The operation was aborted due to timeout (https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/)"
+   "at": "2026-10-14T17:15:55.440Z",
+   "embeds": 40,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/half-stories-2024-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:28:33.147Z",
@@ -18122,13 +18119,13 @@
    "kind": "movie"
   },
   "https://moviesda34.com/gullak-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:18.462Z",
+   "at": "2026-10-14T17:33:37.042Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/gurthukosthunnayi-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:53.623Z",
+   "at": "2026-10-14T17:34:22.916Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -18150,17 +18147,16 @@
    "kind": "movie"
   },
   "https://moviesda34.com/brothers-and-sisters-2026-tamil-web-series/": {
-   "at": "2026-10-14T12:06:53.480Z",
-   "embeds": 160,
+   "at": "2026-10-14T17:18:14.436Z",
+   "embeds": 168,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/batchmates-2026-tamil-web-series/": {
-   "at": "2026-10-14T12:10:34.808Z",
-   "embeds": 155,
+   "at": "2026-10-14T17:20:03.105Z",
+   "embeds": 160,
    "kind": "series",
-   "v": 3,
-   "incomplete": true
+   "v": 3
   },
   "https://moviesda34.com/ipl-its-pure-love-2023-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:28:57.015Z",
@@ -18168,7 +18164,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/cousins-kalyanams-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:56:03.955Z",
+   "at": "2026-10-14T17:26:14.663Z",
    "embeds": 120,
    "kind": "series",
    "v": 3
@@ -18184,7 +18180,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/isakapatnam-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:31.768Z",
+   "at": "2026-10-14T17:32:31.150Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -18218,19 +18214,20 @@
    "v": 3
   },
   "https://moviesda34.com/kaakee-circus-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:25.609Z",
+   "at": "2026-10-14T17:29:30.992Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/muthassi-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:54:59.406Z",
-   "embeds": 12,
+   "at": "2026-10-14T17:24:40.454Z",
+   "embeds": 10,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/lingam-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:47.775Z",
+   "at": "2026-10-14T17:32:54.100Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18246,7 +18243,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/musafir-cafe-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:56:13.203Z",
+   "at": "2026-10-14T17:26:29.418Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18263,7 +18260,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/made-in-india-a-titan-story-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:08.220Z",
+   "at": "2026-10-14T17:31:57.754Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18279,7 +18276,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/mammattiyaan-stars-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:39.036Z",
+   "at": "2026-10-14T17:32:41.566Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18315,7 +18312,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/matka-king-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:42.393Z",
+   "at": "2026-10-14T17:29:54.924Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18331,19 +18328,19 @@
    "kind": "movie"
   },
   "https://moviesda34.com/operation-safed-sagar-the-untold-story-of-the-kargil-war-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:54:26.242Z",
+   "at": "2026-10-14T17:23:16.243Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/pochamma-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:03.692Z",
+   "at": "2026-10-14T17:30:25.211Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/pritam-and-pedro-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:15.352Z",
+   "at": "2026-10-14T17:32:08.256Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18369,7 +18366,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/raakh-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:12.252Z",
+   "at": "2026-10-14T17:33:28.408Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18380,7 +18377,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/second-love-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:35.660Z",
+   "at": "2026-10-14T17:33:59.248Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -18391,11 +18388,10 @@
    "kind": "movie"
   },
   "https://moviesda34.com/prince-of-mollywood-2026-tamil-web-series/": {
-   "at": "2026-10-14T12:03:02.538Z",
-   "embeds": 39,
+   "at": "2026-10-14T17:16:18.040Z",
+   "embeds": 40,
    "kind": "series",
-   "v": 3,
-   "incomplete": true
+   "v": 3
   },
   "https://moviesda34.com/sri-bharatha-baahubali-2024-tamil-dubbed-movie/": {
    "at": "2026-09-29T08:30:31.516Z",
@@ -18408,7 +18404,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/super-subbu-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:23.468Z",
+   "at": "2026-10-14T17:32:19.708Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -18419,7 +18415,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/save-the-tigers-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:55.929Z",
+   "at": "2026-10-14T17:33:05.844Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -18435,13 +18431,10 @@
    "kind": "movie"
   },
   "https://moviesda34.com/the-legend-of-karna-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:17:50.707Z",
-   "empty": true,
-   "v": 3,
-   "retries": 0,
-   "failures": 1,
-   "retryAfter": "2026-10-14T06:47:50.707Z",
-   "lastError": "series walk paused by budget; retry required"
+   "at": "2026-10-14T17:23:02.831Z",
+   "embeds": 10,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/part-timers-2026-tamil-web-series/": {
    "at": "2026-10-14T12:16:36.669Z",
@@ -18468,13 +18461,13 @@
    "kind": "movie"
   },
   "https://moviesda34.com/veerappan-the-bandit-king-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:57.044Z",
+   "at": "2026-10-14T17:31:41.128Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/undekhi-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:49.687Z",
+   "at": "2026-10-14T17:31:30.593Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18490,7 +18483,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/vadhandhi-the-mystery-of-mani-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:54:39.021Z",
+   "at": "2026-10-14T17:23:40.547Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18551,7 +18544,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/warrant-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:45.367Z",
+   "at": "2026-10-14T17:34:11.557Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
@@ -18663,7 +18656,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/thukra-ke-mera-pyaar-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:57:24.792Z",
+   "at": "2026-10-14T17:28:10.685Z",
    "embeds": 90,
    "kind": "series",
    "v": 3
@@ -18769,7 +18762,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/hunkkaar-the-roar-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:57:21.515Z",
+   "at": "2026-10-14T17:13:56.821Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -18789,7 +18782,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/1000-babies-2024-tamil-movie/": {
-   "at": "2026-10-13T22:55:19.129Z",
+   "at": "2026-10-14T17:25:14.531Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -18830,14 +18823,13 @@
    "kind": "movie"
   },
   "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/": {
-   "at": "2026-10-14T12:00:19.170Z",
-   "empty": true,
-   "retries": 1,
-   "v": 3,
-   "incomplete": true
+   "at": "2026-10-14T17:15:33.047Z",
+   "embeds": 6,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/air-all-india-rankers-2025-tamil-web-series/": {
-   "at": "2026-10-14T12:03:42.732Z",
+   "at": "2026-10-14T17:16:24.256Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -18867,49 +18859,49 @@
    "v": 3
   },
   "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/": {
-   "at": "2026-10-14T11:53:19.255Z",
+   "at": "2026-10-14T17:11:22.322Z",
    "embeds": 120,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/": {
-   "at": "2026-10-14T11:56:33.209Z",
+   "at": "2026-10-14T17:13:34.069Z",
    "embeds": 50,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/matsya-kaand-2021-tamil-web-series/": {
-   "at": "2026-10-14T05:13:53.586Z",
+   "at": "2026-10-14T17:20:19.552Z",
    "embeds": 11,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/iru-dhuruvam-2-2023-tamil-web-series/": {
-   "at": "2026-10-14T05:14:03.259Z",
+   "at": "2026-10-14T17:20:30.001Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/real-kashmir-football-club-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:14:31.125Z",
+   "at": "2026-10-14T17:20:47.584Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/kuttram-purindhavan-2025-tamil-web-series/": {
-   "at": "2026-10-14T05:15:57.031Z",
+   "at": "2026-10-14T17:21:35.258Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/cooku-with-comali-2026-tamil-web-series/": {
-   "at": "2026-10-14T05:15:37.283Z",
+   "at": "2026-10-14T17:21:26.142Z",
    "embeds": 44,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/iru-dhuruvam-2019-tamil-web-series/": {
-   "at": "2026-10-14T05:14:15.692Z",
+   "at": "2026-10-14T17:20:39.359Z",
    "embeds": 9,
    "kind": "series",
    "v": 3
@@ -18925,76 +18917,79 @@
    "kind": "movie"
   },
   "https://moviesda34.com/bhaukaal-2022-tamil-web-series/": {
-   "at": "2026-10-14T05:17:21.490Z",
+   "at": "2026-10-14T17:22:42.288Z",
    "embeds": 20,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/love-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:56:56.575Z",
+   "at": "2026-10-14T17:13:46.109Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:59:11.212Z",
+   "at": "2026-10-14T17:15:12.594Z",
    "embeds": 37,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/resort-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:56:49.367Z",
+   "at": "2026-10-14T17:27:19.457Z",
    "embeds": 100,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/vikram-on-duty-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:57:59.043Z",
+   "at": "2026-10-14T17:29:11.676Z",
    "embeds": 92,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/sshhh-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:02.253Z",
+   "at": "2026-10-14T17:33:15.101Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/jolly-o-gymkhana-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:01:28.358Z",
+   "at": "2026-10-14T17:33:49.532Z",
    "embeds": 16,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/maamla-legal-hai-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:46.923Z",
+   "at": "2026-10-14T17:30:01.393Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/ma-ka-sum-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:51.434Z",
+   "at": "2026-10-14T17:30:07.988Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/muthu-alias-kaattaan-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:56.781Z",
+   "at": "2026-10-14T17:30:15.407Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/sangamarmar-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:25.648Z",
+   "at": "2026-10-14T17:30:56.194Z",
    "embeds": 47,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/chiraiya-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:02:14.639Z",
-   "embeds": 6,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-14T17:34:51.726Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-14T19:04:51.726Z",
+   "lastError": "series walk paused by budget; retry required"
   },
   "https://moviesda34.com/jazz-city-2026-tamil-web-series/": {
    "at": "2026-10-13T23:03:05.033Z",
@@ -19003,13 +18998,13 @@
    "v": 3
   },
   "https://moviesda34.com/aspirants-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:02:06.199Z",
+   "at": "2026-10-14T17:34:39.481Z",
    "embeds": 5,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/local-times-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:33.711Z",
+   "at": "2026-10-14T17:29:42.807Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -19021,31 +19016,31 @@
    "v": 3
   },
   "https://moviesda34.com/thadayam-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:36.643Z",
+   "at": "2026-10-14T17:31:12.041Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/secret-stories-roslin-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:07.460Z",
+   "at": "2026-10-14T17:30:30.975Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/3-roses-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:00:00.970Z",
+   "at": "2026-10-14T17:31:46.996Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/bandwaale-2026-tamil-web-series/": {
-   "at": "2026-10-13T23:02:10.823Z",
+   "at": "2026-10-14T17:34:46.043Z",
    "embeds": 8,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/kohrra-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:58:29.242Z",
+   "at": "2026-10-14T17:29:36.502Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -19073,13 +19068,13 @@
    "v": 3
   },
   "https://moviesda34.com/space-gen-chandrayaan-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:29.419Z",
+   "at": "2026-10-14T17:31:01.577Z",
    "embeds": 5,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/taskaree-the-smugglers-web-2026-tamil-web-series/": {
-   "at": "2026-10-13T22:59:41.008Z",
+   "at": "2026-10-14T17:31:18.233Z",
    "embeds": 7,
    "kind": "series",
    "v": 3
@@ -19095,7 +19090,7 @@
    "embeds": 4
   },
   "https://moviesda34.com/regai-2025-tamil-web-series/": {
-   "at": "2026-10-13T22:54:30.001Z",
+   "at": "2026-10-14T17:23:23.466Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -47886,19 +47881,19 @@
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-season-10-web-series/": {
-   "at": "2026-10-14T11:59:11.212Z",
+   "at": "2026-10-14T17:15:12.594Z",
    "embeds": 37,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-season-09-web-series/": {
-   "at": "2026-10-14T11:58:43.950Z",
+   "at": "2026-10-14T17:14:49.929Z",
    "embeds": 103,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/eyes-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:54:04.172Z",
+   "at": "2026-10-14T17:11:58.888Z",
    "embeds": 14,
    "kind": "series",
    "v": 3
@@ -47916,7 +47911,7 @@
    "v": 3
   },
   "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:53:39.892Z",
+   "at": "2026-10-14T17:11:41.369Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -47952,7 +47947,7 @@
    "v": 3
   },
   "https://moviesda34.com/the-ordinary-jackpot-2026-tamil-web-series/": {
-   "at": "2026-10-14T11:51:41.820Z",
+   "at": "2026-10-14T17:10:19.336Z",
    "embeds": 20,
    "kind": "series",
    "v": 3
