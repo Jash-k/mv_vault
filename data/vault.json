@@ -315606,5 +315606,360 @@
   "tmdbType": "tv",
   "originalLanguage": "ko",
   "updatedAt": "2026-10-13T02:39:15.370Z"
+ },
+ {
+  "id": "sully-2016",
+  "title": "Sully",
+  "year": 2016,
+  "pageUrl": "https://isaidub.green/movie/sully-2016-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113288"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113292"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/4vs83YcJ8TsabADDtaeCJ6ZTjYY.jpg",
+  "rating": 7.207,
+  "tmdbId": 363676,
+  "imdbId": "tt3263904",
+  "addedAt": "2026-10-14T00:25:56.509Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/sully-2016-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-14T00:25:54.497Z",
+   "sourceTitle": "Sully (2016) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-14T00:26:10.700Z"
+ },
+ {
+  "id": "tyson-2026",
+  "title": "Tyson",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113271",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113276",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113272",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113277",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113273",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113278",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113274",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113279",
+    "season": 1,
+    "episode": 4
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/c74AWPtTUGhTV7u7bcTdyMHQoqi.jpg",
+  "rating": 0,
+  "tmdbId": 335536,
+  "imdbId": "tt35051210",
+  "addedAt": "2026-10-14T00:25:59.134Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113271"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113276"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113272"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113277"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113273"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113278"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113274"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113279"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-10-14T00:25:56.681Z",
+   "sourceTitle": "Tyson (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-14T00:26:10.700Z"
+ },
+ {
+  "id": "the-trap-2026",
+  "title": "The Trap",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113255",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113262",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113256",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113263",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113257",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113264",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113258",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113265",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113259",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113266",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113260",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113267",
+    "season": 1,
+    "episode": 6
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/dkLTaC44QqnCAgzCf180TxMmmG5.jpg",
+  "rating": 8.2,
+  "tmdbId": 283371,
+  "imdbId": "tt36470958",
+  "addedAt": "2026-10-14T00:26:01.588Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113255"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113262"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113256"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113263"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113257"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113264"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113258"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113265"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113259"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113266"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113260"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113267"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-10-14T00:25:59.297Z",
+   "sourceTitle": "The Trap (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "tmdbType": "tv",
+  "originalLanguage": "de",
+  "updatedAt": "2026-10-14T00:26:10.700Z"
  }
 ]

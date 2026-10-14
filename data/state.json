@@ -47950,6 +47950,24 @@
    "embeds": 20,
    "kind": "series",
    "v": 3
+  },
+  "https://isaidub.green/movie/sully-2016-tamil-dubbed-movie/": {
+   "at": "2026-10-14T00:25:56.523Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/": {
+   "at": "2026-10-14T00:25:59.140Z",
+   "embeds": 8,
+   "kind": "series",
+   "v": 3
+  },
+  "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/": {
+   "at": "2026-10-14T00:26:01.595Z",
+   "embeds": 12,
+   "kind": "series",
+   "v": 3
   }
  },
  "movies": {},
@@ -73194,6 +73212,36 @@
    "checkedAt": "2026-10-13T02:39:15.370Z",
    "nextRetryAt": "2026-11-12T02:39:15.370Z",
    "requests": 3
+  },
+  "the-trap-2026": {
+   "version": 2,
+   "identity": "e7a612ec97197b31a20f",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-14T00:26:10.700Z",
+   "nextRetryAt": "2026-11-13T00:26:10.700Z",
+   "requests": 52
+  },
+  "tyson-2026": {
+   "version": 2,
+   "identity": "26f18069664dc2cadb84",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-14T00:26:10.700Z",
+   "nextRetryAt": "2026-11-13T00:26:10.700Z",
+   "requests": 14
+  },
+  "sully-2016": {
+   "version": 2,
+   "identity": "396c9bb84ed0524eab60",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-14T00:26:10.700Z",
+   "nextRetryAt": "2026-11-13T00:26:10.700Z",
+   "requests": 4
   }
  }
 }
