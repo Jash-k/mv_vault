@@ -316030,6 +316030,9 @@
   "title": "Tyson",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -316145,26 +316148,26 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-14T00:26:10.700Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/",
-   "fetchedAt": "2026-10-14T00:25:56.681Z",
+   "fetchedAt": "2026-10-15T23:44:16.928Z",
    "sourceTitle": "Tyson (2026) Tamil Dubbed Web Series Download isaiDub",
    "sourceYear": 2026,
    "directors": [],
    "cast": []
   },
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "tmdbType": "tv",
-  "originalLanguage": "en",
-  "updatedAt": "2026-10-14T00:26:10.700Z"
+  "tmdbType": "tv"
  },
  {
   "id": "the-trap-2026",
   "title": "The Trap",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "de",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -316330,20 +316333,17 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-14T00:26:10.700Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/",
-   "fetchedAt": "2026-10-14T00:25:59.297Z",
+   "fetchedAt": "2026-10-15T23:44:20.414Z",
    "sourceTitle": "The Trap (2026) Tamil Dubbed Web Series Download isaiDub",
    "sourceYear": 2026,
    "directors": [],
    "cast": []
   },
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "tmdbType": "tv",
-  "originalLanguage": "de",
-  "updatedAt": "2026-10-14T00:26:10.700Z"
+  "tmdbType": "tv"
  },
  {
   "id": "enna-vilai-2026",
@@ -316695,5 +316695,40 @@
   "category": "tamil-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-10-15T21:23:07.753Z"
+ },
+ {
+  "id": "sacrifice-2026",
+  "title": "Sacrifice",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/sacrifice-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113314"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113318"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/SGH7mlgfDyGgRCi2At62Ljg3zV.jpg",
+  "rating": 5.547,
+  "tmdbId": 1284186,
+  "imdbId": "tt32268992",
+  "addedAt": "2026-10-15T23:44:16.751Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/sacrifice-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-15T23:44:12.467Z",
+   "sourceTitle": "Sacrifice (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-15T23:44:51.208Z"
  }
 ]
