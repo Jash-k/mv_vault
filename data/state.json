@@ -18196,7 +18196,7 @@
    "kind": "movie"
   },
   "https://moviesda34.com/kasba-singhai-kheri-2026-tamil-web-series/": {
-   "at": "2026-10-15T05:01:04.176Z",
+   "at": "2026-10-15T17:23:52.188Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -18985,7 +18985,7 @@
    "v": 3
   },
   "https://moviesda34.com/jazz-city-2026-tamil-web-series/": {
-   "at": "2026-10-15T05:00:57.327Z",
+   "at": "2026-10-15T17:23:44.762Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -19039,7 +19039,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-10-15T05:01:08.888Z",
+   "at": "2026-10-15T17:24:15.488Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -47832,10 +47832,10 @@
    "v": 2
   },
   "https://moviesda34.com/meesaya-murukku-2-2026-tamil-movie/": {
-   "at": "2026-10-07T23:05:20.715Z",
-   "embeds": 3,
+   "at": "2026-10-15T17:24:31.215Z",
+   "embeds": 5,
    "kind": "movie",
-   "v": 2
+   "v": 3
   },
   "https://moviesda34.com/sigma-2026-tamil-movie/": {
    "at": "2026-10-07T23:05:27.081Z",
@@ -47874,7 +47874,7 @@
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-season-10-web-series/": {
-   "at": "2026-10-15T17:04:09.671Z",
+   "at": "2026-10-15T17:24:10.361Z",
    "embeds": 38,
    "kind": "series",
    "v": 3
@@ -48730,9 +48730,9 @@
    "identity": "43a4e856e9bb968a2b86",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:48.944Z",
-   "nextRetryAt": "2026-10-15T12:17:48.944Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:01.174Z",
+   "nextRetryAt": "2026-10-16T17:25:01.174Z",
    "requests": 120,
    "notes": [
     {
@@ -50337,9 +50337,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:16:46.121Z",
-   "nextRetryAt": "2026-10-15T12:16:46.121Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:41.677Z",
+   "nextRetryAt": "2026-10-16T17:24:41.677Z",
    "requests": 42,
    "notes": [
     {
@@ -51657,9 +51657,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:16:46.121Z",
-   "nextRetryAt": "2026-10-15T12:16:46.121Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:38.077Z",
+   "nextRetryAt": "2026-10-16T17:24:38.077Z",
    "requests": 3,
    "notes": [
     {
@@ -53758,9 +53758,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:07.881Z",
-   "nextRetryAt": "2026-10-15T12:17:07.881Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:48.477Z",
+   "nextRetryAt": "2026-10-16T17:24:48.477Z",
    "requests": 51,
    "notes": [
     {
@@ -54048,9 +54048,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:07.881Z",
-   "nextRetryAt": "2026-10-15T12:17:07.881Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:41.677Z",
+   "nextRetryAt": "2026-10-16T17:24:41.677Z",
    "requests": 46,
    "notes": [
     {
@@ -54101,9 +54101,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:16:46.121Z",
-   "nextRetryAt": "2026-10-15T12:16:46.121Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:38.077Z",
+   "nextRetryAt": "2026-10-16T17:24:38.077Z",
    "requests": 50,
    "notes": [
     {
@@ -54799,9 +54799,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:07.881Z",
-   "nextRetryAt": "2026-10-15T12:17:07.881Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:41.677Z",
+   "nextRetryAt": "2026-10-16T17:24:41.677Z",
    "requests": 1,
    "notes": [
     {
@@ -57885,9 +57885,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:16:46.121Z",
-   "nextRetryAt": "2026-10-15T12:16:46.121Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:38.077Z",
+   "nextRetryAt": "2026-10-16T17:24:38.077Z",
    "requests": 84,
    "notes": [
     {
@@ -58064,9 +58064,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:33.969Z",
-   "nextRetryAt": "2026-10-15T12:17:33.969Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:01.174Z",
+   "nextRetryAt": "2026-10-16T17:25:01.174Z",
    "requests": 92,
    "notes": [
     {
@@ -58953,9 +58953,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:33.969Z",
-   "nextRetryAt": "2026-10-15T12:17:33.969Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:48.478Z",
+   "nextRetryAt": "2026-10-16T17:24:48.478Z",
    "requests": 12,
    "notes": [
     {
@@ -59815,9 +59815,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:07.881Z",
-   "nextRetryAt": "2026-10-15T12:17:07.881Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:41.677Z",
+   "nextRetryAt": "2026-10-16T17:24:41.677Z",
    "requests": 1,
    "notes": [
     {
@@ -60213,9 +60213,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:33.969Z",
-   "nextRetryAt": "2026-10-15T12:17:33.969Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:48.478Z",
+   "nextRetryAt": "2026-10-16T17:24:48.478Z",
    "requests": 90,
    "notes": [
     {
@@ -61050,9 +61050,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:48.944Z",
-   "nextRetryAt": "2026-10-15T12:17:48.944Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:06.342Z",
+   "nextRetryAt": "2026-10-16T17:25:06.342Z",
    "requests": 42,
    "notes": [
     {
@@ -61930,9 +61930,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:48.944Z",
-   "nextRetryAt": "2026-10-15T12:17:48.944Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:01.175Z",
+   "nextRetryAt": "2026-10-16T17:25:01.175Z",
    "requests": 23,
    "notes": [
     {
@@ -62912,10 +62912,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:48.944Z",
-   "nextRetryAt": "2026-10-15T12:17:48.944Z",
-   "requests": 72,
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:01.174Z",
+   "nextRetryAt": "2026-10-16T17:25:01.174Z",
+   "requests": 73,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64060,9 +64060,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:33.969Z",
-   "nextRetryAt": "2026-10-15T12:17:33.969Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:24:48.478Z",
+   "nextRetryAt": "2026-10-16T17:24:48.478Z",
    "requests": 1,
    "notes": [
     {
@@ -68927,13 +68927,13 @@
   },
   "meesaya-murukku-2-2026": {
    "version": 2,
-   "identity": "da5fe3d513c5fe6de1be",
+   "identity": "9df0a841d35e947adb0d",
    "status": "matched",
    "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-11T09:25:01.592Z",
-   "nextRetryAt": "2026-11-10T09:25:01.592Z",
-   "requests": 1
+   "checkedAt": "2026-10-15T17:24:38.077Z",
+   "nextRetryAt": "2026-11-14T17:24:38.077Z",
+   "requests": 2
   },
   "megam-karuthirukku-1987": {
    "version": 2,
@@ -73190,9 +73190,9 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 5,
-   "checkedAt": "2026-10-14T12:17:56.703Z",
-   "nextRetryAt": "2026-10-15T12:17:56.703Z",
+   "attempts": 6,
+   "checkedAt": "2026-10-15T17:25:06.342Z",
+   "nextRetryAt": "2026-10-16T17:25:06.342Z",
    "requests": 81,
    "notes": [
     {

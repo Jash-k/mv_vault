@@ -86115,7 +86115,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kasba-singhai-kheri-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-15T05:00:58.300Z",
+   "fetchedAt": "2026-10-15T17:23:45.797Z",
    "sourceTitle": "Kasba Singhai Kheri (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -99728,18 +99728,12 @@
   "tmdbType": "tv",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda34.com/bigg-boss-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-15T17:03:53.508Z",
-   "sourceTitle": "Bigg Boss (2026)",
-   "sourceYear": 2026,
-   "directors": [
-    "Vijay Sethupathi"
-   ],
-   "cast": [
-    "Lakshmi Priya",
-    "Shathiga",
-    "Raaghav Ranganathan"
-   ]
+   "sourceUrl": "https://moviesda34.com/bigg-boss-season-10-web-series/",
+   "fetchedAt": "2026-10-15T17:23:53.281Z",
+   "sourceTitle": "Bigg Boss (Season 10) Web Series Download Moviesda",
+   "sourceYear": 0,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -110492,7 +110486,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/jazz-city-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-15T05:00:51.700Z",
+   "fetchedAt": "2026-10-15T17:23:38.716Z",
    "sourceTitle": "Jazz City (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -111754,7 +111748,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kohrra-2023-tamil-web-series/",
-   "fetchedAt": "2026-10-15T05:01:05.144Z",
+   "fetchedAt": "2026-10-15T17:24:11.396Z",
    "sourceTitle": "Kohrra (2023)",
    "sourceYear": 2023,
    "directors": [
@@ -297838,15 +297832,23 @@
   "embeds": [
    {
     "quality": "1080p",
-    "url": "https://play.onestream.today/stream/page/102251"
+    "url": "https://play.onestream.today/stream/page/102531"
    },
    {
     "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/102249"
+    "url": "https://play.onestream.today/stream/page/102532"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102530"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102513"
    },
    {
     "quality": "720p",
-    "url": "https://play.onestream.today/stream/page/102252"
+    "url": "https://play.onestream.today/stream/page/102511"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/qD1QwmInB9ezd2peVb5EbhaM4Mo.jpg",
@@ -297854,8 +297856,23 @@
   "tmdbId": 1538457,
   "imdbId": "tt38097205",
   "addedAt": "2026-10-07T23:05:20.707Z",
-  "updatedAt": "2026-10-09T06:40:27.730Z",
-  "tmdbType": "movie"
+  "updatedAt": "2026-10-15T17:24:31.214Z",
+  "tmdbType": "movie",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meesaya-murukku-2-2026-tamil-movie/",
+   "fetchedAt": "2026-10-15T17:24:25.741Z",
+   "sourceTitle": "Meesaya Murukku 2 (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Hiphop Tamizha"
+   ],
+   "cast": [
+    "Chaithra Achar",
+    "Ketika Sharma",
+    "Ramya Ranganathan"
+   ]
+  }
  },
  {
   "id": "sigma-2026",
