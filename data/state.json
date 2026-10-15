@@ -47992,6 +47992,12 @@
    "embeds": 8,
    "kind": "series",
    "v": 3
+  },
+  "https://moviesda34.com/jailer-2-2026-tamil-movie/": {
+   "at": "2026-10-15T21:22:40.101Z",
+   "embeds": 3,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -73305,6 +73311,16 @@
    "attempts": 1,
    "checkedAt": "2026-10-15T11:53:08.632Z",
    "nextRetryAt": "2026-11-14T11:53:08.632Z",
+   "requests": 4
+  },
+  "jailer-2-2026": {
+   "version": 2,
+   "identity": "4038d58febdd2f037e90",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-15T21:23:07.753Z",
+   "nextRetryAt": "2026-11-14T21:23:07.753Z",
    "requests": 4
   }
  }

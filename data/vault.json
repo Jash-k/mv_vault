@@ -316650,5 +316650,50 @@
    ]
   },
   "tmdbType": "tv"
+ },
+ {
+  "id": "jailer-2-2026",
+  "title": "Jailer 2",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/jailer-2-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102538"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/102540"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102541"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+  "rating": 6,
+  "tmdbId": 1234139,
+  "imdbId": "tt33318732",
+  "addedAt": "2026-10-15T21:22:40.088Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/jailer-2-2026-tamil-movie/",
+   "fetchedAt": "2026-10-15T21:22:33.410Z",
+   "sourceTitle": "Jailer 2 (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Nelson Dilipkumar"
+   ],
+   "cast": [
+    "Rajinikanth",
+    "S. J. Suryah",
+    "Ramya Krishnan"
+   ]
+  },
+  "tmdbType": "movie",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-10-15T21:23:07.753Z"
  }
 ]
