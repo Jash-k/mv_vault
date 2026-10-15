@@ -18196,13 +18196,13 @@
    "kind": "movie"
   },
   "https://moviesda34.com/kasba-singhai-kheri-2026-tamil-web-series/": {
-   "at": "2026-10-14T21:44:12.745Z",
+   "at": "2026-10-15T05:01:04.176Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
   },
   "https://moviesda34.com/inspector-avinash-2026-tamil-web-series/": {
-   "at": "2026-10-14T21:44:01.272Z",
+   "at": "2026-10-15T05:00:50.718Z",
    "embeds": 20,
    "kind": "series",
    "v": 3
@@ -18985,7 +18985,7 @@
    "v": 3
   },
   "https://moviesda34.com/jazz-city-2026-tamil-web-series/": {
-   "at": "2026-10-14T21:44:06.844Z",
+   "at": "2026-10-15T05:00:57.327Z",
    "embeds": 10,
    "kind": "series",
    "v": 3
@@ -19039,7 +19039,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-10-14T21:44:21.212Z",
+   "at": "2026-10-15T05:01:08.888Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -73213,13 +73213,13 @@
   },
   "the-ordinary-jackpot-2026": {
    "version": 2,
-   "identity": "a4dd1f49f1290e2b732f",
+   "identity": "7a158a282af73b11514e",
    "status": "matched",
-   "reason": "exact-title-year",
+   "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-10-12T15:48:18.388Z",
-   "nextRetryAt": "2026-11-11T15:48:18.388Z",
-   "requests": 3
+   "checkedAt": "2026-10-15T05:01:20.704Z",
+   "nextRetryAt": "2026-11-14T05:01:20.704Z",
+   "requests": 1
   },
   "take-charge-of-my-heart-2026": {
    "version": 2,
