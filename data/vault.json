@@ -118523,7 +118523,16 @@
    }
   ],
   "updatedAt": "2026-10-09T06:25:59.573Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/heart-beat-2025-tamil-movie/",
+   "fetchedAt": "2026-10-16T22:12:46.261Z",
+   "sourceTitle": "Heart Beat (2025) Tamil Movie",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "beyond-the-call-to-duty-2016",
@@ -311614,7 +311623,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/",
-   "fetchedAt": "2026-10-15T22:44:41.591Z",
+   "fetchedAt": "2026-10-16T22:14:46.871Z",
    "sourceTitle": "Suzhal 2 The Vortex (2025)",
    "sourceYear": 2025,
    "directors": [
