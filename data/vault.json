@@ -301846,7 +301846,22 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:31.458Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/delhi-crime-2025-season-03-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:15:28.358Z",
+   "sourceTitle": "Delhi Crime (2025) Season 03",
+   "sourceYear": 2025,
+   "directors": [
+    "Richie Mehta"
+   ],
+   "cast": [
+    "Shefali Shah",
+    "Rajesh Tailang",
+    "Rasika Dugal"
+   ]
+  }
  },
  {
   "id": "do-you-wanna-partner-2025",
@@ -301991,7 +302006,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:41.127Z"
+  "updatedAt": "2026-10-09T01:57:41.127Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/do-you-wanna-partner-2025-movie/",
+   "fetchedAt": "2026-10-17T22:15:37.222Z",
+   "sourceTitle": "Do You Wanna Partner (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Mithun Gangopadhyay"
+   ],
+   "cast": [
+    "Anngad Raaj",
+    "Krishna Saajnani",
+    "Tamannaah Bhatia"
+   ]
+  }
  },
  {
   "id": "daaro-2025",
@@ -302137,7 +302167,20 @@
    }
   ],
   "updatedAt": "2026-10-11T08:07:38.766Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/daaro-2025-movie/",
+   "fetchedAt": "2026-10-17T22:15:48.295Z",
+   "sourceTitle": "Daaro (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Amardeep Singh Gill"
+   ],
+   "cast": [
+    "Kul Sidhu"
+   ]
+  }
  },
  {
   "id": "devika-and-danny-2025",
@@ -302268,7 +302311,22 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:31.802Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/devika-and-danny-2025-movie/",
+   "fetchedAt": "2026-10-17T22:16:00.034Z",
+   "sourceTitle": "Devika and Danny (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "B.Kishore"
+   ],
+   "cast": [
+    "Ritu Varma",
+    "Shiva Kandukuri",
+    "Kovai Sarala"
+   ]
+  }
  },
  {
   "id": "dabba-cartel-2025",
@@ -302398,7 +302456,21 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:41.985Z"
+  "updatedAt": "2026-10-09T01:57:41.985Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/dabba-cartel-2025-movie/",
+   "fetchedAt": "2026-10-17T22:16:10.778Z",
+   "sourceTitle": "Dabba Cartel (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Hitesh Bhatia"
+   ],
+   "cast": [
+    "Shibani Akhtar",
+    "Gaurav Kapoor"
+   ]
+  }
  },
  {
   "id": "delhi-crime-2022",
@@ -302499,13 +302571,30 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:31.802Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/delhi-crime-2022-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:16:38.969Z",
+   "sourceTitle": "Delhi Crime (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Tanuj Chopra"
+   ],
+   "cast": [
+    "Anurag Arora",
+    "Sidharth Bhardwaj",
+    "Gopal Datt"
+   ]
+  }
  },
  {
   "id": "endrum-nam-ninaivil-robo-shankar-2025",
   "title": "Endrum Nam Ninaivil Robo Shankar",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/endrum-nam-ninaivil-robo-shankar-2025-tamil-movie/",
   "embeds": [
    {
@@ -302536,8 +302625,7 @@
     ]
    }
   ],
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site-catalogue-fallback-no-proven-identity",
@@ -302546,7 +302634,15 @@
     "https://moviezda.net/endrum-nam-ninaivil-robo-shankar-2025-tamil-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/endrum-nam-ninaivil-robo-shankar-2025-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:21:03.112Z",
+   "sourceTitle": "Endrum Nam Ninaivil Robo Shankar (2025) Tamil Movie",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "engga-hostel-season-01-2023",
@@ -302647,7 +302743,16 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:31.802Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/engga-hostel-season-01-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:21:12.543Z",
+   "sourceTitle": "Engga Hostel Season 01 (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "family-aaj-kal-2024",
@@ -302747,7 +302852,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:42.963Z"
+  "updatedAt": "2026-10-09T01:57:42.963Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/family-aaj-kal-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:25:32.541Z",
+   "sourceTitle": "Family Aaj Kal (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Parikshit Joshi"
+   ],
+   "cast": [
+    "Prakhar Singh",
+    "Apoorva Arora",
+    "Nitesh Pandey"
+   ]
+  }
  },
  {
   "id": "farzi-2023",
@@ -302892,7 +303012,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:43.255Z"
+  "updatedAt": "2026-10-09T01:57:43.255Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/farzi-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:25:41.563Z",
+   "sourceTitle": "Farzi (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Vijay Sethupathi",
+    "Shahid Kapoor",
+    "Raashi Khanna"
+   ]
+  }
  },
  {
   "id": "good-wife-2025",
@@ -303008,13 +303141,31 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:32.143Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/good-wife-2025-movie/",
+   "fetchedAt": "2026-10-17T22:27:11.185Z",
+   "sourceTitle": "Good Wife (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Siddharth Ramaswamy"
+   ],
+   "cast": [
+    "Priyamani",
+    "Revathi",
+    "Sampath Raj"
+   ]
+  }
  },
  {
   "id": "gutar-gu-2024",
   "title": "Gutar Gu",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/gutar-gu-2024-tamil-movie/",
   "embeds": [
    {
@@ -303045,13 +303196,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Gutar Gu",
   "originalTitle": "Gutar Gu",
   "originalYear": 2023,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -303062,7 +303211,19 @@
     "https://www.imdb.com/title/tt27303022/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/gutar-gu-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:27:22.010Z",
+   "sourceTitle": "Gutar Gu (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Vishesh Bansal",
+    "Ashlesha Thakur",
+    "Satish Ray"
+   ]
+  }
  },
  {
   "id": "garmi-2023",
@@ -303222,7 +303383,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:44.075Z"
+  "updatedAt": "2026-10-09T01:57:44.075Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/garmi-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:27:28.415Z",
+   "sourceTitle": "Garmi (2023)",
+   "sourceYear": 2023,
+   "directors": [
+    "Tigmanshu Dhulia"
+   ],
+   "cast": [
+    "Vyom Yadav",
+    "Disha Thakur",
+    "Pankaj Saraswat"
+   ]
+  }
  },
  {
   "id": "high-on-kadhal-2024",
@@ -303263,7 +303439,21 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:32.144Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/high-on-kadhal-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:30:59.432Z",
+   "sourceTitle": "High On Kadhal (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Arun Varadhan"
+   ],
+   "cast": [
+    "Vijay Viruz",
+    "Nakshatra"
+   ]
+  }
  },
  {
   "id": "heeramandi-2024",
@@ -303304,13 +303494,31 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:32.144Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/heeramandi-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:31:05.924Z",
+   "sourceTitle": "Heeramandi (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Sanjay Leela Bhansali"
+   ],
+   "cast": [
+    "Manisha Koirala",
+    "Sonakshi Sinha",
+    "Aditi Rao Hydari"
+   ]
+  }
  },
  {
   "id": "highway-love-2024",
   "title": "Highway Love",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/highway-love-2024-tamil-movie/",
   "embeds": [
    {
@@ -303341,13 +303549,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Highway Love",
   "originalTitle": "Highway Love",
   "originalYear": 2023,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -303358,13 +303564,28 @@
     "https://www.imdb.com/title/tt27991703/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/highway-love-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:31:12.301Z",
+   "sourceTitle": "Highway Love (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Gayatri Bhardwaj",
+    "Ritvik Sahore",
+    "Anshuman Malhotra"
+   ]
+  }
  },
  {
   "id": "hush-hush-season-01-2023",
   "title": "Hush Hush Season 01",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/hush-hush-season-01-2023-tamil-movie/",
   "embeds": [
    {
@@ -303560,9 +303781,6 @@
   "tmdbTitle": "Hush Hush",
   "originalTitle": "Hush Hush",
   "originalYear": 2022,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "unique-title-original-year",
@@ -303572,6 +303790,15 @@
     "https://www.themoviedb.org/tv/201063",
     "https://www.imdb.com/title/tt14478162/"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/hush-hush-season-01-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:31:26.315Z",
+   "sourceTitle": "Hush Hush Season 01 (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -303687,13 +303914,29 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:45.320Z"
+  "updatedAt": "2026-10-09T01:57:45.320Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ic-814-the-kandahar-hijack-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:33:52.367Z",
+   "sourceTitle": "IC 814 The Kandahar Hijack (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Ujjwal Gauraha",
+    "Ellie Flory Fawcett",
+    "Renuka Purohit"
+   ]
+  }
  },
  {
   "id": "ishq-epress-2024",
   "title": "Ishq Epress",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/ishq-epress-2024-tamil-movie/",
   "embeds": [
    {
@@ -303724,13 +303967,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Ishq Express",
   "originalTitle": "Ishq Express",
   "originalYear": 2022,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "localized-title-credits-and-plot",
@@ -303741,7 +303982,19 @@
     "https://www.imdb.com/title/tt21099610/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ishq-epress-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:34:03.656Z",
+   "sourceTitle": "Ishq Epress (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Gayatri Bhardwaj",
+    "Ritvik Sahore",
+    "Gaurav Parajuli"
+   ]
+  }
  },
  {
   "id": "inspector-avinash-2023",
@@ -303886,7 +304139,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:45.828Z"
+  "updatedAt": "2026-10-09T01:57:45.828Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/inspector-avinash-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:34:10.084Z",
+   "sourceTitle": "Inspector Avinash (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "iru-dhuruvam-season-02-2023",
@@ -304162,7 +304424,20 @@
    }
   ],
   "updatedAt": "2026-10-10T00:06:58.723Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/iru-dhuruvam-season-02-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:34:21.164Z",
+   "sourceTitle": "Iru Dhuruvam Season 02 (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Ravi Jiva",
+    "Abhirami Iyer",
+    "Sebastin Antony"
+   ]
+  }
  },
  {
   "id": "jubilee-2023",
@@ -304337,7 +304612,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:46.386Z"
+  "updatedAt": "2026-10-09T01:57:46.386Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/jubilee-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:41:11.914Z",
+   "sourceTitle": "Jubilee (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Tushar Phulke",
+    "Prasenjit Chatterjee",
+    "Wamiqa Gabbi"
+   ]
+  }
  },
  {
   "id": "jaanbaaz-hindustan-ke-season-01-2023",
@@ -304483,7 +304771,16 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:33.731Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/jaanbaaz-hindustan-ke-season-01-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:41:25.065Z",
+   "sourceTitle": "Jaanbaaz Hindustan Ke Season 01 (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "jhansi-season-02-2023",
@@ -304584,7 +304881,16 @@
    }
   ],
   "updatedAt": "2026-10-10T00:12:03.511Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/jhansi-season-02-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:41:34.210Z",
+   "sourceTitle": "Jhansi Season 02 (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "kalyanam-dum-dum-dum-2025",
@@ -315387,6 +315693,8 @@
   "title": "Fall Season 1",
   "year": 2022,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/fall-2022-tamil-movie/",
   "embeds": [
    {
@@ -315462,8 +315770,7 @@
     ]
    }
   ],
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site-catalogue-fallback-no-proven-identity",
@@ -315472,7 +315779,21 @@
     "https://moviezda.net/fall-2022-tamil-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/fall-2022-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:25:55.866Z",
+   "sourceTitle": "Fall (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Scott Mann"
+   ],
+   "cast": [
+    "Grace Caroline Currey",
+    "Virginia Gardner",
+    "Mason Gooding"
+   ]
+  }
  },
  {
   "id": "meet-cute-2022",
