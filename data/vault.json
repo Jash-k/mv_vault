@@ -305021,13 +305021,25 @@
    }
   ],
   "updatedAt": "2026-10-11T08:07:43.339Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kalyanam-dum-dum-dum-2025-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:45:29.814Z",
+   "sourceTitle": "Kalyanam Dum Dum Dum (2025) Tamil Movie",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "kurukshetra-2025",
   "title": "Kurukshetra",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/kurukshetra-2025-tamil-movie/",
   "embeds": [
    {
@@ -305313,13 +305325,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Kurukshetra: The Great War of Mahabharata",
   "originalTitle": "Kurukshetra: The Great War of Mahabharata",
   "originalYear": 2025,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "localized-title-credits-and-plot",
@@ -305330,13 +305340,30 @@
     "https://www.imdb.com/title/tt38235589/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kurukshetra-2025-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:45:40.639Z",
+   "sourceTitle": "Kurukshetra (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Anu Sikka"
+   ],
+   "cast": [
+    "Vinod Sharma",
+    "Sahil Vaid",
+    "Saumya Daan"
+   ]
+  }
  },
  {
   "id": "kerala-crime-files-2025",
   "title": "Kerala Crime Files",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/kerala-crime-files-2025-movie/",
   "embeds": [
    {
@@ -305442,13 +305469,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Kerala Crime Files",
   "originalTitle": "Kerala Crime Files",
   "originalYear": 2023,
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -305459,7 +305484,21 @@
     "https://www.imdb.com/title/tt27128638/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kerala-crime-files-2025-movie/",
+   "fetchedAt": "2026-10-17T22:46:01.412Z",
+   "sourceTitle": "Kerala Crime Files (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Ahammed Khabeer"
+   ],
+   "cast": [
+    "Harisree Ashokan",
+    "Suresh Babu",
+    "Jeo Baby"
+   ]
+  }
  },
  {
   "id": "kankhajura-2025",
@@ -305604,7 +305643,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:47.872Z"
+  "updatedAt": "2026-10-09T01:57:47.872Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kankhajura-2025-movie/",
+   "fetchedAt": "2026-10-17T22:46:10.664Z",
+   "sourceTitle": "Kankhajura (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Parikshhit Jha"
+   ],
+   "cast": [
+    "Roshan Mathew",
+    "Mohit Raina",
+    "Sarah Jane Dias"
+   ]
+  }
  },
  {
   "id": "kull-the-legacy-of-the-raisingghs-2025",
@@ -305749,7 +305803,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:48.201Z"
+  "updatedAt": "2026-10-09T01:57:48.201Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kull-the-legacy-of-the-raisingghs-2025-movie/",
+   "fetchedAt": "2026-10-17T22:46:21.756Z",
+   "sourceTitle": "Kull The Legacy of the Raisingghs (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Chiranjeevi Bajpai"
+   ],
+   "cast": [
+    "Nimrat Kaur",
+    "Amol Parashar",
+    "Ridhi Dogra"
+   ]
+  }
  },
  {
   "id": "khauf-2025",
@@ -305894,7 +305963,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:48.503Z"
+  "updatedAt": "2026-10-09T01:57:48.503Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/khauf-2025-movie/",
+   "fetchedAt": "2026-10-17T22:46:32.863Z",
+   "sourceTitle": "Khauf (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Smita Singh"
+   ],
+   "cast": [
+    "Suchi Malhotra",
+    "Rahaao",
+    "Riya Shukla"
+   ]
+  }
  },
  {
   "id": "kaala-paani-2023",
@@ -306024,7 +306108,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:48.839Z"
+  "updatedAt": "2026-10-09T01:57:48.839Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaala-paani-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T22:46:48.037Z",
+   "sourceTitle": "Kaala Paani (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Mona Singh",
+    "Ashutosh Gowariker",
+    "Arushi Sharma"
+   ]
+  }
  },
  {
   "id": "love-under-construction-2025",
@@ -306139,7 +306236,21 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:49.137Z"
+  "updatedAt": "2026-10-09T01:57:49.137Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/love-under-construction-2025-movie/",
+   "fetchedAt": "2026-10-17T23:02:29.079Z",
+   "sourceTitle": "Love Under Construction (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Vishnu Raghav"
+   ],
+   "cast": [
+    "Aju Varghese",
+    "Gouri Kishan"
+   ]
+  }
  },
  {
   "id": "label-2023",
@@ -306314,13 +306425,30 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:49.440Z"
+  "updatedAt": "2026-10-09T01:57:49.440Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/label-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:02:40.162Z",
+   "sourceTitle": "Label (2023)",
+   "sourceYear": 2023,
+   "directors": [
+    "Arunraja Kamaraj"
+   ],
+   "cast": [
+    "Sriman",
+    "Ilavarasu",
+    "Charan Raj"
+   ]
+  }
  },
  {
   "id": "loser-2021",
   "title": "Loser",
   "year": 2021,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/loser-2021-season-01-tamil-movie/",
   "embeds": [
    {
@@ -306486,8 +306614,7 @@
     ]
    }
   ],
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site-catalogue-fallback-no-proven-identity",
@@ -306496,7 +306623,15 @@
     "https://moviezda.net/loser-2021-season-01-tamil-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/loser-2021-season-01-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:03:15.026Z",
+   "sourceTitle": "Loser (2021) Season 01 Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "mayasabha-2025",
@@ -306656,7 +306791,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:49.995Z"
+  "updatedAt": "2026-10-09T01:57:49.995Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mayasabha-2025-movie/",
+   "fetchedAt": "2026-10-17T23:05:30.680Z",
+   "sourceTitle": "Mayasabha (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Deva Katta"
+   ],
+   "cast": [
+    "Aadhi",
+    "Chaitanya Rao",
+    "Sai Kumar"
+   ]
+  }
  },
  {
   "id": "mandala-murders-2025",
@@ -306801,7 +306951,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:50.292Z"
+  "updatedAt": "2026-10-09T01:57:50.292Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mandala-murders-2025-movie/",
+   "fetchedAt": "2026-10-17T23:05:42.516Z",
+   "sourceTitle": "Mandala Murders (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Gopi Puthran"
+   ],
+   "cast": [
+    "Sammy Jonas Heaney",
+    "Vaani Kapoor",
+    "Surveen Chawla"
+   ]
+  }
  },
  {
   "id": "mistry-2025",
@@ -306946,7 +307111,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:50.584Z"
+  "updatedAt": "2026-10-09T01:57:50.584Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mistry-2025-movie/",
+   "fetchedAt": "2026-10-17T23:05:55.080Z",
+   "sourceTitle": "Mistry (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Rishab Seth"
+   ],
+   "cast": [
+    "Mona Singh",
+    "Ram Kapoor",
+    "Shikha Talsania"
+   ]
+  }
  },
  {
   "id": "madurai-paiyanum-chennai-ponnum-2025",
@@ -307287,7 +307467,21 @@
    }
   ],
   "updatedAt": "2026-10-11T08:07:43.637Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/madurai-paiyanum-chennai-ponnum-2025-movie/",
+   "fetchedAt": "2026-10-17T23:06:06.060Z",
+   "sourceTitle": "Madurai Paiyanum Chennai Ponnum (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Vignesh Pazhanivel"
+   ],
+   "cast": [
+    "Kanna Ravi",
+    "Angelin"
+   ]
+  }
  },
  {
   "id": "manvat-murders-2024",
@@ -307343,13 +307537,31 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:38.664Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manvat-murders-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:06:40.827Z",
+   "sourceTitle": "Manvat Murders (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Ashish Bende"
+   ],
+   "cast": [
+    "Ashutosh Gowariker",
+    "Sonali Kulkarni",
+    "Sai Tamhankar"
+   ]
+  }
  },
  {
   "id": "my-perfect-husband-2024",
   "title": "My Perfect Husband",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/my-perfect-husband-2024-tamil-movie/",
   "embeds": [
    {
@@ -307485,13 +307697,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "My Perfectt Husband",
   "originalTitle": "My Perfectt Husband",
   "originalYear": 2024,
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "spelling-and-source-credits",
@@ -307502,7 +307712,21 @@
     "https://www.imdb.com/title/tt13331708/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/my-perfect-husband-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:06:48.929Z",
+   "sourceTitle": "My Perfect Husband (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Thamira"
+   ],
+   "cast": [
+    "Sathyaraj",
+    "Seetha",
+    "Sukanya"
+   ]
+  }
  },
  {
   "id": "murder-in-mahim-2024",
@@ -307647,7 +307871,19 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:51.788Z"
+  "updatedAt": "2026-10-09T01:57:51.788Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/murder-in-mahim-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:07:01.242Z",
+   "sourceTitle": "Murder in Mahim (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Vijay Raaz",
+    "Ashutosh Rana"
+   ]
+  }
  },
  {
   "id": "modern-love-chennai-2023",
@@ -307762,7 +307998,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:52.089Z"
+  "updatedAt": "2026-10-09T01:57:52.089Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/modern-love-chennai-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:07:13.625Z",
+   "sourceTitle": "Modern Love Chennai (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Kishore Kumar G.",
+    "Ritu Varma",
+    "Ashok Selvan"
+   ]
+  }
  },
  {
   "id": "nagendrans-honeymoons-2024",
@@ -315800,6 +316049,9 @@
   "title": "Meet Cute",
   "year": 2022,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/meet-cute-2022-tamil-movie/",
   "embeds": [
    {
@@ -315830,11 +316082,21 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T08:07:45.196Z",
   "tmdbType": "tv",
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-11T08:07:45.196Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meet-cute-2022-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:07:23.949Z",
+   "sourceTitle": "Meet Cute (2022)",
+   "sourceYear": 2022,
+   "directors": [],
+   "cast": [
+    "Adah Sharma",
+    "Sathyaraj",
+    "Varsha Bollamma"
+   ]
+  }
  },
  {
   "id": "taj-divided-by-blood-2023",
