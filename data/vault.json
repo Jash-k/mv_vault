@@ -298406,6 +298406,9 @@
   "title": "Yakshini",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/yakshini-2024-tamil-movie/",
   "embeds": [
    {
@@ -298511,13 +298514,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-18T00:41:40.714Z",
   "tmdbType": "tv",
   "tmdbTitle": "Yakshini",
   "originalTitle": "Yakshini",
   "originalYear": 2024,
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -298528,7 +298529,21 @@
     "https://www.imdb.com/title/tt32468463/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/yakshini-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:38:03.684Z",
+   "sourceTitle": "Yakshini (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Teja Marni"
+   ],
+   "cast": [
+    "Vedhika",
+    "Ajay",
+    "Rahul Vijay"
+   ]
+  }
  },
  {
   "id": "population-436-2006",
@@ -300202,7 +300217,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/black-white-and-gray-2025-movie/",
   "embeds": [
    {
@@ -300308,7 +300323,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:40.527Z",
   "tmdbType": "tv",
   "tmdbTitle": "Black, White & Gray - Love Kills",
   "originalTitle": "Black, White & Gray - Love Kills",
@@ -303165,7 +303180,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/gutar-gu-2024-tamil-movie/",
   "embeds": [
    {
@@ -303175,7 +303190,7 @@
     "episode": 1
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/pufzR7ryNgSDK88xsJTaihHSUzG.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/qaFl1gFFmN2q5EqqH2KLU11yuQV.jpg",
   "rating": 8.143,
   "tmdbId": 223952,
   "imdbId": "tt27303022",
@@ -303196,7 +303211,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:39.956Z",
   "tmdbType": "tv",
   "tmdbTitle": "Gutar Gu",
   "originalTitle": "Gutar Gu",
@@ -303518,7 +303533,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/highway-love-2024-tamil-movie/",
   "embeds": [
    {
@@ -303528,7 +303543,7 @@
     "episode": 1
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/8vtIBvwzZTWADMbnc2GX1RIJljI.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/83SdUbIC3O3DHGwzvh4QUVGRvnD.jpg",
   "rating": 7.6,
   "tmdbId": 228824,
   "imdbId": "tt27991703",
@@ -303549,7 +303564,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:39.500Z",
   "tmdbType": "tv",
   "tmdbTitle": "Highway Love",
   "originalTitle": "Highway Love",
@@ -305039,7 +305054,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kurukshetra-2025-tamil-movie/",
   "embeds": [
    {
@@ -305151,7 +305166,7 @@
     "episode": 18
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/xbafLh6kWkWf87dqHdoHFDWGot9.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/amNFukSD0hpj5omLkikfaNw42sp.jpg",
   "rating": 8.059,
   "tmdbId": 300894,
   "imdbId": "tt38235589",
@@ -305325,7 +305340,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:38.835Z",
   "tmdbType": "tv",
   "tmdbTitle": "Kurukshetra: The Great War of Mahabharata",
   "originalTitle": "Kurukshetra: The Great War of Mahabharata",
@@ -305363,7 +305378,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "ml",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kerala-crime-files-2025-movie/",
   "embeds": [
    {
@@ -305403,7 +305418,7 @@
     "episode": 6
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/eM2gQTFRoMAaJ3AjGiB10LZU8n6.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/nyJakvOFBtWT1ILG6OG7AYx1lK.jpg",
   "rating": 6.5,
   "tmdbId": 228658,
   "imdbId": "tt27128638",
@@ -305469,7 +305484,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:38.835Z",
   "tmdbType": "tv",
   "tmdbTitle": "Kerala Crime Files",
   "originalTitle": "Kerala Crime Files",
@@ -311795,7 +311810,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "inferred",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/saare-jahan-se-accha-2025-movie/",
   "embeds": [
    {
@@ -311835,7 +311850,7 @@
     "episode": 6
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/p4moj0PXeFILF3mNBJywHqmfBm7.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/qruCN0Y7PsfCSRjkYSCuTU29BFK.jpg",
   "rating": 6,
   "tmdbId": 283610,
   "imdbId": "tt35665851",
@@ -311901,7 +311916,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:33.879Z",
   "tmdbType": "tv",
   "tmdbTitle": "Saare Jahan Se Accha: The Silent Guardians",
   "originalTitle": "Saare Jahan Se Accha: The Silent Guardians",
@@ -313022,7 +313037,7 @@
   "kind": "series",
   "category": "tamil-dubbed-series",
   "originalLanguage": "hi",
-  "categorySource": "reviewed-tmdb",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/scam-2003-2023-tamil-movie/",
   "embeds": [
    {
@@ -313086,7 +313101,7 @@
     "episode": 10
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/wsTVqPNNOOvUXKRJv0DstHUDIw8.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/dI2w7eCMtarbvcmRJA7GqrThmH2.jpg",
   "rating": 8.1,
   "tmdbId": 229403,
   "imdbId": "tt28804856",
@@ -313163,7 +313178,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
+  "updatedAt": "2026-10-18T00:41:33.238Z",
   "tmdbType": "tv",
   "tmdbTitle": "Scam 2003: The Telgi Story",
   "originalTitle": "Scam 2003: The Telgi Story",
@@ -315773,7 +315788,22 @@
    }
   ],
   "updatedAt": "2026-10-11T08:07:44.882Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/uppu-puli-kaaram-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:23:10.187Z",
+   "sourceTitle": "Uppu Puli Kaaram (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "M. Ramesh Baarathi"
+   ],
+   "cast": [
+    "Deepika Venkatachalam",
+    "Vanitha Krishnachandran",
+    "Ponvannan"
+   ]
+  }
  },
  {
   "id": "undekhi-2024",
@@ -315814,13 +315844,31 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:48.081Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/undekhi-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:23:47.074Z",
+   "sourceTitle": "Undekhi (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Ashish R Shukla"
+   ],
+   "cast": [
+    "Harsh Chhaya",
+    "Dibyendu Bhattacharya",
+    "Surya Sharma"
+   ]
+  }
  },
  {
   "id": "undekhi-2021",
   "title": "Undekhi",
   "year": 2021,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/undekhi-2021-tamil-movie/",
   "embeds": [
    {
@@ -315884,7 +315932,7 @@
     "episode": 10
    }
   ],
-  "poster": "https://image.tmdb.org/t/p/w500/47nMeLFEbWw9w0B3ozKX418kInC.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/enb1Ylom4P5ovmDznPeKwEloxO3.jpg",
   "rating": 8,
   "tmdbId": 105759,
   "imdbId": "tt12392496",
@@ -315986,13 +316034,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-18T00:41:32.353Z",
   "tmdbType": "tv",
   "tmdbTitle": "Undekhi",
   "originalTitle": "Undekhi",
   "originalYear": 2020,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -316003,7 +316049,19 @@
     "https://www.imdb.com/title/tt12392496/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/undekhi-2021-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:23:57.984Z",
+   "sourceTitle": "Undekhi (2021)",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": [
+    "Harsh Chhaya",
+    "Dibyendu Bhattacharya",
+    "Surya Sharma"
+   ]
+  }
  },
  {
   "id": "veduvan-2025",
@@ -316134,13 +316192,30 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:48.498Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/veduvan-2025-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:26:31.326Z",
+   "sourceTitle": "Veduvan (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Pavan Kumar"
+   ],
+   "cast": [
+    "Kanna Ravi",
+    "Sanjeev Venkat",
+    "Sravnitha Srikanth"
+   ]
+  }
  },
  {
   "id": "vaanil-thedinen-2025",
   "title": "Vaanil Thedinen",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/vaanil-thedinen-2025-movie/",
   "embeds": [
    {
@@ -316216,8 +316291,7 @@
     ]
    }
   ],
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site-catalogue-fallback-no-proven-identity",
@@ -316226,7 +316300,21 @@
     "https://moviezda.net/vaanil-thedinen-2025-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/vaanil-thedinen-2025-movie/",
+   "fetchedAt": "2026-10-18T00:26:42.181Z",
+   "sourceTitle": "Vaanil Thedinen (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Alvin Deva"
+   ],
+   "cast": [
+    "Rithu Babygal",
+    "Alvin Deva",
+    "Haripriya"
+   ]
+  }
  },
  {
   "id": "eyes-2026",
