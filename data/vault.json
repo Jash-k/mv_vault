@@ -310797,7 +310797,23 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:55.034Z"
+  "updatedAt": "2026-10-09T01:57:55.034Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/rangeen-2025-movie/",
+   "fetchedAt": "2026-10-17T23:45:51.356Z",
+   "sourceTitle": "Rangeen (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Amardeep Galsin",
+    "Amir Rizvi"
+   ],
+   "cast": [
+    "Vineet Kumar Singh",
+    "Rajshri Deshpande",
+    "Taaruk Raina"
+   ]
+  }
  },
  {
   "id": "rana-naidu-2025",
@@ -310943,7 +310959,22 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:39.659Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/rana-naidu-2025-movie/",
+   "fetchedAt": "2026-10-17T23:46:03.189Z",
+   "sourceTitle": "Rana Naidu (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Karan Anshuman"
+   ],
+   "cast": [
+    "Surveen Chawla",
+    "Abhishek Banerjee",
+    "Kriti Kharbanda"
+   ]
+  }
  },
  {
   "id": "rana-naidu-2023",
@@ -311218,7 +311249,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:55.543Z"
+  "updatedAt": "2026-10-09T01:57:55.543Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/rana-naidu-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:46:51.336Z",
+   "sourceTitle": "Rana Naidu (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "rocket-boys-2023",
@@ -311489,7 +311529,20 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:40.012Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/rocket-boys-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:46:31.744Z",
+   "sourceTitle": "Rocket Boys (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Jim Sarbh",
+    "Ishwak Singh",
+    "Regina Cassandra"
+   ]
+  }
  },
  {
   "id": "search-the-naina-murder-case-2025",
@@ -311604,13 +311657,31 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:56.063Z"
+  "updatedAt": "2026-10-09T01:57:56.063Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/search-the-naina-murder-case-2025-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:52:33.046Z",
+   "sourceTitle": "Search The Naina Murder Case (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Rohan Sippy"
+   ],
+   "cast": [
+    "Konkona Sen Sharma",
+    "Shraddha Das",
+    "Shiv Panditt"
+   ]
+  }
  },
  {
   "id": "sshhh-2025",
   "title": "Sshhh",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sshhh-2025-tamil-movie/",
   "embeds": [
    {
@@ -311686,13 +311757,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T13:12:31.192Z",
   "tmdbType": "tv",
   "tmdbTitle": "Sshhh",
   "originalTitle": "Sshhh",
   "originalYear": 2024,
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -311703,13 +311772,30 @@
     "https://www.imdb.com/title/tt13958504/"
    ]
   },
-  "updatedAt": "2026-10-11T13:12:31.192Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/sshhh-2025-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:52:43.863Z",
+   "sourceTitle": "Sshhh (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Amit Bhargav"
+   ],
+   "cast": [
+    "Premgi Amaren",
+    "Aishwarya Dutta",
+    "Jinal Joshi"
+   ]
+  }
  },
  {
   "id": "saare-jahan-se-accha-2025",
   "title": "Saare Jahan Se Accha",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/saare-jahan-se-accha-2025-movie/",
   "embeds": [
    {
@@ -311815,13 +311901,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "tmdbType": "tv",
   "tmdbTitle": "Saare Jahan Se Accha: The Silent Guardians",
   "originalTitle": "Saare Jahan Se Accha: The Silent Guardians",
   "originalYear": 2025,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "inferred",
   "metadataVerification": {
    "status": "inferred",
    "reason": "credits-without-distinctive-plot",
@@ -311832,7 +311916,21 @@
     "https://www.imdb.com/title/tt35665851/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/saare-jahan-se-accha-2025-movie/",
+   "fetchedAt": "2026-10-17T23:52:52.219Z",
+   "sourceTitle": "Saare Jahan Se Accha (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Gaurav Shukla"
+   ],
+   "cast": [
+    "Kunal Thakur",
+    "Anoop Singh",
+    "Amit Jha"
+   ]
+  }
  },
  {
   "id": "salakaar-2025",
@@ -311932,7 +312030,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:56.786Z"
+  "updatedAt": "2026-10-09T01:57:56.786Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/salakaar-2025-movie/",
+   "fetchedAt": "2026-10-17T23:53:01.509Z",
+   "sourceTitle": "Salakaar (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Faruk Kabir"
+   ],
+   "cast": [
+    "Asrar Khan",
+    "Naveen Kasturia",
+    "Janhavi Hardas"
+   ]
+  }
  },
  {
   "id": "sattamum-needhiyum-2025",
@@ -312063,7 +312176,22 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:40.012Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/sattamum-needhiyum-2025-movie/",
+   "fetchedAt": "2026-10-17T23:53:10.527Z",
+   "sourceTitle": "Sattamum Needhiyum (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Balaji Selvaraj"
+   ],
+   "cast": [
+    "Saravanan",
+    "Namritha Mv",
+    "Aroul D. Shankar"
+   ]
+  }
  },
  {
   "id": "special-ops-2025",
@@ -312194,13 +312322,24 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:42.044Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/special-ops-2025-movie/",
+   "fetchedAt": "2026-10-17T23:53:21.409Z",
+   "sourceTitle": "Special OPS (2025) Tamil Movie",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "save-nalla-pasanga-2025",
   "title": "Save Nalla Pasanga",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "categorySource": "inferred",
   "pageUrl": "https://moviesda34.com/save-nalla-pasanga-2025-movie/",
   "embeds": [
    {
@@ -312306,8 +312445,7 @@
     ]
    }
   ],
-  "category": "tamil-series",
-  "categorySource": "inferred",
+  "updatedAt": "2026-10-11T10:08:41.871862+00:00",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site-catalogue-fallback-no-proven-identity",
@@ -312316,7 +312454,21 @@
     "https://moviezda.net/save-nalla-pasanga-2025-movie/"
    ]
   },
-  "updatedAt": "2026-10-11T10:08:41.871862+00:00"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/save-nalla-pasanga-2025-movie/",
+   "fetchedAt": "2026-10-17T23:53:32.046Z",
+   "sourceTitle": "Save Nalla Pasanga (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "C Sathish Charan"
+   ],
+   "cast": [
+    "Ajai Prasad",
+    "Anna Ador",
+    "Vishnu"
+   ]
+  }
  },
  {
   "id": "seruppugal-jaakirathai-2025",
@@ -312431,7 +312583,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:57.826Z"
+  "updatedAt": "2026-10-09T01:57:57.826Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/seruppugal-jaakirathai-2025-movie/",
+   "fetchedAt": "2026-10-17T23:53:42.364Z",
+   "sourceTitle": "Seruppugal Jaakirathai (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Rajesh Soosairaj"
+   ],
+   "cast": [
+    "Singampuli",
+    "Ira Agarwal",
+    "Lionel Rajkumar"
+   ]
+  }
  },
  {
   "id": "suzhal-2-the-vortex-2025",
@@ -312594,7 +312761,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/",
-   "fetchedAt": "2026-10-16T22:14:46.871Z",
+   "fetchedAt": "2026-10-17T23:53:51.578Z",
    "sourceTitle": "Suzhal 2 The Vortex (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -312675,7 +312842,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:58.336Z"
+  "updatedAt": "2026-10-09T01:57:58.336Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/showtime-2024-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:54:14.483Z",
+   "sourceTitle": "Showtime (2024)",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": [
+    "Emraan Hashmi",
+    "Naseeruddin Shah",
+    "Mahima Makwana"
+   ]
+  }
  },
  {
   "id": "shehar-lakhot-2023",
@@ -312820,13 +313000,29 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:58.643Z"
+  "updatedAt": "2026-10-09T01:57:58.643Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/shehar-lakhot-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:54:22.786Z",
+   "sourceTitle": "Shehar Lakhot (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Priyanshu Painyuli",
+    "Shruthy Menon",
+    "Chandan Roy Sanyal"
+   ]
+  }
  },
  {
   "id": "scam-2003-2023",
   "title": "Scam 2003",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "reviewed-tmdb",
   "pageUrl": "https://moviesda34.com/scam-2003-2023-tamil-movie/",
   "embeds": [
    {
@@ -312972,9 +313168,6 @@
   "tmdbTitle": "Scam 2003: The Telgi Story",
   "originalTitle": "Scam 2003: The Telgi Story",
   "originalYear": 2023,
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "reviewed-tmdb",
   "metadataVerification": {
    "status": "verified",
    "reason": "localized-title-credits-and-plot",
@@ -312983,6 +313176,19 @@
     "https://moviezda.net/scam-2003-2023-tamil-movie/",
     "https://www.themoviedb.org/tv/229403",
     "https://www.imdb.com/title/tt28804856/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/scam-2003-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:54:33.869Z",
+   "sourceTitle": "Scam 2003 (2023)",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": [
+    "Gagandev Riar",
+    "Iravati Harshe",
+    "Sana Amin Sheikh"
    ]
   }
  },
@@ -313234,7 +313440,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T01:05:57.370Z"
+  "updatedAt": "2026-10-10T01:05:57.370Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/sengalam-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:54:51.773Z",
+   "sourceTitle": "Sengalam (2023)",
+   "sourceYear": 2023,
+   "directors": [
+    "S.R. Prabhakaran"
+   ],
+   "cast": [
+    "Vani Bhojan",
+    "Kalaiyarasan",
+    "Vela Ramamoorthy"
+   ]
+  }
  },
  {
   "id": "story-of-things-2023",
@@ -313384,7 +313605,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-10T01:06:08.146Z"
+  "updatedAt": "2026-10-10T01:06:08.146Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/story-of-things-2023-tamil-movie/",
+   "fetchedAt": "2026-10-17T23:55:11.988Z",
+   "sourceTitle": "Story Of Things (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "the-game-you-never-play-alone-2025",
@@ -313514,7 +313744,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:57:59.768Z"
+  "updatedAt": "2026-10-09T01:57:59.768Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-game-you-never-play-alone-2025-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:08:49.913Z",
+   "sourceTitle": "The Game You Never Play Alone (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Rajesh M. Selva"
+   ],
+   "cast": [
+    "hraddha Srinath",
+    "Hema",
+    "Viviya Santh"
+   ]
+  }
  },
  {
   "id": "the-trial-2025",
@@ -313585,7 +313830,22 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:48.080Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-trial-2025-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:09:02.066Z",
+   "sourceTitle": "The Trial (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Umesh Bist"
+   ],
+   "cast": [
+    "Kajol",
+    "Jisshu Sengupta",
+    "Kubbra Sait"
+   ]
+  }
  },
  {
   "id": "the-chronicles-of-the-4-5-gang-2025",
@@ -313700,7 +313960,20 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:00.276Z"
+  "updatedAt": "2026-10-09T01:58:00.276Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-chronicles-of-the-4-5-gang-2025-movie/",
+   "fetchedAt": "2026-10-18T00:09:08.904Z",
+   "sourceTitle": "The Chronicles Of The 4.5 Gang (2025)",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": [
+    "Jagadish",
+    "Sanju Sivaram",
+    "Niranj Maniyanpilla"
+   ]
+  }
  },
  {
   "id": "the-hunt-the-rajiv-gandhi-assassination-case-2025",
@@ -313815,7 +314088,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:00.588Z"
+  "updatedAt": "2026-10-09T01:58:00.588Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-hunt-the-rajiv-gandhi-assassination-case-2025-movie/",
+   "fetchedAt": "2026-10-18T00:09:18.361Z",
+   "sourceTitle": "The Hunt The Rajiv Gandhi Assassination Case (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Nagesh Kukunoor"
+   ],
+   "cast": [
+    "Amit Sial",
+    "Bagavathi Perumal",
+    "Sahil Vaid"
+   ]
+  }
  },
  {
   "id": "the-royals-2025",
@@ -313960,7 +314248,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:00.881Z"
+  "updatedAt": "2026-10-09T01:58:00.881Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-royals-2025-movie/",
+   "fetchedAt": "2026-10-18T00:09:27.801Z",
+   "sourceTitle": "The Royals (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Priyanka Ghose"
+   ],
+   "cast": [
+    "Mohit Verma",
+    "Ishaan Khatter",
+    "Bhumi Pednekar"
+   ]
+  }
  },
  {
   "id": "the-legend-of-hanuman-2025",
@@ -314091,7 +314394,16 @@
    }
   ],
   "updatedAt": "2026-10-09T06:40:48.081Z",
-  "tmdbType": "tv"
+  "tmdbType": "tv",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-legend-of-hanuman-2025-movie/",
+   "fetchedAt": "2026-10-18T00:09:40.153Z",
+   "sourceTitle": "The Legend of Hanuman (2025) Tamil Movie",
+   "sourceYear": 2025,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "touch-me-not-2025",
@@ -314206,7 +314518,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:01.397Z"
+  "updatedAt": "2026-10-09T01:58:01.397Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/touch-me-not-2025-movie/",
+   "fetchedAt": "2026-10-18T00:09:50.851Z",
+   "sourceTitle": "Touch Me Not (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Ramana Teja"
+   ],
+   "cast": [
+    "Prithviraj",
+    "Pramodini",
+    "Komalee Prasad"
+   ]
+  }
  },
  {
   "id": "the-mystery-of-moksha-island-2024",
@@ -314246,7 +314573,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:01.733Z"
+  "updatedAt": "2026-10-09T01:58:01.733Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-mystery-of-moksha-island-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:10:09.762Z",
+   "sourceTitle": "The Mystery of Moksha Island (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Anish Kuruvilla"
+   ],
+   "cast": [
+    "Tejaswi Madivada",
+    "Nandu Vijay Krishna",
+    "Pavani Reddy"
+   ]
+  }
  },
  {
   "id": "thalaivettiyaan-paalayam-2024",
@@ -314391,7 +314733,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:02.045Z"
+  "updatedAt": "2026-10-09T01:58:02.045Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/thalaivettiyaan-paalayam-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:10:16.073Z",
+   "sourceTitle": "Thalaivettiyaan Paalayam (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Naga"
+   ],
+   "cast": [
+    "Abishek Kumar",
+    "Chetan",
+    "Devadarshini Chetan"
+   ]
+  }
  },
  {
   "id": "tribhuvan-mishra-ca-topper-2024",
@@ -314551,7 +314908,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:02.339Z"
+  "updatedAt": "2026-10-09T01:58:02.339Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/tribhuvan-mishra-ca-topper-2024-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:10:27.044Z",
+   "sourceTitle": "Tribhuvan Mishra CA Topper (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Puneet Krishna"
+   ],
+   "cast": [
+    "Manav Kaul",
+    "Tillotama Shome",
+    "Subhrajyoti Barat"
+   ]
+  }
  },
  {
   "id": "tooth-pari-when-love-bites-2023",
@@ -314696,7 +315068,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:02.644Z"
+  "updatedAt": "2026-10-09T01:58:02.644Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/tooth-pari-when-love-bites-2023-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:10:47.955Z",
+   "sourceTitle": "Tooth Pari When Love Bites (2023)",
+   "sourceYear": 2023,
+   "directors": [
+    "Pratim D. Gupta"
+   ],
+   "cast": [
+    "Sikandar Kher",
+    "Tillotama Shome",
+    "Saswata Chatterjee"
+   ]
+  }
  },
  {
   "id": "taaza-khabar-2023",
@@ -314811,7 +315198,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-09T01:58:02.946Z"
+  "updatedAt": "2026-10-09T01:58:02.946Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/taaza-khabar-2023-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:11:23.328Z",
+   "sourceTitle": "Taaza Khabar (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "uppu-puli-kaaram-2024",
@@ -316227,6 +316623,9 @@
   "title": "Taj Divided by Blood",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/taj-divided-by-blood-2023-tamil-movie/",
   "embeds": [
    {
@@ -316392,11 +316791,17 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-11T08:07:47.878Z",
   "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-11T08:07:47.878Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/taj-divided-by-blood-2023-tamil-movie/",
+   "fetchedAt": "2026-10-18T00:10:59.117Z",
+   "sourceTitle": "Taj Divided by Blood (2023) Tamil Movie",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "reporting-live-2026",
