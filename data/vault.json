@@ -319684,5 +319684,72 @@
   "tmdbType": "tv",
   "originalLanguage": "ja",
   "updatedAt": "2026-10-20T00:29:29.026Z"
+ },
+ {
+  "id": "gravity-2013",
+  "title": "Gravity",
+  "year": 2013,
+  "pageUrl": "https://isaidub.green/movie/gravity-2013-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113429"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113425"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-20T23:59:22.515Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/gravity-2013-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-20T23:59:20.497Z",
+   "sourceTitle": "Gravity (2013) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2013,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
+ },
+ {
+  "id": "street-fighter-2026",
+  "title": "Street Fighter",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/street-fighter-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113421"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113417"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+  "rating": 6.283,
+  "tmdbId": 1153576,
+  "imdbId": "tt27419420",
+  "addedAt": "2026-10-20T23:59:24.380Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/street-fighter-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-20T23:59:22.666Z",
+   "sourceTitle": "Street Fighter (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-20T23:59:34.190Z"
  }
 ]

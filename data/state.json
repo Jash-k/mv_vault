@@ -48073,6 +48073,18 @@
    "embeds": 24,
    "kind": "series",
    "v": 3
+  },
+  "https://isaidub.green/movie/gravity-2013-tamil-dubbed-movie/": {
+   "at": "2026-10-20T23:59:22.526Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/street-fighter-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-20T23:59:24.386Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -48751,7 +48763,8 @@
   "animals-2026": "2026-10-15T22:47:05.508Z",
   "assassins-2020": "2026-10-18T11:28:40.186Z",
   "good-boy-2022": "2026-10-11T19:46:17.114Z",
-  "high-on-kadhal-2024": "2026-10-18T00:43:00.027Z"
+  "high-on-kadhal-2024": "2026-10-18T00:43:00.027Z",
+  "gravity-2013": "2026-10-20T23:59:34.190Z"
  },
  "metadata": {
   "epic-2026": {
@@ -50386,9 +50399,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:09.609Z",
-   "nextRetryAt": "2026-10-20T22:46:09.609Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:47.636Z",
+   "nextRetryAt": "2026-10-21T23:59:47.636Z",
    "requests": 43,
    "notes": [
     {
@@ -51706,9 +51719,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:02.977Z",
-   "nextRetryAt": "2026-10-20T22:46:02.977Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:34.190Z",
+   "nextRetryAt": "2026-10-21T23:59:34.190Z",
    "requests": 3,
    "notes": [
     {
@@ -53807,9 +53820,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:09.609Z",
-   "nextRetryAt": "2026-10-20T22:46:09.609Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:47.636Z",
+   "nextRetryAt": "2026-10-21T23:59:47.636Z",
    "requests": 53,
    "notes": [
     {
@@ -54097,9 +54110,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:09.609Z",
-   "nextRetryAt": "2026-10-20T22:46:09.609Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:40.415Z",
+   "nextRetryAt": "2026-10-21T23:59:40.415Z",
    "requests": 46,
    "notes": [
     {
@@ -54150,9 +54163,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:02.977Z",
-   "nextRetryAt": "2026-10-20T22:46:02.977Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:34.190Z",
+   "nextRetryAt": "2026-10-21T23:59:34.190Z",
    "requests": 50,
    "notes": [
     {
@@ -54848,9 +54861,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:09.609Z",
-   "nextRetryAt": "2026-10-20T22:46:09.609Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:40.415Z",
+   "nextRetryAt": "2026-10-21T23:59:40.415Z",
    "requests": 1,
    "notes": [
     {
@@ -57934,9 +57947,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:02.977Z",
-   "nextRetryAt": "2026-10-20T22:46:02.977Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:40.415Z",
+   "nextRetryAt": "2026-10-21T23:59:40.415Z",
    "requests": 84,
    "notes": [
     {
@@ -58113,9 +58126,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:28.446Z",
-   "nextRetryAt": "2026-10-20T22:46:28.446Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-21T00:00:03.721Z",
+   "nextRetryAt": "2026-10-22T00:00:03.721Z",
    "requests": 92,
    "notes": [
     {
@@ -59002,9 +59015,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:28.446Z",
-   "nextRetryAt": "2026-10-20T22:46:28.446Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:56.367Z",
+   "nextRetryAt": "2026-10-21T23:59:56.367Z",
    "requests": 12,
    "notes": [
     {
@@ -59864,9 +59877,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:02.977Z",
-   "nextRetryAt": "2026-10-20T22:46:02.977Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:40.415Z",
+   "nextRetryAt": "2026-10-21T23:59:40.415Z",
    "requests": 1,
    "notes": [
     {
@@ -60262,9 +60275,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:17.937Z",
-   "nextRetryAt": "2026-10-20T22:46:17.937Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:56.367Z",
+   "nextRetryAt": "2026-10-21T23:59:56.367Z",
    "requests": 90,
    "notes": [
     {
@@ -61099,9 +61112,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:28.446Z",
-   "nextRetryAt": "2026-10-20T22:46:28.446Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-21T00:00:03.721Z",
+   "nextRetryAt": "2026-10-22T00:00:03.721Z",
    "requests": 42,
    "notes": [
     {
@@ -61965,9 +61978,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:17.937Z",
-   "nextRetryAt": "2026-10-20T22:46:17.937Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:56.367Z",
+   "nextRetryAt": "2026-10-21T23:59:56.367Z",
    "requests": 23,
    "notes": [
     {
@@ -62947,9 +62960,9 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:17.937Z",
-   "nextRetryAt": "2026-10-20T22:46:17.937Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:47.636Z",
+   "nextRetryAt": "2026-10-21T23:59:47.636Z",
    "requests": 73,
    "notes": [
     {
@@ -64095,9 +64108,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:17.937Z",
-   "nextRetryAt": "2026-10-20T22:46:17.937Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:47.636Z",
+   "nextRetryAt": "2026-10-21T23:59:47.636Z",
    "requests": 1,
    "notes": [
     {
@@ -73239,9 +73252,9 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 10,
-   "checkedAt": "2026-10-19T22:46:28.446Z",
-   "nextRetryAt": "2026-10-20T22:46:28.446Z",
+   "attempts": 11,
+   "checkedAt": "2026-10-20T23:59:56.367Z",
+   "nextRetryAt": "2026-10-21T23:59:56.367Z",
    "requests": 81,
    "notes": [
     {
@@ -73482,6 +73495,37 @@
    "checkedAt": "2026-10-20T00:29:29.026Z",
    "nextRetryAt": "2026-11-19T00:29:29.026Z",
    "requests": 3
+  },
+  "street-fighter-2026": {
+   "version": 2,
+   "identity": "76ed2aeffaee25ee5746",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-20T23:59:34.190Z",
+   "nextRetryAt": "2026-11-19T23:59:34.190Z",
+   "requests": 6
+  },
+  "gravity-2013": {
+   "version": 2,
+   "identity": "5076132fc27b0926e4e6",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-10-20T23:59:34.190Z",
+   "nextRetryAt": "2026-10-21T05:59:34.190Z",
+   "requests": 25,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
   }
  }
 }
