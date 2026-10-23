@@ -48914,9 +48914,9 @@
    "identity": "d14b86bf419490671954",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 7,
-   "checkedAt": "2026-10-22T19:33:05.029Z",
-   "nextRetryAt": "2026-10-23T19:33:05.029Z",
+   "attempts": 8,
+   "checkedAt": "2026-10-23T19:33:53.866Z",
+   "nextRetryAt": "2026-10-24T19:33:53.866Z",
    "requests": 120,
    "notes": [
     {
@@ -73520,9 +73520,9 @@
    "identity": "1ac7499f2f12e264e43e",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 8,
-   "checkedAt": "2026-10-22T19:33:05.029Z",
-   "nextRetryAt": "2026-10-23T19:33:05.029Z",
+   "attempts": 9,
+   "checkedAt": "2026-10-23T19:33:53.865Z",
+   "nextRetryAt": "2026-10-24T19:33:53.865Z",
    "requests": 1,
    "notes": [
     {
