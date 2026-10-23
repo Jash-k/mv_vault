@@ -11289,10 +11289,13 @@
    "embeds": 3
   },
   "https://moviesda34.com/police-police-2025-tamil-movie/": {
-   "at": "2026-10-23T11:40:22.888Z",
-   "embeds": 100,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-23T17:23:50.758Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-23T18:53:50.758Z",
+   "lastError": "The operation was aborted due to timeout (https://moviesda34.com/police-police-2025-tamil-movie/)"
   },
   "https://moviesda34.com/paradha-2025-movie/": {
    "at": "2026-09-28T04:11:59.370Z",
@@ -18863,16 +18866,18 @@
    "v": 3
   },
   "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/": {
-   "at": "2026-10-23T11:39:29.076Z",
-   "embeds": 120,
+   "at": "2026-10-23T17:19:52.880Z",
+   "embeds": 116,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/": {
-   "at": "2026-10-23T11:41:18.301Z",
-   "embeds": 50,
+   "at": "2026-10-23T17:28:07.479Z",
+   "embeds": 30,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/matsya-kaand-2021-tamil-web-series/": {
    "at": "2026-10-23T11:49:48.999Z",
@@ -18933,10 +18938,13 @@
    "v": 3
   },
   "https://moviesda34.com/bigg-boss-2026-tamil-web-series/": {
-   "at": "2026-10-23T11:40:49.831Z",
-   "embeds": 46,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-23T17:31:14.421Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-23T19:01:14.421Z",
+   "lastError": "series walk paused by budget; retry required"
   },
   "https://moviesda34.com/resort-2026-tamil-web-series/": {
    "at": "2026-10-23T11:58:51.716Z",
@@ -48152,16 +48160,20 @@
    "v": 3
   },
   "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/": {
-   "at": "2026-10-23T11:38:15.791Z",
-   "embeds": 16,
+   "at": "2026-10-23T17:22:17.115Z",
+   "embeds": 8,
    "kind": "series",
-   "v": 3
+   "v": 3,
+   "incomplete": true
   },
   "https://moviesda34.com/sattamum-needhiyum-2026-tamil-web-series/": {
-   "at": "2026-10-23T11:38:26.562Z",
-   "embeds": 12,
-   "kind": "series",
-   "v": 3
+   "at": "2026-10-23T17:23:03.854Z",
+   "empty": true,
+   "v": 3,
+   "retries": 0,
+   "failures": 1,
+   "retryAfter": "2026-10-23T18:53:03.854Z",
+   "lastError": "The operation was aborted due to timeout (https://moviesda34.com/sattamum-needhiyum-2026-tamil-web-series/)"
   }
  },
  "movies": {},

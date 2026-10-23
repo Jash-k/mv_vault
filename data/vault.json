@@ -103315,7 +103315,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-23T11:38:28.085Z",
+   "fetchedAt": "2026-10-23T17:10:15.775Z",
    "sourceTitle": "LBW Love Beyond Wicket (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -104106,7 +104106,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/",
-   "fetchedAt": "2026-10-23T11:40:51.523Z",
+   "fetchedAt": "2026-10-23T17:24:03.039Z",
    "sourceTitle": "Dhoolpet Police Station (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -320693,6 +320693,9 @@
   "title": "The Legend of Hanuman",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/",
   "embeds": [
    {
@@ -320908,20 +320911,17 @@
     ]
    }
   ],
+  "updatedAt": "2026-10-23T12:02:42.112Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/",
-   "fetchedAt": "2026-10-23T11:38:03.559Z",
+   "fetchedAt": "2026-10-23T17:20:02.328Z",
    "sourceTitle": "The Legend of Hanuman (2026) Tamil Web Series Download Moviesda",
    "sourceYear": 2026,
    "directors": [],
    "cast": []
   },
-  "tmdbType": "tv",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
-  "updatedAt": "2026-10-23T12:02:42.112Z"
+  "tmdbType": "tv"
  },
  {
   "id": "sattamum-needhiyum-2026",
