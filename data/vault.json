@@ -320608,5 +320608,75 @@
   "category": "tamil-dubbed-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-10-22T21:48:24.581Z"
+ },
+ {
+  "id": "the-invite-2026",
+  "title": "The Invite",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/the-invite-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113481"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113485"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+  "rating": 7.208,
+  "tmdbId": 950028,
+  "imdbId": "tt14173636",
+  "addedAt": "2026-10-23T00:02:53.930Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-invite-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-23T00:02:51.333Z",
+   "sourceTitle": "The Invite (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-23T00:03:07.980Z"
+ },
+ {
+  "id": "legend-of-the-white-dragon-2026",
+  "title": "Legend of the White Dragon",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/legend-of-the-white-dragon-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113473"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113477"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/k0L5ZQP4PjdNziVGvcOeaihXyCc.jpg",
+  "rating": 6.8,
+  "tmdbId": 843352,
+  "imdbId": "tt12446086",
+  "addedAt": "2026-10-23T00:02:56.023Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/legend-of-the-white-dragon-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-23T00:02:54.114Z",
+   "sourceTitle": "Legend of the White Dragon (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-23T00:03:07.980Z"
  }
 ]
