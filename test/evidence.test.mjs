@@ -4,7 +4,7 @@ process.env.TMDB_KEYS='fixture-key';process.env.TRIES='1';
 const {sourceEvidence,enrichRecord}=await import('../src/metadata-evidence.mjs');
 test('source parser extracts credits, never treats Tamil dub language as original',async()=>{
  globalThis.fetch=async()=>new Response('<li><strong>Movie:</strong><span>Example (2026)</span></li><li><strong>Director:</strong><span>Director One</span></li><li><strong>Starring:</strong><span>Actor One, Actor Two</span></li><li><strong>Language:</strong><span>Tamil</span></li>');
- const e=await sourceEvidence({pageUrl:'https://moviesda34.com/example-tamil-movie/'});assert.equal(e.sourceYear,2026);assert.equal(e.sourceUrl,'https://moviezda.net/example-tamil-movie/');assert.deepEqual(e.cast,['Actor One','Actor Two']);assert.equal(e.originalLanguage,undefined);
+ const e=await sourceEvidence({pageUrl:'https://moviesda34.com/example-tamil-movie/'});assert.equal(e.sourceYear,2026);assert.equal(e.sourceUrl,'https://moviesda.ski/example-tamil-movie/');assert.deepEqual(e.cast,['Actor One','Actor Two']);assert.equal(e.originalLanguage,undefined);
 });
 test('inaccessible source cross-check returns unavailable instead of accepting a candidate',async()=>{
  globalThis.fetch=async url=>{

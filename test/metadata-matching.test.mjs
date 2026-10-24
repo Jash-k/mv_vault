@@ -4,7 +4,7 @@ process.env.TMDB_KEYS = 'fixture-key'; process.env.TRIES = '1';
 const { enrichRecordDetailed, sourceEvidence } = await import('../src/metadata-evidence.mjs');
 const { creditEvidence, titleSimilarity } = await import('../src/tmdb.mjs');
 const credits = { cast: [{ id: 10, name: 'Actor One' }, { id: 11, name: 'Actor Two' }], crew: [] };
-const evidence = { available: true, sourceUrl: 'https://moviezda.net/sample/', sourceTitle: 'Sample',
+const evidence = { available: true, sourceUrl: 'https://moviesda.ski/sample/', sourceTitle: 'Sample',
   sourceYear: 2026, fetchedAt: new Date().toISOString(), cast: ['Actor One', 'Actor Two'], directors: [] };
 function mock(details, { truncated = false, noCast = false, distinctive = true } = {}) {
   const calls = [];

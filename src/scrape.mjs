@@ -25,15 +25,15 @@
  * Quality policy (unchanged, user-locked): keep 1080p + 720p; fall back to
  * 360p/other rips ONLY when a film has neither.
  *
- * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviezda.net)
- * redirects to moviezda.net today, so that is the host we FETCH. What we STORE
+ * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviesda.ski)
+ * redirects to moviesda.ski today, so that is the host we FETCH. What we STORE
  * in pageUrl/state stays on moviesda34.com so existing data and keys never fork.
  */
 import * as cheerio from 'cheerio';
 import { parseSourceMetadata } from './source-metadata.mjs';
 
 /** The host every domain redirects to today. Change this one line if it moves. */
-export const LIVE = 'https://moviezda.net';
+export const LIVE = 'https://moviesda.ski';
 /** Canonical origin used inside pageUrl + state.json keys. Never rewritten. */
 export const CANON = 'https://moviesda34.com';
 /** Poster files live on the fetch host. */

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 process.env.DELAY_MS='0';process.env.TRIES='1';
 const {walkSeries}=await import('../src/scrape.mjs');
 const {upsert,applyMetadata}=await import('../src/vault.mjs');
-const base='https://moviezda.net';
+const base='https://moviesda.ski';
 const ep=(n,s=10)=>`<a href="/download/show-season-${s}-epi-${n}/">Episode ${n}</a>`;
 const page=(p)=>`<a href="?page=${p}">${p}</a>`;
 function mock(routes, fail=new Set()){
