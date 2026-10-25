@@ -48884,7 +48884,7 @@
   "good-boy-2022": "2026-10-11T19:46:17.114Z",
   "gravity-2013": "2026-10-22T08:56:44.016Z",
   "celebrity-master-chef-2026": "2026-10-22T21:48:24.581Z",
-  "lupin-2026": "2026-10-24T08:26:10.059Z"
+  "lupin-2026": "2026-10-25T08:45:26.759Z"
  },
  "metadata": {
   "epic-2026": {
@@ -50519,9 +50519,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:26:07.330Z",
-   "nextRetryAt": "2026-10-25T08:26:07.330Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:23.945Z",
+   "nextRetryAt": "2026-10-26T08:45:23.945Z",
    "requests": 43,
    "notes": [
     {
@@ -51839,9 +51839,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:32.027Z",
-   "nextRetryAt": "2026-10-25T08:25:32.027Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:44:48.445Z",
+   "nextRetryAt": "2026-10-26T08:44:48.445Z",
    "requests": 3,
    "notes": [
     {
@@ -53936,9 +53936,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:53.202Z",
-   "nextRetryAt": "2026-10-25T08:25:53.202Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:10.921Z",
+   "nextRetryAt": "2026-10-26T08:45:10.921Z",
    "requests": 53,
    "notes": [
     {
@@ -54226,9 +54226,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:43.380Z",
-   "nextRetryAt": "2026-10-25T08:25:43.380Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:00.290Z",
+   "nextRetryAt": "2026-10-26T08:45:00.290Z",
    "requests": 46,
    "notes": [
     {
@@ -54279,9 +54279,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:32.027Z",
-   "nextRetryAt": "2026-10-25T08:25:32.027Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:44:48.445Z",
+   "nextRetryAt": "2026-10-26T08:44:48.445Z",
    "requests": 51,
    "notes": [
     {
@@ -54977,9 +54977,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:53.202Z",
-   "nextRetryAt": "2026-10-25T08:25:53.202Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:10.921Z",
+   "nextRetryAt": "2026-10-26T08:45:10.921Z",
    "requests": 1,
    "notes": [
     {
@@ -58063,9 +58063,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:43.380Z",
-   "nextRetryAt": "2026-10-25T08:25:43.380Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:00.290Z",
+   "nextRetryAt": "2026-10-26T08:45:00.290Z",
    "requests": 84,
    "notes": [
     {
@@ -58242,9 +58242,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:26:07.330Z",
-   "nextRetryAt": "2026-10-25T08:26:07.330Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:23.945Z",
+   "nextRetryAt": "2026-10-26T08:45:23.945Z",
    "requests": 92,
    "notes": [
     {
@@ -59131,9 +59131,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:53.202Z",
-   "nextRetryAt": "2026-10-25T08:25:53.202Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:10.921Z",
+   "nextRetryAt": "2026-10-26T08:45:10.921Z",
    "requests": 12,
    "notes": [
     {
@@ -59993,9 +59993,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:32.027Z",
-   "nextRetryAt": "2026-10-25T08:25:32.027Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:44:48.445Z",
+   "nextRetryAt": "2026-10-26T08:44:48.445Z",
    "requests": 1,
    "notes": [
     {
@@ -60391,9 +60391,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:53.202Z",
-   "nextRetryAt": "2026-10-25T08:25:53.202Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:10.920Z",
+   "nextRetryAt": "2026-10-26T08:45:10.920Z",
    "requests": 88,
    "notes": [
     {
@@ -61228,9 +61228,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:26:07.330Z",
-   "nextRetryAt": "2026-10-25T08:26:07.330Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:23.945Z",
+   "nextRetryAt": "2026-10-26T08:45:23.945Z",
    "requests": 42,
    "notes": [
     {
@@ -62094,9 +62094,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:43.380Z",
-   "nextRetryAt": "2026-10-25T08:25:43.380Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:00.290Z",
+   "nextRetryAt": "2026-10-26T08:45:00.290Z",
    "requests": 23,
    "notes": [
     {
@@ -63076,10 +63076,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:43.380Z",
-   "nextRetryAt": "2026-10-25T08:25:43.380Z",
-   "requests": 72,
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:00.290Z",
+   "nextRetryAt": "2026-10-26T08:45:00.290Z",
+   "requests": 73,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64224,9 +64224,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:25:32.027Z",
-   "nextRetryAt": "2026-10-25T08:25:32.027Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:44:48.445Z",
+   "nextRetryAt": "2026-10-26T08:44:48.445Z",
    "requests": 1,
    "notes": [
     {
@@ -73354,9 +73354,9 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 14,
-   "checkedAt": "2026-10-24T08:26:07.330Z",
-   "nextRetryAt": "2026-10-25T08:26:07.330Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-25T08:45:23.944Z",
+   "nextRetryAt": "2026-10-26T08:45:23.944Z",
    "requests": 81,
    "notes": [
     {
@@ -73781,9 +73781,9 @@
    "identity": "b86459616d658b4e46bb",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 2,
-   "checkedAt": "2026-10-24T08:26:10.059Z",
-   "nextRetryAt": "2026-10-25T08:26:10.059Z",
+   "attempts": 3,
+   "checkedAt": "2026-10-25T08:45:26.759Z",
+   "nextRetryAt": "2026-10-28T08:45:26.759Z",
    "requests": 27,
    "notes": [
     {
