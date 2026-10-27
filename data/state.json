@@ -48937,7 +48937,7 @@
   "celebrity-master-chef-2026": "2026-10-27T05:28:08.286Z",
   "lupin-2026": "2026-10-25T08:45:26.759Z",
   "hope-2026": "2026-10-26T09:23:57.155Z",
-  "blue-box-2026": "2026-10-27T00:39:45.052Z"
+  "blue-box-2026": "2026-10-27T09:22:06.261Z"
  },
  "metadata": {
   "epic-2026": {
@@ -73993,9 +73993,9 @@
    "identity": "158316abbac34202e184",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-10-27T00:39:45.052Z",
-   "nextRetryAt": "2026-10-27T06:39:45.052Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-27T09:22:06.261Z",
+   "nextRetryAt": "2026-10-28T09:22:06.261Z",
    "requests": 4,
    "notes": [
     {
