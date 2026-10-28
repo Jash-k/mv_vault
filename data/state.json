@@ -48255,6 +48255,12 @@
    "embeds": 4,
    "kind": "movie",
    "v": 3
+  },
+  "https://isaidub.green/movie/verity-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-28T00:36:17.998Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -74012,6 +74018,16 @@
    "attempts": 1,
    "checkedAt": "2026-10-27T22:31:33.872Z",
    "nextRetryAt": "2026-11-26T22:31:33.872Z",
+   "requests": 3
+  },
+  "verity-2026": {
+   "version": 2,
+   "identity": "68b13a3bc43dacffe6ad",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-28T00:36:26.756Z",
+   "nextRetryAt": "2026-11-27T00:36:26.756Z",
    "requests": 3
   }
  }
