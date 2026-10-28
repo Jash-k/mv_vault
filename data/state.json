@@ -13611,7 +13611,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/": {
-   "at": "2026-10-27T23:13:59.927Z",
+   "at": "2026-10-28T23:36:12.901Z",
    "embeds": 8,
    "kind": "series",
    "v": 3,
@@ -49009,9 +49009,9 @@
    "identity": "d14b86bf419490671954",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 12,
-   "checkedAt": "2026-10-27T23:14:36.486Z",
-   "nextRetryAt": "2026-10-28T23:14:36.486Z",
+   "attempts": 13,
+   "checkedAt": "2026-10-28T23:37:19.534Z",
+   "nextRetryAt": "2026-10-29T23:37:19.534Z",
    "requests": 120,
    "notes": [
     {
@@ -73601,9 +73601,9 @@
    "identity": "1ac7499f2f12e264e43e",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 13,
-   "checkedAt": "2026-10-27T23:14:36.486Z",
-   "nextRetryAt": "2026-10-28T23:14:36.486Z",
+   "attempts": 14,
+   "checkedAt": "2026-10-28T23:37:19.534Z",
+   "nextRetryAt": "2026-10-29T23:37:19.534Z",
    "requests": 1,
    "notes": [
     {
