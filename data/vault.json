@@ -324554,5 +324554,374 @@
    ]
   },
   "tmdbType": "tv"
+ },
+ {
+  "id": "dead-end-job-2026",
+  "title": "Dead End Job",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/dead-end-job-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113659",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113668",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113660",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113669",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113661",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113670",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113662",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113671",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113663",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113672",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113664",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113673",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113665",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113674",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113666",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113675",
+    "season": 1,
+    "episode": 8
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/vrDDqk9PAkIs0PQAbW5G0yhPVS3.jpg",
+  "rating": 8.2,
+  "tmdbId": 289517,
+  "imdbId": "tt36458668",
+  "addedAt": "2026-10-31T00:54:42.288Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113659"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113668"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113660"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113669"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113661"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113670"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113662"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113671"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113663"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113672"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113664"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113673"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113665"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113674"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113666"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113675"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/dead-end-job-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-10-31T00:54:39.080Z",
+   "sourceTitle": "Dead End Job (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "tmdbType": "tv",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-10-31T00:55:09.294Z"
+ },
+ {
+  "id": "the-birthday-gift-2026",
+  "title": "The Birthday Gift",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/the-birthday-gift-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113651"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113655"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-31T00:54:44.456Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-birthday-gift-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-31T00:54:42.471Z",
+   "sourceTitle": "The Birthday Gift (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
+ },
+ {
+  "id": "collision-course-2026",
+  "title": "Collision Course",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/collision-course-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113643"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113647"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-10-31T00:54:46.613Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/collision-course-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-31T00:54:44.670Z",
+   "sourceTitle": "Collision Course (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
+ },
+ {
+  "id": "the-strangers-chapter-3-2026",
+  "title": "The Strangers Chapter 3",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/the-strangers-chapter-3-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113635"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113631"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/dWi4D1rUX1Pg4MaafpwwssqJ9lv.jpg",
+  "rating": 5.996,
+  "tmdbId": 1010755,
+  "imdbId": "tt28682323",
+  "addedAt": "2026-10-31T00:54:48.668Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-strangers-chapter-3-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-31T00:54:46.785Z",
+   "sourceTitle": "The Strangers Chapter 3 (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-10-31T00:54:59.050Z"
+ },
+ {
+  "id": "apocalypse-z-new-world-2026",
+  "title": "Apocalypse Z New World",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/apocalypse-z-new-world-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113639"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113637"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/plu8tTviVZDO5jP7nzNXsDHLu8P.jpg",
+  "rating": 6.9,
+  "tmdbId": 1507696,
+  "imdbId": "tt37522541",
+  "addedAt": "2026-10-31T00:54:50.702Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/apocalypse-z-new-world-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-10-31T00:54:48.840Z",
+   "sourceTitle": "Apocalypse Z New World (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "es",
+  "updatedAt": "2026-10-31T00:54:59.050Z"
  }
 ]

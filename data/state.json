@@ -48294,6 +48294,36 @@
    "embeds": 10,
    "kind": "series",
    "v": 3
+  },
+  "https://isaidub.green/movie/dead-end-job-2026-tamil-dubbed-web-series/": {
+   "at": "2026-10-31T00:54:42.302Z",
+   "embeds": 16,
+   "kind": "series",
+   "v": 3
+  },
+  "https://isaidub.green/movie/the-birthday-gift-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-31T00:54:44.468Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/collision-course-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-31T00:54:46.622Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/the-strangers-chapter-3-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-31T00:54:48.677Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/apocalypse-z-new-world-2026-tamil-dubbed-movie/": {
+   "at": "2026-10-31T00:54:50.712Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -48976,7 +49006,9 @@
   "celebrity-master-chef-2026": "2026-10-28T13:18:27.879Z",
   "lupin-2026": "2026-10-28T10:02:57.444Z",
   "hope-2026": "2026-10-30T13:19:42.342Z",
-  "blue-box-2026": "2026-10-28T10:02:57.444Z"
+  "blue-box-2026": "2026-10-28T10:02:57.444Z",
+  "collision-course-2026": "2026-10-31T00:54:59.051Z",
+  "the-birthday-gift-2026": "2026-10-31T00:55:09.294Z"
  },
  "metadata": {
   "epic-2026": {
@@ -49036,9 +49068,9 @@
    "identity": "d14b86bf419490671954",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 14,
-   "checkedAt": "2026-10-29T23:39:01.456Z",
-   "nextRetryAt": "2026-10-30T23:39:01.456Z",
+   "attempts": 15,
+   "checkedAt": "2026-10-31T00:55:09.294Z",
+   "nextRetryAt": "2026-11-01T00:55:09.294Z",
    "requests": 120,
    "notes": [
     {
@@ -73628,9 +73660,9 @@
    "identity": "1ac7499f2f12e264e43e",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 15,
-   "checkedAt": "2026-10-29T23:39:01.456Z",
-   "nextRetryAt": "2026-10-30T23:39:01.456Z",
+   "attempts": 16,
+   "checkedAt": "2026-10-31T00:54:59.051Z",
+   "nextRetryAt": "2026-11-01T00:54:59.051Z",
    "requests": 1,
    "notes": [
     {
@@ -74102,6 +74134,78 @@
    "checkedAt": "2026-10-30T13:19:42.342Z",
    "nextRetryAt": "2026-11-29T13:19:42.342Z",
    "requests": 13
+  },
+  "apocalypse-z-new-world-2026": {
+   "version": 2,
+   "identity": "7740d4f12e5b1d2b3ba1",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-31T00:54:59.050Z",
+   "nextRetryAt": "2026-11-30T00:54:59.050Z",
+   "requests": 3
+  },
+  "the-strangers-chapter-3-2026": {
+   "version": 2,
+   "identity": "f1c6bc6275857588a71a",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-31T00:54:59.050Z",
+   "nextRetryAt": "2026-11-30T00:54:59.050Z",
+   "requests": 3
+  },
+  "collision-course-2026": {
+   "version": 2,
+   "identity": "1642cb7dd7f3a399e628",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-10-31T00:54:59.051Z",
+   "nextRetryAt": "2026-10-31T06:54:59.051Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "the-birthday-gift-2026": {
+   "version": 2,
+   "identity": "3dc4edefbe1ddddf9924",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-10-31T00:55:09.294Z",
+   "nextRetryAt": "2026-10-31T06:55:09.294Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "dead-end-job-2026": {
+   "version": 2,
+   "identity": "fea789c39ae045476848",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-10-31T00:55:09.294Z",
+   "nextRetryAt": "2026-11-30T00:55:09.294Z",
+   "requests": 3
   }
  }
 }
