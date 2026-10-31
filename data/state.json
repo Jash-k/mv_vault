@@ -49003,7 +49003,7 @@
   "assassins-2020": "2026-10-18T11:28:40.186Z",
   "good-boy-2022": "2026-10-11T19:46:17.114Z",
   "gravity-2013": "2026-10-25T11:52:03.126Z",
-  "celebrity-master-chef-2026": "2026-10-28T13:18:27.879Z",
+  "celebrity-master-chef-2026": "2026-10-31T19:34:27.456Z",
   "lupin-2026": "2026-10-28T10:02:57.444Z",
   "hope-2026": "2026-10-30T13:19:42.342Z",
   "blue-box-2026": "2026-10-31T12:51:49.865Z",
@@ -73758,9 +73758,9 @@
    "identity": "89cc193b917d65c10153",
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "attempts": 3,
-   "checkedAt": "2026-10-28T13:18:27.879Z",
-   "nextRetryAt": "2026-10-31T13:18:27.879Z",
+   "attempts": 4,
+   "checkedAt": "2026-10-31T19:34:27.456Z",
+   "nextRetryAt": "2026-11-07T19:34:27.456Z",
    "requests": 39,
    "notes": [
     {
