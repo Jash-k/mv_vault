@@ -49010,8 +49010,8 @@
   "lupin-2026": "2026-10-28T10:02:57.444Z",
   "hope-2026": "2026-10-30T13:19:42.342Z",
   "blue-box-2026": "2026-10-28T10:02:57.444Z",
-  "collision-course-2026": "2026-10-31T00:54:59.051Z",
-  "the-birthday-gift-2026": "2026-10-31T00:55:09.294Z"
+  "collision-course-2026": "2026-10-31T09:58:13.513Z",
+  "the-birthday-gift-2026": "2026-10-31T09:58:13.513Z"
  },
  "metadata": {
   "epic-2026": {
@@ -74163,9 +74163,9 @@
    "identity": "1642cb7dd7f3a399e628",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-10-31T00:54:59.051Z",
-   "nextRetryAt": "2026-10-31T06:54:59.051Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-31T09:58:13.513Z",
+   "nextRetryAt": "2026-11-01T09:58:13.513Z",
    "requests": 7,
    "notes": [
     {
@@ -74184,9 +74184,9 @@
    "identity": "3dc4edefbe1ddddf9924",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-10-31T00:55:09.294Z",
-   "nextRetryAt": "2026-10-31T06:55:09.294Z",
+   "attempts": 2,
+   "checkedAt": "2026-10-31T09:58:13.513Z",
+   "nextRetryAt": "2026-11-01T09:58:13.513Z",
    "requests": 6,
    "notes": [
     {
