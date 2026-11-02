@@ -50660,9 +50660,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:27.582Z",
-   "nextRetryAt": "2026-11-02T22:26:27.582Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:58.116Z",
+   "nextRetryAt": "2026-11-03T23:13:58.116Z",
    "requests": 43,
    "notes": [
     {
@@ -51980,9 +51980,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:25:52.291Z",
-   "nextRetryAt": "2026-11-02T22:25:52.291Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:26.905Z",
+   "nextRetryAt": "2026-11-03T23:13:26.905Z",
    "requests": 3,
    "notes": [
     {
@@ -54077,9 +54077,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:14.345Z",
-   "nextRetryAt": "2026-11-02T22:26:14.345Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:47.219Z",
+   "nextRetryAt": "2026-11-03T23:13:47.219Z",
    "requests": 53,
    "notes": [
     {
@@ -54367,9 +54367,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:04.786Z",
-   "nextRetryAt": "2026-11-02T22:26:04.786Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:37.119Z",
+   "nextRetryAt": "2026-11-03T23:13:37.119Z",
    "requests": 46,
    "notes": [
     {
@@ -54420,9 +54420,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:25:52.291Z",
-   "nextRetryAt": "2026-11-02T22:25:52.291Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:26.905Z",
+   "nextRetryAt": "2026-11-03T23:13:26.905Z",
    "requests": 51,
    "notes": [
     {
@@ -55118,9 +55118,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:14.345Z",
-   "nextRetryAt": "2026-11-02T22:26:14.345Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:47.219Z",
+   "nextRetryAt": "2026-11-03T23:13:47.219Z",
    "requests": 1,
    "notes": [
     {
@@ -58204,9 +58204,9 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:04.786Z",
-   "nextRetryAt": "2026-11-02T22:26:04.786Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:37.119Z",
+   "nextRetryAt": "2026-11-03T23:13:37.119Z",
    "requests": 84,
    "notes": [
     {
@@ -58383,9 +58383,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:27.582Z",
-   "nextRetryAt": "2026-11-02T22:26:27.582Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:58.115Z",
+   "nextRetryAt": "2026-11-03T23:13:58.115Z",
    "requests": 93,
    "notes": [
     {
@@ -59272,9 +59272,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:14.345Z",
-   "nextRetryAt": "2026-11-02T22:26:14.345Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:47.219Z",
+   "nextRetryAt": "2026-11-03T23:13:47.219Z",
    "requests": 12,
    "notes": [
     {
@@ -60134,9 +60134,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:25:52.291Z",
-   "nextRetryAt": "2026-11-02T22:25:52.291Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:26.905Z",
+   "nextRetryAt": "2026-11-03T23:13:26.905Z",
    "requests": 1,
    "notes": [
     {
@@ -60532,9 +60532,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:14.345Z",
-   "nextRetryAt": "2026-11-02T22:26:14.345Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:47.219Z",
+   "nextRetryAt": "2026-11-03T23:13:47.219Z",
    "requests": 88,
    "notes": [
     {
@@ -61369,9 +61369,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:27.582Z",
-   "nextRetryAt": "2026-11-02T22:26:27.582Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:58.116Z",
+   "nextRetryAt": "2026-11-03T23:13:58.116Z",
    "requests": 42,
    "notes": [
     {
@@ -62235,9 +62235,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:04.786Z",
-   "nextRetryAt": "2026-11-02T22:26:04.786Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:37.119Z",
+   "nextRetryAt": "2026-11-03T23:13:37.119Z",
    "requests": 23,
    "notes": [
     {
@@ -63217,10 +63217,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:04.786Z",
-   "nextRetryAt": "2026-11-02T22:26:04.786Z",
-   "requests": 73,
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:37.118Z",
+   "nextRetryAt": "2026-11-03T23:13:37.118Z",
+   "requests": 71,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64365,9 +64365,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:25:52.290Z",
-   "nextRetryAt": "2026-11-02T22:25:52.290Z",
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:26.905Z",
+   "nextRetryAt": "2026-11-03T23:13:26.905Z",
    "requests": 1,
    "notes": [
     {
@@ -73495,10 +73495,10 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 22,
-   "checkedAt": "2026-11-01T22:26:27.582Z",
-   "nextRetryAt": "2026-11-02T22:26:27.582Z",
-   "requests": 83,
+   "attempts": 23,
+   "checkedAt": "2026-11-02T23:13:58.115Z",
+   "nextRetryAt": "2026-11-03T23:13:58.115Z",
+   "requests": 84,
    "notes": [
     {
      "reason": "ambiguous-title-year",
