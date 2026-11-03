@@ -4957,11 +4957,10 @@
    "embeds": 1
   },
   "https://moviesda34.com/hush-hush-season-01-2023-tamil-movie/": {
-   "at": "2026-11-01T23:21:58.308Z",
+   "at": "2026-11-03T01:49:34.297Z",
    "embeds": 7,
    "kind": "series",
-   "v": 3,
-   "incomplete": true
+   "v": 3
   },
   "https://moviesda34.com/har-har-mahadev-2022-tamil-movie/": {
    "at": "2026-09-27T19:15:38.928Z",
@@ -6334,11 +6333,10 @@
    "embeds": 3
   },
   "https://moviesda34.com/kankhajura-2025-movie/": {
-   "at": "2026-11-01T23:36:04.624Z",
-   "empty": true,
-   "retries": 1,
-   "v": 3,
-   "incomplete": true
+   "at": "2026-11-03T01:50:05.230Z",
+   "embeds": 8,
+   "kind": "series",
+   "v": 3
   },
   "https://moviesda34.com/kodai-mazhai-1986-movie/": {
    "at": "2026-09-27T20:56:38.817Z",
@@ -9797,13 +9795,10 @@
    "v": 3
   },
   "https://moviesda34.com/manusana-nee-2018-movie/": {
-   "at": "2026-11-02T00:01:13.708Z",
+   "at": "2026-11-03T01:50:50.346Z",
    "empty": true,
-   "v": 3,
-   "retries": 5,
-   "failures": 1,
-   "retryAfter": "2026-11-02T01:31:13.708Z",
-   "lastError": "fetch failed (https://moviesda34.com/manusana-nee-2018-movie/)"
+   "retries": 6,
+   "v": 3
   },
   "https://moviesda34.com/mercury-2018-movie/": {
    "at": "2026-09-27T23:45:47.948Z",
@@ -13616,7 +13611,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/": {
-   "at": "2026-11-02T00:36:24.388Z",
+   "at": "2026-11-03T01:51:57.693Z",
    "embeds": 8,
    "kind": "series",
    "v": 3,
@@ -13995,13 +13990,10 @@
    "embeds": 4
   },
   "https://moviesda34.com/siima-awards-2022-tamil-movie/": {
-   "at": "2026-11-02T00:37:38.422Z",
+   "at": "2026-11-03T01:52:07.801Z",
    "empty": true,
-   "v": 3,
-   "retries": 5,
-   "failures": 1,
-   "retryAfter": "2026-11-02T02:07:38.422Z",
-   "lastError": "fetch failed (https://moviesda34.com/siima-awards-2022-tamil-movie/)"
+   "retries": 6,
+   "v": 3
   },
   "https://moviesda34.com/saakini-daakini-2022-tamil-movie/": {
    "at": "2026-11-02T00:37:45.932Z",
@@ -47914,11 +47906,10 @@
    "v": 3
   },
   "https://moviesda34.com/eyes-2026-tamil-web-series/": {
-   "at": "2026-11-03T01:06:37.453Z",
-   "embeds": 13,
+   "at": "2026-11-03T01:48:56.014Z",
+   "embeds": 14,
    "kind": "series",
-   "v": 3,
-   "incomplete": true
+   "v": 3
   },
   "https://isaidub.green/movie/reporting-live-2026-tamil-dubbed-movie/": {
    "at": "2026-10-10T01:39:23.058Z",
