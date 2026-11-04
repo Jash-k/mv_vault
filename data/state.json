@@ -48390,6 +48390,18 @@
    "embeds": 4,
    "kind": "movie",
    "v": 3
+  },
+  "https://isaidub.green/movie/top-gunner-danger-zone-2022-tamil-dubbed-movie/": {
+   "at": "2026-11-04T01:31:31.204Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://isaidub.green/movie/empire-of-the-sharks-2017-tamil-dubbed-movie/": {
+   "at": "2026-11-04T01:31:33.288Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -49075,7 +49087,8 @@
   "blue-box-2026": "2026-10-31T12:51:49.865Z",
   "collision-course-2026": "2026-11-01T10:49:36.918Z",
   "the-birthday-gift-2026": "2026-11-01T10:49:36.918Z",
-  "cold-call-2026": "2026-11-04T00:16:57.201Z"
+  "cold-call-2026": "2026-11-04T00:16:57.201Z",
+  "empire-of-the-sharks-2017": "2026-11-04T01:31:41.775Z"
  },
  "metadata": {
   "epic-2026": {
@@ -74388,6 +74401,36 @@
    "checkedAt": "2026-11-04T00:16:57.380Z",
    "nextRetryAt": "2026-12-04T00:16:57.380Z",
    "requests": 4
+  },
+  "empire-of-the-sharks-2017": {
+   "version": 2,
+   "identity": "16ee77b25408d3087873",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T01:31:41.775Z",
+   "nextRetryAt": "2026-11-04T07:31:41.775Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "top-gunner-danger-zone-2022": {
+   "version": 2,
+   "identity": "916adcecba33d3a6f5d9",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T01:31:41.775Z",
+   "nextRetryAt": "2026-12-04T01:31:41.775Z",
+   "requests": 3
   }
  }
 }
