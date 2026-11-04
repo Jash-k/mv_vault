@@ -13611,7 +13611,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/": {
-   "at": "2026-11-03T01:51:57.693Z",
+   "at": "2026-11-04T00:15:59.592Z",
    "embeds": 8,
    "kind": "series",
    "v": 3,
@@ -19059,7 +19059,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-10-27T22:30:56.485Z",
+   "at": "2026-11-04T00:13:53.982Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -48336,6 +48336,60 @@
    "embeds": 2,
    "kind": "movie",
    "v": 3
+  },
+  "https://moviesda34.com/anakapalli-2026-tamil-movie/": {
+   "at": "2026-11-04T00:12:03.992Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/avarachan-and-sons-2026-tamil-movie/": {
+   "at": "2026-11-04T00:12:13.732Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/cold-call-2026-tamil-movie/": {
+   "at": "2026-11-04T00:12:45.322Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/comrade-kalyan-2026-tamil-movie/": {
+   "at": "2026-11-04T00:12:55.077Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/dont-trouble-the-trouble-2026-tamil-movie/": {
+   "at": "2026-11-04T00:13:11.730Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/meethe-mein-kya-hai-2026-tamil-movie/": {
+   "at": "2026-11-04T00:14:22.253Z",
+   "embeds": 2,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/sampurna-2022-tamil-movie/": {
+   "at": "2026-11-04T00:15:29.401Z",
+   "embeds": 12,
+   "kind": "series",
+   "v": 3
+  },
+  "https://moviesda34.com/si-yugandhar-2026-tamil-movie/": {
+   "at": "2026-11-04T00:15:38.923Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
+  },
+  "https://moviesda34.com/the-dark-heaven-2026-tamil-movie/": {
+   "at": "2026-11-04T00:16:21.554Z",
+   "embeds": 4,
+   "kind": "movie",
+   "v": 3
   }
  },
  "movies": {},
@@ -49020,7 +49074,8 @@
   "hope-2026": "2026-10-30T13:19:42.342Z",
   "blue-box-2026": "2026-10-31T12:51:49.865Z",
   "collision-course-2026": "2026-11-01T10:49:36.918Z",
-  "the-birthday-gift-2026": "2026-11-01T10:49:36.918Z"
+  "the-birthday-gift-2026": "2026-11-01T10:49:36.918Z",
+  "cold-call-2026": "2026-11-04T00:16:57.201Z"
  },
  "metadata": {
   "epic-2026": {
@@ -74227,6 +74282,111 @@
    "attempts": 1,
    "checkedAt": "2026-11-01T00:16:21.784Z",
    "nextRetryAt": "2026-12-01T00:16:21.784Z",
+   "requests": 4
+  },
+  "the-dark-heaven-2026": {
+   "version": 2,
+   "identity": "ba746473b0e825638caf",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:54.973Z",
+   "nextRetryAt": "2026-12-04T00:16:54.973Z",
+   "requests": 4
+  },
+  "si-yugandhar-2026": {
+   "version": 2,
+   "identity": "b124fb3a51552e956530",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:54.973Z",
+   "nextRetryAt": "2026-12-04T00:16:54.973Z",
+   "requests": 4
+  },
+  "sampurna-2022": {
+   "version": 2,
+   "identity": "36f709be54d6f01830ed",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:54.974Z",
+   "nextRetryAt": "2026-12-04T00:16:54.974Z",
+   "requests": 4
+  },
+  "meethe-mein-kya-hai-2026": {
+   "version": 2,
+   "identity": "f0edb34d5e5c94991b21",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:54.974Z",
+   "nextRetryAt": "2026-12-04T00:16:54.974Z",
+   "requests": 4
+  },
+  "dont-trouble-the-trouble-2026": {
+   "version": 2,
+   "identity": "69a26a96d9225907d600",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:57.201Z",
+   "nextRetryAt": "2026-12-04T00:16:57.201Z",
+   "requests": 4
+  },
+  "comrade-kalyan-2026": {
+   "version": 2,
+   "identity": "da031696ae2d6429169d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:57.201Z",
+   "nextRetryAt": "2026-12-04T00:16:57.201Z",
+   "requests": 4
+  },
+  "cold-call-2026": {
+   "version": 2,
+   "identity": "fd045b7dd7c655f5bfd3",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:57.201Z",
+   "nextRetryAt": "2026-11-04T06:16:57.201Z",
+   "requests": 26,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "avarachan-and-sons-2026": {
+   "version": 2,
+   "identity": "7a387ad5b3729426078c",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:57.202Z",
+   "nextRetryAt": "2026-12-04T00:16:57.202Z",
+   "requests": 4
+  },
+  "anakapalli-2026": {
+   "version": 2,
+   "identity": "295483bd144b6525bbd8",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-04T00:16:57.380Z",
+   "nextRetryAt": "2026-12-04T00:16:57.380Z",
    "requests": 4
   }
  }
