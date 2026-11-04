@@ -49085,13 +49085,13 @@
   "good-boy-2022": "2026-10-11T19:46:17.114Z",
   "gravity-2013": "2026-11-01T13:48:07.354Z",
   "celebrity-master-chef-2026": "2026-10-31T19:34:27.456Z",
-  "lupin-2026": "2026-10-28T10:02:57.444Z",
+  "lupin-2026": "2026-11-04T11:36:49.350Z",
   "hope-2026": "2026-10-30T13:19:42.342Z",
   "blue-box-2026": "2026-10-31T12:51:49.865Z",
-  "collision-course-2026": "2026-11-01T10:49:36.918Z",
-  "the-birthday-gift-2026": "2026-11-01T10:49:36.918Z",
+  "collision-course-2026": "2026-11-04T11:36:49.350Z",
+  "the-birthday-gift-2026": "2026-11-04T11:36:49.350Z",
   "cold-call-2026": "2026-11-04T06:45:05.212Z",
-  "empire-of-the-sharks-2017": "2026-11-04T01:31:41.775Z"
+  "empire-of-the-sharks-2017": "2026-11-04T11:36:49.351Z"
  },
  "metadata": {
   "epic-2026": {
@@ -73992,9 +73992,9 @@
    "identity": "b86459616d658b4e46bb",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 4,
-   "checkedAt": "2026-10-28T10:02:57.444Z",
-   "nextRetryAt": "2026-11-04T10:02:57.444Z",
+   "attempts": 5,
+   "checkedAt": "2026-11-04T11:36:49.350Z",
+   "nextRetryAt": "2026-11-11T11:36:49.350Z",
    "requests": 27,
    "notes": [
     {
@@ -74243,9 +74243,9 @@
    "identity": "1642cb7dd7f3a399e628",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 3,
-   "checkedAt": "2026-11-01T10:49:36.918Z",
-   "nextRetryAt": "2026-11-04T10:49:36.918Z",
+   "attempts": 4,
+   "checkedAt": "2026-11-04T11:36:49.350Z",
+   "nextRetryAt": "2026-11-11T11:36:49.350Z",
    "requests": 7,
    "notes": [
     {
@@ -74264,9 +74264,9 @@
    "identity": "3dc4edefbe1ddddf9924",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 3,
-   "checkedAt": "2026-11-01T10:49:36.918Z",
-   "nextRetryAt": "2026-11-04T10:49:36.918Z",
+   "attempts": 4,
+   "checkedAt": "2026-11-04T11:36:49.350Z",
+   "nextRetryAt": "2026-11-11T11:36:49.350Z",
    "requests": 6,
    "notes": [
     {
@@ -74410,9 +74410,9 @@
    "identity": "16ee77b25408d3087873",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-11-04T01:31:41.775Z",
-   "nextRetryAt": "2026-11-04T07:31:41.775Z",
+   "attempts": 2,
+   "checkedAt": "2026-11-04T11:36:49.351Z",
+   "nextRetryAt": "2026-11-05T11:36:49.351Z",
    "requests": 4,
    "notes": [
     {
