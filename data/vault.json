@@ -232533,7 +232533,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/fifties-professionals-2026-tamil-dubbed-web-series/",
-   "fetchedAt": "2026-10-30T01:12:49.680Z",
+   "fetchedAt": "2026-11-07T01:00:23.253Z",
    "sourceTitle": "Fifties Professionals (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -239589,7 +239589,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/mad-concrete-dreams-2026-tamil-dubbed-web-series/",
-   "fetchedAt": "2026-10-30T01:12:46.434Z",
+   "fetchedAt": "2026-11-07T01:00:19.343Z",
    "sourceTitle": "Mad Concrete Dreams (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -327291,5 +327291,225 @@
    "directors": [],
    "cast": []
   }
+ },
+ {
+  "id": "campus-drivers-2026",
+  "title": "Campus Drivers",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/campus-drivers-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113778",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113785",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113779",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113786",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113780",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113787",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113781",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113788",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113782",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113789",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113783",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113790",
+    "season": 1,
+    "episode": 6
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/oPltcyfWWfVmxB6lV8JZZJV3m7Q.jpg",
+  "rating": 7.4,
+  "tmdbId": 303044,
+  "imdbId": "tt39943756",
+  "addedAt": "2026-11-07T01:00:17.012Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113778"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113785"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113779"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113786"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113780"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113787"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113781"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113788"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113782"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113789"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113783"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113790"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/campus-drivers-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-07T01:00:14.371Z",
+   "sourceTitle": "Campus Drivers (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "tmdbType": "tv",
+  "originalLanguage": "fr",
+  "updatedAt": "2026-11-07T01:00:36.269Z"
+ },
+ {
+  "id": "possible-love-2026",
+  "title": "Possible Love",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/possible-love-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113774"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113770"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg",
+  "rating": 7.294,
+  "tmdbId": 1483525,
+  "imdbId": "tt37803364",
+  "addedAt": "2026-11-07T01:00:19.177Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/possible-love-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-11-07T01:00:17.197Z",
+   "sourceTitle": "Possible Love (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "ko",
+  "updatedAt": "2026-11-07T01:00:36.268Z"
  }
 ]
