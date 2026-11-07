@@ -49129,14 +49129,14 @@
   "assassins-2020": "2026-10-18T11:28:40.186Z",
   "good-boy-2022": "2026-10-11T19:46:17.114Z",
   "gravity-2013": "2026-11-01T13:48:07.354Z",
-  "celebrity-master-chef-2026": "2026-10-31T19:34:27.456Z",
+  "celebrity-master-chef-2026": "2026-11-07T19:39:29.478Z",
   "lupin-2026": "2026-11-04T11:36:49.350Z",
   "hope-2026": "2026-11-06T19:48:49.962Z",
   "blue-box-2026": "2026-11-07T13:23:57.677Z",
   "collision-course-2026": "2026-11-04T11:36:49.350Z",
   "the-birthday-gift-2026": "2026-11-04T11:36:49.350Z",
   "empire-of-the-sharks-2017": "2026-11-05T11:36:54.799Z",
-  "kauriburir-the-cursed-temple-2026": "2026-11-07T13:23:57.676Z"
+  "kauriburir-the-cursed-temple-2026": "2026-11-07T19:39:29.478Z"
  },
  "metadata": {
   "epic-2026": {
@@ -73886,9 +73886,9 @@
    "identity": "89cc193b917d65c10153",
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "attempts": 4,
-   "checkedAt": "2026-10-31T19:34:27.456Z",
-   "nextRetryAt": "2026-11-07T19:34:27.456Z",
+   "attempts": 5,
+   "checkedAt": "2026-11-07T19:39:29.478Z",
+   "nextRetryAt": "2026-11-14T19:39:29.478Z",
    "requests": 39,
    "notes": [
     {
@@ -74541,9 +74541,9 @@
    "identity": "a8310426a6842238310f",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-11-07T13:23:57.676Z",
-   "nextRetryAt": "2026-11-07T19:23:57.676Z",
+   "attempts": 2,
+   "checkedAt": "2026-11-07T19:39:29.478Z",
+   "nextRetryAt": "2026-11-08T19:39:29.478Z",
    "requests": 2,
    "notes": [
     {
