@@ -49139,7 +49139,7 @@
   "collision-course-2026": "2026-11-04T11:36:49.350Z",
   "the-birthday-gift-2026": "2026-11-04T11:36:49.350Z",
   "empire-of-the-sharks-2017": "2026-11-08T13:48:38.539Z",
-  "kauriburir-the-cursed-temple-2026": "2026-11-07T19:39:29.478Z"
+  "kauriburir-the-cursed-temple-2026": "2026-11-08T19:59:11.890Z"
  },
  "metadata": {
   "epic-2026": {
@@ -74544,9 +74544,9 @@
    "identity": "a8310426a6842238310f",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 2,
-   "checkedAt": "2026-11-07T19:39:29.478Z",
-   "nextRetryAt": "2026-11-08T19:39:29.478Z",
+   "attempts": 3,
+   "checkedAt": "2026-11-08T19:59:11.890Z",
+   "nextRetryAt": "2026-11-11T19:59:11.890Z",
    "requests": 2,
    "notes": [
     {
