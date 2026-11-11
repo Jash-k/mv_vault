@@ -13611,7 +13611,7 @@
    "embeds": 3
   },
   "https://moviesda34.com/suzhal-2-the-vortex-2025-movie/": {
-   "at": "2026-11-10T03:21:22.867Z",
+   "at": "2026-11-11T00:17:39.087Z",
    "embeds": 8,
    "kind": "series",
    "v": 3,
@@ -19050,7 +19050,7 @@
    "v": 3
   },
   "https://moviesda34.com/kohrra-2023-tamil-web-series/": {
-   "at": "2026-11-04T00:13:53.982Z",
+   "at": "2026-11-11T00:16:05.374Z",
    "embeds": 6,
    "kind": "series",
    "v": 3
@@ -48368,7 +48368,7 @@
    "v": 3
   },
   "https://moviesda34.com/sampurna-2022-tamil-movie/": {
-   "at": "2026-11-04T00:15:29.401Z",
+   "at": "2026-11-11T00:17:21.126Z",
    "embeds": 12,
    "kind": "series",
    "v": 3
@@ -49210,9 +49210,9 @@
    "identity": "d14b86bf419490671954",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 24,
-   "checkedAt": "2026-11-09T22:45:38.158Z",
-   "nextRetryAt": "2026-11-10T22:45:38.158Z",
+   "attempts": 25,
+   "checkedAt": "2026-11-11T00:18:24.500Z",
+   "nextRetryAt": "2026-11-12T00:18:24.500Z",
    "requests": 120,
    "notes": [
     {
@@ -73812,9 +73812,9 @@
    "identity": "1ac7499f2f12e264e43e",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 25,
-   "checkedAt": "2026-11-09T22:45:38.158Z",
-   "nextRetryAt": "2026-11-10T22:45:38.158Z",
+   "attempts": 26,
+   "checkedAt": "2026-11-11T00:18:24.500Z",
+   "nextRetryAt": "2026-11-12T00:18:24.500Z",
    "requests": 1,
    "notes": [
     {
