@@ -49157,9 +49157,9 @@
   "collision-course-2026": "2026-11-11T14:55:15.320Z",
   "the-birthday-gift-2026": "2026-11-11T14:55:15.320Z",
   "empire-of-the-sharks-2017": "2026-11-08T13:48:38.539Z",
-  "kauriburir-the-cursed-temple-2026": "2026-11-08T19:59:11.890Z",
+  "kauriburir-the-cursed-temple-2026": "2026-11-11T22:18:45.274Z",
   "sniff-2025": "2026-11-11T14:55:15.320Z",
-  "vadhandhi-the-mystery-of-mani-2026": "2026-11-10T20:08:33.753Z"
+  "vadhandhi-the-mystery-of-mani-2026": "2026-11-11T22:18:45.275Z"
  },
  "metadata": {
   "epic-2026": {
@@ -50794,9 +50794,9 @@
    "identity": "9ae5724fa3646eba1626",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:28.644Z",
-   "nextRetryAt": "2026-11-11T20:08:28.644Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:13.103Z",
+   "nextRetryAt": "2026-11-12T22:19:13.103Z",
    "requests": 43,
    "notes": [
     {
@@ -52114,9 +52114,9 @@
    "identity": "07adfa317b715909766d",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:03.485Z",
-   "nextRetryAt": "2026-11-11T20:08:03.485Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:49.814Z",
+   "nextRetryAt": "2026-11-12T22:18:49.814Z",
    "requests": 3,
    "notes": [
     {
@@ -54211,9 +54211,9 @@
    "identity": "c0c4ef077b1cff140cad",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:28.644Z",
-   "nextRetryAt": "2026-11-11T20:08:28.644Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:08.641Z",
+   "nextRetryAt": "2026-11-12T22:19:08.641Z",
    "requests": 53,
    "notes": [
     {
@@ -54501,9 +54501,9 @@
    "identity": "9e3f716b79db41782d0e",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:24.198Z",
-   "nextRetryAt": "2026-11-11T20:08:24.198Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:08.641Z",
+   "nextRetryAt": "2026-11-12T22:19:08.641Z",
    "requests": 46,
    "notes": [
     {
@@ -54554,9 +54554,9 @@
    "identity": "b4cbda3499442f1307ae",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:07.521Z",
-   "nextRetryAt": "2026-11-11T20:08:07.521Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:49.814Z",
+   "nextRetryAt": "2026-11-12T22:18:49.814Z",
    "requests": 51,
    "notes": [
     {
@@ -55246,9 +55246,9 @@
    "identity": "677ab86ce7926f32cb04",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:28.644Z",
-   "nextRetryAt": "2026-11-11T20:08:28.644Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:08.641Z",
+   "nextRetryAt": "2026-11-12T22:19:08.641Z",
    "requests": 1,
    "notes": [
     {
@@ -58332,10 +58332,10 @@
    "identity": "960ee73e30ace3bf655b",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:14.567Z",
-   "nextRetryAt": "2026-11-11T20:08:14.567Z",
-   "requests": 83,
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:00.364Z",
+   "nextRetryAt": "2026-11-12T22:19:00.364Z",
+   "requests": 84,
    "notes": [
     {
      "reason": "no-title-year-match",
@@ -58511,9 +58511,9 @@
    "identity": "ce629471ace98c4ccc64",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:24.198Z",
-   "nextRetryAt": "2026-11-11T20:08:24.198Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:08.641Z",
+   "nextRetryAt": "2026-11-12T22:19:08.641Z",
    "requests": 93,
    "notes": [
     {
@@ -59400,9 +59400,9 @@
    "identity": "9c898ecead6feae1d6fd",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:14.567Z",
-   "nextRetryAt": "2026-11-11T20:08:14.567Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:00.364Z",
+   "nextRetryAt": "2026-11-12T22:19:00.364Z",
    "requests": 12,
    "notes": [
     {
@@ -60262,9 +60262,9 @@
    "identity": "26c18edae4cd16548b0b",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:07.521Z",
-   "nextRetryAt": "2026-11-11T20:08:07.521Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:49.814Z",
+   "nextRetryAt": "2026-11-12T22:18:49.814Z",
    "requests": 1,
    "notes": [
     {
@@ -60660,9 +60660,9 @@
    "identity": "819a346f04afe7bb1306",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:14.567Z",
-   "nextRetryAt": "2026-11-11T20:08:14.567Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:00.364Z",
+   "nextRetryAt": "2026-11-12T22:19:00.364Z",
    "requests": 88,
    "notes": [
     {
@@ -61497,9 +61497,9 @@
    "identity": "7395d48eb73a34b73137",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:31.007Z",
-   "nextRetryAt": "2026-11-11T20:08:31.007Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:13.103Z",
+   "nextRetryAt": "2026-11-12T22:19:13.103Z",
    "requests": 42,
    "notes": [
     {
@@ -62363,9 +62363,9 @@
    "identity": "eef0e359876ebc81bf6a",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:07.521Z",
-   "nextRetryAt": "2026-11-11T20:08:07.521Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:49.814Z",
+   "nextRetryAt": "2026-11-12T22:18:49.814Z",
    "requests": 23,
    "notes": [
     {
@@ -63345,10 +63345,10 @@
    "identity": "e701745b67f099af701d",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:03.485Z",
-   "nextRetryAt": "2026-11-11T20:08:03.485Z",
-   "requests": 72,
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:45.275Z",
+   "nextRetryAt": "2026-11-12T22:18:45.275Z",
+   "requests": 73,
    "notes": [
     {
      "reason": "source-credits-conflict",
@@ -64493,9 +64493,9 @@
    "identity": "6bc5952365b9fe55b549",
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:03.485Z",
-   "nextRetryAt": "2026-11-11T20:08:03.485Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:18:45.275Z",
+   "nextRetryAt": "2026-11-12T22:18:45.275Z",
    "requests": 1,
    "notes": [
     {
@@ -73033,9 +73033,9 @@
    "identity": "6d6f5673c46d7c20d336",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 2,
-   "checkedAt": "2026-11-10T20:08:33.753Z",
-   "nextRetryAt": "2026-11-11T20:08:33.753Z",
+   "attempts": 3,
+   "checkedAt": "2026-11-11T22:18:45.275Z",
+   "nextRetryAt": "2026-11-14T22:18:45.275Z",
    "requests": 4,
    "notes": [
     {
@@ -73639,9 +73639,9 @@
    "identity": "6977eea826ec66e9a4ab",
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "attempts": 30,
-   "checkedAt": "2026-11-10T20:08:24.198Z",
-   "nextRetryAt": "2026-11-11T20:08:24.198Z",
+   "attempts": 31,
+   "checkedAt": "2026-11-11T22:19:00.364Z",
+   "nextRetryAt": "2026-11-12T22:19:00.364Z",
    "requests": 86,
    "notes": [
     {
@@ -74574,10 +74574,10 @@
    "identity": "a8310426a6842238310f",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 3,
-   "checkedAt": "2026-11-08T19:59:11.890Z",
-   "nextRetryAt": "2026-11-11T19:59:11.890Z",
-   "requests": 2,
+   "attempts": 4,
+   "checkedAt": "2026-11-11T22:18:45.274Z",
+   "nextRetryAt": "2026-11-18T22:18:45.274Z",
+   "requests": 3,
    "notes": [
     {
      "reason": "no-title-year-match",
