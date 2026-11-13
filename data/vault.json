@@ -328496,5 +328496,40 @@
    "cast": []
   },
   "tmdbType": "tv"
+ },
+ {
+  "id": "cold-storage-2026",
+  "title": "Cold Storage",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/cold-storage-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113865"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113861"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+  "rating": 6.662,
+  "tmdbId": 696393,
+  "imdbId": "tt8879928",
+  "addedAt": "2026-11-13T01:59:16.474Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/cold-storage-2026-tamil-dubbed-movie/",
+   "fetchedAt": "2026-11-13T01:59:14.275Z",
+   "sourceTitle": "Cold Storage (2026) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "updatedAt": "2026-11-13T01:59:24.333Z"
  }
 ]
