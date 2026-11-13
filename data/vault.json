@@ -22955,7 +22955,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-09-27T20:00:22.463Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -27024,13 +27024,15 @@
     "url": "https://play.onestream.today/stream/page/87043"
    }
   ],
-  "poster": "https://moviezda.net/uploads/posters/kozhipannai-chelladurai-2024.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/lsTZduXemG87iGj3djhF7IGooQX.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 1358582,
+  "imdbId": "tt30764809",
   "addedAt": "2026-09-27T21:05:29.373Z",
   "category": "tamil-movie",
-  "categorySource": "site"
+  "categorySource": "tmdb",
+  "originalLanguage": "ta",
+  "updatedAt": "2026-11-13T09:52:29.496Z"
  },
  {
   "id": "kadaisi-ulaga-por-2024",
@@ -73282,7 +73284,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-09-29T08:27:44.999Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -75879,7 +75881,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-09-29T08:28:53.238Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -82566,7 +82568,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-09-29T08:30:14.282Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -84480,7 +84482,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-09-29T08:30:49.864Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -91588,7 +91590,7 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-10-01T12:26:29.860Z",
-  "category": "tamil-dubbed-movie",
+  "category": "tamil-movie",
   "categorySource": "site"
  },
  {
@@ -107917,7 +107919,7 @@
   "title": "Beauty in Black",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/beauty-in-black-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -121397,15 +121399,15 @@
     "url": "https://dub.onestream.today/stream/video/99981"
    }
   ],
-  "poster": "",
-  "rating": 0,
+  "poster": "https://image.tmdb.org/t/p/w500/g0XdPTbM1EeZ3NTtOhTh9zrVSDx.jpg",
+  "rating": 4.9,
   "tmdbId": 297870,
   "imdbId": "tt37731884",
   "addedAt": "2026-10-07T20:30:04.854Z",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-dubbed-movie",
   "categorySource": "tmdb",
   "originalLanguage": "en",
-  "updatedAt": "2026-11-13T09:29:09.755Z"
+  "updatedAt": "2026-11-13T09:52:47.342Z"
  },
  {
   "id": "innocence-2020",
@@ -191116,7 +191118,7 @@
   "title": "The Gentlemen",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/the-gentlemen-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -214286,7 +214288,7 @@
   "title": "Leanne",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/leanne-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -220684,7 +220686,7 @@
   "title": "Reacher",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/reacher-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -243407,7 +243409,7 @@
   "title": "Death of the Pastors Wife",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/death-of-the-pastors-wife-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -278399,7 +278401,7 @@
   "title": "The Lord of the Rings The Rings of Power",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/the-lord-of-the-rings-the-rings-of-power-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -278847,7 +278849,7 @@
   "title": "Black Doves",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/black-doves-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -281024,7 +281026,7 @@
   "title": "The Terminal List",
   "year": 2026,
   "kind": "series",
-  "category": "tamil-dubbed-series",
+  "category": "tamil-series",
   "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/the-terminal-list-2026-tamil-dubbed-web-series/",
   "embeds": [
