@@ -21,7 +21,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { mergeMetadataStates } from './metadata-state.mjs';
+import { CANON } from './scrape.mjs';
 
 export const DATA = 'data';
 export const VAULT_FILE = path.join(DATA, 'vault.json');
@@ -68,9 +68,9 @@ export function saveAll(vault, state) {
 /* ------------------------------------------------------- titles, ids, paths */
 
 export const pathOf = (value) => {
-  try { return new URL(value, 'https://moviesda34.com').pathname.replace(/\/+$/, '') + '/'; } catch { return String(value || ''); }
+  try { return new URL(value, CANON).pathname.replace(/\/+$/, '') + '/'; } catch { return String(value || ''); }
 };
-export const canonicalUrl = (path) => `https://moviesda34.com${pathOf(path)}`;
+export const canonicalUrl = (path) => `${CANON}${pathOf(path)}`;
 export const slugify = (value = '') => String(value)
   .toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
@@ -148,11 +148,11 @@ export const idFor = (title, year) => `${slugify(title)}${year ? `-${year}` : ''
 export const CATEGORY_TAMIL = 'tamil';
 export const CATEGORY_DUBBED = 'tamil-dubbed';
 
-export const isDubbedLang = (lang) => Boolean(lang) && !['ta', 'tam', 'tamil'].includes(String(lang).trim().toLowerCase());
+export const isDubbedLang = (lang) => Boolean(lang) && String(lang).toLowerCase() !== 'ta';
 
 /** 'tamil-movie' | 'tamil-dubbed-movie' | 'tamil-series' | 'tamil-dubbed-series' | null */
 export function categoryFor(kind, originalLanguage) {
-  if (!knownLanguage(originalLanguage)) return null;
+  if (!originalLanguage) return null;
   const base = kind === 'series' ? 'series' : 'movie';
   return `${isDubbedLang(originalLanguage) ? CATEGORY_DUBBED : CATEGORY_TAMIL}-${base}`;
 }
@@ -285,7 +285,6 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
     poster: walked.poster || '',
     rating: 0, tmdbId: 0, imdbId: '',
     addedAt: now,
-    ...(walked.sourceMetadata?.available ? { sourceMetadata: walked.sourceMetadata } : {}),
     ...(isSeries ? { seasons: walked.seasons || [] } : {}),
   };
 
@@ -319,7 +318,6 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
     existing.embeds = flatten(existing.seasons);
   }
   if (!existing.poster && fresh.poster) existing.poster = fresh.poster;
-  if (fresh.sourceMetadata?.available) existing.sourceMetadata = fresh.sourceMetadata;
   if (!existing.year && year) existing.year = year;
   const changed = before !== snapshot(existing);
   if (changed) existing.updatedAt = now;
@@ -338,7 +336,6 @@ export function upsert(vault, item, walked, now = new Date().toISOString()) {
 export function applyMetadata(record, meta, { preferPoster = false, replaceId = false } = {}) {
   if (!meta) return false;
   let changed = false;
-  if (meta.tmdbType && record.tmdbType !== meta.tmdbType) { record.tmdbType = meta.tmdbType; changed = true; }
   // A cross-type match (the stored id resolved as the OTHER media type) already
   // proved the id in the record was wrong, so it may be corrected.
   const idIsWrong = Boolean(meta.crossType) || (replaceId && meta.tmdbId && record.tmdbId && Number(record.tmdbId) !== Number(meta.tmdbId));
@@ -350,8 +347,8 @@ export function applyMetadata(record, meta, { preferPoster = false, replaceId = 
   // category: TMDB's original_language is the authority, and it also replaces a
   // previous site guess. The MEDIA TYPE comes from TMDB's own answer — a series
   // stored under a movie-shaped path is still a series.
-  if (knownLanguage(meta.originalLanguage)) {
-    if (record.originalLanguage !== meta.originalLanguage) { record.originalLanguage = meta.originalLanguage; changed = true; }
+  if (meta.originalLanguage) {
+    if (!record.originalLanguage || (idIsWrong && record.originalLanguage !== meta.originalLanguage)) { record.originalLanguage = meta.originalLanguage; changed = true; }
     const kind = meta.tmdbType === 'tv' ? 'series' : meta.tmdbType === 'movie' ? 'movie' : record.kind;
     const wanted = categoryFor(kind, meta.originalLanguage);
     if (wanted && (record.category !== wanted || record.categorySource !== 'tmdb')) {
@@ -402,19 +399,8 @@ export function removeEmbeds(record, deadUrls) {
   return before - (record.embeds || []).length;
 }
 
-export const knownLanguage = value => {
-  const lang = String(value || '').trim().toLowerCase();
-  return Boolean(lang) && !['unknown', 'und', 'null', 'none', 'n/a'].includes(lang);
-};
-export const needsCategory = record => {
-  if (!knownLanguage(record.originalLanguage)) return true;
-  const kind = record.tmdbType === 'tv' ? 'series' : record.tmdbType === 'movie' ? 'movie' : record.kind;
-  return record.category !== categoryFor(kind, record.originalLanguage);
-};
-// Identity/classification is required; artwork/IMDb/votes are optional. A real
-// TMDB entry with zero votes is NOT a failed identity lookup.
-export const needsMetadata = record => !Number(record.tmdbId) || needsCategory(record);
-export const missingOptionalMetadata = record => !record.poster || !record.imdbId || !record.rating;
+export const needsMetadata = (record) => !record.tmdbId || !record.poster;
+export const needsCategory = (record) => !record.category;
 
 /* ------------------------------------------------- two writers, one branch */
 
@@ -448,12 +434,11 @@ export function mergeVaults(ours = [], theirs = []) {
       merged.seasons = mergeSeasons(other.seasons || [], mine.seasons || []);
       merged.embeds = flatten(merged.seasons);
     }
-    for (const key of ['poster', 'rating', 'tmdbId', 'tmdbType', 'imdbId', 'category', 'originalLanguage', 'categorySource']) {
+    for (const key of ['poster', 'rating', 'tmdbId', 'imdbId', 'category', 'originalLanguage', 'categorySource']) {
       const a = other[key]; const b = mine[key];
       if (!a && b) merged[key] = b;
       else if (a && b && a !== b && newer) merged[key] = b;
     }
-    if (mine.sourceMetadata && String(mine.sourceMetadata.fetchedAt || '') > String(other.sourceMetadata?.fetchedAt || '')) merged.sourceMetadata = mine.sourceMetadata;
     if (!merged.year && mine.year) merged.year = mine.year;
     if (!merged.title && mine.title) merged.title = mine.title;
     if (newer && mine.updatedAt) merged.updatedAt = mine.updatedAt;
@@ -471,11 +456,10 @@ export function mergeStates(ours = {}, theirs = {}) {
   }
   const tmdbMiss = { ...(theirs.tmdbMiss || {}) };
   for (const [id, at] of Object.entries(ours.tmdbMiss || {})) {
-    if (!tmdbMiss[id] || String(at) > String(tmdbMiss[id])) tmdbMiss[id] = at;
+    // earliest marker wins: a record TMDB never had stays marked
+    if (!tmdbMiss[id] || String(at) < String(tmdbMiss[id])) tmdbMiss[id] = at;
   }
-  const metadata = mergeMetadataStates(ours.metadata, theirs.metadata);
-  for (const [id, entry] of Object.entries(metadata)) if (entry.status === 'matched') delete tmdbMiss[id];
-  return { ...theirs, ...ours, done, tmdbMiss, metadata, letters: { ...(theirs.letters || {}), ...(ours.letters || {}) } };
+  return { ...theirs, done, tmdbMiss, letters: { ...(theirs.letters || {}), ...(ours.letters || {}) } };
 }
 
 /** A–Z cursor: the further-advanced side wins, and a completed pass is kept. */

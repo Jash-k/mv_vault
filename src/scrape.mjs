@@ -25,17 +25,36 @@
  * Quality policy (unchanged, user-locked): keep 1080p + 720p; fall back to
  * 360p/other rips ONLY when a film has neither.
  *
- * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviesda.ski)
- * redirects to moviesda.ski today, so that is the host we FETCH. What we STORE
- * in pageUrl/state stays on moviesda34.com so existing data and keys never fork.
+ * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviezda.net,
+ * moviesda.ski) redirects to one live host, so we FETCH from whichever domain is
+ * current. What we STORE in pageUrl/state stays on the canonical origin so
+ * existing data and keys never fork.
+ *
+ * Both hosts are env-driven — set them in GitHub (Settings → Secrets and
+ * variables → Actions → Variables) or in your shell:
+ *
+ *   MOVIESDA_HOST   fetch host.   Default https://moviesda.ski (the domain
+ *                   moviezda.net moved to; it currently redirects to
+ *                   moviezda.co — set MOVIESDA_HOST=moviezda.co to skip the hop).
+ *   MOVIESDA_CANON  stored origin. Default https://moviesda34.com — LEAVE THIS
+ *                   ALONE unless you want new links stored under a new domain:
+ *                   changing it forks the state keys and forces one full
+ *                   re-walk. A bare domain (moviesda.ski) is fine, the scheme
+ *                   is added for you.
  */
 import * as cheerio from 'cheerio';
-import { parseSourceMetadata } from './source-metadata.mjs';
 
-/** The host every domain redirects to today. Change this one line if it moves. */
-export const LIVE = 'https://moviesda.ski';
-/** Canonical origin used inside pageUrl + state.json keys. Never rewritten. */
-export const CANON = 'https://moviesda34.com';
+/** Read a host from env, forgiving a bare domain or a trailing slash. */
+const hostFromEnv = (name, fallback) => {
+  const raw = String(process.env[name] || '').trim().replace(/\/+$/, '');
+  if (!raw) return fallback;
+  return /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
+};
+
+/** The host we FETCH from. Change via MOVIESDA_HOST — never edit code for this. */
+export const LIVE = hostFromEnv('MOVIESDA_HOST', 'https://moviesda.ski');
+/** Canonical origin used inside pageUrl + state.json keys. Change via MOVIESDA_CANON. */
+export const CANON = hostFromEnv('MOVIESDA_CANON', 'https://moviesda34.com');
 /** Poster files live on the fetch host. */
 export const POSTER_HOST = LIVE;
 
@@ -45,7 +64,7 @@ export const POSTER_HOST = LIVE;
  * trusted — so a fix like "series under movie paths" takes effect on the next
  * pass instead of waiting out a 7-day empty window.
  */
-export const WALK_VERSION = 3;
+export const WALK_VERSION = 2;
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.TIMEOUT_MS || 15000);
@@ -61,16 +80,15 @@ export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const paced = () => sleep(DELAY_MS + Math.floor(Math.random() * 120));
 
 /** fetch + retry. Hard 404 is not retried; 5xx/429/network is. */
-export async function getHtml(url, { signal } = {}) {
+export async function getHtml(url) {
   let lastError = new Error('not attempted');
   for (let attempt = 1; attempt <= TRIES; attempt += 1) {
-    if (signal?.aborted) throw new Error('metadata request cancelled');
     const started = Date.now();
     try {
       const res = await fetch(url, {
         headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9' },
         redirect: 'follow',
-        signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS),
+        signal: AbortSignal.timeout(TIMEOUT_MS),
       });
       if (!res.ok) {
         await res.body?.cancel();
@@ -84,7 +102,6 @@ export async function getHtml(url, { signal } = {}) {
       return { html, ms: Date.now() - started };
     } catch (error) {
       lastError = error;
-      if (signal?.aborted) break;
       if (error.retryable === false || attempt === TRIES) break;
       stats.retries += 1;
       await sleep(500 * attempt + Math.floor(Math.random() * 400));
@@ -217,9 +234,6 @@ function folderLinks(html, base) {
     if (!hasQuality && !singleSegment) return;
     const url = absolute(base, href);
     if (!url || seen.has(url)) return;
-    const target = new URL(url);
-    if (target.origin !== new URL(base).origin || target.pathname.includes('/download/')) return;
-    if (target.searchParams.has('page') || target.searchParams.has('get-page')) return;
     seen.add(url);
     out.push({ url, href, label, quality: qualityOf(label, href) });
   });
@@ -382,96 +396,71 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
  * The flat shape has no quality token at all, so those episodes are stored as
  * 'HD' (the same convention already used in the vault) — never dropped.
  */
-export async function walkSeries(url, { deadline = 0, html: prefetched = '', maxEpisodePages = 50 } = {}) {
-  const checkBudget = () => {
-    if (deadline && Date.now() >= deadline) throw new Error('series walk paused by budget; retry required');
-  };
-  checkBudget();
+export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = {}) {
   const itemHtml = prefetched || (await getHtml(url)).html;
-  if (looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
+  if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
-  const jobs = new Map();
-  let incomplete = false;
-  const visitedFolders = new Set();
+  const origin = new URL(url).origin;
 
-  // Pagination belongs to this exact folder, never to a different season/show.
-  // Read every linked page; never guess page numbers or treat ?page=2 as a folder.
-  async function pages(folderUrl, firstHtml) {
-    const pending = [folderUrl];
-    const seen = new Set();
-    const result = [];
-    while (pending.length) {
-      checkBudget();
-      const pageUrl = pending.shift();
-      if (seen.has(pageUrl)) continue;
-      if (seen.size >= maxEpisodePages) { incomplete = true; break; }
-      seen.add(pageUrl);
-      let html;
-      try { html = pageUrl === folderUrl && firstHtml ? firstHtml : (await getHtml(pageUrl)).html; }
-      catch { incomplete = true; continue; }
-      if (looksBlocked(html)) { incomplete = true; continue; }
-      result.push({ html, url: pageUrl });
-      const $ = cheerio.load(html);
-      $('a[href]').each((_, a) => {
-        const href = absolute(pageUrl, $(a).attr('href'));
-        if (!href) return;
-        const next = new URL(href); const base = new URL(folderUrl);
-        if (next.origin !== base.origin || next.pathname !== base.pathname) return;
-        const page = next.searchParams.get('page') || next.searchParams.get('get-page');
-        if (!/^[1-9]\d*$/.test(page || '')) return;
-        next.hash = '';
-        if (Number(page) === 1) next.search = base.search;
-        if (!seen.has(next.href) && !pending.includes(next.href)) pending.push(next.href);
+  const jobs = []; // { slugUrl, quality, season, episode }
+  const addSlugs = (html, base, qualityHint, seasonHint) => {
+    for (const slug of episodeSlugs(html, base)) {
+      const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
+      jobs.push({
+        slugUrl: slug.url,
+        quality: declared ? qualityOf(slug.label, slug.href) : (qualityHint || 'HD'),
+        season: seasonOf(slug.href) || seasonHint || 1,
+        episode: episodeOf(slug.href),
       });
     }
-    return result;
-  }
+  };
 
-  async function visit(folderUrl, firstHtml, qualityHint = 'HD', seasonHint = 1, depth = 0) {
-    checkBudget();
-    if (visitedFolders.has(folderUrl)) return;
-    if (visitedFolders.size >= 80) { incomplete = true; return; }
-    visitedFolders.add(folderUrl);
-    const children = new Map();
-    for (const page of await pages(folderUrl, firstHtml)) {
-      for (const slug of episodeSlugs(page.html, page.url)) {
-        const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
-        jobs.set(slug.url, {
-          slugUrl: slug.url,
-          quality: declared ? qualityOf(slug.label, slug.href) : qualityHint,
-          season: seasonOf(slug.href) || seasonHint,
-          episode: episodeOf(slug.href),
-        });
+  const itemLinks = folderLinks(itemHtml, origin);
+  const seasonFolders = itemLinks.filter((l) => SEASON_FOLDER_RX.test(l.href));
+
+  if (seasonFolders.length) {
+    for (const seasonFolder of seasonFolders) {
+      if (deadline && Date.now() > deadline) break;
+      const seasonHint = seasonOf(seasonFolder.href) || 1;
+      // A season link that is just this same page (single-page shows) — no refetch.
+      const samePage = new URL(seasonFolder.url).pathname === new URL(url).pathname;
+      await paced();
+      let seasonHtml = itemHtml;
+      if (!samePage) {
+        try { ({ html: seasonHtml } = await getHtml(seasonFolder.url)); } catch { continue; }
       }
-      for (const link of folderLinks(page.html, page.url)) {
-        if (new URL(link.url).pathname === new URL(folderUrl).pathname) continue;
-        if (depth === 0 ? SEASON_FOLDER_RX.test(link.href) || /\d{3,4}p/i.test(link.href) : /\d{3,4}p/i.test(link.href)) children.set(link.url, link);
+      const qualityFolders = folderLinks(seasonHtml, new URL(seasonFolder.url).origin)
+        .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
+      if (!qualityFolders.length) { addSlugs(seasonHtml, seasonFolder.url, 'HD', seasonHint); continue; }
+
+      qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
+      for (const qf of qualityFolders) {
+        if (deadline && Date.now() > deadline) break;
+        await paced();
+        try {
+          const { html: qfHtml } = await getHtml(qf.url);
+          addSlugs(qfHtml, qf.url, qf.quality, seasonHint);
+        } catch { /* quality folder gone */ }
       }
     }
-    if (depth >= 2) return;
-    for (const child of children.values()) {
-      await visit(child.url, '', child.quality === 'HD' ? qualityHint : child.quality, seasonOf(child.href) || seasonHint, depth + 1);
-    }
+  } else {
+    // Flat shape: episodes are on the item page itself. No quality token, so
+    // 'HD' unless the slug or its label declares one.
+    addSlugs(itemHtml, url, 'HD', 1);
   }
-  await visit(url, itemHtml, 'HD', seasonOf(url) || 1);
 
-  const idRows = (await mapLimit([...jobs.values()], 3, async (job) => {
-    checkBudget();
+  if (!jobs.length) return { kind: 'series', seasons: [], embeds: [], poster };
+
+  // Each episode slug page → the numeric file id (parallel, order preserved)
+  const idRows = (await mapLimit(jobs, 3, async (job) => {
     try {
       const { html } = await getHtml(job.slugUrl);
-      const ids = fileIds(html).slice(0, 1);
-      if (!ids.length) incomplete = true;
-      return ids.map((id) => ({ id, ...job }));
-    } catch { incomplete = true; return []; }
+      return fileIds(html).slice(0, 1).map((id) => ({ id, ...job }));
+    } catch { return []; }
   })).flat();
 
-  const confirmed = await mapLimit(idRows, 4, async (row) => {
-    checkBudget();
-    const embed = await confirmEmbed(row.id);
-    if (!embed) incomplete = true;
-    return { row, embed };
-  });
-  checkBudget();
+  // Confirm each id (parallel) → embed
+  const confirmed = await mapLimit(idRows, 4, async (row) => ({ row, embed: await confirmEmbed(row.id) }));
 
   const seasons = new Map(); // season → Map(episode → Map(url → quality))
   for (const { row, embed } of confirmed) {
@@ -497,7 +486,7 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '', max
     }
     if (episodes.length) seasonList.push({ season, episodes });
   }
-  return { kind: 'series', seasons: seasonList, embeds: flat, poster, incomplete };
+  return { kind: 'series', seasons: seasonList, embeds: flat, poster };
 }
 
 /**
@@ -509,14 +498,12 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '', max
 export async function walkItem(url, options = {}) {
   const html = options.html || (await getHtml(url)).html;
   if (!options.html && looksBlocked(html)) throw new Error(`blocked/challenge document for ${url}`);
-  const sourceMetadata = parseSourceMetadata(html, url);
-  const attach = result => ({ ...result, sourceMetadata });
-  if (planWalk(html, url) === 'series') return attach(await walkSeries(url, { ...options, html }));
+  if (planWalk(html, url) === 'series') return walkSeries(url, { ...options, html });
 
   const movie = await walkMovie(url, { ...options, html });
-  if (embedCount(movie)) return attach(movie);
+  if (embedCount(movie)) return movie;
   const asSeries = await walkSeries(url, { ...options, html });
-  return attach(embedCount(asSeries) > embedCount(movie) ? asSeries : movie);
+  return embedCount(asSeries) > embedCount(movie) ? asSeries : movie;
 }
 
 /** How many embeds a walk result carries. */
@@ -709,7 +696,6 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
   const itemHtml = prefetched || (await getHtml(url)).html;
   if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
-  const sourceMetadata = parseSourceMetadata(itemHtml, url);
   const rows = dubLinks(itemHtml, url);
 
   /* ---------- series, episode-list shape: every row is one episode page ---------- */
@@ -745,7 +731,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
         if (playable) got.push({ season: ep.season, episode: ep.episode, quality: info.quality, url: playable });
       }
     });
-    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster, sourceMetadata };
+    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster };
     const fallbackSeason = dubSeasonIn(episodeRows[0].text) || 1;
     const bySeason = new Map();
     for (const g of got) {
@@ -760,7 +746,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       episodes: [...eps.entries()].sort((a, b) => a[0] - b[0]).map(([episode, embeds]) => ({ episode, embeds })),
     }));
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata };
+    return { kind: 'series', seasons, embeds: flat, poster };
   }
 
   /* ---------- series, season-folder shape: rows are (Season NN) folders ---------- */
@@ -797,7 +783,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       await paced();
     }
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata };
+    return { kind: 'series', seasons, embeds: flat, poster };
   }
 
   /* ---------- movie: quality folders sit under a stage folder (Original/…),
@@ -809,7 +795,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       .sort((a, b) => rank(dubQuality(a.text, a.href)) - rank(dubQuality(b.text, b.href))).slice(0, 2),
     ...movieRows.filter((r) => !dubQuality(r.text, r.href)).slice(0, 2),
   ];
-  if (!sources.length) return { kind: 'movie', embeds: [], poster, sourceMetadata };
+  if (!sources.length) return { kind: 'movie', embeds: [], poster };
   const collected = new Map();               // id → { quality }
   for (const src of sources) {
     if (deadline && Date.now() > deadline) break;
@@ -826,7 +812,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
     if (playable) embeds.push({ quality: info.quality, url: playable });
   });
   const preferred = embeds.filter((e) => /^(1080p|720p)$/i.test(e.quality));
-  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster, sourceMetadata };
+  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster };
 }
 
 export const embedCount = (walked) => walked.kind === 'series' 

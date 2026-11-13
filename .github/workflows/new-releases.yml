@@ -1,8 +1,22 @@
-name: New releases (Tamil movies and series)
+name: New releases (Tamil year folder)
 
-# Every six hours: latest series listing + stored current-year series + year folders.
-# Series refresh after five hours, so schedule jitter cannot skip the next run.
-# Paginated episode/season/quality pages are walked and merged, never replaced.
+# Checks ONLY the year folders:
+#   /tamil-<current year>-movies/   (all pages — 2026 today)
+#   /tamil-<next year>-movies/      (all pages — 2027 today; the folder already
+#                                    exists as a placeholder, so a title added
+#                                    there is picked up with no code change at
+#                                    the year rollover)
+#
+# Those folders carry SERIES as well as movies (2026: 67 series pages of 379
+# items), so /tamil-web-series-download/ is not read any more — it only re-listed
+# series that are mostly older than the current year. Set with_series = true to
+# add it back (latest 3 pages) for the couple of pre-2026 series that live only
+# there.
+# Anything already stored is skipped without a single request, and the run always
+# prints WHY each item was skipped ("· releases: 379 items (312 movies, 67
+# series) → 0 walked · skipped: 305 stored · 64 series — inside its refresh
+# window · 10 stored (another path)").
+#
 # STORED LINKS ARE PROBED EVERY RUN. When the site rebuilds a release
 # (PreDVD → Original) the old stream IDs go dead — they still answer, but with an
 # empty page. A stored movie is otherwise never looked at again, so the check
@@ -34,9 +48,9 @@ on:
         type: boolean
         default: false
       with_series:
-        description: 'Read series listing + refresh stored current-year series (on by default)'
+        description: 'ALSO read /tamil-web-series-download/ (latest 3 pages) — off by default'
         type: boolean
-        default: true
+        default: false
       refresh_days:
         description: 'Also re-walk stored MOVIES older than N days (default 0 = never)'
         default: ''
@@ -77,6 +91,8 @@ jobs:
       - name: Scrape and publish
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
+          MOVIESDA_HOST: ${{ vars.MOVIESDA_HOST }}
+          MOVIESDA_CANON: ${{ vars.MOVIESDA_CANON }}
           YEAR: ${{ inputs.year }}
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
@@ -88,24 +104,16 @@ jobs:
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=releases --metadata-budget-min=5 --report=reports/metadata.json"
+          ARGS="--mode=releases"
           [ -n "$YEAR" ] && ARGS="$ARGS --year=$YEAR"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$REFRESH_DAYS" ] && [ "$REFRESH_DAYS" != "0" ] && ARGS="$ARGS --refresh-days=$REFRESH_DAYS"
           [ "$VERBOSE" = "true" ] && ARGS="$ARGS --verbose"
-          [ "$WITH_SERIES" = "false" ] && ARGS="$ARGS --no-series"
+          [ "$WITH_SERIES" = "true" ] && ARGS="$ARGS --with-series"
           [ "$CHECK_ALL" = "true" ] && ARGS="$ARGS --check-all"
           [ "$NO_LINK_CHECK" = "true" ] && ARGS="$ARGS --no-link-check"
           [ "$DRY" = "true" ] && ARGS="$ARGS --dry"
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
-      - name: Metadata diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: metadata-new-releases-${{ github.run_id }}
-          path: reports/metadata.json
-          if-no-files-found: ignore
-          retention-days: 14

@@ -9,8 +9,7 @@
     "az": "node src/run.mjs --mode=az",
     "dry": "node src/run.mjs --mode=releases --dry --max-items=3",
     "enrich": "node src/run.mjs --mode=enrich",
-    "dubbed": "node src/run.mjs --mode=dubbed",
-    "test": "node --test test/*.test.mjs"
+    "dubbed": "node src/run.mjs --mode=dubbed"
   },
   "dependencies": {
     "cheerio": "^1.2.0"
