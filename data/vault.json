@@ -292846,5 +292846,172 @@
   "category": "tamil-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-11-13T19:43:12.047Z"
+ },
+ {
+  "id": "obsession-2026",
+  "title": "Obsession",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/obsession-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113902"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113906"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-14T01:31:43.373Z",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
+ },
+ {
+  "id": "murder-in-galicia-2026",
+  "title": "Murder in Galicia",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/murder-in-galicia-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113892",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113896",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113893",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113897",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113894",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113898",
+    "season": 1,
+    "episode": 3
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-14T01:31:45.217Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113892"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113896"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113893"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113897"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/113894"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/113898"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "category": "tamil-dubbed-series",
+  "categorySource": "site"
+ },
+ {
+  "id": "heartland-2026",
+  "title": "Heartland",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/heartland-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113884"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113888"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-14T01:31:47.251Z",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
+ },
+ {
+  "id": "avengers-endgame-encore-2026",
+  "title": "Avengers Endgame Encore",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/avengers-endgame-encore-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113876"
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113880"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-14T01:31:49.116Z",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
  }
 ]
