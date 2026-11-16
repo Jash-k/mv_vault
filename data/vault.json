@@ -293476,6 +293476,8 @@
   "title": "Murder in Galicia",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/murder-in-galicia-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -293565,9 +293567,7 @@
      }
     ]
    }
-  ],
-  "category": "tamil-dubbed-series",
-  "categorySource": "site"
+  ]
  },
  {
   "id": "heartland-2026",
@@ -294844,5 +294844,28 @@
     ]
    }
   ]
+ },
+ {
+  "id": "russell-brand-open-secret-2026",
+  "title": "Russell Brand Open Secret",
+  "year": 2026,
+  "pageUrl": "https://isaidub.green/movie/russell-brand-open-secret-2026-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/113929"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/113925"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-16T01:12:34.708Z",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site"
  }
 ]
