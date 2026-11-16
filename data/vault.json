@@ -293747,6 +293747,12 @@
     "url": "https://play.onestream.today/stream/page/103534",
     "season": 10,
     "episode": 70
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103535",
+    "season": 10,
+    "episode": 71
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/bigg-boss-2026.jpg",
@@ -293946,11 +293952,20 @@
         "url": "https://play.onestream.today/stream/page/103534"
        }
       ]
+     },
+     {
+      "episode": 71,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103535"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-15T18:51:30.003Z"
+  "updatedAt": "2026-11-16T22:02:54.961Z"
  },
  {
   "id": "maaya-oviyan-2026",
@@ -294896,5 +294911,34 @@
   "category": "tamil-movie",
   "categorySource": "tmdb",
   "updatedAt": "2026-11-16T06:28:00.344Z"
+ },
+ {
+  "id": "premada-oorali-2026",
+  "title": "Premada Oorali",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/premada-oorali-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103549"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103551"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103548"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/yZ1CNb3lo1BwMKiSGz0vJbcfdC2.jpg",
+  "rating": 4.6,
+  "tmdbId": 1735270,
+  "imdbId": "tt33381528",
+  "addedAt": "2026-11-16T22:01:15.481Z",
+  "originalLanguage": "kn",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-16T22:19:51.299Z"
  }
 ]
