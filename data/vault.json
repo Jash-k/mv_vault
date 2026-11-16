@@ -294867,5 +294867,34 @@
   "addedAt": "2026-11-16T01:12:34.708Z",
   "category": "tamil-dubbed-movie",
   "categorySource": "site"
+ },
+ {
+  "id": "john-doe-2026",
+  "title": "John Doe",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/john-doe-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103544"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103543"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103541"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/nt7ErINVZAJ3PIprfSYJJshaFJc.jpg",
+  "rating": 7,
+  "tmdbId": 1655020,
+  "imdbId": "tt49855692",
+  "addedAt": "2026-11-16T06:27:32.636Z",
+  "originalLanguage": "ta",
+  "category": "tamil-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-16T06:28:00.344Z"
  }
 ]
