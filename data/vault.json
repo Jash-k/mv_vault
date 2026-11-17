@@ -294991,10 +294991,10 @@
     "episode": 7
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/pKqxjblwxlvIJkVvAaudQIJdX0F.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 306452,
+  "imdbId": "tt39066717",
   "addedAt": "2026-11-17T02:42:31.311Z",
   "seasons": [
    {
@@ -295065,7 +295065,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:38.649Z"
  },
  {
   "id": "kurukshetra-2025",
@@ -295525,10 +295529,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/kankhajura-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/iUeaGrvXb3ZzxdIHq4grKOLTl5s.jpg",
+  "rating": 5,
+  "tmdbId": 292392,
+  "imdbId": "tt30820007",
   "addedAt": "2026-11-17T02:43:06.235Z",
   "seasons": [
    {
@@ -295608,7 +295612,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.117Z"
  },
  {
   "id": "kull-the-legacy-of-the-raisingghs-2025",
@@ -295666,10 +295674,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/kull-the-legacy-of-the-raisingghs-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9Hyt7uiMMARtySYz7PCJCuua3uk.jpg",
+  "rating": 4.5,
+  "tmdbId": 289222,
+  "imdbId": "tt32235809",
   "addedAt": "2026-11-17T02:43:16.188Z",
   "seasons": [
    {
@@ -295749,7 +295757,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.277Z"
  },
  {
   "id": "khauf-2025",
@@ -295807,10 +295819,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/khauf-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/8a33EagF55P206ynW3gwnYyqPdL.jpg",
+  "rating": 6.8,
+  "tmdbId": 249749,
+  "imdbId": "tt31898201",
   "addedAt": "2026-11-17T02:43:25.809Z",
   "seasons": [
    {
@@ -295890,7 +295902,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.430Z"
  },
  {
   "id": "kaala-paani-2023",
@@ -295942,10 +295958,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/kaala-paani-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/EQmoiwsUKbc1K6TDZlJKEJvZKW.jpg",
+  "rating": 7.269,
+  "tmdbId": 235356,
+  "imdbId": "tt19072562",
   "addedAt": "2026-11-17T02:43:38.458Z",
   "seasons": [
    {
@@ -296016,7 +296032,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.583Z"
  },
  {
   "id": "love-under-construction-2025",
@@ -296062,10 +296082,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/love-under-construction-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/z7MIw0qDpN038SYQiuvrL11QS7W.jpg",
+  "rating": 6.1,
+  "tmdbId": 283760,
+  "imdbId": "tt28755900",
   "addedAt": "2026-11-17T02:56:52.561Z",
   "seasons": [
    {
@@ -296127,7 +296147,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.738Z"
  },
  {
   "id": "label-2023",
@@ -296197,10 +296221,10 @@
     "episode": 10
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/label-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/8zxQoEp3rqIB8SxhLQTXH1Mpw4Y.jpg",
+  "rating": 7.5,
+  "tmdbId": 223244,
+  "imdbId": "tt25965602",
   "addedAt": "2026-11-17T02:57:04.435Z",
   "seasons": [
    {
@@ -296298,7 +296322,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:39.904Z"
  },
  {
   "id": "loser-2021",
@@ -296533,10 +296561,10 @@
     "episode": 9
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/mayasabha-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/qMSgzPg7mfCOWkWcWDdxfrV0JYY.jpg",
+  "rating": 8,
+  "tmdbId": 297310,
+  "imdbId": "tt36600023",
   "addedAt": "2026-11-17T02:59:21.607Z",
   "seasons": [
    {
@@ -296625,7 +296653,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:40.212Z"
  },
  {
   "id": "mandala-murders-2025",
@@ -296683,10 +296715,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/mandala-murders-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/tg16aWs58I5PleUQDmvsXPV7zfQ.jpg",
+  "rating": 7.156,
+  "tmdbId": 247831,
+  "imdbId": "tt26626214",
   "addedAt": "2026-11-17T02:59:30.679Z",
   "seasons": [
    {
@@ -296766,7 +296798,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:40.381Z"
  },
  {
   "id": "mistry-2025",
@@ -296824,10 +296860,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/mistry-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7f6E0EcFcWNWgsUXrKo379iSo4S.jpg",
+  "rating": 6.2,
+  "tmdbId": 294409,
+  "imdbId": "tt37048622",
   "addedAt": "2026-11-17T02:59:40.646Z",
   "seasons": [
    {
@@ -296907,7 +296943,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:40.539Z"
  },
  {
   "id": "madurai-paiyanum-chennai-ponnum-2025",
@@ -297037,10 +297077,10 @@
     "episode": 23
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/madurai-paiyanum-chennai-ponnum-2025.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/55CaoSr9W2mIOhwHRht9gwFjEFX.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 284887,
+  "imdbId": "tt35598067",
   "addedAt": "2026-11-17T02:59:57.980Z",
   "seasons": [
    {
@@ -297228,7 +297268,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:40.708Z"
  },
  {
   "id": "manvat-murders-2024",
@@ -297250,10 +297294,10 @@
     "episode": 5
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/manvat-murders-2024.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/nuxlCzA7PZLjhfoju7QF5BaTFwE.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 270667,
+  "imdbId": "tt33320881",
   "addedAt": "2026-11-17T03:00:11.809Z",
   "seasons": [
    {
@@ -297279,7 +297323,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "mr",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:40.866Z"
  },
  {
   "id": "my-perfect-husband-2024",
@@ -297478,10 +297526,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/murder-in-mahim-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/aoTEvfNUNCwcZVJvND4fk6TBiuC.jpg",
+  "rating": 6.3,
+  "tmdbId": 253777,
+  "imdbId": "tt32258354",
   "addedAt": "2026-11-17T03:00:31.169Z",
   "seasons": [
    {
@@ -297561,7 +297609,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:41.172Z"
  },
  {
   "id": "modern-love-chennai-2023",
@@ -297607,10 +297659,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/modern-love-chennai-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/AuKtpbcL1OS2S7kIFRkHXvjcBr7.jpg",
+  "rating": 6.1,
+  "tmdbId": 200874,
+  "imdbId": "tt21883062",
   "addedAt": "2026-11-17T03:00:39.724Z",
   "seasons": [
    {
@@ -297672,7 +297724,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:41.326Z"
  },
  {
   "id": "nagendrans-honeymoons-2024",
@@ -298009,10 +298065,10 @@
     "episode": 100
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/office-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/adZt0FojpVYen4FxTNF1mg4fFnA.jpg",
+  "rating": 7,
+  "tmdbId": 54179,
+  "imdbId": "tt35657767",
   "addedAt": "2026-11-17T03:18:10.980Z",
   "seasons": [
    {
@@ -298200,7 +298256,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:41.770Z"
  },
  {
   "id": "oru-kodai-murder-mystery-2023",
@@ -298258,10 +298318,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/oru-kodai-murder-mystery-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/1X6mMH455vlCzF8XFdtIqHMfMym.jpg",
+  "rating": 7,
+  "tmdbId": 224816,
+  "imdbId": "tt27510191",
   "addedAt": "2026-11-17T03:18:17.726Z",
   "seasons": [
    {
@@ -298341,7 +298401,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:41.936Z"
  },
  {
   "id": "pill-2024",
@@ -298399,10 +298463,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/pill-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/gyXfVqYIBg1ly8xQuJtf79vM2k8.jpg",
+  "rating": 7.8,
+  "tmdbId": 257669,
+  "imdbId": "tt32729607",
   "addedAt": "2026-11-17T03:21:21.865Z",
   "seasons": [
    {
@@ -298482,7 +298546,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.090Z"
  },
  {
   "id": "paruvu-2024",
@@ -298540,10 +298608,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/paruvu-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/6le8ZW6hgY1TMf5D7MhnAJgAKVC.jpg",
+  "rating": 7.5,
+  "tmdbId": 256056,
+  "imdbId": "tt32539169",
   "addedAt": "2026-11-17T03:21:41.331Z",
   "seasons": [
    {
@@ -298623,7 +298691,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.253Z"
  },
  {
   "id": "physics-wallah-2022",
@@ -298639,10 +298711,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/physics-wallah-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/vUfXFT9o0IrAyom5Jps0uhLaiBQ.jpg",
+  "rating": 7,
+  "tmdbId": 216268,
+  "imdbId": "tt24073140",
   "addedAt": "2026-11-17T03:21:48.852Z",
   "seasons": [
    {
@@ -298659,7 +298731,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.409Z"
  },
  {
   "id": "perilloor-premier-league-2024",
@@ -298711,10 +298787,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/perilloor-premier-league-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zuQRHydJ1Xojty6EHhWRMNT7ooO.jpg",
+  "rating": 6.8,
+  "tmdbId": 241088,
+  "imdbId": "tt27349179",
   "addedAt": "2026-11-17T03:22:16.274Z",
   "seasons": [
    {
@@ -298785,7 +298861,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.567Z"
  },
  {
   "id": "puli-meka-2023",
@@ -298843,10 +298923,10 @@
     "episode": 8
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9JWBdtWfx6S7vmCq77mDvd173ul.jpg",
+  "rating": 7,
+  "tmdbId": 220784,
+  "imdbId": "tt26699205",
   "addedAt": "2026-11-17T03:22:48.558Z",
   "seasons": [
    {
@@ -298926,7 +299006,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.723Z"
  },
  {
   "id": "rangeen-2025",
@@ -298990,10 +299074,10 @@
     "episode": 9
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/rangeen-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/nlrZpxGg7Wn1cbJGc0EQe4PHODn.jpg",
+  "rating": 2,
+  "tmdbId": 249764,
+  "imdbId": "tt31898339",
   "addedAt": "2026-11-17T03:29:41.016Z",
   "seasons": [
    {
@@ -299082,7 +299166,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:42.897Z"
  },
  {
   "id": "rana-naidu-2025",
@@ -299353,10 +299441,10 @@
     "episode": 10
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/4kUF7cO76W4vEx70KVfwmju6Vud.jpg",
+  "rating": 7.7,
+  "tmdbId": 203202,
+  "imdbId": "tt15471900",
   "addedAt": "2026-11-17T03:29:54.580Z",
   "seasons": [
    {
@@ -299495,7 +299583,10 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-17T03:30:12.341Z"
+  "updatedAt": "2026-11-17T04:06:43.200Z",
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb"
  },
  {
   "id": "rocket-boys-2023",
@@ -299807,10 +299898,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/search-the-naina-murder-case-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/dsYE7oJoJ9sz93uXbAVHAuynre4.jpg",
+  "rating": 4.5,
+  "tmdbId": 301586,
+  "imdbId": "tt38509140",
   "addedAt": "2026-11-17T03:33:22.669Z",
   "seasons": [
    {
@@ -299872,7 +299963,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:43.493Z"
  },
  {
   "id": "sshhh-2025",
@@ -300104,10 +300199,10 @@
     "episode": 5
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/salakaar-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/n24ETnrCNuKX4O5CnQhy0lmZLYn.jpg",
+  "rating": 6,
+  "tmdbId": 294194,
+  "imdbId": "tt35077054",
   "addedAt": "2026-11-17T03:33:38.605Z",
   "seasons": [
    {
@@ -300160,7 +300255,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:43.971Z"
  },
  {
   "id": "sattamum-needhiyum-2025",
@@ -300212,10 +300311,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/sattamum-needhiyum-2025.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/ocYBlbuQvCFgNFyNrkxXcOgI7hD.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 296253,
+  "imdbId": "tt37539312",
   "addedAt": "2026-11-17T03:33:44.897Z",
   "seasons": [
    {
@@ -300286,7 +300385,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:44.122Z"
  },
  {
   "id": "special-ops-2025",
@@ -300569,10 +300672,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/seruppugal-jaakirathai-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/3fJ6p6tRkFypxLoNOZddNZ5ubvF.jpg",
+  "rating": 7,
+  "tmdbId": 287606,
+  "imdbId": "tt36167761",
   "addedAt": "2026-11-17T03:34:02.858Z",
   "seasons": [
    {
@@ -300634,7 +300737,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:44.560Z"
  },
  {
   "id": "showtime-2024",
@@ -300662,10 +300769,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/showtime-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/5uHhZfnAzZYzSKkZo1fpiqwsnPq.jpg",
+  "rating": 6,
+  "tmdbId": 241926,
+  "imdbId": "tt28075268",
   "addedAt": "2026-11-17T03:34:08.294Z",
   "seasons": [
    {
@@ -300700,7 +300807,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:44.717Z"
  },
  {
   "id": "shehar-lakhot-2023",
@@ -300758,10 +300869,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/shehar-lakhot-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/eG61dNQUTJh6GnnUOPMo2LtvC07.jpg",
+  "rating": 6.2,
+  "tmdbId": 240322,
+  "imdbId": "tt19868722",
   "addedAt": "2026-11-17T03:34:15.499Z",
   "seasons": [
    {
@@ -300841,7 +300952,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:44.869Z"
  },
  {
   "id": "scam-2003-2023",
@@ -301001,10 +301116,10 @@
     "episode": 9
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/sengalam-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/fHcPdNqcpadE4Ze7ciQF55gYQDh.jpg",
+  "rating": 5.5,
+  "tmdbId": 222914,
+  "imdbId": "tt27139477",
   "addedAt": "2026-11-17T03:34:37.672Z",
   "seasons": [
    {
@@ -301093,7 +301208,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:45.182Z"
  },
  {
   "id": "story-of-things-2023",
@@ -301133,10 +301252,10 @@
     "episode": 5
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/rSaj5DGkflhz0HjT0kHbzMC0Zz9.jpg",
+  "rating": 7,
+  "tmdbId": 217736,
+  "imdbId": "tt25151592",
   "addedAt": "2026-11-17T03:34:46.571Z",
   "seasons": [
    {
@@ -301189,7 +301308,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:45.337Z"
  },
  {
   "id": "the-game-you-never-play-alone-2025",
@@ -301241,10 +301364,10 @@
     "episode": 7
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/the-game-you-never-play-alone-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/c7WlnmjQvcKIoaUtOzzb951Hc5E.jpg",
+  "rating": 6.2,
+  "tmdbId": 300741,
+  "imdbId": "tt38126232",
   "addedAt": "2026-11-17T03:42:15.272Z",
   "seasons": [
    {
@@ -301315,7 +301438,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:45.491Z"
  },
  {
   "id": "the-trial-2025",
@@ -301427,10 +301554,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/the-chronicles-of-the-45-gang-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/8bhytwwkOOkLWGR76RubBr3IgXU.jpg",
+  "rating": 8,
+  "tmdbId": 271041,
+  "imdbId": "tt30218223",
   "addedAt": "2026-11-17T03:42:29.276Z",
   "seasons": [
    {
@@ -301492,7 +301619,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ml",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:45.820Z"
  },
  {
   "id": "the-hunt-the-rajiv-gandhi-assassination-case-2025",
@@ -301538,10 +301669,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/the-hunt-the-rajiv-gandhi-assassination-case-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/2Jz3O43oDAJZIlzfmgmbvxjRuH3.jpg",
+  "rating": 7,
+  "tmdbId": 294187,
+  "imdbId": "tt37365626",
   "addedAt": "2026-11-17T03:42:37.035Z",
   "seasons": [
    {
@@ -301603,7 +301734,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:45.976Z"
  },
  {
   "id": "the-royals-2025",
@@ -301661,10 +301796,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/the-royals-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/nnD4364ToXZwDpFWEnY94xzykIs.jpg",
+  "rating": 6.4,
+  "tmdbId": 261545,
+  "imdbId": "tt33098081",
   "addedAt": "2026-11-17T03:42:47.368Z",
   "seasons": [
    {
@@ -301744,7 +301879,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:46.125Z"
  },
  {
   "id": "the-legend-of-hanuman-2025",
@@ -301916,10 +302055,10 @@
     "episode": 6
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/touch-me-not-2025.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7U6SBHi4kZPllQe4A0NSfagPyOc.jpg",
+  "rating": 1,
+  "tmdbId": 288150,
+  "imdbId": "tt36238306",
   "addedAt": "2026-11-17T03:43:04.224Z",
   "seasons": [
    {
@@ -301981,7 +302120,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:46.416Z"
  },
  {
   "id": "the-mystery-of-moksha-island-2024",
@@ -301997,10 +302140,10 @@
     "episode": 1
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/the-mystery-of-moksha-island-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/wSqvYQ6448HO85GZcDyGJZ1uweL.jpg",
+  "rating": 5.7,
+  "tmdbId": 270823,
+  "imdbId": "tt33091601",
   "addedAt": "2026-11-17T03:43:15.934Z",
   "seasons": [
    {
@@ -302017,7 +302160,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:46.570Z"
  },
  {
   "id": "thalaivettiyaan-paalayam-2024",
@@ -302075,10 +302222,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/thalaivettiyaan-paalayam-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/iq4iF6ZKa8Z5CpeQjmxnkkRDk9z.jpg",
+  "rating": 8,
+  "tmdbId": 271589,
+  "imdbId": "tt31914166",
   "addedAt": "2026-11-17T03:43:25.427Z",
   "seasons": [
    {
@@ -302158,7 +302305,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:46.729Z"
  },
  {
   "id": "tribhuvan-mishra-ca-topper-2024",
@@ -302222,10 +302373,10 @@
     "episode": 9
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/tribhuvan-mishra-ca-topper-2024.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/OELqaq5LTrsR8l8GsjrArbxN0a.jpg",
+  "rating": 7.1,
+  "tmdbId": 258035,
+  "imdbId": "tt32832648",
   "addedAt": "2026-11-17T03:43:35.061Z",
   "seasons": [
    {
@@ -302314,7 +302465,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:46.887Z"
  },
  {
   "id": "tooth-pari-when-love-bites-2023",
@@ -302372,10 +302527,10 @@
     "episode": 8
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/tooth-pari-when-love-bites-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/aZIV0NIwDoa0vIfBW29zsmPderU.jpg",
+  "rating": 6.4,
+  "tmdbId": 224333,
+  "imdbId": "tt27191658",
   "addedAt": "2026-11-17T03:43:52.412Z",
   "seasons": [
    {
@@ -302455,7 +302610,11 @@
      }
     ]
    }
-  ]
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:47.039Z"
  },
  {
   "id": "taaza-khabar-2023",
@@ -302501,10 +302660,10 @@
     "episode": 6
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zRrF8oj20lhd2jU0Yj9dg4sP5z5.jpg",
+  "rating": 6.8,
+  "tmdbId": 203832,
+  "imdbId": "tt22014226",
   "addedAt": "2026-11-17T03:44:02.922Z",
   "seasons": [
    {
@@ -302561,6 +302720,753 @@
        {
         "quality": "HD",
         "url": "https://play.onestream.today/stream/page/77623"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "hi",
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:47.193Z"
+ },
+ {
+  "id": "uppu-puli-kaaram-2024",
+  "title": "Uppu Puli Kaaram",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/uppu-puli-kaaram-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85010",
+    "season": 1,
+    "episode": 17
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85011",
+    "season": 1,
+    "episode": 18
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85012",
+    "season": 1,
+    "episode": 19
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85013",
+    "season": 1,
+    "episode": 20
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85090",
+    "season": 1,
+    "episode": 21
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85091",
+    "season": 1,
+    "episode": 22
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85092",
+    "season": 1,
+    "episode": 23
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85093",
+    "season": 1,
+    "episode": 24
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85277",
+    "season": 1,
+    "episode": 25
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85278",
+    "season": 1,
+    "episode": 26
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85279",
+    "season": 1,
+    "episode": 27
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85280",
+    "season": 1,
+    "episode": 28
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85396",
+    "season": 1,
+    "episode": 29
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85397",
+    "season": 1,
+    "episode": 30
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85398",
+    "season": 1,
+    "episode": 31
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85399",
+    "season": 1,
+    "episode": 32
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85556",
+    "season": 1,
+    "episode": 33
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85557",
+    "season": 1,
+    "episode": 34
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85558",
+    "season": 1,
+    "episode": 35
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/85559",
+    "season": 1,
+    "episode": 36
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+  "rating": 0,
+  "tmdbId": 254896,
+  "imdbId": "tt32176709",
+  "addedAt": "2026-11-17T03:53:34.543Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 17,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85010"
+       }
+      ]
+     },
+     {
+      "episode": 18,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85011"
+       }
+      ]
+     },
+     {
+      "episode": 19,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85012"
+       }
+      ]
+     },
+     {
+      "episode": 20,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85013"
+       }
+      ]
+     },
+     {
+      "episode": 21,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85090"
+       }
+      ]
+     },
+     {
+      "episode": 22,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85091"
+       }
+      ]
+     },
+     {
+      "episode": 23,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85092"
+       }
+      ]
+     },
+     {
+      "episode": 24,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85093"
+       }
+      ]
+     },
+     {
+      "episode": 25,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85277"
+       }
+      ]
+     },
+     {
+      "episode": 26,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85278"
+       }
+      ]
+     },
+     {
+      "episode": 27,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85279"
+       }
+      ]
+     },
+     {
+      "episode": 28,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85280"
+       }
+      ]
+     },
+     {
+      "episode": 29,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85396"
+       }
+      ]
+     },
+     {
+      "episode": 30,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85397"
+       }
+      ]
+     },
+     {
+      "episode": 31,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85398"
+       }
+      ]
+     },
+     {
+      "episode": 32,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85399"
+       }
+      ]
+     },
+     {
+      "episode": 33,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85556"
+       }
+      ]
+     },
+     {
+      "episode": 34,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85557"
+       }
+      ]
+     },
+     {
+      "episode": 35,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85558"
+       }
+      ]
+     },
+     {
+      "episode": 36,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/85559"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:47.343Z"
+ },
+ {
+  "id": "undekhi-2024",
+  "title": "Undekhi",
+  "year": 2024,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/undekhi-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/84355",
+    "season": 3,
+    "episode": 1
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/undekhi-2024.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-17T03:53:40.987Z",
+  "seasons": [
+   {
+    "season": 3,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/84355"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "undekhi-2021",
+  "title": "Undekhi",
+  "year": 2021,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/undekhi-2021-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72622",
+    "season": 2,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72623",
+    "season": 2,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72624",
+    "season": 2,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72625",
+    "season": 2,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72626",
+    "season": 2,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72627",
+    "season": 2,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72628",
+    "season": 2,
+    "episode": 7
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72629",
+    "season": 2,
+    "episode": 8
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72630",
+    "season": 2,
+    "episode": 9
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/72631",
+    "season": 2,
+    "episode": 10
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/undekhi-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-17T03:53:59.315Z",
+  "seasons": [
+   {
+    "season": 2,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72622"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72623"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72624"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72625"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72626"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72627"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72628"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72629"
+       }
+      ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72630"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/72631"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "veduvan-2025",
+  "title": "Veduvan",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/veduvan-2025-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93156",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93157",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93158",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93159",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93160",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93161",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/93162",
+    "season": 1,
+    "episode": 7
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/clk0TLQGdDtsqnv1SfJBlzOc67O.jpg",
+  "rating": 0,
+  "tmdbId": 301735,
+  "imdbId": "",
+  "addedAt": "2026-11-17T03:55:54.537Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93156"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93157"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93158"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93159"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93160"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93161"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/93162"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "originalLanguage": "ta",
+  "category": "tamil-series",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-17T04:06:47.795Z"
+ },
+ {
+  "id": "vaanil-thedinen-2025",
+  "title": "Vaanil Thedinen",
+  "year": 2025,
+  "kind": "series",
+  "pageUrl": "https://moviesda34.com/vaanil-thedinen-2025-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90851",
+    "season": 6,
+    "episode": 1
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90852",
+    "season": 6,
+    "episode": 2
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90853",
+    "season": 6,
+    "episode": 3
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/90854",
+    "season": 6,
+    "episode": 4
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/vaanil-thedinen-2025.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-17T03:56:01.477Z",
+  "seasons": [
+   {
+    "season": 6,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90851"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90852"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90853"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/90854"
        }
       ]
      }
