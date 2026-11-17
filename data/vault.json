@@ -293419,6 +293419,9 @@
   "id": "sandakari-2026",
   "title": "Sandakari",
   "year": 2026,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sandakari-2026-tamil-movie/",
   "embeds": [
    {
@@ -293443,15 +293446,14 @@
   "tmdbId": 1627516,
   "imdbId": "tt11947240",
   "addedAt": "2026-11-13T19:41:10.540Z",
-  "originalLanguage": "ta",
-  "category": "tamil-movie",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-13T19:43:12.047Z"
  },
  {
   "id": "obsession-2026",
   "title": "Obsession",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/obsession-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -293467,9 +293469,7 @@
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
-  "addedAt": "2026-11-14T01:31:43.373Z",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "addedAt": "2026-11-14T01:31:43.373Z"
  },
  {
   "id": "murder-in-galicia-2026",
@@ -293573,6 +293573,8 @@
   "id": "heartland-2026",
   "title": "Heartland",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/heartland-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -293588,14 +293590,14 @@
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
-  "addedAt": "2026-11-14T01:31:47.251Z",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "addedAt": "2026-11-14T01:31:47.251Z"
  },
  {
   "id": "avengers-endgame-encore-2026",
   "title": "Avengers Endgame Encore",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/avengers-endgame-encore-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -293611,9 +293613,7 @@
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
-  "addedAt": "2026-11-14T01:31:49.116Z",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "addedAt": "2026-11-14T01:31:49.116Z"
  },
  {
   "id": "bigg-boss-2026",
@@ -293992,6 +293992,8 @@
   "id": "the-beast-2026",
   "title": "The Beast",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/the-beast-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -294007,15 +294009,16 @@
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
-  "addedAt": "2026-11-15T01:09:08.289Z",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "addedAt": "2026-11-15T01:09:08.289Z"
  },
  {
   "id": "ic-814-the-kandahar-hijack-2024",
   "title": "IC 814 The Kandahar Hijack",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ic-814-the-kandahar-hijack-2024-tamil-movie/",
   "embeds": [
    {
@@ -294121,9 +294124,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-15T23:58:34.496Z"
  },
  {
@@ -294167,6 +294167,9 @@
   "title": "Inspector Avinash",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/inspector-avinash-2023-tamil-movie/",
   "embeds": [
    {
@@ -294302,9 +294305,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-15T23:58:34.837Z"
  },
  {
@@ -294483,6 +294483,9 @@
   "title": "Jubilee",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/jubilee-2023-tamil-movie/",
   "embeds": [
    {
@@ -294648,9 +294651,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-15T23:58:35.180Z"
  },
  {
@@ -294864,6 +294864,8 @@
   "id": "russell-brand-open-secret-2026",
   "title": "Russell Brand Open Secret",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/russell-brand-open-secret-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -294879,14 +294881,15 @@
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
-  "addedAt": "2026-11-16T01:12:34.708Z",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site"
+  "addedAt": "2026-11-16T01:12:34.708Z"
  },
  {
   "id": "john-doe-2026",
   "title": "John Doe",
   "year": 2026,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/john-doe-2026-tamil-movie/",
   "embeds": [
    {
@@ -294907,15 +294910,15 @@
   "tmdbId": 1655020,
   "imdbId": "tt49855692",
   "addedAt": "2026-11-16T06:27:32.636Z",
-  "originalLanguage": "ta",
-  "category": "tamil-movie",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-16T06:28:00.344Z"
  },
  {
   "id": "premada-oorali-2026",
   "title": "Premada Oorali",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "kn",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/premada-oorali-2026-tamil-movie/",
   "embeds": [
    {
@@ -294936,9 +294939,6 @@
   "tmdbId": 1735270,
   "imdbId": "tt33381528",
   "addedAt": "2026-11-16T22:01:15.481Z",
-  "originalLanguage": "kn",
-  "category": "tamil-dubbed-movie",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-16T22:19:51.299Z"
  },
  {
@@ -294946,6 +294946,9 @@
   "title": "Kalyanam Dum Dum Dum",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kalyanam-dum-dum-dum-2025-tamil-movie/",
   "embeds": [
    {
@@ -295066,9 +295069,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:38.649Z"
  },
  {
@@ -295478,6 +295478,9 @@
   "title": "Kankhajura",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kankhajura-2025-movie/",
   "embeds": [
    {
@@ -295613,9 +295616,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.117Z"
  },
  {
@@ -295623,6 +295623,9 @@
   "title": "Kull The Legacy of the Raisingghs",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kull-the-legacy-of-the-raisingghs-2025-movie/",
   "embeds": [
    {
@@ -295758,9 +295761,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.277Z"
  },
  {
@@ -295768,6 +295768,9 @@
   "title": "Khauf",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/khauf-2025-movie/",
   "embeds": [
    {
@@ -295903,9 +295906,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.430Z"
  },
  {
@@ -295913,6 +295913,9 @@
   "title": "Kaala Paani",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kaala-paani-2023-tamil-movie/",
   "embeds": [
    {
@@ -296033,9 +296036,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.583Z"
  },
  {
@@ -296043,6 +296043,9 @@
   "title": "Love Under Construction",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/love-under-construction-2025-movie/",
   "embeds": [
    {
@@ -296148,9 +296151,6 @@
     ]
    }
   ],
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.738Z"
  },
  {
@@ -296158,6 +296158,9 @@
   "title": "Label",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/label-2023-tamil-movie/",
   "embeds": [
    {
@@ -296323,9 +296326,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:39.904Z"
  },
  {
@@ -296504,6 +296504,9 @@
   "title": "Mayasabha",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mayasabha-2025-movie/",
   "embeds": [
    {
@@ -296654,9 +296657,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:40.212Z"
  },
  {
@@ -296664,6 +296664,9 @@
   "title": "Mandala Murders",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mandala-murders-2025-movie/",
   "embeds": [
    {
@@ -296799,9 +296802,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:40.381Z"
  },
  {
@@ -296809,6 +296809,9 @@
   "title": "Mistry",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/mistry-2025-movie/",
   "embeds": [
    {
@@ -296944,9 +296947,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:40.539Z"
  },
  {
@@ -296954,6 +296954,9 @@
   "title": "Madurai Paiyanum Chennai Ponnum",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/madurai-paiyanum-chennai-ponnum-2025-movie/",
   "embeds": [
    {
@@ -297269,9 +297272,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:40.708Z"
  },
  {
@@ -297279,6 +297279,9 @@
   "title": "Manvat Murders",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "mr",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/manvat-murders-2024-tamil-movie/",
   "embeds": [
    {
@@ -297324,9 +297327,6 @@
     ]
    }
   ],
-  "originalLanguage": "mr",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:40.866Z"
  },
  {
@@ -297475,6 +297475,9 @@
   "title": "Murder in Mahim",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/murder-in-mahim-2024-tamil-movie/",
   "embeds": [
    {
@@ -297610,9 +297613,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:41.172Z"
  },
  {
@@ -297620,6 +297620,9 @@
   "title": "Modern Love Chennai",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/modern-love-chennai-2023-tamil-movie/",
   "embeds": [
    {
@@ -297725,9 +297728,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:41.326Z"
  },
  {
@@ -297942,6 +297942,9 @@
   "title": "Office",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/office-2025-movie/",
   "embeds": [
    {
@@ -298257,9 +298260,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:41.770Z"
  },
  {
@@ -298267,6 +298267,9 @@
   "title": "Oru Kodai Murder Mystery",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/oru-kodai-murder-mystery-2023-tamil-movie/",
   "embeds": [
    {
@@ -298402,9 +298405,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:41.936Z"
  },
  {
@@ -298412,6 +298412,9 @@
   "title": "Pill",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/pill-2024-tamil-movie/",
   "embeds": [
    {
@@ -298547,9 +298550,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.090Z"
  },
  {
@@ -298557,6 +298557,9 @@
   "title": "Paruvu",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/paruvu-2024-tamil-movie/",
   "embeds": [
    {
@@ -298692,9 +298695,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.253Z"
  },
  {
@@ -298702,6 +298702,9 @@
   "title": "Physics Wallah",
   "year": 2022,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/physics-wallah-2022-tamil-movie/",
   "embeds": [
    {
@@ -298732,9 +298735,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.409Z"
  },
  {
@@ -298742,6 +298742,9 @@
   "title": "Perilloor Premier League",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/perilloor-premier-league-2024-tamil-movie/",
   "embeds": [
    {
@@ -298862,9 +298865,6 @@
     ]
    }
   ],
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.567Z"
  },
  {
@@ -298872,6 +298872,9 @@
   "title": "Puli Meka",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/puli-meka-2023-tamil-movie/",
   "embeds": [
    {
@@ -299007,9 +299010,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.723Z"
  },
  {
@@ -299017,6 +299017,9 @@
   "title": "Rangeen",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/rangeen-2025-movie/",
   "embeds": [
    {
@@ -299167,9 +299170,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:42.897Z"
  },
  {
@@ -299318,6 +299318,9 @@
   "title": "Rana Naidu",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/rana-naidu-2023-movie/",
   "embeds": [
    {
@@ -299583,10 +299586,7 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-17T04:06:43.200Z",
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb"
+  "updatedAt": "2026-11-17T04:06:43.200Z"
  },
  {
   "id": "rocket-boys-2023",
@@ -299859,6 +299859,9 @@
   "title": "Search The Naina Murder Case",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/search-the-naina-murder-case-2025-tamil-movie/",
   "embeds": [
    {
@@ -299964,9 +299967,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:43.493Z"
  },
  {
@@ -300166,6 +300166,9 @@
   "title": "Salakaar",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/salakaar-2025-movie/",
   "embeds": [
    {
@@ -300256,9 +300259,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:43.971Z"
  },
  {
@@ -300266,6 +300266,9 @@
   "title": "Sattamum Needhiyum",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sattamum-needhiyum-2025-movie/",
   "embeds": [
    {
@@ -300386,9 +300389,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:44.122Z"
  },
  {
@@ -300633,6 +300633,9 @@
   "title": "Seruppugal Jaakirathai",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/seruppugal-jaakirathai-2025-movie/",
   "embeds": [
    {
@@ -300738,9 +300741,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:44.560Z"
  },
  {
@@ -300748,6 +300748,9 @@
   "title": "Showtime",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/showtime-2024-tamil-movie/",
   "embeds": [
    {
@@ -300808,9 +300811,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:44.717Z"
  },
  {
@@ -300818,6 +300818,9 @@
   "title": "Shehar Lakhot",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/shehar-lakhot-2023-tamil-movie/",
   "embeds": [
    {
@@ -300953,9 +300956,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:44.869Z"
  },
  {
@@ -301059,6 +301059,9 @@
   "title": "Sengalam",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sengalam-2023-tamil-movie/",
   "embeds": [
    {
@@ -301209,9 +301212,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:45.182Z"
  },
  {
@@ -301219,6 +301219,9 @@
   "title": "Story Of Things",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/story-of-things-2023-tamil-movie/",
   "embeds": [
    {
@@ -301309,9 +301312,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:45.337Z"
  },
  {
@@ -301319,6 +301319,9 @@
   "title": "The Game You Never Play Alone",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-game-you-never-play-alone-2025-tamil-movie/",
   "embeds": [
    {
@@ -301439,9 +301442,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:45.491Z"
  },
  {
@@ -301515,6 +301515,9 @@
   "title": "The Chronicles Of The 4.5 Gang",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-chronicles-of-the-4-5-gang-2025-movie/",
   "embeds": [
    {
@@ -301620,9 +301623,6 @@
     ]
    }
   ],
-  "originalLanguage": "ml",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:45.820Z"
  },
  {
@@ -301630,6 +301630,9 @@
   "title": "The Hunt The Rajiv Gandhi Assassination Case",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-hunt-the-rajiv-gandhi-assassination-case-2025-movie/",
   "embeds": [
    {
@@ -301735,9 +301738,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:45.976Z"
  },
  {
@@ -301745,6 +301745,9 @@
   "title": "The Royals",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-royals-2025-movie/",
   "embeds": [
    {
@@ -301880,9 +301883,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:46.125Z"
  },
  {
@@ -302016,6 +302016,9 @@
   "title": "Touch Me Not",
   "year": 2025,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/touch-me-not-2025-movie/",
   "embeds": [
    {
@@ -302121,9 +302124,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:46.416Z"
  },
  {
@@ -302131,6 +302131,9 @@
   "title": "The Mystery of Moksha Island",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-mystery-of-moksha-island-2024-tamil-movie/",
   "embeds": [
    {
@@ -302161,9 +302164,6 @@
     ]
    }
   ],
-  "originalLanguage": "te",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:46.570Z"
  },
  {
@@ -302171,6 +302171,9 @@
   "title": "Thalaivettiyaan Paalayam",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/thalaivettiyaan-paalayam-2024-tamil-movie/",
   "embeds": [
    {
@@ -302306,9 +302309,6 @@
     ]
    }
   ],
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:46.729Z"
  },
  {
@@ -302316,6 +302316,9 @@
   "title": "Tribhuvan Mishra CA Topper",
   "year": 2024,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/tribhuvan-mishra-ca-topper-2024-tamil-movie/",
   "embeds": [
    {
@@ -302466,9 +302469,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:46.887Z"
  },
  {
@@ -302476,6 +302476,9 @@
   "title": "Tooth Pari When Love Bites",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/tooth-pari-when-love-bites-2023-tamil-movie/",
   "embeds": [
    {
@@ -302611,9 +302614,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:47.039Z"
  },
  {
@@ -302621,6 +302621,9 @@
   "title": "Taaza Khabar",
   "year": 2023,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/taaza-khabar-2023-tamil-movie/",
   "embeds": [
    {
@@ -302726,9 +302729,6 @@
     ]
    }
   ],
-  "originalLanguage": "hi",
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "updatedAt": "2026-11-17T04:06:47.193Z"
  },
  {
