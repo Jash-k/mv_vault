@@ -303819,5 +303819,67 @@
   "addedAt": "2026-11-19T02:41:18.987Z",
   "category": "tamil-dubbed-movie",
   "categorySource": "site"
+ },
+ {
+  "id": "crazy-kalyanam-2026",
+  "title": "Crazy Kalyanam",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/crazy-kalyanam-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103596"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103598"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103599"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103600"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/dt6VT9GSCH6PSnTvngbF0IEnAho.jpg",
+  "rating": 0,
+  "tmdbId": 1610188,
+  "imdbId": "tt39309264",
+  "addedAt": "2026-11-19T07:24:12.272Z",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-19T07:24:39.052Z"
+ },
+ {
+  "id": "cult-2026",
+  "title": "Cult",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/cult-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103586"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103587"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103584"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103588"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/cult-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-19T07:24:21.432Z"
  }
 ]
