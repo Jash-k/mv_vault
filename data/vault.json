@@ -82166,6 +82166,54 @@
     "url": "https://play.onestream.today/stream/page/103420",
     "season": 3,
     "episode": 64
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103601",
+    "season": 3,
+    "episode": 65
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103605",
+    "season": 3,
+    "episode": 65
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103602",
+    "season": 3,
+    "episode": 66
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103606",
+    "season": 3,
+    "episode": 66
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103603",
+    "season": 3,
+    "episode": 67
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103607",
+    "season": 3,
+    "episode": 67
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103604",
+    "season": 3,
+    "episode": 68
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103608",
+    "season": 3,
+    "episode": 68
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/aHEr565AkKrwC7Q18u3OEjGavyj.jpg",
@@ -82748,11 +82796,63 @@
         "url": "https://play.onestream.today/stream/page/103420"
        }
       ]
+     },
+     {
+      "episode": 65,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103601"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103605"
+       }
+      ]
+     },
+     {
+      "episode": 66,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103602"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103606"
+       }
+      ]
+     },
+     {
+      "episode": 67,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103603"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103607"
+       }
+      ]
+     },
+     {
+      "episode": 68,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103604"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103608"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-13T07:19:23.410Z"
+  "updatedAt": "2026-11-19T20:39:08.067Z"
  },
  {
   "id": "mardini-2024",
@@ -279964,6 +280064,54 @@
     "url": "https://play.onestream.today/stream/page/103432",
     "season": 1,
     "episode": 4
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103609",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103613",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103610",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103614",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103611",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103615",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103612",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103616",
+    "season": 1,
+    "episode": 8
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/tEFSs0djTqmJdAQDLUClC9InWxd.jpg",
@@ -280026,11 +280174,63 @@
         "url": "https://play.onestream.today/stream/page/103432"
        }
       ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103609"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103613"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103610"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103614"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103611"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103615"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103612"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103616"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:36:02.710Z"
+  "updatedAt": "2026-11-19T20:37:12.054Z"
  },
  {
   "id": "jailer-2-2026",
@@ -282113,6 +282313,12 @@
     "url": "https://play.onestream.today/stream/page/103558",
     "season": 1,
     "episode": 20
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103589",
+    "season": 1,
+    "episode": 22
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/celebrity-master-chef-2026.jpg",
@@ -282303,11 +282509,20 @@
         "url": "https://play.onestream.today/stream/page/103558"
        }
       ]
+     },
+     {
+      "episode": 22,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103589"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-18T07:30:48.241Z",
+  "updatedAt": "2026-11-19T20:41:25.617Z",
   "metadataVerification": {
    "status": "inferred",
    "reason": "site section evidence; not on TMDB"
@@ -293856,6 +294071,12 @@
     "url": "https://play.onestream.today/stream/page/103552",
     "season": 10,
     "episode": 72
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103590",
+    "season": 10,
+    "episode": 74
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/bigg-boss-2026.jpg",
@@ -294073,11 +294294,20 @@
         "url": "https://play.onestream.today/stream/page/103552"
        }
       ]
+     },
+     {
+      "episode": 74,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103590"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-18T07:28:09.552Z"
+  "updatedAt": "2026-11-19T20:37:58.457Z"
  },
  {
   "id": "maaya-oviyan-2026",
@@ -303686,7 +303916,7 @@
     "episode": 4
    }
   ],
-  "poster": "",
+  "poster": "https://moviesda.ski/uploads/posters/mr-mrs-office-2026.jpg",
   "rating": 0,
   "tmdbId": 0,
   "imdbId": "",
@@ -303749,7 +303979,8 @@
      }
     ]
    }
-  ]
+  ],
+  "updatedAt": "2026-11-19T20:36:44.767Z"
  },
  {
   "id": "guarding-stars-2026",
@@ -303881,5 +304112,76 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-11-19T07:24:21.432Z"
+ },
+ {
+  "id": "haiku-2026",
+  "title": "Haiku",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/haiku-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103648"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103638"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-19T20:36:00.209Z"
+ },
+ {
+  "id": "anbil-avan-2026",
+  "title": "Anbil Avan",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/anbil-avan-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103634"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103628"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103633"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103632"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/anbil-avan-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-19T20:36:14.140Z"
+ },
+ {
+  "id": "saayavanam-2026",
+  "title": "Saayavanam",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/saayavanam-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103622"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103624"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/saayavanam-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-19T20:36:25.436Z"
  }
 ]
