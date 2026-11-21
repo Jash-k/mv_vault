@@ -305025,5 +305025,55 @@
   "addedAt": "2026-11-21T02:37:33.722Z",
   "category": "tamil-dubbed-movie",
   "categorySource": "site"
+ },
+ {
+  "id": "aot-2026",
+  "title": "AOT",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/aot-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103713"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103714"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103711"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/aot-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-21T19:14:54.444Z"
+ },
+ {
+  "id": "om-operation-mole-2026",
+  "title": "OM Operation Mole",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/om-operation-mole-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103704"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103702"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103705"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/om-operation-mole-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-21T19:15:03.044Z"
  }
 ]
