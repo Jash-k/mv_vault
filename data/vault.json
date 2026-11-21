@@ -85130,6 +85130,54 @@
     "url": "https://play.onestream.today/stream/page/103334",
     "season": 1,
     "episode": 36
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103689",
+    "season": 1,
+    "episode": 41
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103693",
+    "season": 1,
+    "episode": 41
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103690",
+    "season": 1,
+    "episode": 42
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103694",
+    "season": 1,
+    "episode": 42
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103691",
+    "season": 1,
+    "episode": 43
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103695",
+    "season": 1,
+    "episode": 43
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103692",
+    "season": 1,
+    "episode": 44
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103696",
+    "season": 1,
+    "episode": 44
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/82TCOlAlhhuTkMclDTDR4bo6lQI.jpg",
@@ -85608,11 +85656,63 @@
         "url": "https://play.onestream.today/stream/page/103334"
        }
       ]
+     },
+     {
+      "episode": 41,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103689"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103693"
+       }
+      ]
+     },
+     {
+      "episode": 42,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103690"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103694"
+       }
+      ]
+     },
+     {
+      "episode": 43,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103691"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103695"
+       }
+      ]
+     },
+     {
+      "episode": 44,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103692"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103696"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-13T07:34:40.998Z"
+  "updatedAt": "2026-11-21T07:16:07.787Z"
  },
  {
   "id": "sri-bharatha-baahubali-2024",
@@ -89317,6 +89417,54 @@
     "url": "https://play.onestream.today/stream/page/103482",
     "season": 1,
     "episode": 44
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103664",
+    "season": 1,
+    "episode": 45
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103668",
+    "season": 1,
+    "episode": 45
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103665",
+    "season": 1,
+    "episode": 46
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103669",
+    "season": 1,
+    "episode": 46
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103666",
+    "season": 1,
+    "episode": 47
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103670",
+    "season": 1,
+    "episode": 47
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103667",
+    "season": 1,
+    "episode": 48
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103671",
+    "season": 1,
+    "episode": 48
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/iXUtd6fpt15vMZSO6du1uXQjcmv.jpg",
@@ -89847,11 +89995,63 @@
         "url": "https://play.onestream.today/stream/page/103482"
        }
       ]
+     },
+     {
+      "episode": 45,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103664"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103668"
+       }
+      ]
+     },
+     {
+      "episode": 46,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103665"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103669"
+       }
+      ]
+     },
+     {
+      "episode": 47,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103666"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103670"
+       }
+      ]
+     },
+     {
+      "episode": 48,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103667"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103671"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-13T07:37:59.690Z"
+  "updatedAt": "2026-11-21T07:19:26.466Z"
  },
  {
   "id": "30-naatkalil-kaadhalippadhu-eppadi-2022",
@@ -294085,6 +294285,18 @@
     "url": "https://play.onestream.today/stream/page/103590",
     "season": 10,
     "episode": 74
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103663",
+    "season": 10,
+    "episode": 75
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103688",
+    "season": 10,
+    "episode": 76
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/bigg-boss-2026.jpg",
@@ -294311,11 +294523,29 @@
         "url": "https://play.onestream.today/stream/page/103590"
        }
       ]
+     },
+     {
+      "episode": 75,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103663"
+       }
+      ]
+     },
+     {
+      "episode": 76,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103688"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-19T20:37:58.457Z"
+  "updatedAt": "2026-11-21T07:07:32.805Z"
  },
  {
   "id": "maaya-oviyan-2026",
