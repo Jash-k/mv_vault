@@ -294297,6 +294297,12 @@
     "url": "https://play.onestream.today/stream/page/103688",
     "season": 10,
     "episode": 76
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103715",
+    "season": 10,
+    "episode": 77
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/bigg-boss-2026.jpg",
@@ -294541,11 +294547,20 @@
         "url": "https://play.onestream.today/stream/page/103688"
        }
       ]
+     },
+     {
+      "episode": 77,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103715"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-21T07:07:32.805Z"
+  "updatedAt": "2026-11-22T19:41:22.261Z"
  },
  {
   "id": "maaya-oviyan-2026",
@@ -305075,5 +305090,88 @@
   "tmdbId": 0,
   "imdbId": "",
   "addedAt": "2026-11-21T19:15:03.044Z"
+ },
+ {
+  "id": "mayookha-2026",
+  "title": "Mayookha",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/mayookha-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103752"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103751"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103748"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103750"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mayookha-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-22T19:39:01.758Z"
+ },
+ {
+  "id": "sathyavan-savithiri-2026",
+  "title": "Sathyavan Savithiri",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/sathyavan-savithiri-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103742"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103740"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103739"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/sathyavan-savithiri-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-22T19:39:15.402Z"
+ },
+ {
+  "id": "anomie-2026",
+  "title": "Anomie",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/anomie-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103733"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103732"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103727"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103729"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/anomie-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-22T19:39:31.390Z"
  }
 ]
