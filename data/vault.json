@@ -305242,5 +305242,34 @@
   "addedAt": "2026-11-23T01:52:53.372Z",
   "category": "tamil-dubbed-movie",
   "categorySource": "site"
+ },
+ {
+  "id": "happy-journey-2026",
+  "title": "Happy Journey",
+  "year": 2026,
+  "pageUrl": "https://moviesda34.com/happy-journey-2026-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103762"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103759"
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103760"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/hN2I3bWNDorwrBaYzr4ocNFVDJP.jpg",
+  "rating": 7.5,
+  "tmdbId": 1772904,
+  "imdbId": "tt42655940",
+  "addedAt": "2026-11-23T07:37:15.530Z",
+  "originalLanguage": "te",
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "updatedAt": "2026-11-23T07:54:38.638Z"
  }
 ]
