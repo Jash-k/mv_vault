@@ -1,0 +1,51 @@
+=== mv_vault · releases · 2026-11-24T12:32:16.208Z ===
+budget 2min · max-items ∞ · tmdb off · years 2026
+vault 7517 records · state 9063 tracked urls
+series folder /tamil-web-series-download/ (latest 3 pages)
+listing /tamil-web-series-download/ page 1: 20 items
+listing /tamil-web-series-download/ page 2: 20 items
+listing /tamil-web-series-download/ page 3: 20 items
+listing /tamil-2026-movies/ page 1: 20 items
+listing /tamil-2026-movies/ page 2: 20 items
+listing /tamil-2026-movies/ page 3: 20 items
+listing /tamil-2026-movies/ page 4: 20 items
+listing /tamil-2026-movies/ page 5: 20 items
+listing /tamil-2026-movies/ page 6: 20 items
+listing /tamil-2026-movies/ page 7: 20 items
+listing /tamil-2026-movies/ page 8: 20 items
+listing /tamil-2026-movies/ page 9: 20 items
+listing /tamil-2026-movies/ page 10: 20 items
+listing /tamil-2026-movies/ page 11: 20 items
+listing /tamil-2026-movies/ page 12: 20 items
+listing /tamil-2026-movies/ page 13: 20 items
+listing /tamil-2026-movies/ page 14: 20 items
+listing /tamil-2026-movies/ page 15: 20 items
+listing /tamil-2026-movies/ page 16: 20 items
+listing /tamil-2026-movies/ page 17: 20 items
+listing /tamil-2026-movies/ page 18: 20 items
+listing /tamil-2026-movies/ page 19: 20 items
+listing /tamil-2026-movies/ page 20: 20 items
+listing /tamil-2026-movies/ page 21: 20 items
+listing /tamil-2026-movies/ page 22: 20 items
+listing /tamil-2026-movies/ page 23: 20 items
+listing /tamil-2026-movies/ page 24: 3 items
+year folder   /tamil-2026-movies/ → 463 items
+  ! Bigg Boss (2026)                         series walk paused by budget; retry required
+  ! Bigg Boss Season 10 (2026)               series walk paused by budget; retry required
+· releases: 2 items (0 movies, 2 series) → 0 walked
+· 606 items on the year folder + series folder · 0 walked · 0 skipped
+metadata disabled by --tmdb-limit=0 / --metadata-budget-min=0
+
+=== summary · releases ===
+items walked   0  (added 0 · merged 0 · unchanged 0)
+empty/failed   0 empty · 2 failed · 0 skipped (already stored/recent)
+series refresh 2 stored series re-walked for new episodes
+tmdb           disabled
+metadata       0 actually attempted · 0 matched · 0 changed · 0 unresolved · 0 review · 0 unavailable · 0 not reached
+http           167 requests · 0 retries · 0 gave up · 1.4 MB
+vault          7517 records (6897 movies · 620 series) · 22199 embeds
+categories     tamil-dubbed-movie 3923 · tamil-movie 2944 · tamil-dubbed-series 381 · tamil-series 228
+duration       2m · stopped by budget
+failures
+  ! /bigg-boss-2026-tamil-web-series/ — series walk paused by budget; retry required
+  ! /bigg-boss-season-10-web-series/ — series walk paused by budget; retry required

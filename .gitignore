@@ -3,3 +3,8 @@ node_modules/
 .env*.local
 *.tmp
 .DS_Store
+
+# Ephemeral writer lock; never publish credentials or private env files.
+data/.historic.lock
+.env*
+*.private.env

@@ -143,6 +143,12 @@ export async function runMetadataWorker(vault, state, options = {}) {
       else if (outcome.status === 'review') result.review += 1;
       else result.misses += 1;
       const entry = rememberMetadata(state, record, outcome, { override: overrides[record.id] });
+      record.metadataVerification = { status: outcome.status === 'matched' ? 'verified' : outcome.status,
+        reason: outcome.reason || outcome.status, checkedAt: entry.checkedAt,
+        ...(outcome.meta ? { tmdbId: outcome.meta.tmdbId, tmdbType: outcome.meta.tmdbType,
+          evidenceUrls: [...new Set([`https://www.themoviedb.org/${outcome.meta.tmdbType}/${outcome.meta.tmdbId}`,
+            ...(outcome.meta.evidence?.sourceUrl ? [outcome.meta.evidence.sourceUrl] : [])])] } : {}) };
+
       result.reasons[entry.reason] = (result.reasons[entry.reason] || 0) + 1;
       result.audit.push({ id: record.id, title: record.title, year: record.year, ...entry,
         ...(outcome.meta ? { tmdbId: outcome.meta.tmdbId, tmdbType: outcome.meta.tmdbType,

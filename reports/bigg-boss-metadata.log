@@ -1,0 +1,17 @@
+=== mv_vault · enrich · 2026-11-24T12:37:01.540Z ===
+budget 1min · max-items ∞ · tmdb on (6 keys)
+vault 7517 records · state 9063 tracked urls
+metadata identity/classification needed: 1 · eligible now: 1 · this run: 1 · retry later: 0
+metadata own budget 1min · 4 parallel lookups · newest + backlog + optional lanes
+  ★ Bigg Boss (2026) — matched: reviewed-override · ta · tamil-series
+metadata 1 actually attempted · 1 matched · 1 changed · 0 unresolved · 0 review · 0 unavailable · 0 not reached
+
+=== summary · enrich ===
+items walked   0  (added 0 · merged 0 · unchanged 0)
+empty/failed   0 empty · 0 failed · 0 skipped (already stored/recent)
+tmdb           1 records filled · 1 categories (0 from site) · 0 no exact match
+metadata       1 actually attempted · 1 matched · 1 changed · 0 unresolved · 0 review · 0 unavailable · 0 not reached
+http           0 requests · 0 retries · 0 gave up · 0.0 MB
+vault          7517 records (6897 movies · 620 series) · 22298 embeds
+categories     tamil-dubbed-movie 4540 · tamil-movie 2328 · tamil-series 139 · tamil-dubbed-series 491
+duration       0m

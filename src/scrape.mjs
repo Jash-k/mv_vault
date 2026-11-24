@@ -25,36 +25,17 @@
  * Quality policy (unchanged, user-locked): keep 1080p + 720p; fall back to
  * 360p/other rips ONLY when a film has neither.
  *
- * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviezda.net,
- * moviesda.ski) redirects to one live host, so we FETCH from whichever domain is
- * current. What we STORE in pageUrl/state stays on the canonical origin so
- * existing data and keys never fork.
- *
- * Both hosts are env-driven — set them in GitHub (Settings → Secrets and
- * variables → Actions → Variables) or in your shell:
- *
- *   MOVIESDA_HOST   fetch host.   Default https://moviesda.ski (the domain
- *                   moviezda.net moved to; it currently redirects to
- *                   moviezda.co — set MOVIESDA_HOST=moviezda.co to skip the hop).
- *   MOVIESDA_CANON  stored origin. Default https://moviesda34.com — LEAVE THIS
- *                   ALONE unless you want new links stored under a new domain:
- *                   changing it forks the state keys and forces one full
- *                   re-walk. A bare domain (moviesda.ski) is fine, the scheme
- *                   is added for you.
+ * Hosts: every moviesda domain (moviesda34.com, moviesdatamil.net, moviezda.net)
+ * redirects to moviezda.net today, so that is the host we FETCH. What we STORE
+ * in pageUrl/state stays on moviesda34.com so existing data and keys never fork.
  */
 import * as cheerio from 'cheerio';
+import { parseSourceMetadata } from './source-metadata.mjs';
 
-/** Read a host from env, forgiving a bare domain or a trailing slash. */
-const hostFromEnv = (name, fallback) => {
-  const raw = String(process.env[name] || '').trim().replace(/\/+$/, '');
-  if (!raw) return fallback;
-  return /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-};
-
-/** The host we FETCH from. Change via MOVIESDA_HOST — never edit code for this. */
-export const LIVE = hostFromEnv('MOVIESDA_HOST', 'https://moviesda.ski');
-/** Canonical origin used inside pageUrl + state.json keys. Change via MOVIESDA_CANON. */
-export const CANON = hostFromEnv('MOVIESDA_CANON', 'https://moviesda34.com');
+/** The host every domain redirects to today. Change this one line if it moves. */
+export const LIVE = String(process.env.MOVIESDA_HOST || 'https://moviesda.ski').replace(/\/$/, '').replace(/^(?!https?:\/\/)/, 'https://');
+/** Canonical origin used inside pageUrl + state.json keys. Never rewritten. */
+export const CANON = 'https://moviesda34.com';
 /** Poster files live on the fetch host. */
 export const POSTER_HOST = LIVE;
 
@@ -64,7 +45,7 @@ export const POSTER_HOST = LIVE;
  * trusted — so a fix like "series under movie paths" takes effect on the next
  * pass instead of waiting out a 7-day empty window.
  */
-export const WALK_VERSION = 2;
+export const WALK_VERSION = 3;
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.TIMEOUT_MS || 15000);
@@ -80,15 +61,16 @@ export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const paced = () => sleep(DELAY_MS + Math.floor(Math.random() * 120));
 
 /** fetch + retry. Hard 404 is not retried; 5xx/429/network is. */
-export async function getHtml(url) {
+export async function getHtml(url, { signal } = {}) {
   let lastError = new Error('not attempted');
   for (let attempt = 1; attempt <= TRIES; attempt += 1) {
+    if (signal?.aborted) throw new Error('metadata request cancelled');
     const started = Date.now();
     try {
       const res = await fetch(url, {
         headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9' },
         redirect: 'follow',
-        signal: AbortSignal.timeout(TIMEOUT_MS),
+        signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(TIMEOUT_MS)]) : AbortSignal.timeout(TIMEOUT_MS),
       });
       if (!res.ok) {
         await res.body?.cancel();
@@ -102,6 +84,7 @@ export async function getHtml(url) {
       return { html, ms: Date.now() - started };
     } catch (error) {
       lastError = error;
+      if (signal?.aborted) break;
       if (error.retryable === false || attempt === TRIES) break;
       stats.retries += 1;
       await sleep(500 * attempt + Math.floor(Math.random() * 400));
@@ -150,7 +133,7 @@ export const looksBlocked = (html = '') => {
 };
 
 /** Item links on a listing page → [{ path, url, label, kind }] (deduped, in page order). */
-export function parseListing(html, pageUrl, { base = CANON, dubbed = false } = {}) {
+export function parseListing(html, pageUrl, { base = CANON, dubbed = false, includeCollections = false } = {}) {
   if (looksBlocked(html)) throw new Error(`blocked/challenge document at ${pageUrl}`);
   const $ = cheerio.load(html);
   const out = new Map();
@@ -160,7 +143,7 @@ export function parseListing(html, pageUrl, { base = CANON, dubbed = false } = {
     let path;
     try { path = new URL(raw, pageUrl).pathname; } catch { return; }
     path = path.replace(/\/+$/, '') + '/';
-    const wanted = dubbed ? DUB_ITEM_RX.test(path) && !DUB_SKIP_RX.test(path) : isItemPath(path);
+    const wanted = dubbed ? DUB_ITEM_RX.test(path) && (!DUB_SKIP_RX.test(path) || (includeCollections && /-collections?\/$/.test(path))) : isItemPath(path);
     if (!wanted || out.has(path)) return;
     const label = $(el).text().replace(/\s+/g, ' ').trim();
     out.set(path, {
@@ -180,29 +163,42 @@ export function parseListing(html, pageUrl, { base = CANON, dubbed = false } = {
  * Stops on: empty page, a page that repeats everything already seen, maxPages,
  * or the deadline. Returns every item found.
  */
+/** Follow source-declared pagination: query pages AND /letter/2 routes. */
+export function nextListingUrl(html, currentUrl) {
+  const current = new URL(currentUrl);
+  const root = current.pathname.replace(/\/\d+\/?$/, '').replace(/\/$/, '');
+  const page = Number(current.searchParams.get('page') || current.searchParams.get('get-page') || current.pathname.match(/\/(\d+)\/?$/)?.[1] || 1);
+  const $ = cheerio.load(html), candidates = [];
+  $('a[href]').each((_, el) => {
+    let target;
+    try { target = new URL($(el).attr('href'), current); } catch { return; }
+    if (!['http:', 'https:'].includes(target.protocol)) return;
+    const path = target.pathname.replace(/\/$/, '');
+    const targetRoot = path.replace(/\/\d+$/, '');
+    if (targetRoot !== root) return;
+    const n = Number(target.searchParams.get('page') || target.searchParams.get('get-page') || path.match(/\/(\d+)$/)?.[1] || 1);
+    if (n > page) { target.host = current.host; target.protocol = current.protocol; candidates.push([n,target.href]); }
+  });
+  candidates.sort((a,b)=>a[0]-b[0]);
+  return candidates[0]?.[1] || '';
+}
+
 export async function discover(path, { param = 'page', maxPages = 40, deadline = 0, log = () => {}, host = LIVE, canonBase = CANON, dubbed = false } = {}) {
-  const items = new Map();
-  const seenFingerprints = new Set();
-  const base = `${host}${path}`;
-  for (let page = 1; page <= maxPages; page += 1) {
-    if (deadline && Date.now() > deadline) { log(`  · listing ${path} paused by budget at page ${page}`); break; }
-    const url = page === 1 || !param ? base : `${base}${base.includes('?') ? '&' : '?'}${param}=${page}`;
+  const items = new Map(), seen = new Set();
+  let url = `${host}${path}`;
+  for (let page = 1; page <= maxPages; page++) {
+    if (deadline && Date.now() > deadline) { log(`listing paused by budget: ${path}`); break; }
     let html;
-    try { ({ html } = await getHtml(url)); } catch (error) { log(`  ! listing ${url} — ${error.message}`); break; }
-    let rows;
-    try { rows = parseListing(html, url, { base: canonBase, dubbed }); } catch (error) { log(`  ! ${error.message}`); break; }
-    const fingerprint = rows.map((r) => r.path).sort().join('|');
-    if (!rows.length || seenFingerprints.has(fingerprint)) {
-      // Page 1 with nothing on it = the folder exists but is still empty
-      // (e.g. /tamil-2027-movies/ before the year starts). Not an error.
-      log(page > 1 ? `  · listing ${path} ended at page ${page}` : `  · listing ${path} has no items yet`);
-      break;
-    }
-    seenFingerprints.add(fingerprint);
-    let fresh = 0;
-    for (const row of rows) if (!items.has(row.path)) { items.set(row.path, row); fresh += 1; }
-    log(`  · listing ${path} page ${page}: ${rows.length} items (${fresh} new)`);
-    if (!fresh) break;
+    try { ({ html } = await getHtml(url)); } catch (error) { log(`listing failed: ${path}`); break; }
+    const rows = parseListing(html,url,{base:canonBase,dubbed,includeCollections:path.includes('collections')});
+    const fingerprint = rows.map(r=>r.path).sort().join('|');
+    if (!rows.length || seen.has(fingerprint)) break;
+    seen.add(fingerprint);
+    for (const row of rows) items.set(row.path,row);
+    log(`listing ${path} page ${page}: ${rows.length} items`);
+    const next = nextListingUrl(html,url);
+    if (!param || !next) break;
+    url = next;
     await paced();
   }
   return [...items.values()];
@@ -234,6 +230,9 @@ function folderLinks(html, base) {
     if (!hasQuality && !singleSegment) return;
     const url = absolute(base, href);
     if (!url || seen.has(url)) return;
+    const target = new URL(url);
+    if (target.origin !== new URL(base).origin || target.pathname.includes('/download/')) return;
+    if (target.searchParams.has('page') || target.searchParams.has('get-page')) return;
     seen.add(url);
     out.push({ url, href, label, quality: qualityOf(label, href) });
   });
@@ -396,71 +395,94 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
  * The flat shape has no quality token at all, so those episodes are stored as
  * 'HD' (the same convention already used in the vault) — never dropped.
  */
-export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = {}) {
+export async function walkSeries(url, { deadline = 0, html: prefetched = '', maxEpisodePages = 50 } = {}) {
+  const checkBudget = () => {
+    if (deadline && Date.now() >= deadline) throw new Error('series walk paused by budget; retry required');
+  };
+  checkBudget();
   const itemHtml = prefetched || (await getHtml(url)).html;
-  if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
+  if (looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
-  const origin = new URL(url).origin;
+  const jobs = new Map();
+  let incomplete = false;
+  const visitedFolders = new Set();
 
-  const jobs = []; // { slugUrl, quality, season, episode }
-  const addSlugs = (html, base, qualityHint, seasonHint) => {
-    for (const slug of episodeSlugs(html, base)) {
-      const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
-      jobs.push({
-        slugUrl: slug.url,
-        quality: declared ? qualityOf(slug.label, slug.href) : (qualityHint || 'HD'),
-        season: seasonOf(slug.href) || seasonHint || 1,
-        episode: episodeOf(slug.href),
+  // Pagination belongs to this exact folder, never to a different season/show.
+  // Read every linked page; never guess page numbers or treat ?page=2 as a folder.
+  async function pages(folderUrl, firstHtml) {
+    const pending = [folderUrl];
+    const seen = new Set();
+    const result = [];
+    while (pending.length) {
+      if (deadline && Date.now() >= deadline) { incomplete = true; break; }
+      const pageUrl = pending.shift();
+      if (seen.has(pageUrl)) continue;
+      if (seen.size >= maxEpisodePages) { incomplete = true; break; }
+      seen.add(pageUrl);
+      let html;
+      try { html = pageUrl === folderUrl && firstHtml ? firstHtml : (await getHtml(pageUrl)).html; }
+      catch { incomplete = true; continue; }
+      if (looksBlocked(html)) { incomplete = true; continue; }
+      result.push({ html, url: pageUrl });
+      const $ = cheerio.load(html);
+      $('a[href]').each((_, a) => {
+        const href = absolute(pageUrl, $(a).attr('href'));
+        if (!href) return;
+        const next = new URL(href); const base = new URL(folderUrl);
+        if (next.origin !== base.origin || next.pathname !== base.pathname) return;
+        const page = next.searchParams.get('page') || next.searchParams.get('get-page');
+        if (!/^[1-9]\d*$/.test(page || '')) return;
+        next.hash = '';
+        if (Number(page) === 1) next.search = base.search;
+        if (!seen.has(next.href) && !pending.includes(next.href)) pending.push(next.href);
       });
     }
-  };
-
-  const itemLinks = folderLinks(itemHtml, origin);
-  const seasonFolders = itemLinks.filter((l) => SEASON_FOLDER_RX.test(l.href));
-
-  if (seasonFolders.length) {
-    for (const seasonFolder of seasonFolders) {
-      if (deadline && Date.now() > deadline) break;
-      const seasonHint = seasonOf(seasonFolder.href) || 1;
-      // A season link that is just this same page (single-page shows) — no refetch.
-      const samePage = new URL(seasonFolder.url).pathname === new URL(url).pathname;
-      await paced();
-      let seasonHtml = itemHtml;
-      if (!samePage) {
-        try { ({ html: seasonHtml } = await getHtml(seasonFolder.url)); } catch { continue; }
-      }
-      const qualityFolders = folderLinks(seasonHtml, new URL(seasonFolder.url).origin)
-        .filter((l) => /\d{3,4}p/i.test(l.href) || PREFERRED.test(l.quality));
-      if (!qualityFolders.length) { addSlugs(seasonHtml, seasonFolder.url, 'HD', seasonHint); continue; }
-
-      qualityFolders.sort((a, b) => rank(a.quality) - rank(b.quality));
-      for (const qf of qualityFolders) {
-        if (deadline && Date.now() > deadline) break;
-        await paced();
-        try {
-          const { html: qfHtml } = await getHtml(qf.url);
-          addSlugs(qfHtml, qf.url, qf.quality, seasonHint);
-        } catch { /* quality folder gone */ }
-      }
-    }
-  } else {
-    // Flat shape: episodes are on the item page itself. No quality token, so
-    // 'HD' unless the slug or its label declares one.
-    addSlugs(itemHtml, url, 'HD', 1);
+    return result;
   }
 
-  if (!jobs.length) return { kind: 'series', seasons: [], embeds: [], poster };
+  async function visit(folderUrl, firstHtml, qualityHint = 'HD', seasonHint = 1, depth = 0) {
+    if (deadline && Date.now() >= deadline) { incomplete = true; return; }
+    if (visitedFolders.has(folderUrl)) return;
+    if (visitedFolders.size >= 80) { incomplete = true; return; }
+    visitedFolders.add(folderUrl);
+    const children = new Map();
+    for (const page of await pages(folderUrl, firstHtml)) {
+      for (const slug of episodeSlugs(page.html, page.url)) {
+        const declared = /(1080p|720p|480p|360p)/i.test(`${slug.label} ${slug.href}`);
+        jobs.set(slug.url, {
+          slugUrl: slug.url,
+          quality: declared ? qualityOf(slug.label, slug.href) : qualityHint,
+          season: seasonOf(slug.href) || seasonHint,
+          episode: episodeOf(slug.href),
+        });
+      }
+      for (const link of folderLinks(page.html, page.url)) {
+        if (new URL(link.url).pathname === new URL(folderUrl).pathname) continue;
+        if (depth === 0 ? SEASON_FOLDER_RX.test(link.href) || /\d{3,4}p/i.test(link.href) : /\d{3,4}p/i.test(link.href)) children.set(link.url, link);
+      }
+    }
+    if (depth >= 2) return;
+    for (const child of children.values()) {
+      await visit(child.url, '', child.quality === 'HD' ? qualityHint : child.quality, seasonOf(child.href) || seasonHint, depth + 1);
+    }
+  }
+  await visit(url, itemHtml, 'HD', seasonOf(url) || 1);
 
-  // Each episode slug page → the numeric file id (parallel, order preserved)
-  const idRows = (await mapLimit(jobs, 3, async (job) => {
+  // Confirm per episode, not after every slug has been fetched. A bounded
+  // partial walk must retain the episodes already confirmed before its deadline.
+  const confirmed = (await mapLimit([...jobs.values()], 3, async job => {
+    if (deadline && Date.now() >= deadline) { incomplete = true; return []; }
     try {
       const { html } = await getHtml(job.slugUrl);
-      return fileIds(html).slice(0, 1).map((id) => ({ id, ...job }));
-    } catch { return []; }
+      const id = fileIds(html)[0];
+      if (!id) { incomplete = true; return []; }
+      if (deadline && Date.now() >= deadline) { incomplete = true; return []; }
+      const embed = await confirmEmbed(id);
+      if (!embed) incomplete = true;
+      return embed ? [{ row: { id, ...job }, embed }] : [];
+    } catch { incomplete = true; return []; }
   })).flat();
-
-  // Confirm each id (parallel) → embed
-  const confirmed = await mapLimit(idRows, 4, async (row) => ({ row, embed: await confirmEmbed(row.id) }));
+  if (deadline && Date.now() >= deadline) incomplete = true;
 
   const seasons = new Map(); // season → Map(episode → Map(url → quality))
   for (const { row, embed } of confirmed) {
@@ -486,7 +508,7 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = 
     }
     if (episodes.length) seasonList.push({ season, episodes });
   }
-  return { kind: 'series', seasons: seasonList, embeds: flat, poster };
+  return { kind: 'series', seasons: seasonList, embeds: flat, poster, incomplete };
 }
 
 /**
@@ -498,12 +520,14 @@ export async function walkSeries(url, { deadline = 0, html: prefetched = '' } = 
 export async function walkItem(url, options = {}) {
   const html = options.html || (await getHtml(url)).html;
   if (!options.html && looksBlocked(html)) throw new Error(`blocked/challenge document for ${url}`);
-  if (planWalk(html, url) === 'series') return walkSeries(url, { ...options, html });
+  const sourceMetadata = parseSourceMetadata(html, url);
+  const attach = result => ({ ...result, sourceMetadata });
+  if (planWalk(html, url) === 'series') return attach(await walkSeries(url, { ...options, html }));
 
   const movie = await walkMovie(url, { ...options, html });
-  if (embedCount(movie)) return movie;
+  if (embedCount(movie)) return attach(movie);
   const asSeries = await walkSeries(url, { ...options, html });
-  return embedCount(asSeries) > embedCount(movie) ? asSeries : movie;
+  return attach(embedCount(asSeries) > embedCount(movie) ? asSeries : movie);
 }
 
 /** How many embeds a walk result carries. */
@@ -523,24 +547,18 @@ export async function walkItem(url, options = {}) {
  */
 export async function probeEmbed(url) {
   try {
-    const res = await fetch(url, {
-      headers: { 'user-agent': UA, accept: 'text/html,*/*' },
-      redirect: 'follow',
-      signal: AbortSignal.timeout(12000),
-    });
+    const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'text/html,*/*' },
+      redirect: 'follow', signal: AbortSignal.timeout(12000) });
     stats.requests += 1;
-    if (res.status === 404 || res.status === 410) return { verdict: 'dead', reason: `http ${res.status}` };
-    if (!res.ok) return { verdict: 'unknown', reason: `http ${res.status}` };
+    if (res.status === 404 || res.status === 410) { await res.body?.cancel(); return { verdict: 'dead', reason: `http ${res.status}` }; }
+    if (!res.ok) { await res.body?.cancel(); return { verdict: 'unknown', reason: `http ${res.status}` }; }
     const html = await res.text();
     stats.bytes += html.length;
-    const titled = (html.match(/<title>\s*([^<]*)/i) || [])[1] || '';
-    const alive = html.length >= 400 && /source\s+src|<video|player|<title>/i.test(html);
-    return alive
-      ? { verdict: 'alive', bytes: html.length, note: titled.trim().slice(0, 60) }
-      : { verdict: 'dead', bytes: html.length, reason: `${html.length} bytes, no player page` };
-  } catch (error) {
-    return { verdict: 'unknown', reason: error?.name === 'TimeoutError' ? 'timeout' : 'network' };
-  }
+    if (looksBlocked(html) || /temporar(?:ily|y)|maintenance|service unavailable|just a moment|access denied/i.test(html)) return { verdict: 'unknown', reason: 'challenge-or-maintenance' };
+    const player = /<(?:video|source)\b[^>]*\bsrc\s*=|jwplayer\s*\(|new\s+Plyr\s*\(|player\.src\s*\(/i.test(html);
+    return player ? { verdict: 'alive', bytes: html.length, note: 'player markup only; playback not tested' }
+      : { verdict: 'unknown', bytes: html.length, reason: 'no-confirmed-player-markup' };
+  } catch { return { verdict: 'unknown', reason: 'request-failed' }; }
 }
 
 /* ---------------------------------------------------------- isaiDub walker */
@@ -692,10 +710,13 @@ async function dubDownloadIds(pageUrl, html, out, { quality = '720p', episode = 
  * The season/episode form covers Pokémon-style shows where each episode is its own
  * mini page. Everything is confirmed on the dub player page before it is stored.
  */
-export async function walkDubbed(url, { deadline = 0, html: prefetched = '', maxEpisodePages = 10, title = '' } = {}) {
+export async function walkDubbed(url, { deadline = 0, html: prefetched = '', maxEpisodePages = 100, maxEpisodeItems = 2000, maxSeasons = 100, title = '' } = {}) {
+  let incomplete = false;
+  if (deadline && Date.now() > deadline) throw new Error('walk budget expired');
   const itemHtml = prefetched || (await getHtml(url)).html;
   if (!prefetched && looksBlocked(itemHtml)) throw new Error(`blocked/challenge document for ${url}`);
   const poster = posterFromHtml(itemHtml);
+  const sourceMetadata = parseSourceMetadata(itemHtml, url);
   const rows = dubLinks(itemHtml, url);
 
   /* ---------- series, episode-list shape: every row is one episode page ---------- */
@@ -705,24 +726,26 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
     const addEp = (r) => { if (!episodes.has(r.path)) episodes.set(r.path, { season: dubSeasonIn(r.text) || 0, episode: dubEpisodesIn(r.text), url: r.url, text: r.text }); };
     for (const r of episodeRows) addEp(r);
     // follow the pagination of the item page for the rest of the episodes
-    const base = url.replace(/\?.*$/, '');
-    for (let page = 2; page <= maxEpisodePages; page += 1) {
-      if (deadline && Date.now() > deadline) break;
+    let next = nextListingUrl(itemHtml, url), pages = 1;
+    const visited = new Set([url]);
+    while (next) {
+      if ((deadline && Date.now() > deadline) || pages >= maxEpisodePages || visited.has(next)) { incomplete = true; break; }
+      visited.add(next);
       let html;
-      try { ({ html } = await getHtml(`${base}?get-page=${page}`)); } catch { break; }
-      let fresh = 0;
-      for (const r of dubLinks(html, url).filter((x) => /^\/movie\//.test(x.path) && dubEpisodesIn(x.text))) {
-        if (!episodes.has(r.path)) { addEp(r); fresh += 1; }
-      }
-      if (!fresh) break;
+      try { ({ html } = await getHtml(next)); } catch { incomplete = true; break; }
+      for (const r of dubLinks(html, next).filter(x => /^\/movie\//.test(x.path) && dubEpisodesIn(x.text))) addEp(r);
+      pages++;
+      next = nextListingUrl(html,next);
       await paced();
     }
-    const list = [...episodes.values()].sort((a, b) => b.episode - a.episode).slice(0, 200);
+    const allEpisodes = [...episodes.values()].sort((a,b)=>a.season-b.season || a.episode-b.episode);
+    if (allEpisodes.length > maxEpisodeItems) incomplete = true;
+    const list = allEpisodes.slice(0,maxEpisodeItems);
     const got = [];
     await mapLimit(list, 3, async (ep) => {
-      if (deadline && Date.now() > deadline) return;
+      if (deadline && Date.now() > deadline) { incomplete = true; return; }
       let epHtml;
-      try { ({ html: epHtml } = await getHtml(ep.url)); } catch { return; }
+      try { ({ html: epHtml } = await getHtml(ep.url)); } catch { incomplete = true; return; }
       const ids = new Map();
       await dubDownloadIds(ep.url, epHtml, ids, { quality: '720p', episode: ep.episode, deadline });
       const ordered = [...ids.entries()].sort((a, b) => rank(a[1].quality) - rank(b[1].quality)).slice(0, 2);
@@ -731,7 +754,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
         if (playable) got.push({ season: ep.season, episode: ep.episode, quality: info.quality, url: playable });
       }
     });
-    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster };
+    if (!got.length) return { kind: 'series', seasons: [], embeds: [], poster, sourceMetadata, incomplete };
     const fallbackSeason = dubSeasonIn(episodeRows[0].text) || 1;
     const bySeason = new Map();
     for (const g of got) {
@@ -746,25 +769,27 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       episodes: [...eps.entries()].sort((a, b) => a[0] - b[0]).map(([episode, embeds]) => ({ episode, embeds })),
     }));
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster };
+    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata, incomplete };
   }
 
   /* ---------- series, season-folder shape: rows are (Season NN) folders ---------- */
   const seasonRows = rows.filter((r) => /^\/movie\//.test(r.path) && dubSeasonIn(r.text));
   if (seasonRows.length) {
     const seasons = [];
-    for (const seasonRow of seasonRows.slice(0, 6)) {
-      if (deadline && Date.now() > deadline) break;
+    if (seasonRows.length > maxSeasons) incomplete = true;
+    for (const seasonRow of seasonRows.slice(0, maxSeasons)) {
+      if (deadline && Date.now() > deadline) { incomplete = true; break; }
       const season = dubSeasonIn(seasonRow.text) || seasons.length + 1;
       let seasonHtml;
-      try { ({ html: seasonHtml } = await getHtml(seasonRow.url)); } catch { continue; }
+      try { ({ html: seasonHtml } = await getHtml(seasonRow.url)); } catch { incomplete = true; continue; }
       const ids = new Map();
       await dubDownloadIds(seasonRow.url, seasonHtml, ids, { quality: '720p', episode: 0, deadline });
       const byEpisode = new Map();
       let auto = 0;
       for (const [id, info] of ids) {
         auto += 1;
-        const ep = info.episode || auto;
+        const ep = info.episode;
+        if (!ep) { incomplete = true; continue; } // Never invent episode numbers from link order.
         if (!byEpisode.has(ep)) byEpisode.set(ep, []);
         byEpisode.get(ep).push({ id, quality: info.quality });
       }
@@ -772,7 +797,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       await mapLimit([...byEpisode.entries()].sort((a, b) => a[0] - b[0]), 3, async ([ep, list]) => {
         const embeds = [];
         for (const { id, quality } of list.sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 2)) {
-          if (deadline && Date.now() > deadline) break;
+          if (deadline && Date.now() > deadline) { incomplete = true; break; }
           if (embeds.some((e) => e.quality === quality)) continue;
           const playable = await confirmDubEmbed(id, title);
           if (playable) embeds.push({ quality, url: playable });
@@ -783,7 +808,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       await paced();
     }
     const flat = seasons.flatMap((s) => s.episodes.flatMap((ep) => ep.embeds.map((e) => ({ ...e, season: s.season, episode: ep.episode }))));
-    return { kind: 'series', seasons, embeds: flat, poster };
+    return { kind: 'series', seasons, embeds: flat, poster, sourceMetadata, incomplete };
   }
 
   /* ---------- movie: quality folders sit under a stage folder (Original/…),
@@ -795,12 +820,12 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
       .sort((a, b) => rank(dubQuality(a.text, a.href)) - rank(dubQuality(b.text, b.href))).slice(0, 2),
     ...movieRows.filter((r) => !dubQuality(r.text, r.href)).slice(0, 2),
   ];
-  if (!sources.length) return { kind: 'movie', embeds: [], poster };
+  if (!sources.length) return { kind: 'movie', embeds: [], poster, sourceMetadata, incomplete };
   const collected = new Map();               // id → { quality }
   for (const src of sources) {
-    if (deadline && Date.now() > deadline) break;
+    if (deadline && Date.now() > deadline) { incomplete = true; break; }
     let srcHtml;
-    try { ({ html: srcHtml } = await getHtml(src.url)); } catch { continue; }
+    try { ({ html: srcHtml } = await getHtml(src.url)); } catch { incomplete = true; continue; }
     await dubDownloadIds(src.url, srcHtml, collected, { quality: dubQuality(src.text, src.href) || '720p', episode: 0, deadline });
     if (collected.size >= 4) break;
     await paced();
@@ -812,7 +837,7 @@ export async function walkDubbed(url, { deadline = 0, html: prefetched = '', max
     if (playable) embeds.push({ quality: info.quality, url: playable });
   });
   const preferred = embeds.filter((e) => /^(1080p|720p)$/i.test(e.quality));
-  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster };
+  return { kind: 'movie', embeds: preferred.length ? preferred : embeds, poster, sourceMetadata, incomplete };
 }
 
 export const embedCount = (walked) => walked.kind === 'series' 

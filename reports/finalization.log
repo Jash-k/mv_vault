@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-11-24T12:37:00.690Z",
+  "metadataJoined": 670,
+  "publishedRecovered": 482,
+  "before": {
+    "records": 7502,
+    "movies": 6889,
+    "series": 613,
+    "embeds": 22134,
+    "episodes": 6500,
+    "missingTmdb": 1748,
+    "missingPoster": 376,
+    "unverified": 1747
+  },
+  "after": {
+    "records": 7517,
+    "movies": 6897,
+    "series": 620,
+    "embeds": 22298,
+    "episodes": 6640,
+    "missingTmdb": 982,
+    "missingPoster": 294,
+    "unverified": 981
+  },
+  "preservedBaselineIds": 7502,
+  "preservedBaselineEmbeds": 22134,
+  "integrityIssues": 0,
+  "sha256": "a71c4440343b3b0112c5b390e2a0aa09087c00334b7cac3dc71fd68b38036b95",
+  "unresolved": 981,
+  "limitations": [
+    "Verification concerns metadata identity, not copyright authorization or video playback.",
+    "Historical coverage and pending work are separately reported in historic-coverage.json."
+  ]
+}

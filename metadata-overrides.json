@@ -1,1 +1,13 @@
-{}
+{
+  "bigg-boss-2026": {
+    "tmdbId": 72908,
+    "tmdbType": "tv",
+    "expectedTitle": "Bigg Boss",
+    "reason": "Reviewed regional identity: source credits identify Vijay Sethupathi; live TMDB Tamil programme 72908 credits the same host and season 10 air year 2026. Not inferred from Tamil audio alone.",
+    "evidenceUrls": [
+      "https://moviesda.ski/bigg-boss-2026-tamil-web-series/",
+      "https://www.themoviedb.org/tv/72908",
+      "https://www.themoviedb.org/tv/72908/season/10"
+    ]
+  }
+}

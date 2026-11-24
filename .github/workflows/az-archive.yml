@@ -62,11 +62,10 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --ignore-scripts
+      - run: npm test
       - name: Scrape and publish
         env:
           TMDB_KEYS: ${{ secrets.TMDB_KEYS || secrets.TMDB_API_KEY }}
-          MOVIESDA_HOST: ${{ vars.MOVIESDA_HOST }}
-          MOVIESDA_CANON: ${{ vars.MOVIESDA_CANON }}
           MAX_ITEMS: ${{ inputs.max_items }}
           BUDGET: ${{ inputs.budget_min }}
           ONLY: ${{ inputs.only }}
@@ -75,7 +74,7 @@ jobs:
           DRY: ${{ inputs.dry }}
           COMMIT: ${{ inputs.commit }}
         run: |
-          ARGS="--mode=az"
+          ARGS="--mode=az --metadata-budget-min=5 --report=reports/metadata.json"
           [ -n "$MAX_ITEMS" ] && ARGS="$ARGS --max-items=$MAX_ITEMS"
           [ -n "$BUDGET" ] && ARGS="$ARGS --budget-min=$BUDGET"
           [ -n "$ONLY" ] && ARGS="$ARGS --only=$ONLY"
@@ -85,3 +84,11 @@ jobs:
           [ "$COMMIT" != "false" ] && ARGS="$ARGS --commit"
           echo "node src/run.mjs $ARGS"
           node src/run.mjs $ARGS
+      - name: Metadata diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-az-archive-${{ github.run_id }}
+          path: reports/metadata.json
+          if-no-files-found: ignore
+          retention-days: 14

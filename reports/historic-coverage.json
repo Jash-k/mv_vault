@@ -1,0 +1,468 @@
+{
+ "generatedAt": "2026-11-24T12:32:08.916Z",
+ "baselineRecords": 7502,
+ "records": 7517,
+ "listings": {
+  "tamil:/tamil-web-series-download/": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 9,
+   "found": 158,
+   "endReason": "empty-page"
+  },
+  "tamil:/tamil-2026-movies/": {
+   "nextPage": 25,
+   "status": "complete",
+   "pages": 25,
+   "found": 463,
+   "endReason": "empty-page"
+  },
+  "tamil:/tamil-movies/a/": {
+   "nextPage": 19,
+   "status": "complete",
+   "pages": 19,
+   "found": 348,
+   "endReason": "empty-page"
+  },
+  "tamil:/tamil-movies/b/": {
+   "nextPage": 11,
+   "status": "complete",
+   "pages": 11,
+   "found": 198,
+   "endReason": "empty-page"
+  },
+  "tamil:/tamil-movies/c/": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 145,
+   "nextUrl": "https://moviesda.ski/tamil-movies/c/?page=8",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/d/": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 154,
+   "nextUrl": "https://moviesda.ski/tamil-movies/d/?page=8",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/a": {
+   "nextPage": 16,
+   "status": "complete",
+   "pages": 15,
+   "found": 288,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/a/15",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/b": {
+   "nextPage": 16,
+   "status": "complete",
+   "pages": 15,
+   "found": 288,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/b/15",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/c": {
+   "nextPage": 12,
+   "status": "complete",
+   "pages": 11,
+   "found": 204,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/c/11",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/d": {
+   "nextPage": 13,
+   "status": "complete",
+   "pages": 12,
+   "found": 239,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/d/12",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/e/": {
+   "nextPage": 7,
+   "status": "complete",
+   "pages": 6,
+   "found": 111,
+   "nextUrl": "https://moviesda.ski/tamil-movies/e/?page=6",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/e": {
+   "nextPage": 7,
+   "status": "complete",
+   "pages": 6,
+   "found": 108,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/e/6",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/f/": {
+   "nextPage": 3,
+   "status": "complete",
+   "pages": 2,
+   "found": 32,
+   "nextUrl": "https://moviesda.ski/tamil-movies/f/?page=2",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/f": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 144,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/f/8",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/g/": {
+   "nextPage": 7,
+   "status": "complete",
+   "pages": 6,
+   "found": 109,
+   "nextUrl": "https://moviesda.ski/tamil-movies/g/?page=6",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/g": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 142,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/g/8",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/h/": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 65,
+   "nextUrl": "https://moviesda.ski/tamil-movies/h/?page=4",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/h": {
+   "nextPage": 10,
+   "status": "complete",
+   "pages": 9,
+   "found": 168,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/h/9",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/i/": {
+   "nextPage": 8,
+   "status": "complete",
+   "pages": 7,
+   "found": 132,
+   "nextUrl": "https://moviesda.ski/tamil-movies/i/?page=7",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/i": {
+   "nextPage": 7,
+   "status": "complete",
+   "pages": 6,
+   "found": 118,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/i/6",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/j/": {
+   "nextPage": 6,
+   "status": "complete",
+   "pages": 5,
+   "found": 92,
+   "nextUrl": "https://moviesda.ski/tamil-movies/j/?page=5",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/j": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 71,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/j/4",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/k/": {
+   "nextPage": 21,
+   "status": "complete",
+   "pages": 20,
+   "found": 396,
+   "nextUrl": "https://moviesda.ski/tamil-movies/k/?page=20",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/k": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 79,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/k/4",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/l/": {
+   "nextPage": 6,
+   "status": "complete",
+   "pages": 5,
+   "found": 89,
+   "nextUrl": "https://moviesda.ski/tamil-movies/l/?page=5",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/l": {
+   "nextPage": 8,
+   "status": "complete",
+   "pages": 7,
+   "found": 133,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/l/7",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/m/": {
+   "nextPage": 22,
+   "status": "complete",
+   "pages": 21,
+   "found": 408,
+   "nextUrl": "https://moviesda.ski/tamil-movies/m/?page=21",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/m": {
+   "nextPage": 13,
+   "status": "complete",
+   "pages": 12,
+   "found": 226,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/m/12",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/n/": {
+   "nextPage": 10,
+   "status": "complete",
+   "pages": 9,
+   "found": 175,
+   "nextUrl": "https://moviesda.ski/tamil-movies/n/?page=9",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/n": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 68,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/n/4",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/o/": {
+   "nextPage": 6,
+   "status": "complete",
+   "pages": 5,
+   "found": 87,
+   "nextUrl": "https://moviesda.ski/tamil-movies/o/?page=5",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/o": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 80,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/o/4",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/p/": {
+   "nextPage": 15,
+   "status": "complete",
+   "pages": 14,
+   "found": 279,
+   "nextUrl": "https://moviesda.ski/tamil-movies/p/?page=14",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/p": {
+   "nextPage": 10,
+   "status": "complete",
+   "pages": 9,
+   "found": 164,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/p/9",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/q/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/q": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 7,
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/r/": {
+   "nextPage": 11,
+   "status": "complete",
+   "pages": 10,
+   "found": 189,
+   "nextUrl": "https://moviesda.ski/tamil-movies/r/?page=10",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/r": {
+   "nextPage": 11,
+   "status": "complete",
+   "pages": 10,
+   "found": 181,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/r/10",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/s/": {
+   "nextPage": 21,
+   "status": "complete",
+   "pages": 20,
+   "found": 388,
+   "nextUrl": "https://moviesda.ski/tamil-movies/s/?page=20",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/s": {
+   "nextPage": 21,
+   "status": "complete",
+   "pages": 20,
+   "found": 385,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/s/20",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/t/": {
+   "nextPage": 16,
+   "status": "complete",
+   "pages": 15,
+   "found": 297,
+   "nextUrl": "https://moviesda.ski/tamil-movies/t/?page=15",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/t": {
+   "nextPage": 56,
+   "status": "complete",
+   "pages": 55,
+   "found": 1087,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/t/55",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/u/": {
+   "nextPage": 5,
+   "status": "complete",
+   "pages": 4,
+   "found": 64,
+   "nextUrl": "https://moviesda.ski/tamil-movies/u/?page=4",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/u": {
+   "nextPage": 4,
+   "status": "complete",
+   "pages": 3,
+   "found": 60,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/u/3",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/v/": {
+   "nextPage": 14,
+   "status": "complete",
+   "pages": 13,
+   "found": 240,
+   "nextUrl": "https://moviesda.ski/tamil-movies/v/?page=13",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/v": {
+   "nextPage": 4,
+   "status": "complete",
+   "pages": 3,
+   "found": 45,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/v/3",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/w/": {
+   "nextPage": 3,
+   "status": "complete",
+   "pages": 2,
+   "found": 28,
+   "nextUrl": "https://moviesda.ski/tamil-movies/w/?page=2",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/w": {
+   "nextPage": 7,
+   "status": "complete",
+   "pages": 6,
+   "found": 111,
+   "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/w/6",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/x/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/x": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 13,
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/y/": {
+   "nextPage": 4,
+   "status": "complete",
+   "pages": 3,
+   "found": 59,
+   "nextUrl": "https://moviesda.ski/tamil-movies/y/?page=3",
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/y": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 18,
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/z/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-atoz-dubbed-movies/z": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 13,
+   "endReason": "no-next-link"
+  },
+  "dub:/tamil-dubbed-hollywood-movies/": {
+   "nextPage": 208,
+   "status": "complete",
+   "pages": 207,
+   "found": 4139,
+   "nextUrl": "https://isaidub.green/tamil-dubbed-hollywood-movies/?page=207",
+   "endReason": "no-next-link"
+  },
+  "dub:/recent-updates/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 541,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/tamil-dubbed-movies-collections/": {
+   "nextPage": 8,
+   "status": "complete",
+   "pages": 7,
+   "found": 51,
+   "nextUrl": "https://isaidub.green/movie/tamil-dubbed-movies-collections/?get-page=7",
+   "endReason": "no-next-link"
+  }
+ },
+ "discoveredPaths": 8753,
+ "outcomes": {
+  "stored-movie": 6765,
+  "empty": 420,
+  "complete": 55,
+  "incomplete": 2,
+  "failed": 3
+ },
+ "pending": 1508,
+ "limitations": [
+  "Only accessible source listings are discoverable.",
+  "Stored movie pages are retained, not all re-downloaded.",
+  "Embed confirmation is not video playback verification."
+ ],
+ "discoveryComplete": true,
+ "walkComplete": false,
+ "postRunRefresh": "Bigg Boss 2026 and season-10 source pages subsequently refreshed: 77 confirmed episodes each, preserved as separate source records."
+}

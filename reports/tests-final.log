@@ -1,0 +1,328 @@
+TAP version 13
+# Subtest: source parser extracts credits, never treats Tamil dub language as original
+ok 1 - source parser extracts credits, never treats Tamil dub language as original
+  ---
+  duration_ms: 12.875834
+  type: 'test'
+  ...
+# Subtest: inaccessible source cross-check returns unavailable instead of accepting a candidate
+ok 2 - inaccessible source cross-check returns unavailable instead of accepting a candidate
+  ---
+  duration_ms: 9.118099
+  type: 'test'
+  ...
+# Subtest: missing source URL is unavailable, not an uncaught exception
+ok 3 - missing source URL is unavailable, not an uncaught exception
+  ---
+  duration_ms: 0.341071
+  type: 'test'
+  ...
+# Subtest: short TV title truncation scopes by episode-air year and requires independent credits
+ok 4 - short TV title truncation scopes by episode-air year and requires independent credits
+  ---
+  duration_ms: 17.462134
+  type: 'test'
+  ...
+# Subtest: TV wrong source credits are held for review, not assigned a movie identity
+ok 5 - TV wrong source credits are held for review, not assigned a movie identity
+  ---
+  duration_ms: 1.82468
+  type: 'test'
+  ...
+# Subtest: TV later dubbed-year match requires exact title plus source cast, not a year guess
+ok 6 - TV later dubbed-year match requires exact title plus source cast, not a year guess
+  ---
+  duration_ms: 3.627666
+  type: 'test'
+  ...
+# Subtest: TV official subtitle can match with two credits, but not a competing franchise
+ok 7 - TV official subtitle can match with two credits, but not a competing franchise
+  ---
+  duration_ms: 4.97853
+  type: 'test'
+  ...
+# Subtest: equivalent written numerals can corroborate; sequels and duplicate credit names do not
+ok 8 - equivalent written numerals can corroborate; sequels and duplicate credit names do not
+  ---
+  duration_ms: 3.946807
+  type: 'test'
+  ...
+# Subtest: cached source evidence prevents duplicate read and never invents original language
+ok 9 - cached source evidence prevents duplicate read and never invents original language
+  ---
+  duration_ms: 0.693173
+  type: 'test'
+  ...
+# Subtest: context has per-record diagnostics and hard request budget without keys in errors
+ok 10 - context has per-record diagnostics and hard request budget without keys in errors
+  ---
+  duration_ms: 1.133223
+  type: 'test'
+  ...
+# Subtest: reviewed override validates both ID and expected canonical title; bad mapping stays review
+ok 11 - reviewed override validates both ID and expected canonical title; bad mapping stays review
+  ---
+  duration_ms: 1.340104
+  type: 'test'
+  ...
+# Subtest: scoped long-running same title cannot use an arbitrary season year, and common names are insufficient
+ok 12 - scoped long-running same title cannot use an arbitrary season year, and common names are insufficient
+  ---
+  duration_ms: 8.199261
+  type: 'test'
+  ...
+# Subtest: aggregate TV credits are requested, not latest-season-only credits
+ok 13 - aggregate TV credits are requested, not latest-season-only credits
+  ---
+  duration_ms: 2.32875
+  type: 'test'
+  ...
+# Subtest: legacy misses and stored skipped movies enter durable queue, language matters but votes do not
+ok 14 - legacy misses and stored skipped movies enter durable queue, language matters but votes do not
+  ---
+  duration_ms: 10.334651
+  type: 'test'
+  ...
+# Subtest: zero votes successful match is not retried immediately; identity failures have finite backoff
+ok 15 - zero votes successful match is not retried immediately; identity failures have finite backoff
+  ---
+  duration_ms: 1.333954
+  type: 'test'
+  ...
+# Subtest: new records and old backlog get slots, repeated limited runs make progress
+ok 16 - new records and old backlog get slots, repeated limited runs make progress
+  ---
+  duration_ms: 2.137585
+  type: 'test'
+  ...
+# Subtest: six per-item failures do not abort following successful records; playback never changes
+ok 17 - six per-item failures do not abort following successful records; playback never changes
+  ---
+  duration_ms: 0.903635
+  type: 'test'
+  ...
+# Subtest: version bump/title or evidence change retries; episode additions do not reset backoff
+ok 18 - version bump/title or evidence change retries; episode additions do not reset backoff
+  ---
+  duration_ms: 0.230958
+  type: 'test'
+  ...
+# Subtest: merge keeps latest attempt and cannot resurrect an older miss after success
+ok 19 - merge keeps latest attempt and cannot resurrect an older miss after success
+  ---
+  duration_ms: 0.316399
+  type: 'test'
+  ...
+# Subtest: actual attempt count stays zero when budget disabled or no key; pending report does not mark misses
+ok 20 - actual attempt count stays zero when budget disabled or no key; pending report does not mark misses
+  ---
+  duration_ms: 0.296482
+  type: 'test'
+  ...
+# Subtest: scraped credits persist in record without creating a language/category
+ok 21 - scraped credits persist in record without creating a language/category
+  ---
+  duration_ms: 0.701873
+  type: 'test'
+  ...
+# Subtest: CLI enriches stored backlog even after zero crawl budget, reports and saves finite retries
+ok 22 - CLI enriches stored backlog even after zero crawl budget, reports and saves finite retries
+  ---
+  duration_ms: 267.918783
+  type: 'test'
+  ...
+# Subtest: every scrape workflow passes TMDB secret, has independent metadata budget, and exports diagnostics
+ok 23 - every scrape workflow passes TMDB secret, has independent metadata budget, and exports diagnostics
+  ---
+  duration_ms: 1.026311
+  type: 'test'
+  ...
+# Subtest: default release refreshes canonical current-year series absent from listings after 5h
+ok 24 - default release refreshes canonical current-year series absent from listings after 5h
+  ---
+  duration_ms: 265.998118
+  type: 'test'
+  ...
+# Subtest: recent successful series walk is skipped
+ok 25 - recent successful series walk is skipped
+  ---
+  duration_ms: 265.86053
+  type: 'test'
+  ...
+# Subtest: verify-ids includes complete records and overrides recent misses
+ok 26 - verify-ids includes complete records and overrides recent misses
+  ---
+  duration_ms: 247.645487
+  type: 'test'
+  ...
+# Subtest: pagination follows path-number routes and query routes, never unrelated folders
+ok 27 - pagination follows path-number routes and query routes, never unrelated folders
+  ---
+  duration_ms: 8.374284
+  type: 'test'
+  ...
+# Subtest: historical discovery reaches actual second page rather than repeating first page
+ok 28 - historical discovery reaches actual second page rather than repeating first page
+  ---
+  duration_ms: 196.0117
+  type: 'test'
+  ...
+# Subtest: collection landing pages are discovered only when explicitly requested
+ok 29 - collection landing pages are discovered only when explicitly requested
+  ---
+  duration_ms: 2.396644
+  type: 'test'
+  ...
+# Subtest: health never promotes generic error/challenge pages or removes transient failures
+ok 30 - health never promotes generic error/challenge pages or removes transient failures
+  ---
+  duration_ms: 4.577199
+  type: 'test'
+  ...
+# Subtest: canonical metadata fields reach published record and never change episode identity
+ok 31 - canonical metadata fields reach published record and never change episode identity
+  ---
+  duration_ms: 0.979254
+  type: 'test'
+  ...
+# Subtest: dubbed walk respects elapsed budget before network
+ok 32 - dubbed walk respects elapsed budget before network
+  ---
+  duration_ms: 1.562691
+  type: 'test'
+  ...
+# Subtest: flat season pagination, loops, duplicate slugs, same-page season links
+ok 33 - flat season pagination, loops, duplicate slugs, same-page season links
+  ---
+  duration_ms: 23.717388
+  type: 'test'
+  ...
+# Subtest: parent, season, quality pagination all read; preferred quality preserved
+ok 34 - parent, season, quality pagination all read; preferred quality preserved
+  ---
+  duration_ms: 10.494661
+  type: 'test'
+  ...
+# Subtest: failed page is incomplete, never silently a completed refresh
+ok 35 - failed page is incomplete, never silently a completed refresh
+  ---
+  duration_ms: 2.473439
+  type: 'test'
+  ...
+# Subtest: deadline respected before network
+ok 36 - deadline respected before network
+  ---
+  duration_ms: 0.641067
+  type: 'test'
+  ...
+# Subtest: pagination cap reports incomplete
+ok 37 - pagination cap reports incomplete
+  ---
+  duration_ms: 2.105304
+  type: 'test'
+  ...
+# Subtest: upsert merges new episodes without losing old or changing identity
+ok 38 - upsert merges new episodes without losing old or changing identity
+  ---
+  duration_ms: 1.493458
+  type: 'test'
+  ...
+# Subtest: TMDB media type persisted without reshaping episode data
+ok 39 - TMDB media type persisted without reshaping episode data
+  ---
+  duration_ms: 0.434999
+  type: 'test'
+  ...
+# Subtest: movie resolution folders still work after pagination filtering
+ok 40 - movie resolution folders still work after pagination filtering
+  ---
+  duration_ms: 71.847788
+  type: 'test'
+  ...
+# Subtest: TMDB language and category stay consistent when known language changes
+ok 41 - TMDB language and category stay consistent when known language changes
+  ---
+  duration_ms: 0.810742
+  type: 'test'
+  ...
+# Subtest: Unicode title normalization is nonempty and preserves decimal titles
+ok 42 - Unicode title normalization is nonempty and preserves decimal titles
+  ---
+  duration_ms: 2.852848
+  type: 'test'
+  ...
+# Subtest: unique exact movie title/year
+ok 43 - unique exact movie title/year
+  ---
+  duration_ms: 31.732308
+  type: 'test'
+  ...
+# Subtest: different release year is not accepted
+ok 44 - different release year is not accepted
+  ---
+  duration_ms: 2.287598
+  type: 'test'
+  ...
+# Subtest: same-title candidates stay ambiguous
+ok 45 - same-title candidates stay ambiguous
+  ---
+  duration_ms: 5.305004
+  type: 'test'
+  ...
+# Subtest: official alternative title can match
+ok 46 - official alternative title can match
+  ---
+  duration_ms: 1.399688
+  type: 'test'
+  ...
+# Subtest: compact search is actually queried and still exact-matched
+ok 47 - compact search is actually queried and still exact-matched
+  ---
+  duration_ms: 1.523134
+  type: 'test'
+  ...
+# Subtest: TV matches season-air year rather than first-air year
+ok 48 - TV matches season-air year rather than first-air year
+  ---
+  duration_ms: 1.96555
+  type: 'test'
+  ...
+# Subtest: regional reality show is not guessed without language evidence
+ok 49 - regional reality show is not guessed without language evidence
+  ---
+  duration_ms: 3.039945
+  type: 'test'
+  ...
+# Subtest: HTTP failure and truncated search are unavailable, never a miss
+ok 50 - HTTP failure and truncated search are unavailable, never a miss
+  ---
+  duration_ms: 1.934225
+  type: 'test'
+  ...
+# Subtest: suspect stored ID does not overwrite metadata when verification fails
+ok 51 - suspect stored ID does not overwrite metadata when verification fails
+  ---
+  duration_ms: 4.125714
+  type: 'test'
+  ...
+# Subtest: credit corroboration needs two cast or director+cast; no fuzzy short titles
+ok 52 - credit corroboration needs two cast or director+cast; no fuzzy short titles
+  ---
+  duration_ms: 1.916576
+  type: 'test'
+  ...
+# Subtest: single-season series keeps its season poster on future enrichment
+ok 53 - single-season series keeps its season poster on future enrichment
+  ---
+  duration_ms: 1.517882
+  type: 'test'
+  ...
+1..53
+# tests 53
+# suites 0
+# pass 53
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2885.228324
