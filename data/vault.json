@@ -802,12 +802,20 @@
   "tmdbId": 1009879,
   "imdbId": "tt18413736",
   "addedAt": "2026-09-27T14:06:54.300Z",
-  "updatedAt": "2026-10-03T06:45:34.187Z",
+  "updatedAt": "2026-11-24T22:51:09.542Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:36:40.991Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:09.542Z",
+   "tmdbId": 1009879,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1009879"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Alli",
+  "originalYear": 2022
  },
  {
   "id": "aazhi-2026",
@@ -2598,12 +2606,20 @@
   "tmdbId": 935643,
   "imdbId": "tt26759438",
   "addedAt": "2026-09-27T14:20:33.877Z",
-  "updatedAt": "2026-10-03T06:45:36.705Z",
+  "updatedAt": "2026-11-24T22:51:23.613Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:37:03.217Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:23.613Z",
+   "tmdbId": 935643,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/935643"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "ARM",
+  "originalYear": 2021
  },
  {
   "id": "adios-amigo-2024",
@@ -2957,7 +2973,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:54.681Z"
+   "checkedAt": "2026-11-24T22:51:33.724Z"
   }
  },
  {
@@ -3010,7 +3026,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:36.847Z"
+   "checkedAt": "2026-11-24T22:51:25.848Z"
   }
  },
  {
@@ -3174,12 +3190,20 @@
   "tmdbId": 1595736,
   "imdbId": "tt33821001",
   "addedAt": "2026-09-27T14:24:46.763Z",
-  "updatedAt": "2026-10-03T06:45:37.844Z",
+  "updatedAt": "2026-11-24T22:51:11.309Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:46.982Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:11.309Z",
+   "tmdbId": 1595736,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1595736"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Apna Amitabh",
+  "originalYear": 2025
  },
  {
   "id": "amar-singh-chamkila-2024",
@@ -3223,7 +3247,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:00.771Z"
+   "checkedAt": "2026-11-24T22:51:52.490Z"
   }
  },
  {
@@ -3769,7 +3793,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:57.128Z"
+   "checkedAt": "2026-11-24T22:51:50.594Z"
   }
  },
  {
@@ -4172,7 +4196,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:01.965Z"
+   "checkedAt": "2026-11-24T22:51:54.441Z"
   }
  },
  {
@@ -4882,7 +4906,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:15.631Z"
+   "checkedAt": "2026-11-24T22:51:00.244Z"
   }
  },
  {
@@ -5447,7 +5471,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:57.128Z"
+   "checkedAt": "2026-11-24T22:51:50.594Z"
   }
  },
  {
@@ -5613,7 +5637,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:57.128Z"
+   "checkedAt": "2026-11-24T22:51:46.710Z"
   }
  },
  {
@@ -5907,7 +5931,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:45.356Z"
+   "checkedAt": "2026-11-24T22:51:31.627Z"
   }
  },
  {
@@ -5960,7 +5984,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:03.218Z"
+   "checkedAt": "2026-11-24T22:51:54.441Z"
   }
  },
  {
@@ -7723,7 +7747,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:08.653Z"
+   "checkedAt": "2026-11-24T22:52:02.005Z"
   }
  },
  {
@@ -8032,12 +8056,20 @@
   "tmdbId": 1724606,
   "imdbId": "tt43698370",
   "addedAt": "2026-09-27T15:09:53.067Z",
-  "updatedAt": "2026-10-03T06:45:47.634Z",
+  "updatedAt": "2026-11-24T22:51:31.627Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:37:31.819Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:31.627Z",
+   "tmdbId": 1724606,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1724606"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Bomb",
+  "originalYear": 2025
  },
  {
   "id": "blackmail-2025",
@@ -8477,7 +8509,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:37:06.820Z"
+   "checkedAt": "2026-11-24T22:51:59.977Z"
   }
  },
  {
@@ -9242,12 +9274,20 @@
   "tmdbId": 1248938,
   "imdbId": "tt30488824",
   "addedAt": "2026-09-27T15:19:02.567Z",
-  "updatedAt": "2026-10-03T06:45:49.858Z",
+  "updatedAt": "2026-11-24T22:51:46.710Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:44.050Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:46.710Z",
+   "tmdbId": 1248938,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1248938"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Byri: Pagam 1",
+  "originalYear": 2024
  },
  {
   "id": "bramayugam-2024",
@@ -9337,7 +9377,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:36.411Z"
+   "checkedAt": "2026-11-24T22:52:46.002Z"
   }
  },
  {
@@ -9424,7 +9464,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:16.308Z"
+   "checkedAt": "2026-11-24T22:52:12.131Z"
   }
  },
  {
@@ -9708,12 +9748,20 @@
   "tmdbId": 871038,
   "imdbId": "",
   "addedAt": "2026-09-27T15:24:49.840Z",
-  "updatedAt": "2026-10-03T06:45:51.232Z",
+  "updatedAt": "2026-11-24T22:51:33.724Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:37:33.469Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:33.724Z",
+   "tmdbId": 871038,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/871038"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Boo",
+  "originalYear": 2021
  },
  {
   "id": "barot-house-2023",
@@ -10221,12 +10269,20 @@
   "tmdbId": 997476,
   "imdbId": "",
   "addedAt": "2026-09-27T15:31:51.444Z",
-  "updatedAt": "2026-10-03T06:45:53.254Z",
+  "updatedAt": "2026-11-24T22:51:25.849Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:37:14.519Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:25.849Z",
+   "tmdbId": 997476,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/997476"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Bestie",
+  "originalYear": 2022
  },
  {
   "id": "bhama-kalabam-2022",
@@ -11656,7 +11712,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:49.130Z"
+   "checkedAt": "2026-11-24T22:52:54.143Z"
   }
  },
  {
@@ -11752,7 +11808,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:49.130Z"
+   "checkedAt": "2026-11-24T22:52:54.143Z"
   }
  },
  {
@@ -12628,7 +12684,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:47.691Z"
+   "checkedAt": "2026-11-24T22:52:52.158Z"
   }
  },
  {
@@ -14994,12 +15050,20 @@
   "tmdbId": 1565132,
   "imdbId": "tt36350741",
   "addedAt": "2026-09-27T16:49:28.853Z",
-  "updatedAt": "2026-10-03T06:46:01.032Z",
+  "updatedAt": "2026-11-24T22:51:54.441Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:17.683Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:54.441Z",
+   "tmdbId": 1565132,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1565132"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Dear Jeeva: An Unconditional Love Story",
+  "originalYear": 2025
  },
  {
   "id": "dude-2025",
@@ -15302,7 +15366,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:23.754Z"
+   "checkedAt": "2026-11-24T22:53:37.096Z"
   }
  },
  {
@@ -15359,7 +15423,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:12.738Z"
+   "checkedAt": "2026-11-24T22:53:26.778Z"
   }
  },
  {
@@ -15391,7 +15455,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:15.810Z"
+   "checkedAt": "2026-11-24T22:53:26.778Z"
   }
  },
  {
@@ -15640,7 +15704,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:23.754Z"
+   "checkedAt": "2026-11-24T22:53:37.096Z"
   }
  },
  {
@@ -15968,12 +16032,20 @@
   "tmdbId": 1306964,
   "imdbId": "",
   "addedAt": "2026-09-27T17:00:45.641Z",
-  "updatedAt": "2026-10-03T06:46:03.233Z",
+  "updatedAt": "2026-11-24T22:51:52.490Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:38:15.810Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:52.490Z",
+   "tmdbId": 1306964,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1306964"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Dear Martha",
+  "originalYear": 2024
  },
  {
   "id": "double-tuckerr-2024",
@@ -16743,7 +16815,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:38:21.852Z"
+   "checkedAt": "2026-11-24T22:53:35.044Z"
   }
  },
  {
@@ -18197,12 +18269,20 @@
   "tmdbId": 1292120,
   "imdbId": "tt32240017",
   "addedAt": "2026-09-27T17:35:04.117Z",
-  "updatedAt": "2026-10-03T06:46:06.606Z",
+  "updatedAt": "2026-11-24T22:52:02.005Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:59.888Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:02.005Z",
+   "tmdbId": 1292120,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1292120"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Enjoy your meal.",
+  "originalYear": 2023
  },
  {
   "id": "ezhu-malai-thaandi-side-b-2023",
@@ -18247,12 +18327,20 @@
   "tmdbId": 1179793,
   "imdbId": "",
   "addedAt": "2026-09-27T17:35:55.541Z",
-  "updatedAt": "2026-10-03T06:46:07.347Z",
+  "updatedAt": "2026-11-24T22:51:55.739Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:38:48.129Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:55.739Z",
+   "tmdbId": 1179793,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1179793"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Echo",
+  "originalYear": 2023
  },
  {
   "id": "erumbhu-2023",
@@ -19509,12 +19597,20 @@
   "tmdbId": 484505,
   "imdbId": "tt7060140",
   "addedAt": "2026-09-27T17:52:06.879Z",
-  "updatedAt": "2026-10-03T06:46:09.469Z",
+  "updatedAt": "2026-11-24T22:51:59.977Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:55.915Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:59.977Z",
+   "tmdbId": 484505,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/484505"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Enbathettu",
+  "originalYear": 2017
  },
  {
   "id": "faces-2026",
@@ -20414,12 +20510,20 @@
   "tmdbId": 1575904,
   "imdbId": "tt29120329",
   "addedAt": "2026-09-27T18:47:15.362Z",
-  "updatedAt": "2026-10-03T06:46:11.051Z",
+  "updatedAt": "2026-11-24T22:52:10.084Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:39:37.543Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:10.084Z",
+   "tmdbId": 1575904,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1575904"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "God Bless You, Mr. Kopu",
+  "originalYear": 2026
  },
  {
   "id": "guardian-2021",
@@ -20594,12 +20698,20 @@
   "tmdbId": 1628756,
   "imdbId": "",
   "addedAt": "2026-09-27T18:48:41.200Z",
-  "updatedAt": "2026-10-03T06:46:11.318Z",
+  "updatedAt": "2026-11-24T22:52:12.131Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:39:45.259Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:12.131Z",
+   "tmdbId": 1628756,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1628756"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Granny",
+  "originalYear": 2026
  },
  {
   "id": "gandhi-talks-2026",
@@ -21598,12 +21710,20 @@
   "tmdbId": 1168957,
   "imdbId": "",
   "addedAt": "2026-09-27T18:57:02.902Z",
-  "updatedAt": "2026-10-03T06:46:13.978Z",
+  "updatedAt": "2026-11-24T22:52:08.672Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:39:31.185Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:08.672Z",
+   "tmdbId": 1168957,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1168957"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mama Ghost",
+  "originalYear": 2023
  },
  {
   "id": "geetha-2023",
@@ -21624,12 +21744,20 @@
   "tmdbId": 1097586,
   "imdbId": "tt22207772",
   "addedAt": "2026-09-27T18:57:15.062Z",
-  "updatedAt": "2026-10-03T06:46:13.978Z",
+  "updatedAt": "2026-11-24T22:52:03.918Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:39:31.185Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:03.918Z",
+   "tmdbId": 1097586,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1097586"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Geetasakshigaa",
+  "originalYear": 2023
  },
  {
   "id": "gandeevadhari-arjuna-2023",
@@ -22680,12 +22808,20 @@
   "tmdbId": 1002536,
   "imdbId": "tt14563214",
   "addedAt": "2026-09-27T19:07:05.187Z",
-  "updatedAt": "2026-10-03T06:46:15.749Z",
+  "updatedAt": "2026-11-24T22:52:24.142Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:39:57.670Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:24.142Z",
+   "tmdbId": 1002536,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1002536"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Hi.",
+  "originalYear": 2025
  },
  {
   "id": "heartin-2026",
@@ -23848,12 +23984,20 @@
   "tmdbId": 655793,
   "imdbId": "",
   "addedAt": "2026-09-27T19:18:32.336Z",
-  "updatedAt": "2026-10-03T06:46:18.467Z",
+  "updatedAt": "2026-11-24T22:52:14.330Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:39:56.445Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:14.330Z",
+   "tmdbId": 655793,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/655793"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Hello Dillie!",
+  "originalYear": 2017
  },
  {
   "id": "iruttarai-2026",
@@ -24231,12 +24375,20 @@
   "tmdbId": 1565650,
   "imdbId": "tt38772178",
   "addedAt": "2026-09-27T19:39:03.222Z",
-  "updatedAt": "2026-11-13T10:03:18.214Z",
+  "updatedAt": "2026-11-24T22:52:46.002Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:40:39.530Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:46.002Z",
+   "tmdbId": 1565650,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1565650"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "IPL: Indian Penal Law",
+  "originalYear": 2025
  },
  {
   "id": "iraivi-2016",
@@ -24693,12 +24845,19 @@
   "tmdbId": 1541141,
   "imdbId": "",
   "addedAt": "2026-09-27T19:42:47.241Z",
-  "updatedAt": "2026-10-03T06:46:19.316Z",
+  "updatedAt": "2026-11-24T22:52:33.751Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:40:16.274Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:33.751Z",
+   "tmdbId": 1541141,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1541141"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Intermission"
  },
  {
   "id": "inbame-suzhga-2024",
@@ -25220,12 +25379,20 @@
   "tmdbId": 1192356,
   "imdbId": "",
   "addedAt": "2026-09-27T19:47:58.960Z",
-  "updatedAt": "2026-10-03T06:46:20.648Z",
+  "updatedAt": "2026-11-24T22:52:32.020Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:40:14.452Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:32.020Z",
+   "tmdbId": 1192356,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1192356"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Because I Love You",
+  "originalYear": 2023
  },
  {
   "id": "incar-2023",
@@ -28732,16 +28899,24 @@
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/1rMps2Io6aRbIuyNEMfPPPUZo6N.jpg",
-  "rating": 0,
+  "rating": 6,
   "tmdbId": 1506282,
   "imdbId": "tt36595755",
   "addedAt": "2026-09-27T20:44:40.063Z",
-  "updatedAt": "2026-10-03T06:46:27.337Z",
+  "updatedAt": "2026-11-24T22:52:52.158Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:41:16.630Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:52.158Z",
+   "tmdbId": 1506282,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1506282"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Gandhi Kannadi",
+  "originalYear": 2025
  },
  {
   "id": "kutram-thavir-2025",
@@ -30715,12 +30890,20 @@
   "tmdbId": 1444537,
   "imdbId": "",
   "addedAt": "2026-09-27T21:01:09.342Z",
-  "updatedAt": "2026-10-03T06:46:30.307Z",
+  "updatedAt": "2026-11-24T22:52:50.194Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:41:09.152Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:50.194Z",
+   "tmdbId": 1444537,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1444537"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Geride Kalanlar",
+  "originalYear": 2024
  },
  {
   "id": "kaadapura-kalaikuzhu-2023",
@@ -37630,12 +37813,20 @@
   "tmdbId": 1258925,
   "imdbId": "",
   "addedAt": "2026-09-27T22:26:27.768Z",
-  "updatedAt": "2026-10-03T06:46:43.419Z",
+  "updatedAt": "2026-11-24T22:52:54.143Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:41:57.088Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:52:54.143Z",
+   "tmdbId": 1258925,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1258925"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mantra Warrior: The Bridge to Lanka",
+  "originalYear": 2024
  },
  {
   "id": "laandhar-2024",
@@ -37690,12 +37881,19 @@
   "tmdbId": 1251024,
   "imdbId": "",
   "addedAt": "2026-09-27T22:26:57.062Z",
-  "updatedAt": "2026-10-03T06:46:43.419Z",
+  "updatedAt": "2026-11-24T22:53:01.167Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:42:17.366Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:01.167Z",
+   "tmdbId": 1251024,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1251024"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Lockdown murder writer"
  },
  {
   "id": "little-miss-rawther-2023",
@@ -39755,12 +39953,19 @@
   "tmdbId": 1641225,
   "imdbId": "tt39710539",
   "addedAt": "2026-09-27T22:45:18.226Z",
-  "updatedAt": "2026-10-03T06:46:47.406Z",
+  "updatedAt": "2026-11-24T22:53:52.170Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:43:11.892Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:52.170Z",
+   "tmdbId": 1641225,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1641225"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "My Dear Dolly 2026"
  },
  {
   "id": "manam-kothi-paravai-2012",
@@ -40211,12 +40416,20 @@
   "tmdbId": 1131340,
   "imdbId": "tt1260382",
   "addedAt": "2026-09-27T22:48:57.893Z",
-  "updatedAt": "2026-10-03T06:46:47.771Z",
+  "updatedAt": "2026-11-24T22:53:26.778Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:42:48.461Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:26.778Z",
+   "tmdbId": 1131340,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1131340"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Meipporul",
+  "originalYear": 2009
  },
  {
   "id": "master-2021",
@@ -41285,12 +41498,20 @@
   "tmdbId": 1500526,
   "imdbId": "tt37366504",
   "addedAt": "2026-09-27T22:57:08.324Z",
-  "updatedAt": "2026-10-03T06:46:49.690Z",
+  "updatedAt": "2026-11-24T22:53:37.096Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:42:55.149Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:37.096Z",
+   "tmdbId": 1500526,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1500526"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mirugasirisham: The Orion",
+  "originalYear": 2025
  },
  {
   "id": "mahavatar-narsimha-2025",
@@ -42048,12 +42269,20 @@
   "tmdbId": 1598634,
   "imdbId": "tt39182481",
   "addedAt": "2026-09-27T23:03:02.350Z",
-  "updatedAt": "2026-10-03T06:46:51.029Z",
+  "updatedAt": "2026-11-24T22:53:40.534Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:43:09.433Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:40.534Z",
+   "tmdbId": 1598634,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1598634"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Murmur",
+  "originalYear": 2025
  },
  {
   "id": "maa-nanna-super-hero-2024",
@@ -43805,12 +44034,20 @@
   "tmdbId": 1465604,
   "imdbId": "",
   "addedAt": "2026-09-27T23:18:06.183Z",
-  "updatedAt": "2026-10-03T06:46:54.448Z",
+  "updatedAt": "2026-11-24T22:53:09.695Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:42:29.893Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:09.695Z",
+   "tmdbId": 1465604,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1465604"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mail Time",
+  "originalYear": 2023
  },
  {
   "id": "maamannan-2023",
@@ -45203,12 +45440,20 @@
   "tmdbId": 819057,
   "imdbId": "",
   "addedAt": "2026-09-27T23:31:54.165Z",
-  "updatedAt": "2026-10-03T06:46:57.409Z",
+  "updatedAt": "2026-11-24T22:53:21.811Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:42:38.079Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:21.811Z",
+   "tmdbId": 819057,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/819057"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Maskara",
+  "originalYear": 2021
  },
  {
   "id": "mouna-ragam-1986",
@@ -46984,12 +47229,20 @@
   "tmdbId": 821690,
   "imdbId": "tt8816196",
   "addedAt": "2026-09-27T23:45:47.948Z",
-  "updatedAt": "2026-10-03T06:47:01.114Z",
+  "updatedAt": "2026-11-24T22:53:28.370Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:42:53.843Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:28.370Z",
+   "tmdbId": 821690,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/821690"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mercury",
+  "originalYear": 2018
  },
  {
   "id": "mersal-2018",
@@ -85176,7 +85429,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:26.380Z"
+   "checkedAt": "2026-11-24T22:51:23.613Z"
   }
  },
  {
@@ -85238,7 +85491,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:09.932Z"
+   "checkedAt": "2026-11-24T22:52:03.918Z"
   }
  },
  {
@@ -85266,7 +85519,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:12.588Z"
+   "checkedAt": "2026-11-24T22:52:08.671Z"
   }
  },
  {
@@ -98127,8 +98380,8 @@
   "updatedAt": "2026-11-24T13:19:45.769Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/heart-beat-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:45.443Z",
+   "sourceUrl": "https://moviesda34.com/heart-beat-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:36:32.731Z",
    "sourceTitle": "Heart Beat (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -98628,12 +98881,20 @@
   "tmdbId": 1274548,
   "imdbId": "tt32116832",
   "addedAt": "2026-09-29T08:29:45.347Z",
-  "updatedAt": "2026-10-03T06:48:18.649Z",
+  "updatedAt": "2026-11-24T22:53:35.044Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:42:53.843Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:53:35.044Z",
+   "tmdbId": 1274548,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1274548"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Varieté Utopolis – oder einige Meter Autobahn",
+  "originalYear": 2024
  },
  {
   "id": "nee-irukum-varai-2024",
@@ -104150,12 +104411,20 @@
   "tmdbId": 1035108,
   "imdbId": "",
   "addedAt": "2026-09-29T08:31:19.951Z",
-  "updatedAt": "2026-10-03T06:48:21.154Z",
+  "updatedAt": "2026-11-24T22:50:35.656Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:35:53.402Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:50:35.656Z",
+   "tmdbId": 1035108,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1035108"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Mob Psycho 100",
+  "originalYear": 2018
  },
  {
   "id": "2-0-2019",
@@ -104374,14 +104643,22 @@
   "poster": "https://image.tmdb.org/t/p/w500/11U4PATuzZZJKoUbcGjKGqBs4in.jpg",
   "rating": 0,
   "tmdbId": 1319278,
-  "imdbId": "",
+  "imdbId": "tt15484008",
   "addedAt": "2026-09-29T08:31:30.304Z",
-  "updatedAt": "2026-10-03T06:48:21.373Z",
+  "updatedAt": "2026-11-24T22:50:48.398Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:35:57.089Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:50:48.398Z",
+   "tmdbId": 1319278,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1319278"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "3:33",
+  "originalYear": 2021
  },
  {
   "id": "83-2021",
@@ -106017,7 +106294,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:05.618Z"
+   "checkedAt": "2026-11-24T22:50:48.398Z"
   }
  },
  {
@@ -108244,7 +108521,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:35:57.088Z"
+   "checkedAt": "2026-11-24T22:50:48.398Z"
   }
  },
  {
@@ -108511,16 +108788,24 @@
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/zzK8AKJywLRwooQNhJOV9iR7mjA.jpg",
-  "rating": 0,
+  "rating": 5,
   "tmdbId": 1608457,
   "imdbId": "",
   "addedAt": "2026-09-29T09:29:07.542Z",
-  "updatedAt": "2026-10-03T06:48:24.165Z",
+  "updatedAt": "2026-11-24T22:51:00.244Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:36:06.939Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:00.244Z",
+   "tmdbId": 1608457,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1608457"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "누나 친구 4",
+  "originalYear": 2024
  },
  {
   "id": "4554-2022",
@@ -111489,7 +111774,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:06.820Z"
+   "checkedAt": "2026-11-24T22:51:59.977Z"
   }
  },
  {
@@ -111622,8 +111907,8 @@
   "originalYear": 2024,
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/90s-a-middle-class-biopic-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:26:59.381Z",
+   "sourceUrl": "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:40:02.489Z",
    "sourceTitle": "90s A Middle Class Biopic (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -111780,8 +112065,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/air-all-india-rankers-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:03.524Z",
+   "sourceUrl": "https://moviesda34.com/air-all-india-rankers-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:40:41.058Z",
    "sourceTitle": "AIR All India Rankers (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -111910,8 +112195,8 @@
   "updatedAt": "2026-10-03T05:47:23.075Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/mrs-deshpande-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:08.670Z",
+   "sourceUrl": "https://moviesda34.com/mrs-deshpande-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:41:12.487Z",
    "sourceTitle": "Mrs Deshpande (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -112070,8 +112355,8 @@
   "updatedAt": "2026-11-13T09:28:25.086Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/pharma-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:08.683Z",
+   "sourceUrl": "https://moviesda34.com/pharma-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:40:56.538Z",
    "sourceTitle": "Pharma (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -112200,8 +112485,8 @@
   "updatedAt": "2026-10-03T05:47:24.310Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/single-papa-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:14.197Z",
+   "sourceUrl": "https://moviesda34.com/single-papa-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:43:23.885Z",
    "sourceTitle": "Single Papa (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -112330,8 +112615,8 @@
   "updatedAt": "2026-10-03T05:47:23.822Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/heartiley-battery-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:13.119Z",
+   "sourceUrl": "https://moviesda34.com/heartiley-battery-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:42:57.331Z",
    "sourceTitle": "Heartiley Battery (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -112350,6 +112635,7 @@
   "year": 2025,
   "kind": "series",
   "category": "tamil-series",
+  "originalLanguage": "ta",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
   "embeds": [
@@ -114180,8 +114466,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/lbw-love-beyond-wicket-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:26:36.407Z",
+   "sourceUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:26:47.076Z",
    "sourceTitle": "LBW Love Beyond Wicket (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -114194,7 +114480,6 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "ta",
   "tmdbTitle": "LBW: Love Beyond Wicket",
   "originalYear": 2026
  },
@@ -114987,8 +115272,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/dhoolpet-police-station-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:26:36.788Z",
+   "sourceUrl": "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:31:27.506Z",
    "sourceTitle": "Dhoolpet Police Station (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -115192,8 +115477,8 @@
   "updatedAt": "2026-10-03T05:47:24.810Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/matsya-kaand-2021-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:33:35.428Z",
+   "sourceUrl": "https://moviesda34.com/matsya-kaand-2021-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:45:26.443Z",
    "sourceTitle": "Matsya Kaand (2021)",
    "sourceYear": 2021,
    "directors": [
@@ -115386,8 +115671,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/iru-dhuruvam-2-2023-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:31:30.855Z",
+   "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2-2023-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:45:45.766Z",
    "sourceTitle": "Iru Dhuruvam 2 (2023)",
    "sourceYear": 2023,
    "directors": [
@@ -115546,8 +115831,8 @@
   "updatedAt": "2026-10-03T05:47:25.562Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/real-kashmir-football-club-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:17.446Z",
+   "sourceUrl": "https://moviesda34.com/real-kashmir-football-club-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:46:21.090Z",
    "sourceTitle": "Real Kashmir Football Club (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -115691,8 +115976,8 @@
   "updatedAt": "2026-10-03T05:47:26.065Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/kuttram-purindhavan-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:27:18.311Z",
+   "sourceUrl": "https://moviesda34.com/kuttram-purindhavan-2025-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:48:40.150Z",
    "sourceTitle": "Kuttram Purindhavan (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -116573,8 +116858,8 @@
   "updatedAt": "2026-10-03T05:47:25.314Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/iru-dhuruvam-2019-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:34:34.149Z",
+   "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2019-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:46:04.747Z",
    "sourceTitle": "Iru Dhuruvam (2019)",
    "sourceYear": 2019,
    "directors": [
@@ -125954,8 +126239,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/police-police-2025-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:27:36.876Z",
+   "sourceUrl": "https://moviesda34.com/police-police-2025-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:29:19.774Z",
    "sourceTitle": "Police Police (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -126354,8 +126639,8 @@
   "updatedAt": "2026-11-24T13:41:28.152Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/karuvanam-2024-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:30:20.256Z",
+   "sourceUrl": "https://moviesda34.com/karuvanam-2024-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:35:57.323Z",
    "sourceTitle": "Karuvanam (2024)",
    "sourceYear": 2024,
    "directors": [],
@@ -126481,8 +126766,8 @@
   "updatedAt": "2026-10-03T05:47:23.325Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/parachute-2024-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:30:22.285Z",
+   "sourceUrl": "https://moviesda34.com/parachute-2024-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:42:19.277Z",
    "sourceTitle": "Parachute (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -126776,8 +127061,8 @@
   "updatedAt": "2026-10-03T05:47:23.566Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/nadu-center-2025-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:27:37.758Z",
+   "sourceUrl": "https://moviesda34.com/nadu-center-2025-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:41:53.650Z",
    "sourceTitle": "Nadu Center (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -126906,8 +127191,8 @@
   "updatedAt": "2026-10-03T05:47:24.069Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/vikkatakavi-2024-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:30:22.456Z",
+   "sourceUrl": "https://moviesda34.com/vikkatakavi-2024-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:43:10.235Z",
    "sourceTitle": "Vikkatakavi (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -127081,8 +127366,8 @@
   "updatedAt": "2026-11-24T13:51:01.056Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/waack-girls-2024-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:30:26.591Z",
+   "sourceUrl": "https://moviesda34.com/waack-girls-2024-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:44:40.877Z",
    "sourceTitle": "Waack Girls (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -127210,8 +127495,8 @@
   "updatedAt": "2026-10-03T05:47:25.818Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/freedom-at-midnight-2024-tamil-movie/",
-   "fetchedAt": "2026-11-24T13:30:26.809Z",
+   "sourceUrl": "https://moviesda34.com/freedom-at-midnight-2024-tamil-movie/",
+   "fetchedAt": "2026-11-24T22:46:58.728Z",
    "sourceTitle": "Freedom at Midnight (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -128210,8 +128495,8 @@
   "updatedAt": "2026-11-24T13:45:07.050Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/rambo-in-love-2025-movie/",
-   "fetchedAt": "2026-11-24T13:27:37.954Z",
+   "sourceUrl": "https://moviesda34.com/rambo-in-love-2025-movie/",
+   "fetchedAt": "2026-11-24T22:48:55.749Z",
    "sourceTitle": "Rambo in love (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -133184,7 +133469,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:16.192Z"
+   "checkedAt": "2026-11-24T22:51:00.244Z"
   }
  },
  {
@@ -133450,7 +133735,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:24.975Z"
+   "checkedAt": "2026-11-24T22:51:11.309Z"
   }
  },
  {
@@ -133587,7 +133872,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:35.700Z"
+   "checkedAt": "2026-11-24T22:51:23.613Z"
   }
  },
  {
@@ -135525,7 +135810,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:08.653Z"
+   "checkedAt": "2026-11-24T22:51:59.977Z"
   }
  },
  {
@@ -138828,7 +139113,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:37:31.819Z"
+   "checkedAt": "2026-11-24T22:52:32.020Z"
   }
  },
  {
@@ -139076,7 +139361,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:33.469Z"
+   "checkedAt": "2026-11-24T22:52:32.020Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -139301,7 +139586,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:36.411Z"
+   "checkedAt": "2026-11-24T22:52:33.751Z"
   }
  },
  {
@@ -139505,7 +139790,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "ambiguous-title-year",
-   "checkedAt": "2026-11-24T13:37:36.411Z"
+   "checkedAt": "2026-11-24T22:52:33.751Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -140097,7 +140382,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:44.050Z"
+   "checkedAt": "2026-11-24T22:52:50.194Z"
   }
  },
  {
@@ -140192,7 +140477,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:49.130Z"
+   "checkedAt": "2026-11-24T22:52:52.158Z"
   }
  },
  {
@@ -140296,7 +140581,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:51.145Z"
+   "checkedAt": "2026-11-24T22:52:54.143Z"
   }
  },
  {
@@ -140499,7 +140784,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:37:58.683Z"
+   "checkedAt": "2026-11-24T22:53:01.167Z"
   }
  },
  {
@@ -140691,7 +140976,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:07.188Z"
+   "checkedAt": "2026-11-24T22:53:21.810Z"
   }
  },
  {
@@ -142452,7 +142737,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:17.683Z"
+   "checkedAt": "2026-11-24T22:53:28.370Z"
   }
  },
  {
@@ -142804,7 +143089,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:24.952Z"
+   "checkedAt": "2026-11-24T22:53:40.534Z"
   }
  },
  {
@@ -143130,7 +143415,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:41.539Z"
+   "checkedAt": "2026-11-24T22:53:52.170Z"
   }
  },
  {
@@ -143154,7 +143439,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:41.539Z"
+   "checkedAt": "2026-11-24T22:54:02.606Z"
   }
  },
  {
@@ -196496,7 +196781,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:23.488Z"
+   "checkedAt": "2026-11-24T22:51:11.309Z"
   }
  },
  {
@@ -196885,7 +197170,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:36:37.700Z"
+   "checkedAt": "2026-11-24T22:51:25.849Z"
   }
  },
  {
@@ -197757,7 +198042,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:36:59.617Z"
+   "checkedAt": "2026-11-24T22:51:52.490Z"
   }
  },
  {
@@ -197931,7 +198216,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:00.771Z"
+   "checkedAt": "2026-11-24T22:51:52.490Z"
   }
  },
  {
@@ -197980,7 +198265,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:01.965Z"
+   "checkedAt": "2026-11-24T22:51:54.441Z"
   }
  },
  {
@@ -199028,7 +199313,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:08.653Z"
+   "checkedAt": "2026-11-24T22:52:02.005Z"
   }
  },
  {
@@ -199817,7 +200102,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:14.519Z"
+   "checkedAt": "2026-11-24T22:52:10.084Z"
   }
  },
  {
@@ -199950,7 +200235,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:16.308Z"
+   "checkedAt": "2026-11-24T22:52:10.084Z"
   }
  },
  {
@@ -199978,7 +200263,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:16.308Z"
+   "checkedAt": "2026-11-24T22:52:12.131Z"
   }
  },
  {
@@ -200371,7 +200656,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:25.144Z"
+   "checkedAt": "2026-11-24T22:52:24.141Z"
   }
  },
  {
@@ -200395,7 +200680,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:25.144Z"
+   "checkedAt": "2026-11-24T22:52:24.141Z"
   }
  },
  {
@@ -200635,7 +200920,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:33.469Z"
+   "checkedAt": "2026-11-24T22:52:32.020Z"
   }
  },
  {
@@ -200684,7 +200969,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:33.469Z"
+   "checkedAt": "2026-11-24T22:52:33.751Z"
   }
  },
  {
@@ -202256,7 +202541,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:37:58.683Z"
+   "checkedAt": "2026-11-24T22:53:09.695Z"
   }
  },
  {
@@ -202812,7 +203097,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:10.477Z"
+   "checkedAt": "2026-11-24T22:53:21.811Z"
   }
  },
  {
@@ -203028,7 +203313,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:10.478Z"
+   "checkedAt": "2026-11-24T22:53:26.778Z"
   }
  },
  {
@@ -203356,7 +203641,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:15.810Z"
+   "checkedAt": "2026-11-24T22:53:28.370Z"
   }
  },
  {
@@ -203705,7 +203990,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:17.683Z"
+   "checkedAt": "2026-11-24T22:53:28.370Z"
   }
  },
  {
@@ -203733,7 +204018,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:17.683Z"
+   "checkedAt": "2026-11-24T22:53:35.044Z"
   }
  },
  {
@@ -204327,7 +204612,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T13:38:24.952Z"
+   "checkedAt": "2026-11-24T22:53:40.534Z"
   }
  },
  {
@@ -204355,7 +204640,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:34.622Z"
+   "checkedAt": "2026-11-24T22:53:40.534Z"
   }
  },
  {
@@ -204458,7 +204743,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T13:38:34.622Z"
+   "checkedAt": "2026-11-24T22:53:52.170Z"
   }
  },
  {
@@ -238032,7 +238317,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:15.631Z"
+   "checkedAt": "2026-11-24T22:51:00.244Z"
   }
  },
  {
@@ -238156,7 +238441,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:36:22.274Z"
+   "checkedAt": "2026-11-24T22:51:09.542Z"
   }
  },
  {
@@ -238369,7 +238654,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:26.380Z"
+   "checkedAt": "2026-11-24T22:51:11.309Z"
   }
  },
  {
@@ -239721,7 +240006,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:46.982Z"
+   "checkedAt": "2026-11-24T22:51:33.724Z"
   }
  },
  {
@@ -240234,7 +240519,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:03.218Z"
+   "checkedAt": "2026-11-24T22:51:55.739Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -240418,7 +240703,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:06.820Z"
+   "checkedAt": "2026-11-24T22:51:55.739Z"
   }
  },
  {
@@ -240926,7 +241211,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:09.932Z"
+   "checkedAt": "2026-11-24T22:52:03.918Z"
   }
  },
  {
@@ -241348,7 +241633,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:14.519Z"
+   "checkedAt": "2026-11-24T22:52:08.672Z"
   }
  },
  {
@@ -241727,7 +242012,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:18.424Z"
+   "checkedAt": "2026-11-24T22:52:14.330Z"
   }
  },
  {
@@ -241751,7 +242036,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:18.424Z"
+   "checkedAt": "2026-11-24T22:52:14.330Z"
   }
  },
  {
@@ -242115,7 +242400,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:25.144Z"
+   "checkedAt": "2026-11-24T22:52:24.141Z"
   }
  },
  {
@@ -242864,7 +243149,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T13:37:44.050Z"
+   "checkedAt": "2026-11-24T22:52:46.002Z"
   }
  },
  {
@@ -243110,7 +243395,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:47.691Z"
+   "checkedAt": "2026-11-24T22:52:52.158Z"
   }
  },
  {
@@ -243489,7 +243774,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:51.145Z"
+   "checkedAt": "2026-11-24T22:53:01.167Z"
   }
  },
  {
@@ -243985,7 +244270,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:59.962Z"
+   "checkedAt": "2026-11-24T22:53:09.695Z"
   }
  },
  {
@@ -245615,7 +245900,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:21.852Z"
+   "checkedAt": "2026-11-24T22:53:35.044Z"
   }
  },
  {
@@ -280053,7 +280338,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:36:05.618Z"
+   "checkedAt": "2026-11-24T22:50:48.398Z"
   }
  },
  {
@@ -280467,7 +280752,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:23.488Z"
+   "checkedAt": "2026-11-24T22:51:09.542Z"
   }
  },
  {
@@ -280785,7 +281070,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:37.700Z"
+   "checkedAt": "2026-11-24T22:51:25.849Z"
   }
  },
  {
@@ -282049,7 +282334,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:08.653Z"
+   "checkedAt": "2026-11-24T22:52:02.005Z"
   }
  },
  {
@@ -282510,7 +282795,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:09.932Z"
+   "checkedAt": "2026-11-24T22:52:03.918Z"
   }
  },
  {
@@ -282825,7 +283110,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:37:12.588Z"
+   "checkedAt": "2026-11-24T22:52:08.672Z"
   }
  },
  {
@@ -283137,7 +283422,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:14.519Z"
+   "checkedAt": "2026-11-24T22:52:10.084Z"
   }
  },
  {
@@ -283220,7 +283505,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:16.308Z"
+   "checkedAt": "2026-11-24T22:52:12.131Z"
   }
  },
  {
@@ -283652,7 +283937,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:18.424Z"
+   "checkedAt": "2026-11-24T22:52:14.330Z"
   }
  },
  {
@@ -284490,7 +284775,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:37:36.411Z"
+   "checkedAt": "2026-11-24T22:52:46.002Z"
   }
  },
  {
@@ -285089,7 +285374,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:47.691Z"
+   "checkedAt": "2026-11-24T22:52:50.194Z"
   }
  },
  {
@@ -285337,7 +285622,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:51.145Z"
+   "checkedAt": "2026-11-24T22:53:01.167Z"
   }
  },
  {
@@ -286070,7 +286355,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T13:38:10.478Z"
+   "checkedAt": "2026-11-24T22:53:21.811Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -286324,12 +286609,20 @@
   "tmdbId": 621026,
   "imdbId": "tt8996386",
   "addedAt": "2026-10-07T20:27:26.217Z",
-  "updatedAt": "2026-11-13T09:34:32.355Z",
+  "updatedAt": "2026-11-24T22:51:50.595Z",
   "metadataVerification": {
-   "status": "unavailable",
-   "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:38:12.738Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-24T22:51:50.595Z",
+   "tmdbId": 621026,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/621026"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Daniel",
+  "originalYear": 2019
  },
  {
   "id": "daredevil-born-again-2026",
@@ -287276,7 +287569,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:38:23.754Z"
+   "checkedAt": "2026-11-24T22:53:37.096Z"
   }
  },
  {
@@ -287518,7 +287811,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:38:34.622Z"
+   "checkedAt": "2026-11-24T22:53:52.170Z"
   }
  },
  {
@@ -287639,7 +287932,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:38:41.539Z"
+   "checkedAt": "2026-11-24T22:54:02.607Z"
   }
  },
  {
@@ -320555,8 +320848,8 @@
   "updatedAt": "2026-11-24T13:44:51.413Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/pushpaka-vimanam-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:30.803Z",
+   "sourceUrl": "https://moviesda34.com/pushpaka-vimanam-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:32:57.083Z",
    "sourceTitle": "Pushpaka Vimanam (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -320778,6 +321071,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "bn",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kauriburir-the-cursed-temple-2026-tamil-web-series/",
   "embeds": [
@@ -320958,8 +321252,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/kauriburir-the-cursed-temple-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:41.560Z",
+   "sourceUrl": "https://moviesda34.com/kauriburir-the-cursed-temple-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:35:32.086Z",
    "sourceTitle": "Kauriburir The Cursed Temple (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -320972,7 +321266,6 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "bn",
   "tmdbTitle": "Kauriburi: The Cursed Temple",
   "originalYear": 2026
  },
@@ -321760,8 +322053,8 @@
   "updatedAt": "2026-11-24T13:42:17.866Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/love-always-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:50.109Z",
+   "sourceUrl": "https://moviesda34.com/love-always-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:39:31.125Z",
    "sourceTitle": "Love Always (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -321953,8 +322246,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/akka-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:00.635Z",
+   "sourceUrl": "https://moviesda34.com/akka-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:40:15.745Z",
    "sourceTitle": "Akka (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -322562,8 +322855,8 @@
   "updatedAt": "2026-11-24T13:42:22.633Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/madam-inspector-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:08.947Z",
+   "sourceUrl": "https://moviesda34.com/madam-inspector-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:41:25.657Z",
    "sourceTitle": "Madam Inspector (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -322766,8 +323059,8 @@
   "updatedAt": "2026-11-24T13:50:45.118Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/varam-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:26.716Z",
+   "sourceUrl": "https://moviesda34.com/varam-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:42:32.098Z",
    "sourceTitle": "Varam (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -323369,12 +323662,12 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:37:47.691Z"
+   "checkedAt": "2026-11-24T22:52:50.194Z"
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/celebrity-master-chef-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:35.325Z",
+   "sourceUrl": "https://moviesda34.com/celebrity-master-chef-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:43:36.667Z",
    "sourceTitle": "Celebrity Master Chef (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -323432,6 +323725,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/",
   "embeds": [
@@ -323648,6 +323942,7 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T13:49:01.460Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-season-year",
@@ -323661,8 +323956,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/the-legend-of-hanuman-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:46.160Z",
+   "sourceUrl": "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:44:09.632Z",
    "sourceTitle": "The Legend of Hanuman (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -323675,10 +323970,8 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "hi",
   "tmdbTitle": "The Legend of Hanuman",
-  "originalYear": 2021,
-  "updatedAt": "2026-11-24T13:49:01.460Z"
+  "originalYear": 2021
  },
  {
   "id": "sattamum-needhiyum-2026",
@@ -323686,6 +323979,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-series",
+  "originalLanguage": "ta",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/sattamum-needhiyum-2026-tamil-web-series/",
   "embeds": [
@@ -323852,6 +324146,7 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T13:46:00.686Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-season-year",
@@ -323865,8 +324160,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/sattamum-needhiyum-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:46.851Z",
+   "sourceUrl": "https://moviesda34.com/sattamum-needhiyum-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:45:00.243Z",
    "sourceTitle": "Sattamum Needhiyum (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -323879,10 +324174,8 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "ta",
   "tmdbTitle": "Sattamum Needhiyum",
-  "originalYear": 2025,
-  "updatedAt": "2026-11-24T13:46:00.686Z"
+  "originalYear": 2025
  },
  {
   "id": "naa-wife-missing-2026",
@@ -324424,8 +324717,8 @@
   "updatedAt": "2026-11-24T13:41:18.006Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/kappi-squad-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:50.896Z",
+   "sourceUrl": "https://moviesda34.com/kappi-squad-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:46:36.965Z",
    "sourceTitle": "Kappi Squad (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -324775,8 +325068,8 @@
   "updatedAt": "2026-11-24T13:49:21.757Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/the-ordinary-jackpot-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:55.184Z",
+   "sourceUrl": "https://moviesda34.com/the-ordinary-jackpot-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:47:11.371Z",
    "sourceTitle": "The Ordinary Jackpot (2026) Tamil Movie",
    "sourceYear": 2026,
    "directors": [],
@@ -325065,8 +325358,8 @@
   "updatedAt": "2026-11-13T09:36:07.497Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/least-eligible-bachelor-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:56.663Z",
+   "sourceUrl": "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:47:46.323Z",
    "sourceTitle": "Least Eligible Bachelor (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -325283,8 +325576,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/eyes-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:19:58.074Z",
+   "sourceUrl": "https://moviesda34.com/eyes-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:48:11.659Z",
    "sourceTitle": "Eyes (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -328548,7 +328841,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:38:07.188Z"
+   "checkedAt": "2026-11-24T22:53:09.695Z"
   }
  },
  {
@@ -332500,7 +332793,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:59.616Z"
+   "checkedAt": "2026-11-24T22:51:50.595Z"
   }
  },
  {
@@ -332717,8 +333010,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/student-of-the-year-after-dark-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:31.825Z",
+   "sourceUrl": "https://moviesda34.com/student-of-the-year-after-dark-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:33:28.296Z",
    "sourceTitle": "Student of the Year After Dark (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -336848,7 +337141,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:37:06.820Z"
+   "checkedAt": "2026-11-24T22:51:55.739Z"
   }
  },
  {
@@ -337322,6 +337615,12 @@
     "url": "https://play.onestream.today/stream/page/103767",
     "season": 10,
     "episode": 79
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103768",
+    "season": 10,
+    "episode": 80
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/Ccukq06qTL3yTnkwaKLGNs8T4x.jpg",
@@ -338025,15 +338324,24 @@
         "url": "https://play.onestream.today/stream/page/103767"
        }
       ]
+     },
+     {
+      "episode": 80,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103768"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-24T12:37:01.641Z",
+  "updatedAt": "2026-11-24T22:35:29.229Z",
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/bigg-boss-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:40.609Z",
+   "sourceUrl": "https://moviesda34.com/bigg-boss-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:33:53.348Z",
    "sourceTitle": "Bigg Boss (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -350901,8 +351209,8 @@
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/mr-mrs-office-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:23.340Z",
+   "sourceUrl": "https://moviesda34.com/mr-mrs-office-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:32:35.416Z",
    "sourceTitle": "Mr Mrs Office (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -351103,7 +351411,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T13:36:54.681Z"
+   "checkedAt": "2026-11-24T22:51:46.710Z"
   }
  },
  {
@@ -351370,7 +351678,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:54.681Z"
+   "checkedAt": "2026-11-24T22:51:46.710Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -351844,12 +352152,12 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:46.982Z"
+   "checkedAt": "2026-11-24T22:51:33.724Z"
   },
   "sourceMetadata": {
    "available": true,
-   "sourceUrl": "https://moviesda.ski/manglik-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-24T13:18:23.208Z",
+   "sourceUrl": "https://moviesda34.com/manglik-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-24T22:26:19.849Z",
    "sourceTitle": "Manglik (2026) Tamil Movie",
    "sourceYear": 2026,
    "directors": [],
@@ -351881,7 +352189,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:36:45.357Z"
+   "checkedAt": "2026-11-24T22:51:31.627Z"
   }
  },
  {
@@ -352680,7 +352988,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:40.991Z"
+   "checkedAt": "2026-11-24T22:51:31.627Z"
   }
  },
  {
@@ -353561,7 +353869,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T13:36:34.292Z"
+   "checkedAt": "2026-11-24T22:51:23.613Z"
   }
  },
  {
@@ -354098,7 +354406,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:36:22.274Z"
+   "checkedAt": "2026-11-24T22:51:09.542Z"
   }
  },
  {
@@ -354752,7 +355060,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:35:53.402Z"
+   "checkedAt": "2026-11-24T22:50:35.655Z"
   }
  },
  {
@@ -354797,7 +355105,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-24T13:35:53.402Z"
+   "checkedAt": "2026-11-24T22:50:35.655Z"
   }
  },
  {
@@ -354837,7 +355145,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-24T13:35:53.402Z"
+   "checkedAt": "2026-11-24T22:50:35.656Z"
   }
  }
 ]
