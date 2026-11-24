@@ -1,50 +1,30 @@
 {
- "generatedAt": "2026-11-24T12:32:08.916Z",
- "baselineRecords": 7502,
- "records": 7517,
+ "generatedAt": "2026-11-24T13:35:45.350Z",
+ "baselineRecords": 7517,
+ "records": 7535,
  "listings": {
   "tamil:/tamil-web-series-download/": {
    "nextPage": 9,
    "status": "complete",
-   "pages": 9,
+   "pages": 8,
    "found": 158,
-   "endReason": "empty-page"
+   "nextUrl": "https://moviesda.ski/tamil-web-series-download/?get-page=8",
+   "endReason": "no-next-link"
   },
   "tamil:/tamil-2026-movies/": {
    "nextPage": 25,
    "status": "complete",
-   "pages": 25,
+   "pages": 24,
    "found": 463,
-   "endReason": "empty-page"
+   "nextUrl": "https://moviesda.ski/tamil-2026-movies/?page=24",
+   "endReason": "no-next-link"
   },
   "tamil:/tamil-movies/a/": {
    "nextPage": 19,
    "status": "complete",
-   "pages": 19,
+   "pages": 18,
    "found": 348,
-   "endReason": "empty-page"
-  },
-  "tamil:/tamil-movies/b/": {
-   "nextPage": 11,
-   "status": "complete",
-   "pages": 11,
-   "found": 198,
-   "endReason": "empty-page"
-  },
-  "tamil:/tamil-movies/c/": {
-   "nextPage": 9,
-   "status": "complete",
-   "pages": 8,
-   "found": 145,
-   "nextUrl": "https://moviesda.ski/tamil-movies/c/?page=8",
-   "endReason": "no-next-link"
-  },
-  "tamil:/tamil-movies/d/": {
-   "nextPage": 9,
-   "status": "complete",
-   "pages": 8,
-   "found": 154,
-   "nextUrl": "https://moviesda.ski/tamil-movies/d/?page=8",
+   "nextUrl": "https://moviesda.ski/tamil-movies/a/?page=18",
    "endReason": "no-next-link"
   },
   "dub:/tamil-atoz-dubbed-movies/a": {
@@ -55,6 +35,14 @@
    "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/a/15",
    "endReason": "no-next-link"
   },
+  "tamil:/tamil-movies/b/": {
+   "nextPage": 11,
+   "status": "complete",
+   "pages": 10,
+   "found": 198,
+   "nextUrl": "https://moviesda.ski/tamil-movies/b/?page=10",
+   "endReason": "no-next-link"
+  },
   "dub:/tamil-atoz-dubbed-movies/b": {
    "nextPage": 16,
    "status": "complete",
@@ -63,12 +51,28 @@
    "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/b/15",
    "endReason": "no-next-link"
   },
+  "tamil:/tamil-movies/c/": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 145,
+   "nextUrl": "https://moviesda.ski/tamil-movies/c/?page=8",
+   "endReason": "no-next-link"
+  },
   "dub:/tamil-atoz-dubbed-movies/c": {
    "nextPage": 12,
    "status": "complete",
    "pages": 11,
    "found": 204,
    "nextUrl": "https://isaidub.green/tamil-atoz-dubbed-movies/c/11",
+   "endReason": "no-next-link"
+  },
+  "tamil:/tamil-movies/d/": {
+   "nextPage": 9,
+   "status": "complete",
+   "pages": 8,
+   "found": 154,
+   "nextUrl": "https://moviesda.ski/tamil-movies/d/?page=8",
    "endReason": "no-next-link"
   },
   "dub:/tamil-atoz-dubbed-movies/d": {
@@ -443,26 +447,651 @@
    "nextPage": 8,
    "status": "complete",
    "pages": 7,
-   "found": 51,
+   "found": 147,
    "nextUrl": "https://isaidub.green/movie/tamil-dubbed-movies-collections/?get-page=7",
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/species-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/home-alone-triology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-matrix-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/indiana-jones-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-mummy-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/total-recall-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/transporter-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/batman-triology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/spider-man-pentalogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/x-men-complete-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 7,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-lord-of-the-rings-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/muppets-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/toy-story-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/ong-bak-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/tarzan-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/transformers-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/pirates-of-the-caribbean-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/fast-and-furious-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 6,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/spy-kids-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/captain-america-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/thor-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/air-bud-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/tomb-raider-duology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/red-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/predator-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/titans-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/resident-evil-pentalogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/scooby-doo-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/godzilla-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/105-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-expendables-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-raid-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/doctor-dolittle-duology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/aliens-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-bourne-pentalogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-godfather-movie-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/underworld-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/rambo-movie-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/mad-max-tamil-movies-collection/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/iron-man-trilogy-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/g-i-joe-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/apocalypse-tamil-duology-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/planet-of-the-apes-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/evil-dead-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/ice-age-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/smurfs-trilogy-movies-collection/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/die-hard-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/homeward-bound-duology-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/blade-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/national-treasure-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-moment-after-duology-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/300-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-avengers-tamil-trilogy-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/dungeons-and-dragons-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/mission-impossible-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/basic-instinct-duology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/sherlock-holmes-triology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/riddick-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/hellboy-duology-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/universal-soldier-duology-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/madagascar-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/honey-i-the-kids-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/prison-on-fire-duology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/exorcist-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/asterix-and-obelix-triology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/men-in-black-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/harry-potter-movie-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 8,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/james-bond-movie-tamil-dubbed-collections/": {
+   "nextPage": 3,
+   "status": "complete",
+   "pages": 2,
+   "found": 26,
+   "nextUrl": "https://isaidub.green/movie/james-bond-movie-tamil-dubbed-collections/?get-page=2",
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/rocky-hexology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 6,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/dhoom-trilogy-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-hulk-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/kung-fu-panda-quadrilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/star-trek-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-protector-duology-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/jackie-chan-movie-tamil-dubbed-collections/": {
+   "nextPage": 4,
+   "status": "complete",
+   "pages": 3,
+   "found": 45,
+   "nextUrl": "https://isaidub.green/movie/jackie-chan-movie-tamil-dubbed-collections/?get-page=3",
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/super-man-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/star-wars-hexalogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 6,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/stuart-little-movie-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/jurassic-park-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 4,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/terminator-pentalogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/anaconda-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/xxx-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-ring-duology-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 2,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-chronicles-of-narnia-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/fantastic-four-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/jaws-trilogy-tamil-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/final-destination-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 5,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/krrish-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
+   "endReason": "no-next-link"
+  },
+  "dub:/movie/the-hangover-trilogy-tamil-dubbed-collections/": {
+   "nextPage": 2,
+   "status": "complete",
+   "pages": 1,
+   "found": 3,
    "endReason": "no-next-link"
   }
  },
- "discoveredPaths": 8753,
+ "discoveredPaths": 8854,
  "outcomes": {
-  "stored-movie": 6765,
-  "empty": 420,
-  "complete": 55,
-  "incomplete": 2,
-  "failed": 3
+  "collection-expanded": 90,
+  "stored-movie": 6783,
+  "empty": 1304,
+  "failed": 2,
+  "complete": 664,
+  "incomplete": 11
  },
- "pending": 1508,
+ "pending": 0,
  "limitations": [
   "Only accessible source listings are discoverable.",
   "Stored movie pages are retained, not all re-downloaded.",
   "Embed confirmation is not video playback verification."
  ],
  "discoveryComplete": true,
- "walkComplete": false,
- "postRunRefresh": "Bigg Boss 2026 and season-10 source pages subsequently refreshed: 77 confirmed episodes each, preserved as separate source records."
+ "walkComplete": false
 }
