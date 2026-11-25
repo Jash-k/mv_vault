@@ -25,7 +25,7 @@
  "preservedBaselineIds": 7502,
  "preservedBaselineEmbeds": 22134,
  "integrityIssues": 0,
- "sha256": "451e5620c22e6a44320e2da678b0f4839740cf8d92124afa1677bbac8b580b27",
+ "sha256": "afabfd20b187883658bdf22da29473773483a83895d688d181097e73499dfb4e",
  "unresolved": [
   {
    "id": "appu-vi-std-2024",
@@ -6891,5 +6891,6 @@
  "limitations": [
   "Verification concerns metadata identity, not copyright authorization or video playback.",
   "Historical coverage and pending work are separately reported in historic-coverage.json."
- ]
+ ],
+ "categoryCorrection": "667 legacy categories corrected; metadata identity and playback unchanged."
 }
