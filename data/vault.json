@@ -8509,7 +8509,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:51:59.977Z"
+   "checkedAt": "2026-11-25T05:34:26.399Z"
   }
  },
  {
@@ -15455,7 +15455,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:26.778Z"
+   "checkedAt": "2026-11-25T05:34:59.951Z"
   }
  },
  {
@@ -139311,7 +139311,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:52:32.020Z"
+   "checkedAt": "2026-11-25T05:34:38.401Z"
   }
  },
  {
@@ -140982,7 +140982,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:01.167Z"
+   "checkedAt": "2026-11-25T05:34:38.401Z"
   }
  },
  {
@@ -141174,7 +141174,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:21.810Z"
+   "checkedAt": "2026-11-25T05:34:50.268Z"
   }
  },
  {
@@ -197368,7 +197368,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T22:51:25.849Z"
+   "checkedAt": "2026-11-25T05:34:16.499Z"
   }
  },
  {
@@ -198240,7 +198240,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T22:51:52.490Z"
+   "checkedAt": "2026-11-25T05:34:26.398Z"
   }
  },
  {
@@ -202739,7 +202739,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:09.695Z"
+   "checkedAt": "2026-11-25T05:34:50.268Z"
   }
  },
  {
@@ -203295,7 +203295,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:21.811Z"
+   "checkedAt": "2026-11-25T05:34:50.268Z"
   }
  },
  {
@@ -204810,7 +204810,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-24T22:53:40.534Z"
+   "checkedAt": "2026-11-25T05:34:59.951Z"
   }
  },
  {
@@ -204838,7 +204838,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:40.534Z"
+   "checkedAt": "2026-11-25T05:34:59.951Z"
   }
  },
  {
@@ -204941,7 +204941,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T22:53:52.170Z"
+   "checkedAt": "2026-11-25T05:34:59.951Z"
   }
  },
  {
@@ -238639,7 +238639,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:51:09.542Z"
+   "checkedAt": "2026-11-25T05:34:16.499Z"
   }
  },
  {
@@ -243347,7 +243347,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T22:52:46.002Z"
+   "checkedAt": "2026-11-25T05:34:38.401Z"
   }
  },
  {
@@ -280536,7 +280536,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:50:48.398Z"
+   "checkedAt": "2026-11-25T05:34:16.499Z"
   }
  },
  {
@@ -283308,7 +283308,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:52:08.672Z"
+   "checkedAt": "2026-11-25T05:34:26.399Z"
   }
  },
  {
@@ -284973,7 +284973,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T22:52:46.002Z"
+   "checkedAt": "2026-11-25T05:34:38.401Z"
   }
  },
  {
@@ -286553,7 +286553,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T22:53:21.811Z"
+   "checkedAt": "2026-11-25T05:34:50.268Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -351625,7 +351625,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T22:51:46.710Z"
+   "checkedAt": "2026-11-25T05:34:26.398Z"
   }
  },
  {
@@ -354083,7 +354083,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T22:51:23.613Z"
+   "checkedAt": "2026-11-25T05:34:16.499Z"
   }
  },
  {
