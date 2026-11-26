@@ -50281,9 +50281,9 @@
   "animals-2026": "2026-11-25T23:49:00.251Z",
   "assassins-2020": "2026-11-24T13:51:27.272Z",
   "celebrity-master-chef-2026": "2026-11-26T08:39:58.721Z",
-  "lupin-2026": "2026-11-26T03:41:49.381Z",
+  "lupin-2026": "2026-11-26T13:09:10.135Z",
   "hope-2026": "2026-11-25T23:52:18.447Z",
-  "blue-box-2026": "2026-11-26T03:41:49.764Z",
+  "blue-box-2026": "2026-11-26T13:09:10.135Z",
   "collision-course-2026": "2026-11-25T23:50:12.646Z",
   "the-birthday-gift-2026": "2026-11-25T23:55:43.265Z",
   "empire-of-the-sharks-2017": "2026-11-25T23:51:28.008Z",
@@ -51116,9 +51116,9 @@
    "identity": "1fbfbead58733c29a9ba",
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "attempts": 3,
-   "checkedAt": "2026-11-25T08:56:13.936Z",
-   "nextRetryAt": "2026-11-26T08:56:13.936Z",
+   "attempts": 4,
+   "checkedAt": "2026-11-26T13:09:10.135Z",
+   "nextRetryAt": "2026-11-27T13:09:10.135Z",
    "requests": 120,
    "notes": [
     {
@@ -58198,9 +58198,9 @@
    "identity": "d82d84834275469dad54",
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "attempts": 3,
-   "checkedAt": "2026-11-25T08:57:34.399Z",
-   "nextRetryAt": "2026-11-26T08:57:34.399Z",
+   "attempts": 4,
+   "checkedAt": "2026-11-26T13:09:10.135Z",
+   "nextRetryAt": "2026-11-27T13:09:10.135Z",
    "requests": 18,
    "notes": [
     {
@@ -78415,9 +78415,9 @@
    "identity": "b86459616d658b4e46bb",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-11-26T03:41:49.381Z",
-   "nextRetryAt": "2026-11-26T09:41:49.381Z",
+   "attempts": 2,
+   "checkedAt": "2026-11-26T13:09:10.135Z",
+   "nextRetryAt": "2026-11-27T13:09:10.135Z",
    "requests": 27,
    "notes": [
     {
@@ -78570,9 +78570,9 @@
    "identity": "158316abbac34202e184",
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "attempts": 1,
-   "checkedAt": "2026-11-26T03:41:49.764Z",
-   "nextRetryAt": "2026-11-26T09:41:49.764Z",
+   "attempts": 2,
+   "checkedAt": "2026-11-26T13:09:10.135Z",
+   "nextRetryAt": "2026-11-27T13:09:10.135Z",
    "requests": 4,
    "notes": [
     {

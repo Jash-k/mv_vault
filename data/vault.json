@@ -307544,7 +307544,12 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-07T20:36:07.773Z"
+  "updatedAt": "2026-10-07T20:36:07.773Z",
+  "metadataVerification": {
+   "status": "unavailable",
+   "reason": "source-credits-conflict",
+   "checkedAt": "2026-11-26T13:09:10.135Z"
+  }
  },
  {
   "id": "ranabaali-2026",
@@ -312887,7 +312892,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-24T12:30:21.122Z"
+   "checkedAt": "2026-11-26T13:09:10.135Z"
   }
  },
  {
@@ -316241,7 +316246,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-26T03:41:49.764Z"
+   "checkedAt": "2026-11-26T13:09:10.135Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -317103,7 +317108,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-26T03:41:49.381Z"
+   "checkedAt": "2026-11-26T13:09:10.135Z"
   },
   "sourceMetadata": {
    "available": true,
