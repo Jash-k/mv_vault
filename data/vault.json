@@ -127867,6 +127867,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/beauty-in-black-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -128097,7 +128098,19 @@
   "tmdbType": "tv",
   "tmdbTitle": "Beauty in Black",
   "originalYear": 2024,
-  "originalLanguage": "en"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/beauty-in-black-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:39.603Z",
+   "sourceTitle": "Beauty in Black (2026)",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": [
+    "Taylor Polidore",
+    "Crystle Stewart",
+    "Amber Reign Smith"
+   ]
+  }
  },
  {
   "id": "bedevilled-2010",
@@ -144330,7 +144343,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:29:16.244Z"
+  "updatedAt": "2026-11-13T09:29:16.244Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/lanterns-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:14.384Z",
+   "sourceTitle": "Lanterns (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Peter Safran"
+   ],
+   "cast": [
+    "Kyle Chandler",
+    "Aaron Pierre",
+    "Kelly Macdonald"
+   ]
+  }
  },
  {
   "id": "last-breath-2025",
@@ -146825,12 +146853,27 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:39:41.201Z",
+   "checkedAt": "2026-11-26T03:41:50.971Z",
    "tmdbId": 299939,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/299939",
     "https://isaidub.green/movie/monster-the-lizzie-borden-story-2026-tamil-dubbed-web-series/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/monster-the-lizzie-borden-story-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:24.905Z",
+   "sourceTitle": "Monster The Lizzie Borden Story (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Ryan Murphy"
+   ],
+   "cast": [
+    "Ella Beatty",
+    "Vicky Krieps",
+    "Sarah Paulson"
    ]
   }
  },
@@ -149749,7 +149792,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:29:28.098Z"
+  "updatedAt": "2026-11-13T09:29:28.098Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/our-universe-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:31.216Z",
+   "sourceTitle": "Our Universe (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Lee Hyun-suk"
+   ],
+   "cast": [
+    "Bae In-hyuk",
+    "Roh Jeong-eui",
+    "Park Seo-ham"
+   ]
+  }
  },
  {
   "id": "out-of-the-shadows-2016",
@@ -174023,7 +174081,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:29:56.707Z"
+  "updatedAt": "2026-11-13T09:29:56.707Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-final-problem-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:21.017Z",
+   "sourceTitle": "The Final Problem (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Urko Errazquin"
+   ],
+   "cast": [
+    "Jose Coronado",
+    "Maria Valverde",
+    "Martiño Rivas"
+   ]
+  }
  },
  {
   "id": "the-flash-2014",
@@ -191049,7 +191122,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:30:39.649Z"
+  "updatedAt": "2026-11-13T09:30:39.649Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/carrie-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:12.181Z",
+   "sourceTitle": "Carrie (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "cartels-2016",
@@ -195001,7 +195083,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:30:51.346Z"
+  "updatedAt": "2026-11-13T09:30:51.346Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/east-of-eden-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:16.590Z",
+   "sourceTitle": "East of Eden (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "echoes-of-fear-2018",
@@ -206118,7 +206209,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:31:21.535Z"
+  "updatedAt": "2026-11-13T09:31:21.535Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/neagley-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:27.135Z",
+   "sourceTitle": "Neagley (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Nick Santora"
+   ],
+   "cast": [
+    "Maria Sten",
+    "Greyston Holt",
+    "Adeline Rudolph"
+   ]
+  }
  },
  {
   "id": "nemesis-2026",
@@ -217135,6 +217241,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-gentlemen-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -217351,6 +217458,7 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T12:37:00.464Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "published-id-live-exact-title-year",
@@ -217361,10 +217469,23 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "en",
   "tmdbTitle": "The Gentlemen",
   "originalYear": 2024,
-  "updatedAt": "2026-11-24T12:37:00.464Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-gentlemen-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:33.928Z",
+   "sourceTitle": "The Gentlemen (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Jonathan Glickman"
+   ],
+   "cast": [
+    "Theo James",
+    "Kaya Scodelario",
+    "Daniel Ings"
+   ]
+  }
  },
  {
   "id": "the-girl-on-the-train-2021",
@@ -242686,6 +242807,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/leanne-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -242952,6 +243074,7 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T12:37:00.465Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "published-id-live-exact-title-year",
@@ -242962,10 +243085,23 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "en",
   "tmdbTitle": "Leanne",
   "originalYear": 2025,
-  "updatedAt": "2026-11-24T12:37:00.465Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/leanne-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:41.665Z",
+   "sourceTitle": "Leanne (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Leanne Morgan"
+   ],
+   "cast": [
+    "Leanne Morgan",
+    "Kristen Johnston",
+    "Celia Weston"
+   ]
+  }
  },
  {
   "id": "left-behind-2014",
@@ -243102,7 +243238,16 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:33:05.695Z"
+  "updatedAt": "2026-11-13T09:33:05.695Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/lego-one-piece-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:19.670Z",
+   "sourceTitle": "Lego One Piece (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "let-there-be-light-2017",
@@ -249594,6 +249739,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/reacher-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -249810,6 +249956,7 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T12:37:00.465Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "published-id-live-exact-title-year",
@@ -249820,10 +249967,23 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "en",
   "tmdbTitle": "Reacher",
   "originalYear": 2022,
-  "updatedAt": "2026-11-24T12:37:00.465Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/reacher-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:36.025Z",
+   "sourceTitle": "Reacher (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Amy Pocha"
+   ],
+   "cast": [
+    "Alan Ritchson",
+    "Agnez Mo",
+    "Sydelle Noel"
+   ]
+  }
  },
  {
   "id": "rear-window-1954",
@@ -252720,7 +252880,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T09:33:29.160Z"
+  "updatedAt": "2026-11-13T09:33:29.160Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/shaque-trust-no-one-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:22.771Z",
+   "sourceTitle": "Shaque Trust No One (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Renzil D'Silva"
+   ],
+   "cast": [
+    "Parineeti Chopra",
+    "Jennifer Winget",
+    "Tahir Raj Bhasin"
+   ]
+  }
  },
  {
   "id": "shark-night-2011",
@@ -274224,6 +274399,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/death-of-the-pastors-wife-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -274329,7 +274505,20 @@
   "tmdbType": "tv",
   "tmdbTitle": "Death of the Pastor's Wife",
   "originalYear": 2026,
-  "originalLanguage": "en"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/death-of-the-pastors-wife-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:38.125Z",
+   "sourceTitle": "Death of the Pastors Wife (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Julia Willoughby Nason"
+   ],
+   "cast": [
+    "Mica Miller",
+    "John-Paul Miller"
+   ]
+  }
  },
  {
   "id": "death-race-2008",
@@ -282632,11 +282821,24 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:36:53.643Z",
+   "checkedAt": "2026-11-26T03:41:50.971Z",
    "tmdbId": 335533,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/335533"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/jungle-tales-with-mowgli-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:29.295Z",
+   "sourceTitle": "Jungle Tales with Mowgli (2026)",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": [
+    "Mowgli",
+    "Baloo",
+    "Bagheera"
    ]
   }
  },
@@ -313689,6 +313891,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-lord-of-the-rings-the-rings-of-power-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -313747,6 +313950,12 @@
     "episode": 5
    },
    {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114119",
+    "season": 3,
+    "episode": 5
+   },
+   {
     "quality": "720p",
     "url": "https://dub.onestream.today/stream/video/113978",
     "season": 3,
@@ -313755,6 +313964,12 @@
    {
     "quality": "1080p",
     "url": "https://dub.onestream.today/stream/video/113977",
+    "season": 3,
+    "episode": 6
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114120",
     "season": 3,
     "episode": 6
    },
@@ -313834,6 +314049,10 @@
         "url": "https://dub.onestream.today/stream/video/113976"
        },
        {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114119"
+       },
+       {
         "quality": "720p",
         "url": "https://dub.onestream.today/stream/video/113978"
        }
@@ -313847,6 +314066,10 @@
         "url": "https://dub.onestream.today/stream/video/113977"
        },
        {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114120"
+       },
+       {
         "quality": "720p",
         "url": "https://dub.onestream.today/stream/video/113979"
        }
@@ -313855,11 +314078,11 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-25T13:47:24.211Z",
+  "updatedAt": "2026-11-26T03:40:43.010Z",
   "metadataVerification": {
    "status": "verified",
-   "reason": "exact-title-season-year",
-   "checkedAt": "2026-11-25T13:47:24.211Z",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T03:41:50.824Z",
    "tmdbId": 84773,
    "tmdbType": "tv",
    "evidenceUrls": [
@@ -313867,9 +314090,17 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "en",
   "tmdbTitle": "The Lord of the Rings: The Rings of Power",
-  "originalYear": 2022
+  "originalYear": 2022,
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-lord-of-the-rings-the-rings-of-power-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:41.320Z",
+   "sourceTitle": "The Lord of the Rings The Rings of Power (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "the-gospel-of-christmas-2026",
@@ -314203,12 +314434,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:32:31.823Z",
+   "checkedAt": "2026-11-26T03:41:50.824Z",
    "tmdbId": 303044,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/303044"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/campus-drivers-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:43.112Z",
+   "sourceTitle": "Campus Drivers (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -314293,6 +314533,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/black-doves-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -314462,7 +314703,7 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:31:43.495Z",
+   "checkedAt": "2026-11-26T03:41:50.823Z",
    "tmdbId": 225385,
    "tmdbType": "tv",
    "evidenceUrls": [
@@ -314472,7 +314713,15 @@
   "tmdbType": "tv",
   "tmdbTitle": "Black Doves",
   "originalYear": 2024,
-  "originalLanguage": "en"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/black-doves-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:44.919Z",
+   "sourceTitle": "Black Doves (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "ardennes-fury-2014",
@@ -314617,12 +314866,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:45:20.071Z",
+   "checkedAt": "2026-11-26T03:41:50.823Z",
    "tmdbId": 338684,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/338684"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/taken-natalee-holloway-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:46.761Z",
+   "sourceTitle": "Taken Natalee Holloway (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -315034,12 +315292,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:33:10.290Z",
+   "checkedAt": "2026-11-26T03:41:49.764Z",
    "tmdbId": 289517,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/289517"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/dead-end-job-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:48.132Z",
+   "sourceTitle": "Dead End Job (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -315483,7 +315750,16 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T23:49:41.393Z"
+   "checkedAt": "2026-11-26T03:41:49.764Z"
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/blue-box-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:50.197Z",
+   "sourceTitle": "Blue Box (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -315606,12 +315882,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:39:02.249Z",
+   "checkedAt": "2026-11-26T03:41:49.764Z",
    "tmdbId": 311648,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/311648"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/make-me-tingle-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:51.390Z",
+   "sourceTitle": "Make Me Tingle (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -315719,12 +316004,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:31:19.652Z",
+   "checkedAt": "2026-11-26T03:41:49.764Z",
    "tmdbId": 237150,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/237150"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/as-a-reincarnated-aristocrat-i-ll-use-my-appraisal-skill-to-rise-in-the-world-2024-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:52.216Z",
+   "sourceTitle": "As a Reincarnated Aristocrat I ll Use My Appraisal Skill to Rise in the World (2024) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -316318,7 +316612,16 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T23:53:25.025Z"
+   "checkedAt": "2026-11-26T03:41:49.381Z"
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/lupin-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:52.976Z",
+   "sourceTitle": "Lupin (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -316651,12 +316954,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:33:10.290Z",
+   "checkedAt": "2026-11-26T03:41:49.381Z",
    "tmdbId": 214540,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/214540"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/dead-mount-death-play-2023-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:55.107Z",
+   "sourceTitle": "Dead Mount Death Play (2023) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2023,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -316741,6 +317053,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-terminal-list-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -316957,10 +317270,11 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-25T13:48:33.934Z",
   "metadataVerification": {
    "status": "verified",
-   "reason": "exact-title-season-year",
-   "checkedAt": "2026-11-25T13:48:33.934Z",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T03:41:49.381Z",
    "tmdbId": 120911,
    "tmdbType": "tv",
    "evidenceUrls": [
@@ -316968,10 +317282,17 @@
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "en",
   "tmdbTitle": "The Terminal List",
   "originalYear": 2022,
-  "updatedAt": "2026-11-25T13:48:33.934Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-terminal-list-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:56.850Z",
+   "sourceTitle": "The Terminal List (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  }
  },
  {
   "id": "moana-2026",
@@ -317463,12 +317784,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:34:26.330Z",
+   "checkedAt": "2026-11-26T03:41:49.381Z",
    "tmdbId": 297640,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/297640"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/filing-for-love-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:58.934Z",
+   "sourceTitle": "Filing for Love (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -317801,12 +318131,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:49:02.608Z",
+   "checkedAt": "2026-11-26T03:41:48.196Z",
    "tmdbId": 326119,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/326119"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/thunder-3-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:01.439Z",
+   "sourceTitle": "Thunder 3 (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -318229,12 +318568,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T22:05:59.723Z",
+   "checkedAt": "2026-11-26T03:41:48.196Z",
    "tmdbId": 213375,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/213375"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/visionquest-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:04.036Z",
+   "sourceTitle": "VisionQuest (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -318405,12 +318753,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:49:19.629Z",
+   "checkedAt": "2026-11-26T03:41:48.195Z",
    "tmdbId": 335536,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/335536"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/tyson-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:06.260Z",
+   "sourceTitle": "Tyson (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -318593,12 +318950,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:48:35.703Z",
+   "checkedAt": "2026-11-26T03:41:48.195Z",
    "tmdbId": 283371,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/283371"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-trap-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:07.937Z",
+   "sourceTitle": "The Trap (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -318881,12 +319247,21 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:45:16.570Z",
+   "checkedAt": "2026-11-26T03:41:48.163Z",
    "tmdbId": 289423,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/289423"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/take-charge-of-my-heart-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:41:09.764Z",
+   "sourceTitle": "Take Charge of My Heart (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -322646,6 +323021,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "es",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/murder-in-galicia-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -322737,20 +323113,28 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-25T13:40:00.798Z",
   "tmdbType": "tv",
-  "originalLanguage": "es",
   "tmdbTitle": "Murder in Galicia",
   "originalYear": 2026,
-  "updatedAt": "2026-11-25T13:40:00.798Z",
   "metadataVerification": {
    "status": "verified",
-   "reason": "exact-title-year",
-   "checkedAt": "2026-11-25T13:40:00.798Z",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T03:41:48.163Z",
    "tmdbId": 303182,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/303182"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/murder-in-galicia-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:39.838Z",
+   "sourceTitle": "Murder in Galicia (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -334831,6 +335215,7 @@
   "year": 2026,
   "kind": "series",
   "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
   "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-altruists-2026-tamil-dubbed-web-series/",
   "embeds": [
@@ -335050,7 +335435,6 @@
   "tmdbType": "tv",
   "tmdbTitle": "The Altruists",
   "originalYear": 2026,
-  "originalLanguage": "en",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-year",
@@ -335060,6 +335444,15 @@
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/308007"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-altruists-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:37.728Z",
+   "sourceTitle": "The Altruists (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -335677,6 +336070,9 @@
   "title": "The Trials of Karen Read",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/the-trials-of-karen-read-2026-tamil-dubbed-web-series/",
   "embeds": [
    {
@@ -335737,12 +336133,9 @@
     ]
    }
   ],
-  "category": "tamil-dubbed-series",
-  "categorySource": "tmdb",
   "tmdbType": "tv",
   "tmdbTitle": "The Trials of Karen Read",
   "originalYear": 2026,
-  "originalLanguage": "en",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-year",
@@ -335752,6 +336145,15 @@
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/340615"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/the-trials-of-karen-read-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:37.116Z",
+   "sourceTitle": "The Trials of Karen Read (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
   }
  },
  {
@@ -337396,6 +337798,300 @@
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/339004"
+   ]
+  }
+ },
+ {
+  "id": "fast-and-fierce-death-race-2020",
+  "title": "Fast and Fierce Death Race",
+  "year": 2020,
+  "pageUrl": "https://isaidub.green/movie/fast-and-fierce-death-race-2020-tamil-dubbed-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114128"
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114130"
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/v9bPKQUQtdNh1ZlAfNFaGVg8C1C.jpg",
+  "rating": 5.4,
+  "tmdbId": 701675,
+  "imdbId": "tt11765324",
+  "addedAt": "2026-11-26T03:40:34.715Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/fast-and-fierce-death-race-2020-tamil-dubbed-movie/",
+   "fetchedAt": "2026-11-26T03:40:33.023Z",
+   "sourceTitle": "Fast and Fierce Death Race (2020) Tamil Dubbed Movie Download isaiDub",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-movie",
+  "categorySource": "tmdb",
+  "tmdbType": "movie",
+  "originalLanguage": "en",
+  "tmdbTitle": "Fast and Fierce: Death Race",
+  "originalYear": 2020,
+  "updatedAt": "2026-11-26T03:41:48.163Z",
+  "metadataVerification": {
+   "status": "verified",
+   "reason": "exact-title-year",
+   "checkedAt": "2026-11-26T03:41:48.163Z",
+   "tmdbId": 701675,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/701675"
+   ]
+  }
+ },
+ {
+  "id": "blade-runner-2099-2026",
+  "title": "Blade Runner 2099",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://isaidub.green/movie/blade-runner-2099-2026-tamil-dubbed-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114102",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114111",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114103",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114112",
+    "season": 1,
+    "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114104",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114113",
+    "season": 1,
+    "episode": 3
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114105",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114114",
+    "season": 1,
+    "episode": 4
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114106",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114115",
+    "season": 1,
+    "episode": 5
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114107",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114116",
+    "season": 1,
+    "episode": 6
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114108",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114117",
+    "season": 1,
+    "episode": 7
+   },
+   {
+    "quality": "1080p",
+    "url": "https://dub.onestream.today/stream/video/114109",
+    "season": 1,
+    "episode": 8
+   },
+   {
+    "quality": "720p",
+    "url": "https://dub.onestream.today/stream/video/114118",
+    "season": 1,
+    "episode": 8
+   }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
+  "rating": 5.1,
+  "tmdbId": 171802,
+  "imdbId": "tt18224594",
+  "addedAt": "2026-11-26T03:40:37.004Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114102"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114111"
+       }
+      ]
+     },
+     {
+      "episode": 2,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114103"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114112"
+       }
+      ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114104"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114113"
+       }
+      ]
+     },
+     {
+      "episode": 4,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114105"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114114"
+       }
+      ]
+     },
+     {
+      "episode": 5,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114106"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114115"
+       }
+      ]
+     },
+     {
+      "episode": 6,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114107"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114116"
+       }
+      ]
+     },
+     {
+      "episode": 7,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114108"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114117"
+       }
+      ]
+     },
+     {
+      "episode": 8,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://dub.onestream.today/stream/video/114109"
+       },
+       {
+        "quality": "720p",
+        "url": "https://dub.onestream.today/stream/video/114118"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://isaidub.green/movie/blade-runner-2099-2026-tamil-dubbed-web-series/",
+   "fetchedAt": "2026-11-26T03:40:34.828Z",
+   "sourceTitle": "Blade Runner 2099 (2026) Tamil Dubbed Web Series Download isaiDub",
+   "sourceYear": 2026,
+   "directors": [],
+   "cast": []
+  },
+  "category": "tamil-dubbed-series",
+  "categorySource": "tmdb",
+  "tmdbType": "tv",
+  "originalLanguage": "en",
+  "tmdbTitle": "Blade Runner 2099",
+  "originalYear": 2026,
+  "updatedAt": "2026-11-26T03:41:48.162Z",
+  "metadataVerification": {
+   "status": "verified",
+   "reason": "exact-title-year",
+   "checkedAt": "2026-11-26T03:41:48.162Z",
+   "tmdbId": 171802,
+   "tmdbType": "tv",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/tv/171802"
    ]
   }
  }
