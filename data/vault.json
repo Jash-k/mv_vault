@@ -8460,7 +8460,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T12:23:25.550Z"
+   "checkedAt": "2026-11-26T08:39:52.459Z"
   }
  },
  {
@@ -15397,7 +15397,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-24T12:27:26.482Z"
+   "checkedAt": "2026-11-26T08:39:55.775Z"
   }
  },
  {
@@ -78746,7 +78746,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:05:43.152Z"
+   "checkedAt": "2026-11-26T08:40:00.320Z"
   }
  },
  {
@@ -79627,12 +79627,20 @@
   "tmdbId": 1324252,
   "imdbId": "",
   "addedAt": "2026-09-28T09:43:19.740Z",
-  "updatedAt": "2026-11-13T10:03:45.448Z",
+  "updatedAt": "2026-11-26T08:40:01.805Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:45.220Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:40:01.805Z",
+   "tmdbId": 1324252,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1324252"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Vijay LL.B: The Advocate",
+  "originalYear": 2025
  },
  {
   "id": "varunan-2025",
@@ -79861,12 +79869,20 @@
   "tmdbId": 1063556,
   "imdbId": "tt24720644",
   "addedAt": "2026-09-28T09:44:55.617Z",
-  "updatedAt": "2026-11-13T10:03:45.684Z",
+  "updatedAt": "2026-11-26T08:40:04.429Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:55.826Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:40:04.429Z",
+   "tmdbId": 1063556,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1063556"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "V3",
+  "originalYear": 2023
  },
  {
   "id": "vaada-2010",
@@ -80841,12 +80857,20 @@
   "tmdbId": 1063556,
   "imdbId": "tt24720644",
   "addedAt": "2026-09-28T09:53:20.971Z",
-  "updatedAt": "2026-11-13T10:03:46.187Z",
+  "updatedAt": "2026-11-26T08:40:03.596Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:55.826Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:40:03.596Z",
+   "tmdbId": 1063556,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/1063556"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "V3",
+  "originalYear": 2023
  },
  {
   "id": "varisu-2023",
@@ -81767,12 +81791,20 @@
   "tmdbId": 81133,
   "imdbId": "tt13654596",
   "addedAt": "2026-09-28T10:03:56.301Z",
-  "updatedAt": "2026-10-03T06:48:08.350Z",
+  "updatedAt": "2026-11-26T08:40:00.320Z",
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:05:27.042Z"
-  }
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:40:00.320Z",
+   "tmdbId": 81133,
+   "tmdbType": "movie",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/movie/81133"
+   ]
+  },
+  "tmdbType": "movie",
+  "tmdbTitle": "Madurai Veeran",
+  "originalYear": 2007
  },
  {
   "id": "vedikkai-en-vadikkai-1990",
@@ -85935,6 +85967,21 @@
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/313172"
    ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/chumbak-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-26T08:38:21.075Z",
+   "sourceTitle": "Chumbak (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Jamnadas Majethia"
+   ],
+   "cast": [
+    "Sandeepa Dhar",
+    "Neena Gupta",
+    "Manasi Parekh"
+   ]
   }
  },
  {
@@ -87367,12 +87414,27 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:31:10.908Z",
+   "checkedAt": "2026-11-26T08:39:58.720Z",
    "tmdbId": 331932,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/331932",
-    "https://moviesda.ski/ali-baba-aur-40-bhoot-2026-tamil-web-series/"
+    "https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ali-baba-aur-40-bhoot-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-26T08:35:39.438Z",
+   "sourceTitle": "Ali Baba aur 40 Bhoot (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Rishav Agarwal",
+    "Konarak Mukherjee"
+   ],
+   "cast": [
+    "Asha Negi",
+    "Vishal Vasistha"
    ]
   }
  },
@@ -88292,6 +88354,30 @@
     "episode": 76
    },
    {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102268",
+    "season": 1,
+    "episode": 77
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102269",
+    "season": 1,
+    "episode": 78
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102270",
+    "season": 1,
+    "episode": 79
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/102271",
+    "season": 1,
+    "episode": 80
+   },
+   {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/102468",
     "season": 1,
@@ -88854,6 +88940,42 @@
       ]
      },
      {
+      "episode": 77,
+      "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102268"
+       }
+      ]
+     },
+     {
+      "episode": 78,
+      "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102269"
+       }
+      ]
+     },
+     {
+      "episode": 79,
+      "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102270"
+       }
+      ]
+     },
+     {
+      "episode": 80,
+      "embeds": [
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/102271"
+       }
+      ]
+     },
+     {
       "episode": 81,
       "embeds": [
        {
@@ -89116,7 +89238,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-13T07:36:16.422Z"
+  "updatedAt": "2026-11-26T08:39:50.290Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/brothers-and-sisters-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-26T08:38:55.289Z",
+   "sourceTitle": "Brothers And Sisters (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Chidambaram Manivannan"
+   ],
+   "cast": [
+    "Bose Venkat",
+    "Gayathri Shastry",
+    "Nikhila Sankar"
+   ]
+  }
  },
  {
   "id": "batchmates-2026",
@@ -93211,6 +93348,54 @@
     "url": "https://play.onestream.today/stream/page/103608",
     "season": 3,
     "episode": 68
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103810",
+    "season": 3,
+    "episode": 69
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103814",
+    "season": 3,
+    "episode": 69
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103811",
+    "season": 3,
+    "episode": 70
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103815",
+    "season": 3,
+    "episode": 70
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103812",
+    "season": 3,
+    "episode": 71
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103816",
+    "season": 3,
+    "episode": 71
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103813",
+    "season": 3,
+    "episode": 72
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103817",
+    "season": 3,
+    "episode": 72
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/aHEr565AkKrwC7Q18u3OEjGavyj.jpg",
@@ -94105,15 +94290,67 @@
         "url": "https://play.onestream.today/stream/page/103608"
        }
       ]
+     },
+     {
+      "episode": 69,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103810"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103814"
+       }
+      ]
+     },
+     {
+      "episode": 70,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103811"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103815"
+       }
+      ]
+     },
+     {
+      "episode": 71,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103812"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103816"
+       }
+      ]
+     },
+     {
+      "episode": 72,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103813"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103817"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-25T21:53:46.148Z",
+  "updatedAt": "2026-11-26T08:25:14.045Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/heart-beat-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:51:03.033Z",
+   "fetchedAt": "2026-11-26T08:23:04.914Z",
    "sourceTitle": "Heart Beat (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -97057,7 +97294,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-11-21T07:16:07.787Z"
+  "updatedAt": "2026-11-21T07:16:07.787Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/prince-of-mollywood-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-26T08:36:54.895Z",
+   "sourceTitle": "Prince of Mollywood (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Shani Khader"
+   ],
+   "cast": [
+    "Dain Davis",
+    "Harishma",
+    "Vidhya Vijaykumar"
+   ]
+  }
  },
  {
   "id": "sri-bharatha-baahubali-2024",
@@ -97557,7 +97809,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:01.461Z"
+   "checkedAt": "2026-11-26T08:40:01.805Z"
   }
  },
  {
@@ -103358,7 +103610,23 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T06:48:23.498Z"
+  "updatedAt": "2026-10-03T06:48:23.498Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/hunkkaar-the-roar-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-26T08:34:09.444Z",
+   "sourceTitle": "Hunkkaar The Roar (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Heeraz Marfatia",
+    "Nitya Mehra"
+   ],
+   "cast": [
+    "Devendra Patel",
+    "Vidushi",
+    "Abhinav Chaturvedi"
+   ]
+  }
  },
  {
   "id": "3-2012",
@@ -106528,7 +106796,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/90s-a-middle-class-biopic-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:53:48.859Z",
+   "fetchedAt": "2026-11-26T08:25:16.313Z",
    "sourceTitle": "90s A Middle Class Biopic (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -106686,7 +106954,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/air-all-india-rankers-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:54:01.093Z",
+   "fetchedAt": "2026-11-26T08:25:25.673Z",
    "sourceTitle": "AIR All India Rankers (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -106816,7 +107084,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/mrs-deshpande-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:55:22.393Z",
+   "fetchedAt": "2026-11-26T08:26:27.768Z",
    "sourceTitle": "Mrs Deshpande (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -106976,7 +107244,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/pharma-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:55:07.518Z",
+   "fetchedAt": "2026-11-26T08:26:16.551Z",
    "sourceTitle": "Pharma (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -107106,7 +107374,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/single-papa-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:56:34.983Z",
+   "fetchedAt": "2026-11-26T08:27:22.884Z",
    "sourceTitle": "Single Papa (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -107236,7 +107504,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/heartiley-battery-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:56:10.274Z",
+   "fetchedAt": "2026-11-26T08:27:04.628Z",
    "sourceTitle": "Heartiley Battery (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -109090,7 +109358,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/lbw-love-beyond-wicket-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:41:23.551Z",
+   "fetchedAt": "2026-11-26T08:15:37.440Z",
    "sourceTitle": "LBW Love Beyond Wicket (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -109893,7 +110161,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhoolpet-police-station-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:45:44.450Z",
+   "fetchedAt": "2026-11-26T08:18:56.467Z",
    "sourceTitle": "Dhoolpet Police Station (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -110098,7 +110366,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/matsya-kaand-2021-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:58:28.894Z",
+   "fetchedAt": "2026-11-26T08:28:48.594Z",
    "sourceTitle": "Matsya Kaand (2021)",
    "sourceYear": 2021,
    "directors": [
@@ -110287,12 +110555,12 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:56.115Z"
+   "checkedAt": "2026-11-26T08:40:00.320Z"
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2-2023-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:59:39.453Z",
+   "fetchedAt": "2026-11-26T08:29:42.395Z",
    "sourceTitle": "Iru Dhuruvam 2 (2023)",
    "sourceYear": 2023,
    "directors": [
@@ -110452,7 +110720,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/real-kashmir-football-club-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:00:12.634Z",
+   "fetchedAt": "2026-11-26T08:30:07.477Z",
    "sourceTitle": "Real Kashmir Football Club (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -110597,7 +110865,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kuttram-purindhavan-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:00:59.651Z",
+   "fetchedAt": "2026-11-26T08:30:43.183Z",
    "sourceTitle": "Kuttram Purindhavan (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -111109,7 +111377,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/iru-dhuruvam-2019-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:59:56.988Z",
+   "fetchedAt": "2026-11-26T08:29:55.681Z",
    "sourceTitle": "Iru Dhuruvam (2019)",
    "sourceYear": 2019,
    "directors": [
@@ -111561,7 +111829,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhaukaal-2022-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:03:07.266Z",
+   "fetchedAt": "2026-11-26T08:32:20.469Z",
    "sourceTitle": "Bhaukaal (2022)",
    "sourceYear": 2022,
    "directors": [],
@@ -111749,7 +112017,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/love-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:04:52.364Z",
+   "fetchedAt": "2026-11-26T08:33:39.865Z",
    "sourceTitle": "Love (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -115910,7 +116178,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/regai-2025-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:04:40.223Z",
+   "fetchedAt": "2026-11-26T08:33:30.421Z",
    "sourceTitle": "Regai (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -117449,12 +117717,12 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:58:24.699Z"
+   "checkedAt": "2026-11-26T08:42:48.323Z"
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/police-police-2025-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:43:45.175Z",
+   "fetchedAt": "2026-11-26T08:17:25.950Z",
    "sourceTitle": "Police Police (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -117868,7 +118136,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/karuvanam-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:50:29.989Z",
+   "fetchedAt": "2026-11-26T08:22:39.921Z",
    "sourceTitle": "Karuvanam (2024)",
    "sourceYear": 2024,
    "directors": [],
@@ -117981,7 +118249,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/parachute-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:55:58.380Z",
+   "fetchedAt": "2026-11-26T08:26:55.551Z",
    "sourceTitle": "Parachute (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -118276,7 +118544,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/nadu-center-2025-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:55:34.543Z",
+   "fetchedAt": "2026-11-26T08:26:36.823Z",
    "sourceTitle": "Nadu Center (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -118406,7 +118674,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/vikkatakavi-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:56:22.153Z",
+   "fetchedAt": "2026-11-26T08:27:13.619Z",
    "sourceTitle": "Vikkatakavi (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -118581,7 +118849,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/waack-girls-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T21:57:37.910Z",
+   "fetchedAt": "2026-11-26T08:28:09.945Z",
    "sourceTitle": "Waack Girls (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -118710,7 +118978,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/freedom-at-midnight-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T22:00:27.450Z",
+   "fetchedAt": "2026-11-26T08:30:18.731Z",
    "sourceTitle": "Freedom at Midnight (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -119724,7 +119992,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/rambo-in-love-2025-movie/",
-   "fetchedAt": "2026-11-25T22:01:14.132Z",
+   "fetchedAt": "2026-11-26T08:30:54.289Z",
    "sourceTitle": "Rambo in love (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -119854,7 +120122,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/citadel-honey-bunny-2024-tamil-movie/",
-   "fetchedAt": "2026-11-25T22:04:01.403Z",
+   "fetchedAt": "2026-11-26T08:33:01.027Z",
    "sourceTitle": "Citadel Honey Bunny (2024)",
    "sourceYear": 2024,
    "directors": [
@@ -119998,7 +120266,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ziddi-ishq-2025-tamil-movie/",
-   "fetchedAt": "2026-11-26T02:31:34.339Z",
+   "fetchedAt": "2026-11-26T08:33:57.733Z",
    "sourceTitle": "Ziddi Ishq (2025)",
    "sourceYear": 2025,
    "directors": [
@@ -120153,7 +120421,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T05:47:27.140Z"
+  "updatedAt": "2026-10-03T05:47:27.140Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/the-family-man-2025-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:34:27.358Z",
+   "sourceTitle": "The Family Man (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Krishna D.K."
+   ],
+   "cast": [
+    "Priyamani",
+    "Jaideep Ahlawat",
+    "Himanshu Ahluwalia"
+   ]
+  }
  },
  {
   "id": "aindham-vedham-2024",
@@ -120298,7 +120581,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T05:47:27.381Z"
+  "updatedAt": "2026-10-03T05:47:27.381Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/aindham-vedham-2024-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:34:38.449Z",
+   "sourceTitle": "Aindham Vedham (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Naga"
+   ],
+   "cast": [
+    "Devadarshini Chetan",
+    "Dhansika",
+    "Mathew Varghese"
+   ]
+  }
  },
  {
   "id": "goli-soda-rising-2024",
@@ -120480,12 +120778,30 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:34:55.621Z",
+   "checkedAt": "2026-11-26T08:39:58.720Z",
    "tmdbId": 270760,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/270760",
-    "https://moviesda.ski/goli-soda-rising-2024-tamil-movie/"
+    "https://moviesda34.com/goli-soda-rising-2024-tamil-movie/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/goli-soda-rising-2024-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:34:49.738Z",
+   "sourceTitle": "Goli Soda Rising (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Vijay Milton"
+   ],
+   "cast": [
+    "Abhirami",
+    "Ramya Nambeeshan",
+    "John Vijay",
+    "Cheran",
+    "Pugazh",
+    "Shaam"
    ]
   }
  },
@@ -120669,12 +120985,27 @@
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:40:25.360Z",
+   "checkedAt": "2026-11-26T08:39:55.775Z",
    "tmdbId": 305127,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/305127",
-    "https://moviesda.ski/network-2025-tamil-movie/"
+    "https://moviesda34.com/network-2025-tamil-movie/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/network-2025-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:35:03.340Z",
+   "sourceTitle": "Network (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Sateesh Chandra Nadella"
+   ],
+   "cast": [
+    "Srikanth",
+    "Kamna Jethmalani",
+    "Priya Vadlamani"
    ]
   }
  },
@@ -120684,6 +121015,7 @@
   "year": 2024,
   "kind": "series",
   "category": "tamil-series",
+  "originalLanguage": "ta",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/snakes-and-ladders-2024-tamil-movie/",
   "embeds": [
@@ -120835,22 +121167,36 @@
     ]
    }
   ],
+  "updatedAt": "2026-11-24T12:37:00.461Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
-   "checkedAt": "2026-11-25T13:44:33.088Z",
+   "checkedAt": "2026-11-26T08:39:52.459Z",
    "tmdbId": 249750,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/249750",
-    "https://moviesda.ski/snakes-and-ladders-2024-tamil-movie/"
+    "https://moviesda34.com/snakes-and-ladders-2024-tamil-movie/"
    ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "ta",
   "tmdbTitle": "Snakes & Ladders",
   "originalYear": 2024,
-  "updatedAt": "2026-11-24T12:37:00.461Z"
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/snakes-and-ladders-2024-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:35:16.867Z",
+   "sourceTitle": "Snakes and Ladders (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Kamala Alchemis"
+   ],
+   "cast": [
+    "Naveen Chandra",
+    "Srinda",
+    "Vettai Muthukumar"
+   ]
+  }
  },
  {
   "id": "1000-babies-2024",
@@ -120980,7 +121326,22 @@
     ]
    }
   ],
-  "updatedAt": "2026-10-03T05:47:28.426Z"
+  "updatedAt": "2026-10-03T05:47:28.426Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/1000-babies-2024-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:35:28.357Z",
+   "sourceTitle": "1000 Babies (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Najeem Koya"
+   ],
+   "cast": [
+    "Neena Gupta",
+    "Ashwin Kumar",
+    "Adil Ibrahim"
+   ]
+  }
  },
  {
   "id": "maharani-2025",
@@ -121131,13 +121492,28 @@
   "originalYear": 2021,
   "metadataVerification": {
    "status": "verified",
-   "reason": "exact-title-season-year",
-   "checkedAt": "2026-11-25T13:38:57.178Z",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:39:52.459Z",
    "tmdbId": 126098,
    "tmdbType": "tv",
    "evidenceUrls": [
     "https://www.themoviedb.org/tv/126098",
-    "https://moviesda.ski/maharani-2025-tamil-movie/"
+    "https://moviesda34.com/maharani-2025-tamil-movie/"
+   ]
+  },
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maharani-2025-tamil-movie/",
+   "fetchedAt": "2026-11-26T08:38:09.839Z",
+   "sourceTitle": "Maharani (2025)",
+   "sourceYear": 2025,
+   "directors": [
+    "Puneet Prakash"
+   ],
+   "cast": [
+    "Huma Qureshi",
+    "Vipin Sharma",
+    "Shweta Basu Prasad"
    ]
   }
  },
@@ -129819,7 +130195,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:49:41.393Z"
+   "checkedAt": "2026-11-26T08:40:42.243Z"
   }
  },
  {
@@ -131457,7 +131833,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:12.645Z"
+   "checkedAt": "2026-11-26T08:40:57.962Z"
   }
  },
  {
@@ -131635,7 +132011,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:24.964Z"
+   "checkedAt": "2026-11-26T08:40:57.962Z"
   }
  },
  {
@@ -134551,7 +134927,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:51:28.007Z"
+   "checkedAt": "2026-11-26T08:41:17.108Z"
   }
  },
  {
@@ -142847,7 +143223,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:52:46.366Z"
+   "checkedAt": "2026-11-26T08:41:30.753Z"
   }
  },
  {
@@ -144448,7 +144824,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:53:15.083Z"
+   "checkedAt": "2026-11-26T08:41:30.753Z"
   }
  },
  {
@@ -146595,7 +146971,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:53:42.883Z"
+   "checkedAt": "2026-11-26T08:41:31.459Z"
   }
  },
  {
@@ -165151,7 +165527,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:54:45.127Z"
+   "checkedAt": "2026-11-26T08:41:54.260Z"
   }
  },
  {
@@ -166456,7 +166832,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:12.446Z"
+   "checkedAt": "2026-11-26T08:42:04.317Z"
   }
  },
  {
@@ -172574,7 +172950,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:34.771Z"
+   "checkedAt": "2026-11-26T08:42:04.317Z"
   }
  },
  {
@@ -173955,7 +174331,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:56:10.342Z"
+   "checkedAt": "2026-11-26T08:42:10.518Z"
   }
  },
  {
@@ -175453,7 +175829,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:56:27.991Z"
+   "checkedAt": "2026-11-26T08:42:18.649Z"
   }
  },
  {
@@ -177647,7 +178023,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:57:01.287Z"
+   "checkedAt": "2026-11-26T08:42:33.241Z"
   }
  },
  {
@@ -180126,7 +180502,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:57:29.809Z"
+   "checkedAt": "2026-11-26T08:42:33.241Z"
   }
  },
  {
@@ -180383,7 +180759,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:57:33.356Z"
+   "checkedAt": "2026-11-26T08:42:33.241Z"
   }
  },
  {
@@ -184071,7 +184447,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:04.370Z"
+   "checkedAt": "2026-11-26T08:40:01.805Z"
   }
  },
  {
@@ -184807,7 +185183,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:14.978Z"
+   "checkedAt": "2026-11-26T08:40:04.429Z"
   }
  },
  {
@@ -184982,7 +185358,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:28.571Z"
+   "checkedAt": "2026-11-26T08:40:11.829Z"
   }
  },
  {
@@ -185014,7 +185390,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:28.571Z"
+   "checkedAt": "2026-11-26T08:40:11.829Z"
   }
  },
  {
@@ -185236,7 +185612,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:30.636Z"
+   "checkedAt": "2026-11-26T08:40:11.829Z"
   }
  },
  {
@@ -185340,7 +185716,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:30.636Z"
+   "checkedAt": "2026-11-26T08:40:11.829Z"
   }
  },
  {
@@ -185389,7 +185765,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:39.143Z"
+   "checkedAt": "2026-11-26T08:40:20.346Z"
   }
  },
  {
@@ -185434,7 +185810,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:39.143Z"
+   "checkedAt": "2026-11-26T08:40:20.346Z"
   }
  },
  {
@@ -186602,7 +186978,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:48:54.674Z"
+   "checkedAt": "2026-11-26T08:40:35.629Z"
   }
  },
  {
@@ -187447,7 +187823,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:49:00.251Z"
+   "checkedAt": "2026-11-26T08:40:42.243Z"
   }
  },
  {
@@ -191855,7 +192231,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:12.646Z"
+   "checkedAt": "2026-11-26T08:40:57.962Z"
   }
  },
  {
@@ -192397,7 +192773,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:29.330Z"
+   "checkedAt": "2026-11-26T08:41:02.467Z"
   }
  },
  {
@@ -193898,7 +194274,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:50:55.897Z"
+   "checkedAt": "2026-11-26T08:41:02.467Z"
   }
  },
  {
@@ -193926,7 +194302,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:55.897Z"
+   "checkedAt": "2026-11-26T08:41:02.467Z"
   }
  },
  {
@@ -194029,7 +194405,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:50:55.897Z"
+   "checkedAt": "2026-11-26T08:41:17.108Z"
   }
  },
  {
@@ -200965,7 +201341,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:52:44.379Z"
+   "checkedAt": "2026-11-26T08:41:30.753Z"
   }
  },
  {
@@ -203120,7 +203496,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:53:25.025Z"
+   "checkedAt": "2026-11-26T08:41:31.459Z"
   }
  },
  {
@@ -203658,7 +204034,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:53:25.937Z"
+   "checkedAt": "2026-11-26T08:41:31.459Z"
   }
  },
  {
@@ -208595,7 +208971,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:54:18.377Z"
+   "checkedAt": "2026-11-26T08:41:45.692Z"
   }
  },
  {
@@ -215372,7 +215748,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:43.265Z"
+   "checkedAt": "2026-11-26T08:42:10.518Z"
   }
  },
  {
@@ -216020,7 +216396,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:53.112Z"
+   "checkedAt": "2026-11-26T08:42:10.518Z"
   }
  },
  {
@@ -217186,7 +217562,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:56:23.597Z"
+   "checkedAt": "2026-11-26T08:42:18.649Z"
   }
  },
  {
@@ -217718,7 +218094,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:56:23.597Z"
+   "checkedAt": "2026-11-26T08:42:18.649Z"
   }
  },
  {
@@ -219224,7 +219600,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:56:42.246Z"
+   "checkedAt": "2026-11-26T08:42:18.649Z"
   }
  },
  {
@@ -225585,7 +225961,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:07.413Z"
+   "checkedAt": "2026-11-26T08:40:01.805Z"
   }
  },
  {
@@ -225663,7 +226039,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:10.147Z"
+   "checkedAt": "2026-11-26T08:40:03.596Z"
   }
  },
  {
@@ -226042,7 +226418,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:26.884Z"
+   "checkedAt": "2026-11-26T08:40:10.451Z"
   }
  },
  {
@@ -226066,7 +226442,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:26.884Z"
+   "checkedAt": "2026-11-26T08:40:10.451Z"
   }
  },
  {
@@ -226212,7 +226588,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:58:24.699Z"
+   "checkedAt": "2026-11-26T08:42:48.323Z"
   }
  },
  {
@@ -226948,7 +227324,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:48:49.904Z"
+   "checkedAt": "2026-11-26T08:40:35.629Z"
   }
  },
  {
@@ -231458,7 +231834,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:49:57.273Z"
+   "checkedAt": "2026-11-26T08:40:42.243Z"
   }
  },
  {
@@ -231558,7 +231934,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:49:57.274Z"
+   "checkedAt": "2026-11-26T08:40:57.962Z"
   }
  },
  {
@@ -235683,7 +236059,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:51:28.008Z"
+   "checkedAt": "2026-11-26T08:41:17.108Z"
   }
  },
  {
@@ -238446,7 +238822,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:51:58.841Z"
+   "checkedAt": "2026-11-26T08:41:19.829Z"
   }
  },
  {
@@ -242081,7 +242457,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:53:00.335Z"
+   "checkedAt": "2026-11-26T08:41:30.753Z"
   }
  },
  {
@@ -245508,7 +245884,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:53:33.762Z"
+   "checkedAt": "2026-11-26T08:41:31.459Z"
   }
  },
  {
@@ -247804,7 +248180,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:53:57.074Z"
+   "checkedAt": "2026-11-26T08:41:45.692Z"
   }
  },
  {
@@ -250070,7 +250446,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:54:54.549Z"
+   "checkedAt": "2026-11-26T08:41:54.260Z"
   }
  },
  {
@@ -250106,7 +250482,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:54:54.549Z"
+   "checkedAt": "2026-11-26T08:41:54.260Z"
   }
  },
  {
@@ -263488,7 +263864,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:57:42.992Z"
+   "checkedAt": "2026-11-26T08:42:42.678Z"
   }
  },
  {
@@ -266678,7 +267054,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:11.670Z"
+   "checkedAt": "2026-11-26T08:40:03.596Z"
   }
  },
  {
@@ -266867,7 +267243,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:22.557Z"
+   "checkedAt": "2026-11-26T08:40:10.451Z"
   }
  },
  {
@@ -267157,7 +267533,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:34.940Z"
+   "checkedAt": "2026-11-26T08:40:20.345Z"
   }
  },
  {
@@ -267804,7 +268180,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:48:38.988Z"
+   "checkedAt": "2026-11-26T08:40:35.629Z"
   }
  },
  {
@@ -270528,7 +270904,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:49:17.304Z"
+   "checkedAt": "2026-11-26T08:40:42.243Z"
   }
  },
  {
@@ -272147,7 +272523,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-24T12:25:17.498Z"
+   "checkedAt": "2026-11-26T08:39:55.774Z"
   }
  },
  {
@@ -273698,7 +274074,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:50:29.330Z"
+   "checkedAt": "2026-11-26T08:41:02.467Z"
   }
  },
  {
@@ -278566,7 +278942,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:51:50.118Z"
+   "checkedAt": "2026-11-26T08:41:17.108Z"
   }
  },
  {
@@ -279421,7 +279797,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:51:58.841Z"
+   "checkedAt": "2026-11-26T08:41:19.829Z"
   }
  },
  {
@@ -281140,7 +281516,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-25T23:52:21.806Z"
+   "checkedAt": "2026-11-26T08:41:19.829Z"
   }
  },
  {
@@ -281257,7 +281633,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:52:24.812Z"
+   "checkedAt": "2026-11-26T08:41:19.829Z"
   }
  },
  {
@@ -285629,7 +286005,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:53:42.883Z"
+   "checkedAt": "2026-11-26T08:41:45.692Z"
   }
  },
  {
@@ -288101,7 +288477,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:54:18.377Z"
+   "checkedAt": "2026-11-26T08:41:45.692Z"
   }
  },
  {
@@ -288501,7 +288877,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:54:39.902Z"
+   "checkedAt": "2026-11-26T08:41:54.260Z"
   }
  },
  {
@@ -289785,7 +290161,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:03.160Z"
+   "checkedAt": "2026-11-26T08:42:04.317Z"
   }
  },
  {
@@ -295477,7 +295853,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:55:38.512Z"
+   "checkedAt": "2026-11-26T08:42:04.317Z"
   }
  },
  {
@@ -296839,7 +297215,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:56:10.342Z"
+   "checkedAt": "2026-11-26T08:42:10.518Z"
   }
  },
  {
@@ -299645,7 +300021,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:56:54.986Z"
+   "checkedAt": "2026-11-26T08:42:33.241Z"
   }
  },
  {
@@ -303935,7 +304311,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:57:55.461Z"
+   "checkedAt": "2026-11-26T08:42:42.678Z"
   }
  },
  {
@@ -304763,7 +305139,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:58:02.599Z"
+   "checkedAt": "2026-11-26T08:42:42.678Z"
   }
  },
  {
@@ -305464,7 +305840,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-25T23:58:24.699Z"
+   "checkedAt": "2026-11-26T08:42:48.323Z"
   }
  },
  {
@@ -306071,7 +306447,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:12.959Z"
+   "checkedAt": "2026-11-26T08:40:03.596Z"
   }
  },
  {
@@ -306124,7 +306500,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:12.959Z"
+   "checkedAt": "2026-11-26T08:40:04.429Z"
   }
  },
  {
@@ -306219,7 +306595,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:06:14.978Z"
+   "checkedAt": "2026-11-26T08:40:04.429Z"
   }
  },
  {
@@ -306247,7 +306623,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:06:26.884Z"
+   "checkedAt": "2026-11-26T08:40:10.451Z"
   }
  },
  {
@@ -307387,6 +307763,54 @@
     "url": "https://play.onestream.today/stream/page/103616",
     "season": 1,
     "episode": 8
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103818",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103822",
+    "season": 1,
+    "episode": 9
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103819",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103823",
+    "season": 1,
+    "episode": 10
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103820",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103824",
+    "season": 1,
+    "episode": 11
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103821",
+    "season": 1,
+    "episode": 12
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103825",
+    "season": 1,
+    "episode": 12
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/tEFSs0djTqmJdAQDLUClC9InWxd.jpg",
@@ -307501,11 +307925,63 @@
         "url": "https://play.onestream.today/stream/page/103616"
        }
       ]
+     },
+     {
+      "episode": 9,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103818"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103822"
+       }
+      ]
+     },
+     {
+      "episode": 10,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103819"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103823"
+       }
+      ]
+     },
+     {
+      "episode": 11,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103820"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103824"
+       }
+      ]
+     },
+     {
+      "episode": 12,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103821"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103825"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-25T13:42:28.051Z",
+  "updatedAt": "2026-11-26T08:20:49.731Z",
   "tmdbType": "tv",
   "tmdbTitle": "Pushpaka Vimanam",
   "originalYear": 2026,
@@ -307523,7 +307999,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/pushpaka-vimanam-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:47:40.550Z",
+   "fetchedAt": "2026-11-26T08:20:24.411Z",
    "sourceTitle": "Pushpaka Vimanam (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -307916,7 +308392,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kauriburir-the-cursed-temple-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:50:06.101Z",
+   "fetchedAt": "2026-11-26T08:22:21.648Z",
    "sourceTitle": "Kauriburir The Cursed Temple (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -308728,7 +309204,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/love-always-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:54:15.663Z",
+   "fetchedAt": "2026-11-26T08:25:36.677Z",
    "sourceTitle": "Love Always (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -308907,7 +309383,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/akka-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:54:44.601Z",
+   "fetchedAt": "2026-11-26T08:25:58.686Z",
    "sourceTitle": "Akka (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -309529,7 +310005,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/madam-inspector-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:56:47.124Z",
+   "fetchedAt": "2026-11-26T08:27:32.003Z",
    "sourceTitle": "Madam Inspector (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -309733,7 +310209,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/varam-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:57:14.055Z",
+   "fetchedAt": "2026-11-26T08:27:51.995Z",
    "sourceTitle": "Varam (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -310144,6 +310620,12 @@
     "url": "https://play.onestream.today/stream/page/103779",
     "season": 1,
     "episode": 27
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103826",
+    "season": 1,
+    "episode": 28
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/celebrity-master-chef-2026.jpg",
@@ -310388,20 +310870,29 @@
         "url": "https://play.onestream.today/stream/page/103779"
        }
       ]
+     },
+     {
+      "episode": 28,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103826"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-25T21:58:26.180Z",
+  "updatedAt": "2026-11-26T08:28:46.541Z",
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:36.947Z"
+   "checkedAt": "2026-11-26T08:39:58.721Z"
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/celebrity-master-chef-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:57:53.129Z",
+   "fetchedAt": "2026-11-26T08:28:21.315Z",
    "sourceTitle": "Celebrity Master Chef (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -310694,7 +311185,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/the-legend-of-hanuman-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:58:46.916Z",
+   "fetchedAt": "2026-11-26T08:29:02.183Z",
    "sourceTitle": "The Legend of Hanuman (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -310898,7 +311389,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/sattamum-needhiyum-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:59:15.913Z",
+   "fetchedAt": "2026-11-26T08:29:24.386Z",
    "sourceTitle": "Sattamum Needhiyum (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -311466,7 +311957,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/kappi-squad-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:00:39.254Z",
+   "fetchedAt": "2026-11-26T08:30:27.823Z",
    "sourceTitle": "Kappi Squad (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -311816,7 +312307,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/the-ordinary-jackpot-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:02:34.146Z",
+   "fetchedAt": "2026-11-26T08:31:55.675Z",
    "sourceTitle": "The Ordinary Jackpot (2026) Tamil Movie",
    "sourceYear": 2026,
    "directors": [],
@@ -312093,7 +312584,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/least-eligible-bachelor-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:03:37.384Z",
+   "fetchedAt": "2026-11-26T08:32:42.920Z",
    "sourceTitle": "Least Eligible Bachelor (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -312306,12 +312797,12 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-25T23:58:15.534Z"
+   "checkedAt": "2026-11-26T08:42:42.678Z"
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/eyes-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T22:04:13.427Z",
+   "fetchedAt": "2026-11-26T08:33:10.300Z",
    "sourceTitle": "Eyes (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -315542,7 +316033,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:05:38.751Z"
+   "checkedAt": "2026-11-26T08:40:00.320Z"
   }
  },
  {
@@ -319532,7 +320023,7 @@
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/student-of-the-year-after-dark-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:48:09.483Z",
+   "fetchedAt": "2026-11-26T08:20:51.794Z",
    "sourceTitle": "Student of the Year After Dark (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -323680,6 +324171,12 @@
     "url": "https://play.onestream.today/stream/page/103768",
     "season": 10,
     "episode": 80
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/103809",
+    "season": 10,
+    "episode": 81
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/Ccukq06qTL3yTnkwaKLGNs8T4x.jpg",
@@ -324392,15 +324889,24 @@
         "url": "https://play.onestream.today/stream/page/103768"
        }
       ]
+     },
+     {
+      "episode": 81,
+      "embeds": [
+       {
+        "quality": "HD",
+        "url": "https://play.onestream.today/stream/page/103809"
+       }
+      ]
      }
     ]
    }
   ],
-  "updatedAt": "2026-11-25T21:50:03.379Z",
+  "updatedAt": "2026-11-26T08:22:19.586Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bigg-boss-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:48:33.089Z",
+   "fetchedAt": "2026-11-26T08:21:09.586Z",
    "sourceTitle": "Bigg Boss (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -334674,14 +335180,19 @@
   "tmdbTitle": "Mr & Mrs Office",
   "originalYear": 2026,
   "metadataVerification": {
-   "status": "unresolved",
-   "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-25T22:05:27.042Z"
+   "status": "verified",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:39:55.775Z",
+   "tmdbId": 338502,
+   "tmdbType": "tv",
+   "evidenceUrls": [
+    "https://www.themoviedb.org/tv/338502"
+   ]
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/mr-mrs-office-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:47:11.258Z",
+   "fetchedAt": "2026-11-26T08:20:02.387Z",
    "sourceTitle": "Mr Mrs Office (2026)",
    "sourceYear": 2026,
    "directors": [
@@ -334882,7 +335393,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-25T23:48:23.610Z"
+   "checkedAt": "2026-11-26T08:40:35.629Z"
   },
   "category": "tamil-movie",
   "categorySource": "site"
@@ -335154,7 +335665,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-26T02:31:45.093Z"
+   "checkedAt": "2026-11-26T08:42:48.324Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -335630,12 +336141,12 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-25T22:05:27.042Z"
+   "checkedAt": "2026-11-26T08:39:58.720Z"
   },
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/manglik-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:46:47.082Z",
+   "fetchedAt": "2026-11-26T08:19:44.306Z",
    "sourceTitle": "Manglik (2026) Tamil Movie",
    "sourceYear": 2026,
    "directors": [],
@@ -337349,7 +337860,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-25T22:07:11.306Z"
+   "checkedAt": "2026-11-26T08:40:20.346Z"
   }
  },
  {
@@ -337709,6 +338220,9 @@
   "title": "Notebook 90s Kadhal Flashback",
   "year": 2026,
   "kind": "series",
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/notebook-90s-kadhal-flashback-2026-tamil-web-series/",
   "embeds": [
    {
@@ -337734,6 +338248,12 @@
     "url": "https://play.onestream.today/stream/page/103787",
     "season": 1,
     "episode": 2
+   },
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103827",
+    "season": 1,
+    "episode": 3
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/a7c1LwcYrRMPe5MF6JY1jP6PC5J.jpg",
@@ -337770,30 +338290,42 @@
         "url": "https://play.onestream.today/stream/page/103787"
        }
       ]
+     },
+     {
+      "episode": 3,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103827"
+       }
+      ]
      }
     ]
    }
   ],
+  "updatedAt": "2026-11-26T08:15:35.300Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/notebook-90s-kadhal-flashback-2026-tamil-web-series/",
-   "fetchedAt": "2026-11-25T21:41:05.895Z",
-   "sourceTitle": "Notebook 90s Kadhal Flashback (2026) Tamil Movie",
+   "fetchedAt": "2026-11-26T08:15:23.865Z",
+   "sourceTitle": "Notebook 90s Kadhal Flashback (2026)",
    "sourceYear": 2026,
-   "directors": [],
-   "cast": []
+   "directors": [
+    "Sadhasivam"
+   ],
+   "cast": [
+    "Muzammil Elias",
+    "Yuva",
+    "Bhavana"
+   ]
   },
   "tmdbType": "tv",
-  "originalLanguage": "ta",
-  "category": "tamil-series",
-  "categorySource": "tmdb",
   "tmdbTitle": "Notebook 90s – Kadhal Flashback",
   "originalYear": 2026,
-  "updatedAt": "2026-11-25T22:05:27.042Z",
   "metadataVerification": {
    "status": "verified",
-   "reason": "exact-title-year",
-   "checkedAt": "2026-11-25T22:05:27.042Z",
+   "reason": "stored-id",
+   "checkedAt": "2026-11-26T08:39:52.459Z",
    "tmdbId": 339004,
    "tmdbType": "tv",
    "evidenceUrls": [
