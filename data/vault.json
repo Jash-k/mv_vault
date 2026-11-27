@@ -382810,5 +382810,68 @@
     "https://www.themoviedb.org/movie/222979"
    ]
   }
+ },
+ {
+  "id": "raathiri-2026",
+  "title": "Raathiri",
+  "year": 2026,
+  "kind": "series",
+  "pageUrl": "https://moviesda36.com/raathiri-2026-tamil-web-series/",
+  "embeds": [
+   {
+    "quality": "1080p",
+    "url": "https://play.onestream.today/stream/page/103889",
+    "season": 1,
+    "episode": 1
+   },
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/103891",
+    "season": 1,
+    "episode": 1
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/raathiri-2026.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T19:09:27.071Z",
+  "seasons": [
+   {
+    "season": 1,
+    "episodes": [
+     {
+      "episode": 1,
+      "embeds": [
+       {
+        "quality": "1080p",
+        "url": "https://play.onestream.today/stream/page/103889"
+       },
+       {
+        "quality": "720p",
+        "url": "https://play.onestream.today/stream/page/103891"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda36.com/raathiri-2026-tamil-web-series/",
+   "fetchedAt": "2026-11-27T19:09:25.345Z",
+   "sourceTitle": "Raathiri (2026)",
+   "sourceYear": 2026,
+   "directors": [
+    "Mohan Govind"
+   ],
+   "cast": [
+    "Divya Ganesh",
+    "Madhan Kumar",
+    "Natarajan Subramaniam"
+   ]
+  },
+  "category": "tamil-series",
+  "categorySource": "site"
  }
 ]
