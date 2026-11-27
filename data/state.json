@@ -51210,7 +51210,46 @@
   "un-kadhal-thadathil-2021": "2026-11-27T15:21:12.892Z",
   "uravukku-mariyaadhai-2021": "2026-11-27T15:21:13.522Z",
   "thigar-2015": "2026-11-27T15:21:13.523Z",
-  "tamiluku-en-ondrai-aluthavum-2015": "2026-11-27T15:21:14.220Z"
+  "tamiluku-en-ondrai-aluthavum-2015": "2026-11-27T15:21:14.220Z",
+  "deadly-affair-2021": "2026-11-27T15:21:42.338Z",
+  "chennaieil-oru-naal-2013": "2026-11-27T15:21:46.916Z",
+  "chikkiku-chikkikichu-2015": "2026-11-27T15:21:46.916Z",
+  "chennai-28-2007": "2026-11-27T15:21:47.441Z",
+  "chennaiyil-oru-naal-2-2017": "2026-11-27T15:21:47.441Z",
+  "coffee-cafe-2021": "2026-11-27T15:21:51.013Z",
+  "centha-2021": "2026-11-27T15:21:52.722Z",
+  "college-kumar-2021": "2026-11-27T15:21:54.262Z",
+  "crime-stories-2021": "2026-11-27T15:22:01.587Z",
+  "cinderella-2021": "2026-11-27T15:22:01.587Z",
+  "chellama-chellama-2021": "2026-11-27T15:22:07.808Z",
+  "criminal-justice-2-2022": "2026-11-27T15:22:09.452Z",
+  "balle-vellaiya-thevaa-2016": "2026-11-27T15:22:09.452Z",
+  "bengal-tiger-2017": "2026-11-27T15:22:11.534Z",
+  "bodha-2018": "2026-11-27T15:22:13.024Z",
+  "baaram-2020": "2026-11-27T15:22:14.005Z",
+  "breathe-into-the-shadow-2020": "2026-11-27T15:22:14.005Z",
+  "bobby-jasoos-2021": "2026-11-27T15:22:14.357Z",
+  "boom-boom-kaalai-2021": "2026-11-27T15:22:15.615Z",
+  "bhale-khilladi-2021": "2026-11-27T15:22:15.615Z",
+  "border-2021": "2026-11-27T15:22:20.449Z",
+  "baaghi-3-2021": "2026-11-27T15:22:20.449Z",
+  "buy-1-get-1-free-2024": "2026-11-27T15:22:21.473Z",
+  "aaya-sutta-vada-2015": "2026-11-27T15:22:22.855Z",
+  "alex-pandian-2014": "2026-11-27T15:22:22.855Z",
+  "aasal-2010": "2026-11-27T15:22:25.407Z",
+  "aagam-2016": "2026-11-27T15:22:28.598Z",
+  "asura-vettai-2020": "2026-11-27T15:22:32.702Z",
+  "andha-oru-nimidam-2017": "2026-11-27T15:22:33.975Z",
+  "antha-rathirikku-satchi-illai-1982": "2026-11-27T15:22:33.976Z",
+  "ayirathil-oruvan-2010": "2026-11-27T15:22:35.027Z",
+  "anu-and-arjun-2021": "2026-11-27T15:22:36.680Z",
+  "avalum-naanum-2021": "2026-11-27T15:22:36.680Z",
+  "asura-vamsam-2021": "2026-11-27T15:22:37.969Z",
+  "athaiyum-thaandi-punithamaanathu-2021": "2026-11-27T15:22:37.969Z",
+  "anandho-brahma-2021": "2026-11-27T15:22:37.969Z",
+  "ashok-2021": "2026-11-27T15:22:38.432Z",
+  "aamaa-2-2021": "2026-11-27T15:22:39.519Z",
+  "anbudan-ungal-karthik-2022": "2026-11-27T15:22:42.312Z"
  },
  "metadata": {
   "epic-2026": {
@@ -51370,8 +51409,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:43.221Z",
-   "nextRetryAt": "2026-12-27T15:20:43.221Z",
+   "checkedAt": "2026-11-27T15:21:34.343Z",
+   "nextRetryAt": "2026-12-27T15:21:34.343Z",
    "requests": 1
   },
   "eyes-2026": {
@@ -51380,8 +51419,8 @@
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:38.784Z",
-   "nextRetryAt": "2026-11-27T21:20:38.784Z",
+   "checkedAt": "2026-11-27T15:21:40.789Z",
+   "nextRetryAt": "2026-11-27T21:21:40.789Z",
    "requests": 41,
    "notes": [
     {
@@ -51766,8 +51805,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:44.559Z",
-   "nextRetryAt": "2026-12-27T15:20:44.559Z",
+   "checkedAt": "2026-11-27T15:21:42.338Z",
+   "nextRetryAt": "2026-12-27T15:21:42.338Z",
    "requests": 1
   },
   "loser-2021": {
@@ -56574,8 +56613,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:45.416Z",
-   "nextRetryAt": "2026-12-27T15:20:45.416Z",
+   "checkedAt": "2026-11-27T15:21:45.042Z",
+   "nextRetryAt": "2026-12-27T15:21:45.042Z",
    "requests": 1
   },
   "the-outpost-2021": {
@@ -58291,12 +58330,12 @@
   },
   "anirudh-2018": {
    "version": 2,
-   "identity": "331223a4db1c4cb4213c",
+   "identity": "83196f1301b84b6679c3",
    "status": "matched",
    "reason": "stored-id",
    "attempts": 1,
-   "checkedAt": "2026-11-24T13:36:59.617Z",
-   "nextRetryAt": "2026-12-24T13:36:59.617Z",
+   "checkedAt": "2026-11-27T15:21:33.014Z",
+   "nextRetryAt": "2026-12-27T15:21:33.014Z",
    "requests": 2
   },
   "the-boys-2022": {
@@ -59575,8 +59614,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:46.262Z",
-   "nextRetryAt": "2026-12-27T15:20:46.262Z",
+   "checkedAt": "2026-11-27T15:21:45.423Z",
+   "nextRetryAt": "2026-12-27T15:21:45.423Z",
    "requests": 1
   },
   "star-wars-episode-vi-revenge-of-the-sith-2005": {
@@ -60103,8 +60142,8 @@
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:43.220Z",
-   "nextRetryAt": "2026-11-27T21:20:43.220Z",
+   "checkedAt": "2026-11-27T15:21:40.790Z",
+   "nextRetryAt": "2026-11-27T21:21:40.790Z",
    "requests": 77,
    "notes": [
     {
@@ -60557,13 +60596,13 @@
   },
   "attu-2017": {
    "version": 2,
-   "identity": "7bfd51ab69522f0a1b92",
+   "identity": "a23e5a34adbe87104681",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 2,
-   "checkedAt": "2026-11-10T11:49:46.199Z",
-   "nextRetryAt": "2026-12-10T11:49:46.199Z",
-   "requests": 1
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:34.342Z",
+   "nextRetryAt": "2026-12-27T15:21:34.342Z",
+   "requests": 2
   },
   "rise-of-the-hybrids-2019": {
    "version": 2,
@@ -61842,8 +61881,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:46.522Z",
-   "nextRetryAt": "2026-12-27T15:20:46.522Z",
+   "checkedAt": "2026-11-27T15:21:46.915Z",
+   "nextRetryAt": "2026-12-27T15:21:46.915Z",
    "requests": 1
   },
   "power-rangers-2017": {
@@ -63420,8 +63459,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:47.323Z",
-   "nextRetryAt": "2026-12-27T15:20:47.323Z",
+   "checkedAt": "2026-11-27T15:21:47.441Z",
+   "nextRetryAt": "2026-12-27T15:21:47.441Z",
    "requests": 1
   },
   "mom-2024": {
@@ -63680,8 +63719,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:48.671Z",
-   "nextRetryAt": "2026-12-27T15:20:48.671Z",
+   "checkedAt": "2026-11-27T15:21:49.202Z",
+   "nextRetryAt": "2026-12-27T15:21:49.202Z",
    "requests": 1
   },
   "mysterious-island-1-2005": {
@@ -64837,12 +64876,12 @@
   },
   "butler-balu-2019": {
    "version": 2,
-   "identity": "131886cb45b83e948554",
+   "identity": "b1a164c8734ecd6de9e8",
    "status": "matched",
    "reason": "stored-id",
-   "attempts": 2,
-   "checkedAt": "2026-11-10T11:49:47.197Z",
-   "nextRetryAt": "2026-12-10T11:49:47.197Z",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:34.342Z",
+   "nextRetryAt": "2026-12-27T15:21:34.342Z",
    "requests": 1
   },
   "killing-crisis-2021": {
@@ -67429,8 +67468,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:48.764Z",
-   "nextRetryAt": "2026-12-27T15:20:48.764Z",
+   "checkedAt": "2026-11-27T15:21:49.479Z",
+   "nextRetryAt": "2026-12-27T15:21:49.479Z",
    "requests": 1
   },
   "dog-2022": {
@@ -68184,8 +68223,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:49.603Z",
-   "nextRetryAt": "2026-12-27T15:20:49.603Z",
+   "checkedAt": "2026-11-27T15:21:51.013Z",
+   "nextRetryAt": "2026-12-27T15:21:51.013Z",
    "requests": 1
   },
   "chhota-bheem-adventure-of-persia-2023": {
@@ -69711,8 +69750,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:49.795Z",
-   "nextRetryAt": "2026-12-27T15:20:49.795Z",
+   "checkedAt": "2026-11-27T15:21:52.722Z",
+   "nextRetryAt": "2026-12-27T15:21:52.722Z",
    "requests": 1
   },
   "against-the-wild-2-2016": {
@@ -70723,8 +70762,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:50.819Z",
-   "nextRetryAt": "2026-12-27T15:20:50.819Z",
+   "checkedAt": "2026-11-27T15:21:54.261Z",
+   "nextRetryAt": "2026-12-27T15:21:54.261Z",
    "requests": 1
   },
   "ennamma-kannu-2000": {
@@ -70971,8 +71010,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:51.512Z",
-   "nextRetryAt": "2026-12-27T15:20:51.512Z",
+   "checkedAt": "2026-11-27T15:22:01.587Z",
+   "nextRetryAt": "2026-12-27T15:22:01.587Z",
    "requests": 1
   },
   "giant-fish-2020": {
@@ -71111,8 +71150,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:51.674Z",
-   "nextRetryAt": "2026-12-27T15:20:51.674Z",
+   "checkedAt": "2026-11-27T15:22:07.807Z",
+   "nextRetryAt": "2026-12-27T15:22:07.807Z",
    "requests": 1
   },
   "guest-2026": {
@@ -71121,8 +71160,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:52.684Z",
-   "nextRetryAt": "2026-12-27T15:20:52.684Z",
+   "checkedAt": "2026-11-27T15:22:09.451Z",
+   "nextRetryAt": "2026-12-27T15:22:09.451Z",
    "requests": 1
   },
   "gurram-paapi-reddy-2025": {
@@ -71191,8 +71230,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:53.073Z",
-   "nextRetryAt": "2026-12-27T15:20:53.073Z",
+   "checkedAt": "2026-11-27T15:22:09.678Z",
+   "nextRetryAt": "2026-12-27T15:22:09.678Z",
    "requests": 1
   },
   "hero-friend-u-2025": {
@@ -71211,8 +71250,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:53.164Z",
-   "nextRetryAt": "2026-12-27T15:20:53.164Z",
+   "checkedAt": "2026-11-27T15:22:10.505Z",
+   "nextRetryAt": "2026-12-27T15:22:10.505Z",
    "requests": 1
   },
   "high-on-kadhal-2024": {
@@ -71251,8 +71290,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:54.843Z",
-   "nextRetryAt": "2026-12-27T15:20:54.843Z",
+   "checkedAt": "2026-11-27T15:22:11.534Z",
+   "nextRetryAt": "2026-12-27T15:22:11.534Z",
    "requests": 1
   },
   "i-see-you-2019": {
@@ -71992,8 +72031,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:55.462Z",
-   "nextRetryAt": "2026-12-27T15:20:55.462Z",
+   "checkedAt": "2026-11-27T15:22:11.788Z",
+   "nextRetryAt": "2026-12-27T15:22:11.788Z",
    "requests": 1
   },
   "kalavani-sirukki-2018": {
@@ -73338,8 +73377,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:55.601Z",
-   "nextRetryAt": "2026-12-27T15:20:55.601Z",
+   "checkedAt": "2026-11-27T15:22:13.024Z",
+   "nextRetryAt": "2026-12-27T15:22:13.024Z",
    "requests": 1
   },
   "messenger-2025": {
@@ -73358,8 +73397,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:20:56.772Z",
-   "nextRetryAt": "2026-12-27T15:20:56.772Z",
+   "checkedAt": "2026-11-27T15:22:14.005Z",
+   "nextRetryAt": "2026-12-27T15:22:14.005Z",
    "requests": 1
   },
   "midnight-devils-2019": {
@@ -73602,8 +73641,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:00.085Z",
-   "nextRetryAt": "2026-12-27T15:21:00.085Z",
+   "checkedAt": "2026-11-27T15:22:14.357Z",
+   "nextRetryAt": "2026-12-27T15:22:14.357Z",
    "requests": 1
   },
   "music-shop-murthy-2024": {
@@ -74232,8 +74271,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:00.172Z",
-   "nextRetryAt": "2026-12-27T15:21:00.172Z",
+   "checkedAt": "2026-11-27T15:22:15.615Z",
+   "nextRetryAt": "2026-12-27T15:22:15.615Z",
    "requests": 1
   },
   "oh-butterfly-2026": {
@@ -74552,8 +74591,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:02.433Z",
-   "nextRetryAt": "2026-12-27T15:21:02.433Z",
+   "checkedAt": "2026-11-27T15:22:15.911Z",
+   "nextRetryAt": "2026-12-27T15:22:15.911Z",
    "requests": 1
   },
   "panivizhum-malarvanam-2014": {
@@ -74742,8 +74781,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:02.839Z",
-   "nextRetryAt": "2026-12-27T15:21:02.839Z",
+   "checkedAt": "2026-11-27T15:22:20.449Z",
+   "nextRetryAt": "2026-12-27T15:22:20.449Z",
    "requests": 1
   },
   "periyar-2007": {
@@ -74981,8 +75020,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:04.442Z",
-   "nextRetryAt": "2026-12-27T15:21:04.442Z",
+   "checkedAt": "2026-11-27T15:22:21.473Z",
+   "nextRetryAt": "2026-12-27T15:22:21.473Z",
    "requests": 1
   },
   "racharikam-2025": {
@@ -75021,8 +75060,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:04.631Z",
-   "nextRetryAt": "2026-12-27T15:21:04.631Z",
+   "checkedAt": "2026-11-27T15:22:21.713Z",
+   "nextRetryAt": "2026-12-27T15:22:21.713Z",
    "requests": 1
   },
   "raja-bheema-2025": {
@@ -75225,8 +75264,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:05.530Z",
-   "nextRetryAt": "2026-12-27T15:21:05.530Z",
+   "checkedAt": "2026-11-27T15:22:22.855Z",
+   "nextRetryAt": "2026-12-27T15:22:22.855Z",
    "requests": 1
   },
   "regai-2025": {
@@ -75365,8 +75404,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:08.971Z",
-   "nextRetryAt": "2026-12-27T15:21:08.971Z",
+   "checkedAt": "2026-11-27T15:22:23.091Z",
+   "nextRetryAt": "2026-12-27T15:22:23.091Z",
    "requests": 1
   },
   "s-saraswathi-2026": {
@@ -75575,8 +75614,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:09.819Z",
-   "nextRetryAt": "2026-12-27T15:21:09.819Z",
+   "checkedAt": "2026-11-27T15:22:24.621Z",
+   "nextRetryAt": "2026-12-27T15:22:24.621Z",
    "requests": 1
   },
   "school-diary-2018": {
@@ -75675,8 +75714,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:10.609Z",
-   "nextRetryAt": "2026-12-27T15:21:10.609Z",
+   "checkedAt": "2026-11-27T15:22:24.892Z",
+   "nextRetryAt": "2026-12-27T15:22:24.892Z",
    "requests": 1
   },
   "selvam-2005": {
@@ -75999,8 +76038,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:11.276Z",
-   "nextRetryAt": "2026-12-27T15:21:11.276Z",
+   "checkedAt": "2026-11-27T15:22:25.406Z",
+   "nextRetryAt": "2026-12-27T15:22:25.406Z",
    "requests": 1
   },
   "son-of-2026": {
@@ -76183,8 +76222,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:11.434Z",
-   "nextRetryAt": "2026-12-27T15:21:11.434Z",
+   "checkedAt": "2026-11-27T15:22:26.270Z",
+   "nextRetryAt": "2026-12-27T15:22:26.270Z",
    "requests": 1
   },
   "sutta-kadhai-2013": {
@@ -76657,8 +76696,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:12.892Z",
-   "nextRetryAt": "2026-12-27T15:21:12.892Z",
+   "checkedAt": "2026-11-27T15:22:27.606Z",
+   "nextRetryAt": "2026-12-27T15:22:27.606Z",
    "requests": 1
   },
   "the-warrior-2005": {
@@ -77057,8 +77096,8 @@
    "status": "matched",
    "reason": "stored-id",
    "attempts": 2,
-   "checkedAt": "2026-11-27T15:21:13.523Z",
-   "nextRetryAt": "2026-12-27T15:21:13.523Z",
+   "checkedAt": "2026-11-27T15:22:28.005Z",
+   "nextRetryAt": "2026-12-27T15:22:28.005Z",
    "requests": 1
   },
   "uppu-puli-kaaram-2024": {
@@ -84643,6 +84682,2264 @@
    "attempts": 1,
    "checkedAt": "2026-11-27T15:21:15.629Z",
    "nextRetryAt": "2026-12-27T15:21:15.629Z",
+   "requests": 4
+  },
+  "danny-2020": {
+   "version": 2,
+   "identity": "6c4e6efcc2b4032fa881",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:33.013Z",
+   "nextRetryAt": "2026-12-27T15:21:33.013Z",
+   "requests": 13
+  },
+  "dj-duvvada-jagannadham-2018": {
+   "version": 2,
+   "identity": "60d10909970c58c5a243",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:33.014Z",
+   "nextRetryAt": "2026-12-27T15:21:33.014Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "dhira-2020": {
+   "version": 2,
+   "identity": "c1d8001b64618d252852",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:33.014Z",
+   "nextRetryAt": "2026-12-27T15:21:33.014Z",
+   "requests": 3
+  },
+  "dear-comrade-2019": {
+   "version": 2,
+   "identity": "4aea44e2576791761e43",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:34.343Z",
+   "nextRetryAt": "2026-12-27T15:21:34.343Z",
+   "requests": 4
+  },
+  "dindigul-sarathi-2008": {
+   "version": 2,
+   "identity": "1e0b6dc3238acbb47188",
+   "status": "matched",
+   "reason": "spelling-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:40.789Z",
+   "nextRetryAt": "2026-12-27T15:21:40.789Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "dola-2021": {
+   "version": 2,
+   "identity": "638aa7190c8b1cab5cb2",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:40.789Z",
+   "nextRetryAt": "2026-12-27T15:21:40.789Z",
+   "requests": 6
+  },
+  "deadly-affair-2021": {
+   "version": 2,
+   "identity": "3e0f30695cea90e29778",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:42.338Z",
+   "nextRetryAt": "2026-11-27T21:21:42.338Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "dhowlath-2020": {
+   "version": 2,
+   "identity": "d545cd286d51ab791fc8",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:42.338Z",
+   "nextRetryAt": "2026-12-27T15:21:42.338Z",
+   "requests": 4
+  },
+  "dikkiloona-2021": {
+   "version": 2,
+   "identity": "8c53e8b7f1071c202310",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:42.338Z",
+   "nextRetryAt": "2026-12-27T15:21:42.338Z",
+   "requests": 3
+  },
+  "doctor-2021": {
+   "version": 2,
+   "identity": "ab5fdc00153e2cbd5f87",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.043Z",
+   "nextRetryAt": "2026-12-27T15:21:45.043Z",
+   "requests": 44
+  },
+  "dhamaka-2021": {
+   "version": 2,
+   "identity": "50d4aaf13cea3945e102",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.043Z",
+   "nextRetryAt": "2026-12-27T15:21:45.043Z",
+   "requests": 5
+  },
+  "drohi-2010": {
+   "version": 2,
+   "identity": "95fba12fb79a24e34245",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.043Z",
+   "nextRetryAt": "2026-12-27T15:21:45.043Z",
+   "requests": 4
+  },
+  "dongalunnaru-jagratha-2022": {
+   "version": 2,
+   "identity": "2d9587036fb8fb00512c",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.423Z",
+   "nextRetryAt": "2026-12-27T15:21:45.423Z",
+   "requests": 4
+  },
+  "demonte-colony-2015": {
+   "version": 2,
+   "identity": "907ccbae41f877da82f5",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.423Z",
+   "nextRetryAt": "2026-12-27T15:21:45.423Z",
+   "requests": 4
+  },
+  "chennai-600028-2007": {
+   "version": 2,
+   "identity": "4f23a99fc6089ee6c91d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:45.423Z",
+   "nextRetryAt": "2026-12-27T15:21:45.423Z",
+   "requests": 3
+  },
+  "chennaieil-oru-naal-2013": {
+   "version": 2,
+   "identity": "68e915fe74dcf281739c",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:46.916Z",
+   "nextRetryAt": "2026-11-27T21:21:46.916Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chandi-veeran-2015": {
+   "version": 2,
+   "identity": "624a0eae739f892d6129",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:46.916Z",
+   "nextRetryAt": "2026-12-27T15:21:46.916Z",
+   "requests": 4
+  },
+  "chikkiku-chikkikichu-2015": {
+   "version": 2,
+   "identity": "ddae3e55aefe245f1605",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:46.916Z",
+   "nextRetryAt": "2026-11-27T21:21:46.916Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chirutha-2007": {
+   "version": 2,
+   "identity": "842097b8f95089bd837b",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:47.441Z",
+   "nextRetryAt": "2026-12-27T15:21:47.441Z",
+   "requests": 4
+  },
+  "chennai-28-2007": {
+   "version": 2,
+   "identity": "cda2a9de2bbbf4253da7",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:47.441Z",
+   "nextRetryAt": "2026-11-27T21:21:47.441Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "chennaiyil-oru-naal-2-2017": {
+   "version": 2,
+   "identity": "16f40108f7a73e24014a",
+   "status": "review",
+   "reason": "source-credits-conflict",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:47.441Z",
+   "nextRetryAt": "2026-12-04T15:21:47.441Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "source-credits-conflict",
+     "tmdbId": 476450,
+     "tmdbType": "movie"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    },
+    {
+     "reason": "source-credits-conflict"
+    }
+   ]
+  },
+  "college-kumar-2020": {
+   "version": 2,
+   "identity": "5ad90ca9baadda5fe4cc",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.202Z",
+   "nextRetryAt": "2026-12-27T15:21:49.202Z",
+   "requests": 4
+  },
+  "chennai-palani-mars-2019": {
+   "version": 2,
+   "identity": "86ffc002c1f199ae2f95",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.202Z",
+   "nextRetryAt": "2026-12-27T15:21:49.202Z",
+   "requests": 4
+  },
+  "cocktail-2020": {
+   "version": 2,
+   "identity": "53505134fb29a5db925d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.202Z",
+   "nextRetryAt": "2026-12-27T15:21:49.202Z",
+   "requests": 5
+  },
+  "class-of-83-2020": {
+   "version": 2,
+   "identity": "b8781372ba132ae7463f",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.479Z",
+   "nextRetryAt": "2026-12-27T15:21:49.479Z",
+   "requests": 3
+  },
+  "chitralahari-2019": {
+   "version": 2,
+   "identity": "be2a08d9de7007012f26",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.479Z",
+   "nextRetryAt": "2026-12-27T15:21:49.479Z",
+   "requests": 4
+  },
+  "chidambaram-railwaygate-2021": {
+   "version": 2,
+   "identity": "2e0c361ac2cb17eaff3d",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:49.479Z",
+   "nextRetryAt": "2026-12-27T15:21:49.479Z",
+   "requests": 3
+  },
+  "care-of-kaadhal-2021": {
+   "version": 2,
+   "identity": "c138c85b3c812adf5b50",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:51.013Z",
+   "nextRetryAt": "2026-12-27T15:21:51.013Z",
+   "requests": 3
+  },
+  "coffee-cafe-2021": {
+   "version": 2,
+   "identity": "f8c4f345e28b259f3aa1",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:51.013Z",
+   "nextRetryAt": "2026-11-27T21:21:51.013Z",
+   "requests": 17,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chakra-2021": {
+   "version": 2,
+   "identity": "23b20f7f38f1c2b532e0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:51.013Z",
+   "nextRetryAt": "2026-12-27T15:21:51.013Z",
+   "requests": 5
+  },
+  "calls-2021": {
+   "version": 2,
+   "identity": "55001110e6c77e5ebc31",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:52.722Z",
+   "nextRetryAt": "2026-12-27T15:21:52.722Z",
+   "requests": 19
+  },
+  "centha-2021": {
+   "version": 2,
+   "identity": "d2743fff0a14a2341c2b",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:52.722Z",
+   "nextRetryAt": "2026-11-27T21:21:52.722Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chiyangal-2020": {
+   "version": 2,
+   "identity": "157cafce81898c587ed7",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:52.722Z",
+   "nextRetryAt": "2026-12-27T15:21:52.722Z",
+   "requests": 3
+  },
+  "cashback-2021": {
+   "version": 2,
+   "identity": "d5c2947c9f5bf03abe1a",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:54.261Z",
+   "nextRetryAt": "2026-12-27T15:21:54.261Z",
+   "requests": 3
+  },
+  "chasing-2021": {
+   "version": 2,
+   "identity": "8e6fc86b4225ed310fd8",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:54.261Z",
+   "nextRetryAt": "2026-12-27T15:21:54.261Z",
+   "requests": 21
+  },
+  "college-kumar-2021": {
+   "version": 2,
+   "identity": "91c08cf7fe66c6e919b4",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:21:54.262Z",
+   "nextRetryAt": "2026-11-27T21:21:54.262Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "crime-stories-2021": {
+   "version": 2,
+   "identity": "59c0411b60b8ef9e809b",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:01.587Z",
+   "nextRetryAt": "2026-11-27T21:22:01.587Z",
+   "requests": 20,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "cinderella-2021": {
+   "version": 2,
+   "identity": "b91e5d6e93eeaefbfc96",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:01.587Z",
+   "nextRetryAt": "2026-11-27T21:22:01.587Z",
+   "requests": 95,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chinnanjiru-kiliye-2021": {
+   "version": 2,
+   "identity": "6344ea0abe1b3fd5e8f0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:01.587Z",
+   "nextRetryAt": "2026-12-27T15:22:01.587Z",
+   "requests": 3
+  },
+  "chellama-chellama-2021": {
+   "version": 2,
+   "identity": "ef1e199d0dc0e7e9e5b8",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:07.808Z",
+   "nextRetryAt": "2026-11-27T21:22:07.808Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "chithirai-sevvaanam-2021": {
+   "version": 2,
+   "identity": "b79ff2feea50e0b9efea",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:07.808Z",
+   "nextRetryAt": "2026-12-27T15:22:07.808Z",
+   "requests": 4
+  },
+  "check-2022": {
+   "version": 2,
+   "identity": "2fdccbaba94fba342e38",
+   "status": "unavailable",
+   "reason": "scoped-search-needs-review",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:07.808Z",
+   "nextRetryAt": "2026-11-27T16:22:07.808Z",
+   "requests": 80,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2022
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2022
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "scoped-search-needs-review"
+    }
+   ]
+  },
+  "criminal-justice-2-2022": {
+   "version": 2,
+   "identity": "5384b1ac8f5ef29b9b1e",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.452Z",
+   "nextRetryAt": "2026-11-27T21:22:09.452Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "bayam-oru-payanam-2016": {
+   "version": 2,
+   "identity": "6da10006db0f3d01de3b",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.452Z",
+   "nextRetryAt": "2026-12-27T15:22:09.452Z",
+   "requests": 3
+  },
+  "balle-vellaiya-thevaa-2016": {
+   "version": 2,
+   "identity": "d635c069496b2fea6053",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.452Z",
+   "nextRetryAt": "2026-11-27T21:22:09.452Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "billa-2-2012": {
+   "version": 2,
+   "identity": "968b1932c6596a8e9168",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.678Z",
+   "nextRetryAt": "2026-12-27T15:22:09.678Z",
+   "requests": 3
+  },
+  "biriyani-2013": {
+   "version": 2,
+   "identity": "92c7858f5be9f8fc60ee",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.678Z",
+   "nextRetryAt": "2026-12-27T15:22:09.678Z",
+   "requests": 3
+  },
+  "bramman-2014": {
+   "version": 2,
+   "identity": "d4c643261cb65107e2ff",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:09.678Z",
+   "nextRetryAt": "2026-12-27T15:22:09.678Z",
+   "requests": 4
+  },
+  "baahubali-2-2017": {
+   "version": 2,
+   "identity": "e601f8bb872c709df2b4",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:10.505Z",
+   "nextRetryAt": "2026-12-27T15:22:10.505Z",
+   "requests": 4
+  },
+  "brindavanam-2017": {
+   "version": 2,
+   "identity": "57a3dbe4c32d42b79ffe",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:10.505Z",
+   "nextRetryAt": "2026-12-27T15:22:10.505Z",
+   "requests": 4
+  },
+  "boologam-2015": {
+   "version": 2,
+   "identity": "0763f0972f8fd5f8359f",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:10.505Z",
+   "nextRetryAt": "2026-12-27T15:22:10.505Z",
+   "requests": 4
+  },
+  "bengal-tiger-2017": {
+   "version": 2,
+   "identity": "e047700a01e34ef7264b",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.534Z",
+   "nextRetryAt": "2026-11-27T21:22:11.534Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "bayama-irukku-2017": {
+   "version": 2,
+   "identity": "fcb68e2ad7dec3082ebe",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.534Z",
+   "nextRetryAt": "2026-12-27T15:22:11.534Z",
+   "requests": 4
+  },
+  "bhakta-prahlada-1967": {
+   "version": 2,
+   "identity": "a0ab899aefc2842ea1b3",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.534Z",
+   "nextRetryAt": "2026-12-27T15:22:11.534Z",
+   "requests": 4
+  },
+  "bairavaa-2017": {
+   "version": 2,
+   "identity": "1527676dab7be81e2545",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.788Z",
+   "nextRetryAt": "2026-12-27T15:22:11.788Z",
+   "requests": 4
+  },
+  "bogan-2017": {
+   "version": 2,
+   "identity": "263d08bae44cc0ef367f",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.788Z",
+   "nextRetryAt": "2026-12-27T15:22:11.788Z",
+   "requests": 4
+  },
+  "bharat-ennum-naan-2018": {
+   "version": 2,
+   "identity": "7fe775cd3ade2a7b3557",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:11.788Z",
+   "nextRetryAt": "2026-12-27T15:22:11.788Z",
+   "requests": 4
+  },
+  "bodha-2018": {
+   "version": 2,
+   "identity": "7e27a67ecf4e8087fb2d",
+   "status": "review",
+   "reason": "source-credits-conflict",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:13.024Z",
+   "nextRetryAt": "2026-12-04T15:22:13.024Z",
+   "requests": 10,
+   "notes": [
+    {
+     "reason": "source-credits-conflict",
+     "tmdbId": 536934,
+     "tmdbType": "movie"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    },
+    {
+     "reason": "source-credits-conflict"
+    }
+   ]
+  },
+  "baana-kaathadi-2010": {
+   "version": 2,
+   "identity": "c7be1b8dc1c10ecfada3",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:13.024Z",
+   "nextRetryAt": "2026-12-27T15:22:13.024Z",
+   "requests": 4
+  },
+  "bagavathi-2002": {
+   "version": 2,
+   "identity": "e2d628c20a6b8fd342e9",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:13.024Z",
+   "nextRetryAt": "2026-12-27T15:22:13.024Z",
+   "requests": 3
+  },
+  "baaram-2020": {
+   "version": 2,
+   "identity": "9e12c758832e4dc56db8",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.005Z",
+   "nextRetryAt": "2026-11-27T21:22:14.005Z",
+   "requests": 9,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "breathe-into-the-shadow-2020": {
+   "version": 2,
+   "identity": "285614d1c3bc203a5b75",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.005Z",
+   "nextRetryAt": "2026-11-27T21:22:14.005Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "biskoth-2020": {
+   "version": 2,
+   "identity": "57ec4a5b6da0634f1519",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.005Z",
+   "nextRetryAt": "2026-12-27T15:22:14.005Z",
+   "requests": 4
+  },
+  "bhoomi-2021": {
+   "version": 2,
+   "identity": "43105bf096bc96287c1f",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.357Z",
+   "nextRetryAt": "2026-12-27T15:22:14.357Z",
+   "requests": 5
+  },
+  "bheeshma-2020": {
+   "version": 2,
+   "identity": "8ac66b23b763285522aa",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.357Z",
+   "nextRetryAt": "2026-12-27T15:22:14.357Z",
+   "requests": 4
+  },
+  "bobby-jasoos-2021": {
+   "version": 2,
+   "identity": "f63ca8ddf68e02b6b4ba",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:14.357Z",
+   "nextRetryAt": "2026-11-27T21:22:14.357Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "boom-boom-kaalai-2021": {
+   "version": 2,
+   "identity": "5ae83ce389a858f929e0",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.615Z",
+   "nextRetryAt": "2026-11-27T21:22:15.615Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "biya-2020": {
+   "version": 2,
+   "identity": "107da6c9a39bc86a9877",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.615Z",
+   "nextRetryAt": "2026-12-27T15:22:15.615Z",
+   "requests": 3
+  },
+  "bhale-khilladi-2021": {
+   "version": 2,
+   "identity": "15348d6b5d624ee0ba96",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.615Z",
+   "nextRetryAt": "2026-11-27T21:22:15.615Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "bhuj-the-pride-of-india-2021": {
+   "version": 2,
+   "identity": "a1c552f57b41cc932657",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.912Z",
+   "nextRetryAt": "2026-12-27T15:22:15.912Z",
+   "requests": 4
+  },
+  "boomika-2021": {
+   "version": 2,
+   "identity": "0a11e8df19da4a3e28ae",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.912Z",
+   "nextRetryAt": "2026-12-27T15:22:15.912Z",
+   "requests": 4
+  },
+  "bannerghatta-2021": {
+   "version": 2,
+   "identity": "006f38b27efbde09ca00",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:15.912Z",
+   "nextRetryAt": "2026-12-27T15:22:15.912Z",
+   "requests": 3
+  },
+  "border-2021": {
+   "version": 2,
+   "identity": "1c0314da75298507c1d0",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:20.449Z",
+   "nextRetryAt": "2026-11-27T21:22:20.449Z",
+   "requests": 51,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2021
+    },
+    {
+     "reason": "tv-search-year-scoped",
+     "year": 2021
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "baaghi-3-2021": {
+   "version": 2,
+   "identity": "580a58e8e1e96dc4cb87",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:20.449Z",
+   "nextRetryAt": "2026-11-27T21:22:20.449Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "bro-2021": {
+   "version": 2,
+   "identity": "2cceca55ab1a3eb171df",
+   "status": "unavailable",
+   "reason": "candidate-scope-truncated",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:20.449Z",
+   "nextRetryAt": "2026-11-27T16:22:20.449Z",
+   "requests": 2,
+   "notes": [
+    {
+     "reason": "candidate-scope-truncated",
+     "type": "movie",
+     "year": 2021
+    },
+    {
+     "reason": "candidate-scope-truncated",
+     "type": "movie"
+    }
+   ]
+  },
+  "bhonsle-2021": {
+   "version": 2,
+   "identity": "4416f5371adab1846f58",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.473Z",
+   "nextRetryAt": "2026-12-27T15:22:21.473Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "beiimaan-love-2016": {
+   "version": 2,
+   "identity": "6a4a00c3fc99e88f5774",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.473Z",
+   "nextRetryAt": "2026-12-27T15:22:21.473Z",
+   "requests": 4
+  },
+  "buy-1-get-1-free-2024": {
+   "version": 2,
+   "identity": "2e9db77915bd56682e84",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.473Z",
+   "nextRetryAt": "2026-11-27T21:22:21.473Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "bhuvana-vijayam-2023": {
+   "version": 2,
+   "identity": "3e027cf4f5ef5c31df33",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.713Z",
+   "nextRetryAt": "2026-12-27T15:22:21.713Z",
+   "requests": 4
+  },
+  "athibar-2015": {
+   "version": 2,
+   "identity": "dea535af073ae2dd2969",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.713Z",
+   "nextRetryAt": "2026-12-27T15:22:21.713Z",
+   "requests": 3
+  },
+  "aaranyam-2015": {
+   "version": 2,
+   "identity": "5309df56b8571fe0d510",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:21.713Z",
+   "nextRetryAt": "2026-12-27T15:22:21.713Z",
+   "requests": 4
+  },
+  "aaya-sutta-vada-2015": {
+   "version": 2,
+   "identity": "09e2935d9fd83e1e5398",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:22.855Z",
+   "nextRetryAt": "2026-11-27T21:22:22.855Z",
+   "requests": 5,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "angali-pangali-2016": {
+   "version": 2,
+   "identity": "55ff1b4e736ad7fab200",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:22.855Z",
+   "nextRetryAt": "2026-12-27T15:22:22.855Z",
+   "requests": 3
+  },
+  "alex-pandian-2014": {
+   "version": 2,
+   "identity": "f308cafcb9071a509198",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:22.855Z",
+   "nextRetryAt": "2026-11-27T21:22:22.855Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "ayan-2009": {
+   "version": 2,
+   "identity": "4f68095704e96edf4bb5",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:23.091Z",
+   "nextRetryAt": "2026-12-27T15:22:23.091Z",
+   "requests": 4
+  },
+  "all-in-all-azhagu-raja-2013": {
+   "version": 2,
+   "identity": "d1e70a33f2c4d92f5d03",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:23.091Z",
+   "nextRetryAt": "2026-12-27T15:22:23.091Z",
+   "requests": 3
+  },
+  "aarohanam-2012": {
+   "version": 2,
+   "identity": "533d48e8af3a1115df6c",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:23.091Z",
+   "nextRetryAt": "2026-12-27T15:22:23.091Z",
+   "requests": 3
+  },
+  "attakathi-2012": {
+   "version": 2,
+   "identity": "b4c34d4d175fa1853eb4",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.621Z",
+   "nextRetryAt": "2026-12-27T15:22:24.621Z",
+   "requests": 3
+  },
+  "annakodi-2013": {
+   "version": 2,
+   "identity": "ea92a135c39b2bdf8e6c",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.621Z",
+   "nextRetryAt": "2026-12-27T15:22:24.621Z",
+   "requests": 3
+  },
+  "aadukalam-2011": {
+   "version": 2,
+   "identity": "080ebf3955db93eb9598",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.621Z",
+   "nextRetryAt": "2026-12-27T15:22:24.621Z",
+   "requests": 3
+  },
+  "azhagiya-tamizh-magan-2007": {
+   "version": 2,
+   "identity": "2da31b58fbe5cf01a0a1",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.892Z",
+   "nextRetryAt": "2026-12-27T15:22:24.892Z",
+   "requests": 3
+  },
+  "aval-varuvala-1998": {
+   "version": 2,
+   "identity": "1c6a3ae1fd8c2da41389",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.892Z",
+   "nextRetryAt": "2026-12-27T15:22:24.892Z",
+   "requests": 4
+  },
+  "attagasam-2004": {
+   "version": 2,
+   "identity": "07bb4bad6892cbfedc7a",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:24.893Z",
+   "nextRetryAt": "2026-12-27T15:22:24.893Z",
+   "requests": 4
+  },
+  "aaranya-kaandam-2010": {
+   "version": 2,
+   "identity": "7043c1b2d5a6003a3d03",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:25.407Z",
+   "nextRetryAt": "2026-12-27T15:22:25.407Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "aasal-2010": {
+   "version": 2,
+   "identity": "e498c4741b0c01ebc3ac",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:25.407Z",
+   "nextRetryAt": "2026-11-27T21:22:25.407Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "amma-kanakku-2016": {
+   "version": 2,
+   "identity": "72b270846e43316aaa4d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:25.407Z",
+   "nextRetryAt": "2026-12-27T15:22:25.407Z",
+   "requests": 4
+  },
+  "aranmanai-2-2016": {
+   "version": 2,
+   "identity": "e464557086498c84dfde",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:26.270Z",
+   "nextRetryAt": "2026-12-27T15:22:26.270Z",
+   "requests": 4
+  },
+  "anbanavan-asaradhavan-adangadhavan-2017": {
+   "version": 2,
+   "identity": "a072cc73f3733873fe11",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:26.270Z",
+   "nextRetryAt": "2026-12-27T15:22:26.270Z",
+   "requests": 3
+  },
+  "andaman-2016": {
+   "version": 2,
+   "identity": "62f1fe60a357bb49dea4",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:26.270Z",
+   "nextRetryAt": "2026-12-27T15:22:26.270Z",
+   "requests": 5
+  },
+  "aambala-2015": {
+   "version": 2,
+   "identity": "4cf5f5a24785cbeef023",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:27.606Z",
+   "nextRetryAt": "2026-12-27T15:22:27.606Z",
+   "requests": 4
+  },
+  "adhagappattathu-magajanangalay-2017": {
+   "version": 2,
+   "identity": "f8a7e146f5d272486a22",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:27.606Z",
+   "nextRetryAt": "2026-12-27T15:22:27.606Z",
+   "requests": 4
+  },
+  "arputham-2002": {
+   "version": 2,
+   "identity": "f2a4c0fb7a96b4d7a413",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:27.606Z",
+   "nextRetryAt": "2026-12-27T15:22:27.606Z",
+   "requests": 4
+  },
+  "appuchi-gramam-2014": {
+   "version": 2,
+   "identity": "69684479ccbfb9f4d018",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.005Z",
+   "nextRetryAt": "2026-12-27T15:22:28.005Z",
+   "requests": 4
+  },
+  "aaha-kalyanam-2014": {
+   "version": 2,
+   "identity": "18a20dafb108a44129c0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.005Z",
+   "nextRetryAt": "2026-12-27T15:22:28.005Z",
+   "requests": 4
+  },
+  "arima-nambi-2014": {
+   "version": 2,
+   "identity": "a579c494fe040d1976de",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.005Z",
+   "nextRetryAt": "2026-12-27T15:22:28.005Z",
+   "requests": 4
+  },
+  "azhagu-kutti-chellam-2016": {
+   "version": 2,
+   "identity": "ee098e906e1fb87db578",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.598Z",
+   "nextRetryAt": "2026-12-27T15:22:28.598Z",
+   "requests": 4
+  },
+  "aagam-2016": {
+   "version": 2,
+   "identity": "b7f66a43002ba2b91610",
+   "status": "review",
+   "reason": "source-credits-conflict",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.598Z",
+   "nextRetryAt": "2026-12-04T15:22:28.598Z",
+   "requests": 10,
+   "notes": [
+    {
+     "reason": "source-credits-conflict",
+     "tmdbId": 388733,
+     "tmdbType": "movie"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    },
+    {
+     "reason": "source-credits-conflict"
+    }
+   ]
+  },
+  "achcham-yenbadhu-madamaiyada-2016": {
+   "version": 2,
+   "identity": "152e5ca637d758eb9034",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.598Z",
+   "nextRetryAt": "2026-12-27T15:22:28.598Z",
+   "requests": 4
+  },
+  "adra-machan-visilu-2016": {
+   "version": 2,
+   "identity": "72cf912405690dd9dc88",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:28.598Z",
+   "nextRetryAt": "2026-12-27T15:22:28.598Z",
+   "requests": 4
+  },
+  "ammani-2016": {
+   "version": 2,
+   "identity": "b7bc86d46f69f03a77ce",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:30.607Z",
+   "nextRetryAt": "2026-12-27T15:22:30.607Z",
+   "requests": 4
+  },
+  "appa-2016": {
+   "version": 2,
+   "identity": "f6bb5a14f84862240be0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:30.608Z",
+   "nextRetryAt": "2026-12-27T15:22:30.608Z",
+   "requests": 19
+  },
+  "aayirathil-iruvar-2017": {
+   "version": 2,
+   "identity": "42dda3d3d4b7e7c05888",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:30.608Z",
+   "nextRetryAt": "2026-12-27T15:22:30.608Z",
+   "requests": 4
+  },
+  "antony-2018": {
+   "version": 2,
+   "identity": "96d810093ea1ca894807",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:30.608Z",
+   "nextRetryAt": "2026-12-27T15:22:30.608Z",
+   "requests": 5
+  },
+  "andhra-mess-2018": {
+   "version": 2,
+   "identity": "8076fe4e21a942dbd13b",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:31.671Z",
+   "nextRetryAt": "2026-12-27T15:22:31.671Z",
+   "requests": 4
+  },
+  "asuravadham-2018": {
+   "version": 2,
+   "identity": "ae18fc19b7b4c6282cec",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:31.671Z",
+   "nextRetryAt": "2026-12-27T15:22:31.671Z",
+   "requests": 4
+  },
+  "aaruthra-2018": {
+   "version": 2,
+   "identity": "7fb229e87f9202d46844",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:31.671Z",
+   "nextRetryAt": "2026-12-27T15:22:31.671Z",
+   "requests": 4
+  },
+  "avalukkenna-azhagiya-mugam-2018": {
+   "version": 2,
+   "identity": "9ecdbbfa3cbfbb7333b0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:31.671Z",
+   "nextRetryAt": "2026-12-27T15:22:31.671Z",
+   "requests": 4
+  },
+  "adhe-neram-adhe-idam-2009": {
+   "version": 2,
+   "identity": "0b8f9e01b9e141ecefe4",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.213Z",
+   "nextRetryAt": "2026-12-27T15:22:32.213Z",
+   "requests": 3
+  },
+  "avane-srimannarayana-2020": {
+   "version": 2,
+   "identity": "7c0890a8009fcab8d0e3",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.213Z",
+   "nextRetryAt": "2026-12-27T15:22:32.213Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "asuraguru-2020": {
+   "version": 2,
+   "identity": "d1c381899a172e8cdf21",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.213Z",
+   "nextRetryAt": "2026-12-27T15:22:32.213Z",
+   "requests": 4
+  },
+  "adavi-2020": {
+   "version": 2,
+   "identity": "0f591d020d1b911bcef7",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.213Z",
+   "nextRetryAt": "2026-12-27T15:22:32.213Z",
+   "requests": 4
+  },
+  "andala-rakshasi-2012": {
+   "version": 2,
+   "identity": "19082d455ad109cd0071",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.701Z",
+   "nextRetryAt": "2026-12-27T15:22:32.701Z",
+   "requests": 4
+  },
+  "asura-vettai-2020": {
+   "version": 2,
+   "identity": "7d030abd36cd28e76a3f",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.702Z",
+   "nextRetryAt": "2026-11-27T21:22:32.702Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "angel-2017": {
+   "version": 2,
+   "identity": "d8a4fa0bff0ff81b00d8",
+   "status": "unavailable",
+   "reason": "candidate-scope-truncated",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.702Z",
+   "nextRetryAt": "2026-11-27T16:22:32.702Z",
+   "requests": 2,
+   "notes": [
+    {
+     "reason": "candidate-scope-truncated",
+     "type": "movie",
+     "year": 2017
+    },
+    {
+     "reason": "candidate-scope-truncated",
+     "type": "movie"
+    }
+   ]
+  },
+  "aagadu-2014": {
+   "version": 2,
+   "identity": "fcf9b24b575c517465d0",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:32.702Z",
+   "nextRetryAt": "2026-12-27T15:22:32.702Z",
+   "requests": 4
+  },
+  "andha-oru-nimidam-2017": {
+   "version": 2,
+   "identity": "c426bd6a2a315b25c9c5",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:33.975Z",
+   "nextRetryAt": "2026-11-27T21:22:33.975Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "aakasha-ganga-2-2019": {
+   "version": 2,
+   "identity": "4bee5ce685d4ee86ad77",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:33.976Z",
+   "nextRetryAt": "2026-12-27T15:22:33.976Z",
+   "requests": 3
+  },
+  "antha-rathirikku-satchi-illai-1982": {
+   "version": 2,
+   "identity": "dd08fd4e9f5d21de4afb",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:33.976Z",
+   "nextRetryAt": "2026-11-27T21:22:33.976Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "ak-vs-ak-2020": {
+   "version": 2,
+   "identity": "6d22179170c54a70e3e9",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:33.976Z",
+   "nextRetryAt": "2026-12-27T15:22:33.976Z",
+   "requests": 4
+  },
+  "aathikka-varkkam-2021": {
+   "version": 2,
+   "identity": "5bfd972cc6626d9b3cc6",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.026Z",
+   "nextRetryAt": "2026-12-27T15:22:35.026Z",
+   "requests": 3
+  },
+  "aayudham-seivom-2008": {
+   "version": 2,
+   "identity": "7d32873c578b3589f581",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.027Z",
+   "nextRetryAt": "2026-12-27T15:22:35.027Z",
+   "requests": 4
+  },
+  "ayirathil-oruvan-2010": {
+   "version": 2,
+   "identity": "9e174603015a7ef1dffe",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.027Z",
+   "nextRetryAt": "2026-11-27T21:22:35.027Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "arjun-varma-2021": {
+   "version": 2,
+   "identity": "ef53fcc8142bad364f4b",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.027Z",
+   "nextRetryAt": "2026-12-27T15:22:35.027Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "avrodh-the-siege-within-2020": {
+   "version": 2,
+   "identity": "d071b44e547d40994ca7",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.336Z",
+   "nextRetryAt": "2026-12-27T15:22:35.336Z",
+   "requests": 5,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "aatkal-thevai-2021": {
+   "version": 2,
+   "identity": "89d2815b6757076fd299",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.336Z",
+   "nextRetryAt": "2026-12-27T15:22:35.336Z",
+   "requests": 3
+  },
+  "aelay-2021": {
+   "version": 2,
+   "identity": "dcf96c139fe3d263e016",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.336Z",
+   "nextRetryAt": "2026-12-27T15:22:35.336Z",
+   "requests": 4
+  },
+  "anbirkiniyal-2021": {
+   "version": 2,
+   "identity": "2ff6dba4b8dc72252422",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:35.336Z",
+   "nextRetryAt": "2026-12-27T15:22:35.336Z",
+   "requests": 4
+  },
+  "anu-and-arjun-2021": {
+   "version": 2,
+   "identity": "f7f4456e78657be2101a",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:36.680Z",
+   "nextRetryAt": "2026-11-27T21:22:36.680Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "ambiguous-title-year",
+     "count": 2,
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "avalum-naanum-2021": {
+   "version": 2,
+   "identity": "3b247da32b46bca0e3c7",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:36.680Z",
+   "nextRetryAt": "2026-11-27T21:22:36.680Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "amutha-2021": {
+   "version": 2,
+   "identity": "f2c2158f430534fd933f",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:36.680Z",
+   "nextRetryAt": "2026-12-27T15:22:36.680Z",
+   "requests": 9,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "a-simple-murder-2020": {
+   "version": 2,
+   "identity": "4e250882610c55fb9f1b",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:36.680Z",
+   "nextRetryAt": "2026-12-27T15:22:36.680Z",
+   "requests": 5,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "asura-vamsam-2021": {
+   "version": 2,
+   "identity": "d95e99951bab5806aa4a",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:37.969Z",
+   "nextRetryAt": "2026-11-27T21:22:37.969Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "athaiyum-thaandi-punithamaanathu-2021": {
+   "version": 2,
+   "identity": "15b38845c3de19e2ef72",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:37.969Z",
+   "nextRetryAt": "2026-11-27T21:22:37.969Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "anandho-brahma-2021": {
+   "version": 2,
+   "identity": "19c1c8254de53b30a165",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:37.969Z",
+   "nextRetryAt": "2026-11-27T21:22:37.969Z",
+   "requests": 4,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "ashvamithra-2021": {
+   "version": 2,
+   "identity": "6c9019b20e6f68dcc55f",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:37.969Z",
+   "nextRetryAt": "2026-12-27T15:22:37.969Z",
+   "requests": 3
+  },
+  "annabelle-sethupathi-2021": {
+   "version": 2,
+   "identity": "c1d01b0aeaa05e826afb",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:38.432Z",
+   "nextRetryAt": "2026-12-27T15:22:38.432Z",
+   "requests": 4
+  },
+  "appathava-aattaya-pottutanga-2021": {
+   "version": 2,
+   "identity": "71603996eaf1660e502a",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:38.432Z",
+   "nextRetryAt": "2026-12-27T15:22:38.432Z",
+   "requests": 4
+  },
+  "ashok-2021": {
+   "version": 2,
+   "identity": "b0a0aec5ed8da799cca4",
+   "status": "unresolved",
+   "reason": "no-title-year-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:38.432Z",
+   "nextRetryAt": "2026-11-27T21:22:38.432Z",
+   "requests": 8,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "anbudan-amma-2021": {
+   "version": 2,
+   "identity": "2144bd0da3dab7dd4cd8",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:38.432Z",
+   "nextRetryAt": "2026-12-27T15:22:38.432Z",
+   "requests": 3
+  },
+  "agadu-2021": {
+   "version": 2,
+   "identity": "d2b110f7ab3b6461f01a",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:39.519Z",
+   "nextRetryAt": "2026-12-27T15:22:39.519Z",
+   "requests": 3
+  },
+  "aamaa-2-2021": {
+   "version": 2,
+   "identity": "1b070636bf6748ea7a04",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:39.519Z",
+   "nextRetryAt": "2026-11-27T21:22:39.519Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "annaatthe-2021": {
+   "version": 2,
+   "identity": "fd95252d3436603a6e48",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:39.519Z",
+   "nextRetryAt": "2026-12-27T15:22:39.519Z",
+   "requests": 4
+  },
+  "aakashavaani-2021": {
+   "version": 2,
+   "identity": "29953aa10870ce93b07e",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:39.519Z",
+   "nextRetryAt": "2026-12-27T15:22:39.519Z",
+   "requests": 3
+  },
+  "aadavallu-meeku-joharlu-2022": {
+   "version": 2,
+   "identity": "06dee0abc83307c07c24",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:41.087Z",
+   "nextRetryAt": "2026-12-27T15:22:41.087Z",
+   "requests": 4
+  },
+  "anantham-2022": {
+   "version": 2,
+   "identity": "449645c2e279f11a6771",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:41.087Z",
+   "nextRetryAt": "2026-12-27T15:22:41.087Z",
+   "requests": 6,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "arul-mozhi-2022": {
+   "version": 2,
+   "identity": "b6cc7c40a97e7b925367",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:41.087Z",
+   "nextRetryAt": "2026-12-27T15:22:41.087Z",
+   "requests": 4
+  },
+  "avane-srimannarayana-2019": {
+   "version": 2,
+   "identity": "672182f37fc2a177896d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:41.087Z",
+   "nextRetryAt": "2026-12-27T15:22:41.087Z",
+   "requests": 4
+  },
+  "anek-2022": {
+   "version": 2,
+   "identity": "a2cd5aee687ccb7e318b",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:42.312Z",
+   "nextRetryAt": "2026-12-27T15:22:42.312Z",
+   "requests": 5
+  },
+  "anbudan-ungal-karthik-2022": {
+   "version": 2,
+   "identity": "598674f6cb649522c0ab",
+   "status": "unresolved",
+   "reason": "no-corroborated-match",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:42.312Z",
+   "nextRetryAt": "2026-11-27T21:22:42.312Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    },
+    {
+     "reason": "no-corroborated-match",
+     "type": "movie"
+    }
+   ]
+  },
+  "aavasa-vyuham-2022": {
+   "version": 2,
+   "identity": "bfd4682fafe43603d3b2",
+   "status": "matched",
+   "reason": "official-alias-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:42.312Z",
+   "nextRetryAt": "2026-12-27T15:22:42.312Z",
+   "requests": 3
+  },
+  "aaradi-bullet-2022": {
+   "version": 2,
+   "identity": "c076a1975f7e758fb776",
+   "status": "matched",
+   "reason": "title-and-source-credits",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:42.312Z",
+   "nextRetryAt": "2026-12-27T15:22:42.312Z",
+   "requests": 7,
+   "notes": [
+    {
+     "reason": "no-title-year-match",
+     "type": "movie"
+    },
+    {
+     "reason": "no-title-year-match",
+     "type": "tv"
+    }
+   ]
+  },
+  "all-the-best-2022": {
+   "version": 2,
+   "identity": "2abbf13448fe95eb5ae1",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:44.315Z",
+   "nextRetryAt": "2026-12-27T15:22:44.315Z",
+   "requests": 5
+  },
+  "anel-meley-panithuli-2022": {
+   "version": 2,
+   "identity": "b4349021b11fda581a92",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:44.315Z",
+   "nextRetryAt": "2026-12-27T15:22:44.315Z",
+   "requests": 4
+  },
+  "appatha-2023": {
+   "version": 2,
+   "identity": "3d2609984f28924185b5",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:44.315Z",
+   "nextRetryAt": "2026-12-27T15:22:44.315Z",
+   "requests": 4
+  },
+  "alti-2020": {
+   "version": 2,
+   "identity": "92a0e314950f6a1cfc25",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:44.315Z",
+   "nextRetryAt": "2026-12-27T15:22:44.315Z",
+   "requests": 17
+  },
+  "athomugam-2024": {
+   "version": 2,
+   "identity": "cab18bc4802c0fe37c2d",
+   "status": "matched",
+   "reason": "exact-title-year",
+   "attempts": 1,
+   "checkedAt": "2026-11-27T15:22:44.541Z",
+   "nextRetryAt": "2026-12-27T15:22:44.541Z",
    "requests": 4
   }
  }

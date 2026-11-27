@@ -802,7 +802,7 @@
   "tmdbId": 1009879,
   "imdbId": "tt18413736",
   "addedAt": "2026-09-27T14:06:54.300Z",
-  "updatedAt": "2026-11-27T15:20:45.416Z",
+  "updatedAt": "2026-11-27T15:21:45.042Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -2636,7 +2636,7 @@
   "tmdbId": 935643,
   "imdbId": "tt26759438",
   "addedAt": "2026-09-27T14:20:33.877Z",
-  "updatedAt": "2026-11-27T15:20:46.262Z",
+  "updatedAt": "2026-11-27T15:21:45.423Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -8205,7 +8205,7 @@
   "tmdbId": 1724606,
   "imdbId": "tt43698370",
   "addedAt": "2026-09-27T15:09:53.067Z",
-  "updatedAt": "2026-11-27T15:20:47.323Z",
+  "updatedAt": "2026-11-27T15:21:47.441Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -9906,7 +9906,7 @@
   "tmdbId": 871038,
   "imdbId": "",
   "addedAt": "2026-09-27T15:24:49.840Z",
-  "updatedAt": "2026-11-27T15:20:48.671Z",
+  "updatedAt": "2026-11-27T15:21:49.202Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -10427,7 +10427,7 @@
   "tmdbId": 997476,
   "imdbId": "",
   "addedAt": "2026-09-27T15:31:51.444Z",
-  "updatedAt": "2026-11-27T15:20:46.522Z",
+  "updatedAt": "2026-11-27T15:21:46.915Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -16248,7 +16248,7 @@
   "tmdbId": 1306964,
   "imdbId": "",
   "addedAt": "2026-09-27T17:00:45.641Z",
-  "updatedAt": "2026-11-27T15:20:49.603Z",
+  "updatedAt": "2026-11-27T15:21:51.013Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -18502,7 +18502,7 @@
   "tmdbId": 1292120,
   "imdbId": "tt32240017",
   "addedAt": "2026-09-27T17:35:04.117Z",
-  "updatedAt": "2026-11-27T15:20:50.819Z",
+  "updatedAt": "2026-11-27T15:21:54.261Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -18560,7 +18560,7 @@
   "tmdbId": 1179793,
   "imdbId": "",
   "addedAt": "2026-09-27T17:35:55.541Z",
-  "updatedAt": "2026-11-27T15:20:49.795Z",
+  "updatedAt": "2026-11-27T15:21:52.722Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -20778,7 +20778,7 @@
   "tmdbId": 1706729,
   "imdbId": "tt39378214",
   "addedAt": "2026-09-27T18:47:02.137Z",
-  "updatedAt": "2026-11-27T15:20:52.684Z",
+  "updatedAt": "2026-11-27T15:22:09.451Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -20997,7 +20997,7 @@
   "tmdbId": 1628756,
   "imdbId": "",
   "addedAt": "2026-09-27T18:48:41.200Z",
-  "updatedAt": "2026-11-27T15:20:51.674Z",
+  "updatedAt": "2026-11-27T15:22:07.807Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -21971,7 +21971,7 @@
   "tmdbId": 1168957,
   "imdbId": "",
   "addedAt": "2026-09-27T18:57:02.902Z",
-  "updatedAt": "2026-11-27T15:20:51.512Z",
+  "updatedAt": "2026-11-27T15:22:01.586Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -23006,7 +23006,7 @@
   "tmdbId": 1002536,
   "imdbId": "tt14563214",
   "addedAt": "2026-09-27T19:07:05.187Z",
-  "updatedAt": "2026-11-27T15:20:53.164Z",
+  "updatedAt": "2026-11-27T15:22:10.505Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -24135,7 +24135,7 @@
   "tmdbId": 655793,
   "imdbId": "",
   "addedAt": "2026-09-27T19:18:32.336Z",
-  "updatedAt": "2026-11-27T15:20:53.073Z",
+  "updatedAt": "2026-11-27T15:22:09.678Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -25469,7 +25469,7 @@
   "tmdbId": 1192356,
   "imdbId": "",
   "addedAt": "2026-09-27T19:47:58.960Z",
-  "updatedAt": "2026-11-27T15:20:54.843Z",
+  "updatedAt": "2026-11-27T15:22:11.534Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -27055,6 +27055,7 @@
   "title": "Jai Sriram",
   "year": 2013,
   "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/jai-sriram-2013-tamil-movie/",
   "embeds": [
@@ -27072,6 +27073,7 @@
   "tmdbId": 1843553,
   "imdbId": "tt7889170",
   "addedAt": "2026-09-27T20:06:48.060Z",
+  "updatedAt": "2026-11-27T09:51:03.389Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-year",
@@ -27083,10 +27085,8 @@
    ]
   },
   "tmdbType": "movie",
-  "originalLanguage": "te",
   "tmdbTitle": "Jai Sriram",
-  "originalYear": 2013,
-  "updatedAt": "2026-11-27T09:51:03.389Z"
+  "originalYear": 2013
  },
  {
   "id": "joruga-husharuga-2024",
@@ -30367,7 +30367,7 @@
   "tmdbId": 1444537,
   "imdbId": "",
   "addedAt": "2026-09-27T21:01:09.342Z",
-  "updatedAt": "2026-11-27T15:20:55.462Z",
+  "updatedAt": "2026-11-27T15:22:11.788Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -31137,6 +31137,7 @@
   "title": "Kaadhal Mattum Pothum",
   "year": 2023,
   "category": "tamil-movie",
+  "originalLanguage": "ta",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/kaadhal-mattum-pothum-2023-tamil-movie/",
   "embeds": [
@@ -31150,6 +31151,7 @@
   "tmdbId": 1846210,
   "imdbId": "",
   "addedAt": "2026-09-27T21:08:39.363Z",
+  "updatedAt": "2026-11-27T09:51:04.301Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -31162,10 +31164,8 @@
    ]
   },
   "tmdbType": "movie",
-  "originalLanguage": "ta",
   "tmdbTitle": "Kaadhal Mattum Pothum",
-  "originalYear": 2024,
-  "updatedAt": "2026-11-27T09:51:04.301Z"
+  "originalYear": 2024
  },
  {
   "id": "keedam-2022",
@@ -40702,7 +40702,7 @@
   "tmdbId": 1598634,
   "imdbId": "tt39182481",
   "addedAt": "2026-09-27T23:03:02.350Z",
-  "updatedAt": "2026-11-27T15:21:00.085Z",
+  "updatedAt": "2026-11-27T15:22:14.357Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -45255,7 +45255,7 @@
   "tmdbId": 821690,
   "imdbId": "tt8816196",
   "addedAt": "2026-09-27T23:45:47.948Z",
-  "updatedAt": "2026-11-27T15:20:55.601Z",
+  "updatedAt": "2026-11-27T15:22:13.024Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -46839,6 +46839,7 @@
   "title": "Naan Dan Jhansi",
   "year": 2024,
   "category": "tamil-dubbed-movie",
+  "originalLanguage": "kn",
   "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/naan-dan-jhansi-2024-tamil-movie/",
   "embeds": [
@@ -46856,6 +46857,7 @@
   "tmdbId": 1327325,
   "imdbId": "tt13370234",
   "addedAt": "2026-09-28T03:28:58.462Z",
+  "updatedAt": "2026-11-27T09:51:12.096Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "title-and-source-credits",
@@ -46868,10 +46870,8 @@
    ]
   },
   "tmdbType": "movie",
-  "originalLanguage": "kn",
   "tmdbTitle": "Jhansi I.P.S",
-  "originalYear": 2023,
-  "updatedAt": "2026-11-27T09:51:12.096Z"
+  "originalYear": 2023
  },
  {
   "id": "neerkumizhi-2024",
@@ -52534,7 +52534,7 @@
   "tmdbId": 1309816,
   "imdbId": "",
   "addedAt": "2026-09-28T04:21:44.191Z",
-  "updatedAt": "2026-11-27T15:21:02.839Z",
+  "updatedAt": "2026-11-27T15:22:20.449Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -54801,7 +54801,7 @@
   "tmdbId": 1124014,
   "imdbId": "",
   "addedAt": "2026-09-28T04:44:09.717Z",
-  "updatedAt": "2026-11-27T15:21:02.433Z",
+  "updatedAt": "2026-11-27T15:22:15.911Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -56786,7 +56786,7 @@
   "tmdbId": 628986,
   "imdbId": "tt1427100",
   "addedAt": "2026-09-28T06:29:56.905Z",
-  "updatedAt": "2026-11-27T15:21:04.631Z",
+  "updatedAt": "2026-11-27T15:22:21.713Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -58098,7 +58098,7 @@
   "tmdbId": 1403560,
   "imdbId": "tt13540316",
   "addedAt": "2026-09-28T06:42:54.877Z",
-  "updatedAt": "2026-11-27T15:21:04.442Z",
+  "updatedAt": "2026-11-27T15:22:21.473Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -58217,7 +58217,7 @@
   "tmdbId": 1032649,
   "imdbId": "tt22489432",
   "addedAt": "2026-09-28T06:44:50.730Z",
-  "updatedAt": "2026-11-27T15:21:05.530Z",
+  "updatedAt": "2026-11-27T15:22:22.855Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -61769,7 +61769,7 @@
   "tmdbId": 1388456,
   "imdbId": "tt38779645",
   "addedAt": "2026-09-28T07:21:45.605Z",
-  "updatedAt": "2026-11-27T15:21:09.819Z",
+  "updatedAt": "2026-11-27T15:22:24.621Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -63057,7 +63057,7 @@
   "tmdbId": 1287603,
   "imdbId": "tt32339528",
   "addedAt": "2026-09-28T07:33:23.981Z",
-  "updatedAt": "2026-11-27T15:21:08.971Z",
+  "updatedAt": "2026-11-27T15:22:23.091Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -64033,7 +64033,7 @@
   "tmdbId": 1116737,
   "imdbId": "",
   "addedAt": "2026-09-28T07:45:02.049Z",
-  "updatedAt": "2026-11-27T15:21:11.434Z",
+  "updatedAt": "2026-11-27T15:22:26.270Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -64508,7 +64508,7 @@
   "tmdbId": 1044937,
   "imdbId": "tt21138316",
   "addedAt": "2026-09-28T07:50:54.192Z",
-  "updatedAt": "2026-11-27T15:21:10.609Z",
+  "updatedAt": "2026-11-27T15:22:24.892Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -67072,7 +67072,7 @@
   "tmdbId": 628867,
   "imdbId": "tt10305936",
   "addedAt": "2026-09-28T08:28:27.688Z",
-  "updatedAt": "2026-11-27T15:21:11.276Z",
+  "updatedAt": "2026-11-27T15:22:25.406Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -70631,7 +70631,7 @@
   "tmdbId": 1039741,
   "imdbId": "tt4492568",
   "addedAt": "2026-09-28T09:02:32.139Z",
-  "updatedAt": "2026-11-27T15:21:12.892Z",
+  "updatedAt": "2026-11-27T15:22:27.606Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -93805,7 +93805,7 @@
   "tmdbId": 1274548,
   "imdbId": "tt32116832",
   "addedAt": "2026-09-29T08:29:45.347Z",
-  "updatedAt": "2026-11-27T15:20:56.772Z",
+  "updatedAt": "2026-11-27T15:22:14.005Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -99297,7 +99297,7 @@
   "tmdbId": 1035108,
   "imdbId": "",
   "addedAt": "2026-09-29T08:31:19.951Z",
-  "updatedAt": "2026-11-27T15:20:43.221Z",
+  "updatedAt": "2026-11-27T15:21:34.342Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -103649,7 +103649,7 @@
   "tmdbId": 1608457,
   "imdbId": "",
   "addedAt": "2026-09-29T09:29:07.542Z",
-  "updatedAt": "2026-11-27T15:20:44.559Z",
+  "updatedAt": "2026-11-27T15:21:42.338Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -276325,7 +276325,7 @@
   "tmdbId": 621026,
   "imdbId": "tt8996386",
   "addedAt": "2026-10-07T20:27:26.217Z",
-  "updatedAt": "2026-11-27T15:20:48.764Z",
+  "updatedAt": "2026-11-27T15:21:49.479Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "stored-id",
@@ -289287,7 +289287,7 @@
   "tmdbId": 1107551,
   "imdbId": "tt30789164",
   "addedAt": "2026-10-07T20:32:00.627Z",
-  "updatedAt": "2026-11-27T15:21:00.172Z",
+  "updatedAt": "2026-11-27T15:22:15.615Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -307004,7 +307004,7 @@
   "tmdbId": 777444,
   "imdbId": "tt10882998",
   "addedAt": "2026-10-07T20:40:15.373Z",
-  "updatedAt": "2026-11-27T15:21:13.523Z",
+  "updatedAt": "2026-11-27T15:22:28.005Z",
   "tmdbType": "movie",
   "metadataVerification": {
    "status": "verified",
@@ -339579,6 +339579,9 @@
   "id": "fast-and-fierce-death-race-2020",
   "title": "Fast and Fierce Death Race",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/fast-and-fierce-death-race-2020-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -339595,6 +339598,7 @@
   "tmdbId": 701675,
   "imdbId": "tt11765324",
   "addedAt": "2026-11-26T03:40:34.715Z",
+  "updatedAt": "2026-11-26T03:41:48.163Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/fast-and-fierce-death-race-2020-tamil-dubbed-movie/",
@@ -339604,13 +339608,9 @@
    "directors": [],
    "cast": []
   },
-  "category": "tamil-dubbed-movie",
-  "categorySource": "tmdb",
   "tmdbType": "movie",
-  "originalLanguage": "en",
   "tmdbTitle": "Fast and Fierce: Death Race",
   "originalYear": 2020,
-  "updatedAt": "2026-11-26T03:41:48.163Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-year",
@@ -339881,6 +339881,9 @@
   "id": "nightborn-2026",
   "title": "Nightborn",
   "year": 2026,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "fi",
+  "categorySource": "tmdb",
   "pageUrl": "https://isaidub.green/movie/nightborn-2026-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -339897,6 +339900,7 @@
   "tmdbId": 964849,
   "imdbId": "tt34383465",
   "addedAt": "2026-11-27T03:41:28.542Z",
+  "updatedAt": "2026-11-27T03:42:29.338Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://isaidub.green/movie/nightborn-2026-tamil-dubbed-movie/",
@@ -339906,13 +339910,9 @@
    "directors": [],
    "cast": []
   },
-  "category": "tamil-dubbed-movie",
-  "categorySource": "tmdb",
   "tmdbType": "movie",
-  "originalLanguage": "fi",
   "tmdbTitle": "Nightborn",
   "originalYear": 2026,
-  "updatedAt": "2026-11-27T03:42:29.338Z",
   "metadataVerification": {
    "status": "verified",
    "reason": "exact-title-year",
@@ -339928,6 +339928,8 @@
   "id": "april-x-2025",
   "title": "April X",
   "year": 2025,
+  "category": "tamil-dubbed-movie",
+  "categorySource": "site",
   "pageUrl": "https://isaidub.green/movie/april-x-2025-tamil-dubbed-movie/",
   "embeds": [
    {
@@ -339953,8 +339955,6 @@
    "directors": [],
    "cast": []
   },
-  "category": "tamil-dubbed-movie",
-  "categorySource": "site",
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
@@ -339965,6 +339965,9 @@
   "id": "athomugam-2024",
   "title": "Athomugam",
   "year": 2024,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/athomugam-2024-tamil-movie-1/",
   "embeds": [
    {
@@ -339972,11 +339975,12 @@
     "url": "https://play.onestream.today/stream/page/83983"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/athomugam-2024.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/Ad3ktJsF9saPUR3WiQ1zL40kfkN.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 1254149,
+  "imdbId": "tt31124095",
   "addedAt": "2026-11-27T11:47:24.362Z",
+  "updatedAt": "2026-11-27T15:22:44.541Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/athomugam-2024-tamil-movie-1/",
@@ -339991,12 +339995,16 @@
     "Chaitanya Pratap",
     "Ananth Nag"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "alti-2020",
   "title": "Alti",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/alti-2020-tamil-movie/",
   "embeds": [
    {
@@ -340008,11 +340016,12 @@
     "url": "https://play.onestream.today/stream/page/83435"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7S5D7uxbZhlVyJ2HKMQUEA5IL7x.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 1169834,
+  "imdbId": "tt12868294",
   "addedAt": "2026-11-27T11:47:30.727Z",
+  "updatedAt": "2026-11-27T15:22:44.315Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/alti-2020-tamil-movie/",
@@ -340021,12 +340030,16 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "appatha-2023",
   "title": "Appatha",
   "year": 2023,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/appatha-2023-tamil-movie/",
   "embeds": [
    {
@@ -340034,11 +340047,12 @@
     "url": "https://play.onestream.today/stream/page/80796"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/appatha-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/npTv28pyvVI0xkXMtaZETsb4qCb.jpg",
+  "rating": 6.3,
+  "tmdbId": 1155713,
+  "imdbId": "tt16154708",
   "addedAt": "2026-11-27T11:47:43.256Z",
+  "updatedAt": "2026-11-27T15:22:44.315Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/appatha-2023-tamil-movie/",
@@ -340052,12 +340066,16 @@
     "Urvashi",
     "Sidharth Babu"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anel-meley-panithuli-2022",
   "title": "Anel Meley Panithuli",
   "year": 2022,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anel-meley-panithuli-2022-tamil-movie/",
   "embeds": [
    {
@@ -340065,11 +340083,12 @@
     "url": "https://play.onestream.today/stream/page/76860"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/anel-meley-panithuli-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/thqzMTWt8I4EoBA4jJmX2MYGTj5.jpg",
+  "rating": 9,
+  "tmdbId": 974466,
+  "imdbId": "tt20205172",
   "addedAt": "2026-11-27T11:47:56.044Z",
+  "updatedAt": "2026-11-27T15:22:44.315Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anel-meley-panithuli-2022-tamil-movie/",
@@ -340083,12 +340102,16 @@
     "Andrea Jeremiah",
     "Aadhav Kannadhasan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "all-the-best-2022",
   "title": "All the Best",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/all-the-best-2022-tamil-movie/",
   "embeds": [
    {
@@ -340096,11 +340119,12 @@
     "url": "https://play.onestream.today/stream/page/76366"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/all-the-best-2022.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/qlGMRuuHT0DwXerNjDUh4x9HBKj.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 1286639,
   "imdbId": "",
   "addedAt": "2026-11-27T11:48:02.043Z",
+  "updatedAt": "2026-11-27T15:22:44.315Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/all-the-best-2022-tamil-movie/",
@@ -340115,12 +340139,16 @@
     "J.D. Chakravarthi",
     "Lucky Sharma"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aaradi-bullet-2022",
   "title": "Aaradi Bullet",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aaradi-bullet-2022-tamil-movie/",
   "embeds": [
    {
@@ -340128,11 +340156,12 @@
     "url": "https://play.onestream.today/stream/page/75960"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aaradi-bullet-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/n3wJy9jGcEyRGDfXTBvrXL1U3uI.jpg",
+  "rating": 3.3,
+  "tmdbId": 881964,
+  "imdbId": "tt6914500",
   "addedAt": "2026-11-27T11:48:07.935Z",
+  "updatedAt": "2026-11-27T15:22:42.312Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aaradi-bullet-2022-tamil-movie/",
@@ -340147,12 +340176,16 @@
     "Nayanthara",
     "Prakash Raj"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aavasa-vyuham-2022",
   "title": "Aavasa Vyuham",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aavasa-vyuham-2022-tamil-movie/",
   "embeds": [
    {
@@ -340160,11 +340193,12 @@
     "url": "https://play.onestream.today/stream/page/75210"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/j8K518nNnuBrnBVtKScVxyVSvjM.jpg",
+  "rating": 8.4,
+  "tmdbId": 922598,
+  "imdbId": "tt15939240",
   "addedAt": "2026-11-27T11:48:13.717Z",
+  "updatedAt": "2026-11-27T15:22:42.312Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aavasa-vyuham-2022-tamil-movie/",
@@ -340173,7 +340207,8 @@
    "sourceYear": 2022,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anbudan-ungal-karthik-2022",
@@ -340215,6 +340250,9 @@
   "id": "anek-2022",
   "title": "Anek",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anek-2022-tamil-movie/",
   "embeds": [
    {
@@ -340222,11 +340260,12 @@
     "url": "https://play.onestream.today/stream/page/74535"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/anek-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/y7DOaApwC0CO5EEV7Knqju3rLFa.jpg",
+  "rating": 6.167,
+  "tmdbId": 888268,
+  "imdbId": "tt13919802",
   "addedAt": "2026-11-27T11:48:28.132Z",
+  "updatedAt": "2026-11-27T15:22:42.312Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anek-2022-tamil-movie/",
@@ -340241,12 +340280,16 @@
     "Andrea KevichÃ¼sa",
     "Amir Hossain Ashik"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "avane-srimannarayana-2019",
   "title": "Avane Srimannarayana",
   "year": 2019,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "kn",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/avane-srimannarayana-2019-tamil-movie/",
   "embeds": [
    {
@@ -340258,11 +340301,12 @@
     "url": "https://play.onestream.today/stream/page/74262"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/avane-srimannarayana-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7jGwLOWt71WPfBmkp3YBpxJPbno.jpg",
+  "rating": 7.4,
+  "tmdbId": 634077,
+  "imdbId": "tt7998242",
   "addedAt": "2026-11-27T11:48:52.948Z",
+  "updatedAt": "2026-11-27T15:22:41.087Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/avane-srimannarayana-2019-tamil-movie/",
@@ -340278,12 +340322,16 @@
     "Shanvi Srivastava",
     "Achyuth Kumar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "arul-mozhi-2022",
   "title": "Arul Mozhi",
   "year": 2022,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/arul-mozhi-2022-tamil-movie/",
   "embeds": [
    {
@@ -340291,11 +340339,12 @@
     "url": "https://play.onestream.today/stream/page/74241"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/arul-mozhi-2022.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/lMQL43QG23y6TGN15oNLOWhwq7Y.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 987642,
   "imdbId": "",
   "addedAt": "2026-11-27T11:48:58.935Z",
+  "updatedAt": "2026-11-27T15:22:41.087Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/arul-mozhi-2022-tamil-movie/",
@@ -340309,12 +340358,16 @@
     "Sangabalan Subramaniam",
     "Alvin Martin"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anantham-2022",
   "title": "Anantham",
   "year": 2022,
+  "category": "tamil-series",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anantham-2022-tamil-movie/",
   "embeds": [
    {
@@ -340330,11 +340383,12 @@
     "url": "https://play.onestream.today/stream/page/73306"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/anantham-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/2NStJrun9FxkywaakDbWPWZVflE.jpg",
+  "rating": 8,
+  "tmdbId": 198124,
+  "imdbId": "tt19733404",
   "addedAt": "2026-11-27T11:49:54.370Z",
+  "updatedAt": "2026-11-27T15:22:41.087Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anantham-2022-tamil-movie/",
@@ -340348,12 +340402,16 @@
     "Prakash Raj",
     "John Vijay"
    ]
-  }
+  },
+  "tmdbType": "tv"
  },
  {
   "id": "aadavallu-meeku-joharlu-2022",
   "title": "Aadavallu Meeku Joharlu",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aadavallu-meeku-joharlu-2022-tamil-movie/",
   "embeds": [
    {
@@ -340361,11 +340419,12 @@
     "url": "https://play.onestream.today/stream/page/73092"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aadavallu-meeku-joharlu-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/bF8wcDaHNGkgTlCLvCsaC3quiRf.jpg",
+  "rating": 3.9,
+  "tmdbId": 888299,
+  "imdbId": "tt13349280",
   "addedAt": "2026-11-27T11:50:00.567Z",
+  "updatedAt": "2026-11-27T15:22:41.087Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aadavallu-meeku-joharlu-2022-tamil-movie/",
@@ -340380,12 +340439,16 @@
     "Kushboo",
     "Radhika Sarathkumar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aakashavaani-2021",
   "title": "Aakashavaani",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aakashavaani-2021-movie/",
   "embeds": [
    {
@@ -340393,11 +340456,12 @@
     "url": "https://play.onestream.today/stream/page/70969"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/a8ppWJC6gdrdKNY8WGhsm51yrFU.jpg",
+  "rating": 7,
+  "tmdbId": 874852,
+  "imdbId": "tt9322884",
   "addedAt": "2026-11-27T11:50:27.123Z",
+  "updatedAt": "2026-11-27T15:22:39.519Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aakashavaani-2021-movie/",
@@ -340406,12 +340470,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "annaatthe-2021",
   "title": "Annaatthe",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/annaatthe-2021-movie/",
   "embeds": [
    {
@@ -340419,11 +340487,12 @@
     "url": "https://play.onestream.today/stream/page/70920"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/annaatthe-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/1T5BAF0RsrQfQik5WtXA30gJlk7.jpg",
+  "rating": 4.6,
+  "tmdbId": 752961,
+  "imdbId": "tt11253090",
   "addedAt": "2026-11-27T11:50:39.447Z",
+  "updatedAt": "2026-11-27T15:22:39.519Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/annaatthe-2021-movie/",
@@ -340438,7 +340507,8 @@
     "Meena",
     "Kushboo"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aamaa-2-2021",
@@ -340478,6 +340548,9 @@
   "id": "agadu-2021",
   "title": "Agadu",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/agadu-2021-movie/",
   "embeds": [
    {
@@ -340489,11 +340562,12 @@
     "url": "https://play.onestream.today/stream/page/70741"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
+  "poster": "https://image.tmdb.org/t/p/w500/afQFju5N2WZzSssN1BedlxUHkjW.jpg",
+  "rating": 8,
+  "tmdbId": 897651,
   "imdbId": "",
   "addedAt": "2026-11-27T11:51:06.991Z",
+  "updatedAt": "2026-11-27T15:22:39.519Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/agadu-2021-movie/",
@@ -340502,12 +340576,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anbudan-amma-2021",
   "title": "Anbudan Amma",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anbudan-amma-2021-movie/",
   "embeds": [
    {
@@ -340519,11 +340597,12 @@
     "url": "https://play.onestream.today/stream/page/70448"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/glBGbIzGBTshO1XwFTmImt43SdU.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 882128,
+  "imdbId": "tt15557314",
   "addedAt": "2026-11-27T11:51:19.971Z",
+  "updatedAt": "2026-11-27T15:22:38.432Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anbudan-amma-2021-movie/",
@@ -340532,7 +340611,8 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ashok-2021",
@@ -340564,6 +340644,9 @@
   "id": "appathava-aattaya-pottutanga-2021",
   "title": "Appathava Aattaya Pottutanga",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/appathava-aattaya-pottutanga-2021-movie/",
   "embeds": [
    {
@@ -340575,11 +340658,12 @@
     "url": "https://play.onestream.today/stream/page/70311"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/appathava-aattaya-pottutanga-2021.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/1100Zpx5xKqyznVeX05JJ6oXl6k.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 616123,
+  "imdbId": "tt15541120",
   "addedAt": "2026-11-27T11:51:55.185Z",
+  "updatedAt": "2026-11-27T15:22:38.432Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/appathava-aattaya-pottutanga-2021-movie/",
@@ -340594,12 +340678,16 @@
     "Delhi Ganesh",
     "Chandrahasan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "annabelle-sethupathi-2021",
   "title": "Annabelle Sethupathi",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/annabelle-sethupathi-2021-movie/",
   "embeds": [
    {
@@ -340611,11 +340699,12 @@
     "url": "https://play.onestream.today/stream/page/70103"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/annabelle-sethupathi-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/1A33SYANAsoRR6wNalk1SviNI7F.jpg",
+  "rating": 4.3,
+  "tmdbId": 864403,
+  "imdbId": "tt15302290",
   "addedAt": "2026-11-27T11:52:07.689Z",
+  "updatedAt": "2026-11-27T15:22:38.432Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/annabelle-sethupathi-2021-movie/",
@@ -340630,12 +340719,16 @@
     "Vijay Sethupathi",
     "Radhika Sarathkumar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ashvamithra-2021",
   "title": "Ashvamithra",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ashvamithra-2021-movie/",
   "embeds": [
    {
@@ -340647,11 +340740,12 @@
     "url": "https://play.onestream.today/stream/page/69964"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/a5NsYxJgj5czuXqSidXqoK3weTD.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 869453,
+  "imdbId": "tt8288772",
   "addedAt": "2026-11-27T11:52:19.971Z",
+  "updatedAt": "2026-11-27T15:22:37.969Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ashvamithra-2021-movie/",
@@ -340660,7 +340754,8 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anandho-brahma-2021",
@@ -340756,6 +340851,9 @@
   "id": "a-simple-murder-2020",
   "title": "A Simple Murder",
   "year": 2020,
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/a-simple-murder-2020-movie/",
   "embeds": [
    {
@@ -340763,11 +340861,12 @@
     "url": "https://play.onestream.today/stream/page/68551"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/q5iY44OPmoVeswiNuJDovOv6KO5.jpg",
+  "rating": 7.5,
+  "tmdbId": 113423,
+  "imdbId": "tt13085546",
   "addedAt": "2026-11-27T11:53:07.604Z",
+  "updatedAt": "2026-11-27T15:22:36.680Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/a-simple-murder-2020-movie/",
@@ -340776,12 +340875,16 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "tv"
  },
  {
   "id": "amutha-2021",
   "title": "Amutha",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/amutha-2021-movie/",
   "embeds": [
    {
@@ -340793,11 +340896,12 @@
     "url": "https://play.onestream.today/stream/page/68270"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/amutha-2021.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/S7AxYQpPrihp6gMPI5bTcVUfKu.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 526079,
+  "imdbId": "tt8197158",
   "addedAt": "2026-11-27T11:53:20.465Z",
+  "updatedAt": "2026-11-27T15:22:36.680Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/amutha-2021-movie/",
@@ -340813,7 +340917,8 @@
     "Levin Simon Joseph",
     "Shivakumar Raju"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "avalum-naanum-2021",
@@ -340894,6 +340999,9 @@
   "id": "anbirkiniyal-2021",
   "title": "Anbirkiniyal",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anbirkiniyal-2021-movie/",
   "embeds": [
    {
@@ -340905,11 +341013,12 @@
     "url": "https://play.onestream.today/stream/page/67886"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/anbirkiniyal-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/hsNWnjQfa8vdVEr76PQvLlbFo0v.jpg",
+  "rating": 7,
+  "tmdbId": 801218,
+  "imdbId": "tt14092076",
   "addedAt": "2026-11-27T11:54:05.571Z",
+  "updatedAt": "2026-11-27T15:22:35.336Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anbirkiniyal-2021-movie/",
@@ -340924,12 +341033,16 @@
     "Keerthi Pandian",
     "Praveen Raja"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aelay-2021",
   "title": "Aelay",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aelay-2021-movie/",
   "embeds": [
    {
@@ -340941,11 +341054,12 @@
     "url": "https://play.onestream.today/stream/page/67485"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aelay-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/n3cFWZtVQL4PuIvsqUGoXDlFqJl.jpg",
+  "rating": 6.5,
+  "tmdbId": 608539,
+  "imdbId": "tt10275546",
   "addedAt": "2026-11-27T11:54:17.858Z",
+  "updatedAt": "2026-11-27T15:22:35.336Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aelay-2021-movie/",
@@ -340959,12 +341073,16 @@
     "Samuthirakani",
     "Manikandan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aatkal-thevai-2021",
   "title": "Aatkal Thevai",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aatkal-thevai-2021-movie/",
   "embeds": [
    {
@@ -340976,11 +341094,12 @@
     "url": "https://play.onestream.today/stream/page/70509"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ystHRaud7LWFrvxmXJbfwZ3XyVY.jpg",
+  "rating": 1,
+  "tmdbId": 794353,
+  "imdbId": "tt13510888",
   "addedAt": "2026-11-27T11:54:30.353Z",
+  "updatedAt": "2026-11-27T15:22:35.336Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aatkal-thevai-2021-movie/",
@@ -340989,12 +341108,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "avrodh-the-siege-within-2020",
   "title": "Avrodh The Siege Within",
   "year": 2020,
+  "category": "tamil-dubbed-series",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/avrodh-the-siege-within-2020-movie/",
   "embeds": [
    {
@@ -341006,11 +341129,12 @@
     "url": "https://play.onestream.today/stream/page/66624"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/t4fMUfvXYdkUBNNvHoU1tbOkicl.jpg",
+  "rating": 7,
+  "tmdbId": 106581,
+  "imdbId": "tt12392458",
   "addedAt": "2026-11-27T11:54:42.588Z",
+  "updatedAt": "2026-11-27T15:22:35.336Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/avrodh-the-siege-within-2020-movie/",
@@ -341019,12 +341143,16 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "tv"
  },
  {
   "id": "arjun-varma-2021",
   "title": "Arjun Varma",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/arjun-varma-2021-movie/",
   "embeds": [
    {
@@ -341036,11 +341164,12 @@
     "url": "https://play.onestream.today/stream/page/66549"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/arjun-varma-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/kHubDgL59I5hCn7ccBYvU7bKY1r.jpg",
+  "rating": 6.981,
+  "tmdbId": 473234,
+  "imdbId": "tt7294534",
   "addedAt": "2026-11-27T11:54:54.909Z",
+  "updatedAt": "2026-11-27T15:22:35.027Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/arjun-varma-2021-movie/",
@@ -341056,7 +341185,8 @@
     "Jia Sharma",
     "Kanchana"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ayirathil-oruvan-2010",
@@ -341088,6 +341218,9 @@
   "id": "aayudham-seivom-2008",
   "title": "Aayudham Seivom",
   "year": 2008,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aayudham-seivom-2008-movie/",
   "embeds": [
    {
@@ -341095,11 +341228,12 @@
     "url": "https://play.onestream.today/stream/page/66413"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/tL3MpiFm5dNR2MvOx5S5UZcohwr.jpg",
+  "rating": 5,
+  "tmdbId": 99118,
+  "imdbId": "tt8929166",
   "addedAt": "2026-11-27T11:55:15.806Z",
+  "updatedAt": "2026-11-27T15:22:35.027Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aayudham-seivom-2008-movie/",
@@ -341115,12 +341249,16 @@
     "Gnanasambandam",
     "G.M. Kumar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aathikka-varkkam-2021",
   "title": "Aathikka Varkkam",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aathikka-varkkam-2021-movie/",
   "embeds": [
    {
@@ -341134,9 +341272,10 @@
   ],
   "poster": "",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 1217295,
+  "imdbId": "tt14741744",
   "addedAt": "2026-11-27T11:55:30.550Z",
+  "updatedAt": "2026-11-27T15:22:35.026Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aathikka-varkkam-2021-movie/",
@@ -341145,12 +341284,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ak-vs-ak-2020",
   "title": "AK vs AK",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ak-vs-ak-2020-movie/",
   "embeds": [
    {
@@ -341162,11 +341305,12 @@
     "url": "https://play.onestream.today/stream/page/66245"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/4ULEEvH0hDYnbWN3nClrb88sYCF.jpg",
+  "rating": 6.7,
+  "tmdbId": 735919,
+  "imdbId": "tt11651796",
   "addedAt": "2026-11-27T11:55:42.732Z",
+  "updatedAt": "2026-11-27T15:22:33.976Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ak-vs-ak-2020-movie/",
@@ -341175,7 +341319,8 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "antha-rathirikku-satchi-illai-1982",
@@ -341214,6 +341359,9 @@
   "id": "aakasha-ganga-2-2019",
   "title": "Aakasha Ganga 2",
   "year": 2019,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aakasha-ganga-2-2019-movie/",
   "embeds": [
    {
@@ -341225,11 +341373,12 @@
     "url": "https://play.onestream.today/stream/page/65162"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ibJzjljE1nSS0OeoQFPcq4WwnTN.jpg",
+  "rating": 1.9,
+  "tmdbId": 609448,
+  "imdbId": "tt9883042",
   "addedAt": "2026-11-27T11:56:05.077Z",
+  "updatedAt": "2026-11-27T15:22:33.976Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aakasha-ganga-2-2019-movie/",
@@ -341238,7 +341387,8 @@
    "sourceYear": 2019,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "andha-oru-nimidam-2017",
@@ -341274,6 +341424,9 @@
   "id": "aagadu-2014",
   "title": "Aagadu",
   "year": 2014,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aagadu-2014-movie/",
   "embeds": [
    {
@@ -341281,11 +341434,12 @@
     "url": "https://play.onestream.today/stream/page/64953"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/xDRDhFd4A9QSnJlE5hIJPVSyYuL.jpg",
+  "rating": 4.7,
+  "tmdbId": 294413,
+  "imdbId": "tt2988020",
   "addedAt": "2026-11-27T11:56:27.858Z",
+  "updatedAt": "2026-11-27T15:22:32.702Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aagadu-2014-movie/",
@@ -341301,7 +341455,8 @@
     "Tamannaah Bhatia",
     "Brahmanandam"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "angel-2017",
@@ -341380,6 +341535,9 @@
   "id": "andala-rakshasi-2012",
   "title": "Andala Rakshasi",
   "year": 2012,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/andala-rakshasi-2012-movie/",
   "embeds": [
    {
@@ -341391,11 +341549,12 @@
     "url": "https://play.onestream.today/stream/page/64622"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/andala-rakshasi-2012.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/xTJSZ1XtPrZrjbHcASNf9GWMXBw.jpg",
+  "rating": 6.5,
+  "tmdbId": 154337,
+  "imdbId": "tt2316756",
   "addedAt": "2026-11-27T11:57:15.457Z",
+  "updatedAt": "2026-11-27T15:22:32.701Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/andala-rakshasi-2012-movie/",
@@ -341409,12 +341568,16 @@
     "Naveen Chandra",
     "Rahul Ravindran"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "adavi-2020",
   "title": "Adavi",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/adavi-2020-movie/",
   "embeds": [
    {
@@ -341426,11 +341589,12 @@
     "url": "https://play.onestream.today/stream/page/64094"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/adavi-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/l5H9FXgy8UbztJvcyzM5AMklM5W.jpg",
+  "rating": 2,
+  "tmdbId": 683753,
+  "imdbId": "tt11355282",
   "addedAt": "2026-11-27T11:57:27.858Z",
+  "updatedAt": "2026-11-27T15:22:32.213Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/adavi-2020-movie/",
@@ -341444,12 +341608,16 @@
     "Abhirami",
     "Vinoth Kishan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "asuraguru-2020",
   "title": "Asuraguru",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/asuraguru-2020-movie/",
   "embeds": [
    {
@@ -341461,11 +341629,12 @@
     "url": "https://play.onestream.today/stream/page/64325"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/asuraguru-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/b4UnX4MjrtXcg9U338XEfIrWd9v.jpg",
+  "rating": 3.3,
+  "tmdbId": 535223,
+  "imdbId": "tt8011344",
   "addedAt": "2026-11-27T11:57:40.278Z",
+  "updatedAt": "2026-11-27T15:22:32.213Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/asuraguru-2020-movie/",
@@ -341478,12 +341647,16 @@
    "cast": [
     "Vikram Prabhu"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "avane-srimannarayana-2020",
   "title": "Avane Srimannarayana",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "kn",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/avane-srimannarayana-2020-movie/",
   "embeds": [
    {
@@ -341495,11 +341668,12 @@
     "url": "https://play.onestream.today/stream/page/63585"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/avane-srimannarayana-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7jGwLOWt71WPfBmkp3YBpxJPbno.jpg",
+  "rating": 7.4,
+  "tmdbId": 634077,
+  "imdbId": "tt7998242",
   "addedAt": "2026-11-27T11:57:53.024Z",
+  "updatedAt": "2026-11-27T15:22:32.213Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/avane-srimannarayana-2020-movie/",
@@ -341515,12 +341689,16 @@
     "Achyuth Kumar",
     "Rishab Shetty"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "adhe-neram-adhe-idam-2009",
   "title": "Adhe Neram Adhe Idam",
   "year": 2009,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/adhe-neram-adhe-idam-2009-movie/",
   "embeds": [
    {
@@ -341528,11 +341706,12 @@
     "url": "https://play.onestream.today/stream/page/63052"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/tXQjLpwXefioPkp0UUh4KSBTwMu.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 98904,
+  "imdbId": "tt10127926",
   "addedAt": "2026-11-27T11:57:58.899Z",
+  "updatedAt": "2026-11-27T15:22:32.213Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/adhe-neram-adhe-idam-2009-movie/",
@@ -341541,12 +341720,16 @@
    "sourceYear": 2009,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "avalukkenna-azhagiya-mugam-2018",
   "title": "Avalukkenna Azhagiya Mugam",
   "year": 2018,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/avalukkenna-azhagiya-mugam-2018-movie/",
   "embeds": [
    {
@@ -341558,11 +341741,12 @@
     "url": "https://play.onestream.today/stream/page/55193"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/avalukkenna-azhagiya-mugam-2018.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/1YSPMGlH6RrsrxOHAlLR7L02H2O.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 548513,
   "imdbId": "",
   "addedAt": "2026-11-27T11:58:11.328Z",
+  "updatedAt": "2026-11-27T15:22:31.671Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/avalukkenna-azhagiya-mugam-2018-movie/",
@@ -341576,12 +341760,16 @@
     "Vijay Karthik",
     "Anupama Prakash"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aaruthra-2018",
   "title": "Aaruthra",
   "year": 2018,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aaruthra-2018-movie/",
   "embeds": [
    {
@@ -341593,11 +341781,12 @@
     "url": "https://play.onestream.today/stream/page/55101"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aaruthra-2018.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/kPq8ZrLf5eT8KqfCQUIezCMm99p.jpg",
+  "rating": 1,
+  "tmdbId": 544679,
+  "imdbId": "tt8333792",
   "addedAt": "2026-11-27T11:58:23.706Z",
+  "updatedAt": "2026-11-27T15:22:31.671Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aaruthra-2018-movie/",
@@ -341612,12 +341801,16 @@
     "S.A. Chandrashekhar",
     "Y.G. Mahendran"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "asuravadham-2018",
   "title": "Asuravadham",
   "year": 2018,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/asuravadham-2018-movie/",
   "embeds": [
    {
@@ -341629,11 +341822,12 @@
     "url": "https://play.onestream.today/stream/page/54767"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/asuravadham-2018.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/fmPPD9TfmZXZnCtgl0uXE9rtMLD.jpg",
+  "rating": 4.8,
+  "tmdbId": 524025,
+  "imdbId": "tt8076418",
   "addedAt": "2026-11-27T11:58:52.334Z",
+  "updatedAt": "2026-11-27T15:22:31.671Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/asuravadham-2018-movie/",
@@ -341647,12 +341841,16 @@
     "M. Sasikumar",
     "Nandita Shwetha"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "andhra-mess-2018",
   "title": "Andhra Mess",
   "year": 2018,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/andhra-mess-2018-movie/",
   "embeds": [
    {
@@ -341672,11 +341870,12 @@
     "url": "https://play.onestream.today/stream/page/54700"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/andhra-mess-2018.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/yBuWGqhGKEggKXafKW5A2vkDlhi.jpg",
+  "rating": 3.3,
+  "tmdbId": 416358,
+  "imdbId": "tt3543360",
   "addedAt": "2026-11-27T11:59:20.384Z",
+  "updatedAt": "2026-11-27T15:22:31.671Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/andhra-mess-2018-movie/",
@@ -341692,12 +341891,16 @@
     "Pooja Devariya",
     "AP Shreethar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "antony-2018",
   "title": "Antony",
   "year": 2018,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/antony-2018-movie/",
   "embeds": [
    {
@@ -341717,11 +341920,12 @@
     "url": "https://play.onestream.today/stream/page/54608"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/antony-2018.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/80KxmbZDKrQC0SJTUZH2ntObrup.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 527665,
+  "imdbId": "tt8665648",
   "addedAt": "2026-11-27T11:59:47.096Z",
+  "updatedAt": "2026-11-27T15:22:30.608Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/antony-2018-movie/",
@@ -341737,12 +341941,16 @@
     "Rekha",
     "Cheran Raj"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aayirathil-iruvar-2017",
   "title": "Aayirathil Iruvar",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aayirathil-iruvar-2017-movie/",
   "embeds": [
    {
@@ -341754,11 +341962,12 @@
     "url": "https://play.onestream.today/stream/page/52362"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aayirathil-iruvar-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ygdnmTXQFkewOxvykVDNumLsMl9.jpg",
+  "rating": 10,
+  "tmdbId": 280173,
+  "imdbId": "tt4312690",
   "addedAt": "2026-11-27T11:59:55.415Z",
+  "updatedAt": "2026-11-27T15:22:30.608Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aayirathil-iruvar-2017-movie/",
@@ -341774,12 +341983,16 @@
     "Swasthika",
     "Kesha Khambhati"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "appa-2016",
   "title": "Appa",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/appa-2016-tamil-movie/",
   "embeds": [
    {
@@ -341791,11 +342004,12 @@
     "url": "https://play.onestream.today/stream/page/52065"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/appa-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/kIocctVaetwA31NX1EPKnpk2CiU.jpg",
+  "rating": 7.1,
+  "tmdbId": 402696,
+  "imdbId": "tt5849148",
   "addedAt": "2026-11-27T12:00:11.937Z",
+  "updatedAt": "2026-11-27T15:22:30.608Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/appa-2016-tamil-movie/",
@@ -341810,12 +342024,16 @@
     "Samuthirakani",
     "Vinodhini Vaidynathan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ammani-2016",
   "title": "Ammani",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ammani-2016-tamil-movie/",
   "embeds": [
    {
@@ -341827,11 +342045,12 @@
     "url": "https://play.onestream.today/stream/page/52055"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/ammani-2016.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/9CasTBjmKXrMYHnpRMaixIaA49U.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 371075,
+  "imdbId": "tt6262750",
   "addedAt": "2026-11-27T12:00:20.491Z",
+  "updatedAt": "2026-11-27T15:22:30.607Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ammani-2016-tamil-movie/",
@@ -341847,12 +342066,16 @@
     "Manas",
     "George Maryan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "adra-machan-visilu-2016",
   "title": "Adra Machan Visilu",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/adra-machan-visilu-2016-tamil-movie/",
   "embeds": [
    {
@@ -341865,10 +342088,11 @@
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/adra-machan-visilu-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "rating": 1.5,
+  "tmdbId": 391102,
+  "imdbId": "tt5867388",
   "addedAt": "2026-11-27T12:00:28.659Z",
+  "updatedAt": "2026-11-27T15:22:28.598Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/adra-machan-visilu-2016-tamil-movie/",
@@ -341884,12 +342108,16 @@
     "Raj Kapoor",
     "Mansoor Ali Khan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "achcham-yenbadhu-madamaiyada-2016",
   "title": "Achcham Yenbadhu Madamaiyada",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/achcham-yenbadhu-madamaiyada-2016-tamil-movie/",
   "embeds": [
    {
@@ -341901,11 +342129,12 @@
     "url": "https://play.onestream.today/stream/page/52037"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/achcham-yenbadhu-madamaiyada-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/lxTQc8uFNroe5CaFXho4uK9tuHk.jpg",
+  "rating": 5.1,
+  "tmdbId": 330417,
+  "imdbId": "tt2401585",
   "addedAt": "2026-11-27T12:00:36.971Z",
+  "updatedAt": "2026-11-27T15:22:28.598Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/achcham-yenbadhu-madamaiyada-2016-tamil-movie/",
@@ -341921,7 +342150,8 @@
     "Baba Sehgal",
     "Daniel Balaji"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aagam-2016",
@@ -341964,6 +342194,9 @@
   "id": "azhagu-kutti-chellam-2016",
   "title": "Azhagu Kutti Chellam",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/azhagu-kutti-chellam-2016-tamil-movie/",
   "embeds": [
    {
@@ -341975,11 +342208,12 @@
     "url": "https://play.onestream.today/stream/page/51418"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/azhagu-kutti-chellam-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/5rrcCPLKfcTCGj8WbRt99b7VL7A.jpg",
+  "rating": 6.3,
+  "tmdbId": 375858,
+  "imdbId": "tt4312730",
   "addedAt": "2026-11-27T12:00:53.265Z",
+  "updatedAt": "2026-11-27T15:22:28.598Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/azhagu-kutti-chellam-2016-tamil-movie/",
@@ -341995,12 +342229,16 @@
     "Chanakyan",
     "Chetan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "arima-nambi-2014",
   "title": "Arima Nambi",
   "year": 2014,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/arima-nambi-2014-movie/",
   "embeds": [
    {
@@ -342012,11 +342250,12 @@
     "url": "https://play.onestream.today/stream/page/51312"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/arima-nambi-2014.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/rMMiIoQFgwc9bA3OoQk8krd5mDo.jpg",
+  "rating": 5.2,
+  "tmdbId": 263505,
+  "imdbId": "tt3681464",
   "addedAt": "2026-11-27T12:01:01.420Z",
+  "updatedAt": "2026-11-27T15:22:28.005Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/arima-nambi-2014-movie/",
@@ -342032,12 +342271,16 @@
     "J.D. Chakravarthi",
     "M.S. Bhaskar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aaha-kalyanam-2014",
   "title": "Aaha Kalyanam",
   "year": 2014,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aaha-kalyanam-2014-movie/",
   "embeds": [
    {
@@ -342049,11 +342292,12 @@
     "url": "https://play.onestream.today/stream/page/51076"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aaha-kalyanam-2014.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/goLTOX7DwyQ3dyVQGaTSFpV8enm.jpg",
+  "rating": 4.5,
+  "tmdbId": 251898,
+  "imdbId": "tt2995992",
   "addedAt": "2026-11-27T12:01:10.124Z",
+  "updatedAt": "2026-11-27T15:22:28.005Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aaha-kalyanam-2014-movie/",
@@ -342069,12 +342313,16 @@
     "Badava Gopi",
     "Karthik"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "appuchi-gramam-2014",
   "title": "Appuchi Gramam",
   "year": 2014,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/appuchi-gramam-2014-movie/",
   "embeds": [
    {
@@ -342086,11 +342334,12 @@
     "url": "https://play.onestream.today/stream/page/50584"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/appuchi-gramam-2014.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/r9fTrD82qSzW2fkkspEgfVWgOmb.jpg",
+  "rating": 1.5,
+  "tmdbId": 305506,
+  "imdbId": "tt3726006",
   "addedAt": "2026-11-27T12:01:18.344Z",
+  "updatedAt": "2026-11-27T15:22:28.005Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/appuchi-gramam-2014-movie/",
@@ -342104,12 +342353,16 @@
     "Ganja Karuppu",
     "Raja Krishnamoorthy"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "arputham-2002",
   "title": "Arputham",
   "year": 2002,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/arputham-2002-movie/",
   "embeds": [
    {
@@ -342121,11 +342374,12 @@
     "url": "https://play.onestream.today/stream/page/49749"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/arputham-2002.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/3cX2oWZfzALrp6GRk66rSQWPxjx.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 276257,
+  "imdbId": "tt22366546",
   "addedAt": "2026-11-27T12:01:26.521Z",
+  "updatedAt": "2026-11-27T15:22:27.606Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/arputham-2002-movie/",
@@ -342140,12 +342394,16 @@
     "Kunal",
     "Livingston"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "adhagappattathu-magajanangalay-2017",
   "title": "Adhagappattathu Magajanangalay",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/adhagappattathu-magajanangalay-2017-movie/",
   "embeds": [
    {
@@ -342161,11 +342419,12 @@
     "url": "https://play.onestream.today/stream/page/47012"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/adhagappattathu-magajanangalay-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/o7TaHv3m0YFWSlE0LMrqpvSNAR9.jpg",
+  "rating": 10,
+  "tmdbId": 412657,
+  "imdbId": "tt7019938",
   "addedAt": "2026-11-27T12:01:45.540Z",
+  "updatedAt": "2026-11-27T15:22:27.606Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/adhagappattathu-magajanangalay-2017-movie/",
@@ -342180,12 +342439,16 @@
     "Karunakaran",
     "Manobala"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aambala-2015",
   "title": "Aambala",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aambala-2015-tamil-movie/",
   "embeds": [
    {
@@ -342213,12 +342476,12 @@
     "url": "https://play.onestream.today/stream/page/41019"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aambala-2015.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/jqGe0XmVkLIjRALf3WdDiHEms6r.jpg",
+  "rating": 5.3,
+  "tmdbId": 318572,
+  "imdbId": "tt4312676",
   "addedAt": "2026-11-27T12:01:54.013Z",
-  "updatedAt": "2026-11-27T12:04:12.756Z",
+  "updatedAt": "2026-11-27T15:22:27.606Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aambala-2015-movie/",
@@ -342227,12 +342490,16 @@
    "sourceYear": 2015,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "andaman-2016",
   "title": "Andaman",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/andaman-2016-tamil-movie/",
   "embeds": [
    {
@@ -342244,11 +342511,12 @@
     "url": "https://play.onestream.today/stream/page/46278"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/andaman-2016.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/ivyAiXUSdxeTP3sanIWtvTEXSfp.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 434858,
   "imdbId": "",
   "addedAt": "2026-11-27T12:02:12.671Z",
+  "updatedAt": "2026-11-27T15:22:26.270Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/andaman-2016-tamil-movie/",
@@ -342263,12 +342531,16 @@
     "Manochitra",
     "Meera Krishnan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "anbanavan-asaradhavan-adangadhavan-2017",
   "title": "Anbanavan Asaradhavan Adangadhavan",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/anbanavan-asaradhavan-adangadhavan-2017-movie/",
   "embeds": [
    {
@@ -342280,11 +342552,12 @@
     "url": "https://play.onestream.today/stream/page/46131"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/oEc10eVZ1zqd6aXDRae8NipsZQi.jpg",
+  "rating": 5.1,
+  "tmdbId": 420055,
+  "imdbId": "tt6735034",
   "addedAt": "2026-11-27T12:02:23.592Z",
+  "updatedAt": "2026-11-27T15:22:26.270Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/anbanavan-asaradhavan-adangadhavan-2017-movie/",
@@ -342293,12 +342566,16 @@
    "sourceYear": 2017,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aranmanai-2-2016",
   "title": "Aranmanai 2",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aranmanai-2-2016-tamil-movie/",
   "embeds": [
    {
@@ -342310,11 +342587,12 @@
     "url": "https://play.onestream.today/stream/page/46020"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aranmanai-2-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/msZvK0AQ2NsZrz4NF0NXDj9Mfyh.jpg",
+  "rating": 4.4,
+  "tmdbId": 367842,
+  "imdbId": "tt5389922",
   "addedAt": "2026-11-27T12:02:32.031Z",
+  "updatedAt": "2026-11-27T15:22:26.270Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aranmanai-2-2016-tamil-movie/",
@@ -342330,12 +342608,16 @@
     "Trisha Krishnan",
     "Hansika Motwani"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "amma-kanakku-2016",
   "title": "Amma Kanakku",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/amma-kanakku-2016-tamil-movie/",
   "embeds": [
    {
@@ -342347,11 +342629,12 @@
     "url": "https://play.onestream.today/stream/page/45841"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/amma-kanakku-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/bEgePjeQ1QViDESDjJSwHYcjJmI.jpg",
+  "rating": 5.9,
+  "tmdbId": 391105,
+  "imdbId": "tt5832922",
   "addedAt": "2026-11-27T12:02:40.263Z",
+  "updatedAt": "2026-11-27T15:22:25.407Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/amma-kanakku-2016-tamil-movie/",
@@ -342367,7 +342650,8 @@
     "Revathy",
     "Samuthirakani"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aasal-2010",
@@ -342417,6 +342701,9 @@
   "id": "aaranya-kaandam-2010",
   "title": "Aaranya Kaandam",
   "year": 2010,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aaranya-kaandam-2010-movie/",
   "embeds": [
    {
@@ -342428,11 +342715,12 @@
     "url": "https://play.onestream.today/stream/page/42376"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aaranya-kaandam-2010.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zZRzn7DXOLANE4hTUv4ziU7O6Zz.jpg",
+  "rating": 7.5,
+  "tmdbId": 119123,
+  "imdbId": "tt1496729",
   "addedAt": "2026-11-27T12:03:01.210Z",
+  "updatedAt": "2026-11-27T15:22:25.407Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aaranya-kaandam-2010-movie/",
@@ -342447,12 +342735,16 @@
     "Jackie Shroff",
     "Ravi Krishna"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "attagasam-2004",
   "title": "Attagasam",
   "year": 2004,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/attagasam-2004-movie/",
   "embeds": [
    {
@@ -342472,11 +342764,12 @@
     "url": "https://play.onestream.today/stream/page/42177"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/attagasam-2004.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/yrG9GWyTz2EYXko1leZSEqNnZdf.jpg",
+  "rating": 5.5,
+  "tmdbId": 69394,
+  "imdbId": "tt0881894",
   "addedAt": "2026-11-27T12:03:14.058Z",
+  "updatedAt": "2026-11-27T15:22:24.892Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/attagasam-2004-movie/",
@@ -342491,12 +342784,16 @@
     "Pooja Umashankar",
     "Sujatha"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aval-varuvala-1998",
   "title": "Aval Varuvala",
   "year": 1998,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aval-varuvala-1998-movie/",
   "embeds": [
    {
@@ -342516,11 +342813,12 @@
     "url": "https://play.onestream.today/stream/page/42090"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/aval-varuvala-1998.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/hnWe6pUwxIT8FxLrxoCivxXvJSt.jpg",
+  "rating": 6,
+  "tmdbId": 78676,
+  "imdbId": "tt5544452",
   "addedAt": "2026-11-27T12:03:26.567Z",
+  "updatedAt": "2026-11-27T15:22:24.892Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aval-varuvala-1998-movie/",
@@ -342535,12 +342833,16 @@
     "Simran",
     "Sujatha"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "azhagiya-tamizh-magan-2007",
   "title": "Azhagiya Tamizh Magan",
   "year": 2007,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/azhagiya-tamizh-magan-2007-movie/",
   "embeds": [
    {
@@ -342560,11 +342862,12 @@
     "url": "https://play.onestream.today/stream/page/42021"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/mft5HEwgoUz9Ve393y0ruXlV6Pc.jpg",
+  "rating": 5.4,
+  "tmdbId": 63636,
+  "imdbId": "tt0959285",
   "addedAt": "2026-11-27T12:03:38.990Z",
+  "updatedAt": "2026-11-27T15:22:24.892Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/azhagiya-tamizh-magan-2007-movie/",
@@ -342573,12 +342876,16 @@
    "sourceYear": 2007,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aadukalam-2011",
   "title": "Aadukalam",
   "year": 2011,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aadukalam-2011-movie/",
   "embeds": [
    {
@@ -342590,11 +342897,12 @@
     "url": "https://play.onestream.today/stream/page/41820"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/osU8Egxu2xhS6RwkxDbfOMYjZZ2.jpg",
+  "rating": 7.7,
+  "tmdbId": 68016,
+  "imdbId": "tt1821317",
   "addedAt": "2026-11-27T12:03:47.168Z",
+  "updatedAt": "2026-11-27T15:22:24.621Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aadukalam-2011-movie/",
@@ -342603,12 +342911,16 @@
    "sourceYear": 2011,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "annakodi-2013",
   "title": "Annakodi",
   "year": 2013,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/annakodi-2013-movie/",
   "embeds": [
    {
@@ -342628,11 +342940,12 @@
     "url": "https://play.onestream.today/stream/page/41077"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9ydbJcDVRptjDUVp8bkzBopoB3g.jpg",
+  "rating": 4,
+  "tmdbId": 203842,
+  "imdbId": "tt4312710",
   "addedAt": "2026-11-27T12:04:00.072Z",
+  "updatedAt": "2026-11-27T15:22:24.621Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/annakodi-2013-movie/",
@@ -342641,12 +342954,16 @@
    "sourceYear": 2013,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "attakathi-2012",
   "title": "Attakathi",
   "year": 2012,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/attakathi-2012-movie/",
   "embeds": [
    {
@@ -342674,12 +342991,12 @@
     "url": "https://play.onestream.today/stream/page/36532"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/gajS907XBZjbRAGMSSdX69YcM21.jpg",
+  "rating": 6.8,
+  "tmdbId": 129848,
+  "imdbId": "tt2845796",
   "addedAt": "2026-11-27T12:04:20.901Z",
-  "updatedAt": "2026-11-27T12:05:38.810Z",
+  "updatedAt": "2026-11-27T15:22:24.621Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/attakathi-2012-tamil-movie/",
@@ -342688,12 +343005,16 @@
    "sourceYear": 2012,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aarohanam-2012",
   "title": "Aarohanam",
   "year": 2012,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aarohanam-2012-movie/",
   "embeds": [
    {
@@ -342713,11 +343034,12 @@
     "url": "https://play.onestream.today/stream/page/40972"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/uaKvV08BKbJVEcBV5fuVJ8M6eEd.jpg",
+  "rating": 8.5,
+  "tmdbId": 146853,
+  "imdbId": "tt2387224",
   "addedAt": "2026-11-27T12:04:33.542Z",
+  "updatedAt": "2026-11-27T15:22:23.091Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aarohanam-2012-movie/",
@@ -342726,12 +343048,16 @@
    "sourceYear": 2012,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "all-in-all-azhagu-raja-2013",
   "title": "All in All Azhagu Raja",
   "year": 2013,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/all-in-all-azhagu-raja-2013-movie/",
   "embeds": [
    {
@@ -342743,11 +343069,12 @@
     "url": "https://play.onestream.today/stream/page/40913"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/gtQfcMghGPr3ptEXDbwgbMwdI3T.jpg",
+  "rating": 3.7,
+  "tmdbId": 233015,
+  "imdbId": "tt3253476",
   "addedAt": "2026-11-27T12:04:41.777Z",
+  "updatedAt": "2026-11-27T15:22:23.091Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/all-in-all-azhagu-raja-2013-movie/",
@@ -342756,12 +343083,16 @@
    "sourceYear": 2013,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "ayan-2009",
   "title": "Ayan",
   "year": 2009,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/ayan-2009-movie/",
   "embeds": [
    {
@@ -342781,11 +343112,12 @@
     "url": "https://play.onestream.today/stream/page/40880"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/49UwEe5U1GuRC6W7difviwCgde2.jpg",
+  "rating": 7,
+  "tmdbId": 20049,
+  "imdbId": "tt1355546",
   "addedAt": "2026-11-27T12:04:54.220Z",
+  "updatedAt": "2026-11-27T15:22:23.091Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/ayan-2009-movie/",
@@ -342794,7 +343126,8 @@
    "sourceYear": 2009,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "alex-pandian-2014",
@@ -342838,6 +343171,9 @@
   "id": "angali-pangali-2016",
   "title": "Angali Pangali",
   "year": 2016,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/angali-pangali-2016-tamil-movie/",
   "embeds": [
    {
@@ -342857,11 +343193,12 @@
     "url": "https://play.onestream.today/stream/page/24211"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/o7JgufQ8BbsNu7u0RHlfrTQcYTd.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 402772,
   "imdbId": "",
   "addedAt": "2026-11-27T12:05:52.506Z",
+  "updatedAt": "2026-11-27T15:22:22.855Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/angali-pangali-2016-tamil-movie/",
@@ -342870,7 +343207,8 @@
    "sourceYear": 2016,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "aaya-sutta-vada-2015",
@@ -342914,6 +343252,9 @@
   "id": "aaranyam-2015",
   "title": "Aaranyam",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/aaranyam-tamil-movie-moviesda/",
   "embeds": [
    {
@@ -342934,10 +343275,11 @@
    }
   ],
   "poster": "https://moviesda.ski/uploads/posters/aaranyam-2015-dvdscr.jpg",
-  "rating": 0,
-  "tmdbId": 0,
+  "rating": 1.2,
+  "tmdbId": 368251,
   "imdbId": "",
   "addedAt": "2026-11-27T12:06:13.212Z",
+  "updatedAt": "2026-11-27T15:22:21.713Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/aaranyam-tamil-movie-moviesda/",
@@ -342950,12 +343292,16 @@
    "cast": [
     "S.R.Ram"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "athibar-2015",
   "title": "Athibar",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/athibar-2015-tamil-movie/",
   "embeds": [
    {
@@ -342976,10 +343322,11 @@
    }
   ],
   "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "rating": 3.7,
+  "tmdbId": 356517,
+  "imdbId": "tt4991828",
   "addedAt": "2026-11-27T12:06:25.323Z",
+  "updatedAt": "2026-11-27T15:22:21.713Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/athibar-2015-tamil-movie/",
@@ -342988,12 +343335,16 @@
    "sourceYear": 2015,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhuvana-vijayam-2023",
   "title": "Bhuvana Vijayam",
   "year": 2023,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bhuvana-vijayam-2023-tamil-movie/",
   "embeds": [
    {
@@ -343001,11 +343352,12 @@
     "url": "https://play.onestream.today/stream/page/83820"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bhuvana-vijayam-2023.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/u07Zm4uGED4znLwrkfrFS2zBXB5.jpg",
+  "rating": 2,
+  "tmdbId": 1092386,
+  "imdbId": "tt27129423",
   "addedAt": "2026-11-27T12:06:41.426Z",
+  "updatedAt": "2026-11-27T15:22:21.713Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhuvana-vijayam-2023-tamil-movie/",
@@ -343020,7 +343372,8 @@
     "Harsha Chemudu",
     "Soniya Chowdary"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "buy-1-get-1-free-2024",
@@ -343056,6 +343409,9 @@
   "id": "beiimaan-love-2016",
   "title": "Beiimaan Love",
   "year": 2016,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/beiimaan-love-2016-tamil-movie/",
   "embeds": [
    {
@@ -343063,11 +343419,12 @@
     "url": "https://play.onestream.today/stream/page/75331"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/beiimaan-love-2016.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/xgNAJbjfaQE9mp8ffGY1TSot13G.jpg",
+  "rating": 2.6,
+  "tmdbId": 407547,
+  "imdbId": "tt5227468",
   "addedAt": "2026-11-27T12:06:58.409Z",
+  "updatedAt": "2026-11-27T15:22:21.473Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/beiimaan-love-2016-tamil-movie/",
@@ -343082,12 +343439,16 @@
     "Rajneesh Duggal",
     "Daniel Weber"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhonsle-2021",
   "title": "Bhonsle",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bhonsle-2021-movie/",
   "embeds": [
    {
@@ -343099,11 +343460,12 @@
     "url": "https://play.onestream.today/stream/page/70976"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bhonsle-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/JUzAT1Bgb8K1DQMXU2ENoTajxV.jpg",
+  "rating": 6.4,
+  "tmdbId": 554826,
+  "imdbId": "tt8476998",
   "addedAt": "2026-11-27T12:07:41.162Z",
+  "updatedAt": "2026-11-27T15:22:21.473Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhonsle-2021-movie/",
@@ -343118,7 +343480,8 @@
     "Santosh Juvekar",
     "Ipshita Chakraborty Singh"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bro-2021",
@@ -343212,6 +343575,9 @@
   "id": "bannerghatta-2021",
   "title": "Bannerghatta",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "ml",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bannerghatta-2021-movie/",
   "embeds": [
    {
@@ -343223,11 +343589,12 @@
     "url": "https://play.onestream.today/stream/page/70717"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/tIxgBzSJp13KOTpQqY7La6S3Tdp.jpg",
+  "rating": 4.5,
+  "tmdbId": 853960,
+  "imdbId": "tt14142640",
   "addedAt": "2026-11-27T12:08:26.382Z",
+  "updatedAt": "2026-11-27T15:22:15.912Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bannerghatta-2021-movie/",
@@ -343236,12 +343603,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "boomika-2021",
   "title": "Boomika",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/boomika-2021-movie/",
   "embeds": [
    {
@@ -343253,11 +343624,12 @@
     "url": "https://play.onestream.today/stream/page/69841"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/boomika-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7zEPGa7pgnD1AQBH4yw50v2Mtzu.jpg",
+  "rating": 5.1,
+  "tmdbId": 861818,
+  "imdbId": "tt11073148",
   "addedAt": "2026-11-27T12:08:38.868Z",
+  "updatedAt": "2026-11-27T15:22:15.912Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/boomika-2021-movie/",
@@ -343271,12 +343643,16 @@
     "Aishwarya Rajesh",
     "Avantika"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhuj-the-pride-of-india-2021",
   "title": "Bhuj - The Pride Of India",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bhuj-the-pride-of-india-2021-movie/",
   "embeds": [
    {
@@ -343284,11 +343660,12 @@
     "url": "https://play.onestream.today/stream/page/69811"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bhuj-the-pride-of-india-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zc0OzUOF8B4x4AH4bubxw0mHCnF.jpg",
+  "rating": 5.3,
+  "tmdbId": 590397,
+  "imdbId": "tt10062556",
   "addedAt": "2026-11-27T12:08:48.916Z",
+  "updatedAt": "2026-11-27T15:22:15.912Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhuj-the-pride-of-india-2021-movie/",
@@ -343303,7 +343680,8 @@
     "Ajay Devgn",
     "Nora Fatehi"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhale-khilladi-2021",
@@ -343346,6 +343724,9 @@
   "id": "biya-2020",
   "title": "Biya",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/biya-2020-movie/",
   "embeds": [
    {
@@ -343357,11 +343738,12 @@
     "url": "https://play.onestream.today/stream/page/67762"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/4IS2gdRLlaWBrFuyly4TXgGNTHV.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 810233,
+  "imdbId": "tt13609696",
   "addedAt": "2026-11-27T12:09:13.669Z",
+  "updatedAt": "2026-11-27T15:22:15.615Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/biya-2020-movie/",
@@ -343370,7 +343752,8 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "boom-boom-kaalai-2021",
@@ -343436,6 +343819,9 @@
   "id": "bheeshma-2020",
   "title": "Bheeshma",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bheeshma-2020-movie/",
   "embeds": [
    {
@@ -343447,11 +343833,12 @@
     "url": "https://play.onestream.today/stream/page/66883"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bheeshma-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/5E5BzNyjl9rIG8xaB5h9I7KsZdS.jpg",
+  "rating": 6,
+  "tmdbId": 674779,
+  "imdbId": "tt11199356",
   "addedAt": "2026-11-27T12:10:03.738Z",
+  "updatedAt": "2026-11-27T15:22:14.357Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bheeshma-2020-movie/",
@@ -343467,12 +343854,16 @@
     "Ajay",
     "Darbha Appaji Ambarisha"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhoomi-2021",
   "title": "Bhoomi",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bhoomi-2021-movie/",
   "embeds": [
    {
@@ -343484,11 +343875,12 @@
     "url": "https://play.onestream.today/stream/page/66511"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bhoomi-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7nyzGexU2ftCySiwRKqNIJ3CdIJ.jpg",
+  "rating": 4.5,
+  "tmdbId": 644468,
+  "imdbId": "tt10893170",
   "addedAt": "2026-11-27T12:10:18.477Z",
+  "updatedAt": "2026-11-27T15:22:14.357Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhoomi-2021-movie/",
@@ -343503,12 +343895,16 @@
     "Jayam Ravi",
     "Sathish"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "biskoth-2020",
   "title": "Biskoth",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/biskoth-2020-movie/",
   "embeds": [
    {
@@ -343520,11 +343916,12 @@
     "url": "https://play.onestream.today/stream/page/65666"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/biskoth-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/8QZ8G9kcc0Vrdi0tee59FZrdIyB.jpg",
+  "rating": 4.7,
+  "tmdbId": 764135,
+  "imdbId": "tt11772576",
   "addedAt": "2026-11-27T12:10:32.766Z",
+  "updatedAt": "2026-11-27T15:22:14.005Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/biskoth-2020-movie/",
@@ -343540,7 +343937,8 @@
     "Swathi Muppala",
     "Aadukalam Naren"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "breathe-into-the-shadow-2020",
@@ -343612,6 +344010,9 @@
   "id": "bagavathi-2002",
   "title": "Bagavathi",
   "year": 2002,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bagavathi-2002-movie/",
   "embeds": [
    {
@@ -343619,11 +344020,12 @@
     "url": "https://play.onestream.today/stream/page/63323"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/2YQPo7auhlviwYHxkgresGCVgSm.jpg",
+  "rating": 5.5,
+  "tmdbId": 69648,
+  "imdbId": "tt2325539",
   "addedAt": "2026-11-27T12:11:13.320Z",
+  "updatedAt": "2026-11-27T15:22:13.024Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bagavathi-2002-movie/",
@@ -343632,12 +344034,16 @@
    "sourceYear": 2002,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "baana-kaathadi-2010",
   "title": "Baana Kaathadi",
   "year": 2010,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/baana-kaathadi-2010-movie/",
   "embeds": [
    {
@@ -343645,11 +344051,12 @@
     "url": "https://play.onestream.today/stream/page/55625"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/baana-kaathadi-2010.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7sRAChIvlYvXFn53vVIKutqN68N.jpg",
+  "rating": 5.3,
+  "tmdbId": 55795,
+  "imdbId": "tt1507255",
   "addedAt": "2026-11-27T12:11:19.214Z",
+  "updatedAt": "2026-11-27T15:22:13.024Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/baana-kaathadi-2010-movie/",
@@ -343665,7 +344072,8 @@
     "Samantha Ruth Prabhu",
     "Karunas"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bodha-2018",
@@ -343706,6 +344114,9 @@
   "id": "bharat-ennum-naan-2018",
   "title": "Bharat Ennum Naan",
   "year": 2018,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bharat-ennum-naan-2018-movie/",
   "embeds": [
    {
@@ -343717,11 +344128,12 @@
     "url": "https://play.onestream.today/stream/page/54439"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bharat-ennum-naan-2018.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/a0hFV8G0ofyPgPEjVcYrueuxFex.jpg",
+  "rating": 6.395,
+  "tmdbId": 501987,
+  "imdbId": "tt6980546",
   "addedAt": "2026-11-27T12:11:47.994Z",
+  "updatedAt": "2026-11-27T15:22:11.788Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bharat-ennum-naan-2018-movie/",
@@ -343737,12 +344149,16 @@
     "Prakash Raj",
     "Yashpal Sharma"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bogan-2017",
   "title": "Bogan",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bogan-2017-movie/",
   "embeds": [
    {
@@ -343754,11 +344170,12 @@
     "url": "https://play.onestream.today/stream/page/51113"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bogan-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/myj2yLj5yEoRipdfohp9BsAxu6P.jpg",
+  "rating": 6.3,
+  "tmdbId": 408921,
+  "imdbId": "tt6340112",
   "addedAt": "2026-11-27T12:12:04.561Z",
+  "updatedAt": "2026-11-27T15:22:11.788Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bogan-2017-movie/",
@@ -343773,12 +344190,16 @@
     "Jeyam Ravi",
     "Arvind Swamy"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bairavaa-2017",
   "title": "Bairavaa",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bairavaa-2017-movie/",
   "embeds": [
    {
@@ -343790,11 +344211,12 @@
     "url": "https://play.onestream.today/stream/page/50955"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bairavaa-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9vxhFZ7z1L1N1IOaEhygBVJyY4c.jpg",
+  "rating": 5.5,
+  "tmdbId": 411717,
+  "imdbId": "tt6201292",
   "addedAt": "2026-11-27T12:12:12.861Z",
+  "updatedAt": "2026-11-27T15:22:11.788Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bairavaa-2017-movie/",
@@ -343810,12 +344232,16 @@
     "Jagapathi Babu",
     "Daniel Balaji"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bhakta-prahlada-1967",
   "title": "Bhakta Prahlada",
   "year": 1967,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bhakta-prahlada-1967-movie/",
   "embeds": [
    {
@@ -343827,11 +344253,12 @@
     "url": "https://play.onestream.today/stream/page/50906"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bhakta-prahlada-1967.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ieHCmDUnifAP6UjREmbDKtJzXGP.jpg",
+  "rating": 7,
+  "tmdbId": 300736,
+  "imdbId": "tt0247203",
   "addedAt": "2026-11-27T12:12:21.352Z",
+  "updatedAt": "2026-11-27T15:22:11.534Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bhakta-prahlada-1967-movie/",
@@ -343847,12 +344274,16 @@
     "Anjali Devi",
     "Haranath"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bayama-irukku-2017",
   "title": "Bayama Irukku",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bayama-irukku-2017-movie/",
   "embeds": [
    {
@@ -343864,11 +344295,12 @@
     "url": "https://play.onestream.today/stream/page/50696"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bayama-irukku-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ke4HtXlUlCw0F6b1j1q1G1qHDZh.jpg",
+  "rating": 6.5,
+  "tmdbId": 477440,
+  "imdbId": "tt7041630",
   "addedAt": "2026-11-27T12:12:29.522Z",
+  "updatedAt": "2026-11-27T15:22:11.534Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bayama-irukku-2017-movie/",
@@ -343882,7 +344314,8 @@
     "Rajendran",
     "Kovai Sarala"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bengal-tiger-2017",
@@ -343918,6 +344351,9 @@
   "id": "boologam-2015",
   "title": "Boologam",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/boologam-2015-tamil-movie/",
   "embeds": [
    {
@@ -343929,11 +344365,12 @@
     "url": "https://play.onestream.today/stream/page/47050"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/boologam-2015.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/uq9SGIoD5MVHkhdYTmf63jI1ndg.jpg",
+  "rating": 5.8,
+  "tmdbId": 280877,
+  "imdbId": "tt3557988",
   "addedAt": "2026-11-27T12:12:47.616Z",
+  "updatedAt": "2026-11-27T15:22:10.505Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/boologam-2015-tamil-movie/",
@@ -343949,12 +344386,16 @@
     "Prakash Raj",
     "Nathan Jones"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "brindavanam-2017",
   "title": "Brindavanam",
   "year": 2017,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/brindavanam-2017-movie/",
   "embeds": [
    {
@@ -343966,11 +344407,12 @@
     "url": "https://play.onestream.today/stream/page/52231"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/brindavanam-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/rHeHwMz1YeNHPvRUNsuRnnVKVFd.jpg",
+  "rating": 7,
+  "tmdbId": 413042,
+  "imdbId": "tt6760704",
   "addedAt": "2026-11-27T12:12:55.961Z",
+  "updatedAt": "2026-11-27T15:22:10.505Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/brindavanam-2017-movie/",
@@ -343986,12 +344428,16 @@
     "Tanya",
     "Vivek"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "baahubali-2-2017",
   "title": "Baahubali 2",
   "year": 2017,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/baahubali-2-2017-movie/",
   "embeds": [
    {
@@ -344003,11 +344449,12 @@
     "url": "https://play.onestream.today/stream/page/47167"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/baahubali-2-2017.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
+  "rating": 7.499,
+  "tmdbId": 350312,
+  "imdbId": "tt4849438",
   "addedAt": "2026-11-27T12:13:06.369Z",
+  "updatedAt": "2026-11-27T15:22:10.505Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/baahubali-2-2017-movie/",
@@ -344023,12 +344470,16 @@
     "Anushka Shetty",
     "Tamannaah Bhatia"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "bramman-2014",
   "title": "Bramman",
   "year": 2014,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bramman-2014-movie/",
   "embeds": [
    {
@@ -344040,11 +344491,12 @@
     "url": "https://play.onestream.today/stream/page/40771"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/bramman-2014.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/zlKna8jw1I6PDRlIO5HVJ4NEm0j.jpg",
+  "rating": 4.2,
+  "tmdbId": 259277,
+  "imdbId": "tt3553516",
   "addedAt": "2026-11-27T12:13:14.802Z",
+  "updatedAt": "2026-11-27T15:22:09.678Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bramman-2014-movie/",
@@ -344060,12 +344512,16 @@
     "Naveen Chandra",
     "Santhanam"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "biriyani-2013",
   "title": "Biriyani",
   "year": 2013,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/biriyani-2013-movie/",
   "embeds": [
    {
@@ -344085,11 +344541,12 @@
     "url": "https://play.onestream.today/stream/page/40750"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/3rQDyj9lAoHKRhJYhb0L2rt3Qun.jpg",
+  "rating": 4.9,
+  "tmdbId": 191741,
+  "imdbId": "tt2638104",
   "addedAt": "2026-11-27T12:13:27.486Z",
+  "updatedAt": "2026-11-27T15:22:09.678Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/biriyani-2013-movie/",
@@ -344098,12 +344555,16 @@
    "sourceYear": 2013,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "billa-2-2012",
   "title": "Billa 2",
   "year": 2012,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/billa-2-2012-movie/",
   "embeds": [
    {
@@ -344123,11 +344584,12 @@
     "url": "https://play.onestream.today/stream/page/40692"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/gADzX6C4pGHneBoU148LXFMDyMr.jpg",
+  "rating": 5.8,
+  "tmdbId": 116185,
+  "imdbId": "tt1891755",
   "addedAt": "2026-11-27T12:13:40.301Z",
+  "updatedAt": "2026-11-27T15:22:09.678Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/billa-2-2012-movie/",
@@ -344136,7 +344598,8 @@
    "sourceYear": 2012,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "balle-vellaiya-thevaa-2016",
@@ -344197,6 +344660,9 @@
   "id": "bayam-oru-payanam-2016",
   "title": "Bayam Oru Payanam",
   "year": 2016,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/bayam-oru-payanam-2016-tamil-movie/",
   "embeds": [
    {
@@ -344217,10 +344683,11 @@
    }
   ],
   "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "rating": 3.5,
+  "tmdbId": 412171,
+  "imdbId": "tt6001856",
   "addedAt": "2026-11-27T12:14:38.731Z",
+  "updatedAt": "2026-11-27T15:22:09.452Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/bayam-oru-payanam-2016-tamil-movie/",
@@ -344229,7 +344696,8 @@
    "sourceYear": 2016,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "criminal-justice-2-2022",
@@ -344297,6 +344765,9 @@
   "id": "chithirai-sevvaanam-2021",
   "title": "Chithirai Sevvaanam",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chithirai-sevvaanam-2021-movie/",
   "embeds": [
    {
@@ -344308,11 +344779,12 @@
     "url": "https://play.onestream.today/stream/page/71019"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chithirai-sevvaanam-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/iNHZmpAoyMgxMYHfT6Uq8ZLtwSo.jpg",
+  "rating": 6,
+  "tmdbId": 901254,
+  "imdbId": "tt16211502",
   "addedAt": "2026-11-27T12:15:54.046Z",
+  "updatedAt": "2026-11-27T15:22:07.808Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chithirai-sevvaanam-2021-movie/",
@@ -344327,7 +344799,8 @@
     "Pooja Kannan",
     "Samuthirakani"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chellama-chellama-2021",
@@ -344363,6 +344836,9 @@
   "id": "chinnanjiru-kiliye-2021",
   "title": "Chinnanjiru Kiliye",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chinnanjiru-kiliye-2021-movie/",
   "embeds": [
    {
@@ -344374,11 +344850,12 @@
     "url": "https://play.onestream.today/stream/page/70214"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/el2JRsc7cCLzH6mjNETkslRAqVa.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 877857,
+  "imdbId": "tt15333960",
   "addedAt": "2026-11-27T12:16:18.904Z",
+  "updatedAt": "2026-11-27T15:22:01.587Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chinnanjiru-kiliye-2021-movie/",
@@ -344387,7 +344864,8 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "cinderella-2021",
@@ -344491,6 +344969,9 @@
   "id": "chasing-2021",
   "title": "Chasing",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chasing-2021-movie/",
   "embeds": [
    {
@@ -344502,11 +344983,12 @@
     "url": "https://play.onestream.today/stream/page/68201"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chasing-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/7lVh2KVKkPtjJC2NoNOvgLT7SQK.jpg",
+  "rating": 9,
+  "tmdbId": 658032,
+  "imdbId": "tt11492920",
   "addedAt": "2026-11-27T12:18:42.633Z",
+  "updatedAt": "2026-11-27T15:21:54.261Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chasing-2021-movie/",
@@ -344522,12 +345004,16 @@
     "Varalaxmi Sarathkumar",
     "Bala Saravanan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "cashback-2021",
   "title": "Cashback",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "en",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/cashback-2021-movie/",
   "embeds": [
    {
@@ -344539,11 +345025,12 @@
     "url": "https://play.onestream.today/stream/page/67753"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/bbQTNdEYEl35gDGpZm4VP3YC0Z8.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 959115,
+  "imdbId": "tt13997898",
   "addedAt": "2026-11-27T12:18:55.227Z",
+  "updatedAt": "2026-11-27T15:21:54.261Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/cashback-2021-movie/",
@@ -344552,12 +345039,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chiyangal-2020",
   "title": "Chiyangal",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chiyangal-2020-movie/",
   "embeds": [
    {
@@ -344577,12 +345068,12 @@
     "url": "https://play.onestream.today/stream/page/66263"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/fhCanOqhTFrWJaSQmOD5piVSBqd.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 597501,
+  "imdbId": "tt13633416",
   "addedAt": "2026-11-27T12:19:07.573Z",
-  "updatedAt": "2026-11-27T12:20:35.731Z",
+  "updatedAt": "2026-11-27T15:21:52.722Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chiyangal-tamil-movie-moviesda/",
@@ -344591,7 +345082,8 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "centha-2021",
@@ -344627,6 +345119,9 @@
   "id": "calls-2021",
   "title": "Calls",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/calls-2021-movie/",
   "embeds": [
    {
@@ -344638,11 +345133,12 @@
     "url": "https://play.onestream.today/stream/page/67861"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/calls-2021.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/wY7VdBURwxx2QLa4RsrUZqUsC9T.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 800770,
+  "imdbId": "tt13967988",
   "addedAt": "2026-11-27T12:19:33.224Z",
+  "updatedAt": "2026-11-27T15:21:52.722Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/calls-2021-movie/",
@@ -344657,12 +345153,16 @@
     "Delhi Ganesh",
     "Nizhalgal Ravi"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chakra-2021",
   "title": "Chakra",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chakra-2021-movie/",
   "embeds": [
    {
@@ -344674,11 +345174,12 @@
     "url": "https://play.onestream.today/stream/page/67805"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chakra-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/chWoeENAozUMfn3dfIruo6pDOiy.jpg",
+  "rating": 5.8,
+  "tmdbId": 718814,
+  "imdbId": "tt11640022",
   "addedAt": "2026-11-27T12:19:45.582Z",
+  "updatedAt": "2026-11-27T15:21:51.013Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chakra-2021-movie/",
@@ -344694,7 +345195,8 @@
     "Manobala",
     "Robo Shankar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "coffee-cafe-2021",
@@ -344730,6 +345232,9 @@
   "id": "care-of-kaadhal-2021",
   "title": "Care Of Kaadhal",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/care-of-kaadhal-2021-movie/",
   "embeds": [
    {
@@ -344741,11 +345246,12 @@
     "url": "https://play.onestream.today/stream/page/67674"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/cc6Lk8nuAxyoJhE1hvhzTdbKs2r.jpg",
+  "rating": 6,
+  "tmdbId": 796104,
+  "imdbId": "tt11803618",
   "addedAt": "2026-11-27T12:20:10.136Z",
+  "updatedAt": "2026-11-27T15:21:51.013Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/care-of-kaadhal-2021-movie/",
@@ -344754,12 +345260,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chidambaram-railwaygate-2021",
   "title": "Chidambaram Railwaygate",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chidambaram-railwaygate-2021-movie/",
   "embeds": [
    {
@@ -344771,11 +345281,12 @@
     "url": "https://play.onestream.today/stream/page/66958"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/8Srb3hzJ7lIVmELn78oMq7wdfxM.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 804580,
+  "imdbId": "tt13829060",
   "addedAt": "2026-11-27T12:20:22.631Z",
+  "updatedAt": "2026-11-27T15:21:49.479Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chidambaram-railwaygate-2021-movie/",
@@ -344784,12 +345295,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chitralahari-2019",
   "title": "Chitralahari",
   "year": 2019,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chitralahari-2019-movie/",
   "embeds": [
    {
@@ -344801,11 +345316,12 @@
     "url": "https://play.onestream.today/stream/page/65104"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chitralahari-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/kEHLIp2wOmHGRKCS26JKKClbGNH.jpg",
+  "rating": 7,
+  "tmdbId": 590012,
+  "imdbId": "tt9165332",
   "addedAt": "2026-11-27T12:20:48.252Z",
+  "updatedAt": "2026-11-27T15:21:49.479Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chitralahari-2019-movie/",
@@ -344821,12 +345337,16 @@
     "Sai Dharam Tej",
     "Kalyani Priyadarshan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "class-of-83-2020",
   "title": "Class of 83",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/class-of-83-2020-movie/",
   "embeds": [
    {
@@ -344838,11 +345358,12 @@
     "url": "https://play.onestream.today/stream/page/64989"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/exlQEMxbolmsCE4D5Ky6u4onnvC.jpg",
+  "rating": 5.9,
+  "tmdbId": 730428,
+  "imdbId": "tt10230422",
   "addedAt": "2026-11-27T12:21:00.689Z",
+  "updatedAt": "2026-11-27T15:21:49.479Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/class-of-83-2020-movie/",
@@ -344851,12 +345372,16 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "cocktail-2020",
   "title": "Cocktail",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/cocktail-2020-movie/",
   "embeds": [
    {
@@ -344868,11 +345393,12 @@
     "url": "https://play.onestream.today/stream/page/64729"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/cocktail-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/h3GyIt14dF7BczTNxJdEMggg37P.jpg",
+  "rating": 4,
+  "tmdbId": 723152,
+  "imdbId": "tt11731926",
   "addedAt": "2026-11-27T12:21:13.814Z",
+  "updatedAt": "2026-11-27T15:21:49.202Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/cocktail-2020-movie/",
@@ -344886,12 +345412,16 @@
     "Yogi Babu",
     "Reshmi Gopinath"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chennai-palani-mars-2019",
   "title": "Chennai Palani Mars",
   "year": 2019,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chennai-palani-mars-2019-movie/",
   "embeds": [
    {
@@ -344903,11 +345433,12 @@
     "url": "https://play.onestream.today/stream/page/64474"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chennai-palani-mars-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/1zl4n4BLcpplr6INnROk0lEkLHt.jpg",
+  "rating": 2,
+  "tmdbId": 618880,
+  "imdbId": "tt9795174",
   "addedAt": "2026-11-27T12:21:29.893Z",
+  "updatedAt": "2026-11-27T15:21:49.202Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chennai-palani-mars-2019-movie/",
@@ -344923,12 +345454,16 @@
     "Vasant Marimuthu",
     "A. Ravikumar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "college-kumar-2020",
   "title": "College Kumar",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/college-kumar-2020-movie/",
   "embeds": [
    {
@@ -344940,11 +345475,12 @@
     "url": "https://play.onestream.today/stream/page/63920"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/college-kumar-2020.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/t97JGFIgjTaexOYBIJAyuMLAxdD.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 680988,
+  "imdbId": "tt11859486",
   "addedAt": "2026-11-27T12:21:42.422Z",
+  "updatedAt": "2026-11-27T15:21:49.202Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/college-kumar-2020-movie/",
@@ -344960,7 +345496,8 @@
     "Priya Vadlamani",
     "Rahul Vijay"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chennaiyil-oru-naal-2-2017",
@@ -345039,6 +345576,9 @@
   "id": "chirutha-2007",
   "title": "Chirutha",
   "year": 2007,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chirutha-2007-movie/",
   "embeds": [
    {
@@ -345050,11 +345590,12 @@
     "url": "https://play.onestream.today/stream/page/51371"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chirutha-2007.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/d5ga2t4SAwrJilEARDpeXbmjosY.jpg",
+  "rating": 5.097,
+  "tmdbId": 84504,
+  "imdbId": "tt1105721",
   "addedAt": "2026-11-27T12:22:07.374Z",
+  "updatedAt": "2026-11-27T15:21:47.441Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chirutha-2007-movie/",
@@ -345070,7 +345611,8 @@
     "Ashish Vidyarthi",
     "Dharmavarapu Subramanyam"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chikkiku-chikkikichu-2015",
@@ -345106,6 +345648,9 @@
   "id": "chandi-veeran-2015",
   "title": "Chandi Veeran",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chandi-veeran-2015-tamil-movie/",
   "embeds": [
    {
@@ -345117,11 +345662,12 @@
     "url": "https://play.onestream.today/stream/page/47060"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/chandi-veeran-2015.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/tZEaBVj7oNRkoMnJCA1OkqyY27N.jpg",
+  "rating": 5.2,
+  "tmdbId": 349198,
+  "imdbId": "tt4922678",
   "addedAt": "2026-11-27T12:22:24.225Z",
+  "updatedAt": "2026-11-27T15:21:46.916Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chandi-veeran-2015-tamil-movie/",
@@ -345137,7 +345683,8 @@
     "Lal",
     "Bose Venkat"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "chennaieil-oru-naal-2013",
@@ -345173,6 +345720,9 @@
   "id": "chennai-600028-2007",
   "title": "Chennai 600028",
   "year": 2007,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/chennai-600028-2007-movie/",
   "embeds": [
    {
@@ -345192,11 +345742,12 @@
     "url": "https://play.onestream.today/stream/page/40501"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/mQz0VCWp7yzZqs4lA8h8OEpJs2X.jpg",
+  "rating": 7.2,
+  "tmdbId": 76839,
+  "imdbId": "tt1496380",
   "addedAt": "2026-11-27T12:22:45.491Z",
+  "updatedAt": "2026-11-27T15:21:45.423Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/chennai-600028-2007-movie/",
@@ -345205,12 +345756,16 @@
    "sourceYear": 2007,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "demonte-colony-2015",
   "title": "Demonte Colony",
   "year": 2015,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/demonte-colony-2015-tamil-movie/",
   "embeds": [
    {
@@ -345230,12 +345785,12 @@
     "url": "https://play.onestream.today/stream/page/41579"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/demonte-colony-2015.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/4v0rLDCAV0CuZTAoeu8CDPBkksB.jpg",
+  "rating": 6.9,
+  "tmdbId": 341420,
+  "imdbId": "tt4701688",
   "addedAt": "2026-11-27T12:23:02.168Z",
-  "updatedAt": "2026-11-27T12:28:51.198Z",
+  "updatedAt": "2026-11-27T15:21:45.423Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/demonte-colony-2015-movie/",
@@ -345251,12 +345806,16 @@
     "Sananth Reddy",
     "M.S. Bhaskar"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dongalunnaru-jagratha-2022",
   "title": "Dongalunnaru Jagratha",
   "year": 2022,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dongalunnaru-jagratha-2022-tamil-movie/",
   "embeds": [
    {
@@ -345264,11 +345823,12 @@
     "url": "https://play.onestream.today/stream/page/76325"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dongalunnaru-jagratha-2022.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/g0YqbcgM14hRJPLdIfLXQjunyRk.jpg",
+  "rating": 4.7,
+  "tmdbId": 982447,
+  "imdbId": "tt15360418",
   "addedAt": "2026-11-27T12:23:08.225Z",
+  "updatedAt": "2026-11-27T15:21:45.423Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dongalunnaru-jagratha-2022-tamil-movie/",
@@ -345283,12 +345843,16 @@
     "Samuthirakani",
     "Sri Simha Koduri"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "drohi-2010",
   "title": "Drohi",
   "year": 2010,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/drohi-2010-movie/",
   "embeds": [
    {
@@ -345296,11 +345860,12 @@
     "url": "https://play.onestream.today/stream/page/73336"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/drohi-2010.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/9lAwx4eFopyycB2VWDWn1v04UBj.jpg",
+  "rating": 4,
+  "tmdbId": 78848,
+  "imdbId": "tt4318014",
   "addedAt": "2026-11-27T12:23:14.285Z",
+  "updatedAt": "2026-11-27T15:21:45.043Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/drohi-2010-movie/",
@@ -345315,12 +345880,16 @@
     "Tanikella Bharani",
     "S.P.B. Charan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dhamaka-2021",
   "title": "Dhamaka",
   "year": 2021,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "hi",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dhamaka-2021-movie/",
   "embeds": [
    {
@@ -345332,11 +345901,12 @@
     "url": "https://play.onestream.today/stream/page/70865"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dhamaka-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/vQxw5OYyMRJVjSvDnNFQv38qlg0.jpg",
+  "rating": 6.821,
+  "tmdbId": 767377,
+  "imdbId": "tt13510660",
   "addedAt": "2026-11-27T12:23:43.203Z",
+  "updatedAt": "2026-11-27T15:21:45.043Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhamaka-2021-movie/",
@@ -345351,12 +345921,16 @@
     "Vikas Kumar",
     "Vishwajeet Pradhan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "doctor-2021",
   "title": "Doctor",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/doctor-2021-movie/",
   "embeds": [
    {
@@ -345364,11 +345938,12 @@
     "url": "https://play.onestream.today/stream/page/73806"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/doctor-2021.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/ySPT0USsuDFG9pqHjI50GYOeQmj.jpg",
+  "rating": 6.3,
+  "tmdbId": 673692,
+  "imdbId": "tt11374902",
   "addedAt": "2026-11-27T12:23:55.905Z",
+  "updatedAt": "2026-11-27T15:21:45.043Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/doctor-2021-movie/",
@@ -345383,12 +345958,16 @@
     "Milind Soman",
     "Sivakarthikeyan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dikkiloona-2021",
   "title": "Dikkiloona",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dikkiloona-2021-movie/",
   "embeds": [
    {
@@ -345400,11 +345979,12 @@
     "url": "https://play.onestream.today/stream/page/70047"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/25oAuifiIWv9oQVoY0qdiTtxBsc.jpg",
+  "rating": 5.3,
+  "tmdbId": 865539,
+  "imdbId": "tt11143400",
   "addedAt": "2026-11-27T12:24:08.431Z",
+  "updatedAt": "2026-11-27T15:21:42.338Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dikkiloona-2021-movie/",
@@ -345413,12 +345993,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dhowlath-2020",
   "title": "Dhowlath",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dhowlath-2020-movie/",
   "embeds": [
    {
@@ -345438,12 +346022,12 @@
     "url": "https://play.onestream.today/stream/page/65714"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dhowlath-2020.jpg",
+  "poster": "https://image.tmdb.org/t/p/w500/oeDfsL5d4qg0wviZhxsw2tQEkP6.jpg",
   "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "tmdbId": 770996,
+  "imdbId": "tt13534770",
   "addedAt": "2026-11-27T12:24:20.857Z",
-  "updatedAt": "2026-11-27T12:25:23.068Z",
+  "updatedAt": "2026-11-27T15:21:42.338Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhowlath-tamil-movie-moviesda/",
@@ -345452,7 +346036,8 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "deadly-affair-2021",
@@ -345484,6 +346069,9 @@
   "id": "dola-2021",
   "title": "Dola",
   "year": 2021,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dola-2021-movie/",
   "embeds": [
    {
@@ -345495,11 +346083,12 @@
     "url": "https://play.onestream.today/stream/page/68416"
    }
   ],
-  "poster": "",
+  "poster": "https://image.tmdb.org/t/p/w500/17LBMMXVuH0ucZEigTT8AX1X8n7.jpg",
   "rating": 0,
-  "tmdbId": 0,
+  "tmdbId": 829620,
   "imdbId": "",
   "addedAt": "2026-11-27T12:24:58.314Z",
+  "updatedAt": "2026-11-27T15:21:40.789Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dola-2021-movie/",
@@ -345508,12 +346097,16 @@
    "sourceYear": 2021,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dindigul-sarathi-2008",
   "title": "Dindigul Sarathi",
   "year": 2008,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dindigul-sarathi-2008-movie/",
   "embeds": [
    {
@@ -345521,11 +346114,12 @@
     "url": "https://play.onestream.today/stream/page/65808"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dindigul-sarathi-2008.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/xQxSkTzEFgItPpDMdwvIC6vba1Y.jpg",
+  "rating": 6.2,
+  "tmdbId": 102287,
+  "imdbId": "tt10127850",
   "addedAt": "2026-11-27T12:25:08.468Z",
+  "updatedAt": "2026-11-27T15:21:40.789Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dindigul-sarathi-2008-movie/",
@@ -345540,12 +346134,16 @@
     "Karunas",
     "Saranya Ponvannan"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dear-comrade-2019",
   "title": "Dear Comrade",
   "year": 2019,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dear-comrade-2019-movie/",
   "embeds": [
    {
@@ -345565,12 +346163,12 @@
     "url": "https://play.onestream.today/stream/page/61099"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dear-comrade-2019.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/wEDh02aLl2fkCXi25V4MOOuEuWF.jpg",
+  "rating": 6.6,
+  "tmdbId": 563604,
+  "imdbId": "tt8388508",
   "addedAt": "2026-11-27T12:25:35.559Z",
-  "updatedAt": "2026-11-27T12:27:40.111Z",
+  "updatedAt": "2026-11-27T15:21:34.343Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dear-comrade-tamil-movie-moviesda/",
@@ -345585,12 +346183,16 @@
     "Rashmika Mandanna",
     "Shruti Ramachandran"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dhira-2020",
   "title": "Dhira",
   "year": 2020,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dhira-2020-movie/",
   "embeds": [
    {
@@ -345602,11 +346204,12 @@
     "url": "https://play.onestream.today/stream/page/65562"
    }
   ],
-  "poster": "",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/vdJhXZhBcZj33ZWd0sjPwnTJ1Ma.jpg",
+  "rating": 9,
+  "tmdbId": 764667,
+  "imdbId": "tt13449672",
   "addedAt": "2026-11-27T12:26:00.775Z",
+  "updatedAt": "2026-11-27T15:21:33.014Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dhira-2020-movie/",
@@ -345615,12 +346218,16 @@
    "sourceYear": 2020,
    "directors": [],
    "cast": []
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dj-duvvada-jagannadham-2018",
   "title": "DJ Duvvada Jagannadham",
   "year": 2018,
+  "category": "tamil-dubbed-movie",
+  "originalLanguage": "te",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/dj-duvvada-jagannadham-2018-movie/",
   "embeds": [
    {
@@ -345632,11 +346239,12 @@
     "url": "https://play.onestream.today/stream/page/65277"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/dj-duvvada-jagannadham-2018.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/hb0hntwxMyFz0HLLmXS3M4cae0P.jpg",
+  "rating": 5.7,
+  "tmdbId": 443635,
+  "imdbId": "tt6734984",
   "addedAt": "2026-11-27T12:26:13.151Z",
+  "updatedAt": "2026-11-27T15:21:33.014Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/dj-duvvada-jagannadham-2018-movie/",
@@ -345652,12 +346260,16 @@
     "Murli Sharma",
     "Pooja Hegde"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "danny-2020",
   "title": "Danny",
   "year": 2020,
+  "category": "tamil-movie",
+  "originalLanguage": "ta",
+  "categorySource": "tmdb",
   "pageUrl": "https://moviesda34.com/danny-2020-movie/",
   "embeds": [
    {
@@ -345669,11 +346281,12 @@
     "url": "https://play.onestream.today/stream/page/64826"
    }
   ],
-  "poster": "https://moviesda.ski/uploads/posters/danny-2020.jpg",
-  "rating": 0,
-  "tmdbId": 0,
-  "imdbId": "",
+  "poster": "https://image.tmdb.org/t/p/w500/m7LAOhmCWvFtxeM4eRjWmhw6Sm6.jpg",
+  "rating": 2,
+  "tmdbId": 586885,
+  "imdbId": "tt10381134",
   "addedAt": "2026-11-27T12:26:25.679Z",
+  "updatedAt": "2026-11-27T15:21:33.013Z",
   "sourceMetadata": {
    "available": true,
    "sourceUrl": "https://moviesda34.com/danny-2020-movie/",
@@ -345688,7 +346301,8 @@
     "Varalaxmi Sarathkumar",
     "Vela Ramamoorthy"
    ]
-  }
+  },
+  "tmdbType": "movie"
  },
  {
   "id": "dharala-prabhu-2020",
