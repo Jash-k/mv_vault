@@ -395,7 +395,7 @@ async function processItems(items, label) {
         const retries = Number(previous.retries || 0) + 1;
         state.done[item.url] = { at: new Date().toISOString(), empty: true, retries, v: WALK_VERSION, ...(walked.incomplete ? { incomplete: true } : {}) };
         counts.empty += 1;
-        log(`  ~ ${pad(displayName(item), 40)} no embeds yet (empty #${retries}) · ${reqs} req · ${clock(elapsed)}`);
+        log(`  ~ ${pad(displayName(item), 40)} ${walked.incomplete ? 'incomplete walk · retry required' : 'no confirmed embeds found'} (empty #${retries}) · ${reqs} req · ${clock(elapsed)}`);
       } else {
         const title = mode === 'dubbed'
           ? (item.parsed || parseDubLabel(item.label, item.path))

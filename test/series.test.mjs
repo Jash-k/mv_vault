@@ -55,10 +55,10 @@ test('TMDB media type persisted without reshaping episode data',()=>{
 });
 test('movie resolution folders still work after pagination filtering',async()=>{
  const {walkMovie}=await import('../src/scrape.mjs');
- mock({'/sample-tamil-movie/':'<a href="/sample-original-movie/">Original HD</a>',
- '/sample-original-movie/':'<a href="/sample-1080p-hd-movie/">1080p</a>',
- '/sample-1080p-hd-movie/':'<a href="/download/show-season-1-epi-1/">Sample</a>'});
- const r=await walkMovie(base+'/sample-tamil-movie/');assert.equal(r.kind,'movie');assert.equal(r.embeds.length,1);assert.equal(r.embeds[0].quality,'1080p');
+ mock({'/feature-tamil-movie/':'<a href="/feature-original-movie/">Original HD</a>',
+ '/feature-original-movie/':'<a href="/feature-1080p-hd-movie/">1080p</a>',
+ '/feature-1080p-hd-movie/':'<a href="/download/show-season-1-epi-1/">Feature</a>'});
+ const r=await walkMovie(base+'/feature-tamil-movie/');assert.equal(r.kind,'movie');assert.equal(r.embeds.length,1);assert.equal(r.embeds[0].quality,'1080p');
 });
 test('TMDB language and category stay consistent when known language changes',()=>{
  const r={tmdbId:1,originalLanguage:'en',category:'tamil-dubbed-movie',categorySource:'tmdb'};

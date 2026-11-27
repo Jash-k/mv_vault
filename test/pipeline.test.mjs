@@ -4,12 +4,13 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
+import { WALK_VERSION } from '../src/scrape.mjs';
 const runner=path.resolve('src/run.mjs');
 function run(args,{complete=false,knownHours=5.5}={}) {
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'vault-regression-'));fs.mkdirSync(path.join(dir,'data'));
  const record={id:'bigg-boss-season-10',title:'Bigg Boss Season 10',year:2026,kind:'series',pageUrl:'https://moviesda34.com/bigg-boss-season-10-web-series/',embeds:[{quality:'HD',url:'https://play.onestream.today/stream/page/1',season:10,episode:1}],seasons:[{season:10,episodes:[{episode:1,embeds:[{quality:'HD',url:'https://play.onestream.today/stream/page/1'}]}]}],poster:complete?'https://example.org/p.jpg':'',rating:complete?8:0,tmdbId:complete?42:0,imdbId:complete?'tt42':'',category:complete?'tamil-series':'',categorySource:complete?'tmdb':'site',originalLanguage:complete?'ta':''};
  const original=JSON.stringify([record]);fs.writeFileSync(path.join(dir,'data/vault.json'),original);
- const state={done:{[record.pageUrl]:{at:new Date(Date.now()-knownHours*3600000).toISOString(),embeds:1,kind:'series',v:3}},tmdbMiss:{[record.id]:new Date().toISOString()}};
+ const state={done:{[record.pageUrl]:{at:new Date(Date.now()-knownHours*3600000).toISOString(),embeds:1,kind:'series',v:WALK_VERSION}},tmdbMiss:{[record.id]:new Date().toISOString()}};
  fs.writeFileSync(path.join(dir,'data/state.json'),JSON.stringify(state));
  fs.writeFileSync(path.join(dir,'mock.mjs'),`globalThis.fetch=async (url)=>{
  const u=new URL(url);let html='';

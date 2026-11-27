@@ -45,7 +45,7 @@ export const POSTER_HOST = LIVE;
  * trusted — so a fix like "series under movie paths" takes effect on the next
  * pass instead of waiting out a 7-day empty window.
  */
-export const WALK_VERSION = 3;
+export const WALK_VERSION = 4;
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36';
 const TIMEOUT_MS = Number(process.env.TIMEOUT_MS || 15000);
@@ -300,21 +300,20 @@ export const mapLimit = async (rows, limit, fn) => {
  * The confirm page must reference its OWN id — that is what makes the link
  * durable, instead of trusting whatever the previous hop happened to link to.
  */
-async function confirmEmbed(id) {
+async function confirmEmbed(id, onError = () => {}) {
   const url = `https://movies.downloadpage.xyz/download/page/${id}`;
   try {
     const { html } = await getHtml(url);
     return new RegExp(`play\\.onestream\\.today/stream/page/${id}(?![0-9])`).test(html) ? embedUrlOf(id) : '';
-  } catch { return ''; }
+  } catch { onError(); return ''; }
 }
 
 /**
  * One movie → [{ quality, url }] under the locked quality policy.
  *
- * Request budget per movie is deliberately bounded: at most 3 group folders,
- * 4 resolution pages, 8 slug pages (total, not per resolution) and 10 id
- * confirmations — the same envelope the old pipeline used, which is what keeps
- * a full A–Z pass inside its budget.
+ * Variable-depth same-site traversal: at most 16 folder pages including the
+ * item, depth 5, 8 slug pages and 10 ID confirmations. Limits/failures mark the
+ * result incomplete so a partial walk is never trusted as a complete empty.
  */
 export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {}) {
   const itemHtml = prefetched || (await getHtml(url)).html;
@@ -322,51 +321,66 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
   const poster = posterFromHtml(itemHtml);
   const origin = new URL(url).origin;
 
-  const groups = folderLinks(itemHtml, origin);
-  // No folders at all = the title is listed but nothing is uploaded yet (the
-  // site serves an empty template). One request and out — do not re-fetch the
-  // same page hoping for something else.
-  if (!groups.length) return { kind: 'movie', embeds: [], poster };
-  const preferredGroups = groups.filter((g) => PREFERRED.test(g.quality));
-  const useGroups = (preferredGroups.length ? preferredGroups : groups)
-    .sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 3);
-
-  // 1. group folders → resolution pages (a few requests, done sequentially)
-  const resolutions = [];
-  for (const group of useGroups) {
-    if (deadline && Date.now() > deadline) break;
-    await paced();
-    try {
-      const { html } = await getHtml(group.url);
-      for (const r of folderLinks(html, new URL(group.url).origin)) {
-        resolutions.push({ ...r, quality: r.quality === 'HD' ? group.quality : r.quality });
-      }
-    } catch { /* group page gone */ }
+  // Layouts vary: downloads can occur at any level, including the item
+  // itself. Explore only relevant same-site folders, with a global page budget.
+  const pending = [{ url, html: itemHtml, quality: 'HD', depth: 0 }];
+  const visited = new Set();
+  const slugMap = new Map();
+  const directIds = [];
+  let incomplete = false;
+  const clean = value => { const u = new URL(value); u.hash = ''; return u.href; };
+  while (pending.length) {
+    if ((deadline && Date.now() >= deadline) || visited.size >= 16) { incomplete = true; break; }
+    pending.sort((a,b) => rank(a.quality) - rank(b.quality) || a.depth - b.depth);
+    const page = pending.shift();
+    const key = clean(page.url);
+    if (visited.has(key)) continue;
+    visited.add(key);
+    let html = page.html;
+    if (!html) {
+      await paced();
+      try { html = (await getHtml(page.url)).html; }
+      catch { incomplete = true; continue; }
+    }
+    if (looksBlocked(html)) { incomplete = true; continue; }
+    for (const id of fileIds(html)) directIds.push({id, quality:page.quality});
+    for (const slug of slugLinks(html, page.url)) {
+      if (/sample|trailer|teaser/i.test(slug.href + ' ' + slug.label)) continue;
+      const key = clean(slug.url);
+      if (!slugMap.has(key) || rank(page.quality) < rank(slugMap.get(key).quality))
+        slugMap.set(key, {...slug, url:key, quality:page.quality});
+    }
+    const children = folderLinks(html, page.url).filter(child => {
+      const target = new URL(child.url);
+      if (target.origin !== origin || target.search || NAV_RX.test(target.pathname)) return false;
+      if (/sample|trailer|teaser/i.test(child.href + ' ' + child.label)) return false;
+      if (/^\/(?:index\.php|disclaimer|privacy|contact|about|dmca)\/?$/i.test(target.pathname)) return false;
+      return !visited.has(clean(child.url));
+    });
+    const preferred = children.filter(c => PREFERRED.test(c.quality));
+    const selected = preferred.length ? children.filter(c=>PREFERRED.test(c.quality)||c.quality==='HD') : children;
+    for (const child of selected) {
+      if (page.depth >= 5) { incomplete = true; continue; }
+      if (!pending.some(p=>clean(p.url)===clean(child.url))) pending.push({...child, quality:child.quality==='HD'?page.quality:child.quality,depth:page.depth+1});
+    }
   }
-  if (!resolutions.length) return { kind: 'movie', embeds: [], poster };
-  const preferredRes = resolutions.filter((r) => PREFERRED.test(r.quality));
-  const useRes = (preferredRes.length ? preferredRes : resolutions)
-    .sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 4);
-
-  // 2. resolution pages → /download/<slug>/ links (8 in total, in parallel)
-  const slugRows = (await mapLimit(useRes, 3, async (res) => {
-    try {
-      const { html } = await getHtml(res.url);
-      return slugLinks(html, new URL(res.url).origin).map((s) => ({ ...s, quality: res.quality }));
-    } catch { return []; }
-  })).flat().slice(0, 8);
+  const sortedSlugs = [...slugMap.values()].sort((a,b)=>rank(a.quality)-rank(b.quality));
+  if (sortedSlugs.length > 8) incomplete = true;
+  const slugRows = sortedSlugs.slice(0,8);
 
   // 3. slug pages → numeric file ids (1 per slug, in parallel)
   const idRows = (await mapLimit(slugRows, 3, async (slug) => {
     try {
+      if (deadline && Date.now() >= deadline) { incomplete = true; return []; }
       const { html } = await getHtml(slug.url);
+      if (looksBlocked(html)) { incomplete = true; return []; }
       return fileIds(html).slice(0, 1).map((id) => ({ id, quality: slug.quality }));
-    } catch { return []; }
+    } catch { incomplete = true; return []; }
   })).flat();
 
   // 4. confirm ids, highest quality first, and stop once enough are live
   const unique = new Map();
-  for (const row of idRows) if (!unique.has(row.id)) unique.set(row.id, row.quality);
+  for (const row of [...directIds, ...idRows]) if (!unique.has(row.id)) unique.set(row.id, row.quality);
   const candidates = [...unique.entries()].map(([id, quality]) => ({ id, quality }))
     .sort((a, b) => rank(a.quality) - rank(b.quality)).slice(0, 10);
 
@@ -374,7 +388,8 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
   const got = { '1080p': 0, '720p': 0 };
   await mapLimit(candidates, 4, async ({ id, quality }) => {
     if (got['1080p'] >= 4 && got['720p'] >= 4) return;
-    const embed = await confirmEmbed(id);
+    if (deadline && Date.now() >= deadline) { incomplete = true; return; }
+    const embed = await confirmEmbed(id, () => { incomplete = true; });
     if (embed && !collected.has(embed)) {
       collected.set(embed, quality);
       if (got[quality] !== undefined) got[quality] += 1;
@@ -383,7 +398,7 @@ export async function walkMovie(url, { deadline = 0, html: prefetched = '' } = {
 
   const all = [...collected.entries()].map(([u, quality]) => ({ quality, url: u }));
   const preferred = all.filter((e) => /^(1080p|720p)$/i.test(e.quality));
-  return { kind: 'movie', embeds: preferred.length ? preferred : all.slice(0, 4), poster };
+  return { kind: 'movie', embeds: preferred.length ? preferred : all.slice(0, 4), poster, ...(incomplete ? {incomplete:true} : {}) };
 }
 
 /**
@@ -527,7 +542,9 @@ export async function walkItem(url, options = {}) {
   const movie = await walkMovie(url, { ...options, html });
   if (embedCount(movie)) return attach(movie);
   const asSeries = await walkSeries(url, { ...options, html });
-  return attach(embedCount(asSeries) > embedCount(movie) ? asSeries : movie);
+  const result = embedCount(asSeries) > embedCount(movie) ? asSeries : movie;
+  if (movie.incomplete || asSeries.incomplete) result.incomplete = true;
+  return attach(result);
 }
 
 /** How many embeds a walk result carries. */
