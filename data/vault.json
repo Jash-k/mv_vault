@@ -29814,6 +29814,14 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/90496"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54756"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54758"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/xVAZZN4Av3e6YxwLgUWTYDNtta1.jpg",
@@ -29821,7 +29829,21 @@
   "tmdbId": 459008,
   "imdbId": "tt6929642",
   "addedAt": "2026-09-27T20:57:14.008Z",
-  "updatedAt": "2026-10-03T06:46:29.885Z"
+  "updatedAt": "2026-11-27T13:12:53.188Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaala-2018-movie/",
+   "fetchedAt": "2026-11-27T13:12:38.849Z",
+   "sourceTitle": "Kaala (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Pa. Ranjith"
+   ],
+   "cast": [
+    "Rajinikanth",
+    "Nana Patekar"
+   ]
+  }
  },
  {
   "id": "kaakha-kaakha-2003",
@@ -30025,6 +30047,14 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/89734"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46108"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46111"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/va0M1xhP3sUUERWfHeSKGVhtJHW.jpg",
@@ -30032,7 +30062,23 @@
   "tmdbId": 366080,
   "imdbId": "tt5071886",
   "addedAt": "2026-09-27T20:59:19.779Z",
-  "updatedAt": "2026-10-03T06:46:30.179Z"
+  "updatedAt": "2026-11-27T13:16:42.060Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kabali-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:35.708Z",
+   "sourceTitle": "Kabali (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Pa. Ranjith"
+   ],
+   "cast": [
+    "Rajinikanth",
+    "Winston Chao",
+    "Radhika Apte",
+    "Dhansika"
+   ]
+  }
  },
  {
   "id": "karuppu-petti-2024",
@@ -37324,6 +37370,14 @@
    {
     "quality": "720p",
     "url": "https://play.onestream.today/stream/page/101924"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55126"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/55124"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/eKIXvlp0h1395TF3FdqWssywipR.jpg",
@@ -37331,7 +37385,22 @@
   "tmdbId": 413136,
   "imdbId": "tt7794052",
   "addedAt": "2026-09-27T22:36:44.265Z",
-  "updatedAt": "2026-10-03T06:46:45.783Z"
+  "updatedAt": "2026-11-27T13:38:06.912Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/merku-thodarchi-malai-2018-movie/",
+   "fetchedAt": "2026-11-27T13:37:55.654Z",
+   "sourceTitle": "Merku Thodarchi Malai (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Leninbharati"
+   ],
+   "cast": [
+    "Antony",
+    "Gayatri Krishnan",
+    "Abu Valayamkulam"
+   ]
+  }
  },
  {
   "id": "mension-house-mallesh-2026",
@@ -38520,6 +38589,22 @@
    {
     "quality": "1080p",
     "url": "https://play.onestream.today/stream/page/96173"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51308"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51306"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/47750"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/47753"
    }
   ],
   "poster": "https://image.tmdb.org/t/p/w500/51YxNae9DC5BG39IgCjsKkTIOdV.jpg",
@@ -38527,7 +38612,22 @@
   "tmdbId": 424336,
   "imdbId": "tt7161122",
   "addedAt": "2026-09-27T22:46:44.891Z",
-  "updatedAt": "2026-10-03T06:46:47.527Z"
+  "updatedAt": "2026-11-27T13:42:19.926Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meesaya-murukku-tamil-movie-moviesda/",
+   "fetchedAt": "2026-11-27T13:42:11.313Z",
+   "sourceTitle": "Meesaya Murukku (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Hiphop Tamizha Adhi"
+   ],
+   "cast": [
+    "Hiphop Tamizha Adhi",
+    "Aathmika",
+    "Ma Ka Pa Anand"
+   ]
+  }
  },
  {
   "id": "mellisai-2026",
@@ -350660,6 +350760,6243 @@
     "Raveena Ravi",
     "Suresh Ravi"
    ]
+  }
+ },
+ {
+  "id": "keladi-kanmani-1990",
+  "title": "Keladi Kanmani",
+  "year": 1990,
+  "pageUrl": "https://moviesda34.com/keladi-kanmani-1990-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65177"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/keladi-kanmani-1990.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:07:52.569Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/keladi-kanmani-1990-movie/",
+   "fetchedAt": "2026-11-27T13:07:43.643Z",
+   "sourceTitle": "Keladi Kanmani (1990)",
+   "sourceYear": 1990,
+   "directors": [
+    "Vasanth"
+   ],
+   "cast": [
+    "Balasubramaniam S.P.",
+    "Radhika Sarathkumar",
+    "Anju Aravind",
+    "Ramesh Aravind"
+   ]
+  }
+ },
+ {
+  "id": "khaali-peeli-2020",
+  "title": "Khaali Peeli",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/khaali-peeli-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65153"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65155"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:08:05.567Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/khaali-peeli-2020-movie/",
+   "fetchedAt": "2026-11-27T13:07:54.491Z",
+   "sourceTitle": "Khaali Peeli (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "ka-pae-ranasingam-2020",
+  "title": "Ka Pae Ranasingam",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/ka-pae-ranasingam-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65146"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65143"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/ka-pae-ranasingam-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:08:18.277Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ka-pae-ranasingam-2020-movie/",
+   "fetchedAt": "2026-11-27T13:08:07.447Z",
+   "sourceTitle": "Ka Pae Ranasingam (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "P. Virumandi"
+   ],
+   "cast": [
+    "Vijay Sethupathi",
+    "Aishwarya Rajesh",
+    "Yogi Babu",
+    "Samuthirakani"
+   ]
+  }
+ },
+ {
+  "id": "karupangaattu-valasu-2020",
+  "title": "Karupangaattu Valasu",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/karupangaattu-valasu-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65648"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65645"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/karupangaattu-valasu-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:08:30.673Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/karupangaattu-valasu-2020-movie/",
+   "fetchedAt": "2026-11-27T13:08:20.135Z",
+   "sourceTitle": "Karupangaattu Valasu (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Selvendran"
+   ],
+   "cast": [
+    "Nilemma Rani",
+    "George Vijay",
+    "Ebenezer Devaraj",
+    "Aria"
+   ]
+  }
+ },
+ {
+  "id": "kalyana-raman-2020",
+  "title": "Kalyana Raman",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/kalyana-raman-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64744"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:08:40.797Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kalyana-raman-2020-movie/",
+   "fetchedAt": "2026-11-27T13:08:32.557Z",
+   "sourceTitle": "Kalyana Raman (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kedi-2006",
+  "title": "Kedi",
+  "year": 2006,
+  "pageUrl": "https://moviesda34.com/kedi-tamil-2006-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64564"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kedi-tamil-2006.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:08:50.784Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kedi-tamil-2006-movie/",
+   "fetchedAt": "2026-11-27T13:08:42.624Z",
+   "sourceTitle": "Kedi (Tamil) (2006)",
+   "sourceYear": 2006,
+   "directors": [
+    "Jyothi Krishna"
+   ],
+   "cast": [
+    "Ravi Krishna",
+    "Ileana D'Cruz",
+    "Tamannaah Bhatia",
+    "Atul Kulkarni"
+   ]
+  }
+ },
+ {
+  "id": "kaminey-2009",
+  "title": "Kaminey",
+  "year": 2009,
+  "pageUrl": "https://moviesda34.com/kaminey-2009-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64549"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64551"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaminey-2009.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:09:03.342Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaminey-2009-movie/",
+   "fetchedAt": "2026-11-27T13:08:52.656Z",
+   "sourceTitle": "Kaminey (2009)",
+   "sourceYear": 2009,
+   "directors": [
+    "Vishal Bhardwaj"
+   ],
+   "cast": [
+    "Shahid Kapoor",
+    "Priyanka Chopra",
+    "Deb Mukherjee",
+    "Shivkumar Subramaniam"
+   ]
+  }
+ },
+ {
+  "id": "kattu-paya-sir-intha-kaali-2019",
+  "title": "Kattu Paya Sir Intha Kaali",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/kattu-paya-sir-intha-kaali-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64540"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64542"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kattu-paya-sir-intha-kaali-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:09:16.574Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kattu-paya-sir-intha-kaali-2019-movie/",
+   "fetchedAt": "2026-11-27T13:09:05.257Z",
+   "sourceTitle": "Kattu Paya Sir Intha Kaali (2019)",
+   "sourceYear": 2019,
+   "directors": [
+    "Youreka"
+   ],
+   "cast": [
+    "Ira Agarwal",
+    "Jaivanth",
+    "Aadukalam Naren",
+    "Munnar Ramesh"
+   ]
+  }
+ },
+ {
+  "id": "konchem-ishtam-konchem-kashtam-2009",
+  "title": "Konchem Ishtam Konchem Kashtam",
+  "year": 2009,
+  "pageUrl": "https://moviesda34.com/konchem-ishtam-konchem-kashtam-2009-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64533"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/konchem-ishtam-konchem-kashtam-2009.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:09:26.774Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/konchem-ishtam-konchem-kashtam-2009-movie/",
+   "fetchedAt": "2026-11-27T13:09:18.481Z",
+   "sourceTitle": "Konchem Ishtam Konchem Kashtam (2009)",
+   "sourceYear": 2009,
+   "directors": [
+    "Kishore Kumar Pardasani"
+   ],
+   "cast": [
+    "Siddharth",
+    "Tamannaah Bhatia",
+    "Prakash Raj",
+    "Ramya Krishnan"
+   ]
+  }
+ },
+ {
+  "id": "khyla-2020",
+  "title": "Khyla",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/khyla-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64527"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64525"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:09:39.526Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/khyla-2020-movie/",
+   "fetchedAt": "2026-11-27T13:09:28.647Z",
+   "sourceTitle": "Khyla (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kayiru-2020",
+  "title": "Kayiru",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/kayiru-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64518"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64516"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:09:51.938Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kayiru-2020-movie/",
+   "fetchedAt": "2026-11-27T13:09:41.375Z",
+   "sourceTitle": "Kayiru (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kanni-maadam-2020",
+  "title": "Kanni Maadam",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/kanni-maadam-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64465"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64467"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kanni-maadam-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:04.594Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kanni-maadam-2020-movie/",
+   "fetchedAt": "2026-11-27T13:09:53.794Z",
+   "sourceTitle": "Kanni Maadam (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Bose Venkat"
+   ],
+   "cast": [
+    "Chaya Devi",
+    "Sriram Karthik",
+    "Murugadass"
+   ]
+  }
+ },
+ {
+  "id": "koodi-vazhnthal-kodi-nanmai-2000",
+  "title": "Koodi Vazhnthal Kodi Nanmai",
+  "year": 2000,
+  "pageUrl": "https://moviesda34.com/koodi-vazhnthal-kodi-nanmai-2000-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64441"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/koodi-vazhnthal-kodi-nanmai-2000.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:14.790Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/koodi-vazhnthal-kodi-nanmai-2000-movie/",
+   "fetchedAt": "2026-11-27T13:10:06.474Z",
+   "sourceTitle": "Koodi Vazhnthal Kodi Nanmai (2000)",
+   "sourceYear": 2000,
+   "directors": [
+    "V. Shekhar"
+   ],
+   "cast": [
+    "Ganeshkar",
+    "Karan",
+    "Kavitha",
+    "Ramesh Khanna"
+   ]
+  }
+ },
+ {
+  "id": "kasethan-kadavulada-1972",
+  "title": "Kasethan Kadavulada",
+  "year": 1972,
+  "pageUrl": "https://moviesda34.com/kasethan-kadavulada-1972-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64410"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kasethan-kadavulada-1972.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:25.117Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kasethan-kadavulada-1972-movie/",
+   "fetchedAt": "2026-11-27T13:10:16.681Z",
+   "sourceTitle": "Kasethan Kadavulada (1972)",
+   "sourceYear": 1972,
+   "directors": [
+    "Chitralaya Gopu"
+   ],
+   "cast": [
+    "Lakshmi",
+    "Aachi Manorama",
+    "Venniradai Moorthy",
+    "R. Muthuraman"
+   ]
+  }
+ },
+ {
+  "id": "kannum-kannum-kollaiyadithaal-2020",
+  "title": "Kannum Kannum Kollaiyadithaal",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/kannum-kannum-kollaiyadithaal-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64137"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64139"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kannum-kannum-kollaiyadithaal-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:38.086Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kannum-kannum-kollaiyadithaal-2020-movie/",
+   "fetchedAt": "2026-11-27T13:10:26.950Z",
+   "sourceTitle": "Kannum Kannum Kollaiyadithaal (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Desingh Periyasamy"
+   ],
+   "cast": [
+    "Dulquer Salmaan",
+    "Ritu Varma",
+    "Rakshan",
+    "Niranjani"
+   ]
+  }
+ },
+ {
+  "id": "kayal-2014",
+  "title": "Kayal",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/kayal-2014-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55999"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kayal-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:44.087Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kayal-2014-movie/",
+   "fetchedAt": "2026-11-27T13:10:39.938Z",
+   "sourceTitle": "Kayal (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Prabu Solomon"
+   ],
+   "cast": [
+    "Chandran",
+    "Anandhi",
+    "Vincent",
+    "Gemini Rajeshwari"
+   ]
+  }
+ },
+ {
+  "id": "kolamavu-kokila-2018",
+  "title": "Kolamavu Kokila",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kolamavu-kokila-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55344"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/55342"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kolamavu-kokila-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:10:56.791Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kolamavu-kokila-2018-movie/",
+   "fetchedAt": "2026-11-27T13:10:45.972Z",
+   "sourceTitle": "Kolamavu Kokila (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Nelson"
+   ],
+   "cast": [
+    "Nayanthara",
+    "Yogi Babu",
+    "Saranya Ponvannan"
+   ]
+  }
+ },
+ {
+  "id": "kadikara-manithargal-2018",
+  "title": "Kadikara Manithargal",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kadikara-manithargal-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54934"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54932"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadikara-manithargal-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:11:09.380Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadikara-manithargal-2018-movie/",
+   "fetchedAt": "2026-11-27T13:10:58.621Z",
+   "sourceTitle": "Kadikara Manithargal (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Vaigarai Balan"
+   ],
+   "cast": [
+    "Kishore Kumar G",
+    "Karunakaran",
+    "Latha Rao"
+   ]
+  }
+ },
+ {
+  "id": "kathiruppor-pattiyal-2018",
+  "title": "Kathiruppor Pattiyal",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kathiruppor-pattiyal-2018-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54690"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54693"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kathiruppor-pattiyal-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:11:24.134Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kathiruppor-pattiyal-2018-movie/",
+   "fetchedAt": "2026-11-27T13:11:11.268Z",
+   "sourceTitle": "Kathiruppor Pattiyal (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Balaiya Rajasekhar"
+   ],
+   "cast": [
+    "Sachin Mani",
+    "Rajendran",
+    "Nandita Shwetha"
+   ]
+  }
+ },
+ {
+  "id": "kadaikutty-singam-2018",
+  "title": "Kadaikutty Singam",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kadaikutty-singam-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54924"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadaikutty-singam-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:11:47.182Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadaikutty-singam-2018-movie/",
+   "fetchedAt": "2026-11-27T13:11:26.160Z",
+   "sourceTitle": "Kadaikutty Singam (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Pandiraj"
+   ],
+   "cast": [
+    "Karthi",
+    "Sathyaraj",
+    "Sayyeshaa Saigal"
+   ]
+  }
+ },
+ {
+  "id": "kasu-mela-kasu-2018",
+  "title": "Kasu Mela Kasu",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kasu-mela-kasu-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54987"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:11:59.602Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kasu-mela-kasu-2018-movie/",
+   "fetchedAt": "2026-11-27T13:11:49.144Z",
+   "sourceTitle": "Kasu Mela Kasu (2018) Tamil Movie",
+   "sourceYear": 2018,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kilambitaangayaa-kilambitaangayaa-2018",
+  "title": "Kilambitaangayaa Kilambitaangayaa",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kilambitaangayaa-kilambitaangayaa-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54458"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54456"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:12:14.196Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kilambitaangayaa-kilambitaangayaa-2018-movie/",
+   "fetchedAt": "2026-11-27T13:12:01.461Z",
+   "sourceTitle": "Kilambitaangayaa Kilambitaangayaa (2018) Tamil Movie",
+   "sourceYear": 2018,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kaala-koothu-2018",
+  "title": "Kaala Koothu",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/kaala-koothu-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54449"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54447"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54404"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54406"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaala-koothu-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:12:37.001Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaala-koothu-2018-movie/",
+   "fetchedAt": "2026-11-27T13:12:16.007Z",
+   "sourceTitle": "Kaala Koothu (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "M. Nagarajan"
+   ],
+   "cast": [
+    "Srushti Dange",
+    "Dhansika",
+    "Kalaiyarasan",
+    "Prasanna"
+   ]
+  }
+ },
+ {
+  "id": "keni-2018",
+  "title": "Keni",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/keni-2018-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54552"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54554"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/keni-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:07.587Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/keni-2018-movie/",
+   "fetchedAt": "2026-11-27T13:12:55.058Z",
+   "sourceTitle": "Keni (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "M.A. Nishad"
+   ],
+   "cast": [
+    "Archana",
+    "Anu Hasan",
+    "Rekha Mallick",
+    "Parvathy Nambiar"
+   ]
+  }
+ },
+ {
+  "id": "kadaisi-bench-karthi-2017",
+  "title": "Kadaisi Bench Karthi",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kadaisi-bench-karthi-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52880"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52882"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadaisi-bench-karthi-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:15.805Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadaisi-bench-karthi-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:09.417Z",
+   "sourceTitle": "Kadaisi Bench Karthi (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Ravee Paargavan"
+   ],
+   "cast": [
+    "Ravi Mariya",
+    "Angana Roy",
+    "Ruhani Sharma",
+    "Bharath"
+   ]
+  }
+ },
+ {
+  "id": "kalavu-thozhirchalai-2017",
+  "title": "Kalavu Thozhirchalai",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kalavu-thozhirchalai-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52870"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52874"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:24.282Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kalavu-thozhirchalai-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:17.701Z",
+   "sourceTitle": "Kalavu Thozhirchalai (2017) Tamil Movie",
+   "sourceYear": 2017,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "karuppan-2017",
+  "title": "Karuppan",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/karuppan-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52981"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52984"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/karuppan-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:32.605Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/karuppan-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:26.179Z",
+   "sourceTitle": "Karuppan (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "R. Panneer Selvam"
+   ],
+   "cast": [
+    "Vijay Sethupathi",
+    "Kaveri",
+    "Kishore"
+   ]
+  }
+ },
+ {
+  "id": "kalathur-gramam-2017",
+  "title": "Kalathur Gramam",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kalathur-gramam-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52851"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52849"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kalathur-gramam-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:40.791Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kalathur-gramam-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:34.433Z",
+   "sourceTitle": "Kalathur Gramam (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Adwaithan"
+   ],
+   "cast": [
+    "Kishore"
+   ]
+  }
+ },
+ {
+  "id": "konjam-konjam-2017",
+  "title": "Konjam Konjam",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/konjam-konjam-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52616"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52618"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/konjam-konjam-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:49.053Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/konjam-konjam-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:42.644Z",
+   "sourceTitle": "Konjam Konjam (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Uday Sankaran"
+   ],
+   "cast": [
+    "Gokul Krishna",
+    "Priya Mohan",
+    "Neenu"
+   ]
+  }
+ },
+ {
+  "id": "keikraan-meikkiran-2017",
+  "title": "Keikraan Meikkiran",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/keikraan-meikkiran-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52511"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52516"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/keikraan-meikkiran-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:13:57.400Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/keikraan-meikkiran-2017-movie/",
+   "fetchedAt": "2026-11-27T13:13:50.865Z",
+   "sourceTitle": "Keikraan Meikkiran (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Sam Immanuel"
+   ],
+   "cast": [
+    "Lughna Ameer",
+    "Lubna Amir",
+    "Aadukalam Naren"
+   ]
+  }
+ },
+ {
+  "id": "kollidam-2016",
+  "title": "Kollidam",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kollidam-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52090"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52093"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kollidam-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:05.632Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kollidam-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:13:59.247Z",
+   "sourceTitle": "Kollidam (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Nesam Murali",
+    "Ludhia"
+   ],
+   "cast": [
+    "Nesam Murali",
+    "Ludhia"
+   ]
+  }
+ },
+ {
+  "id": "kaashmora-2016",
+  "title": "Kaashmora",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kaashmora-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52083"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52086"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaashmora-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:13.984Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaashmora-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:07.436Z",
+   "sourceTitle": "Kaashmora (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Gokul"
+   ],
+   "cast": [
+    "Karthi",
+    "Nayanthara",
+    "Sri Divya",
+    "Vivek"
+   ]
+  }
+ },
+ {
+  "id": "ka-ka-ka-aabathin-arikuri-2017",
+  "title": "Ka Ka Ka Aabathin Arikuri",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/ka-ka-ka-aabathin-arikuri-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51843"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51845"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/ka-ka-ka-aabathin-arikuri-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:22.283Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ka-ka-ka-aabathin-arikuri-2017-movie/",
+   "fetchedAt": "2026-11-27T13:14:15.836Z",
+   "sourceTitle": "Ka Ka Ka Aabathin Arikuri (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Manon M"
+   ],
+   "cast": [
+    "Ashok Kumar",
+    "Kiran Pathikonda"
+   ]
+  }
+ },
+ {
+  "id": "kadalai-2016",
+  "title": "Kadalai",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kadalai-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51523"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51526"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadalai-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:30.546Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadalai-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:24.133Z",
+   "sourceTitle": "Kadalai (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "P. Sagayasuresh"
+   ],
+   "cast": [
+    "Ma Ka Pa Anand",
+    "Yogi Babu",
+    "Yaar Kannan",
+    "Manobala"
+   ]
+  }
+ },
+ {
+  "id": "karaiyoram-2016",
+  "title": "Karaiyoram",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/karaiyoram-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51442"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51439"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/karaiyoram-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:39.009Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/karaiyoram-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:32.379Z",
+   "sourceTitle": "Karaiyoram (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "JKS"
+   ],
+   "cast": [
+    "SIMRAN",
+    "NIKISHA PATEL",
+    "VASISTA SIMHA"
+   ]
+  }
+ },
+ {
+  "id": "kadhalum-kadanthu-pogum-2016",
+  "title": "Kadhalum Kadanthu Pogum",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kadhalum-kadanthu-pogum-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51126"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51129"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadhalum-kadanthu-pogum-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:47.644Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadhalum-kadanthu-pogum-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:40.861Z",
+   "sourceTitle": "Kadhalum Kadanthu Pogum (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Nalan Kumarasamy"
+   ],
+   "cast": [
+    "Vijay Sethupathi",
+    "Madonna Sebastian",
+    "Samuthirakani"
+   ]
+  }
+ },
+ {
+  "id": "kodi-2016",
+  "title": "Kodi",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kodi-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51021"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51018"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kodi-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:14:55.878Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kodi-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:49.488Z",
+   "sourceTitle": "Kodi (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "R.S. Durai Senthilkumar"
+   ],
+   "cast": [
+    "Dhanush",
+    "Trisha Krishnan",
+    "Anupama Parameshwaran",
+    "Saranya Ponvannan"
+   ]
+  }
+ },
+ {
+  "id": "kaaka-muttai-2015",
+  "title": "Kaaka Muttai",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/kaaka-muttai-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/50751"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/50754"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaaka-muttai-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:04.564Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaaka-muttai-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:14:57.742Z",
+   "sourceTitle": "Kaaka Muttai (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "M. Manikandan"
+   ],
+   "cast": [
+    "Ramesh",
+    "Vignesh",
+    "Aishwarya Rajesh"
+   ]
+  }
+ },
+ {
+  "id": "kathanayagan-2017",
+  "title": "Kathanayagan",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kathanayagan-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/50247"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/50245"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kathanayagan-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:12.815Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kathanayagan-2017-movie/",
+   "fetchedAt": "2026-11-27T13:15:06.391Z",
+   "sourceTitle": "Kathanayagan (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Muruganandham"
+   ],
+   "cast": [
+    "Catherine Tresa",
+    "Vishnu Vishal"
+   ]
+  }
+ },
+ {
+  "id": "kurangu-bommai-2017",
+  "title": "Kurangu Bommai",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kurangu-bommai-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/49467"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/49465"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kurangu-bommai-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:21.544Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kurangu-bommai-2017-movie/",
+   "fetchedAt": "2026-11-27T13:15:14.849Z",
+   "sourceTitle": "Kurangu Bommai (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Nithilan"
+   ],
+   "cast": [
+    "Delna Davis",
+    "P Bharathiraja",
+    "Vidharth"
+   ]
+  }
+ },
+ {
+  "id": "kadhal-kasakuthaiya-2017",
+  "title": "Kadhal Kasakuthaiya",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kadhal-kasakuthaiya-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/49204"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/49206"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadhal-kasakuthaiya-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:29.886Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadhal-kasakuthaiya-2017-movie/",
+   "fetchedAt": "2026-11-27T13:15:23.424Z",
+   "sourceTitle": "Kadhal Kasakuthaiya (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Dwarakh Raja"
+   ],
+   "cast": [
+    "Dhruvva Venba"
+   ]
+  }
+ },
+ {
+  "id": "kootathil-oruthan-2017",
+  "title": "Kootathil Oruthan",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/kootathil-oruthan-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/48430"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/48434"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/48428"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kootathil-oruthan-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:43.998Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kootathil-oruthan-2017-movie/",
+   "fetchedAt": "2026-11-27T13:15:31.750Z",
+   "sourceTitle": "Kootathil Oruthan (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "T.J. Gnanavel"
+   ],
+   "cast": [
+    "Ashok Selvan",
+    "Priya Anand",
+    "Samuthirakani",
+    "Anupama Kumar"
+   ]
+  }
+ },
+ {
+  "id": "kuttram-kadithal-2015",
+  "title": "Kuttram Kadithal",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/kuttram-kadithal-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/48332"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/48335"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kuttram-kadithal-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:15:52.280Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kuttram-kadithal-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:15:45.868Z",
+   "sourceTitle": "Kuttram Kadithal (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Bramma G."
+   ],
+   "cast": [
+    "Master Ajay",
+    "Radhika Prasidhha"
+   ]
+  }
+ },
+ {
+  "id": "kaaki-sattai-2015",
+  "title": "Kaaki Sattai",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/kaaki-sattai-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/47607"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/47605"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaaki-sattai-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:00.780Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaaki-sattai-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:15:54.180Z",
+   "sourceTitle": "Kaaki Sattai (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "R.S. Durai Senthilkumar"
+   ],
+   "cast": [
+    "Siva Karthikeyan",
+    "Prabhu",
+    "Sri Divya",
+    "Vijay Raaz"
+   ]
+  }
+ },
+ {
+  "id": "komban-2015",
+  "title": "Komban",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/komban-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/47319"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/47322"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/komban-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:09.253Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/komban-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:02.660Z",
+   "sourceTitle": "Komban (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "M. Muthaiah"
+   ],
+   "cast": [
+    "Karthi",
+    "Lakshmi Menon",
+    "Raj Kiran",
+    "Karunas"
+   ]
+  }
+ },
+ {
+  "id": "karma-2016",
+  "title": "Karma",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/karma-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46633"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46636"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/karma-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:17.444Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/karma-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:11.079Z",
+   "sourceTitle": "Karma (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Arvind Ramalingam"
+   ],
+   "cast": [
+    "Arvind Ramalingam"
+   ]
+  }
+ },
+ {
+  "id": "kaadhal-solla-vandhen-2010",
+  "title": "Kaadhal Solla Vandhen",
+  "year": 2010,
+  "pageUrl": "https://moviesda34.com/kaadhal-solla-vandhen-2010-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46615"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46613"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaadhal-solla-vandhen-2010.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:25.701Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaadhal-solla-vandhen-2010-movie/",
+   "fetchedAt": "2026-11-27T13:16:19.306Z",
+   "sourceTitle": "Kaadhal Solla Vandhen (2010)",
+   "sourceYear": 2010,
+   "directors": [
+    "Boopathy Pandian"
+   ],
+   "cast": [
+    "Arya",
+    "Balaji Balakrishnan",
+    "Meghana Raj",
+    "Karthik Sabesh"
+   ]
+  }
+ },
+ {
+  "id": "kavalai-vendam-2016",
+  "title": "Kavalai Vendam",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kavalai-vendam-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46391"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46388"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kavalai-vendam-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:33.909Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kavalai-vendam-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:27.539Z",
+   "sourceTitle": "Kavalai Vendam (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Deekay"
+   ],
+   "cast": [
+    "Kajal Aggarwal",
+    "RJ Balaji",
+    "Jiiva",
+    "Karunakaran"
+   ]
+  }
+ },
+ {
+  "id": "kadavul-irukaan-kumaru-2016",
+  "title": "Kadavul Irukaan Kumaru",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kadavul-irukaan-kumaru-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46042"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46039"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kadavul-irukaan-kumaru-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:50.237Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kadavul-irukaan-kumaru-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:43.822Z",
+   "sourceTitle": "Kadavul Irukaan Kumaru (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "M. Rajesh"
+   ],
+   "cast": [
+    "Nikki Galrani",
+    "G.V. Prakash Kumar"
+   ]
+  }
+ },
+ {
+  "id": "kidaari-2016",
+  "title": "Kidaari",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kidaari-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46001"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/45999"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kidaari-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:16:58.425Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kidaari-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:16:52.078Z",
+   "sourceTitle": "Kidaari (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Prasath Murugesan"
+   ],
+   "cast": [
+    "Napoleon",
+    "Sasikumar",
+    "Nikhila Vimal"
+   ]
+  }
+ },
+ {
+  "id": "kanithan-2016",
+  "title": "Kanithan",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kanithan-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/45945"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/45948"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kanithan-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:17:06.623Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kanithan-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:17:00.225Z",
+   "sourceTitle": "Kanithan (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "T.N. Santhosh"
+   ],
+   "cast": [
+    "Atharvaa Murali",
+    "Catherine Tresa",
+    "Tarun Arora",
+    "Bhagyaraj"
+   ]
+  }
+ },
+ {
+  "id": "kaavalan-2011",
+  "title": "Kaavalan",
+  "year": 2011,
+  "pageUrl": "https://moviesda34.com/kaavalan-2011-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42641"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/42644"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaavalan-2011.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:17:15.291Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaavalan-2011-movie/",
+   "fetchedAt": "2026-11-27T13:17:08.518Z",
+   "sourceTitle": "Kaavalan (2011)",
+   "sourceYear": 2011,
+   "directors": [
+    "Siddique"
+   ],
+   "cast": [
+    "Joseph Vijay",
+    "Asin",
+    "Raj Kiran"
+   ]
+  }
+ },
+ {
+  "id": "kaththi-2014",
+  "title": "Kaththi",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/kaththi-2014-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42385"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/42392"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42384"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42389"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kaththi-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:17:28.113Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaththi-2014-movie/",
+   "fetchedAt": "2026-11-27T13:17:17.119Z",
+   "sourceTitle": "Kaththi (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "A.R. Murugadoss"
+   ],
+   "cast": [
+    "Vijay",
+    "Samantha",
+    "Neil Nitin Mukesh"
+   ]
+  }
+ },
+ {
+  "id": "kanchana-2-muni-3-2015",
+  "title": "Kanchana 2 Muni 3",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/kanchana-2-muni-3-2015-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/41103"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/41100"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/kanchana-2-muni-3-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:17:36.414Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kanchana-2-muni-3-2015-movie/",
+   "fetchedAt": "2026-11-27T13:17:29.984Z",
+   "sourceTitle": "Kanchana 2 Muni 3 (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Lawrence Raghavendra"
+   ],
+   "cast": [
+    "Lawrence Raghavendra",
+    "Taapsee Pannu",
+    "Kovai Sarala",
+    "Nithya Menon"
+   ]
+  }
+ },
+ {
+  "id": "kozhi-koovuthu-2012",
+  "title": "Kozhi Koovuthu",
+  "year": 2012,
+  "pageUrl": "https://moviesda34.com/kozhi-koovuthu-2012-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36568"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36571"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36574"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36564"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:17:52.576Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kozhi-koovuthu-2012-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:17:38.307Z",
+   "sourceTitle": "Kozhi Koovuthu (2012) Tamil Movie Download Moviesda Kozhi Koovuthu HD Movie Download",
+   "sourceYear": 2012,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kollaikaran-2012",
+  "title": "Kollaikaran",
+  "year": 2012,
+  "pageUrl": "https://moviesda34.com/kollaikaran-2012-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36555"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36558"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36552"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/36548"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:18:08.412Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kollaikaran-2012-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:17:54.414Z",
+   "sourceTitle": "Kollaikaran (2012) Tamil Movie Download Moviesda Kollaikaran HD Movie Download",
+   "sourceYear": 2012,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kaththi-sandai-2016",
+  "title": "Kaththi Sandai",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kaththi-sandai-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/31915"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/31914"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/31902"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/31905"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:18:24.841Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kaththi-sandai-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:18:10.226Z",
+   "sourceTitle": "Kaththi Sandai (2016) HQ DVDScr  Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kannula-kaasa-kattappa-2016",
+  "title": "Kannula Kaasa Kattappa",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kannula-kaasa-kattappa-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/30710"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/30706"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/30711"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/30709"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:18:41.123Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kannula-kaasa-kattappa-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:18:26.675Z",
+   "sourceTitle": "Kannula Kaasa Kattappa (2016) DVDScr Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kuttrame-thandanai-2016",
+  "title": "Kuttrame Thandanai",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kuttrame-thandanai-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/26750"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/26746"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/26745"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/26749"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:18:57.708Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kuttrame-thandanai-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:18:43.089Z",
+   "sourceTitle": "Kuttrame Thandanai (2016) Lotus DVDRip Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kathai-solla-porom-2016",
+  "title": "Kathai Solla Porom",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kathai-solla-porom-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/17931"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/17930"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/17929"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/17926"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:19:11.759Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kathai-solla-porom-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:18:59.562Z",
+   "sourceTitle": "Kathai Solla Porom (2016) DVDScr Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kida-poosari-magudi-2016",
+  "title": "Kida Poosari Magudi",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/kida-poosari-magudi-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/16300"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/16302"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/16301"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/16297"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:19:23.918Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kida-poosari-magudi-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:19:13.581Z",
+   "sourceTitle": "Kida Poosari Magudi (2016) DVDScr Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "kathirvel-kaaka-2015",
+  "title": "Kathirvel Kaaka",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/kathirvel-kaaka-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/1650"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/1651"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/1646"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/1649"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:19:37.760Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/kathirvel-kaaka-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:19:25.758Z",
+   "sourceTitle": "Kathirvel Kaaka (2015) DVDRip Tamil Movie",
+   "sourceYear": 2015,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "love-story-2021",
+  "title": "Love Story",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/love-story-2021-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/73722"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/love-story-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:19:48.898Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/love-story-2021-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:19:44.714Z",
+   "sourceTitle": "Love Story (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Sekhar Kammula"
+   ],
+   "cast": [
+    "Naga Chaitanya Akkineni",
+    "Sai Pallavi",
+    "Rajeev Kanakala"
+   ]
+  }
+ },
+ {
+  "id": "lift-2021",
+  "title": "LIFT",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/lift-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70250"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70247"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/lift-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:20:16.009Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lift-2021-movie/",
+   "fetchedAt": "2026-11-27T13:20:04.921Z",
+   "sourceTitle": "LIFT (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Vineeth"
+   ],
+   "cast": [
+    "Amritha Aiyer",
+    "Kavin"
+   ]
+  }
+ },
+ {
+  "id": "laabam-2021",
+  "title": "Laabam",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/laabam-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70501"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70499"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:20:28.714Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/laabam-2021-movie/",
+   "fetchedAt": "2026-11-27T13:20:17.924Z",
+   "sourceTitle": "Laabam (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "lucky-raja-2021",
+  "title": "Lucky Raja",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/lucky-raja-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68558"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68560"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:20:54.956Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lucky-raja-2021-movie/",
+   "fetchedAt": "2026-11-27T13:20:44.356Z",
+   "sourceTitle": "Lucky Raja (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "lollipops-2021",
+  "title": "Lollipops",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/lollipops-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66996"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66994"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:21:22.913Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lollipops-2021-movie/",
+   "fetchedAt": "2026-11-27T13:21:12.083Z",
+   "sourceTitle": "Lollipops (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "laxmii-2020",
+  "title": "Laxmii",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/laxmii-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65612"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65614"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/laxmii-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:21:35.366Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/laxmii-2020-movie/",
+   "fetchedAt": "2026-11-27T13:21:24.758Z",
+   "sourceTitle": "Laxmii (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Lawrence Raghavendra",
+    "Balakrishnan Thevar(co-director)"
+   ],
+   "cast": [
+    "Akshay Kumar",
+    "Kiara Advani",
+    "Sharad Kelkar",
+    "Tusshar Kapoor"
+   ]
+  }
+ },
+ {
+  "id": "lion-2015",
+  "title": "Lion",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/lion-2015-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65470"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65468"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/lion-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:21:48.009Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lion-2015-movie/",
+   "fetchedAt": "2026-11-27T13:21:37.203Z",
+   "sourceTitle": "Lion (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Troy Murray"
+   ],
+   "cast": [
+    "Lilly Lawrence",
+    "Troy Murray",
+    "Joseph Lee",
+    "David Huynh"
+   ]
+  }
+ },
+ {
+  "id": "lockup-2020",
+  "title": "Lockup",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/lockup-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64902"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64901"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/lockup-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:00.556Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lockup-2020-movie/",
+   "fetchedAt": "2026-11-27T13:21:49.899Z",
+   "sourceTitle": "Lockup (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "S.G. Charles"
+   ],
+   "cast": [
+    "Venkat Prabhu",
+    "Vani Bhojan",
+    "Vaibhav Reddy"
+   ]
+  }
+ },
+ {
+  "id": "loafer-2020",
+  "title": "Loafer",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/loafer-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64613"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64615"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/loafer-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:13.570Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/loafer-2020-movie/",
+   "fetchedAt": "2026-11-27T13:22:02.811Z",
+   "sourceTitle": "Loafer (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Puri Jagannadh"
+   ],
+   "cast": [
+    "Mahesh Achanta",
+    "Ali",
+    "Brahmanandam",
+    "Dhanraj"
+   ]
+  }
+ },
+ {
+  "id": "lee-2007",
+  "title": "Lee",
+  "year": 2007,
+  "pageUrl": "https://moviesda34.com/lee-2007-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64308"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:23.828Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lee-2007-movie/",
+   "fetchedAt": "2026-11-27T13:22:15.395Z",
+   "sourceTitle": "Lee (2007)",
+   "sourceYear": 2007,
+   "directors": [
+    "Prabu Solomon"
+   ],
+   "cast": [
+    "Sibiraj",
+    "Meera Chopra",
+    "Prakash Raj"
+   ]
+  }
+ },
+ {
+  "id": "laadam-2009",
+  "title": "Laadam",
+  "year": 2009,
+  "pageUrl": "https://moviesda34.com/laadam-2009-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64302"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:33.884Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/laadam-2009-movie/",
+   "fetchedAt": "2026-11-27T13:22:25.652Z",
+   "sourceTitle": "Laadam (2009)",
+   "sourceYear": 2009,
+   "directors": [
+    "Prabu Solomon"
+   ],
+   "cast": [
+    "Charmy Kaur",
+    "Babu Antony",
+    "Aravindhan",
+    "Dheeraj Kher"
+   ]
+  }
+ },
+ {
+  "id": "love-action-drama-2019",
+  "title": "Love Action Drama",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/love-action-drama-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64295"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:43.791Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/love-action-drama-2019-movie/",
+   "fetchedAt": "2026-11-27T13:22:35.769Z",
+   "sourceTitle": "Love Action Drama (2019) Tamil Movie",
+   "sourceYear": 2019,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "laila-o-laila-2017",
+  "title": "Laila o Laila",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/laila-o-laila-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/56996"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/56997"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:22:52.020Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/laila-o-laila-2017-movie/",
+   "fetchedAt": "2026-11-27T13:22:45.696Z",
+   "sourceTitle": "Laila o Laila (2017) Tamil Movie",
+   "sourceYear": 2017,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "lakshmi-2018",
+  "title": "Lakshmi",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/lakshmi-2018-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/55116"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55118"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/lakshmi-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:23:06.723Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/lakshmi-2018-movie/",
+   "fetchedAt": "2026-11-27T13:22:53.929Z",
+   "sourceTitle": "Lakshmi (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Vijay"
+   ],
+   "cast": [
+    "Prabhu Deva",
+    "Aishwarya Rajesh"
+   ]
+  }
+ },
+ {
+  "id": "maan-karate-2014",
+  "title": "Maan Karate",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/maan-karate-2014-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51727"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51724"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maan-karate-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:23:35.953Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maan-karate-2014-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:23:29.559Z",
+   "sourceTitle": "Maan Karate (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Thirukumaran"
+   ],
+   "cast": [
+    "Siva Karthikeyan",
+    "Hansika Motwani",
+    "Soori",
+    "Vamsi Krishna"
+   ]
+  }
+ },
+ {
+  "id": "maharani-2022",
+  "title": "Maharani",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/maharani-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/76244"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/76249"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maharani-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:24:25.068Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maharani-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:23:50.874Z",
+   "sourceTitle": "Maharani (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Akula Kasi Viswanath"
+   ],
+   "cast": [
+    "Yazurved Gurram",
+    "Rachana Inder",
+    "Sunil"
+   ]
+  }
+ },
+ {
+  "id": "madurai-manikkuravar-2022",
+  "title": "Madurai Manikkuravar",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/madurai-manikkuravar-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/74642"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/74639"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:25:07.572Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/madurai-manikkuravar-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:25:01.066Z",
+   "sourceTitle": "Madurai Manikkuravar (2022) Tamil Movie",
+   "sourceYear": 2022,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mapillai-thevai-2022",
+  "title": "Mapillai Thevai",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/mapillai-thevai-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/74475"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mapillai-thevai-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:25:13.555Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mapillai-thevai-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:25:09.439Z",
+   "sourceTitle": "Mapillai Thevai (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Lakshmi Sowjanya"
+   ],
+   "cast": [
+    "Mahesh Achanta",
+    "Ananth",
+    "Vaishnavi Chaitanya"
+   ]
+  }
+ },
+ {
+  "id": "maha-samudram-2021",
+  "title": "Maha Samudram",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maha-samudram-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70822"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70820"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maha-samudram-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:26:05.960Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maha-samudram-2021-movie/",
+   "fetchedAt": "2026-11-27T13:25:55.169Z",
+   "sourceTitle": "Maha Samudram (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Ajay Bhupathi"
+   ],
+   "cast": [
+    "Jagapathi Babu",
+    "Anu Emmanuel",
+    "Aditi Rao Hydari"
+   ]
+  }
+ },
+ {
+  "id": "manameh-ketkava-2021",
+  "title": "Manameh Ketkava",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/manameh-ketkava-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70710"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70709"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:26:18.493Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manameh-ketkava-2021-movie/",
+   "fetchedAt": "2026-11-27T13:26:07.816Z",
+   "sourceTitle": "Manameh Ketkava (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mughizh-2021",
+  "title": "Mughizh",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mughizh-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70683"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:26:28.871Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mughizh-2021-movie/",
+   "fetchedAt": "2026-11-27T13:26:20.504Z",
+   "sourceTitle": "Mughizh (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mgr-magan-2021",
+  "title": "MGR Magan",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mgr-magan-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70625"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70623"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mgr-magan-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:26:41.253Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mgr-magan-2021-movie/",
+   "fetchedAt": "2026-11-27T13:26:30.658Z",
+   "sourceTitle": "MGR Magan (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Ponram"
+   ],
+   "cast": [
+    "Pala Karuppaiah",
+    "Saranya Ponvannan",
+    "Mirnalini Ravi"
+   ]
+  }
+ },
+ {
+  "id": "maanasi-2021",
+  "title": "Maanasi",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maanasi-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70587"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70589"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maanasi-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:26:53.876Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maanasi-2021-movie/",
+   "fetchedAt": "2026-11-27T13:26:43.272Z",
+   "sourceTitle": "Maanasi (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Navaz Suleiman"
+   ],
+   "cast": [
+    "Harissa Beegum",
+    "Naresh Madeswar"
+   ]
+  }
+ },
+ {
+  "id": "maaya-nizhal-2021",
+  "title": "Maaya Nizhal",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maaya-nizhal-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70553"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70551"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maaya-nizhal-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:27:06.243Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maaya-nizhal-2021-movie/",
+   "fetchedAt": "2026-11-27T13:26:55.703Z",
+   "sourceTitle": "Maaya Nizhal (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Appu N. Bhattathiri"
+   ],
+   "cast": [
+    "Nayanthara",
+    "Kunchacko Boban",
+    "Izin Hash"
+   ]
+  }
+ },
+ {
+  "id": "mugizh-2021",
+  "title": "Mugizh",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mugizh-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70330"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70332"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:27:18.671Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mugizh-2021-movie/",
+   "fetchedAt": "2026-11-27T13:27:08.037Z",
+   "sourceTitle": "Mugizh (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mr-and-mrs-arjun-2021",
+  "title": "Mr and Mrs Arjun",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mr-and-mrs-arjun-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70092"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70094"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:27:31.177Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mr-and-mrs-arjun-2021-movie/",
+   "fetchedAt": "2026-11-27T13:27:20.548Z",
+   "sourceTitle": "Mr and Mrs Arjun (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "methagu-2021",
+  "title": "Methagu",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/methagu-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/69208"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/69206"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:27:43.275Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/methagu-2021-movie/",
+   "fetchedAt": "2026-11-27T13:27:32.994Z",
+   "sourceTitle": "Methagu (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "marai-vaasi-2021",
+  "title": "Marai Vaasi",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/marai-vaasi-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68666"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68665"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:27:55.865Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/marai-vaasi-2021-movie/",
+   "fetchedAt": "2026-11-27T13:27:45.164Z",
+   "sourceTitle": "Marai Vaasi (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "malaysia-to-amnesia-2021",
+  "title": "Malaysia to Amnesia",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/malaysia-to-amnesia-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68639"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68636"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:28:08.144Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/malaysia-to-amnesia-2021-movie/",
+   "fetchedAt": "2026-11-27T13:27:57.734Z",
+   "sourceTitle": "Malaysia to Amnesia (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mei-maranthen-2021",
+  "title": "Mei Maranthen",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mei-maranthen-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68382"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68384"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:28:21.033Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mei-maranthen-2021-movie/",
+   "fetchedAt": "2026-11-27T13:28:10.345Z",
+   "sourceTitle": "Mei Maranthen (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maasi-veedhi-2021",
+  "title": "Maasi Veedhi",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maasi-veedhi-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68364"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68366"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:28:33.337Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maasi-veedhi-2021-movie/",
+   "fetchedAt": "2026-11-27T13:28:22.886Z",
+   "sourceTitle": "Maasi Veedhi (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mmof-2021",
+  "title": "MMOF",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mmof-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68277"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68279"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:28:45.986Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mmof-2021-movie/",
+   "fetchedAt": "2026-11-27T13:28:35.151Z",
+   "sourceTitle": "MMOF (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mirchi-masala-2021",
+  "title": "Mirchi Masala",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mirchi-masala-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68095"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68092"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:28:59.389Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mirchi-masala-2021-movie/",
+   "fetchedAt": "2026-11-27T13:28:48.299Z",
+   "sourceTitle": "Mirchi Masala (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maraivaasi-2021",
+  "title": "Maraivaasi",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maraivaasi-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68068"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68066"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maraivaasi-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:29:11.771Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maraivaasi-2021-movie/",
+   "fetchedAt": "2026-11-27T13:29:01.216Z",
+   "sourceTitle": "Maraivaasi (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Trivikram Srinivas"
+   ],
+   "cast": [
+    "Pawan Kalyan",
+    "Keerthy Suresh",
+    "Anu Emmanuel",
+    "Aadhi Pinisetty"
+   ]
+  }
+ },
+ {
+  "id": "mathil-2021",
+  "title": "Mathil",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mathil-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68008"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68007"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mathil-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:29:24.138Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mathil-2021-movie/",
+   "fetchedAt": "2026-11-27T13:29:13.637Z",
+   "sourceTitle": "Mathil (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Mithran Jawahar"
+   ],
+   "cast": [
+    "K.S. Ravikumar",
+    "Mime Gopi",
+    "Dhivya Dhuraisamy"
+   ]
+  }
+ },
+ {
+  "id": "mandela-2021",
+  "title": "Mandela",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mandela-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68295"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68293"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mandela-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:29:36.339Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mandela-2021-movie/",
+   "fetchedAt": "2026-11-27T13:29:25.967Z",
+   "sourceTitle": "Mandela (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Madonne Ashwin"
+   ],
+   "cast": [
+    "Yogi Babu",
+    "Sheela Rajkumar",
+    "Sangili Murugan",
+    "Kanna Ravi"
+   ]
+  }
+ },
+ {
+  "id": "manja-satta-pachcha-satta-2021",
+  "title": "Manja Satta Pachcha Satta",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/manja-satta-pachcha-satta-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68113"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68111"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/manja-satta-pachcha-satta-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:29:48.776Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manja-satta-pachcha-satta-2021-movie/",
+   "fetchedAt": "2026-11-27T13:29:38.214Z",
+   "sourceTitle": "Manja Satta Pachcha Satta (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Thamba Kutti Bambrosky"
+   ],
+   "cast": [
+    "Guru Somasundaram",
+    "Adhithya Varman",
+    "Renu Soundar"
+   ]
+  }
+ },
+ {
+  "id": "michaelpatty-raja-2021",
+  "title": "Michaelpatty Raja",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/michaelpatty-raja-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67735"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67737"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:30:01.265Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/michaelpatty-raja-2021-movie/",
+   "fetchedAt": "2026-11-27T13:29:50.611Z",
+   "sourceTitle": "Michaelpatty Raja (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mirugaa-2021",
+  "title": "Mirugaa",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/mirugaa-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67868"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67869"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mirugaa-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:30:14.118Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mirugaa-2021-movie/",
+   "fetchedAt": "2026-11-27T13:30:03.458Z",
+   "sourceTitle": "Mirugaa (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Aruldev"
+   ],
+   "cast": [
+    "Srikanth Krishnamachari",
+    "Raai Laxmi"
+   ]
+  }
+ },
+ {
+  "id": "murder-2021",
+  "title": "Murder",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/murder-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67254"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67251"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:30:26.680Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/murder-2021-movie/",
+   "fetchedAt": "2026-11-27T13:30:15.949Z",
+   "sourceTitle": "Murder (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "meka-suri-2021",
+  "title": "Meka Suri",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/meka-suri-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67030"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67028"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:30:39.309Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meka-suri-2021-movie/",
+   "fetchedAt": "2026-11-27T13:30:28.513Z",
+   "sourceTitle": "Meka Suri (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maya-2015",
+  "title": "Maya",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/maya-2015-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66573"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:30:49.424Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maya-2015-movie/",
+   "fetchedAt": "2026-11-27T13:30:41.174Z",
+   "sourceTitle": "Maya (2015) Tamil Movie",
+   "sourceYear": 2015,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maara-2021",
+  "title": "Maara",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/maara-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66435"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66436"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maara-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:31:04.226Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maara-2021-movie/",
+   "fetchedAt": "2026-11-27T13:30:51.241Z",
+   "sourceTitle": "Maara (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Dhilip Kumar"
+   ],
+   "cast": [
+    "Madhavan",
+    "Shraddha Srinath"
+   ]
+  }
+ },
+ {
+  "id": "mayanginen-2020",
+  "title": "Mayanginen",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mayanginen-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66421"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:31:14.314Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mayanginen-2020-movie/",
+   "fetchedAt": "2026-11-27T13:31:06.106Z",
+   "sourceTitle": "Mayanginen (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "middle-class-melodies-2020",
+  "title": "Middle Class Melodies",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/middle-class-melodies-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66341"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66343"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/middle-class-melodies-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:31:27.057Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/middle-class-melodies-2020-movie/",
+   "fetchedAt": "2026-11-27T13:31:16.195Z",
+   "sourceTitle": "Middle Class Melodies (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Vinod Anantoju"
+   ],
+   "cast": [
+    "Anand Deverakonda",
+    "Varsha Bollamma",
+    "Divya Drishti",
+    "Chanakya Tejas"
+   ]
+  }
+ },
+ {
+  "id": "miya-2020",
+  "title": "Miya",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/miya-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66228"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66230"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:31:39.312Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/miya-2020-movie/",
+   "fetchedAt": "2026-11-27T13:31:28.882Z",
+   "sourceTitle": "Miya (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maanidan-2020",
+  "title": "Maanidan",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/maanidan-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66123"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66121"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:31:51.788Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maanidan-2020-movie/",
+   "fetchedAt": "2026-11-27T13:31:41.149Z",
+   "sourceTitle": "Maanidan (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maggy-2019",
+  "title": "Maggy",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/maggy-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66104"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maggy-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:32:02.269Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maggy-2019-movie/",
+   "fetchedAt": "2026-11-27T13:31:53.731Z",
+   "sourceTitle": "Maggy (2019)",
+   "sourceYear": 2019,
+   "directors": [
+    "Karthikeyan Jagadeesh"
+   ],
+   "cast": [
+    "Harini",
+    "Nimmy",
+    "Reyaa",
+    "Sairam"
+   ]
+  }
+ },
+ {
+  "id": "mirzapur-season-2-2020",
+  "title": "Mirzapur Season 2",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mirzapur-season-2-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65965"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65970"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:32:38.024Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mirzapur-season-2-2020-movie/",
+   "fetchedAt": "2026-11-27T13:32:04.111Z",
+   "sourceTitle": "Mirzapur Season 2 (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mookuthi-amman-2020",
+  "title": "Mookuthi Amman",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mookuthi-amman-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65506"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65508"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:32:50.731Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mookuthi-amman-2020-movie/",
+   "fetchedAt": "2026-11-27T13:32:40.017Z",
+   "sourceTitle": "Mookuthi Amman (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "miss-india-2020",
+  "title": "Miss India",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/miss-india-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65452"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65454"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/miss-india-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:33:03.666Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/miss-india-2020-movie/",
+   "fetchedAt": "2026-11-27T13:32:52.589Z",
+   "sourceTitle": "Miss India (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Narendra Nath"
+   ],
+   "cast": [
+    "Keerthi Suresh",
+    "Naveen Chandra",
+    "Jagapathi Babu",
+    "Nadia Moidu"
+   ]
+  }
+ },
+ {
+  "id": "majili-2019",
+  "title": "Majili",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/majili-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65425"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65427"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/majili-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:33:16.216Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/majili-2019-movie/",
+   "fetchedAt": "2026-11-27T13:33:05.578Z",
+   "sourceTitle": "Majili (2019)",
+   "sourceYear": 2019,
+   "directors": [
+    "Shiva Nirvana"
+   ],
+   "cast": [
+    "Samantha Ruth Prabhu",
+    "Atul Kulkarni",
+    "Naga Chaitanya Akkineni",
+    "Divyansha Kaushik"
+   ]
+  }
+ },
+ {
+  "id": "maalai-pozhudhin-mayakathilaey-2012",
+  "title": "Maalai Pozhudhin Mayakathilaey",
+  "year": 2012,
+  "pageUrl": "https://moviesda34.com/maalai-pozhudhin-mayakathilaey-2012-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65226"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maalai-pozhudhin-mayakathilaey-2012.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:33:26.230Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maalai-pozhudhin-mayakathilaey-2012-movie/",
+   "fetchedAt": "2026-11-27T13:33:18.026Z",
+   "sourceTitle": "Maalai Pozhudhin Mayakathilaey (2012)",
+   "sourceYear": 2012,
+   "directors": [
+    "Narayan Nagendra Rao"
+   ],
+   "cast": [
+    "Aari"
+   ]
+  }
+ },
+ {
+  "id": "metro-maalai-2019",
+  "title": "Metro Maalai",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/metro-maalai-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65220"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:33:36.748Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/metro-maalai-2019-movie/",
+   "fetchedAt": "2026-11-27T13:33:28.119Z",
+   "sourceTitle": "Metro Maalai (2019) Tamil Movie",
+   "sourceYear": 2019,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "madham-2020",
+  "title": "Madham",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/madham-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65097"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65095"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:33:49.828Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/madham-2020-movie/",
+   "fetchedAt": "2026-11-27T13:33:39.142Z",
+   "sourceTitle": "Madham (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mummy-save-me-2020",
+  "title": "Mummy Save Me",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mummy-save-me-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/65055"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/65057"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:34:02.277Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mummy-save-me-2020-movie/",
+   "fetchedAt": "2026-11-27T13:33:51.699Z",
+   "sourceTitle": "Mummy Save Me (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "market-raja-mbbs-2019",
+  "title": "Market Raja MBBS",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/market-raja-mbbs-2019-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64982"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64979"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/market-raja-mbbs-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:34:14.888Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/market-raja-mbbs-2019-movie/",
+   "fetchedAt": "2026-11-27T13:34:04.165Z",
+   "sourceTitle": "Market Raja MBBS (2019)",
+   "sourceYear": 2019,
+   "directors": [
+    "Saran"
+   ],
+   "cast": [
+    "Aarav Nafeez",
+    "Kavya Thapar",
+    "Nikesha Patel"
+   ]
+  }
+ },
+ {
+  "id": "moondrezhuthil-en-moochirukkum-1991",
+  "title": "Moondrezhuthil En Moochirukkum",
+  "year": 1991,
+  "pageUrl": "https://moviesda34.com/moondrezhuthil-en-moochirukkum-1991-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64909"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:34:25.030Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/moondrezhuthil-en-moochirukkum-1991-movie/",
+   "fetchedAt": "2026-11-27T13:34:16.777Z",
+   "sourceTitle": "Moondrezhuthil En Moochirukkum (1991) Tamil Movie",
+   "sourceYear": 1991,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "murattu-thambi-2018",
+  "title": "Murattu Thambi",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/murattu-thambi-2018-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64844"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:34:35.007Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/murattu-thambi-2018-movie/",
+   "fetchedAt": "2026-11-27T13:34:26.895Z",
+   "sourceTitle": "Murattu Thambi (2018) Tamil Movie",
+   "sourceYear": 2018,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mugundan-2014",
+  "title": "Mugundan",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/mugundan-2014-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64781"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64783"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:34:47.642Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mugundan-2014-movie/",
+   "fetchedAt": "2026-11-27T13:34:36.818Z",
+   "sourceTitle": "Mugundan (2014) Tamil Movie",
+   "sourceYear": 2014,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mister-2017",
+  "title": "Mister",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/mister-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64763"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64765"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mister-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:00.143Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mister-2017-movie/",
+   "fetchedAt": "2026-11-27T13:34:49.475Z",
+   "sourceTitle": "Mister (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Sreenu Vaitla"
+   ],
+   "cast": [
+    "Varun Tej",
+    "Lavanya Tripathi",
+    "Hebah Patel",
+    "Abhay"
+   ]
+  }
+ },
+ {
+  "id": "muthal-seethanam-1992",
+  "title": "Muthal Seethanam",
+  "year": 1992,
+  "pageUrl": "https://moviesda34.com/muthal-seethanam-1992-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64709"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:10.324Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/muthal-seethanam-1992-movie/",
+   "fetchedAt": "2026-11-27T13:35:01.985Z",
+   "sourceTitle": "Muthal Seethanam (1992) Tamil Movie",
+   "sourceYear": 1992,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "madhura-raja-2019",
+  "title": "Madhura Raja",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/madhura-raja-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64692"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64694"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/62316"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/62318"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/madhura-raja-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:22.789Z",
+  "updatedAt": "2026-11-27T13:37:47.727Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/madhura-raja-tamil-movie-moviesda/",
+   "fetchedAt": "2026-11-27T13:37:37.195Z",
+   "sourceTitle": "Madhura Raja (2019) Tamil Movie",
+   "sourceYear": 2019,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "ms-dhoni-the-untold-story-2016",
+  "title": "MS Dhoni The Untold Story",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/ms-dhoni-the-untold-story-2016-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64630"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/ms-dhoni-the-untold-story-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:33.131Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/ms-dhoni-the-untold-story-2016-movie/",
+   "fetchedAt": "2026-11-27T13:35:24.638Z",
+   "sourceTitle": "MS Dhoni The Untold Story (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Neeraj Pandey"
+   ],
+   "cast": [
+    "Sushant Singh Rajput",
+    "Kiara Advani",
+    "Anupam Kher",
+    "Disha Patani"
+   ]
+  }
+ },
+ {
+  "id": "mamakiki-2020",
+  "title": "MaMaKiKi",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mamakiki-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64595"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64597"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:45.887Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mamakiki-2020-movie/",
+   "fetchedAt": "2026-11-27T13:35:35.049Z",
+   "sourceTitle": "MaMaKiKi (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "manathil-uruthi-vendum-1987",
+  "title": "Manathil Uruthi Vendum",
+  "year": 1987,
+  "pageUrl": "https://moviesda34.com/manathil-uruthi-vendum-1987-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64588"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/manathil-uruthi-vendum-1987.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:35:56.102Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manathil-uruthi-vendum-1987-movie/",
+   "fetchedAt": "2026-11-27T13:35:47.757Z",
+   "sourceTitle": "Manathil Uruthi Vendum (1987)",
+   "sourceYear": 1987,
+   "directors": [
+    "K. Balachander"
+   ],
+   "cast": [
+    "Suhasini",
+    "S.P. Balasubrahmanyam",
+    "Ramesh Aravind",
+    "Rajinikanth"
+   ]
+  }
+ },
+ {
+  "id": "mla-2020",
+  "title": "MLA",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mla-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64418"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64419"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:36:08.896Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mla-2020-movie/",
+   "fetchedAt": "2026-11-27T13:35:57.930Z",
+   "sourceTitle": "MLA (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mrs-serial-killer-2020",
+  "title": "Mrs Serial Killer",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mrs-serial-killer-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64401"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64404"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mrs-serial-killer-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:36:21.683Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mrs-serial-killer-2020-movie/",
+   "fetchedAt": "2026-11-27T13:36:10.865Z",
+   "sourceTitle": "Mrs Serial Killer (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Shirish Kunder"
+   ],
+   "cast": [
+    "Jacqueline Fernandez",
+    "Manoj Bajpayee"
+   ]
+  }
+ },
+ {
+  "id": "mudinja-vaazhu-2020",
+  "title": "Mudinja Vaazhu",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mudinja-vaazhu-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64288"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64290"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:36:34.208Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mudinja-vaazhu-2020-movie/",
+   "fetchedAt": "2026-11-27T13:36:23.519Z",
+   "sourceTitle": "Mudinja Vaazhu (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "meendum-oru-mariyathai-2020",
+  "title": "Meendum Oru Mariyathai",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/meendum-oru-mariyathai-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64123"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64120"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/meendum-oru-mariyathai-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:36:46.615Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meendum-oru-mariyathai-2020-movie/",
+   "fetchedAt": "2026-11-27T13:36:36.077Z",
+   "sourceTitle": "Meendum Oru Mariyathai (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Bharathiraja"
+   ],
+   "cast": [
+    "Bharathiraja",
+    "Joe Malloori",
+    "Nakshatra"
+   ]
+  }
+ },
+ {
+  "id": "marina-puratchi-2019",
+  "title": "Marina Puratchi",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/marina-puratchi-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/63968"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/63970"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:36:59.062Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/marina-puratchi-2019-movie/",
+   "fetchedAt": "2026-11-27T13:36:48.630Z",
+   "sourceTitle": "Marina Puratchi (2019) Tamil Movie",
+   "sourceYear": 2019,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "manmadhan-2-2019",
+  "title": "Manmadhan 2",
+  "year": 2019,
+  "pageUrl": "https://moviesda34.com/manmadhan-2-2019-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/63950"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/63949"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/manmadhan-2-2019.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:37:11.447Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manmadhan-2-2019-movie/",
+   "fetchedAt": "2026-11-27T13:37:00.899Z",
+   "sourceTitle": "Manmadhan 2 (2019)",
+   "sourceYear": 2019,
+   "directors": [
+    "Rahul Ravindran"
+   ],
+   "cast": [
+    "Nagarjuna Akkineni",
+    "Rakul Preet Singh",
+    "Vennela Kishore",
+    "Rao Ramesh"
+   ]
+  }
+ },
+ {
+  "id": "mafia-chapter-1-2020",
+  "title": "Mafia Chapter 1",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/mafia-chapter-1-2020-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64147"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/64185"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64145"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/64183"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mafia-chapter-1-2020.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:37:35.067Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mafia-chapter-1-2020-movie/",
+   "fetchedAt": "2026-11-27T13:37:13.557Z",
+   "sourceTitle": "Mafia Chapter 1 (2020)",
+   "sourceYear": 2020,
+   "directors": [
+    "Karthick Naren"
+   ],
+   "cast": [
+    "Arun Vijay"
+   ]
+  }
+ },
+ {
+  "id": "muppozhudhum-un-karpanaigal-2012",
+  "title": "Muppozhudhum Un Karpanaigal",
+  "year": 2012,
+  "pageUrl": "https://moviesda34.com/muppozhudhum-un-karpanaigal-2012-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55629"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/muppozhudhum-un-karpanaigal-2012.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:37:53.799Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/muppozhudhum-un-karpanaigal-2012-movie/",
+   "fetchedAt": "2026-11-27T13:37:49.602Z",
+   "sourceTitle": "Muppozhudhum Un Karpanaigal (2012)",
+   "sourceYear": 2012,
+   "directors": [
+    "Elred Kumar"
+   ],
+   "cast": [
+    "Atharvaa Murali",
+    "Amala Paul",
+    "Anupama Kumar",
+    "Santhanam"
+   ]
+  }
+ },
+ {
+  "id": "mohini-2018",
+  "title": "Mohini",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/mohini-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54996"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54994"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:38:19.584Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mohini-2018-movie/",
+   "fetchedAt": "2026-11-27T13:38:08.794Z",
+   "sourceTitle": "Mohini (2018) Tamil Movie",
+   "sourceYear": 2018,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "maniyar-kudumbam-2018",
+  "title": "Maniyar Kudumbam",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/maniyar-kudumbam-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/55059"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/55057"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maniyar-kudumbam-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:38:34.018Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maniyar-kudumbam-2018-movie/",
+   "fetchedAt": "2026-11-27T13:38:21.477Z",
+   "sourceTitle": "Maniyar Kudumbam (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Thambi Ramaiah"
+   ],
+   "cast": [
+    "Mottai Rajendran",
+    "Thambi Ramaiah",
+    "Samuthirakani"
+   ]
+  }
+ },
+ {
+  "id": "merlin-2018",
+  "title": "Merlin",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/merlin-2018-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54650"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54652"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:38:49.033Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/merlin-2018-movie/",
+   "fetchedAt": "2026-11-27T13:38:36.061Z",
+   "sourceTitle": "Merlin (2018) Tamil Movie",
+   "sourceYear": 2018,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "mr-chandramouli-2018",
+  "title": "Mr Chandramouli",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/mr-chandramouli-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54863"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54793"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54795"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mr-chandramouli-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:39:17.537Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mr-chandramouli-2018-movie/",
+   "fetchedAt": "2026-11-27T13:38:50.881Z",
+   "sourceTitle": "Mr Chandramouli (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Thiru"
+   ],
+   "cast": [
+    "Agathiyan",
+    "Regina Cassandra",
+    "Viji Chandrashekhar"
+   ]
+  }
+ },
+ {
+  "id": "manusana-nee-2018",
+  "title": "Manusana Nee",
+  "year": 2018,
+  "pageUrl": "https://moviesda34.com/manusana-nee-2018-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/54487"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/54485"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/manusana-nee-2018.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:39:29.955Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manusana-nee-2018-movie/",
+   "fetchedAt": "2026-11-27T13:39:19.393Z",
+   "sourceTitle": "Manusana Nee (2018)",
+   "sourceYear": 2018,
+   "directors": [
+    "Ghazali"
+   ],
+   "cast": [
+    "Aadarsh Balakrishna",
+    "Rimala Ballan",
+    "Manishaa Kaur",
+    "Anu Krishna"
+   ]
+  }
+ },
+ {
+  "id": "mersal-2017",
+  "title": "Mersal",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/mersal-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52896"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52893"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mersal-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:39:38.566Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mersal-2017-movie/",
+   "fetchedAt": "2026-11-27T13:39:31.840Z",
+   "sourceTitle": "Mersal (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Atlee Kumar"
+   ],
+   "cast": [
+    "Samantha",
+    "Vijay",
+    "Sathyaraj",
+    "Surya S.J."
+   ]
+  }
+ },
+ {
+  "id": "meyaadha-maan-2017",
+  "title": "Meyaadha Maan",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/meyaadha-maan-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52848"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52839"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/meyaadha-maan-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:39:46.829Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meyaadha-maan-2017-movie/",
+   "fetchedAt": "2026-11-27T13:39:40.381Z",
+   "sourceTitle": "Meyaadha Maan (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Rathna Kumar"
+   ],
+   "cast": [
+    "Indhuja",
+    "Vivek Prasanna",
+    "Arun Prasath"
+   ]
+  }
+ },
+ {
+  "id": "masala-padam-2015",
+  "title": "Masala Padam",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/masala-padam-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52188"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52191"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/masala-padam-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:39:55.141Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/masala-padam-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:39:48.713Z",
+   "sourceTitle": "Masala Padam (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Laxman Kumar"
+   ],
+   "cast": [
+    "Shiva",
+    "Bobby Simha",
+    "Gaurav",
+    "Lakshmi Devy"
+   ]
+  }
+ },
+ {
+  "id": "meendum-oru-kadhal-kadhai-2016",
+  "title": "Meendum Oru Kadhal Kadhai",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/meendum-oru-kadhal-kadhai-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52108"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52105"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/meendum-oru-kadhal-kadhai-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:03.586Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meendum-oru-kadhal-kadhai-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:39:57.056Z",
+   "sourceTitle": "Meendum Oru Kadhal Kadhai (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Mithran Jawahar"
+   ],
+   "cast": [
+    "Arjunan",
+    "Dhivya",
+    "Srm Dhivya",
+    "Venkatesh Harinathan"
+   ]
+  }
+ },
+ {
+  "id": "maaveeran-kittu-2016",
+  "title": "Maaveeran Kittu",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/maaveeran-kittu-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52100"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52097"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maaveeran-kittu-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:12.149Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maaveeran-kittu-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:40:05.469Z",
+   "sourceTitle": "Maaveeran Kittu (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Suseenthiran"
+   ],
+   "cast": [
+    "Sri Divya",
+    "Parthiban",
+    "Soori",
+    "Vishnu Vishal"
+   ]
+  }
+ },
+ {
+  "id": "masss-2015",
+  "title": "Masss",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/masss-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51661"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51664"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/masss-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:20.413Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/masss-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:40:14.021Z",
+   "sourceTitle": "Masss (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Venkat Prabhu"
+   ],
+   "cast": [
+    "Suriya",
+    "Nayanthara",
+    "Parthiban",
+    "Samuthirakani"
+   ]
+  }
+ },
+ {
+  "id": "magalir-mattum-2017",
+  "title": "Magalir Mattum",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/magalir-mattum-2017-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51634"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51636"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/magalir-mattum-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:28.909Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/magalir-mattum-2017-movie/",
+   "fetchedAt": "2026-11-27T13:40:22.603Z",
+   "sourceTitle": "Magalir Mattum (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Bramma G."
+   ],
+   "cast": [
+    "Jyothika",
+    "Urvashi",
+    "Saranya",
+    "Bhanupriya"
+   ]
+  }
+ },
+ {
+  "id": "moondraam-ullaga-por-2016",
+  "title": "Moondraam Ullaga Por",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/moondraam-ullaga-por-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51425"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51428"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/moondraam-ullaga-por-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:37.425Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/moondraam-ullaga-por-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:40:30.717Z",
+   "sourceTitle": "Moondraam Ullaga Por (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Sugan Kartthi"
+   ],
+   "cast": [
+    "Sunil Kumar",
+    "Wilson Ng",
+    "Jennifer Antony",
+    "Avinash"
+   ]
+  }
+ },
+ {
+  "id": "moodar-koodam-2013",
+  "title": "Moodar Koodam",
+  "year": 2013,
+  "pageUrl": "https://moviesda34.com/moodar-koodam-2013-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51381"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51378"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/moodar-koodam-2013.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:40:45.810Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/moodar-koodam-2013-movie/",
+   "fetchedAt": "2026-11-27T13:40:39.289Z",
+   "sourceTitle": "Moodar Koodam (2013)",
+   "sourceYear": 2013,
+   "directors": [
+    "Naveen"
+   ],
+   "cast": [
+    "Naveen",
+    "Sentrayan",
+    "Rajaj",
+    "Kuberan"
+   ]
+  }
+ },
+ {
+  "id": "mundasupatti-2014",
+  "title": "Mundasupatti",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/mundasupatti-2014-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51231"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51228"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mundasupatti-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:02.965Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mundasupatti-2014-movie/",
+   "fetchedAt": "2026-11-27T13:40:56.382Z",
+   "sourceTitle": "Mundasupatti (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Ram"
+   ],
+   "cast": [
+    "Vishnu Vishal",
+    "Nandita Shwetha",
+    "Anand Raj"
+   ]
+  }
+ },
+ {
+  "id": "manithan-2016",
+  "title": "Manithan",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/manithan-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51122"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51119"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/manithan-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:11.074Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/manithan-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:41:04.779Z",
+   "sourceTitle": "Manithan (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "I. Ahmed"
+   ],
+   "cast": [
+    "Udhayanidhi Stalin",
+    "Prakash Raj",
+    "Hansika Motwani",
+    "Suraj"
+   ]
+  }
+ },
+ {
+  "id": "megha-2014",
+  "title": "Megha",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/megha-2014-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51090"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51093"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/megha-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:19.305Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/megha-2014-movie/",
+   "fetchedAt": "2026-11-27T13:41:12.972Z",
+   "sourceTitle": "Megha (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Karthick Rishi"
+   ],
+   "cast": [
+    "Ashwin Kakumanu",
+    "Srushti Dange",
+    "Angana Roy",
+    "V. Jayaprakash"
+   ]
+  }
+ },
+ {
+  "id": "meera-jaakirathai-2016",
+  "title": "Meera Jaakirathai",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/meera-jaakirathai-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/51069"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/51066"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/meera-jaakirathai-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:27.835Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meera-jaakirathai-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:41:21.100Z",
+   "sourceTitle": "Meera Jaakirathai (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "R.G. Kesavan"
+   ],
+   "cast": [
+    "Bobby Simha",
+    "Mounika",
+    "Sri Priya",
+    "Ramalingam"
+   ]
+  }
+ },
+ {
+  "id": "maharani-kottai-2014",
+  "title": "Maharani Kottai",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/maharani-kottai-2014-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/50920"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/50917"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maharani-kottai-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:36.231Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maharani-kottai-2014-movie/",
+   "fetchedAt": "2026-11-27T13:41:29.728Z",
+   "sourceTitle": "Maharani Kottai (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Vinod Kumar B"
+   ],
+   "cast": [
+    "Ganja Karuppu",
+    "Ashwin Raja",
+    "Richard Rishi"
+   ]
+  }
+ },
+ {
+  "id": "maari-2015",
+  "title": "Maari",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/maari-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/50737"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/50740"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maari-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:44.455Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maari-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:41:38.113Z",
+   "sourceTitle": "Maari (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Balaji Mohan"
+   ],
+   "cast": [
+    "Dhanush",
+    "Kajal Aggarwal",
+    "Vijay Yesudas",
+    "Robo Shankar"
+   ]
+  }
+ },
+ {
+  "id": "muthukku-muthaga-2011",
+  "title": "Muthukku Muthaga",
+  "year": 2011,
+  "pageUrl": "https://moviesda34.com/muthukku-muthaga-2011-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/49725"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/49728"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/muthukku-muthaga-2011.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:41:53.051Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/muthukku-muthaga-2011-movie/",
+   "fetchedAt": "2026-11-27T13:41:46.372Z",
+   "sourceTitle": "Muthukku Muthaga (2011)",
+   "sourceYear": 2011,
+   "directors": [
+    "Rasu Madhuravan"
+   ],
+   "cast": [
+    "Gayathri",
+    "Harish",
+    "Ilavarasu",
+    "Janaki"
+   ]
+  }
+ },
+ {
+  "id": "mom-2017",
+  "title": "Mom",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/mom-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/52213"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/52210"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mom-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:42:01.255Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mom-2017-movie/",
+   "fetchedAt": "2026-11-27T13:41:54.852Z",
+   "sourceTitle": "Mom (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Ravi Udyawar"
+   ],
+   "cast": [
+    "Sridevi Kapoor"
+   ]
+  }
+ },
+ {
+  "id": "moone-moonu-varthai-2015",
+  "title": "Moone Moonu Varthai",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/moone-moonu-varthai-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/48284"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/48287"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/moone-moonu-varthai-2015.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:42:09.478Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/moone-moonu-varthai-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:42:03.100Z",
+   "sourceTitle": "Moone Moonu Varthai (2015)",
+   "sourceYear": 2015,
+   "directors": [
+    "Madhumita Sundararaman"
+   ],
+   "cast": [
+    "Arjun Chidambaram",
+    "Aditi Chengappa",
+    "Venkatesh"
+   ]
+  }
+ },
+ {
+  "id": "metro-2016",
+  "title": "Metro",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/metro-2016-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46008"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46005"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/metro-2016.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:42:28.162Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/metro-2016-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:42:21.719Z",
+   "sourceTitle": "Metro (2016)",
+   "sourceYear": 2016,
+   "directors": [
+    "Ananda Krishnan"
+   ],
+   "cast": [
+    "Shirish",
+    "Bobby Simha",
+    "Yogi Babu",
+    "Nishanth"
+   ]
+  }
+ },
+ {
+  "id": "maragatha-naanayam-2017",
+  "title": "Maragatha Naanayam",
+  "year": 2017,
+  "pageUrl": "https://moviesda34.com/maragatha-naanayam-2017-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46419"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/46417"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/46423"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maragatha-naanayam-2017.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:42:38.898Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maragatha-naanayam-2017-movie/",
+   "fetchedAt": "2026-11-27T13:42:29.972Z",
+   "sourceTitle": "Maragatha Naanayam (2017)",
+   "sourceYear": 2017,
+   "directors": [
+    "Ark Saravan"
+   ],
+   "cast": [
+    "Aadhi",
+    "Anandraj",
+    "M.S. Baskar"
+   ]
+  }
+ },
+ {
+  "id": "mayakkam-enna-2011",
+  "title": "Mayakkam Enna",
+  "year": 2011,
+  "pageUrl": "https://moviesda34.com/mayakkam-enna-2011-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/42105"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42102"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/mayakkam-enna-2011.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:42:50.003Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/mayakkam-enna-2011-movie/",
+   "fetchedAt": "2026-11-27T13:42:41.125Z",
+   "sourceTitle": "Mayakkam Enna (2011)",
+   "sourceYear": 2011,
+   "directors": [
+    "K. Selvaraghavan"
+   ],
+   "cast": [
+    "Dhanush",
+    "Richa Gangopadhyay",
+    "Sunder Ramu"
+   ]
+  }
+ },
+ {
+  "id": "maryan-2013",
+  "title": "Maryan",
+  "year": 2013,
+  "pageUrl": "https://moviesda34.com/maryan-2013-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/42084"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42081"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/42078"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/maryan-2013.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:00.631Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/maryan-2013-movie/",
+   "fetchedAt": "2026-11-27T13:42:51.811Z",
+   "sourceTitle": "Maryan (2013)",
+   "sourceYear": 2013,
+   "directors": [
+    "Ganapathy Bharat"
+   ],
+   "cast": [
+    "Dhanush",
+    "Parvathy",
+    "Imman Annachi"
+   ]
+  }
+ },
+ {
+  "id": "meow-2016",
+  "title": "Meow",
+  "year": 2016,
+  "pageUrl": "https://moviesda34.com/meow-tamil-movie-moviesda/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/32350"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/32340"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/32351"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/32342"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:16.627Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meow-tamil-movie-moviesda/",
+   "fetchedAt": "2026-11-27T13:43:02.436Z",
+   "sourceTitle": "Meow (2016) Tamil DVDScr Tamil Movie",
+   "sourceYear": 2016,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "meimaranthen-parayo-2015",
+  "title": "Meimaranthen Parayo",
+  "year": 2015,
+  "pageUrl": "https://moviesda34.com/meimaranthen-parayo-2015-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/13827"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/13822"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/13826"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/13825"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:28.681Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/meimaranthen-parayo-2015-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:43:18.499Z",
+   "sourceTitle": "Meimaranthen Parayo (2015) DVDRip Tamil Movie",
+   "sourceYear": 2015,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "naan-solvathellaam-unmai-2024",
+  "title": "Naan Solvathellaam Unmai",
+  "year": 2024,
+  "pageUrl": "https://moviesda34.com/naan-solvathellaam-unmai-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/83457"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/83456"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:42.299Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/naan-solvathellaam-unmai-2024-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:43:39.945Z",
+   "sourceTitle": "Naan Solvathellaam Unmai (2024) Tamil Movie",
+   "sourceYear": 2024,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "neeya-naana-2024",
+  "title": "Neeya Naana",
+  "year": 2024,
+  "pageUrl": "https://moviesda34.com/neeya-naana-2024-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/82640"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/82639"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/neeya-naana-2024.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:48.647Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/neeya-naana-2024-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:43:44.145Z",
+   "sourceTitle": "Neeya Naana (2024)",
+   "sourceYear": 2024,
+   "directors": [
+    "Various Artists"
+   ],
+   "cast": [
+    "Gopinath"
+   ]
+  }
+ },
+ {
+  "id": "nenu-meeku-baaga-kavalsinavaadini-2022",
+  "title": "Nenu Meeku Baaga Kavalsinavaadini",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/nenu-meeku-baaga-kavalsinavaadini-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/76739"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/nenu-meeku-baaga-kavalsinavaadini-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:43:54.646Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nenu-meeku-baaga-kavalsinavaadini-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:43:50.432Z",
+   "sourceTitle": "Nenu Meeku Baaga Kavalsinavaadini (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Sridhar Gade"
+   ],
+   "cast": [
+    "Kiran Abbavaram",
+    "Sanjana Anand",
+    "Sonu Thakur"
+   ]
+  }
+ },
+ {
+  "id": "not-reachable-2022",
+  "title": "Not Reachable",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/not-reachable-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/75854"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/not-reachable-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:00.719Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/not-reachable-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:43:56.532Z",
+   "sourceTitle": "Not Reachable (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Chandru Muruganantham"
+   ],
+   "cast": [
+    "Vishwa",
+    "Sai Dhanyaa",
+    "Vijayan"
+   ]
+  }
+ },
+ {
+  "id": "nenjuku-needhi-2022",
+  "title": "Nenjuku Needhi",
+  "year": 2022,
+  "pageUrl": "https://moviesda34.com/nenjuku-needhi-2022-tamil-movie/",
+  "embeds": [
+   {
+    "quality": "720p",
+    "url": "https://play.onestream.today/stream/page/74483"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/nenjuku-needhi-2022.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:09.300Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nenjuku-needhi-2022-tamil-movie/",
+   "fetchedAt": "2026-11-27T13:44:02.613Z",
+   "sourceTitle": "Nenjuku Needhi (2022)",
+   "sourceYear": 2022,
+   "directors": [
+    "Arunraja Kamaraj"
+   ],
+   "cast": [
+    "Udhayanidhi Stalin",
+    "Shivathmika Rajashekar",
+    "Saravanan"
+   ]
+  }
+ },
+ {
+  "id": "naruvi-2021",
+  "title": "Naruvi",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/naruvi-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70527"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70525"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:21.751Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/naruvi-2021-movie/",
+   "fetchedAt": "2026-11-27T13:44:11.153Z",
+   "sourceTitle": "Naruvi (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "nagavalli-2021",
+  "title": "Nagavalli",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/nagavalli-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70435"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70432"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:34.022Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nagavalli-2021-movie/",
+   "fetchedAt": "2026-11-27T13:44:23.614Z",
+   "sourceTitle": "Nagavalli (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "naduvan-2021",
+  "title": "Naduvan",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/naduvan-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70158"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70160"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/naduvan-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:46.612Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/naduvan-2021-movie/",
+   "fetchedAt": "2026-11-27T13:44:35.868Z",
+   "sourceTitle": "Naduvan (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Sharran Kumar"
+   ],
+   "cast": [
+    "Bharath SrinivasanGokul AnandAparna Vinod"
+   ]
+  }
+ },
+ {
+  "id": "net-2021",
+  "title": "NET",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/net-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/70083"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/70085"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:44:59.091Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/net-2021-movie/",
+   "fetchedAt": "2026-11-27T13:44:48.422Z",
+   "sourceTitle": "NET (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "netrikann-2021",
+  "title": "Netrikann",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/netrikann-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/69757"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/69760"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/netrikann-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:45:11.730Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/netrikann-2021-movie/",
+   "fetchedAt": "2026-11-27T13:45:00.947Z",
+   "sourceTitle": "Netrikann (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Milind Rau"
+   ],
+   "cast": [
+    "Nayanthara",
+    "Lizzie Antony",
+    "Manikandan"
+   ]
+  }
+ },
+ {
+  "id": "nanthan-raja-2021",
+  "title": "Nanthan Raja",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/nanthan-raja-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68393"
+   },
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68391"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:45:43.110Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nanthan-raja-2021-movie/",
+   "fetchedAt": "2026-11-27T13:45:32.308Z",
+   "sourceTitle": "Nanthan Raja (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "nayae-peyae-2021",
+  "title": "Nayae Peyae",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/nayae-peyae-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/68736"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/68738"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/nayae-peyae-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:45:55.528Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nayae-peyae-2021-movie/",
+   "fetchedAt": "2026-11-27T13:45:44.964Z",
+   "sourceTitle": "Nayae Peyae (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "Sakthi Vasan"
+   ],
+   "cast": [
+    "Dinesh"
+   ]
+  }
+ },
+ {
+  "id": "namma-oorukku-ennathan-aachu-2021",
+  "title": "Namma Oorukku Ennathan Aachu",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/namma-oorukku-ennathan-aachu-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67710"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67709"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:46:08.355Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/namma-oorukku-ennathan-aachu-2021-movie/",
+   "fetchedAt": "2026-11-27T13:45:57.379Z",
+   "sourceTitle": "Namma Oorukku Ennathan Aachu (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "nenjam-marappathillai-2021",
+  "title": "Nenjam Marappathillai",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/nenjam-marappathillai-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67770"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67772"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/nenjam-marappathillai-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:46:20.605Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nenjam-marappathillai-2021-movie/",
+   "fetchedAt": "2026-11-27T13:46:10.179Z",
+   "sourceTitle": "Nenjam Marappathillai (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "K. Selvaraghavan"
+   ],
+   "cast": [
+    "S.J. Suryah",
+    "Regina Cassandra",
+    "Nandita Shwetha"
+   ]
+  }
+ },
+ {
+  "id": "navarasa-nayagan-2021",
+  "title": "Navarasa Nayagan",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/navarasa-nayagan-2021-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/67441"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67443"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:46:37.302Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/navarasa-nayagan-2021-movie/",
+   "fetchedAt": "2026-11-27T13:46:22.469Z",
+   "sourceTitle": "Navarasa Nayagan (2021) Tamil Movie",
+   "sourceYear": 2021,
+   "directors": [],
+   "cast": []
+  }
+ },
+ {
+  "id": "naanum-single-thaan-2021",
+  "title": "Naanum Single Thaan",
+  "year": 2021,
+  "pageUrl": "https://moviesda34.com/naanum-single-thaan-2021-movie/",
+  "embeds": [
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67525"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/67527"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/naanum-single-thaan-2021.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:46:50.209Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/naanum-single-thaan-2021-movie/",
+   "fetchedAt": "2026-11-27T13:46:39.168Z",
+   "sourceTitle": "Naanum Single Thaan (2021)",
+   "sourceYear": 2021,
+   "directors": [
+    "R. Gopi"
+   ],
+   "cast": [
+    "Dinesh",
+    "Deepti Sati",
+    "Motta Rajendran",
+    "Manobala"
+   ]
+  }
+ },
+ {
+  "id": "nedunchalai-2014",
+  "title": "Nedunchalai",
+  "year": 2014,
+  "pageUrl": "https://moviesda34.com/nedunchalai-2014-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66452"
+   }
+  ],
+  "poster": "https://moviesda.ski/uploads/posters/nedunchalai-2014.jpg",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:47:02.792Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nedunchalai-2014-movie/",
+   "fetchedAt": "2026-11-27T13:46:52.120Z",
+   "sourceTitle": "Nedunchalai (2014)",
+   "sourceYear": 2014,
+   "directors": [
+    "Krishna"
+   ],
+   "cast": [
+    "Aari",
+    "Swetha Nair",
+    "Thambi Ramayya",
+    "Prashant Narayanan"
+   ]
+  }
+ },
+ {
+  "id": "nithyananda-2020",
+  "title": "Nithyananda",
+  "year": 2020,
+  "pageUrl": "https://moviesda34.com/nithyananda-2020-movie/",
+  "embeds": [
+   {
+    "quality": "360p",
+    "url": "https://play.onestream.today/stream/page/66293"
+   },
+   {
+    "quality": "HD",
+    "url": "https://play.onestream.today/stream/page/66295"
+   }
+  ],
+  "poster": "",
+  "rating": 0,
+  "tmdbId": 0,
+  "imdbId": "",
+  "addedAt": "2026-11-27T13:47:16.030Z",
+  "sourceMetadata": {
+   "available": true,
+   "sourceUrl": "https://moviesda34.com/nithyananda-2020-movie/",
+   "fetchedAt": "2026-11-27T13:47:04.690Z",
+   "sourceTitle": "Nithyananda (2020) Tamil Movie",
+   "sourceYear": 2020,
+   "directors": [],
+   "cast": []
   }
  }
 ]
