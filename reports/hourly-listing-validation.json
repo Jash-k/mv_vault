@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only validation of one discovery page; no title pages walked or feed data changed",
+  "listingUrl": "https://moviesda36.com/moviesda-tamil-movies-2026/",
+  "entries": 20,
+  "knownByPath": 15,
+  "seriesHints": 3,
+  "sample": [
+    {
+      "title": "Enemy of the Smuggler",
+      "year": 2026,
+      "kind": "movie",
+      "path": "/enemy-of-the-smuggler-2026-tamil-movie/"
+    },
+    {
+      "title": "Aadarsha Kutumbam",
+      "year": 2026,
+      "kind": "movie",
+      "path": "/aadarsha-kutumbam-2026-tamil-movie/"
+    },
+    {
+      "title": "Octopus",
+      "year": 2026,
+      "kind": "series",
+      "path": "/octopus-2026-tamil-web-series/"
+    },
+    {
+      "title": "Garividi Lakshmi",
+      "year": 2026,
+      "kind": "movie",
+      "path": "/garividi-lakshmi-2026-tamil-movie/"
+    }
+  ]
+}

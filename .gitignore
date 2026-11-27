@@ -8,3 +8,5 @@ node_modules/
 data/.historic.lock
 .env*
 *.private.env
+
+data/.hourly.lock

@@ -11,7 +11,8 @@
     "enrich": "node src/run.mjs --mode=enrich",
     "dubbed": "node src/run.mjs --mode=dubbed",
     "test": "node --test",
-    "historic": "node src/historic.mjs"
+    "historic": "node src/historic.mjs",
+    "hourly": "node src/hourly.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0"

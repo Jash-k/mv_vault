@@ -1,0 +1,82 @@
+name: Hourly new entries (single MoviesDa page)
+
+on:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_dispatch:
+    inputs:
+      listing_url:
+        description: 'Optional HTTPS /moviesda-tamil-movies-YYYY/ root; no query/pagination. Default: moviesda36 current UTC year.'
+        default: ''
+      budget_min:
+        description: 'Crawl budget in minutes (positive, maximum 15)'
+        default: '10'
+      max_items:
+        description: 'Maximum title walks, including retained retries (1–100)'
+        default: '30'
+      publish:
+        description: 'Commit and push changed data'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Same mutex as releases, archive, dubbed, enrichment and historical writers.
+concurrency:
+  group: vault-writer-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  hourly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - name: Read one listing and recover new titles
+        id: crawl
+        # Publish durable partial progress/queue, then report failure below.
+        continue-on-error: true
+        env:
+          LISTING: ${{ inputs.listing_url || vars.HOURLY_LISTING_URL }}
+          BUDGET: ${{ inputs.budget_min || '10' }}
+          MAX_ITEMS: ${{ inputs.max_items || '30' }}
+        run: |
+          ARGS=("--budget-min=$BUDGET" "--max-items=$MAX_ITEMS")
+          [ -n "$LISTING" ] && ARGS+=("--listing-url=$LISTING")
+          node src/hourly.mjs "${ARGS[@]}"
+      - name: Publish updated catalogue and pending retries
+        if: ${{ !cancelled() && steps.crawl.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.publish != false) }}
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'mv-vault'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Hourly new entries and durable retry checkpoint'
+            git push origin "HEAD:refs/heads/$BRANCH"
+          else
+            echo 'No data changes to publish.'
+          fi
+      - name: Hourly diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hourly-new-entries-${{ github.run_id }}
+          path: reports/hourly-latest.json
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Report discovery failure
+        if: ${{ steps.crawl.outcome == 'failure' }}
+        run: |
+          echo 'Hourly discovery failed; any confirmed partial progress and retry checkpoint were preserved. Inspect the crawl log.'
+          exit 1

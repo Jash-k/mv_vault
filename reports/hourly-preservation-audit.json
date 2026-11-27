@@ -1,0 +1,10 @@
+{
+  "before": 7517,
+  "after": 7522,
+  "added": 5,
+  "unchangedExistingRecords": 7517,
+  "originalEmbedCount": 22298,
+  "currentEmbedCount": 22331,
+  "flatNestedIntegrity": "passed",
+  "catalogueSha256": "603111fb10e9e1d92991bf7eeed6ea3dec609b5776b7d372c9d6c1a1bfcd5c86"
+}

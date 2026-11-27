@@ -1,3 +1,7 @@
+## Hourly single-page new entries
+
+New: an hourly workflow now discovers only the first MoviesDa year-listing page, adds unknown titles, and retains failed entries for retry. See [HOURLY-WORKFLOW.md](HOURLY-WORKFLOW.md) for setup, scheduling, validation and live-feed configuration. The included catalogue now has **7,522 records / 22,331 embeds** after a five-title live validation run. Earlier recovery reports describe their historical snapshots; the latest audit is `reports/hourly-preservation-audit.json`.
+
 # mv_vault
 
 Four flows. One run each. Nothing else.
