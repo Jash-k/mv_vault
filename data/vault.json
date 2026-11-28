@@ -8821,7 +8821,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:56:49.859Z"
+   "checkedAt": "2026-11-28T12:22:12.766Z"
   }
  },
  {
@@ -15960,7 +15960,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:56:52.276Z"
+   "checkedAt": "2026-11-28T12:22:12.766Z"
   }
  },
  {
@@ -24365,7 +24365,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:52:57.576Z"
+   "checkedAt": "2026-11-28T12:22:08.274Z"
   }
  },
  {
@@ -43534,7 +43534,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:52:57.576Z"
+   "checkedAt": "2026-11-28T12:22:08.274Z"
   }
  },
  {
@@ -59877,7 +59877,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:52:57.576Z"
+   "checkedAt": "2026-11-28T12:22:08.274Z"
   }
  },
  {
@@ -79966,7 +79966,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:53:00.613Z"
+   "checkedAt": "2026-11-28T12:22:08.274Z"
   },
   "sourceOrder": {
    "year": 2026,
@@ -135472,7 +135472,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:25.785Z"
+   "checkedAt": "2026-11-28T12:22:33.371Z"
   }
  },
  {
@@ -137110,7 +137110,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:37.711Z"
+   "checkedAt": "2026-11-28T12:22:48.961Z"
   }
  },
  {
@@ -137288,7 +137288,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:37.711Z"
+   "checkedAt": "2026-11-28T12:22:57.906Z"
   }
  },
  {
@@ -140204,7 +140204,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:55.785Z"
+   "checkedAt": "2026-11-28T12:23:10.779Z"
   }
  },
  {
@@ -148476,7 +148476,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.108Z"
+   "checkedAt": "2026-11-28T12:23:26.462Z"
   }
  },
  {
@@ -150055,7 +150055,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:58:08.108Z"
+   "checkedAt": "2026-11-28T12:23:33.974Z"
   }
  },
  {
@@ -152184,7 +152184,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.425Z"
+   "checkedAt": "2026-11-28T12:23:44.806Z"
   }
  },
  {
@@ -170662,7 +170662,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:25.931Z"
+   "checkedAt": "2026-11-28T12:23:56.961Z"
   }
  },
  {
@@ -171920,7 +171920,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:33.465Z"
+   "checkedAt": "2026-11-28T12:24:05.648Z"
   }
  },
  {
@@ -177998,7 +177998,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:33.465Z"
+   "checkedAt": "2026-11-28T12:24:05.648Z"
   }
  },
  {
@@ -179365,7 +179365,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:39.629Z"
+   "checkedAt": "2026-11-28T12:24:20.476Z"
   }
  },
  {
@@ -180845,7 +180845,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:46.832Z"
+   "checkedAt": "2026-11-28T12:24:20.476Z"
   }
  },
  {
@@ -183004,7 +183004,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:58.262Z"
+   "checkedAt": "2026-11-28T12:24:33.349Z"
   }
  },
  {
@@ -185431,7 +185431,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:58.262Z"
+   "checkedAt": "2026-11-28T12:24:33.349Z"
   }
  },
  {
@@ -185676,7 +185676,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:58.262Z"
+   "checkedAt": "2026-11-28T12:24:42.573Z"
   }
  },
  {
@@ -191857,7 +191857,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:10.490Z"
+   "checkedAt": "2026-11-28T12:22:22.849Z"
   }
  },
  {
@@ -192702,7 +192702,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:16.618Z"
+   "checkedAt": "2026-11-28T12:22:22.849Z"
   }
  },
  {
@@ -197118,7 +197118,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:37.711Z"
+   "checkedAt": "2026-11-28T12:22:48.961Z"
   }
  },
  {
@@ -197660,7 +197660,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:41.068Z"
+   "checkedAt": "2026-11-28T12:22:57.907Z"
   }
  },
  {
@@ -199161,7 +199161,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:41.069Z"
+   "checkedAt": "2026-11-28T12:22:57.907Z"
   }
  },
  {
@@ -199189,7 +199189,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:41.069Z"
+   "checkedAt": "2026-11-28T12:23:10.779Z"
   }
  },
  {
@@ -199292,7 +199292,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:57:55.785Z"
+   "checkedAt": "2026-11-28T12:23:10.779Z"
   }
  },
  {
@@ -206206,7 +206206,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.108Z"
+   "checkedAt": "2026-11-28T12:23:26.462Z"
   }
  },
  {
@@ -208365,7 +208365,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.425Z"
+   "checkedAt": "2026-11-28T12:23:33.974Z"
   }
  },
  {
@@ -208903,7 +208903,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.425Z"
+   "checkedAt": "2026-11-28T12:23:33.974Z"
   }
  },
  {
@@ -213782,7 +213782,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:58:19.547Z"
+   "checkedAt": "2026-11-28T12:23:44.806Z"
   }
  },
  {
@@ -220433,7 +220433,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:39.629Z"
+   "checkedAt": "2026-11-28T12:24:12.225Z"
   }
  },
  {
@@ -221081,7 +221081,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:39.629Z"
+   "checkedAt": "2026-11-28T12:24:12.225Z"
   }
  },
  {
@@ -222225,7 +222225,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:58:46.832Z"
+   "checkedAt": "2026-11-28T12:24:20.476Z"
   }
  },
  {
@@ -222748,7 +222748,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:46.832Z"
+   "checkedAt": "2026-11-28T12:24:20.476Z"
   }
  },
  {
@@ -224223,7 +224223,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:46.832Z"
+   "checkedAt": "2026-11-28T12:24:33.349Z"
   }
  },
  {
@@ -231084,7 +231084,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:59:07.411Z"
+   "checkedAt": "2026-11-28T12:24:45.415Z"
   }
  },
  {
@@ -231798,7 +231798,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:10.490Z"
+   "checkedAt": "2026-11-28T12:22:22.849Z"
   }
  },
  {
@@ -236332,7 +236332,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:25.785Z"
+   "checkedAt": "2026-11-28T12:22:33.371Z"
   }
  },
  {
@@ -236432,7 +236432,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:57:25.785Z"
+   "checkedAt": "2026-11-28T12:22:48.961Z"
   }
  },
  {
@@ -240557,7 +240557,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:57:55.785Z"
+   "checkedAt": "2026-11-28T12:23:10.779Z"
   }
  },
  {
@@ -241344,7 +241344,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-27T09:52:49.268Z"
+   "checkedAt": "2026-11-28T12:21:58.986Z"
   }
  },
  {
@@ -243308,7 +243308,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:57.502Z"
+   "checkedAt": "2026-11-28T12:23:19.468Z"
   }
  },
  {
@@ -246938,7 +246938,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:58:08.108Z"
+   "checkedAt": "2026-11-28T12:23:26.462Z"
   }
  },
  {
@@ -250303,7 +250303,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:08.425Z"
+   "checkedAt": "2026-11-28T12:23:33.974Z"
   }
  },
  {
@@ -252581,7 +252581,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:19.547Z"
+   "checkedAt": "2026-11-28T12:23:44.806Z"
   }
  },
  {
@@ -254820,7 +254820,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:25.931Z"
+   "checkedAt": "2026-11-28T12:23:56.961Z"
   }
  },
  {
@@ -254856,7 +254856,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:58:25.931Z"
+   "checkedAt": "2026-11-28T12:24:05.648Z"
   }
  },
  {
@@ -268005,7 +268005,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:59:07.171Z"
+   "checkedAt": "2026-11-28T12:24:42.573Z"
   }
  },
  {
@@ -272276,7 +272276,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:10.490Z"
+   "checkedAt": "2026-11-28T12:22:22.849Z"
   }
  },
  {
@@ -275005,7 +275005,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:25.785Z"
+   "checkedAt": "2026-11-28T12:22:33.371Z"
   }
  },
  {
@@ -276624,7 +276624,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-27T09:56:49.859Z"
+   "checkedAt": "2026-11-28T12:22:12.766Z"
   }
  },
  {
@@ -278175,7 +278175,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:41.068Z"
+   "checkedAt": "2026-11-28T12:22:57.907Z"
   }
  },
  {
@@ -283043,7 +283043,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:57:55.785Z"
+   "checkedAt": "2026-11-28T12:23:19.468Z"
   }
  },
  {
@@ -283898,7 +283898,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:57.502Z"
+   "checkedAt": "2026-11-28T12:23:19.468Z"
   }
  },
  {
@@ -285581,7 +285581,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "candidate-scope-truncated",
-   "checkedAt": "2026-11-27T09:57:57.502Z"
+   "checkedAt": "2026-11-28T12:23:19.468Z"
   }
  },
  {
@@ -285689,7 +285689,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:57:57.502Z"
+   "checkedAt": "2026-11-28T12:23:26.462Z"
   }
  },
  {
@@ -289989,7 +289989,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:19.547Z"
+   "checkedAt": "2026-11-28T12:23:44.806Z"
   }
  },
  {
@@ -292452,7 +292452,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:19.548Z"
+   "checkedAt": "2026-11-28T12:23:56.961Z"
   }
  },
  {
@@ -292852,7 +292852,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:25.931Z"
+   "checkedAt": "2026-11-28T12:23:56.961Z"
   }
  },
  {
@@ -294109,7 +294109,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:33.465Z"
+   "checkedAt": "2026-11-28T12:24:05.648Z"
   }
  },
  {
@@ -299711,7 +299711,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:33.465Z"
+   "checkedAt": "2026-11-28T12:24:12.225Z"
   }
  },
  {
@@ -301046,7 +301046,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:58:39.629Z"
+   "checkedAt": "2026-11-28T12:24:12.225Z"
   }
  },
  {
@@ -303785,7 +303785,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:58:58.262Z"
+   "checkedAt": "2026-11-28T12:24:33.349Z"
   }
  },
  {
@@ -308053,7 +308053,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:59:07.171Z"
+   "checkedAt": "2026-11-28T12:24:42.573Z"
   }
  },
  {
@@ -308881,7 +308881,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:59:07.171Z"
+   "checkedAt": "2026-11-28T12:24:42.573Z"
   }
  },
  {
@@ -309573,7 +309573,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-27T09:59:07.171Z"
+   "checkedAt": "2026-11-28T12:24:45.415Z"
   }
  },
  {
@@ -311259,7 +311259,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-27T09:52:49.268Z"
+   "checkedAt": "2026-11-28T12:21:58.986Z"
   }
  },
  {
@@ -316644,7 +316644,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:52:49.268Z"
+   "checkedAt": "2026-11-28T12:21:58.986Z"
   },
   "sourceOrder": {
    "year": 2026,
@@ -326514,7 +326514,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-28T03:47:31.479Z"
+   "checkedAt": "2026-11-28T12:24:49.702Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -327703,7 +327703,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-28T03:47:28.555Z"
+   "checkedAt": "2026-11-28T12:24:49.702Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -329477,7 +329477,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:28.555Z"
+   "checkedAt": "2026-11-28T12:24:49.702Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -332251,7 +332251,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-28T03:47:25.654Z"
+   "checkedAt": "2026-11-28T12:24:49.702Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -333355,7 +333355,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:20.720Z"
+   "checkedAt": "2026-11-28T12:24:46.346Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -337450,7 +337450,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:15.676Z"
+   "checkedAt": "2026-11-28T12:24:46.346Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -338152,7 +338152,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:14.839Z"
+   "checkedAt": "2026-11-28T12:24:46.346Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -341864,7 +341864,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:03.677Z"
+   "checkedAt": "2026-11-28T12:24:46.346Z"
   },
   "sourceMetadata": {
    "available": true,
@@ -342412,7 +342412,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "tmdb-request-budget",
-   "checkedAt": "2026-11-27T09:57:37.710Z"
+   "checkedAt": "2026-11-28T12:22:48.961Z"
   },
   "sourceOrder": {
    "year": 2026,
@@ -343222,7 +343222,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "scoped-search-needs-review",
-   "checkedAt": "2026-11-27T09:51:46.358Z"
+   "checkedAt": "2026-11-28T12:21:58.986Z"
   }
  },
  {
@@ -344832,7 +344832,7 @@
   "metadataVerification": {
    "status": "unavailable",
    "reason": "source-credits-conflict",
-   "checkedAt": "2026-11-27T09:57:16.618Z"
+   "checkedAt": "2026-11-28T12:22:33.370Z"
   }
  },
  {
@@ -346070,7 +346070,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-27T09:56:49.858Z"
+   "checkedAt": "2026-11-28T12:22:12.766Z"
   }
  },
  {
@@ -389024,7 +389024,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-corroborated-match",
-   "checkedAt": "2026-11-28T03:47:03.677Z"
+   "checkedAt": "2026-11-28T12:24:45.415Z"
   },
   "sourceOrder": {
    "year": 2026,
@@ -389087,7 +389087,7 @@
   "metadataVerification": {
    "status": "unresolved",
    "reason": "no-title-year-match",
-   "checkedAt": "2026-11-28T03:47:03.677Z"
+   "checkedAt": "2026-11-28T12:24:45.415Z"
   }
  },
  {
