@@ -1,0 +1,37 @@
+name: Sync complete MoviesDa listing order
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: vault-writer-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  order:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - name: Scan complete active-year listing
+        env:
+          HOURLY_LISTING_URL: ${{ vars.HOURLY_LISTING_URL }}
+        run: node src/order-sync.mjs
+      - name: Publish source ranking
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'mv-vault'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Sync complete MoviesDa source order'
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi

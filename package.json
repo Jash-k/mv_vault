@@ -12,7 +12,8 @@
     "dubbed": "node src/run.mjs --mode=dubbed",
     "test": "node --test",
     "historic": "node src/historic.mjs",
-    "hourly": "node src/hourly.mjs"
+    "hourly": "node src/hourly.mjs",
+    "order-sync": "node src/order-sync.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0"

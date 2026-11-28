@@ -8,7 +8,7 @@ const safeError = error => String(error?.message || error).slice(0,240);
 /** Single discovery page, unknown title walks only. Dependencies injected for offline tests. */
 export async function runHourly({ vault, state, queue, listingUrl=defaultHourlyListing(), deadline=Date.now()+10*60_000,
   maxItems=30, active=()=>true, fetchPage=getHtml, parse=parseListing, walk=walkItem,
-  persist=async()=>{}, log=()=>{}, now=()=>Date.now() }) {
+  onListing=async()=>{}, persist=async()=>{}, log=()=>{}, now=()=>Date.now() }) {
   if(!Array.isArray(vault)||!vault.length)throw Error('A nonempty existing vault is required; hourly must not initialize/replace the catalogue.');
   const listing=new URL(listingUrl);
   if(listing.protocol!=='https:' || listing.search || listing.hash || !/^\/moviesda-tamil-movies-\d{4}\/$/.test(listing.pathname))throw Error('Use the HTTPS year listing root without pagination/query/hash.');
@@ -23,6 +23,7 @@ export async function runHourly({ vault, state, queue, listingUrl=defaultHourlyL
     const rows=parse(html,listing.href,{base:listing.origin});
     if(!rows.length)throw Error('No title entries found; source may be unavailable or markup changed.');
     summary.discovered=rows.length;
+    await onListing(rows);
     for(const row of rows){
       const identity=V.titleFor(row);if(!identity)continue;
       const item={...row,...identity,path:V.pathOf(row.url),url:new URL(V.pathOf(row.url),listing.origin).href};

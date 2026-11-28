@@ -10,3 +10,6 @@ data/.historic.lock
 *.private.env
 
 data/.hourly.lock
+
+# Ephemeral source-order writer lock
+data/.order.lock
